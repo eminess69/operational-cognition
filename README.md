@@ -12,6 +12,8 @@ Modern AI engineering systems increasingly struggle with long-horizon continuity
 
 Operational Cognition exists to make that public layer explicit.
 
+See: [docs/OPERATIONAL_COGNITION_THESIS.md](docs/OPERATIONAL_COGNITION_THESIS.md)
+
 ## What this repo publishes
 
 - public proof packs
@@ -48,6 +50,8 @@ Planning scaffold only. Not yet complete.
 
 ## Current status
 
+Proofs 003 and 004 contain initial evidence-backed analyses. Proofs 001, 002, 005, and 006 remain planning or evidence-collection scaffolds.
+
 The local Inside Voice MCP bridge is active and reports contract version `inside_voice.mcp.consultation.v1`, but the current adapter status is `placeholder`.
 
-This means the repository currently contains framework scaffolding and proof planning artifacts only. It does not claim deep substrate cognition, completed investigation results, model interpretability breakthroughs, AGI capability, consciousness, or access to private cognition internals.
+This repository does not claim deep substrate cognition, model interpretability breakthroughs, AGI capability, consciousness, or access to private cognition internals.
