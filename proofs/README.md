@@ -8,6 +8,7 @@ Each proof pack is a bounded investigation scaffold or evidence-backed analysis 
 
 - `001-agent-continuity-audit`: Replayable Continuity Audit of Long-Horizon Agent Failure
 - `002-replayability-gap-audit`: Replayability Gap Audit for Long-Horizon Agent Systems
+- `003-continuity-compression-audit`: Continuity Compression Audit for Long-Horizon Agent Systems
 
 ## Status Language
 

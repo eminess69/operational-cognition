@@ -15,7 +15,8 @@ from tools import validate_evidence_manifest as validator  # noqa: E402
 
 MANIFEST_PATH = ROOT / "proofs" / "001-agent-continuity-audit" / "evidence_manifest.json"
 PROOF_002_MANIFEST_PATH = ROOT / "proofs" / "002-replayability-gap-audit" / "evidence_manifest.json"
-MANIFEST_PATHS = [MANIFEST_PATH, PROOF_002_MANIFEST_PATH]
+PROOF_003_MANIFEST_PATH = ROOT / "proofs" / "003-continuity-compression-audit" / "evidence_manifest.json"
+MANIFEST_PATHS = [MANIFEST_PATH, PROOF_002_MANIFEST_PATH, PROOF_003_MANIFEST_PATH]
 
 
 def load_manifest() -> dict:
