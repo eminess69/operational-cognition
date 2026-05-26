@@ -1,0 +1,241 @@
+{
+  "proof_id": "007-cross-proof-convergence",
+  "analysis_id": "cross_proof_convergence_analysis",
+  "motifs": [
+    {
+      "motif_id": "M-001",
+      "name": "survivable lineage",
+      "appears_in_proofs": [
+        "001-agent-continuity-audit",
+        "002-replayability-gap-audit",
+        "003-continuity-compression-audit",
+        "004-operational-failure-reconstruction",
+        "005-contradiction-survivability-audit",
+        "006-memory-authority-survivability-audit"
+      ],
+      "supporting_artifacts": [
+        "proofs/001-agent-continuity-audit/replayability_plan.md",
+        "proofs/002-replayability-gap-audit/replay_dimension_model.md",
+        "proofs/003-continuity-compression-audit/analysis_v0_1.md",
+        "proofs/004-operational-failure-reconstruction/analysis_v0_1.md",
+        "proofs/005-contradiction-survivability-audit/mitigation_doctrine.md",
+        "proofs/006-memory-authority-survivability-audit/mitigation_doctrine.md"
+      ],
+      "claim_level": "inferred",
+      "explanation": "Across the corpus, replay, compression, reconstruction, contradiction, and memory authority questions converge on whether source, event, memory, tool, environment, recovery, contradiction, authority, temporal, and provenance links survive later transformations.",
+      "unresolved_limits": "The corpus has not yet validated a complete lineage bundle against a public replay fixture."
+    },
+    {
+      "motif_id": "M-002",
+      "name": "omitted-range recoverability",
+      "appears_in_proofs": [
+        "002-replayability-gap-audit",
+        "003-continuity-compression-audit",
+        "004-operational-failure-reconstruction",
+        "005-contradiction-survivability-audit",
+        "006-memory-authority-survivability-audit"
+      ],
+      "supporting_artifacts": [
+        "proofs/002-replayability-gap-audit/replay_gap_taxonomy.md",
+        "proofs/003-continuity-compression-audit/compression_dimension_model.md",
+        "proofs/003-continuity-compression-audit/unresolved_questions.md",
+        "proofs/004-operational-failure-reconstruction/reconstruction_gap_taxonomy.md",
+        "proofs/005-contradiction-dimension-model.md",
+        "proofs/006-memory-authority-survivability-audit/belief_replayability_matrix.md"
+      ],
+      "claim_level": "inferred",
+      "explanation": "Compression, condensation, redaction, truncation, and summarization recur as places where omitted ranges need stable IDs, hashes, source refs, and summary refs for replay adequacy.",
+      "unresolved_limits": "The public corpus has not shown a fixture proving that all omitted ranges can be followed back to source events and raw ranges."
+    },
+    {
+      "motif_id": "M-003",
+      "name": "source authority preservation",
+      "appears_in_proofs": [
+        "004-operational-failure-reconstruction",
+        "005-contradiction-survivability-audit",
+        "006-memory-authority-survivability-audit"
+      ],
+      "supporting_artifacts": [
+        "proofs/004-operational-failure-reconstruction/claim_register.json",
+        "proofs/005-contradiction-dimension-model.md",
+        "proofs/005-contradiction-survivability-audit/contradiction_replayability_matrix.md",
+        "proofs/006-memory-authority-survivability-audit/memory_authority_dimension_model.md",
+        "proofs/006-memory-authority-survivability-audit/belief_replayability_matrix.md"
+      ],
+      "claim_level": "inferred",
+      "explanation": "The corpus repeatedly distinguishes user instructions, tool observations, documentation facts, assistant inferences, memory recalls, and summary-derived claims as authority classes that must not collapse into undifferentiated narrative.",
+      "unresolved_limits": "Proof 006 is still an evidence-collection scaffold and does not establish target-specific authority-preservation guarantees."
+    },
+    {
+      "motif_id": "M-004",
+      "name": "temporal validity",
+      "appears_in_proofs": [
+        "002-replayability-gap-audit",
+        "003-continuity-compression-audit",
+        "004-operational-failure-reconstruction",
+        "005-contradiction-survivability-audit",
+        "006-memory-authority-survivability-audit"
+      ],
+      "supporting_artifacts": [
+        "proofs/002-replayability-gap-audit/replay_dimension_model.md",
+        "proofs/003-continuity-compression-audit/claim_register.json",
+        "proofs/004-operational-failure-reconstruction/claim_register.json",
+        "proofs/005-contradiction-dimension-model.md",
+        "proofs/006-memory-authority-survivability-audit/memory_authority_dimension_model.md"
+      ],
+      "claim_level": "inferred",
+      "explanation": "Ordering, timestamps, before/after boundaries, validity windows, and supersession points recur as necessary to distinguish current operational truth from historical context.",
+      "unresolved_limits": "Fine-grained ordering inside omitted or summarized ranges remains unresolved."
+    },
+    {
+      "motif_id": "M-005",
+      "name": "contradiction retention",
+      "appears_in_proofs": [
+        "003-continuity-compression-audit",
+        "004-operational-failure-reconstruction",
+        "005-contradiction-survivability-audit",
+        "006-memory-authority-survivability-audit"
+      ],
+      "supporting_artifacts": [
+        "proofs/003-continuity-compression-audit/claim_register.json",
+        "proofs/004-operational-failure-reconstruction/claim_register.json",
+        "proofs/005-contradiction-dimension-model.md",
+        "proofs/005-contradiction-survivability-audit/contradiction_replayability_matrix.md",
+        "proofs/006-memory-authority-survivability-audit/memory_authority_dimension_model.md"
+      ],
+      "claim_level": "unresolved",
+      "explanation": "Contradiction retention recurs as a requirement because summaries, replay views, and memory can preserve coherent utility while dropping conflicts, caveats, rejected alternatives, or uncertainty markers.",
+      "unresolved_limits": "The public corpus does not establish contradiction-preserving replay or compression guarantees."
+    },
+    {
+      "motif_id": "M-006",
+      "name": "memory supersession",
+      "appears_in_proofs": [
+        "001-agent-continuity-audit",
+        "002-replayability-gap-audit",
+        "003-continuity-compression-audit",
+        "004-operational-failure-reconstruction",
+        "006-memory-authority-survivability-audit"
+      ],
+      "supporting_artifacts": [
+        "proofs/001-agent-continuity-audit/continuity_signals.md",
+        "proofs/002-replayability-gap-audit/replay_dimension_model.md",
+        "proofs/003-continuity-compression-audit/compression_dimension_model.md",
+        "proofs/004-operational-failure-reconstruction/reconstruction_dimension_model.md",
+        "proofs/006-memory-authority-survivability-audit/authority_survivability_taxonomy.md",
+        "proofs/006-memory-authority-survivability-audit/belief_replayability_matrix.md"
+      ],
+      "claim_level": "unresolved",
+      "explanation": "Memory persistence and recall are repeatedly treated as incomplete unless older beliefs remain linked to later corrections, stale status, and current validity.",
+      "unresolved_limits": "The corpus has not validated artifact-level supersession refs across memory write, summary, recall, and recovery paths."
+    },
+    {
+      "motif_id": "M-007",
+      "name": "replay provenance",
+      "appears_in_proofs": [
+        "001-agent-continuity-audit",
+        "002-replayability-gap-audit",
+        "003-continuity-compression-audit",
+        "004-operational-failure-reconstruction",
+        "005-contradiction-survivability-audit",
+        "006-memory-authority-survivability-audit"
+      ],
+      "supporting_artifacts": [
+        "proofs/001-agent-continuity-audit/replayability_plan.md",
+        "proofs/002-replayability-gap-audit/replayability_matrix.md",
+        "proofs/003-continuity-compression-audit/analysis_v0_1.md",
+        "proofs/004-operational-failure-reconstruction/claim_register.json",
+        "proofs/005-contradiction-survivability-audit/contradiction_replayability_matrix.md",
+        "proofs/006-memory-authority-survivability-audit/belief_replayability_matrix.md"
+      ],
+      "claim_level": "inferred",
+      "explanation": "The corpus repeatedly requires capture boundaries, artifact identity, event IDs, source refs, hashes, redaction or omission markers, and replay-source integrity before treating replay as audit evidence.",
+      "unresolved_limits": "Provenance surfaces are visible in public artifacts, but complete provenance adequacy remains source-dependent."
+    },
+    {
+      "motif_id": "M-008",
+      "name": "environment reconstruction",
+      "appears_in_proofs": [
+        "001-agent-continuity-audit",
+        "002-replayability-gap-audit",
+        "003-continuity-compression-audit",
+        "004-operational-failure-reconstruction",
+        "006-memory-authority-survivability-audit"
+      ],
+      "supporting_artifacts": [
+        "proofs/001-agent-continuity-audit/continuity_signals.md",
+        "proofs/002-replayability-gap-audit/replay_dimension_model.md",
+        "proofs/003-continuity-compression-audit/claim_register.json",
+        "proofs/004-operational-failure-reconstruction/claim_register.json",
+        "proofs/006-memory-authority-survivability-audit/belief_replayability_matrix.md"
+      ],
+      "claim_level": "unresolved",
+      "explanation": "Workspace, filesystem, sandbox, browser, runtime, container, dependency, and external-state refs recur as causal dependencies not fully reconstructed by transcript or event replay alone.",
+      "unresolved_limits": "Current public artifacts do not establish complete environment snapshots or pre/post environment links."
+    },
+    {
+      "motif_id": "M-009",
+      "name": "recovery-loop reconstruction",
+      "appears_in_proofs": [
+        "001-agent-continuity-audit",
+        "002-replayability-gap-audit",
+        "003-continuity-compression-audit",
+        "004-operational-failure-reconstruction",
+        "006-memory-authority-survivability-audit"
+      ],
+      "supporting_artifacts": [
+        "proofs/001-agent-continuity-audit/failure_taxonomy.md",
+        "proofs/002-replayability-gap-audit/replay_gap_taxonomy.md",
+        "proofs/003-continuity-compression-audit/claim_register.json",
+        "proofs/004-operational-failure-reconstruction/claim_register.json",
+        "proofs/006-memory-authority-survivability-audit/evidence_manifest.json"
+      ],
+      "claim_level": "unresolved",
+      "explanation": "Retries, fallbacks, aborts, restarts, resumptions, context-overflow handling, cleanup, and recovery transitions recur as state changes that can determine long-horizon outcomes.",
+      "unresolved_limits": "Complete retry, fallback, cleanup, restart, and resume traces have not been validated as a public replay bundle."
+    },
+    {
+      "motif_id": "M-010",
+      "name": "causal replay adequacy",
+      "appears_in_proofs": [
+        "002-replayability-gap-audit",
+        "003-continuity-compression-audit",
+        "004-operational-failure-reconstruction",
+        "005-contradiction-survivability-audit",
+        "006-memory-authority-survivability-audit"
+      ],
+      "supporting_artifacts": [
+        "proofs/002-replayability-gap-audit/replay_dimension_model.md",
+        "proofs/003-continuity-compression-audit/analysis_v0_1.md",
+        "proofs/004-operational-failure-reconstruction/analysis_v0_1.md",
+        "proofs/005-contradiction-survivability-audit/contradiction_replayability_matrix.md",
+        "proofs/006-memory-authority-survivability-audit/belief_replayability_matrix.md"
+      ],
+      "claim_level": "unresolved",
+      "explanation": "The corpus repeatedly distinguishes visible replay from causal replay and asks what metadata is sufficient to explain why a later action occurred.",
+      "unresolved_limits": "The repository has not validated a minimum causal replay bundle with joined transcript, event, tool, memory, environment, recovery, contradiction, authority, and provenance refs."
+    },
+    {
+      "motif_id": "M-011",
+      "name": "operational truth survivability",
+      "appears_in_proofs": [
+        "003-continuity-compression-audit",
+        "004-operational-failure-reconstruction",
+        "005-contradiction-survivability-audit",
+        "006-memory-authority-survivability-audit"
+      ],
+      "supporting_artifacts": [
+        "proofs/003-continuity-compression-audit/analysis_v0_1.md",
+        "proofs/004-operational-failure-reconstruction/analysis_v0_1.md",
+        "proofs/005-contradiction-dimension-model.md",
+        "proofs/005-contradiction-survivability-audit/contradiction_replayability_matrix.md",
+        "proofs/006-memory-authority-survivability-audit/memory_authority_dimension_model.md",
+        "proofs/006-memory-authority-survivability-audit/belief_replayability_matrix.md"
+      ],
+      "claim_level": "unresolved",
+      "explanation": "Operational truth survivability is the recurring requirement to preserve the difference between observed fact, tool output, source-backed claim, assistant inference, summary, memory, stale assumption, contradiction, and unresolved question.",
+      "unresolved_limits": "The public corpus establishes the audit surface, not a target-specific operational truth guarantee."
+    }
+  ]
+}
+

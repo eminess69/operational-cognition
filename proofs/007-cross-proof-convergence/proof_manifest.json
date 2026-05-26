@@ -1,0 +1,42 @@
+{
+  "proof_id": "007-cross-proof-convergence",
+  "title": "Cross-Proof Convergence Analysis for Survivable Lineage",
+  "status": "analysis",
+  "targets": [
+    "Operational Cognition proof corpus 001-006",
+    "OpenClaw",
+    "OpenHands"
+  ],
+  "claim_level": "evidence_backed",
+  "inside_voice_adapter_status": "placeholder",
+  "public_private_boundary": "sanitized_public_artifacts_only",
+  "required_artifacts": [
+    "README.md",
+    "convergence_analysis.md",
+    "recurring_motifs.json",
+    "survivable_lineage_standard.md",
+    "minimum_operational_replay_bundle.md",
+    "cross_proof_claim_register.json",
+    "unresolved_convergence_questions.md",
+    "proof_manifest.json"
+  ],
+  "disallowed_claims": [
+    "AGI",
+    "consciousness",
+    "black_box_solved",
+    "substrate_disclosure",
+    "hidden_chain_of_thought",
+    "belief_ledger_internals",
+    "inside_voice_internals",
+    "harmonic_traceback_implementation",
+    "target_system_attack_framing",
+    "unsupported_target_system_claims"
+  ],
+  "lineage": {
+    "mcp_endpoint": "http://127.0.0.1:8766",
+    "contract_version": "inside_voice.mcp.consultation.v1",
+    "request_hash": "d607210f6a03a9f6ea4e35f2457a4e55181388b426ae00839d2e2800aab8a8fb",
+    "response_hash": "a947572c408e55833c0d668a6cad97d94d2756e7a7556c8a819c7a4a2801e0cc"
+  }
+}
+

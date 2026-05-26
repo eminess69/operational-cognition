@@ -1,0 +1,304 @@
+{
+  "proof_id": "007-cross-proof-convergence",
+  "analysis_id": "cross_proof_convergence_analysis",
+  "claim_register_version": "cross_proof_claim_register.v1",
+  "claim_level_schema": [
+    "observed",
+    "inferred",
+    "hypothesis",
+    "unresolved"
+  ],
+  "rule": "Observed and inferred synthesis claims must include proof_refs and supporting_artifacts. Hypothesis and unresolved claims should include proof_refs when available and must preserve uncertainty.",
+  "claims": [
+    {
+      "claim_id": "CPC-001",
+      "claim": "The public proof corpus supports the inference that operational utility can survive while audit-grade reconstruction weakens.",
+      "claim_level": "inferred",
+      "proof_refs": [
+        "003-continuity-compression-audit:C-011",
+        "004-operational-failure-reconstruction:C-008"
+      ],
+      "supporting_artifacts": [
+        "proofs/003-continuity-compression-audit/analysis_v0_1.md",
+        "proofs/003-continuity-compression-audit/claim_register.json",
+        "proofs/004-operational-failure-reconstruction/analysis_v0_1.md",
+        "proofs/004-operational-failure-reconstruction/claim_register.json"
+      ],
+      "appears_in": [
+        "convergence_analysis.md",
+        "survivable_lineage_standard.md"
+      ],
+      "reasoning_bridge": "Proof 003 infers that compression may preserve task utility while reducing replay fidelity without survivable lineage. Proof 004 infers that visible replay and event logs can support partial reconstruction while causal reconstruction needs broader lineage.",
+      "risk_if_overstated": "Could imply a measured benchmark or target-system defect rather than a conservative synthesis from public artifacts.",
+      "safe_public_wording": "Operational utility can remain visible while audit-grade reconstruction may weaken unless lineage survives."
+    },
+    {
+      "claim_id": "CPC-002",
+      "claim": "The public proof corpus repeatedly identifies transcript, event, tool/action, replay, memory, environment, recovery, temporal, contradiction, authority, and provenance dimensions.",
+      "claim_level": "observed",
+      "proof_refs": [
+        "001-agent-continuity-audit:continuity_signals",
+        "002-replayability-gap-audit:replay_dimension_model",
+        "003-continuity-compression-audit:C-001",
+        "003-continuity-compression-audit:C-002",
+        "003-continuity-compression-audit:C-004",
+        "004-operational-failure-reconstruction:C-001",
+        "004-operational-failure-reconstruction:C-002",
+        "004-operational-failure-reconstruction:C-003",
+        "004-operational-failure-reconstruction:C-011",
+        "005-contradiction-survivability-audit:contradiction_replayability_matrix",
+        "006-memory-authority-survivability-audit:belief_replayability_matrix"
+      ],
+      "supporting_artifacts": [
+        "proofs/001-agent-continuity-audit/continuity_signals.md",
+        "proofs/002-replayability-gap-audit/replay_dimension_model.md",
+        "proofs/003-continuity-compression-audit/claim_register.json",
+        "proofs/004-operational-failure-reconstruction/claim_register.json",
+        "proofs/005-contradiction-survivability-audit/contradiction_replayability_matrix.md",
+        "proofs/006-memory-authority-survivability-audit/belief_replayability_matrix.md"
+      ],
+      "appears_in": [
+        "convergence_analysis.md",
+        "recurring_motifs.json"
+      ],
+      "reasoning_bridge": "The claim observes the presence of repeated dimensions in public proof artifacts, not target-system behavior beyond those artifacts.",
+      "risk_if_overstated": "Could imply all dimensions are validated or complete in target systems.",
+      "safe_public_wording": "The public proof corpus repeatedly names these dimensions as audit surfaces."
+    },
+    {
+      "claim_id": "CPC-003",
+      "claim": "Compression is a recurring boundary where lineage fields become necessary for replay adequacy.",
+      "claim_level": "inferred",
+      "proof_refs": [
+        "003-continuity-compression-audit:C-001",
+        "003-continuity-compression-audit:C-006",
+        "003-continuity-compression-audit:C-011",
+        "004-operational-failure-reconstruction:C-001",
+        "004-operational-failure-reconstruction:C-008"
+      ],
+      "supporting_artifacts": [
+        "proofs/003-continuity-compression-audit/compression_dimension_model.md",
+        "proofs/003-continuity-compression-audit/compression_replayability_matrix.md",
+        "proofs/003-continuity-compression-audit/claim_register.json",
+        "proofs/004-operational-failure-reconstruction/analysis_v0_1.md"
+      ],
+      "appears_in": [
+        "convergence_analysis.md",
+        "survivable_lineage_standard.md"
+      ],
+      "reasoning_bridge": "Public artifacts show compression mechanisms and unresolved causal-lineage continuity after compression; the need for lineage fields follows from that gap.",
+      "risk_if_overstated": "Could imply compression necessarily loses lineage in every implementation.",
+      "safe_public_wording": "Compression is a recurring boundary where replay adequacy depends on retained lineage."
+    },
+    {
+      "claim_id": "CPC-004",
+      "claim": "Audit-grade replay must preserve more than visible sequence.",
+      "claim_level": "inferred",
+      "proof_refs": [
+        "002-replayability-gap-audit:replay_dimension_model",
+        "002-replayability-gap-audit:replay_gap_taxonomy",
+        "003-continuity-compression-audit:C-008",
+        "004-operational-failure-reconstruction:C-008"
+      ],
+      "supporting_artifacts": [
+        "proofs/002-replayability-gap-audit/replay_dimension_model.md",
+        "proofs/002-replayability-gap-audit/replay_gap_taxonomy.md",
+        "proofs/003-continuity-compression-audit/claim_register.json",
+        "proofs/004-operational-failure-reconstruction/claim_register.json"
+      ],
+      "appears_in": [
+        "convergence_analysis.md",
+        "minimum_operational_replay_bundle.md",
+        "survivable_lineage_standard.md"
+      ],
+      "reasoning_bridge": "Proof 002 defines visible replay as only one replay dimension. Proofs 003 and 004 infer that replay adequacy depends on lineage across memory, tool results, environment, recovery, and provenance.",
+      "risk_if_overstated": "Could dismiss visible replay, which remains useful for bounded inspection.",
+      "safe_public_wording": "Visible replay is useful but not sufficient for causal operational replay."
+    },
+    {
+      "claim_id": "CPC-005",
+      "claim": "Contradiction and uncertainty retention are required for operational truth survivability, while target-specific contradiction preservation remains unresolved.",
+      "claim_level": "inferred",
+      "proof_refs": [
+        "003-continuity-compression-audit:C-005",
+        "004-operational-failure-reconstruction:C-007",
+        "005-contradiction-survivability-audit:contradiction_dimension_model",
+        "005-contradiction-survivability-audit:contradiction_replayability_matrix"
+      ],
+      "supporting_artifacts": [
+        "proofs/003-continuity-compression-audit/claim_register.json",
+        "proofs/004-operational-failure-reconstruction/claim_register.json",
+        "proofs/005-contradiction-dimension-model.md",
+        "proofs/005-contradiction-survivability-audit/contradiction_replayability_matrix.md"
+      ],
+      "appears_in": [
+        "convergence_analysis.md",
+        "survivable_lineage_standard.md",
+        "minimum_operational_replay_bundle.md"
+      ],
+      "reasoning_bridge": "Proofs 003 and 004 mark contradiction continuity and reconstruction as unresolved; Proof 005 defines contradiction retention as a requirement for replay and operational truth.",
+      "risk_if_overstated": "Could imply that contradictions are known to be lost or preserved in a target system.",
+      "safe_public_wording": "Contradiction retention is a required audit dimension; preservation guarantees remain unresolved."
+    },
+    {
+      "claim_id": "CPC-006",
+      "claim": "Memory authority requires source authority, temporal validity, supersession, stale-belief, recall, contradiction, and provenance metadata.",
+      "claim_level": "inferred",
+      "proof_refs": [
+        "004-operational-failure-reconstruction:C-004",
+        "006-memory-authority-survivability-audit:memory_authority_dimension_model",
+        "006-memory-authority-survivability-audit:belief_replayability_matrix"
+      ],
+      "supporting_artifacts": [
+        "proofs/004-operational-failure-reconstruction/claim_register.json",
+        "proofs/006-memory-authority-survivability-audit/memory_authority_dimension_model.md",
+        "proofs/006-memory-authority-survivability-audit/authority_survivability_taxonomy.md",
+        "proofs/006-memory-authority-survivability-audit/belief_replayability_matrix.md"
+      ],
+      "appears_in": [
+        "convergence_analysis.md",
+        "survivable_lineage_standard.md",
+        "minimum_operational_replay_bundle.md"
+      ],
+      "reasoning_bridge": "Proof 004 observes memory surfaces while leaving complete memory reconstruction unresolved. Proof 006 defines the authority metadata needed to decide whether remembered beliefs remain operationally authoritative.",
+      "risk_if_overstated": "Could imply that memory authority preservation was validated in target artifacts.",
+      "safe_public_wording": "Memory authority requires these metadata classes; target-specific guarantees remain unresolved."
+    },
+    {
+      "claim_id": "CPC-007",
+      "claim": "Omitted-range recoverability is a repeated convergence motif across replay, compression, reconstruction, contradiction, and memory authority artifacts.",
+      "claim_level": "observed",
+      "proof_refs": [
+        "002-replayability-gap-audit:replay_gap_taxonomy",
+        "003-continuity-compression-audit:unresolved_questions",
+        "004-operational-failure-reconstruction:reconstruction_gap_taxonomy",
+        "005-contradiction-survivability-audit:contradiction_replayability_matrix",
+        "006-memory-authority-survivability-audit:belief_replayability_matrix"
+      ],
+      "supporting_artifacts": [
+        "proofs/002-replayability-gap-audit/replay_gap_taxonomy.md",
+        "proofs/003-continuity-compression-audit/unresolved_questions.md",
+        "proofs/004-operational-failure-reconstruction/reconstruction_gap_taxonomy.md",
+        "proofs/005-contradiction-survivability-audit/contradiction_replayability_matrix.md",
+        "proofs/006-memory-authority-survivability-audit/belief_replayability_matrix.md"
+      ],
+      "appears_in": [
+        "convergence_analysis.md",
+        "recurring_motifs.json",
+        "survivable_lineage_standard.md"
+      ],
+      "reasoning_bridge": "This is an observation about recurring motif presence in public artifacts.",
+      "risk_if_overstated": "Could imply omitted ranges are currently recoverable in all artifacts.",
+      "safe_public_wording": "The need for omitted-range recoverability recurs across the corpus."
+    },
+    {
+      "claim_id": "CPC-008",
+      "claim": "Environment and recovery-loop reconstruction are recurring unresolved requirements for causal replay adequacy.",
+      "claim_level": "observed",
+      "proof_refs": [
+        "001-agent-continuity-audit:continuity_signals",
+        "002-replayability-gap-audit:replay_dimension_model",
+        "003-continuity-compression-audit:C-007",
+        "003-continuity-compression-audit:C-009",
+        "004-operational-failure-reconstruction:C-005",
+        "004-operational-failure-reconstruction:C-009"
+      ],
+      "supporting_artifacts": [
+        "proofs/001-agent-continuity-audit/continuity_signals.md",
+        "proofs/002-replayability-gap-audit/replay_dimension_model.md",
+        "proofs/003-continuity-compression-audit/claim_register.json",
+        "proofs/004-operational-failure-reconstruction/claim_register.json"
+      ],
+      "appears_in": [
+        "convergence_analysis.md",
+        "recurring_motifs.json",
+        "minimum_operational_replay_bundle.md"
+      ],
+      "reasoning_bridge": "Public proof artifacts repeatedly name environment and recovery-loop dimensions and mark complete adequacy as unresolved.",
+      "risk_if_overstated": "Could imply validated environment or recovery gaps in a target system.",
+      "safe_public_wording": "Environment and recovery-loop reconstruction recur as unresolved replay requirements."
+    },
+    {
+      "claim_id": "CPC-009",
+      "claim": "Survivable lineage is the central implementation-neutral requirement implied by Proofs 001-006.",
+      "claim_level": "inferred",
+      "proof_refs": [
+        "001-agent-continuity-audit:replayability_plan",
+        "002-replayability-gap-audit:replay_dimension_model",
+        "003-continuity-compression-audit:C-011",
+        "004-operational-failure-reconstruction:C-008",
+        "005-contradiction-survivability-audit:mitigation_doctrine",
+        "006-memory-authority-survivability-audit:mitigation_doctrine"
+      ],
+      "supporting_artifacts": [
+        "proofs/001-agent-continuity-audit/replayability_plan.md",
+        "proofs/002-replayability-gap-audit/replay_dimension_model.md",
+        "proofs/003-continuity-compression-audit/claim_register.json",
+        "proofs/004-operational-failure-reconstruction/claim_register.json",
+        "proofs/005-contradiction-survivability-audit/mitigation_doctrine.md",
+        "proofs/006-memory-authority-survivability-audit/mitigation_doctrine.md"
+      ],
+      "appears_in": [
+        "convergence_analysis.md",
+        "recurring_motifs.json",
+        "survivable_lineage_standard.md",
+        "minimum_operational_replay_bundle.md"
+      ],
+      "reasoning_bridge": "Each proof asks whether an operationally useful artifact remains linked to source, event, summary, memory, authority, contradiction, environment, recovery, or provenance state. The common requirement is lineage that survives transformations.",
+      "risk_if_overstated": "Could imply a completed standard or a universal claim across all long-horizon systems.",
+      "safe_public_wording": "The current proof corpus points to survivable lineage as the central requirement."
+    },
+    {
+      "claim_id": "CPC-010",
+      "claim": "The minimum operational replay bundle proposed in Proof 007 is a candidate standard, not a validated sufficient bundle.",
+      "claim_level": "hypothesis",
+      "proof_refs": [
+        "002-replayability-gap-audit:replay_dimension_model",
+        "003-continuity-compression-audit:unresolved_questions",
+        "004-operational-failure-reconstruction:unresolved_questions",
+        "005-contradiction-survivability-audit:contradiction_replayability_matrix",
+        "006-memory-authority-survivability-audit:belief_replayability_matrix"
+      ],
+      "supporting_artifacts": [
+        "proofs/002-replayability-gap-audit/replay_dimension_model.md",
+        "proofs/003-continuity-compression-audit/unresolved_questions.md",
+        "proofs/004-operational-failure-reconstruction/unresolved_questions.md",
+        "proofs/005-contradiction-survivability-audit/contradiction_replayability_matrix.md",
+        "proofs/006-memory-authority-survivability-audit/belief_replayability_matrix.md",
+        "proofs/007-cross-proof-convergence/minimum_operational_replay_bundle.md"
+      ],
+      "appears_in": [
+        "convergence_analysis.md",
+        "minimum_operational_replay_bundle.md"
+      ],
+      "reasoning_bridge": "The bundle is assembled from recurring unresolved replay requirements and must be validated by a fixture.",
+      "risk_if_overstated": "Could imply the bundle is proven sufficient.",
+      "safe_public_wording": "The bundle is a candidate standard pending validation."
+    },
+    {
+      "claim_id": "CPC-011",
+      "claim": "Proof 007 cannot conclude that any target system globally preserves or fails to preserve survivable lineage.",
+      "claim_level": "unresolved",
+      "proof_refs": [
+        "003-continuity-compression-audit:C-006",
+        "004-operational-failure-reconstruction:C-008",
+        "005-contradiction-survivability-audit:README",
+        "006-memory-authority-survivability-audit:README"
+      ],
+      "supporting_artifacts": [
+        "proofs/003-continuity-compression-audit/claim_register.json",
+        "proofs/004-operational-failure-reconstruction/claim_register.json",
+        "proofs/005-contradiction-survivability-audit/README.md",
+        "proofs/006-memory-authority-survivability-audit/README.md"
+      ],
+      "appears_in": [
+        "convergence_analysis.md",
+        "unresolved_convergence_questions.md"
+      ],
+      "reasoning_bridge": "The corpus contains useful public surfaces and evidence-backed inferences, but the required end-to-end replay fixture has not been validated.",
+      "risk_if_overstated": "Could turn a synthesis into an unsupported target-system conclusion.",
+      "safe_public_wording": "Global survivable-lineage preservation remains unresolved."
+    }
+  ]
+}
+
