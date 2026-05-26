@@ -1,0 +1,193 @@
+{
+  "proof_id": "003-continuity-compression-audit",
+  "analysis_id": "analysis_v0_1",
+  "status": "analysis",
+  "findings": [
+    {
+      "id": "F-001",
+      "claim": "Public evidence directly describes compression mechanisms that preserve a compact summary and recent context while changing the active model-visible context.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "openclaw-doc-compaction",
+        "openhands-doc-condenser-architecture"
+      ],
+      "reasoning_summary": "OpenClaw documents summarized older turns, saved summaries, intact recent messages, and successor transcripts. OpenHands documents condensed summaries, kept head and tail events, and filtered forgotten events in LLM-ready views.",
+      "limitations": [
+        "This does not establish that every original transcript segment is reconstructable from the compressed active context.",
+        "This does not compare implementation behavior against the documentation."
+      ],
+      "public_private_boundary": "sanitized_public_artifacts_only"
+    },
+    {
+      "id": "F-002",
+      "claim": "Public evidence directly describes tool and action continuity surfaces across compression-relevant event structures.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "openclaw-doc-compaction",
+        "openhands-doc-events-architecture"
+      ],
+      "reasoning_summary": "OpenClaw documents preserving assistant tool calls with matching tool results when splitting history. OpenHands documents action events, observation events, and LLM-convertible event flows.",
+      "limitations": [
+        "The evidence does not establish complete preservation of large, redacted, or truncated tool result bodies.",
+        "Tool schema version survivability remains unresolved."
+      ],
+      "public_private_boundary": "sanitized_public_artifacts_only"
+    },
+    {
+      "id": "F-003",
+      "claim": "Public evidence directly describes OpenClaw memory continuity mechanisms that can move selected context outside the compressed active transcript.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "openclaw-doc-memory-overview",
+        "openclaw-doc-compaction"
+      ],
+      "reasoning_summary": "OpenClaw documents durable memory files, daily notes, memory search/get surfaces, truncation signals, and an automatic memory flush before compaction.",
+      "limitations": [
+        "The evidence does not establish that memory writes, recall queries, recall results, and indexes are replayable as a complete lineage bundle.",
+        "The current evidence set does not establish equivalent memory-continuity mechanisms for every target system."
+      ],
+      "public_private_boundary": "sanitized_public_artifacts_only"
+    },
+    {
+      "id": "F-004",
+      "claim": "Public evidence directly describes temporal ordering surfaces relevant to compression replay.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "openclaw-doc-trajectory-bundles",
+        "openclaw-doc-compaction",
+        "openhands-doc-conversation-architecture",
+        "openhands-doc-events-architecture",
+        "openhands-doc-condenser-architecture"
+      ],
+      "reasoning_summary": "OpenClaw documents ordered trajectory timelines and successor transcript checkpoint metadata. OpenHands documents append-only event logs, event IDs and timestamps, condensation summary offsets, and forgotten event IDs.",
+      "limitations": [
+        "The evidence does not establish that every omitted event range has enough timestamp detail for fine-grained causal replay.",
+        "Actual exported examples were not analyzed in this step."
+      ],
+      "public_private_boundary": "sanitized_public_artifacts_only"
+    },
+    {
+      "id": "F-005",
+      "claim": "Current public evidence does not establish whether contradiction continuity survives compression.",
+      "claim_level": "unresolved",
+      "evidence_refs": [
+        "openclaw-doc-compaction",
+        "openhands-doc-condenser-architecture",
+        "openclaw-doc-memory-overview"
+      ],
+      "reasoning_summary": "The sources describe summary generation and some memory provenance surfaces, but they do not establish compression rules that preserve conflicting evidence, rejected alternatives, or unresolved disputes.",
+      "limitations": [
+        "A later analysis needs examples or documentation of contradiction-preserving summary metadata.",
+        "No target-system defect is implied by this unresolved state."
+      ],
+      "public_private_boundary": "sanitized_public_artifacts_only"
+    },
+    {
+      "id": "F-006",
+      "claim": "Current public evidence does not establish full causal lineage continuity after compression.",
+      "claim_level": "unresolved",
+      "evidence_refs": [
+        "openhands-doc-condenser-architecture",
+        "openhands-doc-events-architecture",
+        "openclaw-doc-trajectory-bundles",
+        "openclaw-doc-compaction"
+      ],
+      "reasoning_summary": "The evidence documents event IDs, summaries, prompt and trajectory surfaces, tool events, and compactions, but does not establish a complete link from every compressed input range through memory, tool results, environment state, and later action.",
+      "limitations": [
+        "Causal sufficiency requires stronger replay bundles or worked examples.",
+        "The analysis cannot infer hidden decision state from public artifacts."
+      ],
+      "public_private_boundary": "sanitized_public_artifacts_only"
+    },
+    {
+      "id": "F-007",
+      "claim": "Environment continuity under compression is only partially supported by the current evidence and remains dependent on external state capture.",
+      "claim_level": "inferred",
+      "evidence_refs": [
+        "openhands-doc-agent-server-architecture",
+        "openhands-doc-conversation-architecture",
+        "openclaw-doc-trajectory-bundles"
+      ],
+      "reasoning_summary": "Reasoning bridge: public docs show workspace, container, runtime, metadata, and trajectory surfaces, while compression docs focus on text or event-history reduction. Therefore environment continuity is relevant to replay but not fully established by compression artifacts alone.",
+      "limitations": [
+        "The inference does not show an actual replay failure.",
+        "Environment snapshot completeness is not established from the current source set."
+      ],
+      "public_private_boundary": "sanitized_public_artifacts_only"
+    },
+    {
+      "id": "F-008",
+      "claim": "Replayability can remain operationally meaningful after compression when summaries are linked to surviving event, transcript, tool, and metadata surfaces, but causal replay adequacy remains bounded.",
+      "claim_level": "inferred",
+      "evidence_refs": [
+        "openclaw-doc-trajectory-bundles",
+        "openclaw-doc-compaction",
+        "openhands-doc-condenser-architecture",
+        "openhands-doc-events-architecture",
+        "openhands-doc-browser-session-recording",
+        "shared-rrweb-readme"
+      ],
+      "reasoning_summary": "Reasoning bridge: the sources document visible replay, ordered event logs, summaries, forgotten IDs, compactions, browser recording, and trajectory bundles. Together these support meaningful replay surfaces, while omitted ranges and state dependencies bound causal reconstruction.",
+      "limitations": [
+        "This is an adequacy inference, not a validated end-to-end replay result.",
+        "The inference depends on the availability and completeness of exported artifacts."
+      ],
+      "public_private_boundary": "sanitized_public_artifacts_only"
+    },
+    {
+      "id": "F-009",
+      "claim": "Public evidence directly describes recovery-loop compression triggers.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "openclaw-doc-compaction",
+        "openhands-doc-condenser-architecture",
+        "openhands-doc-events-architecture"
+      ],
+      "reasoning_summary": "OpenClaw documents auto-compaction near context limits, compaction and retry after context-overflow errors, and fallback behavior during compaction attempts. OpenHands documents condensation requests after context-limit errors and error events that can be visible to the model in specific tool-call contexts.",
+      "limitations": [
+        "The evidence does not establish complete replay of all retry, fallback, cleanup, and recovery metadata.",
+        "The finding is limited to documented mechanisms."
+      ],
+      "public_private_boundary": "sanitized_public_artifacts_only"
+    },
+    {
+      "id": "F-010",
+      "claim": "Intent continuity drift is a plausible compression risk when summaries omit constraints, authority, timing, or action boundaries.",
+      "claim_level": "hypothesis",
+      "evidence_refs": [
+        "openclaw-doc-memory-overview",
+        "openclaw-doc-compaction",
+        "openhands-doc-condenser-architecture"
+      ],
+      "reasoning_summary": "OpenClaw documents action-sensitive memory boundaries and guided compaction instructions, while OpenHands documents summary generation. The drift claim remains a hypothesis because current evidence does not validate summary behavior against intent-preservation examples.",
+      "limitations": [
+        "No observed drift case is claimed.",
+        "Further validation needs examples that compare original intent-bearing context with compressed outputs."
+      ],
+      "public_private_boundary": "sanitized_public_artifacts_only"
+    },
+    {
+      "id": "F-011",
+      "claim": "Compression may preserve task utility while reducing replay fidelity unless survivable lineage metadata is retained.",
+      "claim_level": "inferred",
+      "evidence_refs": [
+        "openclaw-doc-compaction",
+        "openclaw-doc-trajectory-bundles",
+        "openhands-doc-condenser-architecture",
+        "openhands-doc-events-architecture"
+      ],
+      "reasoning_summary": "Reasoning bridge: compression docs describe summaries that keep work moving within context limits, while replay and event docs show that audit-grade reconstruction depends on event IDs, ordered timelines, prompt surfaces, and metadata. The operational distinction between utility and replay fidelity follows from that combination.",
+      "limitations": [
+        "This is a conservative synthesis, not a measured replay benchmark.",
+        "The minimum sufficient metadata bundle remains unresolved."
+      ],
+      "public_private_boundary": "sanitized_public_artifacts_only"
+    }
+  ],
+  "summary": {
+    "observed_count": 5,
+    "inferred_count": 3,
+    "hypothesis_count": 1,
+    "unresolved_count": 2
+  }
+}

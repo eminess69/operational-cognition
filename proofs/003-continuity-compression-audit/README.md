@@ -19,11 +19,22 @@ Can replayability remain operationally meaningful after context compression?
 
 ## Status
 
-Current phase: Evidence collection and continuity compression scaffold.
+Current phase: Analysis v0.1 completed with evidence-backed findings.
 
-No continuity loss conclusions have been reached. No target-system defect is claimed. The current focus is a conservative dimension model, initial survivability taxonomy, replayability matrix, and public evidence lineage.
+No target-system defect is claimed. Analysis v0.1 upgrades only the claims directly supported by current public evidence and keeps unresolved or hypothesis-level claims separate.
 
-The proof remains at claim level `planning_scaffold` until evidence-backed analysis is separately validated.
+The proof manifest is upgraded to claim level `evidence_backed`, while each analytical claim remains individually classified as `observed`, `inferred`, `hypothesis`, or `unresolved`.
+
+## Current Analysis
+
+`analysis_v0_1` is completed.
+
+Primary analysis artifacts:
+
+- `analysis_v0_1.md`
+- `evidence_backed_findings.json`
+- `claim_register.json`
+- `unresolved_questions.md`
 
 ## Expected Outputs
 
@@ -34,6 +45,10 @@ The proof remains at claim level `planning_scaffold` until evidence-backed analy
 - compression replayability matrix
 - mitigation doctrine
 - public lineage summary
+- analysis v0.1
+- evidence-backed findings
+- claim register
+- unresolved questions
 - evidence manifest
 - replayable investigation log
 - deterministic proof manifest

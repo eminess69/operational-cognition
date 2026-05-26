@@ -14,6 +14,18 @@ This file summarizes public-safe lineage for Proof 003.
 
 The raw MCP request and response are stored only under ignored `internal/` and are not part of the public proof pack.
 
+## Analysis v0.1 Review Source
+
+- source: local Inside Voice MCP consultation endpoint
+- endpoint: `http://127.0.0.1:8766`
+- contract version: `inside_voice.mcp.consultation.v1`
+- adapter status: `placeholder`
+- mode: `review`
+- request hash: `429a0dff20456363ee1ba8406fa7bd59a1dd48eabf52e00ba05bbe064b3a7b58`
+- response hash: `5b8eb4724da816f546fdab11963807007ad31d35f5a65489ab7a03cdd8ce23e0`
+
+The analysis review returned placeholder contract-bound review metadata only. Public findings are based on public evidence refs, not on private MCP response bodies.
+
 ## Planning Decision
 
 Create a public continuity compression adequacy scaffold for evaluating whether compressed, summarized, compacted, or condensed long-horizon context preserves enough continuity structure for operational reasoning and replay.

@@ -1,12 +1,12 @@
 {
   "proof_id": "003-continuity-compression-audit",
   "title": "Continuity Compression Audit for Long-Horizon Agent Systems",
-  "status": "evidence_collection",
+  "status": "analysis",
   "targets": [
     "OpenClaw",
     "OpenHands"
   ],
-  "claim_level": "planning_scaffold",
+  "claim_level": "evidence_backed",
   "inside_voice_adapter_status": "placeholder",
   "public_private_boundary": "sanitized_public_artifacts_only",
   "required_artifacts": [
@@ -17,6 +17,10 @@
     "continuity_survivability_taxonomy.md",
     "compression_replayability_matrix.md",
     "mitigation_doctrine.md",
+    "analysis_v0_1.md",
+    "evidence_backed_findings.json",
+    "claim_register.json",
+    "unresolved_questions.md",
     "public_lineage_summary.md",
     "proof_manifest.json",
     "investigation_log.jsonl",
@@ -35,7 +39,7 @@
   "lineage": {
     "mcp_endpoint": "http://127.0.0.1:8766",
     "contract_version": "inside_voice.mcp.consultation.v1",
-    "request_hash": "f53969455ec453bd7e4a4e717acce69c7693409737a4356f4ad305ba2bf8a98e",
-    "response_hash": "91741f7e5bad9da2787c91504b8ef427713de1994ca35e7d9802285fd33afa95"
+    "request_hash": "429a0dff20456363ee1ba8406fa7bd59a1dd48eabf52e00ba05bbe064b3a7b58",
+    "response_hash": "5b8eb4724da816f546fdab11963807007ad31d35f5a65489ab7a03cdd8ce23e0"
   }
 }

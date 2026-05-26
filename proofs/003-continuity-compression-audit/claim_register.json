@@ -1,0 +1,190 @@
+{
+  "proof_id": "003-continuity-compression-audit",
+  "analysis_id": "analysis_v0_1",
+  "claims": [
+    {
+      "claim_id": "C-001",
+      "claim": "Public evidence directly describes compression mechanisms that preserve a compact summary and recent context while changing the active model-visible context.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "openclaw-doc-compaction",
+        "openhands-doc-condenser-architecture"
+      ],
+      "appears_in": [
+        "analysis_v0_1.md",
+        "evidence_backed_findings.json"
+      ],
+      "risk_if_overstated": "Could imply complete transcript reconstructability when the public evidence only establishes documented compression mechanisms.",
+      "safe_public_wording": "Public docs describe summary and recent-context preservation mechanisms; complete reconstructability remains a separate question."
+    },
+    {
+      "claim_id": "C-002",
+      "claim": "Public evidence directly describes tool and action continuity surfaces across compression-relevant event structures.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "openclaw-doc-compaction",
+        "openhands-doc-events-architecture"
+      ],
+      "appears_in": [
+        "analysis_v0_1.md",
+        "evidence_backed_findings.json"
+      ],
+      "risk_if_overstated": "Could imply all tool results survive compression with full content and provenance.",
+      "safe_public_wording": "Public docs describe tool/action event surfaces and pairing protections, while complete tool-result survivability remains bounded."
+    },
+    {
+      "claim_id": "C-003",
+      "claim": "Public evidence directly describes OpenClaw memory continuity mechanisms that can move selected context outside the compressed active transcript.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "openclaw-doc-memory-overview",
+        "openclaw-doc-compaction"
+      ],
+      "appears_in": [
+        "analysis_v0_1.md",
+        "evidence_backed_findings.json"
+      ],
+      "risk_if_overstated": "Could imply complete replayability of memory writes, searches, and recall results.",
+      "safe_public_wording": "OpenClaw docs describe memory surfaces and pre-compaction memory flush; memory replay adequacy remains unresolved."
+    },
+    {
+      "claim_id": "C-004",
+      "claim": "Public evidence directly describes temporal ordering surfaces relevant to compression replay.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "openclaw-doc-trajectory-bundles",
+        "openclaw-doc-compaction",
+        "openhands-doc-conversation-architecture",
+        "openhands-doc-events-architecture",
+        "openhands-doc-condenser-architecture"
+      ],
+      "appears_in": [
+        "analysis_v0_1.md",
+        "evidence_backed_findings.json"
+      ],
+      "risk_if_overstated": "Could imply exact event timing and omitted-range ordering are always reconstructable.",
+      "safe_public_wording": "Public docs describe ordered logs, event metadata, and compression boundaries; fine-grained ordering adequacy still needs examples."
+    },
+    {
+      "claim_id": "C-005",
+      "claim": "Current public evidence does not establish whether contradiction continuity survives compression.",
+      "claim_level": "unresolved",
+      "evidence_refs": [
+        "openclaw-doc-compaction",
+        "openhands-doc-condenser-architecture",
+        "openclaw-doc-memory-overview"
+      ],
+      "appears_in": [
+        "analysis_v0_1.md",
+        "evidence_backed_findings.json",
+        "unresolved_questions.md"
+      ],
+      "risk_if_overstated": "Could turn a missing-evidence question into an unsupported compression-loss finding.",
+      "safe_public_wording": "Contradiction survivability is not established by the current public evidence."
+    },
+    {
+      "claim_id": "C-006",
+      "claim": "Current public evidence does not establish full causal lineage continuity after compression.",
+      "claim_level": "unresolved",
+      "evidence_refs": [
+        "openhands-doc-condenser-architecture",
+        "openhands-doc-events-architecture",
+        "openclaw-doc-trajectory-bundles",
+        "openclaw-doc-compaction"
+      ],
+      "appears_in": [
+        "analysis_v0_1.md",
+        "evidence_backed_findings.json",
+        "unresolved_questions.md"
+      ],
+      "risk_if_overstated": "Could imply that public docs demonstrate full causal replay adequacy or demonstrate a failure.",
+      "safe_public_wording": "Current public evidence exposes lineage surfaces but does not establish full causal replay adequacy after compression."
+    },
+    {
+      "claim_id": "C-007",
+      "claim": "Environment continuity under compression is only partially supported by the current evidence and remains dependent on external state capture.",
+      "claim_level": "inferred",
+      "evidence_refs": [
+        "openhands-doc-agent-server-architecture",
+        "openhands-doc-conversation-architecture",
+        "openclaw-doc-trajectory-bundles"
+      ],
+      "appears_in": [
+        "analysis_v0_1.md",
+        "evidence_backed_findings.json",
+        "unresolved_questions.md"
+      ],
+      "risk_if_overstated": "Could imply a documented environment continuity gap where the evidence only supports partial coverage and open questions.",
+      "safe_public_wording": "Environment continuity is relevant to replay and appears only partially covered by current public evidence."
+    },
+    {
+      "claim_id": "C-008",
+      "claim": "Replayability can remain operationally meaningful after compression when summaries are linked to surviving event, transcript, tool, and metadata surfaces, but causal replay adequacy remains bounded.",
+      "claim_level": "inferred",
+      "evidence_refs": [
+        "openclaw-doc-trajectory-bundles",
+        "openclaw-doc-compaction",
+        "openhands-doc-condenser-architecture",
+        "openhands-doc-events-architecture",
+        "openhands-doc-browser-session-recording",
+        "shared-rrweb-readme"
+      ],
+      "appears_in": [
+        "analysis_v0_1.md",
+        "evidence_backed_findings.json"
+      ],
+      "risk_if_overstated": "Could imply validated end-to-end replay after compression.",
+      "safe_public_wording": "Public evidence supports meaningful replay surfaces, while causal replay adequacy remains bounded by available lineage."
+    },
+    {
+      "claim_id": "C-009",
+      "claim": "Public evidence directly describes recovery-loop compression triggers.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "openclaw-doc-compaction",
+        "openhands-doc-condenser-architecture",
+        "openhands-doc-events-architecture"
+      ],
+      "appears_in": [
+        "analysis_v0_1.md",
+        "evidence_backed_findings.json"
+      ],
+      "risk_if_overstated": "Could imply complete recovery-loop replayability rather than documented trigger mechanisms.",
+      "safe_public_wording": "Public docs describe recovery-triggered compression mechanisms; full recovery-loop replay remains a separate evidence requirement."
+    },
+    {
+      "claim_id": "C-010",
+      "claim": "Intent continuity drift is a plausible compression risk when summaries omit constraints, authority, timing, or action boundaries.",
+      "claim_level": "hypothesis",
+      "evidence_refs": [
+        "openclaw-doc-memory-overview",
+        "openclaw-doc-compaction",
+        "openhands-doc-condenser-architecture"
+      ],
+      "appears_in": [
+        "analysis_v0_1.md",
+        "evidence_backed_findings.json",
+        "unresolved_questions.md"
+      ],
+      "risk_if_overstated": "Could imply observed intent drift where this analysis only has a plausible operational risk.",
+      "safe_public_wording": "Intent drift remains a hypothesis requiring comparison of original intent-bearing context with compressed outputs."
+    },
+    {
+      "claim_id": "C-011",
+      "claim": "Compression may preserve task utility while reducing replay fidelity unless survivable lineage metadata is retained.",
+      "claim_level": "inferred",
+      "evidence_refs": [
+        "openclaw-doc-compaction",
+        "openclaw-doc-trajectory-bundles",
+        "openhands-doc-condenser-architecture",
+        "openhands-doc-events-architecture"
+      ],
+      "appears_in": [
+        "analysis_v0_1.md",
+        "evidence_backed_findings.json"
+      ],
+      "risk_if_overstated": "Could imply a measured replay benchmark rather than a conservative synthesis from documented mechanisms.",
+      "safe_public_wording": "Compression may preserve task utility while reducing replay fidelity unless survivable lineage metadata is retained."
+    }
+  ]
+}
