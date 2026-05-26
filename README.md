@@ -28,7 +28,6 @@ Operational Cognition exists to make that public layer explicit.
 - Belief Ledger internals
 - Inside Voice internals
 - proprietary cognition routing
-- harmonic traceback implementation
 
 ## Proof 001
 
