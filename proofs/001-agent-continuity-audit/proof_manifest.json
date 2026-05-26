@@ -1,7 +1,7 @@
 {
   "proof_id": "001-agent-continuity-audit",
   "title": "Replayable Continuity Audit of Long-Horizon Agent Failure",
-  "status": "planning",
+  "status": "evidence_collection",
   "targets": [
     "OpenClaw",
     "OpenHands"
@@ -16,12 +16,20 @@
     "replayability_plan.md",
     "mitigation_doctrine.md",
     "public_lineage_summary.md",
+    "evidence_manifest.json",
+    "continuity_signals.md",
+    "investigation_log.jsonl",
     "proof_manifest.json"
   ],
   "disallowed_claims": [
     "AGI",
     "consciousness",
+    "black_box_interpretability_solved",
+    "hidden_exploit_discovered",
+    "superiority_over_target_systems",
     "substrate_disclosure",
+    "substrate_level_understanding",
+    "mechanistic_interpretability",
     "hidden_chain_of_thought"
   ],
   "lineage": {

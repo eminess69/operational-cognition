@@ -11,7 +11,11 @@ Investigate whether long-horizon agent failures can be reconstructed through rep
 
 ## Status
 
-Planning scaffold only. This proof is not complete and does not yet contain gathered evidence, validated findings, or final conclusions.
+Current phase: Evidence collection and replayable source normalization.
+
+No conclusions have been reached. No continuity failure claims are validated yet. The current focus is building deterministic public evidence lineage.
+
+The proof remains at claim level `planning_scaffold` until evidence-backed analysis is separately validated.
 
 ## Expected Outputs
 
@@ -21,6 +25,9 @@ Planning scaffold only. This proof is not complete and does not yet contain gath
 - replayability plan
 - mitigation doctrine
 - public lineage summary
+- evidence manifest
+- continuity pressure signal taxonomy
+- replayable investigation log
 - deterministic proof manifest
 
 ## Public/Private Boundary

@@ -31,11 +31,11 @@ Create a public proof framework and Proof 001 scaffold for replayable continuity
 
 ## Unresolved Uncertainty
 
-- Evidence has not yet been collected.
+- Evidence collection has begun, but analysis has not.
 - The current MCP adapter is placeholder and advisory only.
-- The initial failure taxonomy requires validation against public evidence.
+- The initial failure taxonomy requires validation against the collected public evidence.
 
-## Next Evidence Requirements
+## Further Evidence Requirements
 
 - public OpenClaw repository documentation
 - public OpenHands repository documentation

@@ -1,0 +1,27 @@
+{
+  "capture_method": "github_issue",
+  "content_format": "normalized_text_v1",
+  "content_hash": "214d5303746d96fef34c9e89655c1bfb79938df720542df5a6a0c327d7f46b45",
+  "fetch_url": "https://api.github.com/repos/openclaw/openclaw/issues/41216",
+  "id": "openclaw-issue-41216",
+  "normalized_content": "GitHub issue: Feature request: memory flush before /new and /restart session reset URL: https://github.com/openclaw/openclaw/issues/41216 Number: 41216 State: closed State reason: completed Created at: 2026-03-09T15:59:15Z Updated at: 2026-04-27T04:29:30Z Closed at: 2026-04-24T21:05:54Z Labels: Body: ## Problem `/new` and `/restart` immediately destroy the session without any opportunity to persist context. The pre-compaction memory flush (`compaction.memoryFlush`) works great for auto-compaction, but session resets bypass it entirely. This means any work, decisions, or context accumulated since the last memory write is silently lost. ## Proposed solution Add a config option like `compaction.flushOnSessionReset: true` (or `memoryFlush.onReset: true`) that triggers the same silent memory flush turn before `/new` or `/restart` clears the session. The flow would be: 1. User sends `/new` 2. Gateway fires the memory flush prompt (same as pre-compaction flush) 3. Agent writes durable notes to memory files 4. Session is cleared ## Why this matters For users with persistent memory systems (memory/*.md files, MEMORY.md, etc.), the pre-compaction flush is the safety net that prevents context loss. But `/new` and `/restart` have no equivalent safety net, so users must manually remember to say \"write session notes\" before resetting — which they often forget. ## Current workaround Manually asking the agent to write session notes before running `/new`. Works but relies on human memory, which is ironic for a memory management feature. ## Environment - OpenClaw 2026.3.8 - Running on Linux (LXC), Telegram channel - Using tiered memory system with domain-specific files",
+  "raw_metadata": {
+    "author_association": "NONE",
+    "body_full_sha256": "562828d4afcb50a99c8ebfffb107aa7203cdc2bdbb8d426e5f4bec5b3179bc80",
+    "body_length": 1388,
+    "body_truncated": false,
+    "closed_at": "2026-04-24T21:05:54Z",
+    "comments": 3,
+    "created_at": "2026-03-09T15:59:15Z",
+    "labels": [],
+    "number": 41216,
+    "state": "closed",
+    "state_reason": "completed",
+    "updated_at": "2026-04-27T04:29:30Z"
+  },
+  "retrieved_at": "2026-05-26T02:28:22Z",
+  "system": "OpenClaw",
+  "title": "Feature request: memory flush before /new and /restart session reset",
+  "type": "issue",
+  "url": "https://github.com/openclaw/openclaw/issues/41216"
+}

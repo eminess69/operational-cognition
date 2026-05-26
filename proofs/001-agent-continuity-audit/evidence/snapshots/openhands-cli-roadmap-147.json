@@ -1,0 +1,30 @@
+{
+  "capture_method": "github_issue",
+  "content_format": "normalized_text_v1",
+  "content_hash": "7a4fa95bd0d075a672f040404cf7f1b4bbb37cb1101de3e803540699f01c30ce",
+  "fetch_url": "https://api.github.com/repos/OpenHands/OpenHands-CLI/issues/147",
+  "id": "openhands-cli-roadmap-147",
+  "normalized_content": "GitHub issue: [PRD] Support non-interactive CLI mode URL: https://github.com/OpenHands/OpenHands-CLI/issues/147 Number: 147 State: closed State reason: completed Created at: 2025-08-20T16:33:01Z Updated at: 2025-12-29T22:30:19Z Closed at: 2025-12-29T22:30:19Z Labels: enhancement, roadmap Body: ## Problems to solve * Current Headless mode is not at parity with [OpenHands CLI](https://docs.all-hands.dev/usage/how-to/cli-mode) * No MCP support * Designed originally for debugging OpenHands; but not for building scalable automation/scripting * Users want a non-interactive CLI experience with OpenHands, but the current Headless mode is difficult to install, hard to use * Hard to configure * Requires docker and following development instructions * Many users don’t have `tmux` installed ## Customer / User evidence * Some customers have built custom integrations and interact with OpenHands through the existing websocket connection. * Several open source users have built custom automation around OpenHands, but have made significant changes or forks to make this possible. * Interviews with Open Source users have indicated they'd prefer to start with a non-interactive CLI mode instead of the current Terminal UI. These users prefer to build custom automation that allows them to run multiple conversations at once. ## Goals * easy to install * ability to run as a command line * works on Windows, Mac, and Linux environments ## **Requirements** * Should not require docker (already accomplished with current CLI) * After a command is entered, display a counter/spinner to show the user the CLI is working * Allows for users to start conversations from the command line into the Terminal UI * `openhands \"start a convo\"` * Allows users to run one-off prompts - outputs as text (max verbosity) * `openhands exec \"do a flip\"` * Allows users to resume a local conversation into the Terminal UI * `openhands resume <GUID>` * Resume last conversation * `openhands resume --last` * List available conversations to resume * `openhands resume` * Ability to change output format as an argument (json, text \\[default\\]) * `openhands exec \"do a flip\" --output json` * Ability to configure LLM auto-approve * #107 **Nice to have** * Ability to call and use microagents from prompts * Ability to delegate a task to OpenHands Cloud (depends on https://github.com/All-Hands-AI/OpenHands-Cloud/issues/205) * `openhands -cloud -p 'do a flip'`",
+  "raw_metadata": {
+    "author_association": "NONE",
+    "body_full_sha256": "408bac3ad4cda86ee701e2e31e0978a1c64279ada0dd7d328fdf9d4f89e0166b",
+    "body_length": 2172,
+    "body_truncated": false,
+    "closed_at": "2025-12-29T22:30:19Z",
+    "comments": 11,
+    "created_at": "2025-08-20T16:33:01Z",
+    "labels": [
+      "enhancement",
+      "roadmap"
+    ],
+    "number": 147,
+    "state": "closed",
+    "state_reason": "completed",
+    "updated_at": "2025-12-29T22:30:19Z"
+  },
+  "retrieved_at": "2026-05-26T02:28:22Z",
+  "system": "OpenHands",
+  "title": "OpenHands CLI non-interactive mode PRD",
+  "type": "roadmap",
+  "url": "https://github.com/OpenHands/OpenHands-CLI/issues/147"
+}

@@ -1,0 +1,237 @@
+{
+  "proof_id": "001-agent-continuity-audit",
+  "sources": [
+    {
+      "content_hash": "5bba405c912e8a1f64f38c7af2efde94265a31ba4825f432dd64863a5c0d9c7e",
+      "id": "openclaw-doc-compaction",
+      "notes": "Public documentation describes compaction behavior; included as architecture evidence, not a validated failure claim.",
+      "retrieved_at": "2026-05-26T02:28:22Z",
+      "snapshot_path": "evidence/snapshots/openclaw-doc-compaction.json",
+      "system": "OpenClaw",
+      "tags": [
+        "long-horizon-execution",
+        "memory-persistence",
+        "replayability"
+      ],
+      "title": "OpenClaw Compaction",
+      "type": "doc",
+      "url": "https://docs.openclaw.ai/concepts/compaction"
+    },
+    {
+      "content_hash": "dc314cebfee2895907b16db34900ed08861fad8acbf5fa731d29f6f841f9d995",
+      "id": "openclaw-doc-memory-overview",
+      "notes": "Public documentation describes memory persistence mechanisms and limits; no continuity finding is inferred.",
+      "retrieved_at": "2026-05-26T02:28:22Z",
+      "snapshot_path": "evidence/snapshots/openclaw-doc-memory-overview.json",
+      "system": "OpenClaw",
+      "tags": [
+        "memory-persistence",
+        "multi-session-coordination"
+      ],
+      "title": "OpenClaw Memory overview",
+      "type": "doc",
+      "url": "https://docs.openclaw.ai/concepts/memory"
+    },
+    {
+      "content_hash": "e85de239fc63b94277057d8a8e820b2ea767e025c053784f1b360cbf74fb2870",
+      "id": "openclaw-doc-trajectory-bundles",
+      "notes": "Public documentation describes trajectory export as an audit/debugging surface; included for lineage baseline only.",
+      "retrieved_at": "2026-05-26T02:28:22Z",
+      "snapshot_path": "evidence/snapshots/openclaw-doc-trajectory-bundles.json",
+      "system": "OpenClaw",
+      "tags": [
+        "replayability",
+        "tool-action-lineage"
+      ],
+      "title": "OpenClaw Trajectory bundles",
+      "type": "doc",
+      "url": "https://docs.openclaw.ai/tools/trajectory"
+    },
+    {
+      "content_hash": "214d5303746d96fef34c9e89655c1bfb79938df720542df5a6a0c327d7f46b45",
+      "id": "openclaw-issue-41216",
+      "notes": "Public issue reports a requested memory-flush behavior before reset; preserved as reported evidence only.",
+      "retrieved_at": "2026-05-26T02:28:22Z",
+      "snapshot_path": "evidence/snapshots/openclaw-issue-41216.json",
+      "system": "OpenClaw",
+      "tags": [
+        "memory-persistence",
+        "session-reset"
+      ],
+      "title": "Feature request: memory flush before /new and /restart session reset",
+      "type": "issue",
+      "url": "https://github.com/openclaw/openclaw/issues/41216"
+    },
+    {
+      "content_hash": "22e8586ad7282feac3d564fb04b34f2d5dd840bbfcf8e5eea723ceb20ecd9a03",
+      "id": "openclaw-issue-45981",
+      "notes": "Public bug report about session memory indexing after restart; included as reported evidence, not independent validation.",
+      "retrieved_at": "2026-05-26T02:28:22Z",
+      "snapshot_path": "evidence/snapshots/openclaw-issue-45981.json",
+      "system": "OpenClaw",
+      "tags": [
+        "memory-persistence",
+        "multi-session-coordination",
+        "recovery-loop"
+      ],
+      "title": "Session memory index silently dropped on gateway restart",
+      "type": "issue",
+      "url": "https://github.com/openclaw/openclaw/issues/45981"
+    },
+    {
+      "content_hash": "5411a42c6a28681b11a4421979c384837373fe2f2851c973771c04b0d158f1bc",
+      "id": "openclaw-issue-48217",
+      "notes": "Public feature request reports perceived continuity loss across /new sessions; uncertainty is preserved.",
+      "retrieved_at": "2026-05-26T02:28:22Z",
+      "snapshot_path": "evidence/snapshots/openclaw-issue-48217.json",
+      "system": "OpenClaw",
+      "tags": [
+        "cross-session-consistency",
+        "memory-persistence",
+        "session-reset"
+      ],
+      "title": "/new starts sessions as if no prior history existed",
+      "type": "issue",
+      "url": "https://github.com/openclaw/openclaw/issues/48217"
+    },
+    {
+      "content_hash": "b3233df6659d52c7cdff54ead1fc739bb7e7a9812f525b3b0bf8c927c283f384",
+      "id": "openclaw-issue-58802",
+      "notes": "Public bug report about long-running session resource growth; included as reported evidence only.",
+      "retrieved_at": "2026-05-26T02:28:22Z",
+      "snapshot_path": "evidence/snapshots/openclaw-issue-58802.json",
+      "system": "OpenClaw",
+      "tags": [
+        "environmental-state",
+        "long-horizon-execution",
+        "recovery-loop"
+      ],
+      "title": "SessionManager.fileEntries grows unbounded in memory",
+      "type": "issue",
+      "url": "https://github.com/openclaw/openclaw/issues/58802"
+    },
+    {
+      "content_hash": "7a4fa95bd0d075a672f040404cf7f1b4bbb37cb1101de3e803540699f01c30ce",
+      "id": "openhands-cli-roadmap-147",
+      "notes": "Public PRD-style issue includes resume and non-interactive CLI requirements; not evidence of failure by itself.",
+      "retrieved_at": "2026-05-26T02:28:22Z",
+      "snapshot_path": "evidence/snapshots/openhands-cli-roadmap-147.json",
+      "system": "OpenHands",
+      "tags": [
+        "long-horizon-execution",
+        "multi-session-coordination"
+      ],
+      "title": "OpenHands CLI non-interactive mode PRD",
+      "type": "roadmap",
+      "url": "https://github.com/OpenHands/OpenHands-CLI/issues/147"
+    },
+    {
+      "content_hash": "585c56e009027dcf75d8920bca5ff59b28708ca22b6ad33573c7ae0138ed2511",
+      "id": "openhands-doc-agent-architecture",
+      "notes": "Public architecture documentation describes a stateless event-driven reasoning-action loop.",
+      "retrieved_at": "2026-05-26T02:28:22Z",
+      "snapshot_path": "evidence/snapshots/openhands-doc-agent-architecture.json",
+      "system": "OpenHands",
+      "tags": [
+        "long-horizon-execution",
+        "tool-action-lineage"
+      ],
+      "title": "OpenHands SDK Agent architecture",
+      "type": "doc",
+      "url": "https://docs.openhands.dev/sdk/arch/agent"
+    },
+    {
+      "content_hash": "f3e21d8397245bc23cbc849d3ae0e16e73fbf831b5297b5b6d48ecfc880530ab",
+      "id": "openhands-doc-browser-session-recording",
+      "notes": "Public documentation describes browser session recording and replay support.",
+      "retrieved_at": "2026-05-26T02:28:22Z",
+      "snapshot_path": "evidence/snapshots/openhands-doc-browser-session-recording.json",
+      "system": "OpenHands",
+      "tags": [
+        "replayability",
+        "tool-action-lineage"
+      ],
+      "title": "OpenHands Browser Session Recording",
+      "type": "doc",
+      "url": "https://docs.openhands.dev/sdk/guides/browser-session-recording"
+    },
+    {
+      "content_hash": "435ed6315f01b47485e972f32a73f6dae6bb35992f2c8a8d0a8752bf4b63a9a7",
+      "id": "openhands-doc-condenser-architecture",
+      "notes": "Public architecture documentation describes conversation history compression and forgotten event IDs.",
+      "retrieved_at": "2026-05-26T02:28:22Z",
+      "snapshot_path": "evidence/snapshots/openhands-doc-condenser-architecture.json",
+      "system": "OpenHands",
+      "tags": [
+        "architectural-drift",
+        "memory-persistence"
+      ],
+      "title": "OpenHands SDK Condenser architecture",
+      "type": "doc",
+      "url": "https://docs.openhands.dev/sdk/arch/condenser"
+    },
+    {
+      "content_hash": "61fb28f0d59edbed3bb3454f32ccaa47608274d461ec523b66b4da3b9757eb69",
+      "id": "openhands-doc-conversation-architecture",
+      "notes": "Public architecture documentation describes conversation state, event logs, persistence, and execution modes.",
+      "retrieved_at": "2026-05-26T02:28:22Z",
+      "snapshot_path": "evidence/snapshots/openhands-doc-conversation-architecture.json",
+      "system": "OpenHands",
+      "tags": [
+        "environmental-state",
+        "multi-session-coordination",
+        "tool-action-lineage"
+      ],
+      "title": "OpenHands SDK Conversation architecture",
+      "type": "doc",
+      "url": "https://docs.openhands.dev/sdk/arch/conversation"
+    },
+    {
+      "content_hash": "5833b2c27aec14da410e0901b0c6a321d95990f0f6447c017a621dbb3cbee3f9",
+      "id": "openhands-issue-11432",
+      "notes": "Public bug report describes a stalled headless run after task tracking; included as reported evidence.",
+      "retrieved_at": "2026-05-26T02:28:22Z",
+      "snapshot_path": "evidence/snapshots/openhands-issue-11432.json",
+      "system": "OpenHands",
+      "tags": [
+        "long-horizon-execution",
+        "recovery-loop",
+        "tool-action-lineage"
+      ],
+      "title": "Deadlock after TaskTrackingAction in headless mode",
+      "type": "issue",
+      "url": "https://github.com/OpenHands/OpenHands/issues/11432"
+    },
+    {
+      "content_hash": "48eec61e4e6102af9e1cb043e6f4409c6417450497b91610c1cb3f2dac4077a3",
+      "id": "openhands-issue-13109",
+      "notes": "Public bug report describes sandbox workspace initialization divergence; included as reported evidence.",
+      "retrieved_at": "2026-05-26T02:28:22Z",
+      "snapshot_path": "evidence/snapshots/openhands-issue-13109.json",
+      "system": "OpenHands",
+      "tags": [
+        "environmental-state",
+        "long-horizon-execution"
+      ],
+      "title": "Workspace directory cannot be created when starting tasks",
+      "type": "issue",
+      "url": "https://github.com/OpenHands/OpenHands/issues/13109"
+    },
+    {
+      "content_hash": "da09e1a8503cae6960befb4bc30ff4c944c502f3ed4c6b2e929a02fb23662244",
+      "id": "openhands-issue-14287",
+      "notes": "Public issue reports role-order interaction between recall actions and strict-alternation backends; unresolved at retrieval.",
+      "retrieved_at": "2026-05-26T02:28:22Z",
+      "snapshot_path": "evidence/snapshots/openhands-issue-14287.json",
+      "system": "OpenHands",
+      "tags": [
+        "memory-persistence",
+        "tool-action-lineage"
+      ],
+      "title": "RecallAction produces two consecutive USER turns",
+      "type": "issue",
+      "url": "https://github.com/OpenHands/OpenHands/issues/14287"
+    }
+  ],
+  "status": "evidence_collection"
+}

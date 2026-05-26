@@ -1,0 +1,30 @@
+{
+  "capture_method": "github_issue",
+  "content_format": "normalized_text_v1",
+  "content_hash": "22e8586ad7282feac3d564fb04b34f2d5dd840bbfcf8e5eea723ceb20ecd9a03",
+  "fetch_url": "https://api.github.com/repos/openclaw/openclaw/issues/45981",
+  "id": "openclaw-issue-45981",
+  "normalized_content": "GitHub issue: [Bug]: Session memory index silently dropped on every gateway restart (shouldSync Sessions priority bug) URL: https://github.com/openclaw/openclaw/issues/45981 Number: 45981 State: closed State reason: completed Created at: 2026-03-14T10:23:42Z Updated at: 2026-04-27T04:44:03Z Closed at: 2026-04-25T00:59:39Z Labels: bug, bug:behavior Body: ### Bug type Behavior bug (incorrect output/state without crash) ### Summary Session files are silently dropped from the memory index on every gateway restart. After restart, `memory_search` returns no results for previous sessions — only the currently active session gets indexed. ### Steps to reproduce 1. Configure `memorySearch.sources: [\"memory\", \"sessions\"]` with `experimental.sessionMemory: true` and `sync.onSessionStart: true` 2. Use the system normally — sessions accumulate and get indexed over time 3. Restart the gateway (`openclaw gateway restart`, SIGUSR1, config change, or update) 4. Query the memory database: `sqlite3 ~/.openclaw/memory/main.sqlite \"SELECT source, COUNT(*) FROM chunks GROUP BY source;\"` ### Expected behavior Both `memory` and `sessions` chunks are present in the index after restart. Historical session files remain searchable via `memory_search`. ### Actual behavior After restart, only `memory` chunks are present. The `sessions` source shows 0 chunks or only the single currently active session. All historical session data is gone from the index. The meta table still records `sources: [\"memory\", \"sessions\"]`, so subsequent interval syncs see matching meta, skip full reindex, and never recover the lost session data. ### OpenClaw version 2026.3.12 (6472949) ### Operating system Ubuntu 24.04 LTS ### Install method npm global ### Model anthropic/claude-opus-4-6 (model is irrelevant — this is a memory subsystem bug ### Provider / routing chain Embedding provider: Voyage (voyage-4-large) via memorySearch.remote.apiKey ### Config file / key location ~/.openclaw/openclaw.json ; agents.defaults.memorySearch ### Additional provider/model setup details Relevant memory config: ``` \"memorySearch\": { \"enabled\": true, \"sources\": [\"memory\", \"sessions\"], \"experimental\": { \"sessionMemory\": true }, \"provider\": \"voyage\", \"model\": \"voyage-4-lite\", \"sync\": { \"onSessionStart\": true, \"onSearch\": true, \"watch\": true, \"intervalMinutes\": 5, \"sessions\": { \"deltaBytes\": 5000, \"deltaMessages\": 10 } } } ``` ### Logs, screenshots, and evidence ```shell After restart, database state: $ sqlite3 ~/.openclaw/memory/main.sqlite \"SELECT source, COUNT(*) FROM chunks GROUP BY source;\" memory|749 sessions|8 Expected ~6000+ session chunks (3200+ session files on disk). Leftover temp file from runSafeReindex confirms — temp DB contains only memory chunks: $ sqlite3 ~/.openclaw/memory/main.sqlite.tmp-* \"SELECT source, COUNT(*) FROM chunks GROUP BY source;\" memory|104 Root cause in source — shouldSyncSessions() in memory-core: shouldSyncSessions(params, needsFullReindex = false) { if (!this.sources.has(\"sessions\")) return false; if (params?.sessionFiles?.some((f) => f.trim().length > 0)) return true; if (params?.force) return true; const reason = params?.reason; // BUG: reason check comes BEFORE needsFullReindex if (reason === \"session-start\" || reason === \"watch\") return false; // early return if (needsFullReindex) return true; // never reached on restart return this.sessionsDirty && this.sessionsDirtyFiles.size > 0; } Call chain: 1. onSessionStart: true → sync({ reason: \"session-start\" }) 2. No meta (or stale) → needsFullReindex = true 3. runSafeReindex() → creates temp DB → shouldSyncSessions({ reason: \"session-start\" }, true) 4. reason === \"session-start\" fires first → returns false → sessions skipped 5. Temp DB (memory only) replaces original → session index data lost 6. Meta written with sources: [\"memory\", \"sessions\"] → interval syncs match → no recovery ``` ### Impact and severity Affected: All users with memorySearch.sources including \"sessions\" and experimental.sessionMemory: true Severity: High (silently destroys session search index on every restart) Frequency: 100% — occurs on every gateway restart, config change, or update Consequence: memory_search loses all historical session context. Agent cannot recall previous conversations. ### Additional information Suggested fix — move the needsFullReindex check before the reason-based early return: ``` shouldSyncSessions(params, needsFullReindex = false) { if (!this.sources.has(\"sessions\")) return false; if (params?.sessionFiles?.some((f) => f.trim().length > 0)) return true; if (params?.force) return true; if (needsFullReindex) return true; // ← moved BEFORE reason check const reason = params?.reason; if (reason === \"session-start\" || reason === \"watch\") return false; return this.sessionsDirty && this.sessionsDirtyFiles.size > 0; } ``` This preserves skipping sessions on routine session-start/watch events while ens uring full reindex always includes sessions. Workaround: openclaw memory index --force after every restart.",
+  "raw_metadata": {
+    "author_association": "NONE",
+    "body_full_sha256": "f9059d7d4888c070d0446298aab0f806658d0626904311aef0c38c206ec8c825",
+    "body_length": 4782,
+    "body_truncated": false,
+    "closed_at": "2026-04-25T00:59:39Z",
+    "comments": 2,
+    "created_at": "2026-03-14T10:23:42Z",
+    "labels": [
+      "bug",
+      "bug:behavior"
+    ],
+    "number": 45981,
+    "state": "closed",
+    "state_reason": "completed",
+    "updated_at": "2026-04-27T04:44:03Z"
+  },
+  "retrieved_at": "2026-05-26T02:28:22Z",
+  "system": "OpenClaw",
+  "title": "Session memory index silently dropped on gateway restart",
+  "type": "issue",
+  "url": "https://github.com/openclaw/openclaw/issues/45981"
+}

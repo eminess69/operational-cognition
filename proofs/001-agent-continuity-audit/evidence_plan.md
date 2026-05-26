@@ -1,6 +1,6 @@
 # Evidence Plan
 
-This proof has not yet gathered evidence. The following sources are planned for later collection and validation.
+This proof has begun evidence collection. The current collection is public-only and preserves source URLs, local snapshots, normalized content hashes, and uncertainty notes.
 
 ## Planned Evidence Sources
 
@@ -24,4 +24,6 @@ This proof has not yet gathered evidence. The following sources are planned for 
 
 ## Evidence Status
 
-No evidence is claimed in this scaffold. Any later claim must be backed by public source references or marked as hypothesis.
+Evidence collection v0.1 exists in `evidence_manifest.json` with normalized snapshots under `evidence/snapshots/`.
+
+No conclusions are claimed. Any later claim must be backed by public source references or marked as hypothesis.
