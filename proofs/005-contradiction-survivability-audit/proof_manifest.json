@@ -1,0 +1,41 @@
+{
+  "claim_level": "planning_scaffold",
+  "disallowed_claims": [
+    "AGI",
+    "consciousness",
+    "black_box_solved",
+    "substrate_disclosure",
+    "hidden_chain_of_thought",
+    "belief_ledger_internals",
+    "inside_voice_internals",
+    "harmonic_traceback_implementation"
+  ],
+  "inside_voice_adapter_status": "placeholder",
+  "lineage": {
+    "contract_version": "inside_voice.mcp.consultation.v1",
+    "mcp_endpoint": "http://127.0.0.1:8766",
+    "request_hash": "b41ecc610cb28b3611f85c073ede6483d900c61ae09c2da607da91ca164097ab",
+    "response_hash": "ffc6b71b6a1e5298c02f66d51199dd591e4322806d69720def5f10eb11d5d31b"
+  },
+  "proof_id": "005-contradiction-survivability-audit",
+  "public_private_boundary": "sanitized_public_artifacts_only",
+  "required_artifacts": [
+    "README.md",
+    "problem_statement.md",
+    "evidence_plan.md",
+    "../005-contradiction-dimension-model.md",
+    "ambiguity_survivability_taxonomy.md",
+    "contradiction_replayability_matrix.md",
+    "mitigation_doctrine.md",
+    "public_lineage_summary.md",
+    "proof_manifest.json",
+    "investigation_log.jsonl",
+    "evidence_manifest.json"
+  ],
+  "status": "evidence_collection",
+  "targets": [
+    "OpenClaw",
+    "OpenHands"
+  ],
+  "title": "Contradiction Survivability Audit for Long-Horizon Agent Systems"
+}

@@ -10,6 +10,7 @@ Each proof pack is a bounded investigation scaffold or evidence-backed analysis 
 - `002-replayability-gap-audit`: Replayability Gap Audit for Long-Horizon Agent Systems
 - `003-continuity-compression-audit`: Continuity Compression Audit for Long-Horizon Agent Systems
 - `004-operational-failure-reconstruction`: Operational Failure Reconstruction Audit for Long-Horizon Agent Systems
+- `005-contradiction-survivability-audit`: Contradiction Survivability Audit for Long-Horizon Agent Systems
 
 ## Status Language
 
