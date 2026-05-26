@@ -1,0 +1,165 @@
+{
+  "proof_id": "006-memory-authority-survivability-audit",
+  "sources": [
+    {
+      "content_hash": "5bba405c912e8a1f64f38c7af2efde94265a31ba4825f432dd64863a5c0d9c7e",
+      "id": "openclaw-doc-compaction",
+      "notes": "Public documentation describes compaction, successor transcript, and memory-flush surfaces relevant to authority preservation review.",
+      "retrieved_at": "2026-05-26T04:09:31Z",
+      "snapshot_path": "evidence/snapshots/openclaw-doc-compaction.json",
+      "system": "OpenClaw",
+      "tags": [
+        "memory-promotion",
+        "summary-authority",
+        "temporal-validity"
+      ],
+      "title": "OpenClaw Compaction",
+      "type": "doc",
+      "url": "https://docs.openclaw.ai/concepts/compaction"
+    },
+    {
+      "content_hash": "dc314cebfee2895907b16db34900ed08861fad8acbf5fa731d29f6f841f9d995",
+      "id": "openclaw-doc-memory-overview",
+      "notes": "Public documentation describes memory files, action-sensitive memory boundaries, recall surfaces, and promotion/review lanes relevant to memory authority.",
+      "retrieved_at": "2026-05-26T04:09:31Z",
+      "snapshot_path": "evidence/snapshots/openclaw-doc-memory-overview.json",
+      "system": "OpenClaw",
+      "tags": [
+        "memory-promotion",
+        "source-authority",
+        "stale-belief",
+        "supersession"
+      ],
+      "title": "OpenClaw Memory overview",
+      "type": "doc",
+      "url": "https://docs.openclaw.ai/concepts/memory"
+    },
+    {
+      "content_hash": "e85de239fc63b94277057d8a8e820b2ea767e025c053784f1b360cbf74fb2870",
+      "id": "openclaw-doc-trajectory-bundles",
+      "notes": "Public documentation describes trajectory export surfaces relevant to replay provenance and authority lineage review.",
+      "retrieved_at": "2026-05-26T04:09:31Z",
+      "snapshot_path": "evidence/snapshots/openclaw-doc-trajectory-bundles.json",
+      "system": "OpenClaw",
+      "tags": [
+        "authority-lineage",
+        "replay-authority",
+        "temporal-validity"
+      ],
+      "title": "OpenClaw Trajectory bundles",
+      "type": "doc",
+      "url": "https://docs.openclaw.ai/tools/trajectory"
+    },
+    {
+      "content_hash": "76748a65095ced22fee82ae29fe75446c1923fdd0c10dcf1820bd194489afc60",
+      "id": "openhands-doc-agent-server-architecture",
+      "notes": "Public architecture documentation describes remote execution and workspace surfaces relevant to operational truth and recovery boundaries.",
+      "retrieved_at": "2026-05-26T04:09:31Z",
+      "snapshot_path": "evidence/snapshots/openhands-doc-agent-server-architecture.json",
+      "system": "OpenHands",
+      "tags": [
+        "operational-truth",
+        "recovery-path",
+        "runtime-provenance"
+      ],
+      "title": "OpenHands SDK Agent Server architecture",
+      "type": "doc",
+      "url": "https://docs.openhands.dev/sdk/arch/agent-server"
+    },
+    {
+      "content_hash": "f3e21d8397245bc23cbc849d3ae0e16e73fbf831b5297b5b6d48ecfc880530ab",
+      "id": "openhands-doc-browser-session-recording",
+      "notes": "Public documentation describes browser recording and replay support used as context for visible replay authority limits.",
+      "retrieved_at": "2026-05-26T04:09:31Z",
+      "snapshot_path": "evidence/snapshots/openhands-doc-browser-session-recording.json",
+      "system": "OpenHands",
+      "tags": [
+        "replay-authority",
+        "visible-replay"
+      ],
+      "title": "OpenHands Browser Session Recording",
+      "type": "doc",
+      "url": "https://docs.openhands.dev/sdk/guides/browser-session-recording"
+    },
+    {
+      "content_hash": "435ed6315f01b47485e972f32a73f6dae6bb35992f2c8a8d0a8752bf4b63a9a7",
+      "id": "openhands-doc-condenser-architecture",
+      "notes": "Public architecture documentation describes history compression, summaries, forgotten event IDs, and condensed views relevant to summary authority review.",
+      "retrieved_at": "2026-05-26T04:09:31Z",
+      "snapshot_path": "evidence/snapshots/openhands-doc-condenser-architecture.json",
+      "system": "OpenHands",
+      "tags": [
+        "omitted-range",
+        "summary-authority",
+        "supersession"
+      ],
+      "title": "OpenHands SDK Condenser architecture",
+      "type": "doc",
+      "url": "https://docs.openhands.dev/sdk/arch/condenser"
+    },
+    {
+      "content_hash": "61fb28f0d59edbed3bb3454f32ccaa47608274d461ec523b66b4da3b9757eb69",
+      "id": "openhands-doc-conversation-architecture",
+      "notes": "Public architecture documentation describes conversation state, event logs, persistence, and execution status relevant to authority continuity.",
+      "retrieved_at": "2026-05-26T04:09:31Z",
+      "snapshot_path": "evidence/snapshots/openhands-doc-conversation-architecture.json",
+      "system": "OpenHands",
+      "tags": [
+        "event-lineage",
+        "memory-persistence",
+        "temporal-validity"
+      ],
+      "title": "OpenHands SDK Conversation architecture",
+      "type": "doc",
+      "url": "https://docs.openhands.dev/sdk/arch/conversation"
+    },
+    {
+      "content_hash": "08fcf5c4719d16cd5df8571402b79a5e7bd0d1dfcd4232fa96a89377cf74512f",
+      "id": "openhands-doc-events-architecture",
+      "notes": "Public architecture documentation describes typed events and action/observation flows relevant to source authority and replay lineage.",
+      "retrieved_at": "2026-05-26T04:09:31Z",
+      "snapshot_path": "evidence/snapshots/openhands-doc-events-architecture.json",
+      "system": "OpenHands",
+      "tags": [
+        "authority-lineage",
+        "event-lineage",
+        "source-authority"
+      ],
+      "title": "OpenHands SDK Events architecture",
+      "type": "doc",
+      "url": "https://docs.openhands.dev/sdk/arch/events"
+    },
+    {
+      "content_hash": "da09e1a8503cae6960befb4bc30ff4c944c502f3ed4c6b2e929a02fb23662244",
+      "id": "openhands-issue-14287",
+      "notes": "Public issue report describes a recall action transcript interaction; included as reported evidence only, not an independent target-system finding.",
+      "retrieved_at": "2026-05-26T04:09:31Z",
+      "snapshot_path": "evidence/snapshots/openhands-issue-14287.json",
+      "system": "OpenHands",
+      "tags": [
+        "memory-recall",
+        "recall-authority",
+        "source-authority"
+      ],
+      "title": "RecallAction produces two consecutive USER turns",
+      "type": "issue",
+      "url": "https://github.com/OpenHands/OpenHands/issues/14287"
+    },
+    {
+      "content_hash": "7a10fa61e9edcaf106ab38eebb97e35194492117f4068b6e9ad03519e3676043",
+      "id": "shared-rrweb-readme",
+      "notes": "Public upstream replay library documentation is included only as shared context for visible replay semantics.",
+      "retrieved_at": "2026-05-26T04:09:31Z",
+      "snapshot_path": "evidence/snapshots/shared-rrweb-readme.json",
+      "system": "Shared",
+      "tags": [
+        "replay-authority",
+        "visible-replay"
+      ],
+      "title": "rrweb README",
+      "type": "doc",
+      "url": "https://github.com/rrweb-io/rrweb"
+    }
+  ],
+  "status": "evidence_collection"
+}

@@ -1,0 +1,27 @@
+{
+  "capture_method": "github_issue",
+  "content_format": "normalized_text_v1",
+  "content_hash": "da09e1a8503cae6960befb4bc30ff4c944c502f3ed4c6b2e929a02fb23662244",
+  "fetch_url": "https://api.github.com/repos/OpenHands/OpenHands/issues/14287",
+  "id": "openhands-issue-14287",
+  "normalized_content": "GitHub issue: [Bug]: RecallAction with EventSource.USER after a user message produces two consecutive USER turns, breaks Mistral / SGLang strict-alternation backends URL: https://github.com/OpenHands/OpenHands/issues/14287 Number: 14287 State: open State reason: None Created at: 2026-05-04T13:42:04Z Updated at: 2026-05-04T13:42:04Z Closed at: None Labels: Body: ## Summary `AgentController._handle_message_action` dispatches a `RecallAction` with `EventSource.USER` and `recall_type: KNOWLEDGE` immediately after the user's message. The recall lands as a synthetic USER turn in the conversation transcript. The subsequent LLM request then carries two consecutive `user` messages (the original user input plus the recall), which any backend that enforces Mistral-template strict role alternation rejects with HTTP 400 `Conversation roles must alternate user/assistant/user/assistant/...`. This blocks every Mistral-family model served by SGLang, vLLM with Mistral chat-template, and any other strict-alternation backend, on the very first user prompt of every session. ## Reproduction 1. Run a Mistral model on an alternation-strict backend, for example SGLang nightly with Mistral Small 4: ``` docker run --gpus all -p 30000:30000 lmsysorg/sglang:nightly-dev-cu13-... \\ python -m sglang.launch_server --model-path /models/Mistral-Small-... \\ --host 0.0.0.0 --port 30000 ``` 2. Configure OpenHands with this as the LLM endpoint (OpenAI-compatible). 3. Send any prompt to the agent. 4. The provider returns: ``` {\"object\":\"error\",\"message\":\"Conversation roles must alternate user/assistant/user/assistant/...\"} ``` and the agent loop stalls before producing any output. ## Why this happens In `agent_controller.py` `_handle_message_action`, after a user message is recorded, a `RecallAction` is enqueued with `EventSource.USER` so the controller can fetch knowledge-base context before the model runs. The action is materialized into the transcript as a USER turn, even though semantically it is a system-side context-fetch, not a second user input. The result on the wire: ``` [ {\"role\": \"system\", \"content\": \"...\"}, {\"role\": \"user\", \"content\": \"user's actual prompt\"}, {\"role\": \"user\", \"content\": \"<RecallAction transcript>\"} ] ``` Mistral's chat template enforces strict alternation (this is intentional, not a bug in Mistral or SGLang). The two consecutive `user` turns fail validation. ## Workaround in production `enable_prompt_extensions=false` in `[agent]` section of `config.toml` skips the recall path entirely. This works but disables a legitimate feature and is an undocumented fallback in the user community. A second workaround is to patch `_handle_message_action` directly to skip the RecallAction when the configured provider is alternation-strict. Reproduction-quality patch sketched out in the linked write-up below. ## Suggested fix Three options that the existing OpenHands architecture could express: 1. **Don't emit RecallAction with EventSource.USER.** It is not a user input. Use `EventSource.AGENT` or a dedicated `EventSource.SYSTEM` so the materialized transcript turn does not collide with the actual user message. Cleanest fix, but may require touching downstream consumers that filter by source. 2. **Merge consecutive same-role messages at request-build time.** A pre-send transform in the LLM request builder concatenates back-to-back user/user (and assistant/assistant) turns. Same shape as the existing message normalization helpers. Defensive, covers any future case where consecutive same-role turns slip through. 3. **Provider capability flag.** Add `requires_strict_alternation: bool` to the LLM provider config. When true, OpenHands applies option 2 only for that provider, leaving other backends unaffected. Happy to draft a PR for option 1 or 2 if maintainers indicate preferred direction. ## Detailed write-up Full diagnosis sequence, including the `_handle_message_action` trace and the controller-patch workaround, plus the relationship to the `enable_prompt_extensions=false` config flag: https://sovgrid.org/blog/fixes-openhands-badrequest-fix/ ## Environment - OpenHands 0.59.0 (also reproduced against 0.60.x) - LLM: Mistral Small 4 served by SGLang nightly cu13 on NVIDIA DGX Spark (GB10) - Same failure shape would occur against any spec-compliant Mistral chat-template renderer",
+  "raw_metadata": {
+    "author_association": "NONE",
+    "body_full_sha256": "05f6f809e98e7f1e432f48e3a2492bef452404455589af771bc00882323ae351",
+    "body_length": 4023,
+    "body_truncated": false,
+    "closed_at": null,
+    "comments": 0,
+    "created_at": "2026-05-04T13:42:04Z",
+    "labels": [],
+    "number": 14287,
+    "state": "open",
+    "state_reason": null,
+    "updated_at": "2026-05-04T13:42:04Z"
+  },
+  "retrieved_at": "2026-05-26T04:09:31Z",
+  "system": "OpenHands",
+  "title": "RecallAction produces two consecutive USER turns",
+  "type": "issue",
+  "url": "https://github.com/OpenHands/OpenHands/issues/14287"
+}

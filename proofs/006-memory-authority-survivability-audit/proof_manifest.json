@@ -1,0 +1,41 @@
+{
+  "claim_level": "planning_scaffold",
+  "disallowed_claims": [
+    "AGI",
+    "consciousness",
+    "black_box_solved",
+    "substrate_disclosure",
+    "hidden_chain_of_thought",
+    "belief_ledger_internals",
+    "inside_voice_internals",
+    "harmonic_traceback_implementation"
+  ],
+  "inside_voice_adapter_status": "placeholder",
+  "lineage": {
+    "contract_version": "inside_voice.mcp.consultation.v1",
+    "mcp_endpoint": "http://127.0.0.1:8766",
+    "request_hash": "78958890ef24935a7a3f82e0d7b6931a4074985707abd7e09162455960f8a6d1",
+    "response_hash": "ead4522ef6ed3b20b3b65c06e2bb6f23432e8f5219546edd4d2bbb554600580f"
+  },
+  "proof_id": "006-memory-authority-survivability-audit",
+  "public_private_boundary": "sanitized_public_artifacts_only",
+  "required_artifacts": [
+    "README.md",
+    "problem_statement.md",
+    "evidence_plan.md",
+    "memory_authority_dimension_model.md",
+    "authority_survivability_taxonomy.md",
+    "belief_replayability_matrix.md",
+    "mitigation_doctrine.md",
+    "public_lineage_summary.md",
+    "proof_manifest.json",
+    "investigation_log.jsonl",
+    "evidence_manifest.json"
+  ],
+  "status": "evidence_collection",
+  "targets": [
+    "OpenClaw",
+    "OpenHands"
+  ],
+  "title": "Memory Authority and Belief Survivability Audit for Long-Horizon Agent Systems"
+}
