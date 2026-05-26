@@ -1,0 +1,37 @@
+{
+  "proof_id": "010-fixture-execution",
+  "title": "Survivable Lineage Fixture Execution v0.1",
+  "status": "analysis",
+  "targets": [
+    "SyntheticFixture"
+  ],
+  "claim_level": "evidence_backed",
+  "inside_voice_adapter_status": "placeholder",
+  "public_private_boundary": "sanitized_public_artifacts_only",
+  "required_artifacts": [
+    "README.md",
+    "visible_replay_results.json",
+    "full_lineage_replay_results.json",
+    "comparative_reconstruction_report.md",
+    "fixture_claim_register.json",
+    "validation_verdict.json",
+    "proof_manifest.json"
+  ],
+  "disallowed_claims": [
+    "AGI",
+    "consciousness",
+    "black_box_solved",
+    "substrate_disclosure",
+    "hidden_chain_of_thought",
+    "target_system_defects",
+    "universal_validation"
+  ],
+  "lineage": {
+    "mcp_endpoint": "not_applicable_no_mcp_consultation_for_proof_010_fixture_execution",
+    "contract_version": "inside_voice.mcp.consultation.v1",
+    "request_hash": "not_applicable_fixture_execution",
+    "response_hash": "not_applicable_fixture_execution",
+    "derived_from": "proofs/009-survivable-lineage-fixture",
+    "validates": "fixture_level_survivable_lineage"
+  }
+}

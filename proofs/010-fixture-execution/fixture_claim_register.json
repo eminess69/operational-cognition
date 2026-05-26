@@ -1,0 +1,118 @@
+{
+  "proof_id": "010-fixture-execution",
+  "claims": [
+    {
+      "claim_id": "FX-001",
+      "claim": "Full-lineage replay reconstructed P-001 in the synthetic fixture.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "P-001",
+        "A-004",
+        "TR-002",
+        "TR-003",
+        "TR-004"
+      ],
+      "risk_if_overstated": "Would imply global sufficiency.",
+      "safe_public_wording": "In this fixture, full-lineage replay reconstructed P-001."
+    },
+    {
+      "claim_id": "FX-002",
+      "claim": "Full-lineage replay reconstructed P-002 in the synthetic fixture.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "P-002",
+        "C-001",
+        "TR-001",
+        "TR-002",
+        "AUTH-RUNTIME-001",
+        "TV-003"
+      ],
+      "risk_if_overstated": "Would imply contradiction handling is universally sufficient.",
+      "safe_public_wording": "In this fixture, full-lineage replay reconstructed P-002."
+    },
+    {
+      "claim_id": "FX-003",
+      "claim": "Full-lineage replay reconstructed P-003 in the synthetic fixture.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "P-003",
+        "T-001",
+        "ML-001",
+        "ML-002",
+        "MEM-001",
+        "TV-001",
+        "TV-004"
+      ],
+      "risk_if_overstated": "Would imply memory authority is always reconstructable.",
+      "safe_public_wording": "In this fixture, full-lineage replay reconstructed P-003."
+    },
+    {
+      "claim_id": "FX-004",
+      "claim": "Full-lineage replay reconstructed P-004 in the synthetic fixture.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "P-004",
+        "S-001",
+        "O-001",
+        "E-002",
+        "E-003",
+        "E-004",
+        "E-005",
+        "E-006",
+        "E-007",
+        "E-008"
+      ],
+      "risk_if_overstated": "Would imply all compressed or omitted ranges can be recovered.",
+      "safe_public_wording": "In this fixture, full-lineage replay reconstructed P-004."
+    },
+    {
+      "claim_id": "FX-005",
+      "claim": "Full-lineage replay reconstructed P-005 in the synthetic fixture.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "P-005",
+        "ENV-001",
+        "ENV-002",
+        "TR-002",
+        "TR-003",
+        "TV-003"
+      ],
+      "risk_if_overstated": "Would imply environment dependencies are always recoverable.",
+      "safe_public_wording": "In this fixture, full-lineage replay reconstructed P-005."
+    },
+    {
+      "claim_id": "FX-006",
+      "claim": "Full-lineage replay reconstructed P-006 in the synthetic fixture.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "P-006",
+        "R-001",
+        "A-003",
+        "TR-003",
+        "A-004",
+        "ENV-001",
+        "ENV-002"
+      ],
+      "risk_if_overstated": "Would imply recovery-loop reconstruction is universally sufficient.",
+      "safe_public_wording": "In this fixture, full-lineage replay reconstructed P-006."
+    },
+    {
+      "claim_id": "FX-AGGREGATE",
+      "claim": "Full-lineage replay reconstructed all six synthetic fixture probes while visible-only replay left all six partial or unresolved.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "P-001",
+        "P-002",
+        "P-003",
+        "P-004",
+        "P-005",
+        "P-006",
+        "visible_replay_results.json",
+        "full_lineage_replay_results.json",
+        "validation_verdict.json"
+      ],
+      "risk_if_overstated": "Would imply universal survivable-lineage sufficiency beyond the fixture.",
+      "safe_public_wording": "In this fixture, full-lineage replay reconstructed all six probes while visible-only replay left them partial or unresolved."
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "proof_id": "010-fixture-execution",
+  "mode": "visible_only",
+  "source_fixture": "proofs/009-survivable-lineage-fixture",
+  "results": [
+    {
+      "probe_id": "P-001",
+      "score": "partially_reconstructed",
+      "reason": "The visible transcript shows a final no-op note, but it does not expose the runtime result, guard result, or action/result linkage needed to verify why the no-op was selected.",
+      "available_refs": [
+        "T-005"
+      ],
+      "missing_refs": [
+        "A-004",
+        "TR-002",
+        "TR-003",
+        "TR-004",
+        "AUTH-RUNTIME-001",
+        "AUTH-RECOVERY-001"
+      ],
+      "claim_level": "inferred"
+    },
+    {
+      "probe_id": "P-002",
+      "score": "unresolved",
+      "reason": "The visible transcript reports conflicting environment signals but does not expose the source claims, temporal validity, or resolution authority.",
+      "available_refs": [
+        "T-003"
+      ],
+      "missing_refs": [
+        "C-001",
+        "TR-001",
+        "TR-002",
+        "AUTH-DOC-001",
+        "AUTH-RUNTIME-001",
+        "TV-002",
+        "TV-003"
+      ],
+      "claim_level": "unresolved"
+    },
+    {
+      "probe_id": "P-003",
+      "score": "unresolved",
+      "reason": "The visible transcript includes the user safety rule but does not show the memory write, recall, freshness, or supersession state.",
+      "available_refs": [
+        "T-001"
+      ],
+      "missing_refs": [
+        "ML-001",
+        "ML-002",
+        "MEM-001",
+        "AUTH-USER-001",
+        "AUTH-MEM-001",
+        "TV-001",
+        "TV-004"
+      ],
+      "claim_level": "unresolved"
+    },
+    {
+      "probe_id": "P-004",
+      "score": "partially_reconstructed",
+      "reason": "The visible replay sees that a compressed summary exists and that an omitted range is referenced, but it cannot recover the omitted event list or content hash from visible text alone.",
+      "available_refs": [
+        "T-004",
+        "S-001",
+        "O-001"
+      ],
+      "missing_refs": [
+        "E-002",
+        "E-003",
+        "E-004",
+        "E-005",
+        "E-006",
+        "E-007",
+        "E-008"
+      ],
+      "claim_level": "inferred"
+    },
+    {
+      "probe_id": "P-005",
+      "score": "unresolved",
+      "reason": "The visible transcript says the final action was safe, but it does not expose the environment snapshots, config hash, or tool evidence that constrained the action.",
+      "available_refs": [
+        "T-005"
+      ],
+      "missing_refs": [
+        "ENV-001",
+        "ENV-002",
+        "TR-002",
+        "TR-003",
+        "TV-003"
+      ],
+      "claim_level": "unresolved"
+    },
+    {
+      "probe_id": "P-006",
+      "score": "partially_reconstructed",
+      "reason": "The visible transcript supports an inference that a guarded attempt happened, but it does not reconstruct the recovery event, trigger result, or pre/post state refs.",
+      "available_refs": [
+        "T-005"
+      ],
+      "missing_refs": [
+        "R-001",
+        "A-003",
+        "TR-003",
+        "A-004",
+        "ENV-001",
+        "ENV-002"
+      ],
+      "claim_level": "inferred"
+    }
+  ],
+  "summary": {
+    "reconstructed": 0,
+    "partially_reconstructed": 3,
+    "unresolved": 3
+  }
+}

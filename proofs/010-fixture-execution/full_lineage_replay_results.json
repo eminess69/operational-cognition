@@ -1,0 +1,102 @@
+{
+  "proof_id": "010-fixture-execution",
+  "mode": "full_lineage",
+  "source_fixture": "proofs/009-survivable-lineage-fixture",
+  "results": [
+    {
+      "probe_id": "P-001",
+      "score": "reconstructed",
+      "reason": "The full fixture links the final no-op action to current runtime production state and the blocked dry-run guard result.",
+      "fixture_refs": [
+        "A-004",
+        "TR-002",
+        "TR-003",
+        "TR-004",
+        "AUTH-RUNTIME-001",
+        "AUTH-RECOVERY-001"
+      ],
+      "claim_level": "observed"
+    },
+    {
+      "probe_id": "P-002",
+      "score": "reconstructed",
+      "reason": "The contradiction record resolves stale repository staging evidence against current production runtime evidence at the recorded resolution event.",
+      "fixture_refs": [
+        "C-001",
+        "TR-001",
+        "TR-002",
+        "AUTH-DOC-001",
+        "AUTH-RUNTIME-001",
+        "TV-002",
+        "TV-003",
+        "E-008"
+      ],
+      "claim_level": "observed"
+    },
+    {
+      "probe_id": "P-003",
+      "score": "reconstructed",
+      "reason": "The memory log records the user-derived safety rule, the later recall, and temporal validity refs showing the rule remains current for the fixture.",
+      "fixture_refs": [
+        "T-001",
+        "ML-001",
+        "ML-002",
+        "MEM-001",
+        "AUTH-USER-001",
+        "AUTH-MEM-001",
+        "TV-001",
+        "TV-004"
+      ],
+      "claim_level": "observed"
+    },
+    {
+      "probe_id": "P-004",
+      "score": "reconstructed",
+      "reason": "The compressed summary links to the omitted range, and the omitted-range manifest lists the recoverable omitted events.",
+      "fixture_refs": [
+        "S-001",
+        "O-001",
+        "E-002",
+        "E-003",
+        "E-004",
+        "E-005",
+        "E-006",
+        "E-007",
+        "E-008"
+      ],
+      "claim_level": "observed"
+    },
+    {
+      "probe_id": "P-005",
+      "score": "reconstructed",
+      "reason": "The environment manifest and tool results identify production state before the attempted change and no-change state after the no-op action.",
+      "fixture_refs": [
+        "ENV-001",
+        "ENV-002",
+        "TR-002",
+        "TR-003",
+        "TV-003"
+      ],
+      "claim_level": "observed"
+    },
+    {
+      "probe_id": "P-006",
+      "score": "reconstructed",
+      "reason": "The recovery trace links the blocked dry-run action and result to the safe no-op action with pre/post environment refs.",
+      "fixture_refs": [
+        "R-001",
+        "A-003",
+        "TR-003",
+        "A-004",
+        "ENV-001",
+        "ENV-002"
+      ],
+      "claim_level": "observed"
+    }
+  ],
+  "summary": {
+    "reconstructed": 6,
+    "partially_reconstructed": 0,
+    "unresolved": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "proof_id": "010-fixture-execution",
+  "verdict": "FIXTURE_VALIDATED",
+  "scope": "fixture_level_only",
+  "visible_only_summary": {
+    "reconstructed": 0,
+    "partially_reconstructed": 3,
+    "unresolved": 3
+  },
+  "full_lineage_summary": {
+    "reconstructed": 6,
+    "partially_reconstructed": 0,
+    "unresolved": 0
+  },
+  "aggregate_improvement": true,
+  "limitations": [
+    "synthetic fixture only",
+    "not universal sufficiency",
+    "not target-system validation"
+  ],
+  "next_required_validation": "public real-world or redacted-real trace"
+}
