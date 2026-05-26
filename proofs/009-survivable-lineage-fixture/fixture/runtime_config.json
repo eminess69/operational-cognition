@@ -1,0 +1,32 @@
+{
+  "runtime_config_id": "RUNTIME-009-V0.1",
+  "model_ref": "synthetic-agent-v0.1",
+  "execution_mode": "synthetic_public_fixture",
+  "sandbox_mode": "synthetic_no_network",
+  "approval_policy": "production_config_changes_require_explicit_user_approval",
+  "resource_limits": {
+    "max_tool_calls": 8,
+    "network": "disabled",
+    "secrets_available": false
+  },
+  "tools": [
+    {
+      "tool_name": "read_repository_note",
+      "schema_ref": "runtime_config.tools.read_repository_note.v1"
+    },
+    {
+      "tool_name": "check_runtime_environment",
+      "schema_ref": "runtime_config.tools.check_runtime_environment.v1"
+    },
+    {
+      "tool_name": "dry_run_config_patch",
+      "schema_ref": "runtime_config.tools.dry_run_config_patch.v1"
+    },
+    {
+      "tool_name": "write_noop_note",
+      "schema_ref": "runtime_config.tools.write_noop_note.v1"
+    }
+  ],
+  "skills_or_plugins": [],
+  "public_private_boundary": "synthetic_public_safe_no_private_internals"
+}

@@ -1,0 +1,24 @@
+{
+  "omitted_ranges": [
+    {
+      "omitted_range_id": "O-001",
+      "summary_id": "S-001",
+      "source_event_ids": [
+        "E-002",
+        "E-003",
+        "E-004",
+        "E-005",
+        "E-006",
+        "E-007",
+        "E-008"
+      ],
+      "source_turn_ids": [
+        "T-002",
+        "T-003"
+      ],
+      "content_sha256": "b3b9adc926ea2cd42aee3456f54d9930204e320715d2f9be7c6f078f420f3fa8",
+      "redaction_reason": "synthetic_compression_boundary",
+      "recovery_instructions": "Use event IDs, tool result refs, memory refs, contradiction refs, and authority refs to reconstruct the omitted range."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "snapshots": [
+    {
+      "snapshot_id": "ENV-001",
+      "captured_event_id": "E-006",
+      "environment_name": "production",
+      "workspace_ref": "fixture://workspace",
+      "config_path": "config/safe-mode.json",
+      "config_sha256": "68c6c728bd800833fce00109c0df5d6b8233d61c0692ea4ef4f0975db22918e0",
+      "dependency_refs": [
+        "synthetic-config-tool@0.1"
+      ],
+      "browser_session_ref": null,
+      "redaction_status": "public_synthetic",
+      "related_event_ids": [
+        "E-006",
+        "E-011",
+        "E-012"
+      ]
+    },
+    {
+      "snapshot_id": "ENV-002",
+      "captured_event_id": "E-014",
+      "environment_name": "production",
+      "workspace_ref": "fixture://workspace",
+      "config_path": "config/safe-mode.json",
+      "config_sha256": "68c6c728bd800833fce00109c0df5d6b8233d61c0692ea4ef4f0975db22918e0",
+      "note_path": "safe-mode-change.note",
+      "note_sha256": "23f2f1e1fe587eb80a5ba118e40ad3a3027c816455719a21da3c1b29ad8bafaa",
+      "dependency_refs": [
+        "synthetic-config-tool@0.1"
+      ],
+      "browser_session_ref": null,
+      "redaction_status": "public_synthetic",
+      "related_event_ids": [
+        "E-014",
+        "E-015"
+      ]
+    }
+  ]
+}

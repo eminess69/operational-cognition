@@ -101,6 +101,10 @@
         "response_hash": {
           "type": "string",
           "minLength": 1
+        },
+        "derived_from": {
+          "type": "string",
+          "minLength": 1
         }
       }
     }

@@ -1,0 +1,34 @@
+{
+  "summary_id": "S-001",
+  "event_id": "E-009",
+  "timestamp": "2026-05-26T10:02:00Z",
+  "source_event_range": [
+    "E-001",
+    "E-008"
+  ],
+  "source_turn_range": [
+    "T-001",
+    "T-003"
+  ],
+  "retained_head_turn_ids": [
+    "T-001"
+  ],
+  "retained_tail_event_ids": [
+    "E-007",
+    "E-008"
+  ],
+  "omitted_range_refs": [
+    "O-001"
+  ],
+  "memory_refs": [
+    "MEM-001"
+  ],
+  "contradiction_refs": [
+    "C-001"
+  ],
+  "authority_refs": [
+    "AUTH-USER-001",
+    "AUTH-RUNTIME-001"
+  ],
+  "summary_text": "User requested safe config update. Runtime environment governs whether a config change is allowed. Production requires no config change without explicit approval."
+}

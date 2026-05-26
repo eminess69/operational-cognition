@@ -1,0 +1,34 @@
+{
+  "contradictions": [
+    {
+      "contradiction_id": "C-001",
+      "status": "resolved",
+      "opened_event_id": "E-007",
+      "resolved_event_id": "E-008",
+      "conflicting_claims": [
+        {
+          "claim_ref": "TR-001",
+          "claim": "Repository note says deployment profile is staging.",
+          "authority_ref": "AUTH-DOC-001",
+          "temporal_validity_ref": "TV-002"
+        },
+        {
+          "claim_ref": "TR-002",
+          "claim": "Runtime check says current environment is production.",
+          "authority_ref": "AUTH-RUNTIME-001",
+          "temporal_validity_ref": "TV-003"
+        }
+      ],
+      "resolution": "Current runtime environment evidence controls the safety decision.",
+      "resolution_source_ref": "AUTH-RUNTIME-001",
+      "dependent_action_refs": [
+        "A-003",
+        "A-004"
+      ],
+      "uncertainty_markers": [
+        "Repository note may be stale.",
+        "No production config change is authorized in this fixture."
+      ]
+    }
+  ]
+}

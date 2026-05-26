@@ -1,0 +1,39 @@
+{
+  "authority_refs": [
+    {
+      "authority_id": "AUTH-USER-001",
+      "source_class": "user_instruction",
+      "source_event_id": "E-001",
+      "priority": "highest_for_task_constraints",
+      "authority_statement": "Production config changes require explicit approval."
+    },
+    {
+      "authority_id": "AUTH-DOC-001",
+      "source_class": "repository_note",
+      "source_event_id": "E-004",
+      "priority": "lower_when_runtime_check_conflicts",
+      "authority_statement": "Repository note reports staging but is stale for current runtime state."
+    },
+    {
+      "authority_id": "AUTH-RUNTIME-001",
+      "source_class": "tool_observation",
+      "source_event_id": "E-006",
+      "priority": "current_environment_control",
+      "authority_statement": "Runtime environment check controls whether config change is safe."
+    },
+    {
+      "authority_id": "AUTH-MEM-001",
+      "source_class": "memory_recall",
+      "source_event_id": "E-010",
+      "priority": "derived_from_user_instruction",
+      "authority_statement": "Memory recall is authoritative only because it links back to the user instruction and remains current."
+    },
+    {
+      "authority_id": "AUTH-RECOVERY-001",
+      "source_class": "tool_error",
+      "source_event_id": "E-012",
+      "priority": "guardrail_enforcement",
+      "authority_statement": "Production guard failure requires safe fallback rather than config mutation."
+    }
+  ]
+}

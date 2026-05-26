@@ -1,0 +1,55 @@
+{
+  "proof_id": "009-survivable-lineage-fixture",
+  "title": "Survivable Lineage Fixture v0.1",
+  "status": "evidence_collection",
+  "targets": [
+    "SyntheticFixture"
+  ],
+  "claim_level": "planning_scaffold",
+  "inside_voice_adapter_status": "placeholder",
+  "public_private_boundary": "sanitized_public_artifacts_only",
+  "required_artifacts": [
+    "README.md",
+    "fixture_design.md",
+    "fixture_schema.md",
+    "visible_replay_mode.md",
+    "full_lineage_replay_mode.md",
+    "probe_set.md",
+    "expected_results.md",
+    "proof_manifest.json",
+    "fixture/README.md",
+    "fixture/transcript.jsonl",
+    "fixture/events.jsonl",
+    "fixture/tool_actions.jsonl",
+    "fixture/tool_results_manifest.json",
+    "fixture/memory_log.jsonl",
+    "fixture/compressed_context_summary.json",
+    "fixture/omitted_ranges.json",
+    "fixture/contradiction_refs.json",
+    "fixture/authority_refs.json",
+    "fixture/temporal_validity.json",
+    "fixture/environment_snapshot_manifest.json",
+    "fixture/runtime_config.json",
+    "fixture/recovery_trace.jsonl",
+    "fixture/provenance_manifest.json",
+    "fixture/public_lineage_summary.md"
+  ],
+  "disallowed_claims": [
+    "AGI",
+    "consciousness",
+    "black_box_solved",
+    "substrate_disclosure",
+    "hidden_chain_of_thought",
+    "belief_ledger_internals",
+    "inside_voice_internals",
+    "target_system_defects",
+    "universal_validation"
+  ],
+  "lineage": {
+    "mcp_endpoint": "not_applicable_no_mcp_consultation_for_proof_009_fixture",
+    "contract_version": "inside_voice.mcp.consultation.v1",
+    "request_hash": "e306b9e658cd9020c25dacf379057f946eb726f00914abdacccf10b960572aa9",
+    "response_hash": "916b01bbd60a5a4a8c7c510c46372effed3643e45161ef53e6c45909091d2f25",
+    "derived_from": "proofs/008-recursive-deep-audit/survivable_lineage_validation_plan.md"
+  }
+}

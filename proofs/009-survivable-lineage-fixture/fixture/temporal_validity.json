@@ -1,0 +1,32 @@
+{
+  "temporal_refs": [
+    {
+      "temporal_id": "TV-001",
+      "valid_from_event_id": "E-001",
+      "valid_until_event_id": "E-015",
+      "status": "current_for_fixture",
+      "statement": "User safety rule is valid for the entire fixture session."
+    },
+    {
+      "temporal_id": "TV-002",
+      "valid_from_event_id": "E-004",
+      "valid_until_event_id": "E-006",
+      "status": "stale_after_runtime_check",
+      "statement": "Repository staging note is superseded for current-action safety by runtime check."
+    },
+    {
+      "temporal_id": "TV-003",
+      "valid_from_event_id": "E-006",
+      "valid_until_event_id": "E-015",
+      "status": "current_runtime_state",
+      "statement": "Runtime production state constrains all later actions."
+    },
+    {
+      "temporal_id": "TV-004",
+      "valid_from_event_id": "E-010",
+      "valid_until_event_id": "E-015",
+      "status": "current_memory_recall",
+      "statement": "Memory recall is fresh at insertion and has no supersession refs."
+    }
+  ]
+}

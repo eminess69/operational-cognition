@@ -1,0 +1,31 @@
+{
+  "fixture_id": "proof-009-survivable-lineage-fixture-v0.1",
+  "created_for_proof": "009-survivable-lineage-fixture",
+  "derived_from": "proofs/008-recursive-deep-audit/survivable_lineage_validation_plan.md",
+  "capture_time": "2026-05-26T10:10:00Z",
+  "retrieval_method": "synthetic_fixture_authored_in_repository",
+  "redaction_policy": "public_synthetic_no_real_secrets_no_private_data",
+  "omitted_artifact_list": [],
+  "schema_version": "survivable_lineage_fixture.v0.1",
+  "artifact_hashes": {
+    "fixture/README.md": "04b00d8b65a519c6b127f15f174f3587ba77ea795cf6e1443e690fb4bc80ad20",
+    "fixture/transcript.jsonl": "8b02942f655e8e84ce015fb226c10e6e971bbbfcbf10d02958519f955c290a40",
+    "fixture/events.jsonl": "dc4103aeb7bc4b59de1ced55364265bd79b0f17babf1c7fa970e7fa79e9d1d67",
+    "fixture/tool_actions.jsonl": "b93a08d76e3fbe701560bb37fb218bf76514afdd2d738c65e0e5b6d57706fd52",
+    "fixture/tool_results_manifest.json": "75e411731643af2fe33fb3e30e4645b72ff3bdd29d4c73fd7630dd2732a3c4b7",
+    "fixture/memory_log.jsonl": "e86c82ebcc31b136b647649f1a2f4a594a973dcf0b25a29ff58165f2cdd5f394",
+    "fixture/compressed_context_summary.json": "5d092fd10870957383a980d2e15840859a87426b346621e0fe4aaac4958c8cbf",
+    "fixture/omitted_ranges.json": "d3dea500fc68ac0f1035f79f1c2a41d5d0273d3aadd359b39a638c95824b8b64",
+    "fixture/contradiction_refs.json": "65f53950d230a0df56551c0f72aee9f2168abae18164b3c1cea309051b5b8bb0",
+    "fixture/authority_refs.json": "ef3c522721d160c8458ab3ae3b29c6e37251eb234fc9602967d0452049deb839",
+    "fixture/temporal_validity.json": "482eb736c99a09293ab850cd0b8dd7fb41b928241c3e60262e29d35b8a25d3b1",
+    "fixture/environment_snapshot_manifest.json": "40d9c442214e3ebcf4f569c146ccbb6040dcf05aed53dbdb529ef77dcb88af0f",
+    "fixture/runtime_config.json": "15ab32620d5b6cad9a6c64532905dd98219b7cfc3afaef4b6c86e08c7f4a143c",
+    "fixture/recovery_trace.jsonl": "8a94a00646b5b992b2a631108ea47ebbe5be8bab443ffbae4a5becd720f3838c",
+    "fixture/public_lineage_summary.md": "ce44035896fcd006a3c229bd32c45f3eabc153fabd56eaf6e1539978036e61e6"
+  },
+  "source_hashes": {
+    "proofs/008-recursive-deep-audit/survivable_lineage_validation_plan.md": "deferred_to_repository_history"
+  },
+  "public_private_boundary": "sanitized_public_artifacts_only"
+}
