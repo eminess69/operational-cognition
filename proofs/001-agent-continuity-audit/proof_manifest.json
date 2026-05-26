@@ -1,0 +1,33 @@
+{
+  "proof_id": "001-agent-continuity-audit",
+  "title": "Replayable Continuity Audit of Long-Horizon Agent Failure",
+  "status": "planning",
+  "targets": [
+    "OpenClaw",
+    "OpenHands"
+  ],
+  "claim_level": "planning_scaffold",
+  "inside_voice_adapter_status": "placeholder",
+  "public_private_boundary": "sanitized_public_artifacts_only",
+  "required_artifacts": [
+    "problem_statement.md",
+    "evidence_plan.md",
+    "failure_taxonomy.md",
+    "replayability_plan.md",
+    "mitigation_doctrine.md",
+    "public_lineage_summary.md",
+    "proof_manifest.json"
+  ],
+  "disallowed_claims": [
+    "AGI",
+    "consciousness",
+    "substrate_disclosure",
+    "hidden_chain_of_thought"
+  ],
+  "lineage": {
+    "mcp_endpoint": "http://127.0.0.1:8766",
+    "contract_version": "inside_voice.mcp.consultation.v1",
+    "request_hash": "6253049207573b00c81fe11d03d07b1432d559befa7b3d5abaed23aba33a4a36",
+    "response_hash": "57d0b87146e5d4058ee56dbba194ae9199dc8004995b61073e7124eaabcb663f"
+  }
+}

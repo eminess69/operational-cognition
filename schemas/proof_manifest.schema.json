@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://operational-cognition.local/schemas/proof_manifest.schema.json",
+  "title": "Operational Cognition Proof Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "proof_id",
+    "title",
+    "status",
+    "targets",
+    "claim_level",
+    "inside_voice_adapter_status",
+    "public_private_boundary",
+    "required_artifacts",
+    "disallowed_claims",
+    "lineage"
+  ],
+  "properties": {
+    "proof_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "planning",
+        "evidence_collection",
+        "analysis",
+        "complete",
+        "superseded"
+      ]
+    },
+    "targets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "claim_level": {
+      "type": "string",
+      "enum": [
+        "planning_scaffold",
+        "evidence_backed",
+        "validated",
+        "retracted"
+      ]
+    },
+    "inside_voice_adapter_status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "public_private_boundary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "required_artifacts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "disallowed_claims": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "lineage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mcp_endpoint",
+        "contract_version",
+        "request_hash",
+        "response_hash"
+      ],
+      "properties": {
+        "mcp_endpoint": {
+          "type": "string",
+          "minLength": 1
+        },
+        "contract_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "request_hash": {
+          "type": "string",
+          "minLength": 1
+        },
+        "response_hash": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}
