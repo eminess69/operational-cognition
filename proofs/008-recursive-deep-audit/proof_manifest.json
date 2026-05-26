@@ -1,0 +1,44 @@
+{
+  "proof_id": "008-recursive-deep-audit",
+  "title": "Recursive Inside Voice Deep Audit",
+  "status": "analysis",
+  "targets": [
+    "Operational Cognition proof corpus 001-007",
+    "OpenClaw",
+    "OpenHands"
+  ],
+  "claim_level": "evidence_backed",
+  "inside_voice_adapter_status": "placeholder",
+  "public_private_boundary": "sanitized_public_artifacts_only",
+  "required_artifacts": [
+    "README.md",
+    "recursive_audit_plan.md",
+    "recursive_consultation_log.md",
+    "convergence_pressure_report.md",
+    "contradiction_cluster_report.md",
+    "weakest_claims_report.md",
+    "survivable_lineage_validation_plan.md",
+    "fixture_design.md",
+    "evidence_gap_map.json",
+    "proof_manifest.json"
+  ],
+  "disallowed_claims": [
+    "AGI",
+    "consciousness",
+    "black_box_solved",
+    "substrate_disclosure",
+    "hidden_chain_of_thought",
+    "belief_ledger_internals",
+    "inside_voice_internals",
+    "harmonic_traceback_implementation",
+    "target_system_attack_framing",
+    "unsupported_target_system_claims",
+    "validated_survivable_lineage_sufficiency"
+  ],
+  "lineage": {
+    "mcp_endpoint": "http://127.0.0.1:8766",
+    "contract_version": "inside_voice.mcp.consultation.v1",
+    "request_hash": "6b870f5278edc05c9b0d3721048b07da13b996eff3dcb33c9d90120d2b729e8a",
+    "response_hash": "0f9d28034c3e645bde105b483ec19a729f4699a87445259da5601faeab604621"
+  }
+}

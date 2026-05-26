@@ -1,0 +1,164 @@
+{
+  "proof_id": "008-recursive-deep-audit",
+  "map_version": "evidence_gap_map.v1",
+  "status": "analysis",
+  "consultation_lineage": {
+    "adapter_status": "placeholder",
+    "contract_version": "inside_voice.mcp.consultation.v1",
+    "passes": [
+      {
+        "pass_id": "synthesis",
+        "mode": "synthesis",
+        "request_hash": "f1f0d3ac63e7f69d998235c42439cfc298c64bf298b70d0e0d99e1fe8a9a99ab",
+        "response_hash": "7ac2a86ec1cc40154c50218df8277c851b834b45636609d8afaa4dd2ea169438"
+      },
+      {
+        "pass_id": "adversarial",
+        "mode": "review",
+        "request_hash": "43ba0bc6013f6fbcabe9608466984f7a3aca121cf234e47cebdd898d99c8af82",
+        "response_hash": "4be552d3d56a28a8d4039cc577fa5d48a4c7919c7a1f00d548d3fe5922ec4d9e"
+      },
+      {
+        "pass_id": "validation",
+        "mode": "proof_planning",
+        "request_hash": "d268b19d5bc649e9a72ef40edc911d473dfa517b362943fc4da55e934cac3cf3",
+        "response_hash": "c909694c39825014f7f918cb7f5dde7bd4b30c7361568046bb9215cba93c289b"
+      }
+    ]
+  },
+  "gap_clusters": [
+    {
+      "gap_id": "EG-001",
+      "name": "candidate_bundle_sufficiency",
+      "claim_boundary": "The minimum operational replay bundle is a candidate standard, not a validated sufficient bundle.",
+      "current_level": "hypothesis",
+      "supporting_artifacts": [
+        "proofs/007-cross-proof-convergence/cross_proof_claim_register.json:CPC-010",
+        "proofs/007-cross-proof-convergence/minimum_operational_replay_bundle.md",
+        "proofs/007-cross-proof-convergence/unresolved_convergence_questions.md"
+      ],
+      "missing_evidence": [
+        "public fixture with visible-only replay mode",
+        "public fixture with full-lineage replay mode",
+        "claim reconstructability scoring",
+        "disproof criteria for insufficient bundle fields"
+      ],
+      "validation_artifact": "survivable_lineage_validation_plan.md"
+    },
+    {
+      "gap_id": "EG-002",
+      "name": "contradiction_survivability",
+      "claim_boundary": "Contradiction and uncertainty retention are required audit dimensions, but target-specific preservation remains unresolved.",
+      "current_level": "unresolved",
+      "supporting_artifacts": [
+        "proofs/003-continuity-compression-audit/claim_register.json:C-005",
+        "proofs/004-operational-failure-reconstruction/claim_register.json:C-007",
+        "proofs/005-contradiction-dimension-model.md",
+        "proofs/005-contradiction-survivability-audit/contradiction_replayability_matrix.md",
+        "proofs/007-cross-proof-convergence/cross_proof_claim_register.json:CPC-005"
+      ],
+      "missing_evidence": [
+        "contradiction refs linked to both source sides",
+        "uncertainty markers after compression",
+        "resolution or unresolved status",
+        "dependent action refs"
+      ],
+      "validation_artifact": "fixture_design.md"
+    },
+    {
+      "gap_id": "EG-003",
+      "name": "memory_authority",
+      "claim_boundary": "Memory authority requires source authority, freshness, supersession, temporal validity, contradiction, recall, and provenance metadata.",
+      "current_level": "inferred_requirement_unresolved_preservation",
+      "supporting_artifacts": [
+        "proofs/004-operational-failure-reconstruction/claim_register.json:C-004",
+        "proofs/006-memory-authority-survivability-audit/memory_authority_dimension_model.md",
+        "proofs/006-memory-authority-survivability-audit/belief_replayability_matrix.md",
+        "proofs/007-cross-proof-convergence/cross_proof_claim_register.json:CPC-006"
+      ],
+      "missing_evidence": [
+        "memory write refs",
+        "recall query and result refs",
+        "authority class",
+        "freshness and stale status",
+        "supersession links",
+        "recall insertion point"
+      ],
+      "validation_artifact": "survivable_lineage_validation_plan.md"
+    },
+    {
+      "gap_id": "EG-004",
+      "name": "omitted_range_recoverability",
+      "claim_boundary": "Omitted-range recoverability recurs across the corpus, but complete recovery from compressed or redacted artifacts is unvalidated.",
+      "current_level": "observed_requirement_unresolved_adequacy",
+      "supporting_artifacts": [
+        "proofs/003-continuity-compression-audit/claim_register.json:C-006",
+        "proofs/007-cross-proof-convergence/cross_proof_claim_register.json:CPC-007",
+        "proofs/007-cross-proof-convergence/survivable_lineage_standard.md"
+      ],
+      "missing_evidence": [
+        "source range IDs",
+        "omitted event IDs",
+        "omitted tool result refs",
+        "redaction reasons",
+        "summary source links"
+      ],
+      "validation_artifact": "fixture_design.md"
+    },
+    {
+      "gap_id": "EG-005",
+      "name": "environment_and_recovery_reconstruction",
+      "claim_boundary": "Environment and recovery-loop reconstruction recur as causal requirements, but adequacy remains unresolved.",
+      "current_level": "observed_requirement_unresolved_adequacy",
+      "supporting_artifacts": [
+        "proofs/001-agent-continuity-audit/continuity_signals.md",
+        "proofs/002-replayability-gap-audit/replay_dimension_model.md",
+        "proofs/003-continuity-compression-audit/claim_register.json:C-007",
+        "proofs/003-continuity-compression-audit/claim_register.json:C-009",
+        "proofs/004-operational-failure-reconstruction/claim_register.json:C-005",
+        "proofs/004-operational-failure-reconstruction/claim_register.json:C-009",
+        "proofs/007-cross-proof-convergence/cross_proof_claim_register.json:CPC-008"
+      ],
+      "missing_evidence": [
+        "workspace hashes",
+        "filesystem diffs",
+        "runtime image or config refs",
+        "dependency refs",
+        "retry events",
+        "fallback choices",
+        "pre/post recovery state links"
+      ],
+      "validation_artifact": "survivable_lineage_validation_plan.md"
+    },
+    {
+      "gap_id": "EG-006",
+      "name": "global_target_preservation",
+      "claim_boundary": "The corpus cannot conclude that any target system globally preserves or fails to preserve survivable lineage.",
+      "current_level": "unresolved",
+      "supporting_artifacts": [
+        "proofs/007-cross-proof-convergence/cross_proof_claim_register.json:CPC-011",
+        "proofs/007-cross-proof-convergence/convergence_analysis.md"
+      ],
+      "missing_evidence": [
+        "multiple public fixture runs",
+        "target-specific artifact bundles",
+        "claim-level validation results",
+        "negative cases with missing lineage marked unresolved"
+      ],
+      "validation_artifact": "weakest_claims_report.md"
+    }
+  ],
+  "public_boundary": {
+    "raw_mcp_artifacts": "ignored_internal_only",
+    "public_outputs": "sanitized_summaries_and_hashes",
+    "disallowed_claims": [
+      "AGI",
+      "consciousness",
+      "black_box_solved",
+      "substrate_disclosure",
+      "hidden_chain_of_thought",
+      "inside_voice_internals",
+      "belief_ledger_internals"
+    ]
+  }
+}
