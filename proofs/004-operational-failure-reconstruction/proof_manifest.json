@@ -1,0 +1,41 @@
+{
+  "proof_id": "004-operational-failure-reconstruction",
+  "title": "Operational Failure Reconstruction Audit for Long-Horizon Agent Systems",
+  "status": "evidence_collection",
+  "targets": [
+    "OpenClaw",
+    "OpenHands"
+  ],
+  "claim_level": "planning_scaffold",
+  "inside_voice_adapter_status": "placeholder",
+  "public_private_boundary": "sanitized_public_artifacts_only",
+  "required_artifacts": [
+    "README.md",
+    "problem_statement.md",
+    "evidence_plan.md",
+    "reconstruction_dimension_model.md",
+    "reconstruction_gap_taxonomy.md",
+    "causal_replayability_matrix.md",
+    "mitigation_doctrine.md",
+    "public_lineage_summary.md",
+    "proof_manifest.json",
+    "investigation_log.jsonl",
+    "evidence_manifest.json"
+  ],
+  "disallowed_claims": [
+    "AGI",
+    "consciousness",
+    "black_box_solved",
+    "substrate_disclosure",
+    "hidden_chain_of_thought",
+    "belief_ledger_internals",
+    "inside_voice_internals",
+    "harmonic_traceback_implementation"
+  ],
+  "lineage": {
+    "mcp_endpoint": "http://127.0.0.1:8766",
+    "contract_version": "inside_voice.mcp.consultation.v1",
+    "request_hash": "abfb390b7a12239f88735e1ab613d468021418f6ee375c2f33c1380d827e773e",
+    "response_hash": "30107566dc8672f33d436399aab5a080ec18a6d8d75c69353138aaa7c4d36359"
+  }
+}
