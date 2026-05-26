@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import copy
+import json
 import sys
 from pathlib import Path
 
@@ -55,6 +56,19 @@ VALID_FINDINGS = {
 
 def test_valid_findings_pass() -> None:
     assert validator.validate_findings_data(VALID_FINDINGS, EVIDENCE_MANIFEST) == []
+
+
+def test_public_evidence_backed_findings_validate() -> None:
+    proof_ids = [
+        "003-continuity-compression-audit",
+        "004-operational-failure-reconstruction",
+    ]
+    for proof_id in proof_ids:
+        proof_dir = ROOT / "proofs" / proof_id
+        findings = json.loads((proof_dir / "evidence_backed_findings.json").read_text(encoding="utf-8"))
+        manifest = json.loads((proof_dir / "evidence_manifest.json").read_text(encoding="utf-8"))
+
+        assert validator.validate_findings_data(findings, manifest) == []
 
 
 def test_duplicate_finding_id_fails() -> None:

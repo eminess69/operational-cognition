@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import copy
+import json
 import sys
 from pathlib import Path
 
@@ -48,6 +49,19 @@ VALID_REGISTER = {
 
 def test_valid_register_passes() -> None:
     assert validator.validate_register_data(VALID_REGISTER, EVIDENCE_MANIFEST) == []
+
+
+def test_public_claim_registers_validate() -> None:
+    proof_ids = [
+        "003-continuity-compression-audit",
+        "004-operational-failure-reconstruction",
+    ]
+    for proof_id in proof_ids:
+        proof_dir = ROOT / "proofs" / proof_id
+        register = json.loads((proof_dir / "claim_register.json").read_text(encoding="utf-8"))
+        manifest = json.loads((proof_dir / "evidence_manifest.json").read_text(encoding="utf-8"))
+
+        assert validator.validate_register_data(register, manifest) == []
 
 
 def test_duplicate_claim_id_fails() -> None:

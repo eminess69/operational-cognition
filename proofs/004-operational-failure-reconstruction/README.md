@@ -19,11 +19,22 @@ Which operational continuity gaps prevent reliable causal reconstruction?
 
 ## Status
 
-Current phase: evidence collection.
+Current phase: Analysis v0.1 completed with evidence-backed findings.
 
-Claim level: `planning_scaffold`.
+Claim level: `evidence_backed`.
 
-No target-system defect, security issue, hidden state access, or complete causal explanation is claimed. This proof defines an operational reconstruction method and an initial evidence plan.
+No target-system defect, security issue, hidden state access, or complete causal explanation is claimed. Analysis v0.1 upgrades only the claims directly supported by current public evidence and keeps unresolved or hypothesis-level claims separate.
+
+## Current Analysis
+
+`analysis_v0_1` is completed.
+
+Primary analysis artifacts:
+
+- `analysis_v0_1.md`
+- `evidence_backed_findings.json`
+- `claim_register.json`
+- `unresolved_questions.md`
 
 ## Scope
 
@@ -45,6 +56,10 @@ The target evidence surfaces are replay artifacts, event systems, trajectory bun
 - reconstruction gap taxonomy
 - causal replayability matrix
 - mitigation doctrine
+- analysis v0.1
+- evidence-backed findings
+- claim register
+- unresolved questions
 - public lineage summary
 - evidence manifest
 - replayable investigation log

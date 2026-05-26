@@ -1,0 +1,203 @@
+{
+  "proof_id": "004-operational-failure-reconstruction",
+  "analysis_id": "analysis_v0_1",
+  "status": "analysis",
+  "findings": [
+    {
+      "id": "F-001",
+      "claim": "Public evidence directly describes transcript and history surfaces relevant to transcript reconstruction.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "openclaw-doc-trajectory-bundles",
+        "openclaw-doc-compaction",
+        "openhands-doc-conversation-architecture",
+        "openhands-doc-condenser-architecture"
+      ],
+      "reasoning_summary": "OpenClaw documentation describes trajectory capture for transcript messages and compaction summaries that change model-visible context while keeping full history on disk. OpenHands documentation describes conversation history and condensed LLM-ready views.",
+      "limitations": [
+        "This does not establish that every transcript segment is available in every exported replay artifact.",
+        "Transcript reconstruction alone does not establish causal reconstruction."
+      ],
+      "public_private_boundary": "sanitized_public_artifacts_only"
+    },
+    {
+      "id": "F-002",
+      "claim": "Public evidence directly describes event reconstruction surfaces, especially typed events and ordered event histories.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "openhands-doc-events-architecture",
+        "openhands-doc-conversation-architecture",
+        "openclaw-doc-trajectory-bundles"
+      ],
+      "reasoning_summary": "OpenHands documentation describes an append-only event framework, typed events, event IDs, timestamps, and conversation state built from event history. OpenClaw trajectory documentation describes a structured timeline for each agent run.",
+      "limitations": [
+        "Event availability in public examples has not yet been validated.",
+        "Event structure does not necessarily include all external state needed for causal explanation."
+      ],
+      "public_private_boundary": "sanitized_public_artifacts_only"
+    },
+    {
+      "id": "F-003",
+      "claim": "Public evidence directly describes tool and action reconstruction surfaces.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "openclaw-doc-trajectory-bundles",
+        "openclaw-doc-compaction",
+        "openhands-doc-events-architecture",
+        "openhands-doc-browser-session-recording"
+      ],
+      "reasoning_summary": "OpenClaw documentation describes trajectory capture for tool calls and compaction behavior that keeps assistant tool calls paired with matching tool results. OpenHands documentation describes action and observation events, and browser recording documentation describes captured browser interactions.",
+      "limitations": [
+        "The evidence does not establish complete retention of large, redacted, or truncated tool results.",
+        "Tool schema versions and result provenance remain evidence requirements."
+      ],
+      "public_private_boundary": "sanitized_public_artifacts_only"
+    },
+    {
+      "id": "F-004",
+      "claim": "Public evidence directly describes memory surfaces relevant to reconstruction, but complete memory reconstruction is not established.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "openclaw-doc-memory-overview",
+        "openclaw-doc-compaction",
+        "openhands-doc-condenser-architecture"
+      ],
+      "reasoning_summary": "OpenClaw documentation describes Markdown memory files, loaded memory, memory search/get surfaces, and memory interactions around compaction. OpenHands condenser documentation describes condensed history views that affect model-visible context.",
+      "limitations": [
+        "The evidence does not establish a complete replay bundle for memory writes, recall queries, recall results, and memory indexes.",
+        "The evidence does not validate memory reconstruction across failed public sessions."
+      ],
+      "public_private_boundary": "sanitized_public_artifacts_only"
+    },
+    {
+      "id": "F-005",
+      "claim": "Environment reconstruction is relevant to causal failure analysis, but current public evidence only partially supports it.",
+      "claim_level": "inferred",
+      "evidence_refs": [
+        "openhands-doc-agent-server-architecture",
+        "openhands-doc-conversation-architecture",
+        "openclaw-doc-trajectory-bundles"
+      ],
+      "reasoning_summary": "Reasoning bridge: public documentation describes workspaces, container orchestration, execution environments, runtime settings, and trajectory metadata. These surfaces are relevant to reconstruction, but the current evidence does not establish complete workspace, dependency, browser, or external-service snapshots.",
+      "limitations": [
+        "This is not an observed environment reconstruction result.",
+        "The current evidence does not establish complete environment provenance for any failed public session."
+      ],
+      "public_private_boundary": "sanitized_public_artifacts_only"
+    },
+    {
+      "id": "F-006",
+      "claim": "Public evidence directly describes temporal reconstruction surfaces.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "openhands-doc-events-architecture",
+        "openhands-doc-conversation-architecture",
+        "openhands-doc-condenser-architecture",
+        "openclaw-doc-trajectory-bundles",
+        "openclaw-doc-compaction"
+      ],
+      "reasoning_summary": "OpenHands documentation describes append-only event history, event IDs, timestamps, and condensation metadata. OpenClaw documentation describes ordered trajectory timelines and compaction or retry boundaries.",
+      "limitations": [
+        "Visible order does not necessarily establish decision timing.",
+        "Fine-grained timing inside omitted or summarized ranges remains an evidence requirement."
+      ],
+      "public_private_boundary": "sanitized_public_artifacts_only"
+    },
+    {
+      "id": "F-007",
+      "claim": "Current public evidence does not establish contradiction reconstruction.",
+      "claim_level": "unresolved",
+      "evidence_refs": [
+        "openclaw-doc-compaction",
+        "openclaw-doc-memory-overview",
+        "openhands-doc-condenser-architecture"
+      ],
+      "reasoning_summary": "The sources describe summaries, memory surfaces, and condensed histories, but they do not establish preservation of conflicting evidence, stale assumptions, rejected alternatives, or uncertainty markers.",
+      "limitations": [
+        "No contradiction-preserving replay example has been analyzed.",
+        "No target-system defect is implied by this unresolved state."
+      ],
+      "public_private_boundary": "sanitized_public_artifacts_only"
+    },
+    {
+      "id": "F-008",
+      "claim": "Visible replay and event logs can support partial reconstruction, but causal operational reconstruction requires survivable lineage across memory, environment, tool results, recovery loops, intent, and provenance.",
+      "claim_level": "inferred",
+      "evidence_refs": [
+        "openclaw-doc-trajectory-bundles",
+        "openclaw-doc-compaction",
+        "openclaw-doc-memory-overview",
+        "openhands-doc-events-architecture",
+        "openhands-doc-conversation-architecture",
+        "openhands-doc-condenser-architecture",
+        "openhands-doc-browser-session-recording",
+        "openhands-doc-agent-server-architecture",
+        "shared-rrweb-readme"
+      ],
+      "reasoning_summary": "Reasoning bridge: current evidence documents visible replay, trajectory capture, typed events, browser recording, memory surfaces, compression boundaries, workspaces, and runtime metadata. Combining those surfaces supports partial reconstruction, while the unresolved dependencies show that causal reconstruction needs retained lineage across multiple dimensions.",
+      "limitations": [
+        "This is an adequacy inference, not a completed causal reconstruction of a failed session.",
+        "The current evidence does not establish a minimum sufficient replay bundle."
+      ],
+      "public_private_boundary": "sanitized_public_artifacts_only"
+    },
+    {
+      "id": "F-009",
+      "claim": "Public evidence directly describes recovery-loop reconstruction surfaces, but complete recovery-loop reconstruction is not established.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "openclaw-doc-compaction",
+        "openclaw-doc-trajectory-bundles",
+        "openhands-doc-conversation-architecture",
+        "openhands-doc-condenser-architecture"
+      ],
+      "reasoning_summary": "OpenClaw documentation describes compaction near context limits, compaction and retry after context-overflow errors, and trajectory capture for timeouts, aborts, compactions, and provider errors. OpenHands documentation describes agent lifecycle state and condensation for context management.",
+      "limitations": [
+        "The evidence does not establish complete replay of retries, fallback choices, cleanup, restart state, or resume state.",
+        "Actual recovery-loop artifacts from failed public sessions have not been analyzed."
+      ],
+      "public_private_boundary": "sanitized_public_artifacts_only"
+    },
+    {
+      "id": "F-010",
+      "claim": "Intent reconstruction drift is a plausible operational risk when summaries, memory recalls, or condensed views omit constraints, authority, timing, or scope changes.",
+      "claim_level": "hypothesis",
+      "evidence_refs": [
+        "openclaw-doc-memory-overview",
+        "openclaw-doc-compaction",
+        "openhands-doc-condenser-architecture",
+        "openhands-doc-conversation-architecture"
+      ],
+      "reasoning_summary": "OpenClaw documentation describes action-sensitive memory boundaries and compaction summaries. OpenHands documentation describes summary generation and conversation state. The drift claim remains hypothesis-level because no public example has validated intent-bearing source context against replay or summary output.",
+      "limitations": [
+        "No observed intent drift case is claimed.",
+        "Further validation requires before/after examples containing intent, constraints, and scope changes."
+      ],
+      "public_private_boundary": "sanitized_public_artifacts_only"
+    },
+    {
+      "id": "F-011",
+      "claim": "Public evidence directly describes replay provenance surfaces, including trajectory metadata, event identifiers, omitted-event references, and browser recording artifacts.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "openclaw-doc-trajectory-bundles",
+        "openhands-doc-events-architecture",
+        "openhands-doc-condenser-architecture",
+        "openhands-doc-browser-session-recording",
+        "shared-rrweb-readme"
+      ],
+      "reasoning_summary": "The public sources describe trajectory bundles, runtime metadata, typed event metadata, forgotten event IDs, browser recordings saved as JSON, and replay tooling.",
+      "limitations": [
+        "Replay provenance surfaces do not by themselves establish complete causal reconstruction.",
+        "The completeness of omitted ranges, redactions, and capture boundaries remains unresolved."
+      ],
+      "public_private_boundary": "sanitized_public_artifacts_only"
+    }
+  ],
+  "summary": {
+    "observed_count": 7,
+    "inferred_count": 2,
+    "hypothesis_count": 1,
+    "unresolved_count": 1
+  }
+}

@@ -14,6 +14,18 @@ This file summarizes public-safe lineage for Proof 004.
 
 The raw MCP request and response are stored only under ignored `internal/` and are not part of the public proof pack.
 
+## Analysis v0.1 Review Source
+
+- source: local Inside Voice MCP consultation endpoint
+- endpoint: `http://127.0.0.1:8766`
+- contract version: `inside_voice.mcp.consultation.v1`
+- adapter status: `placeholder`
+- mode: `review`
+- request hash: `487467c33954b5262ce53d163c85f1032a1fa982bab4cd6de169035c035d4712`
+- response hash: `01c83374dee4611cc8d8a31de5874276b3a82d66c77356a3cd54facd9de3de58`
+
+The raw analysis review request and response are stored only under ignored `internal/` and are not part of the public proof pack.
+
 ## Planning Decision
 
 Create a public operational failure reconstruction scaffold for evaluating whether replay artifacts, event logs, trajectory bundles, browser/session replay, memory surfaces, and continuity metadata can support bounded causal reconstruction of long-horizon failure pathways.
@@ -48,7 +60,7 @@ The initial evidence set targets public documentation for:
 
 ## Current Claim Boundary
 
-Proof 004 is an evidence collection scaffold. It does not claim that public artifacts are sufficient or insufficient for complete causal reconstruction. It defines the reconstruction dimensions, gap taxonomy, and replay adequacy questions that later evidence-backed analysis must test.
+Proof 004 has completed analysis v0.1. It does not claim that public artifacts are sufficient or insufficient for complete causal reconstruction. It identifies observed reconstruction surfaces, conservative inferences, one hypothesis-level intent risk, and unresolved reconstruction questions.
 
 ## Unresolved Reconstruction Questions
 

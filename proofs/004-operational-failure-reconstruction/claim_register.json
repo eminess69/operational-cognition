@@ -1,0 +1,202 @@
+{
+  "proof_id": "004-operational-failure-reconstruction",
+  "analysis_id": "analysis_v0_1",
+  "claims": [
+    {
+      "claim_id": "C-001",
+      "claim": "Public evidence directly describes transcript and history surfaces relevant to transcript reconstruction.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "openclaw-doc-trajectory-bundles",
+        "openclaw-doc-compaction",
+        "openhands-doc-conversation-architecture",
+        "openhands-doc-condenser-architecture"
+      ],
+      "appears_in": [
+        "analysis_v0_1.md",
+        "evidence_backed_findings.json"
+      ],
+      "risk_if_overstated": "Could imply full transcript reconstructability or causal explanation from transcript surfaces alone.",
+      "safe_public_wording": "Public docs describe transcript and history surfaces; full transcript and causal reconstruction remain separate questions."
+    },
+    {
+      "claim_id": "C-002",
+      "claim": "Public evidence directly describes event reconstruction surfaces, especially typed events and ordered event histories.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "openhands-doc-events-architecture",
+        "openhands-doc-conversation-architecture",
+        "openclaw-doc-trajectory-bundles"
+      ],
+      "appears_in": [
+        "analysis_v0_1.md",
+        "evidence_backed_findings.json"
+      ],
+      "risk_if_overstated": "Could imply that all event payloads and external state dependencies are available for every run.",
+      "safe_public_wording": "Public docs describe event reconstruction surfaces; completeness must be validated with actual artifacts."
+    },
+    {
+      "claim_id": "C-003",
+      "claim": "Public evidence directly describes tool and action reconstruction surfaces.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "openclaw-doc-trajectory-bundles",
+        "openclaw-doc-compaction",
+        "openhands-doc-events-architecture",
+        "openhands-doc-browser-session-recording"
+      ],
+      "appears_in": [
+        "analysis_v0_1.md",
+        "evidence_backed_findings.json"
+      ],
+      "risk_if_overstated": "Could imply complete tool-result retention, schema provenance, or redaction transparency.",
+      "safe_public_wording": "Public docs describe tool/action reconstruction surfaces, while complete tool-result provenance remains bounded."
+    },
+    {
+      "claim_id": "C-004",
+      "claim": "Public evidence directly describes memory surfaces relevant to reconstruction, but complete memory reconstruction is not established.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "openclaw-doc-memory-overview",
+        "openclaw-doc-compaction",
+        "openhands-doc-condenser-architecture"
+      ],
+      "appears_in": [
+        "analysis_v0_1.md",
+        "evidence_backed_findings.json",
+        "unresolved_questions.md"
+      ],
+      "risk_if_overstated": "Could imply replayability of memory writes, recalls, indexes, and model-visible memory effects.",
+      "safe_public_wording": "Public docs describe memory surfaces; complete memory reconstruction remains an evidence requirement."
+    },
+    {
+      "claim_id": "C-005",
+      "claim": "Environment reconstruction is relevant to causal failure analysis, but current public evidence only partially supports it.",
+      "claim_level": "inferred",
+      "evidence_refs": [
+        "openhands-doc-agent-server-architecture",
+        "openhands-doc-conversation-architecture",
+        "openclaw-doc-trajectory-bundles"
+      ],
+      "appears_in": [
+        "analysis_v0_1.md",
+        "evidence_backed_findings.json",
+        "unresolved_questions.md"
+      ],
+      "risk_if_overstated": "Could imply a demonstrated environment reconstruction gap rather than a bounded inference from documented surfaces.",
+      "safe_public_wording": "Environment reconstruction appears relevant and only partially supported by current public evidence."
+    },
+    {
+      "claim_id": "C-006",
+      "claim": "Public evidence directly describes temporal reconstruction surfaces.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "openhands-doc-events-architecture",
+        "openhands-doc-conversation-architecture",
+        "openhands-doc-condenser-architecture",
+        "openclaw-doc-trajectory-bundles",
+        "openclaw-doc-compaction"
+      ],
+      "appears_in": [
+        "analysis_v0_1.md",
+        "evidence_backed_findings.json"
+      ],
+      "risk_if_overstated": "Could imply exact decision timing or complete ordering inside omitted ranges.",
+      "safe_public_wording": "Public docs describe temporal reconstruction surfaces; fine-grained omitted-range timing remains unresolved."
+    },
+    {
+      "claim_id": "C-007",
+      "claim": "Current public evidence does not establish contradiction reconstruction.",
+      "claim_level": "unresolved",
+      "evidence_refs": [
+        "openclaw-doc-compaction",
+        "openclaw-doc-memory-overview",
+        "openhands-doc-condenser-architecture"
+      ],
+      "appears_in": [
+        "analysis_v0_1.md",
+        "evidence_backed_findings.json",
+        "unresolved_questions.md"
+      ],
+      "risk_if_overstated": "Could turn missing evidence into an unsupported finding that contradictions are lost or preserved.",
+      "safe_public_wording": "Contradiction reconstruction is not established by the current public evidence."
+    },
+    {
+      "claim_id": "C-008",
+      "claim": "Visible replay and event logs can support partial reconstruction, but causal operational reconstruction requires survivable lineage across memory, environment, tool results, recovery loops, intent, and provenance.",
+      "claim_level": "inferred",
+      "evidence_refs": [
+        "openclaw-doc-trajectory-bundles",
+        "openclaw-doc-compaction",
+        "openclaw-doc-memory-overview",
+        "openhands-doc-events-architecture",
+        "openhands-doc-conversation-architecture",
+        "openhands-doc-condenser-architecture",
+        "openhands-doc-browser-session-recording",
+        "openhands-doc-agent-server-architecture",
+        "shared-rrweb-readme"
+      ],
+      "appears_in": [
+        "analysis_v0_1.md",
+        "evidence_backed_findings.json",
+        "unresolved_questions.md"
+      ],
+      "risk_if_overstated": "Could imply completed causal reconstruction or sufficient replay adequacy for failed sessions.",
+      "safe_public_wording": "Visible replay and event logs support partial reconstruction; causal reconstruction requires survivable lineage across additional dimensions."
+    },
+    {
+      "claim_id": "C-009",
+      "claim": "Public evidence directly describes recovery-loop reconstruction surfaces, but complete recovery-loop reconstruction is not established.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "openclaw-doc-compaction",
+        "openclaw-doc-trajectory-bundles",
+        "openhands-doc-conversation-architecture",
+        "openhands-doc-condenser-architecture"
+      ],
+      "appears_in": [
+        "analysis_v0_1.md",
+        "evidence_backed_findings.json",
+        "unresolved_questions.md"
+      ],
+      "risk_if_overstated": "Could imply complete replay of retries, restarts, fallback choices, cleanup, and resume state.",
+      "safe_public_wording": "Public docs describe recovery-loop surfaces; complete recovery-loop reconstruction remains an evidence requirement."
+    },
+    {
+      "claim_id": "C-010",
+      "claim": "Intent reconstruction drift is a plausible operational risk when summaries, memory recalls, or condensed views omit constraints, authority, timing, or scope changes.",
+      "claim_level": "hypothesis",
+      "evidence_refs": [
+        "openclaw-doc-memory-overview",
+        "openclaw-doc-compaction",
+        "openhands-doc-condenser-architecture",
+        "openhands-doc-conversation-architecture"
+      ],
+      "appears_in": [
+        "analysis_v0_1.md",
+        "evidence_backed_findings.json",
+        "unresolved_questions.md"
+      ],
+      "risk_if_overstated": "Could imply observed intent drift without a public before/after validation example.",
+      "safe_public_wording": "Intent drift remains a hypothesis requiring before/after validation."
+    },
+    {
+      "claim_id": "C-011",
+      "claim": "Public evidence directly describes replay provenance surfaces, including trajectory metadata, event identifiers, omitted-event references, and browser recording artifacts.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "openclaw-doc-trajectory-bundles",
+        "openhands-doc-events-architecture",
+        "openhands-doc-condenser-architecture",
+        "openhands-doc-browser-session-recording",
+        "shared-rrweb-readme"
+      ],
+      "appears_in": [
+        "analysis_v0_1.md",
+        "evidence_backed_findings.json"
+      ],
+      "risk_if_overstated": "Could imply that provenance surfaces are complete enough for causal reconstruction.",
+      "safe_public_wording": "Public evidence describes replay provenance surfaces; provenance completeness remains bounded by available artifacts."
+    }
+  ]
+}
