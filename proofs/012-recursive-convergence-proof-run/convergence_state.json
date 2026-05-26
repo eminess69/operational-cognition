@@ -1,0 +1,135 @@
+{
+  "proof_id": "012-recursive-convergence-proof-run",
+  "adapter_status": "placeholder",
+  "passes_completed": 7,
+  "claims": [
+    {
+      "claim_id": "C-001",
+      "claim": "Survivable lineage is the strongest recurring corpus-level requirement.",
+      "initial_level": "inferred",
+      "final_level": "inferred",
+      "supporting_proofs": ["003", "004", "007", "008", "010"],
+      "strongest_evidence": [
+        "proofs/007-cross-proof-convergence/cross_proof_claim_register.json",
+        "proofs/008-recursive-deep-audit/convergence_pressure_report.md",
+        "proofs/010-fixture-execution/validation_verdict.json"
+      ],
+      "weakest_boundary": "Centrality may be reinforced by proof design and taxonomy reuse; Proof 010 remains synthetic fixture evidence only.",
+      "survived_adversarial_review": true,
+      "survived_alternative_explanation_review": true,
+      "required_next_validation": "Run visible-only and full-lineage replay against an eligible public or redacted-real trace."
+    },
+    {
+      "claim_id": "C-002",
+      "claim": "Visible replay is insufficient for causal operational replay.",
+      "initial_level": "inferred",
+      "final_level": "inferred",
+      "supporting_proofs": ["002", "003", "004", "007", "010"],
+      "strongest_evidence": [
+        "proofs/007-cross-proof-convergence/cross_proof_claim_register.json",
+        "proofs/010-fixture-execution/visible_replay_results.json",
+        "proofs/010-fixture-execution/full_lineage_replay_results.json"
+      ],
+      "weakest_boundary": "Proof 010 observes insufficiency only for a synthetic fixture; visible replay remains useful for bounded inspection.",
+      "survived_adversarial_review": true,
+      "survived_alternative_explanation_review": true,
+      "required_next_validation": "Test whether visible-only replay fails on independent public or redacted-real traces for the same causal dimensions."
+    },
+    {
+      "claim_id": "C-003",
+      "claim": "Compression can preserve utility while reducing replay fidelity.",
+      "initial_level": "inferred",
+      "final_level": "inferred",
+      "supporting_proofs": ["003", "004", "007", "009", "010"],
+      "strongest_evidence": [
+        "proofs/003-continuity-compression-audit/claim_register.json",
+        "proofs/003-continuity-compression-audit/analysis_v0_1.md",
+        "proofs/010-fixture-execution/comparative_reconstruction_report.md"
+      ],
+      "weakest_boundary": "The corpus does not prove that compression necessarily reduces replay fidelity in every implementation.",
+      "survived_adversarial_review": true,
+      "survived_alternative_explanation_review": true,
+      "required_next_validation": "Compare compressed and uncompressed lineage preservation in a non-synthetic trace with omitted ranges and summary boundaries."
+    },
+    {
+      "claim_id": "C-004",
+      "claim": "Memory persistence is not authority preservation.",
+      "initial_level": "inferred",
+      "final_level": "inferred",
+      "supporting_proofs": ["004", "006", "007", "010"],
+      "strongest_evidence": [
+        "proofs/006-memory-authority-survivability-audit/memory_authority_dimension_model.md",
+        "proofs/006-memory-authority-survivability-audit/belief_replayability_matrix.md",
+        "proofs/010-fixture-execution/fixture_claim_register.json"
+      ],
+      "weakest_boundary": "Target-specific memory authority preservation remains unresolved.",
+      "survived_adversarial_review": true,
+      "survived_alternative_explanation_review": true,
+      "required_next_validation": "Use a real or redacted trace with memory write, recall, source authority, freshness, supersession, and contradiction metadata."
+    },
+    {
+      "claim_id": "C-005",
+      "claim": "Contradiction and uncertainty survivability are required for operational truth.",
+      "initial_level": "inferred",
+      "final_level": "inferred",
+      "supporting_proofs": ["003", "004", "005", "007", "010"],
+      "strongest_evidence": [
+        "proofs/005-contradiction-survivability-audit/contradiction_replayability_matrix.md",
+        "proofs/007-cross-proof-convergence/cross_proof_claim_register.json",
+        "proofs/010-fixture-execution/full_lineage_replay_results.json"
+      ],
+      "weakest_boundary": "The corpus establishes an audit requirement, not a target-system contradiction-preservation guarantee.",
+      "survived_adversarial_review": true,
+      "survived_alternative_explanation_review": true,
+      "required_next_validation": "Validate contradiction refs, resolution status, source authority, and downstream dependency links in a non-synthetic trace."
+    },
+    {
+      "claim_id": "C-006",
+      "claim": "Environment and recovery state are necessary causal replay dimensions.",
+      "initial_level": "inferred",
+      "final_level": "inferred",
+      "supporting_proofs": ["001", "002", "003", "004", "007", "010"],
+      "strongest_evidence": [
+        "proofs/007-cross-proof-convergence/cross_proof_claim_register.json",
+        "proofs/010-fixture-execution/full_lineage_replay_results.json",
+        "proofs/010-fixture-execution/comparative_reconstruction_report.md"
+      ],
+      "weakest_boundary": "The corpus observes recurring environment and recovery requirements but does not prove complete adequacy for target systems.",
+      "survived_adversarial_review": true,
+      "survived_alternative_explanation_review": true,
+      "required_next_validation": "Replay a trace with environment snapshots, runtime config, blocked actions, recovery transitions, and pre/post state refs."
+    },
+    {
+      "claim_id": "C-007",
+      "claim": "The Proof 010 fixture validates survivable lineage only at fixture scope.",
+      "initial_level": "inferred",
+      "final_level": "observed",
+      "supporting_proofs": ["010"],
+      "strongest_evidence": [
+        "proofs/010-fixture-execution/validation_verdict.json",
+        "proofs/010-fixture-execution/comparative_reconstruction_report.md",
+        "proofs/010-fixture-execution/fixture_claim_register.json"
+      ],
+      "weakest_boundary": "The fixture may be too easy, synthetic, and aligned with expected lineage fields.",
+      "survived_adversarial_review": true,
+      "survived_alternative_explanation_review": true,
+      "required_next_validation": "Harden the fixture and run the same method against an eligible public or redacted-real trace."
+    },
+    {
+      "claim_id": "C-008",
+      "claim": "A real/redacted trace is required for stronger external validation.",
+      "initial_level": "inferred",
+      "final_level": "inferred",
+      "supporting_proofs": ["008", "010", "011"],
+      "strongest_evidence": [
+        "proofs/010-fixture-execution/validation_verdict.json",
+        "proofs/011-redacted-real-trace-candidate/trace_conversion_plan.md",
+        "proofs/011-redacted-real-trace-candidate/unresolved_requirements.md"
+      ],
+      "weakest_boundary": "No eligible real or redacted-real trace has been selected.",
+      "survived_adversarial_review": true,
+      "survived_alternative_explanation_review": true,
+      "required_next_validation": "Select an eligible candidate under Proof 011 and execute the visible-only versus full-lineage replay comparison."
+    }
+  ]
+}

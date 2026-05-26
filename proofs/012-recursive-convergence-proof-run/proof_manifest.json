@@ -1,0 +1,44 @@
+{
+  "proof_id": "012-recursive-convergence-proof-run",
+  "title": "Recursive Convergence Proof Run",
+  "status": "analysis",
+  "targets": [
+    "Operational Cognition proof corpus 001-011",
+    "Proof 010 synthetic fixture",
+    "public or redacted-real trace validation path"
+  ],
+  "claim_level": "evidence_backed",
+  "inside_voice_adapter_status": "placeholder",
+  "public_private_boundary": "sanitized_public_artifacts_only",
+  "required_artifacts": [
+    "README.md",
+    "recursive_run_plan.md",
+    "recursive_depth_log.jsonl",
+    "convergence_state.json",
+    "surviving_laws.md",
+    "adversarial_downgrade_report.md",
+    "contradiction_pressure_report.md",
+    "evidence_sufficiency_report.md",
+    "fixture_pressure_report.md",
+    "final_convergence_verdict.json",
+    "proof_manifest.json"
+  ],
+  "disallowed_claims": [
+    "AGI",
+    "consciousness",
+    "black_box_solved",
+    "substrate_disclosure",
+    "hidden_reasoning",
+    "inside_voice_internals",
+    "target_system_global_validation",
+    "universal_survivable_lineage_validation",
+    "proof_010_global_validation"
+  ],
+  "lineage": {
+    "mcp_endpoint": "http://127.0.0.1:8766",
+    "contract_version": "inside_voice.mcp.consultation.v1",
+    "request_hash": "6a0c8daf3a3f4e9d6db1004b2a9c3fb0646c1406560aa3914fae398dca4f3833",
+    "response_hash": "373ad5939ae8f93881c5b34c328c6a2340272ebc48146d5e15ca72f8b25f48ac",
+    "derived_from": "proofs/007-cross-proof-convergence;proofs/008-recursive-deep-audit;proofs/010-fixture-execution;proofs/011-redacted-real-trace-candidate"
+  }
+}

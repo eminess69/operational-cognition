@@ -1,0 +1,19 @@
+{
+  "proof_id": "012-recursive-convergence-proof-run",
+  "verdict": "CONVERGENCE_SURVIVES_BOUNDED",
+  "central_claim": "Survivable lineage remains the strongest surviving implementation-neutral operational requirement in the current proof corpus.",
+  "central_claim_level": "inferred",
+  "passes_completed": 7,
+  "stop_reason": "Required seven bounded passes completed; optional recursion stopped because final claim levels did not change and the placeholder MCP adapter could not add public evidence.",
+  "strongest_safe_public_claim": "The current proof corpus repeatedly converges on survivable lineage as the strongest implementation-neutral requirement for audit-grade long-horizon operational cognition, but this remains an inferred corpus-level claim requiring redacted-real or public-trace validation.",
+  "claims_not_allowed": [
+    "proof_010_global_validation",
+    "target_system_survivable_lineage_validation",
+    "universal_survivable_lineage_sufficiency",
+    "mcp_placeholder_as_target_system_evidence",
+    "private_substrate_dependency"
+  ],
+  "next_required_validation": "Select an eligible public or redacted-real trace under Proof 011, convert it into the fixture format, and run visible-only versus full-lineage replay scoring.",
+  "fixture_scope": "synthetic_fixture_only",
+  "mcp_adapter_status": "placeholder"
+}
