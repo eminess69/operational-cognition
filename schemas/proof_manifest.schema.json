@@ -109,6 +109,15 @@
         "validates": {
           "type": "string",
           "minLength": 1
+        },
+        "candidate_status": {
+          "type": "string",
+          "enum": [
+            "not_selected",
+            "selected",
+            "rejected",
+            "eligible"
+          ]
         }
       }
     }

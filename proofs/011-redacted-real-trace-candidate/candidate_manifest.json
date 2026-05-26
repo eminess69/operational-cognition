@@ -1,0 +1,29 @@
+{
+  "proof_id": "011-redacted-real-trace-candidate",
+  "candidate_status": "not_selected",
+  "candidate_type": "none",
+  "source_description": "No safe public or redacted-real trace selected yet.",
+  "source_refs": [],
+  "redaction_required": true,
+  "redaction_complete": false,
+  "eligibility": {
+    "has_transcript": false,
+    "has_event_log": false,
+    "has_tool_action_log": false,
+    "has_tool_result_refs": false,
+    "has_memory_refs": false,
+    "has_compression_or_summary_boundary": false,
+    "has_omitted_range_refs": false,
+    "has_contradiction_or_correction": false,
+    "has_authority_refs": false,
+    "has_temporal_validity_refs": false,
+    "has_environment_refs": false,
+    "has_runtime_config": false,
+    "has_recovery_or_retry_trace": false,
+    "has_provenance_manifest": false
+  },
+  "decision": {
+    "eligible_for_execution": false,
+    "reason": "No safe candidate selected yet."
+  }
+}

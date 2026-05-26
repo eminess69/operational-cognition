@@ -1,0 +1,42 @@
+{
+  "proof_id": "011-redacted-real-trace-candidate",
+  "title": "Redacted-Real Trace Candidate for Survivable Lineage Validation",
+  "status": "evidence_collection",
+  "targets": [
+    "PublicTraceCandidate",
+    "RedactedRealTraceCandidate"
+  ],
+  "claim_level": "planning_scaffold",
+  "inside_voice_adapter_status": "placeholder",
+  "public_private_boundary": "sanitized_public_artifacts_only",
+  "required_artifacts": [
+    "README.md",
+    "candidate_selection_policy.md",
+    "trace_conversion_plan.md",
+    "eligibility_matrix.md",
+    "redaction_policy.md",
+    "candidate_manifest.json",
+    "proof_manifest.json",
+    "public_lineage_summary.md",
+    "unresolved_requirements.md",
+    "candidate/README.md",
+    "candidate/.gitkeep"
+  ],
+  "disallowed_claims": [
+    "AGI",
+    "consciousness",
+    "black_box_solved",
+    "substrate_disclosure",
+    "hidden_chain_of_thought",
+    "target_system_defects",
+    "universal_validation"
+  ],
+  "lineage": {
+    "mcp_endpoint": "not_applicable_no_mcp_consultation_for_proof_011_candidate_scaffold",
+    "contract_version": "inside_voice.mcp.consultation.v1",
+    "request_hash": "not_applicable_candidate_scaffold",
+    "response_hash": "not_applicable_candidate_scaffold",
+    "derived_from": "proofs/010-fixture-execution",
+    "candidate_status": "not_selected"
+  }
+}
