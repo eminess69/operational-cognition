@@ -14,6 +14,8 @@ from tools import validate_evidence_manifest as validator  # noqa: E402
 
 
 MANIFEST_PATH = ROOT / "proofs" / "001-agent-continuity-audit" / "evidence_manifest.json"
+PROOF_002_MANIFEST_PATH = ROOT / "proofs" / "002-replayability-gap-audit" / "evidence_manifest.json"
+MANIFEST_PATHS = [MANIFEST_PATH, PROOF_002_MANIFEST_PATH]
 
 
 def load_manifest() -> dict:
@@ -21,7 +23,8 @@ def load_manifest() -> dict:
 
 
 def test_manifest_validates() -> None:
-    assert validator.validate_manifest(MANIFEST_PATH) == []
+    for manifest_path in MANIFEST_PATHS:
+        assert validator.validate_manifest(manifest_path) == []
 
 
 def test_hashes_stable() -> None:

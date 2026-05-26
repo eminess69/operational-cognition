@@ -1,0 +1,42 @@
+{
+  "proof_id": "002-replayability-gap-audit",
+  "title": "Replayability Gap Audit for Long-Horizon Agent Systems",
+  "status": "evidence_collection",
+  "targets": [
+    "OpenClaw",
+    "OpenHands"
+  ],
+  "claim_level": "planning_scaffold",
+  "inside_voice_adapter_status": "placeholder",
+  "public_private_boundary": "sanitized_public_artifacts_only",
+  "required_artifacts": [
+    "README.md",
+    "problem_statement.md",
+    "evidence_plan.md",
+    "replay_dimension_model.md",
+    "replay_gap_taxonomy.md",
+    "replayability_matrix.md",
+    "mitigation_doctrine.md",
+    "public_lineage_summary.md",
+    "proof_manifest.json",
+    "investigation_log.jsonl",
+    "evidence_manifest.json"
+  ],
+  "disallowed_claims": [
+    "AGI",
+    "consciousness",
+    "black_box_solved",
+    "substrate_disclosure",
+    "hidden_chain_of_thought",
+    "hidden_vulnerability",
+    "substrate_superiority",
+    "belief_ledger_internals",
+    "inside_voice_internals"
+  ],
+  "lineage": {
+    "mcp_endpoint": "http://127.0.0.1:8766",
+    "contract_version": "inside_voice.mcp.consultation.v1",
+    "request_hash": "450b90efe817e368704117d3c711caec5df311c9ea9df379421297c94e6d3452",
+    "response_hash": "1ac6030c5b1b554a930d5d0496396467b06234ba983ab73d2b6d44efe3b82ab1"
+  }
+}

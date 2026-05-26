@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate a Proof 001 public evidence manifest."""
+"""Validate a public evidence manifest."""
 
 from __future__ import annotations
 
@@ -175,8 +175,9 @@ def validate_manifest_data(manifest: Any, manifest_dir: Path) -> list[str]:
     if missing:
         return errors
 
-    if manifest.get("proof_id") != "001-agent-continuity-audit":
-        errors.append("$.proof_id: expected 001-agent-continuity-audit")
+    expected_proof_id = manifest_dir.name
+    if manifest.get("proof_id") != expected_proof_id:
+        errors.append(f"$.proof_id: expected {expected_proof_id}")
     if manifest.get("status") != "evidence_collection":
         errors.append("$.status: expected evidence_collection")
 

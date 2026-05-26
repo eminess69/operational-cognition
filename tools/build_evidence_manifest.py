@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build Proof 001 public evidence snapshots and manifest."""
+"""Build public evidence snapshots and manifests for proof packs."""
 
 from __future__ import annotations
 
@@ -16,16 +16,9 @@ from urllib import request as urlrequest
 
 
 ROOT = Path(__file__).resolve().parents[1]
-PROOF_DIR = ROOT / "proofs" / "001-agent-continuity-audit"
-EVIDENCE_DIR = PROOF_DIR / "evidence"
-SNAPSHOT_DIR = EVIDENCE_DIR / "snapshots"
-MANIFEST_PATH = PROOF_DIR / "evidence_manifest.json"
-INVESTIGATION_LOG_PATH = PROOF_DIR / "investigation_log.jsonl"
-INTERNAL_CONSULT_PATH = ROOT / "internal" / "inside_voice" / "evidence_collection_consult.json"
-
 MAX_ISSUE_BODY_CHARS = 12000
 
-SOURCE_DEFINITIONS: list[dict[str, Any]] = [
+PROOF_001_SOURCES: list[dict[str, Any]] = [
     {
         "id": "openclaw-doc-compaction",
         "system": "OpenClaw",
@@ -193,6 +186,119 @@ SOURCE_DEFINITIONS: list[dict[str, Any]] = [
     },
 ]
 
+PROOF_002_SOURCES: list[dict[str, Any]] = [
+    {
+        "id": "openclaw-doc-compaction",
+        "system": "OpenClaw",
+        "type": "doc",
+        "title": "OpenClaw Compaction",
+        "url": "https://docs.openclaw.ai/concepts/compaction",
+        "fetch_url": "https://docs.openclaw.ai/concepts/compaction.md",
+        "capture_method": "markdown",
+        "tags": ["compressed-context", "memory-state", "session-state"],
+        "notes": "Public documentation describes compaction, successor transcripts, and memory flush interactions relevant to replay reconstruction.",
+    },
+    {
+        "id": "openclaw-doc-memory-overview",
+        "system": "OpenClaw",
+        "type": "doc",
+        "title": "OpenClaw Memory overview",
+        "url": "https://docs.openclaw.ai/concepts/memory",
+        "fetch_url": "https://docs.openclaw.ai/concepts/memory.md",
+        "capture_method": "markdown",
+        "tags": ["cross-session-replay", "memory-state"],
+        "notes": "Public documentation describes disk based memory files and recall mechanisms that may affect replay adequacy.",
+    },
+    {
+        "id": "openclaw-doc-trajectory-bundles",
+        "system": "OpenClaw",
+        "type": "doc",
+        "title": "OpenClaw Trajectory bundles",
+        "url": "https://docs.openclaw.ai/tools/trajectory",
+        "fetch_url": "https://docs.openclaw.ai/tools/trajectory.md",
+        "capture_method": "markdown",
+        "tags": ["runtime-artifacts", "tool-action-lineage", "visible-replay"],
+        "notes": "Public documentation describes exported runtime and transcript timelines; included to evaluate visible versus causal replay coverage.",
+    },
+    {
+        "id": "openhands-doc-agent-server-architecture",
+        "system": "OpenHands",
+        "type": "doc",
+        "title": "OpenHands SDK Agent Server architecture",
+        "url": "https://docs.openhands.dev/sdk/arch/agent-server",
+        "fetch_url": "https://docs.openhands.dev/sdk/arch/agent-server.md",
+        "capture_method": "markdown",
+        "tags": ["configuration-runtime", "environment-state"],
+        "notes": "Public architecture documentation describes remote execution, workspace isolation, and container orchestration surfaces relevant to replay state.",
+    },
+    {
+        "id": "openhands-doc-browser-session-recording",
+        "system": "OpenHands",
+        "type": "doc",
+        "title": "OpenHands Browser Session Recording",
+        "url": "https://docs.openhands.dev/sdk/guides/browser-session-recording",
+        "fetch_url": "https://docs.openhands.dev/sdk/guides/browser-session-recording.md",
+        "capture_method": "markdown",
+        "tags": ["browser-ui-state", "visible-replay"],
+        "notes": "Public documentation describes browser recording and replay support through rrweb.",
+    },
+    {
+        "id": "openhands-doc-condenser-architecture",
+        "system": "OpenHands",
+        "type": "doc",
+        "title": "OpenHands SDK Condenser architecture",
+        "url": "https://docs.openhands.dev/sdk/arch/condenser",
+        "fetch_url": "https://docs.openhands.dev/sdk/arch/condenser.md",
+        "capture_method": "markdown",
+        "tags": ["compressed-context", "memory-state"],
+        "notes": "Public architecture documentation describes history compression, summaries, and forgotten event IDs relevant to compressed-context replay.",
+    },
+    {
+        "id": "openhands-doc-conversation-architecture",
+        "system": "OpenHands",
+        "type": "doc",
+        "title": "OpenHands SDK Conversation architecture",
+        "url": "https://docs.openhands.dev/sdk/arch/conversation",
+        "fetch_url": "https://docs.openhands.dev/sdk/arch/conversation.md",
+        "capture_method": "markdown",
+        "tags": ["event-log", "state-management", "tool-action-lineage"],
+        "notes": "Public architecture documentation describes event logs, persistence, conversation state, and local/remote execution models.",
+    },
+    {
+        "id": "openhands-doc-events-architecture",
+        "system": "OpenHands",
+        "type": "doc",
+        "title": "OpenHands SDK Events architecture",
+        "url": "https://docs.openhands.dev/sdk/arch/events",
+        "fetch_url": "https://docs.openhands.dev/sdk/arch/events.md",
+        "capture_method": "markdown",
+        "tags": ["causal-lineage", "event-log", "tool-action-lineage"],
+        "notes": "Public architecture documentation describes typed events and event flows relevant to replay lineage.",
+    },
+    {
+        "id": "shared-rrweb-readme",
+        "system": "Shared",
+        "type": "doc",
+        "title": "rrweb README",
+        "url": "https://github.com/rrweb-io/rrweb",
+        "fetch_url": "https://raw.githubusercontent.com/rrweb-io/rrweb/master/README.md",
+        "capture_method": "markdown",
+        "tags": ["browser-ui-state", "visible-replay"],
+        "notes": "Public upstream replay library documentation is included only as shared context for browser/UI replay semantics.",
+    },
+]
+
+PROOF_CONFIGS: dict[str, dict[str, Any]] = {
+    "001-agent-continuity-audit": {
+        "internal_consult_path": ROOT / "internal" / "inside_voice" / "evidence_collection_consult.json",
+        "sources": PROOF_001_SOURCES,
+    },
+    "002-replayability-gap-audit": {
+        "internal_consult_path": ROOT / "internal" / "inside_voice" / "proof_002_mcp_consult_response.json",
+        "sources": PROOF_002_SOURCES,
+    },
+}
+
 
 def ssl_context() -> ssl.SSLContext:
     cafile = Path("/etc/ssl/cert.pem")
@@ -344,11 +450,15 @@ def investigation_record(
     return record
 
 
-def build_investigation_records(manifest: dict[str, Any]) -> list[dict[str, str]]:
+def build_investigation_records(
+    manifest: dict[str, Any],
+    internal_consult_path: Path,
+    consult_source_ref: str,
+) -> list[dict[str, str]]:
     records: list[dict[str, str]] = []
 
-    if INTERNAL_CONSULT_PATH.exists():
-        consult = json.loads(INTERNAL_CONSULT_PATH.read_text(encoding="utf-8"))
+    if internal_consult_path.exists():
+        consult = json.loads(internal_consult_path.read_text(encoding="utf-8"))
         hashes = consult.get("hashes", {})
         adapter_status = consult.get("adapter_status", "placeholder")
         notes = (
@@ -362,7 +472,7 @@ def build_investigation_records(manifest: dict[str, Any]) -> list[dict[str, str]
                 "000-consult-mcp",
                 str(consult.get("created_at") or utc_now()),
                 "consult_mcp",
-                "inside_voice:evidence_collection_consult",
+                consult_source_ref,
                 notes,
             )
         )
@@ -405,47 +515,82 @@ def build_investigation_records(manifest: dict[str, Any]) -> list[dict[str, str]
     return records
 
 
-def write_investigation_log_once(manifest: dict[str, Any]) -> bool:
-    if INVESTIGATION_LOG_PATH.exists():
+def write_investigation_log_once(
+    manifest: dict[str, Any],
+    investigation_log_path: Path,
+    internal_consult_path: Path,
+    consult_source_ref: str,
+) -> bool:
+    if investigation_log_path.exists():
         return False
 
-    records = build_investigation_records(manifest)
-    INVESTIGATION_LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with INVESTIGATION_LOG_PATH.open("w", encoding="utf-8") as handle:
+    records = build_investigation_records(manifest, internal_consult_path, consult_source_ref)
+    investigation_log_path.parent.mkdir(parents=True, exist_ok=True)
+    with investigation_log_path.open("w", encoding="utf-8") as handle:
         for record in records:
             handle.write(json.dumps(record, ensure_ascii=False, sort_keys=True) + "\n")
     return True
 
 
-def build_manifest(retrieved_at: str | None = None) -> dict[str, Any]:
+def resolve_proof_dir(proof_dir_arg: str) -> Path:
+    proof_dir = Path(proof_dir_arg)
+    if not proof_dir.is_absolute():
+        proof_dir = ROOT / proof_dir
+    return proof_dir.resolve()
+
+
+def proof_config_for(proof_id: str) -> dict[str, Any]:
+    if proof_id not in PROOF_CONFIGS:
+        known = ", ".join(sorted(PROOF_CONFIGS))
+        raise ValueError(f"unsupported proof id {proof_id!r}; known proofs: {known}")
+    return PROOF_CONFIGS[proof_id]
+
+
+def build_manifest(proof_dir: Path, retrieved_at: str | None = None) -> dict[str, Any]:
     retrieved_at = retrieved_at or utc_now()
-    SNAPSHOT_DIR.mkdir(parents=True, exist_ok=True)
+    proof_id = proof_dir.name
+    config = proof_config_for(proof_id)
+    evidence_dir = proof_dir / "evidence"
+    snapshot_dir = evidence_dir / "snapshots"
+    manifest_path = proof_dir / "evidence_manifest.json"
+    investigation_log_path = proof_dir / "investigation_log.jsonl"
+    snapshot_dir.mkdir(parents=True, exist_ok=True)
 
     sources: list[dict[str, Any]] = []
-    for definition in sorted(SOURCE_DEFINITIONS, key=lambda item: item["id"]):
+    for definition in sorted(config["sources"], key=lambda item: item["id"]):
         snapshot = capture_source(definition, retrieved_at)
-        write_json(SNAPSHOT_DIR / f"{definition['id']}.json", snapshot)
+        write_json(snapshot_dir / f"{definition['id']}.json", snapshot)
         sources.append(manifest_source(definition, snapshot))
 
     manifest = {
-        "proof_id": "001-agent-continuity-audit",
+        "proof_id": proof_id,
         "sources": sorted(sources, key=lambda item: item["id"]),
         "status": "evidence_collection",
     }
-    write_json(MANIFEST_PATH, manifest)
-    wrote_log = write_investigation_log_once(manifest)
+    write_json(manifest_path, manifest)
+    wrote_log = write_investigation_log_once(
+        manifest,
+        investigation_log_path,
+        config["internal_consult_path"],
+        f"inside_voice:{proof_id}",
+    )
 
-    print(f"Wrote {MANIFEST_PATH.relative_to(ROOT)}")
-    print(f"Wrote {len(sources)} snapshots under {SNAPSHOT_DIR.relative_to(ROOT)}")
+    print(f"Wrote {manifest_path.relative_to(ROOT)}")
+    print(f"Wrote {len(sources)} snapshots under {snapshot_dir.relative_to(ROOT)}")
     if wrote_log:
-        print(f"Wrote {INVESTIGATION_LOG_PATH.relative_to(ROOT)}")
+        print(f"Wrote {investigation_log_path.relative_to(ROOT)}")
     else:
-        print(f"Preserved existing append-only {INVESTIGATION_LOG_PATH.relative_to(ROOT)}")
+        print(f"Preserved existing append-only {investigation_log_path.relative_to(ROOT)}")
     return manifest
 
 
 def parse_args(argv: list[str]) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--proof-dir",
+        default="proofs/001-agent-continuity-audit",
+        help="Proof directory to build. Defaults to Proof 001.",
+    )
     parser.add_argument(
         "--retrieved-at",
         help="ISO8601 timestamp to stamp all source retrievals. Defaults to current UTC time.",
@@ -458,7 +603,12 @@ def main(argv: list[str]) -> int:
     if args.retrieved_at and not re.match(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$", args.retrieved_at):
         print("--retrieved-at must use YYYY-MM-DDTHH:MM:SSZ", file=sys.stderr)
         return 2
-    build_manifest(args.retrieved_at)
+    try:
+        proof_dir = resolve_proof_dir(args.proof_dir)
+        build_manifest(proof_dir, args.retrieved_at)
+    except ValueError as exc:
+        print(str(exc), file=sys.stderr)
+        return 2
     return 0
 
 
