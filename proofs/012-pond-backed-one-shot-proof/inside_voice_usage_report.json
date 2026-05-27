@@ -1,0 +1,181 @@
+{
+  "proof_id": "012-pond-backed-one-shot-proof",
+  "consultation": {
+    "endpoint": "http://127.0.0.1:8766/consult",
+    "request_artifact_path": "artifacts/inside_voice/preflight_operational_cognition_one_shot_request.json",
+    "response_artifact_path": "artifacts/inside_voice/preflight_operational_cognition_one_shot_response.json",
+    "request_id": "operational-cognition-one-shot-gate-001",
+    "mode": "synthesis",
+    "adapter_status": "pond_backed",
+    "verdict": "ok",
+    "response_compacted": true
+  },
+  "gate": {
+    "passed": true,
+    "criteria": {
+      "adapter_status_pond_backed": true,
+      "recalled_motifs_non_empty": true,
+      "retrieved_artifact_refs_non_empty": true,
+      "lineage_refs_non_empty": true,
+      "unresolved_tensions_non_empty": true,
+      "claim_pressure_non_empty": true,
+      "lineage_response_hash_present": true,
+      "runtime_response_hash_present": true
+    }
+  },
+  "what_changed_because_of_inside_voice": [
+    "The package treats pond-backed recall as runtime evidence only after adapter_status=pond_backed was observed.",
+    "The package cites recalled motifs instead of relying on Codex-only thematic reconstruction.",
+    "The package carries retrieved artifact refs into the evidence boundary.",
+    "The package preserves unresolved tensions as active blockers instead of smoothing them into a stronger claim.",
+    "The package uses claim-pressure warnings to block unsupported advantage and validation claims.",
+    "The next validation is phrased as a real-trace replay gate with deterministic pass/fail hashes, matching the Inside Voice recommended next pressure."
+  ],
+  "recalled_motifs": [
+    {
+      "motif": "overlap_cluster_0018",
+      "motif_id": "inside_voice_runtime:b52f584c333f5750c031",
+      "reason_codes": [
+        "recurring_motif"
+      ],
+      "source_ref": "artifacts/pond/pattern_overlap_clusters.jsonl#0",
+      "supporting_refs": [
+        "artifacts/pond/pattern_overlap_clusters.jsonl#0",
+        "artifacts/falsification/external_falsification_results.jsonl#0",
+        "artifacts/falsification/external_falsification_results.jsonl#1",
+        "artifacts/falsification/external_falsification_results.jsonl#2"
+      ]
+    },
+    {
+      "motif": "fragment_00001",
+      "motif_id": "inside_voice_runtime:3591cc0fd8efa87ae74c",
+      "reason_codes": [
+        "lineage_fragment"
+      ],
+      "source_ref": "artifacts/pond/reusable_lineage_pool.jsonl#0",
+      "supporting_refs": [
+        "artifacts/pond/reusable_lineage_pool.jsonl#0",
+        "artifacts/pond/pattern_overlap_clusters.jsonl",
+        "artifacts/falsification/external_falsification_results.jsonl#0",
+        "artifacts/falsification/external_falsification_results.jsonl#1"
+      ]
+    },
+    {
+      "motif": "harmonic_recall_report",
+      "motif_id": "inside_voice_runtime:4be72c39afb8a6346fe5",
+      "reason_codes": [
+        "CONVERGENCE_STATE"
+      ],
+      "source_ref": "artifacts/pond/harmonic_recall_report.json",
+      "supporting_refs": [
+        "artifacts/pond/harmonic_recall_report.json"
+      ]
+    }
+  ],
+  "retrieved_artifact_refs": [
+    "request_visible_ref:proofs/007-cross-proof-convergence/convergence_analysis.md",
+    "request_visible_ref:proofs/008-recursive-deep-audit/survivable_lineage_validation_plan.md",
+    "request_visible_ref:proofs/009-survivable-lineage-fixture/README.md",
+    "request_visible_ref:proofs/010-fixture-execution/comparative_reconstruction_report.md",
+    "request_visible_ref:proofs/011-redacted-real-trace-candidate/README.md",
+    "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json",
+    "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+    "artifacts/proof/recursive_stability_proof_rollup/recursive_stability_claim_boundary.json"
+  ],
+  "lineage_refs": [
+    "request_visible_ref:proofs/007-cross-proof-convergence/convergence_analysis.md",
+    "request_visible_ref:proofs/008-recursive-deep-audit/survivable_lineage_validation_plan.md",
+    "request_visible_ref:proofs/009-survivable-lineage-fixture/README.md",
+    "request_visible_ref:proofs/010-fixture-execution/comparative_reconstruction_report.md",
+    "request_visible_ref:proofs/011-redacted-real-trace-candidate/README.md",
+    "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json"
+  ],
+  "unresolved_tensions": [
+    {
+      "id": "inside_voice_runtime:d43e2e09c028b98314e8",
+      "tension": "gap:5c482ea64982398d",
+      "status": "unresolved",
+      "recommended_validation": "Resolve only with replay-linked evidence or keep as an explicit uncertainty."
+    },
+    {
+      "id": "inside_voice_runtime:8c7a0ef664098db91e88",
+      "tension": "arbitration:28663be18db91b7d",
+      "status": "unresolved",
+      "recommended_validation": "Resolve only with replay-linked evidence or keep as an explicit uncertainty."
+    },
+    {
+      "id": "inside_voice_runtime:090c5db589c51515dfae",
+      "tension": "CONFLICTING_PATHWAY_REINFORCEMENT",
+      "status": "unresolved",
+      "recommended_validation": "Resolve only with replay-linked evidence or keep as an explicit uncertainty."
+    }
+  ],
+  "claim_pressure": [
+    {
+      "id": "contradiction:63405000ebba",
+      "warning": "blocked unsupported claims",
+      "reason_codes": [
+        "authority_warning",
+        "CLAIM_DISCIPLINE"
+      ],
+      "evidence_refs": [
+        "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json"
+      ]
+    },
+    {
+      "id": "contradiction:3c67ec91b2d2",
+      "warning": "blocked unsupported claims",
+      "reason_codes": [
+        "authority_warning",
+        "CLAIM_DISCIPLINE"
+      ],
+      "evidence_refs": [
+        "artifacts/proof/recursive_stability_proof_rollup/recursive_stability_claim_boundary.json"
+      ]
+    },
+    {
+      "id": "contradiction:c3328bb2ea1b",
+      "warning": "seasoning_00076",
+      "reason_codes": [
+        "BLOCKED_LOW_REUSE_POTENTIAL",
+        "BLOCKED_DUPLICATE",
+        "BLOCKED_SYNTHETIC_INFLATION"
+      ],
+      "evidence_refs": [
+        "artifacts/pond/high_grade_seasoning_corpus.jsonl#75",
+        "artifacts/pond/reusable_lineage_pool.jsonl",
+        "trace.falsification.hostile_ext_001"
+      ]
+    },
+    {
+      "id": "contradiction:9d85edad8192",
+      "warning": "seasoning_00077",
+      "reason_codes": [
+        "BLOCKED_LOW_REUSE_POTENTIAL",
+        "BLOCKED_DUPLICATE",
+        "BLOCKED_SYNTHETIC_INFLATION"
+      ],
+      "evidence_refs": [
+        "artifacts/pond/high_grade_seasoning_corpus.jsonl#76",
+        "artifacts/pond/pattern_overlap_clusters.jsonl",
+        "trace.falsification.hostile_ext_001"
+      ]
+    }
+  ],
+  "recommended_next_pressure": [
+    "Execute a real-trace replay gate: select one Proof 011 candidate trace, replay it against the Proof 010 synthetic fixture boundary, and emit deterministic pass/fail hashes before making any public advantage claim.",
+    "Inspect the cited proof and claim-boundary artifacts before using the synthesis as task evidence.",
+    "Preserve observed/inferred/hypothesis/unresolved labels in any downstream response."
+  ],
+  "runtime_hashes": {
+    "request_hash": "df735ff5207ca4024048a3dd5ef2fa499af3fae25387cbcfbe1fc3ff99980088",
+    "response_hash": "7ebdae3941b5147805b657bbe66b1be7171c3c3314bcea024ffddd301c159e7c",
+    "runtime_request_hash": "df735ff5207ca4024048a3dd5ef2fa499af3fae25387cbcfbe1fc3ff99980088",
+    "runtime_response_hash": "2996a76fcd57a261bf2279dd4924cb23942ab255ff7a0fc29374987d14631615",
+    "corpus_hash": "b44a6338242a31cee7792d853979662f31975822d1509b8fca4a0824c38d5a0d"
+  },
+  "boundary_preservation": {
+    "proof_010": "Proof 010 remains synthetic fixture validation only, not real-trace validation.",
+    "proof_011": "Proof 011 remains the real-trace replay gate and has not been executed."
+  }
+}

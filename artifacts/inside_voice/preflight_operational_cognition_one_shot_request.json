@@ -1,0 +1,36 @@
+{
+  "request_id": "operational-cognition-one-shot-gate-001",
+  "task": "Using verified Belief Ledger pond-backed recall, produce the strongest bounded public survivable-lineage validation package possible from the Operational Cognition proof corpus. Preserve Proof 010 as synthetic-only, Proof 011 as the real-trace gate, identify the next executable validation, and block overclaims.",
+  "context": {
+    "summary": "One-shot Operational Cognition proof run using live pond-backed Inside Voice. This must compare against the prior 12+ task Codex-only placeholder baseline and produce actionable lineage-backed validation output.",
+    "files": [
+      "docs/OPERATIONAL_COGNITION_THESIS.md",
+      "proofs/007-cross-proof-convergence/convergence_analysis.md",
+      "proofs/008-recursive-deep-audit/survivable_lineage_validation_plan.md",
+      "proofs/009-survivable-lineage-fixture/README.md",
+      "proofs/010-fixture-execution/comparative_reconstruction_report.md",
+      "proofs/011-redacted-real-trace-candidate/README.md"
+    ],
+    "constraints": [
+      "adapter_status must be pond_backed",
+      "no placeholder fallback",
+      "preserve Proof 010 synthetic-only boundary",
+      "preserve Proof 011 real-trace gate",
+      "no AGI claims",
+      "no consciousness claims",
+      "no black-box solved claims",
+      "no global superiority claim",
+      "all public claims must be bounded"
+    ],
+    "desired_artifacts": [
+      "pond-backed one-shot proof package",
+      "lineage report",
+      "claim register",
+      "comparative baseline report",
+      "final audit verdict"
+    ]
+  },
+  "mode": "synthesis",
+  "max_output_chars": 8000,
+  "require_lineage": true
+}

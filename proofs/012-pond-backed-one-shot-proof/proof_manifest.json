@@ -1,0 +1,43 @@
+{
+  "proof_id": "012-pond-backed-one-shot-proof",
+  "title": "Pond-Backed One-Shot Operational Cognition Proof",
+  "status": "complete",
+  "targets": [
+    "OperationalCognitionProofCorpus",
+    "PondBackedInsideVoiceRuntime"
+  ],
+  "claim_level": "evidence_backed",
+  "inside_voice_adapter_status": "pond_backed",
+  "public_private_boundary": "sanitized_public_artifacts_and_runtime_hashes_only",
+  "required_artifacts": [
+    "README.md",
+    "one_shot_plan.md",
+    "inside_voice_usage_report.json",
+    "pond_backed_runtime_lineage.json",
+    "survivable_lineage_validation_package.md",
+    "claim_register.json",
+    "comparative_baseline_report.md",
+    "final_audit_verdict.json",
+    "proof_manifest.json",
+    "artifacts/inside_voice/preflight_operational_cognition_one_shot_request.json",
+    "artifacts/inside_voice/preflight_operational_cognition_one_shot_response.json"
+  ],
+  "disallowed_claims": [
+    "AGI",
+    "consciousness",
+    "black_box_solved",
+    "substrate_disclosure",
+    "hidden_chain_of_thought",
+    "target_system_defects",
+    "universal_validation",
+    "global_superiority"
+  ],
+  "lineage": {
+    "mcp_endpoint": "http://127.0.0.1:8766",
+    "contract_version": "inside_voice.mcp.consultation.v1",
+    "request_hash": "df735ff5207ca4024048a3dd5ef2fa499af3fae25387cbcfbe1fc3ff99980088",
+    "response_hash": "7ebdae3941b5147805b657bbe66b1be7171c3c3314bcea024ffddd301c159e7c",
+    "derived_from": "artifacts/inside_voice/preflight_operational_cognition_one_shot_response.json",
+    "validates": "single_run_public_proof_pressure"
+  }
+}

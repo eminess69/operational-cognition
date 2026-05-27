@@ -1,0 +1,109 @@
+{
+  "proof_id": "012-pond-backed-one-shot-proof",
+  "claims": [
+    {
+      "claim_id": "PB-001",
+      "claim": "Inside Voice executed as pond_backed.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "artifacts/inside_voice/preflight_operational_cognition_one_shot_response.json",
+        "inside_voice_usage_report.json",
+        "pond_backed_runtime_lineage.json"
+      ],
+      "safe_public_wording": "The corrected one-shot consultation returned adapter_status=pond_backed.",
+      "risk_if_overstated": "Would imply broader runtime guarantees beyond this recorded consultation."
+    },
+    {
+      "claim_id": "PB-002",
+      "claim": "Non-empty motifs were recalled.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "inside_voice_usage_report.json.recalled_motifs",
+        "pond_backed_runtime_lineage.json.recalled_motif_ids"
+      ],
+      "safe_public_wording": "The response included non-empty recalled motifs.",
+      "risk_if_overstated": "Would treat motif recall as independent validation of every proof claim."
+    },
+    {
+      "claim_id": "PB-003",
+      "claim": "Non-empty artifact refs were retrieved.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "inside_voice_usage_report.json.retrieved_artifact_refs",
+        "pond_backed_runtime_lineage.json.lineage_refs"
+      ],
+      "safe_public_wording": "The response retrieved non-empty artifact and lineage refs.",
+      "risk_if_overstated": "Would treat retrieval as proof that all cited artifacts support stronger conclusions."
+    },
+    {
+      "claim_id": "PB-004",
+      "claim": "Unresolved tensions were preserved.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "inside_voice_usage_report.json.unresolved_tensions",
+        "pond_backed_runtime_lineage.json.unresolved_tension_ids"
+      ],
+      "safe_public_wording": "The response preserved unresolved tensions and did not force them into a settled conclusion.",
+      "risk_if_overstated": "Would erase live uncertainty and overstate proof completeness."
+    },
+    {
+      "claim_id": "PB-005",
+      "claim": "Claim pressure was surfaced.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "inside_voice_usage_report.json.claim_pressure",
+        "pond_backed_runtime_lineage.json.claim_pressure_ids"
+      ],
+      "safe_public_wording": "The response surfaced claim-pressure warnings that blocked unsupported and synthetic-inflation claims.",
+      "risk_if_overstated": "Would convert warning signals into validation evidence."
+    },
+    {
+      "claim_id": "PB-006",
+      "claim": "Proof 010 remained synthetic-only.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "proofs/010-fixture-execution/comparative_reconstruction_report.md",
+        "proofs/010-fixture-execution/validation_verdict.json",
+        "pond_backed_runtime_lineage.json.operational_boundaries"
+      ],
+      "safe_public_wording": "Proof 010 validates only the synthetic fixture boundary.",
+      "risk_if_overstated": "Would imply real-trace or universal validation from a synthetic fixture."
+    },
+    {
+      "claim_id": "PB-007",
+      "claim": "Proof 011 remained the real-trace gate.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "proofs/011-redacted-real-trace-candidate/README.md",
+        "proofs/011-redacted-real-trace-candidate/unresolved_requirements.md",
+        "pond_backed_runtime_lineage.json.operational_boundaries"
+      ],
+      "safe_public_wording": "Proof 011 remains the unexecuted real-trace gate required before stronger public claims.",
+      "risk_if_overstated": "Would imply a real trace was selected or executed when it was not."
+    },
+    {
+      "claim_id": "PB-008",
+      "claim": "The one-shot run produced executable next validation.",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "survivable_lineage_validation_package.md",
+        "inside_voice_usage_report.json.recommended_next_pressure",
+        "pond_backed_runtime_lineage.json.recommended_next_pressure"
+      ],
+      "safe_public_wording": "The run produced an executable real-trace replay gate plan with fields, pass/fail criteria, and disproof criteria.",
+      "risk_if_overstated": "Would imply the next validation has already passed."
+    },
+    {
+      "claim_id": "PB-009",
+      "claim": "The advantage claim is bounded to this run.",
+      "claim_level": "inferred",
+      "evidence_refs": [
+        "comparative_baseline_report.md",
+        "final_audit_verdict.json",
+        "survivable_lineage_validation_package.md"
+      ],
+      "safe_public_wording": "A pond-backed advantage was observed for this single proof run compared with the prior placeholder baseline.",
+      "risk_if_overstated": "Would become an unsupported global superiority claim."
+    }
+  ]
+}

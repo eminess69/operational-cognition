@@ -1,0 +1,9 @@
+{
+  "verdict": "POND_BACKED_ONE_SHOT_VALID",
+  "scope": "single_run_public_proof_pressure",
+  "adapter_status": "pond_backed",
+  "runtime_hash_stable": true,
+  "inside_voice_contribution_observed": true,
+  "global_superiority_claim": false,
+  "next_required_validation": "execute real-trace replay gate"
+}

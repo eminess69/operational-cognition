@@ -1,0 +1,102 @@
+{
+  "proof_id": "012-pond-backed-one-shot-proof",
+  "adapter_status": "pond_backed",
+  "runtime_evidence_artifact_path": "artifacts/inside_voice/preflight_operational_cognition_one_shot_response.json",
+  "request_artifact_path": "artifacts/inside_voice/preflight_operational_cognition_one_shot_request.json",
+  "request_id": "operational-cognition-one-shot-gate-001",
+  "lineage": {
+    "request_hash": "df735ff5207ca4024048a3dd5ef2fa499af3fae25387cbcfbe1fc3ff99980088",
+    "response_hash": "7ebdae3941b5147805b657bbe66b1be7171c3c3314bcea024ffddd301c159e7c",
+    "source_refs": [
+      "request_id:sha256:16ea1ca9b673fd57",
+      "task:sha256:ba5957b007e9e3b8",
+      "context.summary:sha256:c06e5c72fbb4c514",
+      "context.files[0]:sha256:e763116aaed24b34",
+      "context.files[1]:sha256:387ea819a2b22d27"
+    ],
+    "runtime": {
+      "schema_version": "belief_ledger.inside_voice_runtime.v1",
+      "runtime_request_hash": "df735ff5207ca4024048a3dd5ef2fa499af3fae25387cbcfbe1fc3ff99980088",
+      "runtime_response_hash": "2996a76fcd57a261bf2279dd4924cb23942ab255ff7a0fc29374987d14631615",
+      "corpus_hash": "b44a6338242a31cee7792d853979662f31975822d1509b8fca4a0824c38d5a0d",
+      "selected_trace_ids": [
+        "inside_voice_runtime:090c5db589c51515dfae",
+        "inside_voice_runtime:2b41fa2db16d0d7d90ec",
+        "inside_voice_runtime:3591cc0fd8efa87ae74c",
+        "inside_voice_runtime:3c5d87a45c4a501549a6",
+        "inside_voice_runtime:4b770bd0912a5a0288e1",
+        "inside_voice_runtime:4be72c39afb8a6346fe5",
+        "inside_voice_runtime:65d4ed150a65cf9c72f2",
+        "inside_voice_runtime:66a06b4bbc7cc6a19bfd",
+        "inside_voice_runtime:68121ebf717e29fbf8ef",
+        "inside_voice_runtime:695153b83ae3514b594d",
+        "inside_voice_runtime:7cd6749b3341fe9a38e3",
+        "inside_voice_runtime:8c7a0ef664098db91e88"
+      ],
+      "memory_replay_hashes": {
+        "claim": "6adb8ce5bf72a1c62ff9f2fcbd4a9cf10e0f02955420fafcc44270257ec0a8eb",
+        "compression": "553e67a0ab25ecc5c658c568d0b202ef6397316a2b73184f62c3ce5888c6833f",
+        "contradiction": "219a766ae4d5b2b291d662b8d378315d4fc28441569d0eccf9a0c165752afc81",
+        "lineage": "2705fb136e55e6db86c186f1c1e8811b75d273a4a858dd0a82bd40d7cf1afda3",
+        "motif": "802dc9324b769381ab8dce4b030475baa8995420ed0ed04a6dddb47758ee26df",
+        "proof": "3acedfde45043b0b94b74bc42cc418c48404d72086dc73c3d6587c01aa41d6b0",
+        "unresolved": "d372f1b7370175539b6b05deac384dce6fe0010ebeb06839cf2b17560155bc45"
+      },
+      "recall_query_hashes": {
+        "claim": "4ea0c3ec81c6411a99ab8cd0f8596970eb983434d40c613ca19bde557d296605",
+        "compression": "51bee028b47e43a36cf4053a12227a3708a736316edefd06121a8158110e5e98",
+        "contradiction": "96cbfd03ab6c2f4126335ccf60dacc2e416f034a497cd22551e56c9fdb4d2d99",
+        "lineage": "6453fa0e0cb85a9e05c87bfee5f75c6fb4a46c2391621c4ca1ac9e052c01de52",
+        "motif": "137ccc3cb1cc2ff0a58b199a8874a0204c8149dd1e8764d22909dfd3f356569b",
+        "proof": "99b63befb37e5b292eeaad5cc070c2ef6abfc75223cc4ffc5b821df95f1e445b",
+        "unresolved": "fbd3163602e10cba1b7b191e01b6bda3c531518d661b3cff90bcd9c4498394f7"
+      }
+    }
+  },
+  "lineage_refs": [
+    "request_visible_ref:proofs/007-cross-proof-convergence/convergence_analysis.md",
+    "request_visible_ref:proofs/008-recursive-deep-audit/survivable_lineage_validation_plan.md",
+    "request_visible_ref:proofs/009-survivable-lineage-fixture/README.md",
+    "request_visible_ref:proofs/010-fixture-execution/comparative_reconstruction_report.md",
+    "request_visible_ref:proofs/011-redacted-real-trace-candidate/README.md",
+    "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json"
+  ],
+  "recalled_motif_ids": [
+    "inside_voice_runtime:b52f584c333f5750c031",
+    "inside_voice_runtime:3591cc0fd8efa87ae74c",
+    "inside_voice_runtime:4be72c39afb8a6346fe5"
+  ],
+  "unresolved_tension_ids": [
+    "inside_voice_runtime:d43e2e09c028b98314e8",
+    "inside_voice_runtime:8c7a0ef664098db91e88",
+    "inside_voice_runtime:090c5db589c51515dfae"
+  ],
+  "claim_pressure_ids": [
+    "contradiction:63405000ebba",
+    "contradiction:3c67ec91b2d2",
+    "contradiction:c3328bb2ea1b",
+    "contradiction:9d85edad8192"
+  ],
+  "operational_boundaries": [
+    {
+      "id": "boundary.proof_010.synthetic_fixture_only",
+      "claim_level": "observed",
+      "boundary": "Proof 010 remains a synthetic fixture validation boundary, not a real-trace validation result."
+    },
+    {
+      "id": "boundary.proof_011.real_trace_gate",
+      "claim_level": "observed",
+      "boundary": "Proof 011 remains the real-trace candidate gate that must be passed before stronger public claims."
+    }
+  ],
+  "recommended_next_pressure": [
+    "Execute a real-trace replay gate: select one Proof 011 candidate trace, replay it against the Proof 010 synthetic fixture boundary, and emit deterministic pass/fail hashes before making any public advantage claim.",
+    "Inspect the cited proof and claim-boundary artifacts before using the synthesis as task evidence.",
+    "Preserve observed/inferred/hypothesis/unresolved labels in any downstream response."
+  ],
+  "response_hash_stability": {
+    "lineage_response_hash_present": true,
+    "runtime_response_hash_present": true,
+    "stable_for_recorded_runtime_artifact": true
+  }
+}
