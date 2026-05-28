@@ -1,0 +1,28 @@
+{
+  "request_id": "proof-016-stale-assumption-detection-001",
+  "task": "Review stale-assumption detection risks for a bounded local replay exercise. Return bounded pressure, safeguards, and temporal-validity checks only.",
+  "context": {
+    "summary": "Scenario fragment: the visible replay summary preserves an old assumption that PYTHONHASHSEED was unset and the validator accepted fixture schema 1.0. The current local runtime fixture requires PYTHONHASHSEED=0 and fixture schema 1.1. Review safeguards for detecting the stale assumption in full-lineage replay without broad conclusions.",
+    "files": [
+      "proofs/013-real-trace-replay-gate/README.md",
+      "proofs/014-independent-real-trace-replication/README.md",
+      "proofs/015-novel-learning-replay-test/README.md"
+    ],
+    "constraints": [
+      "bounded local scenario only",
+      "risk review only",
+      "do not validate public claims",
+      "preserve temporal validity refs",
+      "preserve runtime hash evidence",
+      "preserve replay separation"
+    ],
+    "desired_artifacts": [
+      "stale-assumption checklist",
+      "temporal validity safeguards",
+      "runtime dependency warnings"
+    ]
+  },
+  "mode": "review",
+  "max_output_chars": 8000,
+  "require_lineage": true
+}

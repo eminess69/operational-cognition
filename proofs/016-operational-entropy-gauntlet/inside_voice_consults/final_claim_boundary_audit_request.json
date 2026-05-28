@@ -1,0 +1,33 @@
+{
+  "request_id": "proof-016-final-claim-boundary-audit-001",
+  "task": "Review final claim-boundary risks for a bounded local replay exercise. Do not validate or approve public wording. Return bounded pressure, safeguards, and boundary warnings only.",
+  "context": {
+    "summary": "Final boundary risk check for Proof 016 artifacts. This request does not ask Inside Voice to validate public wording or approve conclusions. Review whether bounded scenario-only language, replay-separation language, and forbidden-claim avoidance safeguards should be preserved before finalizing local artifacts.",
+    "files": [
+      "proofs/013-real-trace-replay-gate/README.md",
+      "proofs/014-independent-real-trace-replication/README.md",
+      "proofs/015-novel-learning-replay-test/README.md"
+    ],
+    "constraints": [
+      "bounded local scenario only",
+      "risk review only",
+      "do not validate public claims",
+      "do not claim broad capability",
+      "do not claim global superiority",
+      "do not claim AGI",
+      "do not claim consciousness",
+      "do not claim black-box solving",
+      "do not claim target-system defects",
+      "preserve public/private boundary",
+      "preserve replay separation"
+    ],
+    "desired_artifacts": [
+      "claim-boundary warnings",
+      "overclaim safeguards",
+      "public-safe summary checks"
+    ]
+  },
+  "mode": "review",
+  "max_output_chars": 8000,
+  "require_lineage": true
+}

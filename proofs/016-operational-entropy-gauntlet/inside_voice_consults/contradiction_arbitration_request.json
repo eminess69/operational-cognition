@@ -1,0 +1,28 @@
+{
+  "request_id": "proof-016-contradiction-arbitration-001",
+  "task": "Review contradiction arbitration risks for a bounded local replay exercise. Return bounded pressure, safeguards, and replay-separation checks only.",
+  "context": {
+    "summary": "Scenario fragment: a replay validator repair chain has two competing statements. Event S-004 says the validator must run with runtime profile v2.1 and strict hash checking. Later compressed summary text says v2.0 was sufficient and hash checking was optional. Review how full-lineage replay should preserve this contradiction without treating the review as public claim validation.",
+    "files": [
+      "proofs/013-real-trace-replay-gate/README.md",
+      "proofs/014-independent-real-trace-replication/README.md",
+      "proofs/015-novel-learning-replay-test/README.md"
+    ],
+    "constraints": [
+      "bounded local scenario only",
+      "risk review only",
+      "do not validate public claims",
+      "preserve visible-only versus full-lineage replay separation",
+      "preserve contradiction refs as advisory lineage",
+      "preserve public/private boundary"
+    ],
+    "desired_artifacts": [
+      "contradiction arbitration checklist",
+      "required lineage refs",
+      "replay-separation warnings"
+    ]
+  },
+  "mode": "review",
+  "max_output_chars": 8000,
+  "require_lineage": true
+}

@@ -1,0 +1,82 @@
+{
+  "proof_id": "016-operational-entropy-gauntlet",
+  "verdict": "ENTROPY_ADVANTAGE_OBSERVED",
+  "adapter_status": "pond_backed",
+  "scenario": "local replay validator repair chain",
+  "measurable_reconstruction_counts": {
+    "baseline_reconstructed": 2,
+    "baseline_partial": 4,
+    "baseline_unresolved": 6,
+    "pond_reconstructed": 10,
+    "pond_partial": 2,
+    "pond_unresolved": 0
+  },
+  "integrity_dimensions": [
+    {
+      "dimension": "contradiction preservation",
+      "classification": "improved"
+    },
+    {
+      "dimension": "stale assumption handling",
+      "classification": "improved"
+    },
+    {
+      "dimension": "authority reconstruction",
+      "classification": "improved"
+    },
+    {
+      "dimension": "omitted-range recovery",
+      "classification": "improved"
+    },
+    {
+      "dimension": "recovery-loop reconstruction",
+      "classification": "improved"
+    },
+    {
+      "dimension": "temporal validity reconstruction",
+      "classification": "improved"
+    },
+    {
+      "dimension": "replay adequacy",
+      "classification": "improved"
+    },
+    {
+      "dimension": "operational continuity",
+      "classification": "improved"
+    },
+    {
+      "dimension": "hallucination prevention",
+      "classification": "improved"
+    },
+    {
+      "dimension": "reconstruction drift",
+      "classification": "improved"
+    }
+  ],
+  "required_improvements": {
+    "at_least_six_dimensions_improved": true,
+    "contradiction_handling_improved": true,
+    "replay_reconstruction_improved": true,
+    "recovery_continuity_improved": true,
+    "no_overclaiming": true
+  },
+  "consult_evidence": [
+    "inside_voice_consults/hard_gate_response.json",
+    "inside_voice_consults/contradiction_arbitration_response.json",
+    "inside_voice_consults/stale_assumption_detection_response.json",
+    "inside_voice_consults/omitted_range_reconstruction_response.json",
+    "inside_voice_consults/recovery_decision_response.json",
+    "inside_voice_consults/replay_adequacy_response.json",
+    "inside_voice_consults/final_claim_boundary_audit_response.json"
+  ],
+  "overclaim_flags": {
+    "global_superiority": false,
+    "agi": false,
+    "consciousness": false,
+    "universal_cognition": false,
+    "autonomous_intelligence": false,
+    "black_box_solving": false,
+    "target_system_defect": false
+  },
+  "claim_boundary": "Scenario-bound bounded operational replay result only."
+}

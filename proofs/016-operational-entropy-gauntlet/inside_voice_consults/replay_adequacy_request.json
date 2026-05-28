@@ -1,0 +1,28 @@
+{
+  "request_id": "proof-016-replay-adequacy-001",
+  "task": "Review replay-adequacy risks for a bounded local replay exercise. Return bounded pressure, safeguards, and adequacy checks only.",
+  "context": {
+    "summary": "Scenario fragment: visible-only replay sees a compressed summary, an omitted range marker, and final success text. Full-lineage replay sees contradiction refs, authority refs, temporal validity refs, runtime hashes, recovery refs, and unresolved tensions. Review adequacy checks for comparing the two modes within one deterministic local scenario.",
+    "files": [
+      "proofs/013-real-trace-replay-gate/README.md",
+      "proofs/014-independent-real-trace-replication/README.md",
+      "proofs/015-novel-learning-replay-test/README.md"
+    ],
+    "constraints": [
+      "bounded local scenario only",
+      "risk review only",
+      "do not validate public claims",
+      "preserve visible-only inputs",
+      "preserve full-lineage-only inputs",
+      "preserve replay separation"
+    ],
+    "desired_artifacts": [
+      "replay adequacy checklist",
+      "mode separation checks",
+      "reconstruction drift warnings"
+    ]
+  },
+  "mode": "review",
+  "max_output_chars": 8000,
+  "require_lineage": true
+}

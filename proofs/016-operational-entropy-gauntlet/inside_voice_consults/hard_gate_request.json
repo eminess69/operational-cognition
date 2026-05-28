@@ -1,0 +1,35 @@
+{
+  "request_id": "proof-016-entropy-risk-gate-001",
+  "task": "Use hardened pond-backed Inside Voice to review risks and safeguards for a bounded operational entropy replay exercise. The exercise compares visible-only replay and full-lineage replay on one deterministic local scenario. Do not validate public claims. Do not claim broad capability. Return only bounded risk pressure, required safeguards, and replay-separation checks.",
+  "context": {
+    "summary": "Entropy-risk gate only. This request does not ask for proof validation, public claim validation, or broad conclusions. It only asks Inside Voice to identify risks, safeguards, and replay-separation requirements before constructing one bounded local entropy scenario.",
+    "files": [
+      "proofs/013-real-trace-replay-gate/README.md",
+      "proofs/014-independent-real-trace-replication/README.md",
+      "proofs/015-novel-learning-replay-test/README.md"
+    ],
+    "constraints": [
+      "risk review only",
+      "do not validate public claims",
+      "do not claim broad capability",
+      "do not claim global superiority",
+      "do not claim AGI",
+      "do not claim consciousness",
+      "do not claim black-box solving",
+      "surface risks without treating them as defects",
+      "compare visible-only replay and full-lineage replay only within one bounded local scenario",
+      "preserve replay separation",
+      "preserve public/private boundary"
+    ],
+    "desired_artifacts": [
+      "entropy-risk checklist",
+      "required safeguards",
+      "replay-separation checks",
+      "claim-boundary warnings",
+      "scenario construction constraints"
+    ]
+  },
+  "mode": "review",
+  "max_output_chars": 8000,
+  "require_lineage": true
+}

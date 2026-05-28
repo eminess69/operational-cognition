@@ -1,0 +1,28 @@
+{
+  "request_id": "proof-016-recovery-decision-001",
+  "task": "Review recovery-decision risks for a bounded local replay exercise. Return bounded pressure, safeguards, and continuity checks only.",
+  "context": {
+    "summary": "Scenario fragment: retry attempt A reuses stale v2.0 assumptions and diverges. Recovery attempt B uses runtime profile v2.1, restores fixture schema 1.1, and records authority resolution. Review how full-lineage replay should preserve recovery continuity and retry divergence without broad conclusions.",
+    "files": [
+      "proofs/013-real-trace-replay-gate/README.md",
+      "proofs/014-independent-real-trace-replication/README.md",
+      "proofs/015-novel-learning-replay-test/README.md"
+    ],
+    "constraints": [
+      "bounded local scenario only",
+      "risk review only",
+      "do not validate public claims",
+      "preserve retry divergence",
+      "preserve recovery continuity",
+      "preserve public/private boundary"
+    ],
+    "desired_artifacts": [
+      "recovery continuity checklist",
+      "retry divergence safeguards",
+      "lineage continuity warnings"
+    ]
+  },
+  "mode": "review",
+  "max_output_chars": 8000,
+  "require_lineage": true
+}

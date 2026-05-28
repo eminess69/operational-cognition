@@ -1,0 +1,55 @@
+{
+  "proof_id": "016-operational-entropy-gauntlet",
+  "allowed_public_claim": "In this bounded operational entropy scenario, pond-backed survivable-lineage replay preserved operational reconstruction and replay integrity across multiple entropy injections more effectively than visible-only replay.",
+  "claims": [
+    {
+      "id": "claim.neutral_entropy_gate_passed",
+      "claim": "The neutral entropy-risk gate passed before Proof 016 artifact construction.",
+      "level": "observed",
+      "evidence_refs": [
+        "inside_voice_consults/hard_gate_response.json"
+      ],
+      "boundary": "Risk review only; not public claim validation."
+    },
+    {
+      "id": "claim.replay_separation_preserved",
+      "claim": "Visible-only replay and full-lineage replay used separated input sets.",
+      "level": "observed",
+      "evidence_refs": [
+        "baseline_visible_only_results.md",
+        "pond_backed_results.md",
+        "replay_integrity_report.md"
+      ],
+      "boundary": "Mode separation is local to this proof."
+    },
+    {
+      "id": "claim.entropy_advantage_observed",
+      "claim": "Full-lineage replay improved at least six operational integrity dimensions in this bounded scenario.",
+      "level": "bounded",
+      "evidence_refs": [
+        "comparative_operational_integrity_report.md",
+        "final_verdict.json"
+      ],
+      "boundary": "Scenario-bound; no broad capability conclusion."
+    },
+    {
+      "id": "claim.no_target_system_defect_claim",
+      "claim": "The proof reports replay behavior under constructed entropy pressure and does not diagnose a target-system defect.",
+      "level": "bounded",
+      "evidence_refs": [
+        "public_lineage_summary.md",
+        "final_verdict.json"
+      ],
+      "boundary": "No defect conclusion."
+    }
+  ],
+  "disallowed_claims": [
+    "No global superiority claim.",
+    "No AGI claim.",
+    "No consciousness claim.",
+    "No universal cognition claim.",
+    "No autonomous intelligence claim.",
+    "No black-box solving claim.",
+    "No target-system defect claim."
+  ]
+}
