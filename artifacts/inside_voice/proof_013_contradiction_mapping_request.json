@@ -1,0 +1,32 @@
+{
+  "request_id": "proof-013-contradiction-mapping",
+  "task": "Use hardened pond-backed Inside Voice to review contradiction-mapping risks for a redacted-real Proof 013 local operational trace. Do not validate public claims. Return only bounded contradiction, correction, and authority-pressure safeguards.",
+  "context": {
+    "summary": "The candidate trace is the Proof 013 gate-repair sequence: malformed request corrected, stale server restarted, broad-claim false positive fixed, candidate-risk gate passed. This request asks only for contradiction mapping pressure.",
+    "files": [
+      "artifacts/inside_voice/proof_013_candidate_risk_gate_response.json",
+      "proofs/011-redacted-real-trace-candidate/candidate_selection_policy.md",
+      "proofs/010-fixture-execution/comparative_reconstruction_report.md"
+    ],
+    "constraints": [
+      "contradiction mapping only",
+      "do not validate public claims",
+      "do not claim real-trace success",
+      "preserve Proof 010 synthetic-only boundary",
+      "preserve Proof 011 candidate-selection boundary",
+      "surface unresolved tensions as safeguards",
+      "no target-system defect claims",
+      "no AGI claims",
+      "no consciousness claims",
+      "no black-box-solved claims"
+    ],
+    "desired_artifacts": [
+      "contradiction risk pressure",
+      "correction lineage safeguards",
+      "authority reconstruction cautions"
+    ]
+  },
+  "mode": "review",
+  "max_output_chars": 8000,
+  "require_lineage": true
+}

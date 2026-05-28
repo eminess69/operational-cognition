@@ -1,0 +1,31 @@
+{
+  "request_id": "proof-013-replay-adequacy-v2",
+  "task": "Use hardened pond-backed Inside Voice to review replay-mode adequacy risks for one redacted-real trace. Return only bounded safeguards for separating visible-only replay from full-lineage replay.",
+  "context": {
+    "summary": "Proof 013 will compare two replay modes for the gate-repair trace. This request asks only for safeguards that keep mode separation, evidence refs, and remaining uncertainty clear.",
+    "files": [
+      "artifacts/inside_voice/proof_013_candidate_risk_gate_response.json",
+      "proofs/010-fixture-execution/comparative_reconstruction_report.md",
+      "proofs/011-redacted-real-trace-candidate/candidate_selection_policy.md"
+    ],
+    "constraints": [
+      "replay-mode adequacy review only",
+      "do not validate public-facing conclusions",
+      "visible-only mode may use only visible transcript and ordering",
+      "full-lineage mode may use fixture artifacts",
+      "preserve remaining uncertainty",
+      "no target-system defect statements",
+      "no AGI statements",
+      "no consciousness statements",
+      "no black-box-solved statements"
+    ],
+    "desired_artifacts": [
+      "mode separation safeguards",
+      "probe adequacy cautions",
+      "remaining uncertainty pressure"
+    ]
+  },
+  "mode": "review",
+  "max_output_chars": 8000,
+  "require_lineage": true
+}

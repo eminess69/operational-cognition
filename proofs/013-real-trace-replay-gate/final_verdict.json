@@ -1,0 +1,25 @@
+{
+  "verdict": "REAL_TRACE_ADVANTAGE_OBSERVED",
+  "scope": "single_real_trace",
+  "candidate_type": "redacted_real",
+  "adapter_status": "pond_backed",
+  "contribution_grade": "strong",
+  "runtime_hash_stable": true,
+  "visible_only_limitations_observed": true,
+  "full_lineage_improvement_observed": true,
+  "global_superiority_claim": false,
+  "target_system_defect_claim": false,
+  "agi_claim": false,
+  "consciousness_claim": false,
+  "black_box_solved_claim": false,
+  "remaining_unresolved_questions": [
+    "additional independent real-trace replay runs are required",
+    "public-only traces with less tool lineage remain untested",
+    "other runtime deployments remain untested"
+  ],
+  "claim_boundary_warnings": [
+    "Replay-adequacy and final-verdict advisory calls produced broad-claim warnings; final wording is therefore limited to one redacted-real trace."
+  ],
+  "safe_public_claim": "In this single real-trace replay run, full-lineage replay reconstructed operational probes that visible-only replay left partial or unresolved, using verified pond-backed Inside Voice runtime participation and deterministic lineage artifacts.",
+  "next_required_validation": "additional independent real-trace replay runs"
+}

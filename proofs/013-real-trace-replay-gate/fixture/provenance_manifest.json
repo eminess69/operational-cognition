@@ -1,0 +1,20 @@
+{
+  "candidate_id": "proof_013_redacted_real_gate_repair_trace",
+  "candidate_type": "redacted_real",
+  "source_description": "Redacted-real local Codex/Inside Voice operational trace from the Proof 013 gate-repair sequence.",
+  "source_refs": [
+    "conversation:T-001..T-010",
+    "artifacts/inside_voice/proof_013_candidate_risk_gate_request.json",
+    "artifacts/inside_voice/proof_013_candidate_risk_gate_response.json",
+    "artifacts/inside_voice/proof_013_contradiction_mapping_response.json",
+    "artifacts/inside_voice/proof_013_omitted_range_recovery_response.json",
+    "artifacts/inside_voice/proof_013_claim_boundary_audit_response.json"
+  ],
+  "provenance_status": "established_for_redacted_local_trace",
+  "redaction_complete": true,
+  "secrets_detected": false,
+  "private_substrate_internals_included": false,
+  "target_system_private_internals_included": false,
+  "visible_only_separable_from_full_lineage": true,
+  "deterministic_refs": ["T-*","E-*","A-*","TR-*","MEM-*","C-*","AUTH-*","TV-*","ENV-*","R-*"]
+}

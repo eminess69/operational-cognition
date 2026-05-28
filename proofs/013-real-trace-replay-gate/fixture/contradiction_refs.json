@@ -1,0 +1,9 @@
+{
+  "contradictions": [
+    {"id":"C-001","type":"caller_error_vs_runtime_failure","visible_refs":["T-002","T-003"],"resolution":"The first failure was a malformed request missing context.desired_artifacts, not a pond-backed runtime failure.","authority_refs":["AUTH-USER-002","TR-001"],"status":"resolved"},
+    {"id":"C-002","type":"compaction_loss_vs_runtime_readiness","visible_refs":["T-004","T-005"],"resolution":"Commit 22b5839 preserved hard-gate fields under compaction, allowing the gate response to expose contribution_grade, pressure_rankings, runtime_stage_report_ref, and gate_failures.","authority_refs":["AUTH-USER-003","TR-003","TR-005"],"status":"resolved"},
+    {"id":"C-003","type":"public_claim_gate_vs_candidate_risk_gate","visible_refs":["T-006","T-007"],"resolution":"The request was narrowed to candidate-risk review to avoid public-proof validation language.","authority_refs":["AUTH-USER-004","TR-006"],"status":"resolved"},
+    {"id":"C-004","type":"false_positive_broad_claim_vs_safe_negated_boundary","visible_refs":["T-008","T-009","T-010"],"resolution":"Commit 1c89d45 fixed safe claim-boundary detection; the candidate-risk gate then returned contribution_grade strong and empty gate_failures.","authority_refs":["AUTH-USER-005","TR-007","TR-009"],"status":"resolved"},
+    {"id":"C-005","type":"advisory_replay_warning","visible_refs":["T-010"],"resolution":"Replay-adequacy advisory calls produced a broad-claim warning; the proof records it as a claim-boundary caution and does not use it for broad wording.","authority_refs":["TR-012","AUTH-RUNTIME-002"],"status":"bounded_warning"}
+  ]
+}

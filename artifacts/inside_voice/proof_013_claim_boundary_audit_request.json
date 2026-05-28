@@ -1,0 +1,30 @@
+{
+  "request_id": "proof-013-claim-boundary-audit",
+  "task": "Use hardened pond-backed Inside Voice to audit claim-boundary risks for the Proof 013 redacted-real replay exercise. Do not validate public claims. Return only bounded warnings and disallowed-claim safeguards.",
+  "context": {
+    "summary": "The proof may only make a single-trace replay adequacy statement if supported by artifacts. This request asks only for claim-boundary warnings before final wording is written.",
+    "files": [
+      "artifacts/inside_voice/proof_013_candidate_risk_gate_response.json",
+      "proofs/012-pond-backed-one-shot-proof/claim_register.json",
+      "proofs/012-pond-backed-one-shot-proof/final_audit_verdict.json"
+    ],
+    "constraints": [
+      "claim-boundary audit only",
+      "do not validate public claims",
+      "do not claim global superiority",
+      "do not claim target-system defects",
+      "no AGI claims",
+      "no consciousness claims",
+      "no black-box-solved claims",
+      "safe public wording must remain single-trace bounded"
+    ],
+    "desired_artifacts": [
+      "claim-boundary warnings",
+      "disallowed claim safeguards",
+      "safe single-trace wording cautions"
+    ]
+  },
+  "mode": "review",
+  "max_output_chars": 8000,
+  "require_lineage": true
+}

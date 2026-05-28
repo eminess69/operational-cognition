@@ -1,0 +1,5 @@
+{"id":"MEM-001","kind":"user_instruction","authority_ref":"AUTH-USER-001","content":"No proof artifacts may be created unless the hard gate passes.","temporal_ref":"TV-001","status":"superseded_by_candidate_risk_gate"}
+{"id":"MEM-002","kind":"proof_boundary","authority_ref":"AUTH-PROOF010-001","content":"Proof 010 remains synthetic fixture validation only.","temporal_ref":"TV-001","status":"current"}
+{"id":"MEM-003","kind":"proof_boundary","authority_ref":"AUTH-PROOF011-001","content":"Proof 011 defines the candidate-selection gate and eligibility rules for public or redacted-real traces.","temporal_ref":"TV-001","status":"current"}
+{"id":"MEM-004","kind":"runtime_requirement","authority_ref":"AUTH-USER-005","content":"Belief Ledger commit 1c89d45 is required for safe claim-boundary detection before rerunning the candidate-risk gate.","temporal_ref":"TV-003","status":"current"}
+{"id":"MEM-005","kind":"safe_claim_boundary","authority_ref":"AUTH-RUNTIME-001","content":"Candidate-risk gate passed only after safe-negated claim-boundary language was treated as a boundary, not claim escalation.","temporal_ref":"TV-003","status":"current"}

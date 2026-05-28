@@ -1,0 +1,21 @@
+{
+  "proof_id": "013-real-trace-replay-gate",
+  "probe_ids": ["P-001","P-002","P-003","P-004","P-005","P-006","P-007","P-008"],
+  "mode_a": "visible_only",
+  "mode_b": "full_lineage",
+  "results": [
+    {"probe_id":"P-001","visible_only":"partially_reconstructed","full_lineage":"reconstructed","improvement":true,"evidence_refs":["TR-009","A-008"]},
+    {"probe_id":"P-002","visible_only":"partially_reconstructed","full_lineage":"reconstructed","improvement":true,"evidence_refs":["C-001","C-002","C-003","C-004"]},
+    {"probe_id":"P-003","visible_only":"unresolved","full_lineage":"reconstructed","improvement":true,"evidence_refs":["MEM-002","MEM-003","AUTH-RUNTIME-001"]},
+    {"probe_id":"P-004","visible_only":"partially_reconstructed","full_lineage":"reconstructed","improvement":true,"evidence_refs":["O-001","O-002","O-003"]},
+    {"probe_id":"P-005","visible_only":"unresolved","full_lineage":"reconstructed","improvement":true,"evidence_refs":["ENV-002","ENV-003","TR-007","TR-008"]},
+    {"probe_id":"P-006","visible_only":"partially_reconstructed","full_lineage":"reconstructed","improvement":true,"evidence_refs":["R-001","R-002","R-003","R-004","R-005"]},
+    {"probe_id":"P-007","visible_only":"unresolved","full_lineage":"reconstructed","improvement":true,"evidence_refs":["AUTH-USER-005","AUTH-PROOF011-001","AUTH-RUNTIME-001"]},
+    {"probe_id":"P-008","visible_only":"partially_reconstructed","full_lineage":"reconstructed","improvement":true,"evidence_refs":["TV-001","TV-002","TV-003","TV-004"]}
+  ],
+  "summary": {
+    "visible_only": {"reconstructed": 0, "partially_reconstructed": 5, "unresolved": 3},
+    "full_lineage": {"reconstructed": 8, "partially_reconstructed": 0, "unresolved": 0},
+    "improved_probe_count": 8
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S-001",
+  "summary": "The redacted-real trace records a Proof 013 gate-repair sequence: initial malformed request, corrected hard gate, server restarts from Belief Ledger commits 22b5839 and 1c89d45, candidate-risk gate pass, and pond-backed advisory pressure calls for contradiction mapping, omitted-range recovery, replay adequacy, and claim-boundary audit.",
+  "visible_transcript_refs": ["T-001", "T-002", "T-003", "T-004", "T-005", "T-006", "T-007", "T-008", "T-009", "T-010"],
+  "omitted_range_refs": ["O-001", "O-002", "O-003"],
+  "compression_boundary": "Visible replay sees the summarized task/correction sequence; full-lineage replay may inspect fixture refs, tool result hashes, runtime hashes, authority refs, environment refs, and recovery trace."
+}

@@ -1,0 +1,60 @@
+{
+  "proof_id": "013-real-trace-replay-gate",
+  "title": "Real-Trace Replay Gate",
+  "status": "complete",
+  "targets": [
+    "RedactedRealLocalTrace",
+    "PondBackedInsideVoiceRuntime"
+  ],
+  "claim_level": "evidence_backed",
+  "inside_voice_adapter_status": "pond_backed",
+  "public_private_boundary": "sanitized_public_artifacts_runtime_hashes_and_redacted_local_lineage_only",
+  "required_artifacts": [
+    "README.md",
+    "candidate_selection_report.md",
+    "candidate_redaction_report.md",
+    "candidate_conversion_report.md",
+    "visible_only_replay_results.json",
+    "full_lineage_replay_results.json",
+    "comparative_reconstruction_report.md",
+    "reconstruction_probe_results.json",
+    "claim_register.json",
+    "public_lineage_summary.md",
+    "final_verdict.json",
+    "proof_manifest.json",
+    "fixture/transcript.jsonl",
+    "fixture/events.jsonl",
+    "fixture/tool_actions.jsonl",
+    "fixture/tool_results_manifest.json",
+    "fixture/memory_log.jsonl",
+    "fixture/compressed_context_summary.json",
+    "fixture/omitted_ranges.json",
+    "fixture/contradiction_refs.json",
+    "fixture/authority_refs.json",
+    "fixture/temporal_validity.json",
+    "fixture/environment_snapshot_manifest.json",
+    "fixture/runtime_config.json",
+    "fixture/recovery_trace.jsonl",
+    "fixture/provenance_manifest.json",
+    "fixture/public_lineage_summary.md"
+  ],
+  "disallowed_claims": [
+    "AGI",
+    "consciousness",
+    "black_box_solved",
+    "substrate_disclosure",
+    "hidden_chain_of_thought",
+    "target_system_defects",
+    "universal_validation",
+    "global_superiority"
+  ],
+  "lineage": {
+    "mcp_endpoint": "http://127.0.0.1:8766",
+    "contract_version": "inside_voice.mcp.consultation.v1",
+    "request_hash": "7fc7d4b4b158ae920d56fe9b613895e220971ffd405077286a23e11bd8a60dfd",
+    "response_hash": "6d20ff6bdabb6bd66ffcc7e7031903e3fd9c1cbadfab3433ac895e1a9fe2b22e",
+    "derived_from": "artifacts/inside_voice/proof_013_candidate_risk_gate_response.json",
+    "validates": "single_redacted_real_replay_gate",
+    "candidate_status": "eligible"
+  }
+}

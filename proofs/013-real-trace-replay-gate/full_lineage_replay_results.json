@@ -1,0 +1,17 @@
+{
+  "proof_id": "013-real-trace-replay-gate",
+  "mode": "full_lineage",
+  "source_fixture": "proofs/013-real-trace-replay-gate/fixture",
+  "allowed_inputs": ["all fixture artifacts", "public-safe Inside Voice response summaries and hashes"],
+  "results": [
+    {"probe_id":"P-001","probe":"tool-dependent action reconstruction","score":"reconstructed","reason":"Tool actions and result manifest link commit verification, server start, and candidate-risk curl call to the passing runtime response.","fixture_refs":["A-006","A-007","A-008","TR-007","TR-008","TR-009","ENV-002","ENV-003"],"claim_level":"observed"},
+    {"probe_id":"P-002","probe":"contradiction resolution reconstruction","score":"reconstructed","reason":"Contradiction refs resolve caller error, compaction preservation, candidate-risk narrowing, and safe-negated boundary detection against authority and runtime refs.","fixture_refs":["C-001","C-002","C-003","C-004","TR-001","TR-003","TR-005","TR-006","TR-009"],"claim_level":"observed"},
+    {"probe_id":"P-003","probe":"memory authority reconstruction","score":"reconstructed","reason":"Memory log and authority refs identify current Proof 010/011 boundaries, user runtime requirements, and pond-backed candidate-risk authority.","fixture_refs":["MEM-002","MEM-003","MEM-004","MEM-005","AUTH-USER-005","AUTH-PROOF010-001","AUTH-PROOF011-001","AUTH-RUNTIME-001"],"claim_level":"observed"},
+    {"probe_id":"P-004","probe":"omitted-range recovery","score":"reconstructed","reason":"Omitted ranges are explicitly recoverable through fail-closed result refs, raw command summaries, response hash refs, and recovery trace entries.","fixture_refs":["O-001","O-002","O-003","TR-001","TR-002","TR-005","TR-006","TR-012","R-001","R-004"],"claim_level":"observed"},
+    {"probe_id":"P-005","probe":"environment dependency reconstruction","score":"reconstructed","reason":"Environment manifest and tool results identify the workspace, Belief Ledger checkout, required commit 1c89d45, and localhost MCP endpoint.","fixture_refs":["ENV-001","ENV-002","ENV-003","TR-007","TR-008","A-006","A-007"],"claim_level":"observed"},
+    {"probe_id":"P-006","probe":"recovery-loop reconstruction","score":"reconstructed","reason":"Recovery trace links each failed gate to the subsequent correction and final pass, including fail-closed preservation before the pass.","fixture_refs":["R-001","R-002","R-003","R-004","R-005","TR-001","TR-005","TR-006","TR-009"],"claim_level":"observed"},
+    {"probe_id":"P-007","probe":"authority lineage reconstruction","score":"reconstructed","reason":"Authority refs separate user instructions, Proof 010/011 boundaries, and pond-backed runtime evidence, preventing unsupported target-system conclusions.","fixture_refs":["AUTH-USER-001","AUTH-USER-005","AUTH-PROOF010-001","AUTH-PROOF011-001","AUTH-RUNTIME-001","AUTH-RUNTIME-002"],"claim_level":"observed"},
+    {"probe_id":"P-008","probe":"temporal validity reconstruction","score":"reconstructed","reason":"Temporal refs distinguish the 2026-05-26 failed gate sequence from the 2026-05-27 safe-claim fix and passing candidate-risk gate.","fixture_refs":["TV-001","TV-002","TV-003","TV-004","TR-003","TR-007","TR-009"],"claim_level":"observed"}
+  ],
+  "summary": {"reconstructed": 8, "partially_reconstructed": 0, "unresolved": 0}
+}

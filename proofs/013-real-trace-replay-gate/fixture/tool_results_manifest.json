@@ -1,0 +1,18 @@
+{
+  "manifest_id": "TR-MANIFEST-013",
+  "results": [
+    {"id": "TR-001", "action_ref": "A-001", "result": "fail_closed", "evidence": "Initial /consult response reported MALFORMED_CONTEXT_MISSING:desired_artifacts.", "hash_ref": "lineage.response_hash:7c05f2f0f584e5d9ad6a0f2119df75d078db7981c770b7916538a40939f87da1"},
+    {"id": "TR-002", "action_ref": "A-002", "result": "partial_runtime_response", "evidence": "Corrected hard gate returned pond_backed runtime hashes but lacked required compacted hard-gate fields before the server fix.", "hash_ref": "runtime_response_hash:12f3d8b184c65b6316d489e1800c7fd326838b538d276852ce39b412f38dca36"},
+    {"id": "TR-003", "action_ref": "A-003", "result": "commit_verified", "evidence": "Belief Ledger checkout verified as 22b5839 Preserve Inside Voice hard-gate fields under compaction.", "hash_ref": "git_commit:22b5839"},
+    {"id": "TR-004", "action_ref": "A-004", "result": "server_started", "evidence": "Inside Voice MCP consultation server listening on http://127.0.0.1:8766.", "hash_ref": "endpoint:sha256:8b6d0576b34e"},
+    {"id": "TR-005", "action_ref": "A-002", "result": "gate_failed", "evidence": "22b5839 hard gate returned contribution_grade minimal and BROAD_UNSUPPORTED_CLAIM_BLOCKED.", "hash_ref": "runtime_response_hash:3f327e0b817222a0f287b9d4f231b9435b04a3431f75f6077fa46799069f869d"},
+    {"id": "TR-006", "action_ref": "A-005", "result": "gate_failed", "evidence": "22b5839 candidate-risk gate returned contribution_grade minimal and BROAD_UNSUPPORTED_CLAIM_BLOCKED.", "hash_ref": "runtime_response_hash:ce584e795073534bddab0fb02cef852ccc9f72158a983c5de8f9fafe7328e0fa"},
+    {"id": "TR-007", "action_ref": "A-006", "result": "commit_verified", "evidence": "Belief Ledger checkout verified as 1c89d45 Fix Inside Voice safe claim-boundary detection.", "hash_ref": "git_commit:1c89d45"},
+    {"id": "TR-008", "action_ref": "A-007", "result": "server_started", "evidence": "Inside Voice MCP consultation server listening on http://127.0.0.1:8766 from commit 1c89d45.", "hash_ref": "endpoint:sha256:8b6d0576b34e"},
+    {"id": "TR-009", "action_ref": "A-008", "result": "gate_passed", "evidence": "Candidate-risk gate returned adapter_status pond_backed, contribution_grade strong, gate_failures empty, safe-negated audit present, runtime hash present, corpus hash present.", "hash_ref": "runtime_response_hash:90b27799df584e4fb62f05f2feb510d852b890f21ddb8c3ef83fcaacfa67ad0e"},
+    {"id": "TR-010", "action_ref": "A-009", "result": "pond_backed_pressure", "evidence": "Contradiction-mapping pressure returned contribution_grade strong and gate_failures empty.", "hash_ref": "runtime_response_hash:155d2ceaf6810332d99e7e3cf7be89d2185e778bf59d39dcbc67b7d202745b8e"},
+    {"id": "TR-011", "action_ref": "A-010", "result": "pond_backed_pressure", "evidence": "Omitted-range recovery pressure returned contribution_grade bounded and gate_failures empty.", "hash_ref": "runtime_response_hash:31195be7a2a592b6091f3334c3aaec9b248f4a29710e6408ff8baeada00dfc66"},
+    {"id": "TR-012", "action_ref": "A-011", "result": "claim_boundary_warning", "evidence": "Replay-adequacy pressure returned a BROAD_UNSUPPORTED_CLAIM_BLOCKED warning; the proof treats it as a boundary warning and avoids broad comparative wording.", "hash_ref": "runtime_response_hash:84589edc4036cd96d53c33ec641e8b9eea880d0b74cf6dfc1e2a820fbbe8743e"},
+    {"id": "TR-013", "action_ref": "A-012", "result": "pond_backed_pressure", "evidence": "Claim-boundary audit pressure returned contribution_grade bounded and gate_failures empty.", "hash_ref": "runtime_response_hash:7726c18b7849281c1acc2aa9473f5c555257923d12018984a583db42849bf999"}
+  ]
+}

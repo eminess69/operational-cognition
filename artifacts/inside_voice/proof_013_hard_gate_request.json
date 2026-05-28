@@ -1,0 +1,38 @@
+{
+  "request_id": "proof-013-real-trace-replay-gate-hard-gate",
+  "task": "Use hardened pond-backed Inside Voice to pressure-test whether Operational Cognition is ready to execute Proof 013 real-trace replay validation. Preserve Proof 010 as synthetic-only, preserve Proof 011 as the real-trace candidate gate, identify candidate-selection risks, and block unsupported public claims.",
+  "context": {
+    "summary": "Proof 013 hard gate for real-trace replay validation. This gate must verify pond-backed runtime readiness before candidate selection or fixture conversion.",
+    "files": [
+      "proofs/010-fixture-execution/comparative_reconstruction_report.md",
+      "proofs/011-redacted-real-trace-candidate/README.md",
+      "proofs/012-pond-backed-one-shot-proof/README.md",
+      "proofs/012-pond-backed-one-shot-proof/survivable_lineage_validation_package.md",
+      "proofs/012-pond-backed-one-shot-proof/final_audit_verdict.json"
+    ],
+    "constraints": [
+      "adapter_status must be pond_backed",
+      "contribution_grade must be strong",
+      "runtime_stage_report_ref must be present",
+      "pressure_rankings must be non-empty",
+      "gate_failures must be empty",
+      "Proof 010 must remain synthetic-only",
+      "Proof 011 must remain the real-trace gate",
+      "no global superiority claim",
+      "no AGI claims",
+      "no consciousness claims",
+      "no black-box-solved claims"
+    ],
+    "desired_artifacts": [
+      "real-trace gate readiness decision",
+      "candidate-selection risk pressure",
+      "Proof 010 boundary audit",
+      "Proof 011 boundary audit",
+      "public-claim boundary warnings",
+      "next executable validation"
+    ]
+  },
+  "mode": "review",
+  "max_output_chars": 8000,
+  "require_lineage": true
+}

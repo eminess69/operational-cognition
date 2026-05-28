@@ -1,0 +1,12 @@
+{"id":"A-001","order":1,"tool":"curl","action":"POST /consult with malformed hard-gate request","visible_in_transcript":false,"result_ref":"TR-001","environment_ref":"ENV-003"}
+{"id":"A-002","order":2,"tool":"curl","action":"POST /consult with contract-valid hard-gate request","visible_in_transcript":false,"result_ref":"TR-002","environment_ref":"ENV-003"}
+{"id":"A-003","order":3,"tool":"git","action":"rev-parse/show Belief Ledger commit 22b5839","visible_in_transcript":false,"result_ref":"TR-003","environment_ref":"ENV-002"}
+{"id":"A-004","order":4,"tool":"python","action":"start Inside Voice MCP server on port 8766 from Belief Ledger checkout","visible_in_transcript":false,"result_ref":"TR-004","environment_ref":"ENV-003"}
+{"id":"A-005","order":5,"tool":"curl","action":"POST /consult with candidate-risk gate request against 22b5839 server","visible_in_transcript":false,"result_ref":"TR-006","environment_ref":"ENV-003"}
+{"id":"A-006","order":6,"tool":"git","action":"rev-parse/show Belief Ledger commit 1c89d45","visible_in_transcript":false,"result_ref":"TR-007","environment_ref":"ENV-002"}
+{"id":"A-007","order":7,"tool":"python","action":"start Inside Voice MCP server on port 8766 from Belief Ledger commit 1c89d45","visible_in_transcript":false,"result_ref":"TR-008","environment_ref":"ENV-003"}
+{"id":"A-008","order":8,"tool":"curl","action":"POST /consult with candidate-risk gate request against 1c89d45 server","visible_in_transcript":false,"result_ref":"TR-009","environment_ref":"ENV-003"}
+{"id":"A-009","order":9,"tool":"curl","action":"POST /consult for contradiction-mapping pressure","visible_in_transcript":false,"result_ref":"TR-010","environment_ref":"ENV-003"}
+{"id":"A-010","order":10,"tool":"curl","action":"POST /consult for omitted-range recovery pressure","visible_in_transcript":false,"result_ref":"TR-011","environment_ref":"ENV-003"}
+{"id":"A-011","order":11,"tool":"curl","action":"POST /consult for replay-adequacy pressure","visible_in_transcript":false,"result_ref":"TR-012","environment_ref":"ENV-003"}
+{"id":"A-012","order":12,"tool":"curl","action":"POST /consult for claim-boundary audit pressure","visible_in_transcript":false,"result_ref":"TR-013","environment_ref":"ENV-003"}

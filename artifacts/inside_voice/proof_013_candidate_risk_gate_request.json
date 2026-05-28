@@ -1,0 +1,37 @@
+{
+  "request_id": "proof-013-candidate-risk-gate",
+  "task": "Use hardened pond-backed Inside Voice to review candidate-selection risks for a single real-trace replay exercise. Preserve Proof 010 as synthetic-only and Proof 011 as the candidate-selection gate. Do not validate public claims. Do not claim readiness. Return only bounded candidate-risk pressure and required safeguards.",
+  "context": {
+    "summary": "Candidate-risk gate only. This request does not ask for proof validation, public claim validation, or stronger conclusions. It only asks Inside Voice to identify risks and safeguards before selecting one candidate trace.",
+    "files": [
+      "proofs/010-fixture-execution/comparative_reconstruction_report.md",
+      "proofs/011-redacted-real-trace-candidate/README.md",
+      "proofs/012-pond-backed-one-shot-proof/README.md",
+      "proofs/012-pond-backed-one-shot-proof/survivable_lineage_validation_package.md",
+      "proofs/012-pond-backed-one-shot-proof/final_audit_verdict.json"
+    ],
+    "constraints": [
+      "candidate-risk review only",
+      "do not validate public claims",
+      "do not claim real-trace success",
+      "do not claim system superiority",
+      "Proof 010 must remain synthetic-only",
+      "Proof 011 must remain the candidate-selection gate",
+      "surface risks without treating them as defects",
+      "all recommendations must be safeguards or candidate eligibility checks",
+      "no AGI claims",
+      "no consciousness claims",
+      "no black-box-solved claims"
+    ],
+    "desired_artifacts": [
+      "candidate-selection risk list",
+      "required safeguards",
+      "Proof 010 boundary audit",
+      "Proof 011 boundary audit",
+      "candidate eligibility checks"
+    ]
+  },
+  "mode": "review",
+  "max_output_chars": 8000,
+  "require_lineage": true
+}

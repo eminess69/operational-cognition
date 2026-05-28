@@ -1,0 +1,13 @@
+{
+  "authorities": [
+    {"id":"AUTH-USER-001","kind":"user_task","ref":"conversation:T-001","authority":"User supplied Proof 013 requirements and hard gate."},
+    {"id":"AUTH-USER-002","kind":"user_correction","ref":"conversation:T-003","authority":"User identified malformed request as caller error."},
+    {"id":"AUTH-USER-003","kind":"user_runtime_requirement","ref":"conversation:T-005","authority":"User required Belief Ledger commit 22b5839."},
+    {"id":"AUTH-USER-004","kind":"user_scope_correction","ref":"conversation:T-007","authority":"User narrowed the gate to candidate-risk review only."},
+    {"id":"AUTH-USER-005","kind":"user_runtime_requirement","ref":"conversation:T-009","authority":"User required Belief Ledger commit 1c89d45 before rerun."},
+    {"id":"AUTH-PROOF010-001","kind":"proof_boundary","ref":"proofs/010-fixture-execution/comparative_reconstruction_report.md","authority":"Proof 010 is synthetic fixture validation only."},
+    {"id":"AUTH-PROOF011-001","kind":"proof_boundary","ref":"proofs/011-redacted-real-trace-candidate/candidate_selection_policy.md","authority":"Proof 011 defines candidate-selection requirements and rejection rules."},
+    {"id":"AUTH-RUNTIME-001","kind":"pond_backed_runtime","ref":"artifacts/inside_voice/proof_013_candidate_risk_gate_response.json","authority":"Candidate-risk gate passed with pond-backed runtime hashes and contribution_grade strong."},
+    {"id":"AUTH-RUNTIME-002","kind":"claim_boundary_warning","ref":"artifacts/inside_voice/proof_013_replay_adequacy_response.json","authority":"Replay-adequacy warning constrains final wording and prevents broad comparative claims."}
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "proof_id": "013-real-trace-replay-gate",
+  "claims": [
+    {
+      "claim_id": "RT-001",
+      "claim": "The selected candidate is a redacted-real local operational trace.",
+      "classification": "observed",
+      "claim_level": "observed",
+      "evidence_refs": ["candidate_selection_report.md", "fixture/provenance_manifest.json"],
+      "safe_public_wording": "The proof uses one redacted-real local operational trace.",
+      "risk_if_overstated": "Could imply public-source provenance or independent external validation not present in this run."
+    },
+    {
+      "claim_id": "RT-002",
+      "claim": "The candidate-risk gate passed with pond-backed Inside Voice runtime participation.",
+      "classification": "observed",
+      "claim_level": "observed",
+      "evidence_refs": ["artifacts/inside_voice/proof_013_candidate_risk_gate_response.json", "fixture/runtime_config.json"],
+      "safe_public_wording": "The candidate-risk gate returned adapter_status pond_backed, contribution_grade strong, and empty gate_failures.",
+      "risk_if_overstated": "Could imply broader runtime readiness beyond this candidate-risk gate."
+    },
+    {
+      "claim_id": "RT-003",
+      "claim": "Visible-only replay left every required probe partial or unresolved.",
+      "classification": "observed",
+      "claim_level": "observed",
+      "evidence_refs": ["visible_only_replay_results.json", "P-001", "P-002", "P-003", "P-004", "P-005", "P-006", "P-007", "P-008"],
+      "safe_public_wording": "In this trace, visible-only replay did not fully reconstruct any required probe.",
+      "risk_if_overstated": "Could imply visible-only replay is generally insufficient."
+    },
+    {
+      "claim_id": "RT-004",
+      "claim": "Full-lineage replay reconstructed every required probe for this fixture.",
+      "classification": "observed",
+      "claim_level": "observed",
+      "evidence_refs": ["full_lineage_replay_results.json", "P-001", "P-002", "P-003", "P-004", "P-005", "P-006", "P-007", "P-008"],
+      "safe_public_wording": "In this single trace, full-lineage replay reconstructed all eight required probes.",
+      "risk_if_overstated": "Could imply universal full-lineage sufficiency."
+    },
+    {
+      "claim_id": "RT-005",
+      "claim": "Survivable lineage materially improved replay adequacy in this single trace.",
+      "classification": "inferred",
+      "claim_level": "inferred",
+      "evidence_refs": ["reconstruction_probe_results.json", "comparative_reconstruction_report.md"],
+      "safe_public_wording": "In this single real-trace replay run, full-lineage replay reconstructed operational probes that visible-only replay left partial or unresolved, using verified pond-backed Inside Voice runtime participation and deterministic lineage artifacts.",
+      "risk_if_overstated": "Could become a global superiority claim if detached from single-trace scope."
+    },
+    {
+      "claim_id": "RT-006",
+      "claim": "The replay-adequacy advisory call produced a claim-boundary warning.",
+      "classification": "observed",
+      "claim_level": "observed",
+      "evidence_refs": ["artifacts/inside_voice/proof_013_replay_adequacy_response.json", "fixture/tool_results_manifest.json#TR-012"],
+      "safe_public_wording": "A replay-adequacy advisory warning was recorded and used to keep final wording bounded.",
+      "risk_if_overstated": "Could be misread as invalidating the candidate-risk gate, which passed separately."
+    },
+    {
+      "claim_id": "RT-007",
+      "claim": "Independent real-trace replication remains unresolved.",
+      "classification": "unresolved",
+      "claim_level": "unresolved",
+      "evidence_refs": ["final_verdict.json"],
+      "safe_public_wording": "Additional independent real-trace replay runs are required before stronger claims.",
+      "risk_if_overstated": "Could imply validation breadth that this proof does not provide."
+    },
+    {
+      "claim_id": "RT-008",
+      "claim": "No global superiority, AGI, consciousness, black-box-solved, or target-system defect claim is made.",
+      "classification": "observed",
+      "claim_level": "observed",
+      "evidence_refs": ["final_verdict.json", "proof_manifest.json", "comparative_reconstruction_report.md"],
+      "safe_public_wording": "The proof is bounded to a single redacted-real replay comparison.",
+      "risk_if_overstated": "Boundary claims must not be converted into positive system capability claims."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "omitted_ranges": [
+    {"id":"O-001","description":"Prior fail-closed report bodies and exact failed gate responses are summarized, not repeated in the visible transcript.","recoverable_from":["TR-001","TR-002","TR-005","TR-006","R-001","R-002","R-003","R-004"],"redaction_reason":"avoid duplicating obsolete failed-response payloads in the visible baseline"},
+    {"id":"O-002","description":"Raw shell outputs for git, lsof, server startup, and curl calls are summarized in tool result refs.","recoverable_from":["A-003","A-004","A-006","A-007","A-008","TR-003","TR-004","TR-007","TR-008","TR-009"],"redaction_reason":"visible-only replay should not receive full tool lineage"},
+    {"id":"O-003","description":"Inside Voice advisory response bodies are summarized through public-safe refs, pressure ids, hashes, and warnings.","recoverable_from":["TR-009","TR-010","TR-011","TR-012","TR-013","AUTH-RUNTIME-001"],"redaction_reason":"preserve public/private boundary and avoid exposing hidden substrate internals"}
+  ]
+}

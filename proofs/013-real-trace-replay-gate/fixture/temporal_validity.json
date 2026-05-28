@@ -1,0 +1,8 @@
+{
+  "temporal_refs": [
+    {"id":"TV-001","date":"2026-05-26","validity":"past_trace_segment","description":"Initial malformed and corrected hard-gate attempts occurred before the 2026-05-27 safe-claim fix run."},
+    {"id":"TV-002","date":"2026-05-26","validity":"past_trace_segment","description":"Belief Ledger commit 22b5839 was verified and used for the compaction-preservation rerun."},
+    {"id":"TV-003","date":"2026-05-27","validity":"current_trace_segment","description":"Belief Ledger commit 1c89d45 was verified and used for the successful candidate-risk gate rerun."},
+    {"id":"TV-004","date":"2026-05-27","validity":"replay_artifact_date","description":"Proof 013 fixture conversion and replay comparison were produced after the candidate-risk gate passed."}
+  ]
+}

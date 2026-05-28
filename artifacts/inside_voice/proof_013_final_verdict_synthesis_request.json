@@ -1,0 +1,32 @@
+{
+  "request_id": "proof-013-final-verdict-synthesis",
+  "task": "Use hardened pond-backed Inside Voice to review bounded final-verdict field risks for one redacted-real replay exercise. Return only safeguards for verdict wording, remaining uncertainty, and disallowed statements.",
+  "context": {
+    "summary": "The replay artifacts show visible-only probes partial or unresolved and full-lineage probes reconstructed for one redacted-real trace. This request asks only for bounded verdict-field risk pressure.",
+    "files": [
+      "proofs/013-real-trace-replay-gate/visible_only_replay_results.json",
+      "proofs/013-real-trace-replay-gate/full_lineage_replay_results.json",
+      "proofs/013-real-trace-replay-gate/reconstruction_probe_results.json",
+      "artifacts/inside_voice/proof_013_candidate_risk_gate_response.json",
+      "artifacts/inside_voice/proof_013_claim_boundary_audit_response.json"
+    ],
+    "constraints": [
+      "final-verdict field review only",
+      "single redacted-real trace scope",
+      "preserve remaining uncertainty",
+      "no broad system ranking statement",
+      "no target-system defect statement",
+      "no AGI statement",
+      "no consciousness statement",
+      "no black-box-solved statement"
+    ],
+    "desired_artifacts": [
+      "verdict wording safeguards",
+      "remaining uncertainty cautions",
+      "disallowed statement pressure"
+    ]
+  },
+  "mode": "review",
+  "max_output_chars": 8000,
+  "require_lineage": true
+}

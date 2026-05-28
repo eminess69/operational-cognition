@@ -1,0 +1,20 @@
+{
+  "fixture_id": "proof_013_redacted_real_gate_repair_trace",
+  "candidate_type": "redacted_real",
+  "visible_only_mode": {
+    "allowed_inputs": ["fixture/transcript.jsonl", "fixture/events.jsonl visible order"],
+    "disallowed_inputs": ["tool_results_manifest.json", "memory_log.jsonl", "omitted_ranges.json", "authority_refs.json", "environment_snapshot_manifest.json", "recovery_trace.jsonl", "Inside Voice response hashes"]
+  },
+  "full_lineage_mode": {
+    "allowed_inputs": ["all fixture artifacts", "public-safe Inside Voice response summaries and hashes"],
+    "disallowed_inputs": ["hidden chain-of-thought", "private substrate internals", "credentials", "target-system private internals"]
+  },
+  "probe_ids": ["P-001","P-002","P-003","P-004","P-005","P-006","P-007","P-008"],
+  "scoring_values": ["reconstructed", "partially_reconstructed", "unresolved"],
+  "inside_voice_gate": {
+    "adapter_status": "pond_backed",
+    "contribution_grade": "strong",
+    "runtime_response_hash": "90b27799df584e4fb62f05f2feb510d852b890f21ddb8c3ef83fcaacfa67ad0e",
+    "corpus_hash": "b44a6338242a31cee7792d853979662f31975822d1509b8fca4a0824c38d5a0d"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "environment_refs": [
+    {"id":"ENV-001","kind":"workspace","value":"/Users/mattdewing/Desktop/Operational Cognition","evidence_refs":["A-008","TR-009"],"redaction":"local path retained as operator workspace context"},
+    {"id":"ENV-002","kind":"belief_ledger_checkout","value":"/Users/mattdewing/Desktop/Belief-Ledger","required_commit":"1c89d45","evidence_refs":["A-006","TR-007"],"redaction":"local path retained as runtime dependency context"},
+    {"id":"ENV-003","kind":"mcp_endpoint","value":"http://127.0.0.1:8766/consult","evidence_refs":["A-007","A-008","TR-008","TR-009"],"redaction":"localhost endpoint only"},
+    {"id":"ENV-004","kind":"inside_voice_contract","value":"inside_voice.mcp.consultation.v1","evidence_refs":["TR-009","TR-010","TR-011","TR-013"],"redaction":"public contract identifier only"}
+  ]
+}

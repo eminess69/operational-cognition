@@ -1,0 +1,30 @@
+{
+  "request_id": "proof-013-omitted-range-recovery",
+  "task": "Use hardened pond-backed Inside Voice to review omitted-range recovery risks for a redacted-real Proof 013 local operational trace. Do not validate public claims. Return only bounded omitted-range and compression safeguards.",
+  "context": {
+    "summary": "The visible transcript omits some raw command output and prior failed gate details; full lineage keeps request/response hashes, response artifacts, and recovery events. This request asks only for omitted-range recovery pressure.",
+    "files": [
+      "artifacts/inside_voice/proof_013_candidate_risk_gate_response.json",
+      "proofs/011-redacted-real-trace-candidate/eligibility_matrix.md",
+      "proofs/010-fixture-execution/comparative_reconstruction_report.md"
+    ],
+    "constraints": [
+      "omitted-range recovery only",
+      "do not validate public claims",
+      "do not expose hidden reasoning",
+      "preserve public/private boundary",
+      "all omitted ranges must have public-safe recovery refs",
+      "no AGI claims",
+      "no consciousness claims",
+      "no black-box-solved claims"
+    ],
+    "desired_artifacts": [
+      "omitted-range safeguards",
+      "compression boundary cautions",
+      "recoverable ref requirements"
+    ]
+  },
+  "mode": "review",
+  "max_output_chars": 8000,
+  "require_lineage": true
+}
