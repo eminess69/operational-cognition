@@ -1,0 +1,22 @@
+{
+  "conflict_count": 2,
+  "conflicts": [
+    {
+      "baseline_risk": "authority order is inferred from visible text only",
+      "conflict": "summary claims latest validator passed while runtime trace records failed branch",
+      "higher_authority": "runtime_stage_report",
+      "id": "scenario_003-AC1",
+      "lower_authority": "visible_summary",
+      "pond_backed_arbitration": "prefer current runtime and temporal lineage over stale visible summary"
+    },
+    {
+      "baseline_risk": "authority order is inferred from visible text only",
+      "conflict": "manifest timestamp predates replay event range",
+      "higher_authority": "temporal_validity_manifest",
+      "id": "scenario_003-AC2",
+      "lower_authority": "stale_manifest_snapshot",
+      "pond_backed_arbitration": "prefer current runtime and temporal lineage over stale visible summary"
+    }
+  ],
+  "scenario_id": "scenario_003"
+}

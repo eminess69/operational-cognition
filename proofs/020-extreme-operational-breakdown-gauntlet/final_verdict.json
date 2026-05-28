@@ -1,0 +1,38 @@
+{
+  "aggregate_metrics": {
+    "authority_arbitration_improved_scenarios": 6,
+    "baseline_partial": 15,
+    "baseline_reconstructed": 2,
+    "baseline_unresolved": 35,
+    "baseline_unstable": 32,
+    "contradiction_handling_improved_scenarios": 6,
+    "mcp_refs_visible_in_baseline_scenarios": 0,
+    "mcp_refs_visible_in_pond_scenarios": 6,
+    "pond_partial": 11,
+    "pond_reconstructed": 73,
+    "pond_reconstructed_at_least_2x_baseline": true,
+    "pond_unresolved": 0,
+    "pond_unstable": 0,
+    "recovery_stability_improved_scenarios": 6,
+    "scenario_advantage_count": 6
+  },
+  "allowed_public_claim": "In these bounded operational breakdown scenarios, pond-backed survivable-lineage replay plus MCP-seasoned operational guidance preserved replay continuity and recovery structure more effectively than visible-only replay.",
+  "claim_boundary": {
+    "bounded_to_local_scenarios": true,
+    "no_broad_capability_claim": true,
+    "no_candidate_promotion": true,
+    "no_endpoint_expansion": true,
+    "no_target_system_defect_claim": true
+  },
+  "proof_id": "020-extreme-operational-breakdown-gauntlet",
+  "verdict": "EXTREME_OPERATIONAL_ADVANTAGE_OBSERVED",
+  "verdict_requirements": {
+    "at_least_5_of_6_scenarios_improved": true,
+    "authority_arbitration_improved_in_at_least_5": true,
+    "contradiction_handling_improved_in_at_least_5": true,
+    "mcp_seasoned_refs_visible_in_all_pond_scenarios": true,
+    "no_overclaiming": true,
+    "pond_reconstructed_more_than_2x_baseline": true,
+    "recovery_stability_improved_in_at_least_5": true
+  }
+}

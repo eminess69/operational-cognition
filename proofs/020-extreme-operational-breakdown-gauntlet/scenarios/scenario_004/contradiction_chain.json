@@ -1,0 +1,39 @@
+{
+  "chains": [
+    {
+      "id": "scenario_004-CC1",
+      "linked_to": "scenario_004-CC2",
+      "pond_backed_preservation": "keeps unresolved contradiction refs ordered with authority and temporal refs",
+      "source_events": [
+        "scenario_004-E03",
+        "scenario_004-E07"
+      ],
+      "title": "summary versus event order",
+      "visible_only_failure": "collapses contradiction into a single summary"
+    },
+    {
+      "id": "scenario_004-CC2",
+      "linked_to": "scenario_004-CC3",
+      "pond_backed_preservation": "keeps unresolved contradiction refs ordered with authority and temporal refs",
+      "source_events": [
+        "scenario_004-E04",
+        "scenario_004-E08"
+      ],
+      "title": "stale authority versus runtime trace",
+      "visible_only_failure": "collapses contradiction into a single summary"
+    },
+    {
+      "id": "scenario_004-CC3",
+      "linked_to": "scenario_004-CC1",
+      "pond_backed_preservation": "keeps unresolved contradiction refs ordered with authority and temporal refs",
+      "source_events": [
+        "scenario_004-E05",
+        "scenario_004-E09"
+      ],
+      "title": "retry branch versus recovery branch",
+      "visible_only_failure": "collapses contradiction into a single summary"
+    }
+  ],
+  "linked_chain_count": 3,
+  "scenario_id": "scenario_004"
+}

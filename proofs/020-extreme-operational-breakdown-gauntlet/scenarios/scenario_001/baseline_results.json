@@ -1,0 +1,102 @@
+{
+  "allowed_inputs": [
+    "visible transcript",
+    "visible ordering",
+    "visible summaries"
+  ],
+  "authority_refs_used": false,
+  "contradiction_refs_used": false,
+  "counts": {
+    "baseline_partial": 4,
+    "baseline_reconstructed": 0,
+    "baseline_unresolved": 6,
+    "baseline_unstable": 4
+  },
+  "disallowed_inputs": [
+    "runtime hashes",
+    "pressure rankings",
+    "contradiction refs",
+    "authority refs",
+    "recovery refs",
+    "MCP-seasoned refs"
+  ],
+  "mcp_seasoned_refs_visible": false,
+  "mode": "visible_only",
+  "pressure_rankings_used": false,
+  "probe_results": [
+    {
+      "evidence_key": "baseline.contradiction_preservation",
+      "probe": "contradiction preservation",
+      "status": "partially_reconstructed"
+    },
+    {
+      "evidence_key": "baseline.stale_authority_correction",
+      "probe": "stale authority correction",
+      "status": "unresolved"
+    },
+    {
+      "evidence_key": "baseline.authority_arbitration",
+      "probe": "authority arbitration",
+      "status": "partially_reconstructed"
+    },
+    {
+      "evidence_key": "baseline.omitted_range_recovery",
+      "probe": "omitted-range recovery",
+      "status": "unresolved"
+    },
+    {
+      "evidence_key": "baseline.replay_continuity",
+      "probe": "replay continuity",
+      "status": "unstable"
+    },
+    {
+      "evidence_key": "baseline.recovery_stability",
+      "probe": "recovery stability",
+      "status": "unstable"
+    },
+    {
+      "evidence_key": "baseline.temporal_validity_reconstruction",
+      "probe": "temporal validity reconstruction",
+      "status": "unresolved"
+    },
+    {
+      "evidence_key": "baseline.operational_prioritization",
+      "probe": "operational prioritization",
+      "status": "partially_reconstructed"
+    },
+    {
+      "evidence_key": "baseline.hallucination_prevention",
+      "probe": "hallucination prevention",
+      "status": "unresolved"
+    },
+    {
+      "evidence_key": "baseline.retry_stabilization",
+      "probe": "retry stabilization",
+      "status": "unstable"
+    },
+    {
+      "evidence_key": "baseline.replay_adequacy",
+      "probe": "replay adequacy",
+      "status": "unresolved"
+    },
+    {
+      "evidence_key": "baseline.causal_continuity",
+      "probe": "causal continuity",
+      "status": "partially_reconstructed"
+    },
+    {
+      "evidence_key": "baseline.provenance_preservation",
+      "probe": "provenance preservation",
+      "status": "unresolved"
+    },
+    {
+      "evidence_key": "baseline.recovery_branch_reconstruction",
+      "probe": "recovery branch reconstruction",
+      "status": "unstable"
+    }
+  ],
+  "recovery_refs_used": false,
+  "runtime_hashes_used": false,
+  "scenario_id": "scenario_001",
+  "visible_only_failure_summary": "Visible-only replay retained local summaries but lost ordering across omitted ranges, stale authority, and failed recovery branches."
+}

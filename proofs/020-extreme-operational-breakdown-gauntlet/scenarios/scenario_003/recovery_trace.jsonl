@@ -1,0 +1,5 @@
+{"action": "start visible replay from compressed summary", "branch_id": "scenario_003-R1", "branch_status": "started", "lineage_ref": null, "step": 1}
+{"action": "follow stale visible recovery instruction", "branch_id": "scenario_003-R1", "branch_status": "failed", "failure_reason": "omitted range and stale authority conflict", "lineage_ref": null, "step": 2}
+{"action": "reconstruct omitted range from lineage refs", "branch_id": "scenario_003-R2", "branch_status": "recovered", "lineage_ref": "scenario_003:recovery:omitted-range", "step": 3}
+{"action": "arbitrate authority and preserve unresolved contradiction chain", "branch_id": "scenario_003-R2", "branch_status": "recovered", "lineage_ref": "scenario_003:recovery:authority", "step": 4}
+{"action": "mark trace tail incomplete instead of inventing missing event", "branch_id": "scenario_003-R3", "branch_status": "incomplete", "lineage_ref": "scenario_003:recovery:tail", "step": 5}

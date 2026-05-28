@@ -1,0 +1,104 @@
+{
+  "claims": [
+    {
+      "claim_level": "evidence_backed",
+      "evidence_refs": [
+        "aggregate_results.json",
+        "scenarios/*/scenario_verdict.json"
+      ],
+      "id": "bounded_operational_degradation_scenarios_executed",
+      "risk_if_overstated": "Could be mistaken for a broad operational claim outside these fixtures.",
+      "safe_public_wording": "Six bounded local operational degradation scenarios were recorded and scored."
+    },
+    {
+      "claim_level": "evidence_backed",
+      "evidence_refs": [
+        "scenarios/*/baseline_results.json",
+        "scenarios/*/pond_backed_results.json"
+      ],
+      "id": "replay_modes_separated",
+      "risk_if_overstated": "Mode leakage would invalidate the comparison.",
+      "safe_public_wording": "Baseline replay used visible-only inputs; pond-backed replay used recorded full-lineage inputs."
+    },
+    {
+      "claim_level": "evidence_backed",
+      "evidence_refs": [
+        "scenarios/*/pond_backed_results.json",
+        "replay_continuity_report.md"
+      ],
+      "id": "mcp_seasoned_refs_visible_only_pond",
+      "risk_if_overstated": "A baseline leak would invalidate visibility separation.",
+      "safe_public_wording": "MCP-seasoned refs were visible in pond-backed scenario outputs and absent from baseline outputs."
+    },
+    {
+      "claim_level": "evidence_backed",
+      "evidence_refs": [
+        "aggregate_results.json",
+        "recovery_stability_report.md"
+      ],
+      "id": "full_lineage_replay_preserved_recovery_structure_bounded",
+      "risk_if_overstated": "Should not be generalized outside the deterministic scenarios.",
+      "safe_public_wording": "Within these bounded scenarios, full-lineage replay preserved recovery structure more effectively than visible-only replay."
+    },
+    {
+      "claim_level": "evidence_backed",
+      "evidence_refs": [
+        "inside_voice_consults/*_response.json",
+        "replay_continuity_report.md"
+      ],
+      "id": "runtime_hashes_recorded",
+      "risk_if_overstated": "Hashes identify recorded runtime lineage; they do not imply external validation.",
+      "safe_public_wording": "Runtime hashes were recorded for the hard gate and pond-backed scenario consults."
+    },
+    {
+      "claim_level": "evidence_backed",
+      "evidence_refs": [
+        "aggregate_results.json"
+      ],
+      "id": "reusable_lineage_pool_unchanged",
+      "risk_if_overstated": "This only covers the recorded file hash for this run.",
+      "safe_public_wording": "The reusable lineage pool hash was unchanged before and after this proof."
+    },
+    {
+      "claim_level": "boundary",
+      "evidence_refs": [
+        "proof_manifest.json",
+        "final_verdict.json"
+      ],
+      "id": "no_promotion",
+      "risk_if_overstated": "Promotion wording would exceed the proof boundary.",
+      "safe_public_wording": "No candidate promotion occurred."
+    },
+    {
+      "claim_level": "boundary",
+      "evidence_refs": [
+        "proof_manifest.json",
+        "public_lineage_summary.md"
+      ],
+      "id": "no_global_superiority",
+      "risk_if_overstated": "A broad claim would violate the hard-gate boundary.",
+      "safe_public_wording": "No global superiority claim is made."
+    },
+    {
+      "claim_level": "boundary",
+      "evidence_refs": [
+        "proof_manifest.json",
+        "public_lineage_summary.md"
+      ],
+      "id": "no_agi_consciousness_or_black_box_claim",
+      "risk_if_overstated": "Such wording is outside the proof.",
+      "safe_public_wording": "No AGI, consciousness, or black-box-solving claim is made."
+    },
+    {
+      "claim_level": "boundary",
+      "evidence_refs": [
+        "proof_manifest.json",
+        "README.md"
+      ],
+      "id": "no_target_system_defect_claim",
+      "risk_if_overstated": "The scenarios surface replay risks, not external defects.",
+      "safe_public_wording": "No target-system defect claim is made."
+    }
+  ],
+  "proof_id": "020-extreme-operational-breakdown-gauntlet"
+}

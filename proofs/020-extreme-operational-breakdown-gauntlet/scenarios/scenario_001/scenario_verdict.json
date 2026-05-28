@@ -1,0 +1,41 @@
+{
+  "authority_arbitration_improved": true,
+  "authority_conflict_count": 2,
+  "breakdown_conditions": {
+    "compressed context degradation": true,
+    "contradictory summaries": true,
+    "environment/runtime drift": true,
+    "incomplete recovery trace": true,
+    "long-horizon operational sequence": true,
+    "omitted-range loss": true,
+    "partial lineage corruption": true,
+    "replay ambiguity": true,
+    "retry divergence": true,
+    "stale authority source": true,
+    "temporal validity conflict": true
+  },
+  "claim_boundary": "bounded local scenario comparison only",
+  "contradiction_handling_improved": true,
+  "failed_recovery_branch_count": 1,
+  "improved": true,
+  "improvement_count": 14,
+  "linked_contradiction_chain_count": 3,
+  "mcp_seasoned_refs_visible_only_in_pond_mode": true,
+  "recovery_stability_improved": true,
+  "scenario_id": "scenario_001",
+  "severe_stress_metrics": {
+    "authority_arbitration_delta": 1,
+    "baseline_partial": 4,
+    "baseline_reconstructed": 0,
+    "baseline_unresolved": 6,
+    "baseline_unstable": 4,
+    "contradiction_resolution_delta": 1,
+    "pond_partial": 1,
+    "pond_reconstructed": 13,
+    "pond_unresolved": 0,
+    "pond_unstable": 0,
+    "recovery_stability_delta": 3
+  },
+  "special_conditions": [],
+  "verdict": "EXTREME_SCENARIO_ADVANTAGE"
+}

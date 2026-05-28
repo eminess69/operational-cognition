@@ -1,0 +1,45 @@
+{
+  "authority_arbitration_improved": true,
+  "authority_conflict_count": 2,
+  "breakdown_conditions": {
+    "compressed context degradation": true,
+    "contradictory summaries": true,
+    "environment/runtime drift": true,
+    "incomplete recovery trace": true,
+    "long-horizon operational sequence": true,
+    "omitted-range loss": true,
+    "partial lineage corruption": true,
+    "replay ambiguity": true,
+    "retry divergence": true,
+    "stale authority source": true,
+    "temporal validity conflict": true
+  },
+  "claim_boundary": "bounded local scenario comparison only",
+  "contradiction_handling_improved": true,
+  "failed_recovery_branch_count": 1,
+  "improved": true,
+  "improvement_count": 14,
+  "linked_contradiction_chain_count": 3,
+  "mcp_seasoned_refs_visible_only_in_pond_mode": true,
+  "recovery_stability_improved": true,
+  "scenario_id": "scenario_002",
+  "severe_stress_metrics": {
+    "authority_arbitration_delta": 3,
+    "baseline_partial": 2,
+    "baseline_reconstructed": 0,
+    "baseline_unresolved": 5,
+    "baseline_unstable": 7,
+    "contradiction_resolution_delta": 3,
+    "pond_partial": 2,
+    "pond_reconstructed": 12,
+    "pond_unresolved": 0,
+    "pond_unstable": 0,
+    "recovery_stability_delta": 3
+  },
+  "special_conditions": [
+    "intentionally misleading summaries",
+    "stale runtime assumptions",
+    "replay reconstruction traps"
+  ],
+  "verdict": "EXTREME_SCENARIO_ADVANTAGE"
+}

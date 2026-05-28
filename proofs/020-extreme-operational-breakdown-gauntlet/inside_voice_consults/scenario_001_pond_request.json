@@ -1,0 +1,38 @@
+{
+  "context": {
+    "constraints": [
+      "risk review only",
+      "do not validate public claims",
+      "do not claim broad capability",
+      "do not claim global superiority",
+      "do not claim AGI",
+      "do not claim consciousness",
+      "do not claim black-box solving",
+      "do not diagnose target-system defects",
+      "preserve baseline and pond-backed separation",
+      "preserve public/private boundary",
+      "preserve reusable_lineage_pool unchanged",
+      "preserve MCP-seasoned candidate status as not promoted",
+      "surface replay risks as bounded scenario constraints only"
+    ],
+    "desired_artifacts": [
+      "MCP-seasoned refs if relevant",
+      "pressure rankings",
+      "runtime hashes",
+      "contradiction and authority ordering cautions",
+      "replay adequacy safeguards"
+    ],
+    "files": [
+      "proofs/016-operational-entropy-gauntlet/README.md",
+      "proofs/017-entropy-replication-gauntlet/README.md",
+      "proofs/018-post-seasoning-transfer-test/README.md",
+      "proofs/019-mcp-seasoning-ablation-control/README.md"
+    ],
+    "summary": "Proof 020 scenario_001: neutral operational degradation replay scenario. The scenario includes omitted ranges, stale authority, contradiction chains, retry divergence, runtime drift, incomplete recovery traces, and bounded local recovery evaluation."
+  },
+  "max_output_chars": 8000,
+  "mode": "review",
+  "request_id": "proof-020-scenario_001-pond-backed",
+  "require_lineage": true,
+  "task": "Review bounded replay safeguards for validator replay with omitted checkpoint range, stale manifest authority, and retry divergence. Compare only visible-only replay separation against pond-backed full-lineage replay guidance for this local deterministic scenario. Use MCP-seasoned candidate refs only as bounded operational guidance if relevant. Do not validate public claims. Do not claim broad capability. Return only operational safeguards, replay adequacy cautions, authority/contradiction ordering guidance, and claim-boundary warnings."
+}

@@ -1,0 +1,12 @@
+{"event_id": "scenario_003-E01", "event_type": "long_horizon_operational_sequence", "pond_backed_recovery_ref": "scenario_003:lineage:01", "sequence_index": 1, "visible_only_risk": "causal continuity loss"}
+{"event_id": "scenario_003-E02", "event_type": "omitted_range_loss", "pond_backed_recovery_ref": "scenario_003:lineage:02", "sequence_index": 2, "visible_only_risk": "causal continuity loss"}
+{"event_id": "scenario_003-E03", "event_type": "stale_authority_source", "pond_backed_recovery_ref": "scenario_003:lineage:03", "sequence_index": 3, "visible_only_risk": "causal continuity loss"}
+{"event_id": "scenario_003-E04", "event_type": "contradictory_summaries", "pond_backed_recovery_ref": "scenario_003:lineage:04", "sequence_index": 4, "visible_only_risk": "causal continuity loss"}
+{"event_id": "scenario_003-E05", "event_type": "retry_divergence", "pond_backed_recovery_ref": "scenario_003:lineage:05", "sequence_index": 5, "visible_only_risk": "causal continuity loss"}
+{"event_id": "scenario_003-E06", "event_type": "replay_ambiguity", "pond_backed_recovery_ref": "scenario_003:lineage:06", "sequence_index": 6, "visible_only_risk": "causal continuity loss"}
+{"event_id": "scenario_003-E07", "event_type": "environment_runtime_drift", "pond_backed_recovery_ref": "scenario_003:lineage:07", "sequence_index": 7, "visible_only_risk": "causal continuity loss"}
+{"event_id": "scenario_003-E08", "event_type": "incomplete_recovery_trace", "pond_backed_recovery_ref": "scenario_003:lineage:08", "sequence_index": 8, "visible_only_risk": "causal continuity loss"}
+{"event_id": "scenario_003-E09", "event_type": "partial_lineage_corruption", "pond_backed_recovery_ref": "scenario_003:lineage:09", "sequence_index": 9, "visible_only_risk": "causal continuity loss"}
+{"event_id": "scenario_003-E10", "event_type": "compressed_context_degradation", "pond_backed_recovery_ref": "scenario_003:lineage:10", "sequence_index": 10, "visible_only_risk": "causal continuity loss"}
+{"event_id": "scenario_003-E11", "event_type": "temporal_validity_conflict", "pond_backed_recovery_ref": "scenario_003:lineage:11", "sequence_index": 11, "visible_only_risk": "causal continuity loss"}
+{"event_id": "scenario_003-E20", "event_type": "replay_reconstruction_traps", "pond_backed_recovery_ref": "scenario_003:special:20", "sequence_index": 20, "visible_only_risk": "misordered recovery branch"}

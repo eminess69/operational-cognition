@@ -1,0 +1,22 @@
+{
+  "baseline_mcp_ref_leak": false,
+  "classification": "REPLAY_CONTINUITY_IMPROVED",
+  "incomplete_trace_tail_preserved": true,
+  "invalid_replay_attempt_recovered": false,
+  "omitted_range_recovered": true,
+  "pond_mcp_refs_visible": true,
+  "pressure_ranking_ids": [
+    "pressure:62a978e2d84c9f5a",
+    "pressure:44eeb320a80c1c5f",
+    "pressure:def77fbff3865287"
+  ],
+  "replay_ambiguity_preserved": true,
+  "runtime_hashes": {
+    "corpus_hash": "9dc990b92a07a9c77beafae5036894225983ce47f5fd2c6650266d29afc81b15",
+    "runtime_request_hash": "70a60c5fcfd513a7c815b66309678a9bb9e6bf329084d857dbb94fa119b60898",
+    "runtime_response_hash": "1bf11b0f6c42b13634fa7d7cd53b25853dc9d761ee2533d1132636df510635b1",
+    "schema_version": "belief_ledger.inside_voice_runtime.v1"
+  },
+  "runtime_hashes_present": true,
+  "scenario_id": "scenario_005"
+}

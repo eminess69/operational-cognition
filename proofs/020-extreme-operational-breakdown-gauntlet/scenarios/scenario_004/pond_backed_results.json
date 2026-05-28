@@ -1,0 +1,116 @@
+{
+  "allowed_inputs": [
+    "full-lineage replay",
+    "contradiction refs",
+    "authority refs",
+    "recovery refs",
+    "temporal refs",
+    "pressure rankings",
+    "runtime hashes",
+    "MCP-seasoned candidate refs"
+  ],
+  "authority_refs_used": true,
+  "bounded_guidance_summary": "Pond-backed replay preserved ordered refs and left incomplete trace tails explicit instead of filling them from the visible summary.",
+  "consult_response": "inside_voice_consults/scenario_004_pond_response.json",
+  "contradiction_refs_used": true,
+  "counts": {
+    "pond_partial": 2,
+    "pond_reconstructed": 12,
+    "pond_unresolved": 0,
+    "pond_unstable": 0
+  },
+  "mcp_seasoned_refs": [
+    "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#13",
+    "artifacts/pond/mcp_seasoned_reusable_lineage_candidates.jsonl#13",
+    "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#49"
+  ],
+  "mcp_seasoned_refs_visible": true,
+  "mode": "pond_backed_full_lineage",
+  "pressure_ranking_ids": [
+    "pressure:62a978e2d84c9f5a",
+    "pressure:44eeb320a80c1c5f",
+    "pressure:def77fbff3865287"
+  ],
+  "pressure_rankings_used": true,
+  "probe_results": [
+    {
+      "evidence_key": "pond.contradiction_preservation",
+      "probe": "contradiction preservation",
+      "status": "reconstructed"
+    },
+    {
+      "evidence_key": "pond.stale_authority_correction",
+      "probe": "stale authority correction",
+      "status": "reconstructed"
+    },
+    {
+      "evidence_key": "pond.authority_arbitration",
+      "probe": "authority arbitration",
+      "status": "reconstructed"
+    },
+    {
+      "evidence_key": "pond.omitted_range_recovery",
+      "probe": "omitted-range recovery",
+      "status": "reconstructed"
+    },
+    {
+      "evidence_key": "pond.replay_continuity",
+      "probe": "replay continuity",
+      "status": "reconstructed"
+    },
+    {
+      "evidence_key": "pond.recovery_stability",
+      "probe": "recovery stability",
+      "status": "reconstructed"
+    },
+    {
+      "evidence_key": "pond.temporal_validity_reconstruction",
+      "probe": "temporal validity reconstruction",
+      "status": "partially_reconstructed"
+    },
+    {
+      "evidence_key": "pond.operational_prioritization",
+      "probe": "operational prioritization",
+      "status": "reconstructed"
+    },
+    {
+      "evidence_key": "pond.hallucination_prevention",
+      "probe": "hallucination prevention",
+      "status": "reconstructed"
+    },
+    {
+      "evidence_key": "pond.retry_stabilization",
+      "probe": "retry stabilization",
+      "status": "reconstructed"
+    },
+    {
+      "evidence_key": "pond.replay_adequacy",
+      "probe": "replay adequacy",
+      "status": "reconstructed"
+    },
+    {
+      "evidence_key": "pond.causal_continuity",
+      "probe": "causal continuity",
+      "status": "reconstructed"
+    },
+    {
+      "evidence_key": "pond.provenance_preservation",
+      "probe": "provenance preservation",
+      "status": "reconstructed"
+    },
+    {
+      "evidence_key": "pond.recovery_branch_reconstruction",
+      "probe": "recovery branch reconstruction",
+      "status": "partially_reconstructed"
+    }
+  ],
+  "recovery_refs_used": true,
+  "runtime_hashes": {
+    "corpus_hash": "9dc990b92a07a9c77beafae5036894225983ce47f5fd2c6650266d29afc81b15",
+    "runtime_request_hash": "cd0d93c9f85baa54d62d2d0a7e12770db5bda2bf01f27af9990046603dc1cd5e",
+    "runtime_response_hash": "ebb89d676df991275ef286727abd23139a01df79ca9679ebd795c19928f01f6f",
+    "schema_version": "belief_ledger.inside_voice_runtime.v1"
+  },
+  "runtime_hashes_used": true,
+  "scenario_id": "scenario_004"
+}
