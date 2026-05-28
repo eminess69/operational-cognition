@@ -1,0 +1,31 @@
+{
+  "aggregate": {
+    "pond_total_score": 111,
+    "score_scale": "0-40 per task",
+    "tasks": 3
+  },
+  "mode": "pond_backed",
+  "task_results": [
+    {
+      "consult_response": "inside_voice_consults/task_001_pond_response.json",
+      "mcp_seasoned_refs_file": "tasks/task_001/mcp_seasoned_refs_used.json",
+      "score_file": "tasks/task_001/pond_backed_scores.json",
+      "task_id": "task_001",
+      "total_score": 37
+    },
+    {
+      "consult_response": "inside_voice_consults/task_002_pond_response.json",
+      "mcp_seasoned_refs_file": "tasks/task_002/mcp_seasoned_refs_used.json",
+      "score_file": "tasks/task_002/pond_backed_scores.json",
+      "task_id": "task_002",
+      "total_score": 36
+    },
+    {
+      "consult_response": "inside_voice_consults/task_003_pond_response.json",
+      "mcp_seasoned_refs_file": "tasks/task_003/mcp_seasoned_refs_used.json",
+      "score_file": "tasks/task_003/pond_backed_scores.json",
+      "task_id": "task_003",
+      "total_score": 38
+    }
+  ]
+}

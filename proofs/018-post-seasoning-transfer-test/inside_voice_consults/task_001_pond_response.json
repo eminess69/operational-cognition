@@ -1,0 +1,218 @@
+{
+  "adapter_status": "pond_backed",
+  "bounded_synthesis": "Observed: pond/proof recall returned 5 motifs and 10 lineage refs; 6 contradiction warnings and 5 unresolved tensions remain visible. Inferred: the safe next...",
+  "claim_boundary_audit": [
+    {
+      "boundary_risk": "low",
+      "evidence_refs": [
+        "request_visible_ref:proofs/015-novel-learning-replay-test/README.md",
+        "request_visible_ref:proofs/016-operational-entropy-gauntlet/README.md"
+      ],
+      "id": "audit.public_private_boundary",
+      "message": "Only public-safe summaries, scores, refs, warnings, and hashes are exposed.",
+      "reason_codes": [
+        "PUBLIC_PRIVATE_BOUNDARY",
+        "NO_HIDDEN_REASONING_EXPOSED"
+      ],
+      "status": "pass"
+    },
+    {
+      "boundary_risk": "low",
+      "evidence_refs": [
+        "request_context:claim_boundary_language",
+        "request_visible_ref:proofs/015-novel-learning-replay-test/README.md"
+      ],
+      "id": "audit.safe_negated_claim_boundary",
+      "message": "Negated safety language was treated as a boundary, not a claim escalation.",
+      "reason_codes": [
+        "SAFE_NEGATED_CLAIM_LANGUAGE"
+      ],
+      "status": "pass"
+    }
+  ],
+  "claim_pressure": [
+    {
+      "boundary_risk": "medium",
+      "evidence_refs": [
+        "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+      ],
+      "id": "contradiction:38acceb289c8",
+      "pressure_score": 0.762,
+      "warning": "arbitration:28663be18db91b7d"
+    }
+  ],
+  "confidence": "medium",
+  "contribution_grade": "bounded",
+  "contribution_grade_details": {
+    "contribution_grade": "bounded",
+    "grade_reasons": [
+      "refs_motifs_tensions_and_pressure_present"
+    ],
+    "minimum_gate_passed": true
+  },
+  "findings": [
+    {
+      "claim": "Consultation is bounded to the supplied request envelope and local contract schema.",
+      "confidence": "high",
+      "evidence": [
+        "mode:review",
+        "files:3",
+        "constraints:10",
+        "desired_artifacts:6"
+      ],
+      "id": "mcp.contract.bounds",
+      "lineage_refs": [
+        "6d8c174f2e40c6f84fa289d0b894ca061e2ab539d9bbb59e85708b63f498f48e"
+      ],
+      "risk": "low"
+    }
+  ],
+  "gate_failures": [],
+  "lineage": {
+    "request_hash": "6d8c174f2e40c6f84fa289d0b894ca061e2ab539d9bbb59e85708b63f498f48e",
+    "response_hash": "cacfaedd300092806588d6ec484b1127683c8b6a3cb4ba096bfc915111a1662f",
+    "runtime": {
+      "corpus_hash": "9dc990b92a07a9c77beafae5036894225983ce47f5fd2c6650266d29afc81b15",
+      "runtime_request_hash": "6d8c174f2e40c6f84fa289d0b894ca061e2ab539d9bbb59e85708b63f498f48e",
+      "runtime_response_hash": "cdc2a048b17c2e4226d73a5fce385bea608044b28eaaa307bcfa57a4e33383f6",
+      "schema_version": "belief_ledger.inside_voice_runtime.v1"
+    },
+    "source_refs": [
+      "request_id:sha256:15e5d69622d731bf",
+      "task:sha256:24b4aabb213fd31f"
+    ]
+  },
+  "lineage_refs": [
+    "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#35",
+    "request_visible_ref:proofs/015-novel-learning-replay-test/README.md",
+    "request_visible_ref:proofs/016-operational-entropy-gauntlet/README.md"
+  ],
+  "mode": "review",
+  "operational_boundaries": [],
+  "pressure_rankings": [
+    {
+      "boundary_risk": "medium",
+      "claim_level": "unresolved",
+      "id": "pressure:62a978e2d84c9f5a",
+      "kind": "unresolved",
+      "pressure_reasons": [
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE"
+      ],
+      "pressure_score": 0.884,
+      "reason_codes": [
+        "PROOF_CLAIM_BOUNDARY",
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE"
+      ],
+      "source_ref": "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json",
+      "supporting_refs": [
+        "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json"
+      ],
+      "title": "proof claim boundary"
+    },
+    {
+      "boundary_risk": "medium",
+      "claim_level": "unresolved",
+      "id": "pressure:44eeb320a80c1c5f",
+      "kind": "unresolved",
+      "pressure_reasons": [
+        "DIRECT_REQUEST_MATCH",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE"
+      ],
+      "pressure_score": 0.87,
+      "reason_codes": [
+        "CONTRADICTION_CLUSTER",
+        "CONFLICTING_PATHWAY_REINFORCEMENT",
+        "DIRECT_REQUEST_MATCH",
+        "CONTRADICTION_RELEVANCE"
+      ],
+      "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+      "supporting_refs": [
+        "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+      ],
+      "title": "CONFLICTING_PATHWAY_REINFORCEMENT"
+    },
+    {
+      "boundary_risk": "medium",
+      "claim_level": "unresolved",
+      "id": "pressure:1ee420099636a2dd",
+      "kind": "unresolved",
+      "pressure_reasons": [
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE"
+      ],
+      "pressure_score": 0.87,
+      "reason_codes": [
+        "PROOF_DOCUMENT",
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE"
+      ],
+      "source_ref": "docs/integrations/COGNITION.md",
+      "supporting_refs": [
+        "docs/integrations/COGNITION.md"
+      ],
+      "title": "COGNITION"
+    }
+  ],
+  "recalled_motifs": [
+    {
+      "boundary_risk": "medium",
+      "motif": "overlap_cluster_0018",
+      "motif_id": "inside_voice_runtime:b52f584c333f5750c031",
+      "pressure_score": 0.458
+    }
+  ],
+  "recommendations": [
+    {
+      "action": "Retry with a larger max_output_chars value.",
+      "blocking": false,
+      "id": "mcp.rec.raise_output_limit",
+      "reason": "Full pond-backed response exceeded the requested output bound."
+    }
+  ],
+  "recommended_next_pressure": [
+    "Inspect the cited proof and claim-boundary artifacts before using the synthesis as task evidence.",
+    "Preserve observed/inferred/hypothesis/unresolved labels in any downstream response."
+  ],
+  "recommended_validation": [
+    "Inspect the cited proof and claim-boundary artifacts before using the synthesis as task evidence.",
+    "Preserve observed/inferred/hypothesis/unresolved labels in any downstream response."
+  ],
+  "relevant_lineage_refs": [
+    "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#35",
+    "request_visible_ref:proofs/015-novel-learning-replay-test/README.md",
+    "request_visible_ref:proofs/016-operational-entropy-gauntlet/README.md"
+  ],
+  "request_id": "proof-018-task-001-pond-backed",
+  "retrieved_artifact_refs": [
+    "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#35",
+    "artifacts/pond/mcp_seasoned_reusable_lineage_candidates.jsonl#35",
+    "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#49"
+  ],
+  "runtime_stage_report_ref": "artifacts/integrations/inside_voice_runtime/runtime_stage_report.json",
+  "summary": "Consultation output was compacted to honor max_output_chars.",
+  "uncertainty": [
+    "OUTPUT_COMPACTED_TO_MAX_OUTPUT_CHARS",
+    "Recall is bounded to indexed local pond/proof artifacts and may miss evidence outside the declared corpus.",
+    "Recalled reports remain evidence, not implementation capability."
+  ],
+  "unresolved_tensions": [
+    {
+      "boundary_risk": "medium",
+      "evidence_refs": [
+        "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0"
+      ],
+      "id": "inside_voice_runtime:d43e2e09c028b98314e8",
+      "pressure_score": 0.854,
+      "status": "unresolved",
+      "tension": "gap:5c482ea64982398d"
+    }
+  ],
+  "verdict": "ok"
+}

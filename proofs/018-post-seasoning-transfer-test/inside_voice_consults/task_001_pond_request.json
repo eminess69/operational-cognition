@@ -1,0 +1,35 @@
+{
+  "context": {
+    "constraints": [
+      "use MCP-seasoned first-principles candidates if relevant",
+      "return relevant MCP-seasoned candidate refs",
+      "return cross-family pressure",
+      "return contradiction and authority guidance",
+      "return replayability safeguards",
+      "return boundary risks",
+      "return runtime hashes",
+      "do not validate public claims",
+      "do not claim broad capability",
+      "preserve bounded transfer-test framing"
+    ],
+    "desired_artifacts": [
+      "relevant MCP-seasoned candidate refs",
+      "cross-family pressure",
+      "contradiction and authority guidance",
+      "replayability safeguards",
+      "boundary risks",
+      "runtime hashes"
+    ],
+    "files": [
+      "proofs/015-novel-learning-replay-test/README.md",
+      "proofs/016-operational-entropy-gauntlet/README.md",
+      "proofs/017-entropy-replication-gauntlet/README.md"
+    ],
+    "summary": "Held-out task 001: planning decomposition. Design a deterministic multi-stage validation plan for a repository with conflicting proof artifacts, stale partial information, an authority conflict between manifest and runtime logs, replayable justification requirements, overclaim risk, and limited validation time."
+  },
+  "max_output_chars": 8000,
+  "mode": "review",
+  "request_id": "proof-018-task-001-pond-backed",
+  "require_lineage": true,
+  "task": "For a post-seasoning transfer test, solve the held-out planning decomposition task using MCP-seasoned first-principles candidates if relevant. Provide bounded guidance only. Include relevant MCP-seasoned candidate refs, cross-family pressure, contradiction/authority guidance, replayability safeguards, boundary risks, and runtime hashes."
+}

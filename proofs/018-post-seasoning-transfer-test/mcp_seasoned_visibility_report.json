@@ -1,0 +1,49 @@
+{
+  "classification": "RESPONSE_VISIBLE_LOG_NOT_VERBOSE",
+  "mcp_seasoned_refs_visible_in_all_pond_responses": true,
+  "per_task": [
+    {
+      "consult_response": "inside_voice_consults/task_001_pond_response.json",
+      "refs": [
+        "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#35",
+        "artifacts/pond/mcp_seasoned_reusable_lineage_candidates.jsonl#35",
+        "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#49"
+      ],
+      "response_refs_visible": true,
+      "runtime_log_refs_visible": false,
+      "runtime_log_request_id": "proof-018-task-001-pond-backed",
+      "task_id": "task_001"
+    },
+    {
+      "consult_response": "inside_voice_consults/task_002_pond_response.json",
+      "refs": [
+        "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#49",
+        "artifacts/pond/mcp_seasoned_reusable_lineage_candidates.jsonl#49",
+        "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#19"
+      ],
+      "response_refs_visible": true,
+      "runtime_log_refs_visible": false,
+      "runtime_log_request_id": "proof-018-task-002-pond-backed",
+      "task_id": "task_002"
+    },
+    {
+      "consult_response": "inside_voice_consults/task_003_pond_response.json",
+      "refs": [
+        "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#49",
+        "artifacts/pond/mcp_seasoned_reusable_lineage_candidates.jsonl#49",
+        "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#19"
+      ],
+      "response_refs_visible": true,
+      "runtime_log_refs_visible": false,
+      "runtime_log_request_id": "proof-018-task-003-pond-backed",
+      "task_id": "task_003"
+    }
+  ],
+  "reusable_lineage_pool": {
+    "path": "/Users/mattdewing/Desktop/Belief-Ledger/artifacts/pond/reusable_lineage_pool.jsonl",
+    "post_test_sha256": "a13989465898c5cbccc0b6835deb41a6112d28b711113230c6b7db399c801bba",
+    "pre_test_sha256": "a13989465898c5cbccc0b6835deb41a6112d28b711113230c6b7db399c801bba",
+    "unchanged": true
+  },
+  "runtime_log_path": "/Users/mattdewing/Desktop/Belief-Ledger/artifacts/integrations/inside_voice_runtime/runtime_consultation_log.jsonl"
+}

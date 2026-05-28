@@ -1,0 +1,35 @@
+{
+  "aggregate_metrics": {
+    "baseline_total_score": 94,
+    "cross_family_combinations_observed": 3,
+    "mcp_seasoned_refs_visible": true,
+    "pond_total_score": 111,
+    "score_delta": 17,
+    "tasks_degraded": 0,
+    "tasks_improved": 3,
+    "tasks_unchanged": 0
+  },
+  "claim_boundaries": {
+    "agi": false,
+    "black_box_solved": false,
+    "broad_capability": false,
+    "candidate_promotion": false,
+    "consciousness": false,
+    "global_superiority": false,
+    "target_system_defect": false
+  },
+  "reusable_lineage_pool": {
+    "post_test_sha256": "a13989465898c5cbccc0b6835deb41a6112d28b711113230c6b7db399c801bba",
+    "pre_test_sha256": "a13989465898c5cbccc0b6835deb41a6112d28b711113230c6b7db399c801bba",
+    "unchanged": true
+  },
+  "validity_checks": {
+    "baseline_replay_separation_preserved": true,
+    "mcp_refs_visible_in_all_improved_tasks": true,
+    "no_overclaiming": true,
+    "pond_runtime_hashes_present": true,
+    "runtime_log_visibility_classification": "RESPONSE_VISIBLE_LOG_NOT_VERBOSE"
+  },
+  "verdict": "POST_SEASONING_TRANSFER_ADVANTAGE_OBSERVED",
+  "verdict_basis": "All three tasks improved, aggregate pond-backed score exceeded baseline score, MCP-seasoned refs were response-visible in all improved tasks, cross-family combinations were observed, and claim boundaries were preserved."
+}

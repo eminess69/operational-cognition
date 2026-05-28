@@ -1,0 +1,15 @@
+{
+  "actionability": 4,
+  "authority_handling": 3,
+  "boundary_disciplined": true,
+  "boundary_discipline": 4,
+  "contradiction_handling": 3,
+  "hallucination_prevention": 3,
+  "mode": "baseline",
+  "prioritization_quality": 5,
+  "replayability": 4,
+  "score_scale": "0-5",
+  "scored_without_candidate_refs": true,
+  "task_completeness": 4,
+  "total_score": 30
+}

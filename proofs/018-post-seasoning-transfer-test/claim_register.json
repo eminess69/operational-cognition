@@ -1,0 +1,89 @@
+{
+  "claims": [
+    {
+      "evidence_refs": [
+        "inside_voice_consults/hard_gate_response.json"
+      ],
+      "id": "claim.hard_gate_passed",
+      "safe_public_wording": "The hard gate passed with pond-backed adapter status, bounded contribution grade, empty gate failures, runtime hashes, and safe-negated boundary handling.",
+      "status": "supported"
+    },
+    {
+      "evidence_refs": [
+        "heldout_task_selection_report.md",
+        "tasks/task_001/task_description.md",
+        "tasks/task_002/task_description.md",
+        "tasks/task_003/task_description.md"
+      ],
+      "id": "claim.three_heldout_tasks_selected",
+      "safe_public_wording": "Three held-out operational tasks from different domains were selected.",
+      "status": "supported"
+    },
+    {
+      "evidence_refs": [
+        "tasks/task_001/baseline_solution.md",
+        "tasks/task_002/baseline_solution.md",
+        "tasks/task_003/baseline_solution.md"
+      ],
+      "id": "claim.baseline_mode_separated",
+      "safe_public_wording": "Baseline task solutions were recorded without candidate refs or consult-derived pressure rankings.",
+      "status": "supported"
+    },
+    {
+      "evidence_refs": [
+        "inside_voice_consults/task_001_pond_response.json",
+        "inside_voice_consults/task_002_pond_response.json",
+        "inside_voice_consults/task_003_pond_response.json",
+        "mcp_seasoned_visibility_report.json"
+      ],
+      "id": "claim.mcp_seasoned_refs_response_visible",
+      "safe_public_wording": "MCP-seasoned refs were visible in all successful pond-backed task consult responses.",
+      "status": "supported"
+    },
+    {
+      "evidence_refs": [
+        "runtime_log_visibility_report.md",
+        "mcp_seasoned_visibility_report.json"
+      ],
+      "id": "claim.runtime_log_not_verbose",
+      "safe_public_wording": "Runtime logs exposed hashes and counts but did not expose detailed MCP-seasoned refs.",
+      "status": "supported"
+    },
+    {
+      "evidence_refs": [
+        "cross_family_combination_report.md"
+      ],
+      "id": "claim.cross_family_combination_observed",
+      "safe_public_wording": "Cross-family combination was observed in all three pond-backed task solutions.",
+      "status": "supported"
+    },
+    {
+      "evidence_refs": [
+        "baseline_results.json",
+        "pond_backed_results.json",
+        "comparative_transfer_report.md"
+      ],
+      "id": "claim.aggregate_score_gain_observed",
+      "safe_public_wording": "Pond-backed mode scored higher than baseline mode in this local three-task test.",
+      "status": "supported"
+    },
+    {
+      "evidence_refs": [
+        "mcp_seasoned_visibility_report.json"
+      ],
+      "id": "claim.reusable_pool_unchanged",
+      "safe_public_wording": "The reusable lineage pool hash was unchanged before and after the test.",
+      "status": "supported"
+    }
+  ],
+  "disallowed_positive_claims": {
+    "agi": false,
+    "black_box_solved": false,
+    "broad_capability": false,
+    "candidate_promotion": false,
+    "consciousness": false,
+    "global_superiority": false,
+    "target_system_defect": false
+  },
+  "schema_version": "proof_018.claim_register.v1"
+}

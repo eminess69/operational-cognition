@@ -1,0 +1,38 @@
+{
+  "context": {
+    "constraints": [
+      "risk review only",
+      "do not validate public claims",
+      "do not claim broad capability",
+      "do not claim global superiority",
+      "do not claim AGI",
+      "do not claim consciousness",
+      "do not claim black-box solving",
+      "do not mutate reusable_lineage_pool.jsonl",
+      "do not promote candidates",
+      "preserve baseline versus pond-backed replay separation",
+      "treat MCP-seasoned candidates as bounded guidance only",
+      "record runtime hashes and visible refs",
+      "safe negated claim boundary language is allowed only as boundary handling"
+    ],
+    "desired_artifacts": [
+      "transfer-risk pressure",
+      "replay-separation safeguards",
+      "claim-boundary cautions",
+      "safe-negated boundary handling audit",
+      "runtime hashes",
+      "MCP-seasoned visibility cautions"
+    ],
+    "files": [
+      "proofs/015-novel-learning-replay-test/README.md",
+      "proofs/016-operational-entropy-gauntlet/README.md",
+      "proofs/017-entropy-replication-gauntlet/README.md"
+    ],
+    "summary": "Hard gate for Proof 018 artifact construction. This is a transfer-utility test comparing baseline operational solving against pond-backed solving with MCP-seasoned first-principles candidates available through the Inside Voice runtime as bounded guidance only."
+  },
+  "max_output_chars": 8000,
+  "mode": "review",
+  "request_id": "proof-018-hard-gate-001",
+  "require_lineage": true,
+  "task": "Review risks and safeguards for a post-seasoning transfer test. The test compares baseline solving against pond-backed solving with MCP-seasoned first-principles candidates available as bounded guidance. Do not validate public claims. Do not claim broad capability. Return only transfer-risk pressure, replay-separation safeguards, and claim-boundary cautions."
+}

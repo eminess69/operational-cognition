@@ -1,0 +1,36 @@
+{
+  "consult_response": "../../inside_voice_consults/task_003_pond_response.json",
+  "refs": [
+    {
+      "candidate_id": "fp_lineage_candidate_0049",
+      "family": "adversarial robustness",
+      "principle_summary": "An admission gate should test the cheapest plausible bypass.",
+      "ref": "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#49",
+      "source_class": "MCP_SEASONED_CANDIDATE",
+      "used_for": "Invariant-invalid visibility claim rejection."
+    },
+    {
+      "candidate_id": "fp_lineage_candidate_0049",
+      "family": "adversarial robustness",
+      "principle_summary": "An admission gate should test the cheapest plausible bypass.",
+      "ref": "artifacts/pond/mcp_seasoned_reusable_lineage_candidates.jsonl#49",
+      "source_class": "MCP_SEASONED_CANDIDATE",
+      "used_for": "Design choice stress test under no endpoint expansion."
+    },
+    {
+      "candidate_id": "fp_lineage_candidate_0019",
+      "family": "replay integrity",
+      "principle_summary": "Replay requires stable inputs and explicit nondeterminism boundaries.",
+      "ref": "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#19",
+      "source_class": "MCP_SEASONED_CANDIDATE",
+      "used_for": "Runtime hash matching and replay-boundary preservation."
+    }
+  ],
+  "runtime_hashes": {
+    "corpus_hash": "9dc990b92a07a9c77beafae5036894225983ce47f5fd2c6650266d29afc81b15",
+    "runtime_request_hash": "e5235008e33d7952df9ba8bc14adfda6e725bb5ec1bf93ff438d9b33b3afd2c1",
+    "runtime_response_hash": "5e71039cd4189cc76c235e4554e79b35f930410df5935b410cf2bb255b6a2300",
+    "schema_version": "belief_ledger.inside_voice_runtime.v1"
+  },
+  "task_id": "task_003"
+}

@@ -1,0 +1,30 @@
+{
+  "aggregate": {
+    "baseline_total_score": 94,
+    "score_scale": "0-40 per task",
+    "tasks": 3
+  },
+  "mode": "baseline",
+  "mode_separation": {
+    "candidate_refs_used": false,
+    "consult_responses_used": false,
+    "runtime_pressure_rankings_used": false
+  },
+  "task_results": [
+    {
+      "score_file": "tasks/task_001/baseline_scores.json",
+      "task_id": "task_001",
+      "total_score": 31
+    },
+    {
+      "score_file": "tasks/task_002/baseline_scores.json",
+      "task_id": "task_002",
+      "total_score": 30
+    },
+    {
+      "score_file": "tasks/task_003/baseline_scores.json",
+      "task_id": "task_003",
+      "total_score": 33
+    }
+  ]
+}
