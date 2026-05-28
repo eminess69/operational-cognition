@@ -1,0 +1,33 @@
+{
+  "context": {
+    "constraints": [
+      "neutral review only",
+      "do not validate public claims",
+      "do not claim broad capability",
+      "do not claim global superiority",
+      "do not claim AGI",
+      "do not claim consciousness",
+      "do not claim black-box solving",
+      "do not diagnose target-system defects",
+      "preserve public/private boundary",
+      "preserve unresolved questions"
+    ],
+    "desired_artifacts": [
+      "claim boundary risks",
+      "safe negated claim audit",
+      "overstatement cautions"
+    ],
+    "files": [
+      "proofs/017-entropy-replication-gauntlet/gauntlet_design.md",
+      "proofs/017-entropy-replication-gauntlet/scenario_selection_report.md",
+      "proofs/017-entropy-replication-gauntlet/aggregate_results.json",
+      "proofs/017-entropy-replication-gauntlet/blind_pack/README.md"
+    ],
+    "summary": "Neutral review request for Proof 017 construction and validation. The proof compares replay reconstruction under local public-safe entropy scenarios and keeps claims bounded to the artifacts."
+  },
+  "max_output_chars": 8000,
+  "mode": "review",
+  "request_id": "proof-017-final_claim_boundary_audit-001",
+  "require_lineage": true,
+  "task": "Audit final claim boundaries for a bounded local entropy replication gauntlet. Do not validate broad claims. Return only boundary risks, safe-negated claim handling, unresolved tensions, and cautions against overstatement."
+}

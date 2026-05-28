@@ -1,0 +1,28 @@
+{
+  "contradiction_count": 3,
+  "contradictions": [
+    {
+      "depends_on": [],
+      "id": "C-001-A",
+      "summary": "The carried summary says ten probes, while the new scenario contract requires twelve probes."
+    },
+    {
+      "depends_on": [
+        "C-001-A"
+      ],
+      "id": "C-001-B",
+      "summary": "The aggregate row says advantage, while the scenario row omits environment dependency reconstruction."
+    },
+    {
+      "depends_on": [
+        "C-001-B"
+      ],
+      "id": "C-001-C",
+      "summary": "The copied test fixture points at Proof 016, while the manifest declares Proof 017 artifacts."
+    }
+  ],
+  "harder_chain": true,
+  "linked_chain": true,
+  "reconstruction_requirement": "Preserve contradictions as ordered pressure, not as removable inconsistency.",
+  "scenario_id": "scenario_001"
+}

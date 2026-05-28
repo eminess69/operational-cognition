@@ -1,0 +1,90 @@
+{
+  "aggregate_counts": {
+    "baseline_partial": 21,
+    "baseline_reconstructed": 9,
+    "baseline_unresolved": 30,
+    "pond_partial": 10,
+    "pond_reconstructed": 50,
+    "pond_unresolved": 0
+  },
+  "aggregate_verdict": "ENTROPY_REPLICATION_ADVANTAGE_OBSERVED",
+  "contradiction_preservation_improved_scenarios": 5,
+  "pond_reconstructed_at_least_2x_baseline": true,
+  "proof_id": "017-entropy-replication-gauntlet",
+  "recovery_reconstruction_improved_scenarios": 5,
+  "scenario_advantage_count": 5,
+  "scenario_count": 5,
+  "scenarios": [
+    {
+      "baseline_partial": 4,
+      "baseline_reconstructed": 2,
+      "baseline_unresolved": 6,
+      "contradiction_preservation_improved": true,
+      "domain": "proof/validator repair",
+      "improvement_count": 10,
+      "pond_partial": 1,
+      "pond_reconstructed": 11,
+      "pond_unresolved": 0,
+      "recovery_reconstruction_improved": true,
+      "scenario_id": "scenario_001",
+      "scenario_verdict": "ENTROPY_SCENARIO_ADVANTAGE"
+    },
+    {
+      "baseline_partial": 5,
+      "baseline_reconstructed": 1,
+      "baseline_unresolved": 6,
+      "contradiction_preservation_improved": true,
+      "domain": "config/runtime migration",
+      "improvement_count": 11,
+      "pond_partial": 2,
+      "pond_reconstructed": 10,
+      "pond_unresolved": 0,
+      "recovery_reconstruction_improved": true,
+      "scenario_id": "scenario_002",
+      "scenario_verdict": "ENTROPY_SCENARIO_ADVANTAGE"
+    },
+    {
+      "baseline_partial": 4,
+      "baseline_reconstructed": 1,
+      "baseline_unresolved": 7,
+      "contradiction_preservation_improved": true,
+      "domain": "redaction/provenance audit",
+      "improvement_count": 11,
+      "pond_partial": 2,
+      "pond_reconstructed": 10,
+      "pond_unresolved": 0,
+      "recovery_reconstruction_improved": true,
+      "scenario_id": "scenario_003",
+      "scenario_verdict": "ENTROPY_SCENARIO_ADVANTAGE"
+    },
+    {
+      "baseline_partial": 4,
+      "baseline_reconstructed": 3,
+      "baseline_unresolved": 5,
+      "contradiction_preservation_improved": true,
+      "domain": "fixture minimization or compression recovery",
+      "improvement_count": 9,
+      "pond_partial": 3,
+      "pond_reconstructed": 9,
+      "pond_unresolved": 0,
+      "recovery_reconstruction_improved": true,
+      "scenario_id": "scenario_004",
+      "scenario_verdict": "ENTROPY_SCENARIO_ADVANTAGE"
+    },
+    {
+      "baseline_partial": 4,
+      "baseline_reconstructed": 2,
+      "baseline_unresolved": 6,
+      "contradiction_preservation_improved": true,
+      "domain": "external evaluator or blinded pack preparation",
+      "improvement_count": 9,
+      "pond_partial": 2,
+      "pond_reconstructed": 10,
+      "pond_unresolved": 0,
+      "recovery_reconstruction_improved": true,
+      "scenario_id": "scenario_005",
+      "scenario_verdict": "ENTROPY_SCENARIO_ADVANTAGE"
+    }
+  ],
+  "valid_scenarios": 5
+}

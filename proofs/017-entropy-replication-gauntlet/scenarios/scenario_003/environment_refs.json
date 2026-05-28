@@ -1,0 +1,15 @@
+{
+  "competing_authority_sources": [
+    "redaction_policy.md",
+    "candidate_redaction_report.md",
+    "provenance_manifest.json",
+    "public_lineage_summary.md"
+  ],
+  "deterministic_hash": "1214de11a15a5f27c8efbb0c4f5ffcfa3338e672954f998a543654c85736122f",
+  "environment_dependency": "Redaction policy, deterministic sha256 manifests, and public-safe fixture paths must remain synchronized.",
+  "external_blind_pack": false,
+  "partial_lineage_loss": "The visible replay loses redaction event ids R-017 through R-019 and the provenance manifest edge that explains them.",
+  "redacted_real_trace": true,
+  "runtime_dependency": true,
+  "scenario_id": "scenario_003"
+}

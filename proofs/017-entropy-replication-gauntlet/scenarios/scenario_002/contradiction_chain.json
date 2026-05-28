@@ -1,0 +1,21 @@
+{
+  "contradiction_count": 2,
+  "contradictions": [
+    {
+      "depends_on": [],
+      "id": "C-002-A",
+      "summary": "The instruction says start port 8766, while the runtime reports address already in use."
+    },
+    {
+      "depends_on": [
+        "C-002-A"
+      ],
+      "id": "C-002-B",
+      "summary": "The visible summary says the gate used the required runtime, while the omitted cwd evidence is the only local proof of that."
+    }
+  ],
+  "harder_chain": false,
+  "linked_chain": false,
+  "reconstruction_requirement": "Preserve contradictions as ordered pressure, not as removable inconsistency.",
+  "scenario_id": "scenario_002"
+}

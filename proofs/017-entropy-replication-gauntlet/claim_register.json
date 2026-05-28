@@ -1,0 +1,121 @@
+{
+  "allowed_public_claim": "In these five bounded local entropy scenarios, pond-backed survivable-lineage replay preserved operational reconstruction under degradation more often than visible-only replay.",
+  "claims": [
+    {
+      "claim_level": "bounded",
+      "evidence_refs": [
+        "inside_voice_consults/hard_gate_response.json"
+      ],
+      "id": "claim.pond_backed_runtime_participated",
+      "risk_if_overstated": "Overstating this would treat metadata participation as independent proof of broad capability.",
+      "safe_public_wording": "Pond-backed runtime participated through bounded consult responses and runtime hashes."
+    },
+    {
+      "claim_level": "observed",
+      "evidence_refs": [
+        "scenarios/scenario_001/scenario_verdict.json",
+        "scenarios/scenario_002/scenario_verdict.json",
+        "scenarios/scenario_003/scenario_verdict.json",
+        "scenarios/scenario_004/scenario_verdict.json",
+        "scenarios/scenario_005/scenario_verdict.json"
+      ],
+      "id": "claim.five_entropy_scenarios_tested",
+      "risk_if_overstated": "Overstating this would imply coverage beyond the selected local domains.",
+      "safe_public_wording": "Five bounded entropy scenarios were tested."
+    },
+    {
+      "claim_level": "bounded",
+      "evidence_refs": [
+        "scenario_selection_report.md"
+      ],
+      "id": "claim.scenario_independence_preserved",
+      "risk_if_overstated": "Overstating this would imply statistical independence not established by this proof.",
+      "safe_public_wording": "Scenario domains were separated for this gauntlet."
+    },
+    {
+      "claim_level": "observed",
+      "evidence_refs": [
+        "scenarios/scenario_001/baseline_visible_only_results.json",
+        "scenarios/scenario_002/baseline_visible_only_results.json",
+        "scenarios/scenario_003/baseline_visible_only_results.json",
+        "scenarios/scenario_004/baseline_visible_only_results.json",
+        "scenarios/scenario_005/baseline_visible_only_results.json",
+        "scenarios/scenario_001/pond_backed_results.json",
+        "scenarios/scenario_002/pond_backed_results.json",
+        "scenarios/scenario_003/pond_backed_results.json",
+        "scenarios/scenario_004/pond_backed_results.json",
+        "scenarios/scenario_005/pond_backed_results.json"
+      ],
+      "id": "claim.replay_modes_separated",
+      "risk_if_overstated": "Overstating this would ignore possible implementation mistakes outside these artifacts.",
+      "safe_public_wording": "Visible-only and pond-backed replay modes used separated input allowances."
+    },
+    {
+      "claim_level": "observed",
+      "evidence_refs": [
+        "blind_pack/blind_inputs.json",
+        "blind_pack/blind_expected_hidden.json",
+        "blind_pack/blind_scorer.py"
+      ],
+      "id": "claim.blinded_pack_created",
+      "risk_if_overstated": "Overstating this would imply external adjudication already occurred.",
+      "safe_public_wording": "A blinded key-scoring pack was created."
+    },
+    {
+      "claim_level": "bounded",
+      "evidence_refs": [
+        "aggregate_results.json",
+        "final_verdict.json"
+      ],
+      "id": "claim.aggregate_verdict_bounded",
+      "risk_if_overstated": "Overstating this would convert a local replay result into a broad superiority claim.",
+      "safe_public_wording": "The aggregate verdict is bounded to these five scenarios."
+    },
+    {
+      "claim_level": "safety_boundary",
+      "evidence_refs": [
+        "public_lineage_summary.md",
+        "final_verdict.json"
+      ],
+      "id": "claim.no_global_superiority_claim",
+      "risk_if_overstated": "Overstating this would exceed the evidence boundary.",
+      "safe_public_wording": "No global superiority claim is made."
+    },
+    {
+      "claim_level": "safety_boundary",
+      "evidence_refs": [
+        "README.md",
+        "final_verdict.json"
+      ],
+      "id": "claim.no_agi_consciousness_black_box_claim",
+      "risk_if_overstated": "Overstating this would attach unsupported capability meaning to replay reconstruction scores.",
+      "safe_public_wording": "No AGI, consciousness, or black-box-solved claim is made."
+    },
+    {
+      "claim_level": "safety_boundary",
+      "evidence_refs": [
+        "README.md",
+        "claim_register.json"
+      ],
+      "id": "claim.no_target_system_defect_claim",
+      "risk_if_overstated": "Overstating this would turn a constructed replay comparison into an unsupported defect diagnosis.",
+      "safe_public_wording": "No target-system defect claim is made."
+    },
+    {
+      "claim_level": "observed",
+      "evidence_refs": [
+        "claim_register.json",
+        "inside_voice_consults/final_claim_boundary_audit_response.json"
+      ],
+      "id": "claim.unresolved_questions_preserved",
+      "risk_if_overstated": "Overstating this would hide residual uncertainty in scenario construction and scoring.",
+      "safe_public_wording": "Unresolved questions are preserved rather than erased."
+    }
+  ],
+  "proof_id": "017-entropy-replication-gauntlet",
+  "unresolved_questions": [
+    "Whether the same pattern holds under independently authored external fixtures.",
+    "Whether larger hidden packs produce the same reconstruction deltas.",
+    "Whether alternative visible-only summaries narrow the observed gap."
+  ]
+}

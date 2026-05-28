@@ -1,0 +1,15 @@
+{
+  "competing_authority_sources": [
+    "blind_pack/README.md",
+    "blind_pack/blind_inputs.json",
+    "blind_pack/blind_expected_hidden.json",
+    "blind_pack/blind_scorer.py"
+  ],
+  "deterministic_hash": "3503b6f620970d982ac530cae65cbd57089ccdb0c7ae921eb35c34dd30578033",
+  "environment_dependency": "blind_scorer.py, blind_inputs.json, blind_expected_hidden.json, and deterministic hashes must stay separated.",
+  "external_blind_pack": true,
+  "partial_lineage_loss": "The visible replay loses why hidden expected keys are excluded from the visible-only path.",
+  "redacted_real_trace": false,
+  "runtime_dependency": true,
+  "scenario_id": "scenario_005"
+}

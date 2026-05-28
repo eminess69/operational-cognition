@@ -1,0 +1,21 @@
+{
+  "contradiction_count": 2,
+  "contradictions": [
+    {
+      "depends_on": [],
+      "id": "C-004-A",
+      "summary": "The minimized fixture excludes the failing command, while recovery-loop reconstruction depends on it."
+    },
+    {
+      "depends_on": [
+        "C-004-A"
+      ],
+      "id": "C-004-B",
+      "summary": "The compression note says event order is irrelevant, while the replay integrity hash changes when events are reordered."
+    }
+  ],
+  "harder_chain": false,
+  "linked_chain": false,
+  "reconstruction_requirement": "Preserve contradictions as ordered pressure, not as removable inconsistency.",
+  "scenario_id": "scenario_004"
+}

@@ -1,0 +1,16 @@
+{
+  "baseline_partial": 4,
+  "baseline_reconstructed": 3,
+  "baseline_unresolved": 5,
+  "domain": "fixture minimization or compression recovery",
+  "domain_key": "fixture_minimization_compression_recovery",
+  "external_blind_pack": false,
+  "improvement_count": 9,
+  "pond_partial": 3,
+  "pond_reconstructed": 9,
+  "pond_unresolved": 0,
+  "redacted_real_trace": false,
+  "scenario_id": "scenario_004",
+  "scenario_verdict": "ENTROPY_SCENARIO_ADVANTAGE",
+  "valid_scenario": true
+}

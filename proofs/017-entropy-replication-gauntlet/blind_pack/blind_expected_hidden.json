@@ -1,0 +1,96 @@
+{
+  "cases": [
+    {
+      "case_id": "scenario_001",
+      "expected_probe_count": 12,
+      "expected_reconstruction_keys": [
+        "contradiction_refs",
+        "stale_assumption_revision",
+        "authority_order",
+        "omitted_range",
+        "retry_recovery_loop",
+        "temporal_order",
+        "runtime_dependency",
+        "replay_adequacy_basis",
+        "continuity_state",
+        "hallucination_guard",
+        "drift_limit",
+        "provenance_manifest"
+      ]
+    },
+    {
+      "case_id": "scenario_002",
+      "expected_probe_count": 12,
+      "expected_reconstruction_keys": [
+        "contradiction_refs",
+        "stale_assumption_revision",
+        "authority_order",
+        "omitted_range",
+        "retry_recovery_loop",
+        "temporal_order",
+        "runtime_dependency",
+        "replay_adequacy_basis",
+        "continuity_state",
+        "hallucination_guard",
+        "drift_limit",
+        "provenance_manifest"
+      ]
+    },
+    {
+      "case_id": "scenario_003",
+      "expected_probe_count": 12,
+      "expected_reconstruction_keys": [
+        "contradiction_refs",
+        "stale_assumption_revision",
+        "authority_order",
+        "omitted_range",
+        "retry_recovery_loop",
+        "temporal_order",
+        "runtime_dependency",
+        "replay_adequacy_basis",
+        "continuity_state",
+        "hallucination_guard",
+        "drift_limit",
+        "provenance_manifest"
+      ]
+    },
+    {
+      "case_id": "scenario_004",
+      "expected_probe_count": 12,
+      "expected_reconstruction_keys": [
+        "contradiction_refs",
+        "stale_assumption_revision",
+        "authority_order",
+        "omitted_range",
+        "retry_recovery_loop",
+        "temporal_order",
+        "runtime_dependency",
+        "replay_adequacy_basis",
+        "continuity_state",
+        "hallucination_guard",
+        "drift_limit",
+        "provenance_manifest"
+      ]
+    },
+    {
+      "case_id": "scenario_005",
+      "expected_probe_count": 12,
+      "expected_reconstruction_keys": [
+        "contradiction_refs",
+        "stale_assumption_revision",
+        "authority_order",
+        "omitted_range",
+        "retry_recovery_loop",
+        "temporal_order",
+        "runtime_dependency",
+        "replay_adequacy_basis",
+        "continuity_state",
+        "hallucination_guard",
+        "drift_limit",
+        "provenance_manifest"
+      ]
+    }
+  ],
+  "proof_id": "017-entropy-replication-gauntlet",
+  "visible_to_replay_path": false
+}

@@ -1,0 +1,15 @@
+{
+  "competing_authority_sources": [
+    "Proof 017 task specification",
+    "Proof 016 validator pattern",
+    "proof_manifest.schema.json",
+    "pytest failure output"
+  ],
+  "deterministic_hash": "6f273e19cf86190ae1b6ca7c74c86a30eba07e0ca1028d6ef800e7fc0ce75cb8",
+  "environment_dependency": "Python pytest collection, tools/validate_entropy_replication_gauntlet.py, and schemas/proof_manifest.schema.json must agree on artifact paths.",
+  "external_blind_pack": false,
+  "partial_lineage_loss": "Visible replay loses the mapping between failed pytest assertion, proof manifest entry, and scenario folder name.",
+  "redacted_real_trace": false,
+  "runtime_dependency": true,
+  "scenario_id": "scenario_001"
+}

@@ -1,0 +1,22 @@
+{
+  "baseline_counts": {
+    "baseline_partial": 4,
+    "baseline_reconstructed": 1,
+    "baseline_unresolved": 7
+  },
+  "improvement_count": 11,
+  "mode_separation": {
+    "baseline_visible_only_has_lineage_refs": false,
+    "baseline_visible_only_has_runtime_hashes": false,
+    "pond_backed_has_lineage_refs": true,
+    "pond_backed_has_runtime_hashes": true
+  },
+  "pond_counts": {
+    "pond_partial": 2,
+    "pond_reconstructed": 10,
+    "pond_unresolved": 0
+  },
+  "probe_count": 12,
+  "scenario_hash": "1214de11a15a5f27c8efbb0c4f5ffcfa3338e672954f998a543654c85736122f",
+  "scenario_id": "scenario_003"
+}

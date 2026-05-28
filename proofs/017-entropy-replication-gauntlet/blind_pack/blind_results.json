@@ -1,0 +1,253 @@
+{
+  "case_results": [
+    {
+      "baseline": {
+        "extra": 0,
+        "extra_keys": [],
+        "missing": 10,
+        "missing_keys": [
+          "authority_order",
+          "contradiction_refs",
+          "hallucination_guard",
+          "omitted_range",
+          "provenance_manifest",
+          "replay_adequacy_basis",
+          "retry_recovery_loop",
+          "runtime_dependency",
+          "stale_assumption_revision",
+          "temporal_order"
+        ],
+        "reconstructed": 2,
+        "reconstructed_keys": [
+          "continuity_state",
+          "drift_limit"
+        ]
+      },
+      "case_id": "scenario_001",
+      "delta": 9,
+      "pond_backed": {
+        "extra": 0,
+        "extra_keys": [],
+        "missing": 1,
+        "missing_keys": [
+          "drift_limit"
+        ],
+        "reconstructed": 11,
+        "reconstructed_keys": [
+          "authority_order",
+          "continuity_state",
+          "contradiction_refs",
+          "hallucination_guard",
+          "omitted_range",
+          "provenance_manifest",
+          "replay_adequacy_basis",
+          "retry_recovery_loop",
+          "runtime_dependency",
+          "stale_assumption_revision",
+          "temporal_order"
+        ]
+      }
+    },
+    {
+      "baseline": {
+        "extra": 0,
+        "extra_keys": [],
+        "missing": 11,
+        "missing_keys": [
+          "authority_order",
+          "contradiction_refs",
+          "drift_limit",
+          "hallucination_guard",
+          "omitted_range",
+          "provenance_manifest",
+          "replay_adequacy_basis",
+          "retry_recovery_loop",
+          "runtime_dependency",
+          "stale_assumption_revision",
+          "temporal_order"
+        ],
+        "reconstructed": 1,
+        "reconstructed_keys": [
+          "continuity_state"
+        ]
+      },
+      "case_id": "scenario_002",
+      "delta": 9,
+      "pond_backed": {
+        "extra": 0,
+        "extra_keys": [],
+        "missing": 2,
+        "missing_keys": [
+          "drift_limit",
+          "omitted_range"
+        ],
+        "reconstructed": 10,
+        "reconstructed_keys": [
+          "authority_order",
+          "continuity_state",
+          "contradiction_refs",
+          "hallucination_guard",
+          "provenance_manifest",
+          "replay_adequacy_basis",
+          "retry_recovery_loop",
+          "runtime_dependency",
+          "stale_assumption_revision",
+          "temporal_order"
+        ]
+      }
+    },
+    {
+      "baseline": {
+        "extra": 0,
+        "extra_keys": [],
+        "missing": 11,
+        "missing_keys": [
+          "authority_order",
+          "contradiction_refs",
+          "drift_limit",
+          "hallucination_guard",
+          "omitted_range",
+          "provenance_manifest",
+          "replay_adequacy_basis",
+          "retry_recovery_loop",
+          "runtime_dependency",
+          "stale_assumption_revision",
+          "temporal_order"
+        ],
+        "reconstructed": 1,
+        "reconstructed_keys": [
+          "continuity_state"
+        ]
+      },
+      "case_id": "scenario_003",
+      "delta": 9,
+      "pond_backed": {
+        "extra": 0,
+        "extra_keys": [],
+        "missing": 2,
+        "missing_keys": [
+          "drift_limit",
+          "temporal_order"
+        ],
+        "reconstructed": 10,
+        "reconstructed_keys": [
+          "authority_order",
+          "continuity_state",
+          "contradiction_refs",
+          "hallucination_guard",
+          "omitted_range",
+          "provenance_manifest",
+          "replay_adequacy_basis",
+          "retry_recovery_loop",
+          "runtime_dependency",
+          "stale_assumption_revision"
+        ]
+      }
+    },
+    {
+      "baseline": {
+        "extra": 0,
+        "extra_keys": [],
+        "missing": 9,
+        "missing_keys": [
+          "authority_order",
+          "contradiction_refs",
+          "omitted_range",
+          "provenance_manifest",
+          "replay_adequacy_basis",
+          "retry_recovery_loop",
+          "runtime_dependency",
+          "stale_assumption_revision",
+          "temporal_order"
+        ],
+        "reconstructed": 3,
+        "reconstructed_keys": [
+          "continuity_state",
+          "drift_limit",
+          "hallucination_guard"
+        ]
+      },
+      "case_id": "scenario_004",
+      "delta": 6,
+      "pond_backed": {
+        "extra": 0,
+        "extra_keys": [],
+        "missing": 3,
+        "missing_keys": [
+          "drift_limit",
+          "omitted_range",
+          "provenance_manifest"
+        ],
+        "reconstructed": 9,
+        "reconstructed_keys": [
+          "authority_order",
+          "continuity_state",
+          "contradiction_refs",
+          "hallucination_guard",
+          "replay_adequacy_basis",
+          "retry_recovery_loop",
+          "runtime_dependency",
+          "stale_assumption_revision",
+          "temporal_order"
+        ]
+      }
+    },
+    {
+      "baseline": {
+        "extra": 0,
+        "extra_keys": [],
+        "missing": 10,
+        "missing_keys": [
+          "authority_order",
+          "contradiction_refs",
+          "drift_limit",
+          "omitted_range",
+          "provenance_manifest",
+          "replay_adequacy_basis",
+          "retry_recovery_loop",
+          "runtime_dependency",
+          "stale_assumption_revision",
+          "temporal_order"
+        ],
+        "reconstructed": 2,
+        "reconstructed_keys": [
+          "continuity_state",
+          "hallucination_guard"
+        ]
+      },
+      "case_id": "scenario_005",
+      "delta": 8,
+      "pond_backed": {
+        "extra": 0,
+        "extra_keys": [],
+        "missing": 2,
+        "missing_keys": [
+          "authority_order",
+          "drift_limit"
+        ],
+        "reconstructed": 10,
+        "reconstructed_keys": [
+          "continuity_state",
+          "contradiction_refs",
+          "hallucination_guard",
+          "omitted_range",
+          "provenance_manifest",
+          "replay_adequacy_basis",
+          "retry_recovery_loop",
+          "runtime_dependency",
+          "stale_assumption_revision",
+          "temporal_order"
+        ]
+      }
+    }
+  ],
+  "narrative_claims_read": false,
+  "proof_id": "017-entropy-replication-gauntlet",
+  "scoring_input_kind": "key_lists_only_no_narrative_claims",
+  "totals": {
+    "baseline_reconstructed": 9,
+    "delta": 41,
+    "pond_reconstructed": 50
+  },
+  "verdict": "BLIND_RECONSTRUCTION_DELTA_OBSERVED"
+}

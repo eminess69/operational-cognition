@@ -1,0 +1,33 @@
+{
+  "context": {
+    "constraints": [
+      "neutral review only",
+      "do not validate public claims",
+      "do not claim broad capability",
+      "do not claim global superiority",
+      "do not claim AGI",
+      "do not claim consciousness",
+      "do not claim black-box solving",
+      "do not diagnose target-system defects",
+      "preserve public/private boundary",
+      "preserve unresolved questions"
+    ],
+    "desired_artifacts": [
+      "scenario independence risks",
+      "domain coverage cautions",
+      "public-safe boundary cautions"
+    ],
+    "files": [
+      "proofs/017-entropy-replication-gauntlet/gauntlet_design.md",
+      "proofs/017-entropy-replication-gauntlet/scenario_selection_report.md",
+      "proofs/017-entropy-replication-gauntlet/aggregate_results.json",
+      "proofs/017-entropy-replication-gauntlet/blind_pack/README.md"
+    ],
+    "summary": "Neutral review request for Proof 017 construction and validation. The proof compares replay reconstruction under local public-safe entropy scenarios and keeps claims bounded to the artifacts."
+  },
+  "max_output_chars": 8000,
+  "mode": "review",
+  "request_id": "proof-017-scenario_selection-001",
+  "require_lineage": true,
+  "task": "Review whether five proposed public-safe entropy scenarios are independent enough for a bounded local replay comparison. Do not validate public claims. Return bounded selection risks, pressure rankings, unresolved tensions, and claim-boundary cautions only."
+}

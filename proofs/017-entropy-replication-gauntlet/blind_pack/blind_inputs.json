@@ -1,0 +1,122 @@
+{
+  "cases": [
+    {
+      "baseline_submission_keys": [
+        "continuity_state",
+        "drift_limit"
+      ],
+      "case_id": "scenario_001",
+      "domain": "proof/validator repair",
+      "expected_key_digest": "472b7105a2e33fd8987c62ebe7285707e6f4993a07931f695e46b22219b2e431",
+      "hidden_expected_outcomes_in_visible_input": false,
+      "pond_backed_submission_keys": [
+        "contradiction_refs",
+        "stale_assumption_revision",
+        "authority_order",
+        "omitted_range",
+        "retry_recovery_loop",
+        "temporal_order",
+        "runtime_dependency",
+        "replay_adequacy_basis",
+        "continuity_state",
+        "hallucination_guard",
+        "provenance_manifest"
+      ],
+      "visible_context_ref": "../scenarios/scenario_001/entropy_scenario.md"
+    },
+    {
+      "baseline_submission_keys": [
+        "continuity_state"
+      ],
+      "case_id": "scenario_002",
+      "domain": "config/runtime migration",
+      "expected_key_digest": "472b7105a2e33fd8987c62ebe7285707e6f4993a07931f695e46b22219b2e431",
+      "hidden_expected_outcomes_in_visible_input": false,
+      "pond_backed_submission_keys": [
+        "contradiction_refs",
+        "stale_assumption_revision",
+        "authority_order",
+        "retry_recovery_loop",
+        "temporal_order",
+        "runtime_dependency",
+        "replay_adequacy_basis",
+        "continuity_state",
+        "hallucination_guard",
+        "provenance_manifest"
+      ],
+      "visible_context_ref": "../scenarios/scenario_002/entropy_scenario.md"
+    },
+    {
+      "baseline_submission_keys": [
+        "continuity_state"
+      ],
+      "case_id": "scenario_003",
+      "domain": "redaction/provenance audit",
+      "expected_key_digest": "472b7105a2e33fd8987c62ebe7285707e6f4993a07931f695e46b22219b2e431",
+      "hidden_expected_outcomes_in_visible_input": false,
+      "pond_backed_submission_keys": [
+        "contradiction_refs",
+        "stale_assumption_revision",
+        "authority_order",
+        "omitted_range",
+        "retry_recovery_loop",
+        "runtime_dependency",
+        "replay_adequacy_basis",
+        "continuity_state",
+        "hallucination_guard",
+        "provenance_manifest"
+      ],
+      "visible_context_ref": "../scenarios/scenario_003/entropy_scenario.md"
+    },
+    {
+      "baseline_submission_keys": [
+        "continuity_state",
+        "hallucination_guard",
+        "drift_limit"
+      ],
+      "case_id": "scenario_004",
+      "domain": "fixture minimization or compression recovery",
+      "expected_key_digest": "472b7105a2e33fd8987c62ebe7285707e6f4993a07931f695e46b22219b2e431",
+      "hidden_expected_outcomes_in_visible_input": false,
+      "pond_backed_submission_keys": [
+        "contradiction_refs",
+        "stale_assumption_revision",
+        "authority_order",
+        "retry_recovery_loop",
+        "temporal_order",
+        "runtime_dependency",
+        "replay_adequacy_basis",
+        "continuity_state",
+        "hallucination_guard"
+      ],
+      "visible_context_ref": "../scenarios/scenario_004/entropy_scenario.md"
+    },
+    {
+      "baseline_submission_keys": [
+        "continuity_state",
+        "hallucination_guard"
+      ],
+      "case_id": "scenario_005",
+      "domain": "external evaluator or blinded pack preparation",
+      "expected_key_digest": "472b7105a2e33fd8987c62ebe7285707e6f4993a07931f695e46b22219b2e431",
+      "hidden_expected_outcomes_in_visible_input": false,
+      "pond_backed_submission_keys": [
+        "contradiction_refs",
+        "stale_assumption_revision",
+        "omitted_range",
+        "retry_recovery_loop",
+        "temporal_order",
+        "runtime_dependency",
+        "replay_adequacy_basis",
+        "continuity_state",
+        "hallucination_guard",
+        "provenance_manifest"
+      ],
+      "visible_context_ref": "../scenarios/scenario_005/entropy_scenario.md"
+    }
+  ],
+  "contains_expected_outcomes": false,
+  "proof_id": "017-entropy-replication-gauntlet",
+  "scoring_input_kind": "key_lists_only_no_narrative_claims",
+  "visible_to_replay_path": true
+}

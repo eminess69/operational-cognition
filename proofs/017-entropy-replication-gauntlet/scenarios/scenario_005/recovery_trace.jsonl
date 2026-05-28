@@ -1,0 +1,4 @@
+{"action": "detect_conflict", "pond_backed_state": "contradiction refs and pressure rankings identify conflict scope", "scenario_id": "scenario_005", "step": 1, "visible_only_state": "summary-level inconsistency retained"}
+{"action": "retry_with_authority_order", "pond_backed_state": "authority refs recover precedence and stale assumption boundary", "scenario_id": "scenario_005", "step": 2, "visible_only_state": "authority order partly inferred"}
+{"action": "recover_omitted_range", "pond_backed_state": "omitted-range refs and recovery lineage restore missing operational step", "scenario_id": "scenario_005", "step": 3, "visible_only_state": "omitted range remains under-specified"}
+{"action": "verify_continuity", "pond_backed_state": "runtime hashes and provenance manifest close the replay loop", "scenario_id": "scenario_005", "step": 4, "visible_only_state": "replay adequacy remains partial or unresolved"}

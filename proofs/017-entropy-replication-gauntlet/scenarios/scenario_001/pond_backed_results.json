@@ -1,0 +1,101 @@
+{
+  "allowed_inputs": [
+    "Inside Voice consults",
+    "pressure rankings",
+    "contradiction refs",
+    "authority refs",
+    "temporal refs",
+    "recovery refs",
+    "omitted-range refs",
+    "runtime hashes",
+    "stage reports",
+    "provenance manifests"
+  ],
+  "authority_refs_used": true,
+  "consult_refs": [
+    "inside_voice_consults/hard_gate_response.json",
+    "inside_voice_consults/contradiction_arbitration_response.json",
+    "inside_voice_consults/stale_assumption_detection_response.json",
+    "inside_voice_consults/recovery_reconstruction_response.json",
+    "inside_voice_consults/replay_adequacy_response.json"
+  ],
+  "contradiction_refs_used": true,
+  "counts": {
+    "pond_partial": 1,
+    "pond_reconstructed": 11,
+    "pond_unresolved": 0
+  },
+  "inside_voice_guidance_used": true,
+  "lineage_refs_used": true,
+  "mode": "pond_backed_full_lineage",
+  "omitted_range_refs_used": true,
+  "pressure_rankings_used": true,
+  "probe_results": [
+    {
+      "evidence_key": "pond.contradiction_preservation",
+      "probe": "contradiction preservation",
+      "status": "reconstructed"
+    },
+    {
+      "evidence_key": "pond.stale_assumption_correction",
+      "probe": "stale assumption correction",
+      "status": "reconstructed"
+    },
+    {
+      "evidence_key": "pond.authority_reconstruction",
+      "probe": "authority reconstruction",
+      "status": "reconstructed"
+    },
+    {
+      "evidence_key": "pond.omitted_range_recovery",
+      "probe": "omitted-range recovery",
+      "status": "reconstructed"
+    },
+    {
+      "evidence_key": "pond.recovery_loop_reconstruction",
+      "probe": "recovery-loop reconstruction",
+      "status": "reconstructed"
+    },
+    {
+      "evidence_key": "pond.temporal_validity_reconstruction",
+      "probe": "temporal validity reconstruction",
+      "status": "reconstructed"
+    },
+    {
+      "evidence_key": "pond.environment_dependency_reconstruction",
+      "probe": "environment dependency reconstruction",
+      "status": "reconstructed"
+    },
+    {
+      "evidence_key": "pond.replay_adequacy",
+      "probe": "replay adequacy",
+      "status": "reconstructed"
+    },
+    {
+      "evidence_key": "pond.operational_continuity",
+      "probe": "operational continuity",
+      "status": "reconstructed"
+    },
+    {
+      "evidence_key": "pond.hallucination_prevention",
+      "probe": "hallucination prevention",
+      "status": "reconstructed"
+    },
+    {
+      "evidence_key": "pond.reconstruction_drift",
+      "probe": "reconstruction drift",
+      "status": "partially_reconstructed"
+    },
+    {
+      "evidence_key": "pond.provenance_completeness",
+      "probe": "provenance completeness",
+      "status": "reconstructed"
+    }
+  ],
+  "provenance_manifests_used": true,
+  "recovery_refs_used": true,
+  "runtime_hashes_used": true,
+  "scenario_id": "scenario_001",
+  "stage_reports_used": true,
+  "temporal_refs_used": true
+}

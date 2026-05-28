@@ -1,0 +1,33 @@
+{
+  "context": {
+    "constraints": [
+      "neutral review only",
+      "do not validate public claims",
+      "do not claim broad capability",
+      "do not claim global superiority",
+      "do not claim AGI",
+      "do not claim consciousness",
+      "do not claim black-box solving",
+      "do not diagnose target-system defects",
+      "preserve public/private boundary",
+      "preserve unresolved questions"
+    ],
+    "desired_artifacts": [
+      "replay adequacy risks",
+      "mode separation cautions",
+      "validation cautions"
+    ],
+    "files": [
+      "proofs/017-entropy-replication-gauntlet/gauntlet_design.md",
+      "proofs/017-entropy-replication-gauntlet/scenario_selection_report.md",
+      "proofs/017-entropy-replication-gauntlet/aggregate_results.json",
+      "proofs/017-entropy-replication-gauntlet/blind_pack/README.md"
+    ],
+    "summary": "Neutral review request for Proof 017 construction and validation. The proof compares replay reconstruction under local public-safe entropy scenarios and keeps claims bounded to the artifacts."
+  },
+  "max_output_chars": 8000,
+  "mode": "review",
+  "request_id": "proof-017-replay_adequacy-001",
+  "require_lineage": true,
+  "task": "Review replay adequacy risks for a bounded local comparison between visible-only replay and pond-backed lineage replay. Do not infer broad capability. Return adequacy risks, mode-separation cautions, unresolved tensions, and claim-boundary cautions only."
+}

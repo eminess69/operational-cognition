@@ -1,0 +1,16 @@
+{
+  "baseline_partial": 4,
+  "baseline_reconstructed": 1,
+  "baseline_unresolved": 7,
+  "domain": "redaction/provenance audit",
+  "domain_key": "redaction_provenance_audit",
+  "external_blind_pack": false,
+  "improvement_count": 11,
+  "pond_partial": 2,
+  "pond_reconstructed": 10,
+  "pond_unresolved": 0,
+  "redacted_real_trace": true,
+  "scenario_id": "scenario_003",
+  "scenario_verdict": "ENTROPY_SCENARIO_ADVANTAGE",
+  "valid_scenario": true
+}

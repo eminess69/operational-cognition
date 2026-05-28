@@ -1,0 +1,38 @@
+{
+  "request_id": "proof-017-hard-gate-001",
+  "task": "Review risks and safeguards for a bounded local replay gauntlet comparing visible-only replay and pond-backed lineage replay across five public-safe entropy scenarios. Do not validate public claims. Do not infer broad capability. Return bounded pressure, replay-separation cautions, claim-boundary cautions, and required evidence checks only.",
+  "context": {
+    "summary": "Hard gate for Proof 017 artifact construction. The exercise will use deterministic public-safe fixtures and compare two replay modes under degradation. This request asks only for neutral risk review, evidence requirements, and claim-boundary constraints before construction.",
+    "files": [
+      "proofs/014-independent-real-trace-replication/README.md",
+      "proofs/015-novel-learning-replay-test/README.md",
+      "proofs/016-operational-entropy-gauntlet/README.md",
+      "proofs/016-operational-entropy-gauntlet/final_verdict.json"
+    ],
+    "constraints": [
+      "risk review only",
+      "do not validate public claims",
+      "do not claim broad capability",
+      "do not claim global superiority",
+      "do not claim AGI",
+      "do not claim consciousness",
+      "do not claim black-box solving",
+      "do not diagnose target-system defects",
+      "compare visible-only replay and pond-backed lineage replay only within bounded local scenarios",
+      "preserve replay separation",
+      "preserve public/private boundary",
+      "record unresolved questions"
+    ],
+    "desired_artifacts": [
+      "gate status",
+      "risk pressure list",
+      "claim-boundary audit",
+      "replay-separation checks",
+      "evidence completeness checks",
+      "public replication cautions"
+    ]
+  },
+  "mode": "review",
+  "max_output_chars": 8000,
+  "require_lineage": true
+}

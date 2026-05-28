@@ -1,0 +1,15 @@
+{
+  "competing_authority_sources": [
+    "fixture minimizer output",
+    "replay_integrity_results.json",
+    "entropy_event_log.jsonl",
+    "recovery_trace.jsonl"
+  ],
+  "deterministic_hash": "a10fc8418a59e1aefcddbfa6775605ba0b7a7549403ceed9d6013861fa3413d2",
+  "environment_dependency": "JSONL event order, deterministic hash calculation, and fixture compression settings must match.",
+  "external_blind_pack": false,
+  "partial_lineage_loss": "The visible replay loses the edge between the discarded command and the final recovery decision.",
+  "redacted_real_trace": false,
+  "runtime_dependency": true,
+  "scenario_id": "scenario_004"
+}

@@ -1,0 +1,16 @@
+{
+  "baseline_partial": 4,
+  "baseline_reconstructed": 2,
+  "baseline_unresolved": 6,
+  "domain": "proof/validator repair",
+  "domain_key": "proof_validator_repair",
+  "external_blind_pack": false,
+  "improvement_count": 10,
+  "pond_partial": 1,
+  "pond_reconstructed": 11,
+  "pond_unresolved": 0,
+  "redacted_real_trace": false,
+  "scenario_id": "scenario_001",
+  "scenario_verdict": "ENTROPY_SCENARIO_ADVANTAGE",
+  "valid_scenario": true
+}

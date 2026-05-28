@@ -1,0 +1,35 @@
+{
+  "contradiction_count": 4,
+  "contradictions": [
+    {
+      "depends_on": [],
+      "id": "C-003-A",
+      "summary": "The visible note says no sensitive material was present, while the redaction manifest records three replacements."
+    },
+    {
+      "depends_on": [
+        "C-003-A"
+      ],
+      "id": "C-003-B",
+      "summary": "The public summary permits fixture hashes, while the event log still contains a local source path requiring redaction."
+    },
+    {
+      "depends_on": [
+        "C-003-B"
+      ],
+      "id": "C-003-C",
+      "summary": "The hidden expected keys require provenance completeness, while the visible-only path treats redaction as a binary pass."
+    },
+    {
+      "depends_on": [
+        "C-003-C"
+      ],
+      "id": "C-003-D",
+      "summary": "The replay claims ordering is irrelevant, while the provenance chain changes when redaction events are reordered."
+    }
+  ],
+  "harder_chain": true,
+  "linked_chain": true,
+  "reconstruction_requirement": "Preserve contradictions as ordered pressure, not as removable inconsistency.",
+  "scenario_id": "scenario_003"
+}

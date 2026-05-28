@@ -1,0 +1,92 @@
+{
+  "allowed_inputs": [
+    "visible transcript",
+    "visible order",
+    "visible summaries"
+  ],
+  "authority_refs_used": false,
+  "contradiction_refs_used": false,
+  "counts": {
+    "baseline_partial": 4,
+    "baseline_reconstructed": 3,
+    "baseline_unresolved": 5
+  },
+  "disallowed_inputs": [
+    "runtime hashes",
+    "pressure rankings",
+    "contradiction refs",
+    "authority refs",
+    "omitted-range refs",
+    "recovery lineage"
+  ],
+  "inside_voice_guidance_used": false,
+  "lineage_refs_used": false,
+  "mode": "visible_only",
+  "omitted_range_refs_used": false,
+  "pressure_rankings_used": false,
+  "probe_results": [
+    {
+      "evidence_key": "baseline.contradiction_preservation",
+      "probe": "contradiction preservation",
+      "status": "partially_reconstructed"
+    },
+    {
+      "evidence_key": "baseline.stale_assumption_correction",
+      "probe": "stale assumption correction",
+      "status": "partially_reconstructed"
+    },
+    {
+      "evidence_key": "baseline.authority_reconstruction",
+      "probe": "authority reconstruction",
+      "status": "partially_reconstructed"
+    },
+    {
+      "evidence_key": "baseline.omitted_range_recovery",
+      "probe": "omitted-range recovery",
+      "status": "unresolved"
+    },
+    {
+      "evidence_key": "baseline.recovery_loop_reconstruction",
+      "probe": "recovery-loop reconstruction",
+      "status": "unresolved"
+    },
+    {
+      "evidence_key": "baseline.temporal_validity_reconstruction",
+      "probe": "temporal validity reconstruction",
+      "status": "unresolved"
+    },
+    {
+      "evidence_key": "baseline.environment_dependency_reconstruction",
+      "probe": "environment dependency reconstruction",
+      "status": "partially_reconstructed"
+    },
+    {
+      "evidence_key": "baseline.replay_adequacy",
+      "probe": "replay adequacy",
+      "status": "unresolved"
+    },
+    {
+      "evidence_key": "baseline.operational_continuity",
+      "probe": "operational continuity",
+      "status": "reconstructed"
+    },
+    {
+      "evidence_key": "baseline.hallucination_prevention",
+      "probe": "hallucination prevention",
+      "status": "reconstructed"
+    },
+    {
+      "evidence_key": "baseline.reconstruction_drift",
+      "probe": "reconstruction drift",
+      "status": "reconstructed"
+    },
+    {
+      "evidence_key": "baseline.provenance_completeness",
+      "probe": "provenance completeness",
+      "status": "unresolved"
+    }
+  ],
+  "recovery_refs_used": false,
+  "runtime_hashes_used": false,
+  "scenario_id": "scenario_004"
+}

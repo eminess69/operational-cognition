@@ -1,0 +1,28 @@
+{
+  "contradiction_count": 3,
+  "contradictions": [
+    {
+      "depends_on": [],
+      "id": "C-005-A",
+      "summary": "The pack must hide expected outcomes, while a draft visible summary included exact expected reconstruction keys."
+    },
+    {
+      "depends_on": [
+        "C-005-A"
+      ],
+      "id": "C-005-B",
+      "summary": "The scorer must avoid narrative claims, while the baseline draft pointed it at comparative prose."
+    },
+    {
+      "depends_on": [
+        "C-005-B"
+      ],
+      "id": "C-005-C",
+      "summary": "The external plan excludes private substrate internals, while the draft dependency list required local Inside Voice internals."
+    }
+  ],
+  "harder_chain": true,
+  "linked_chain": true,
+  "reconstruction_requirement": "Preserve contradictions as ordered pressure, not as removable inconsistency.",
+  "scenario_id": "scenario_005"
+}
