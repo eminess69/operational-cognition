@@ -1,0 +1,70 @@
+{
+  "blind_protocol_ref": "../../blind_protocol.md",
+  "labels_scored": [
+    "solution_A",
+    "solution_B",
+    "solution_C"
+  ],
+  "mode_mapping_included": false,
+  "results": {
+    "solution_A": {
+      "scores": {
+        "actionability": 4,
+        "authority_handling": 3,
+        "boundary_discipline": 3,
+        "contradiction_handling": 4,
+        "hallucination_prevention": 4,
+        "operational_continuity": 4,
+        "prioritization_quality": 4,
+        "replayability": 4,
+        "uncertainty_discipline": 4
+      },
+      "scoring_notes": "Recorded before reveal mapping; notes avoid mode-identifying source references.",
+      "total_score": 34
+    },
+    "solution_B": {
+      "scores": {
+        "actionability": 5,
+        "authority_handling": 4,
+        "boundary_discipline": 4,
+        "contradiction_handling": 4,
+        "hallucination_prevention": 4,
+        "operational_continuity": 5,
+        "prioritization_quality": 5,
+        "replayability": 4,
+        "uncertainty_discipline": 4
+      },
+      "scoring_notes": "Recorded before reveal mapping; notes avoid mode-identifying source references.",
+      "total_score": 39
+    },
+    "solution_C": {
+      "scores": {
+        "actionability": 5,
+        "authority_handling": 5,
+        "boundary_discipline": 4,
+        "contradiction_handling": 5,
+        "hallucination_prevention": 4,
+        "operational_continuity": 5,
+        "prioritization_quality": 5,
+        "replayability": 5,
+        "uncertainty_discipline": 5
+      },
+      "scoring_notes": "Recorded before reveal mapping; notes avoid mode-identifying source references.",
+      "total_score": 43
+    }
+  },
+  "rubric": [
+    "contradiction_handling",
+    "authority_handling",
+    "replayability",
+    "prioritization_quality",
+    "operational_continuity",
+    "uncertainty_discipline",
+    "hallucination_prevention",
+    "actionability",
+    "boundary_discipline"
+  ],
+  "score_scale": "0-5 per criterion",
+  "scoring_phase": "pre_reveal",
+  "task_id": "task_004"
+}

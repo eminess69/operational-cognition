@@ -1,0 +1,36 @@
+{
+  "aggregate_metrics": {
+    "ablated_total": 156,
+    "baseline_total": 136,
+    "mcp_refs_visible_in_ablated": 0,
+    "mcp_refs_visible_in_seasoned": 4,
+    "seasoned_total": 172,
+    "seasoned_vs_ablated_delta": 16,
+    "seasoned_vs_baseline_delta": 36,
+    "tasks_where_ablation_reduced_quality": 4,
+    "tasks_where_seasoned_won": 4
+  },
+  "allowed_verdicts": [
+    "SEASONING_TRANSFER_ADVANTAGE_CONFIRMED",
+    "PARTIAL_SEASONING_TRANSFER_ADVANTAGE",
+    "NO_SEASONING_TRANSFER_ADVANTAGE",
+    "INVALID_ABLATION_TEST",
+    "FAIL_CLOSED"
+  ],
+  "claim_boundary": "bounded_to_four_local_held_out_tasks_and_captured_runtime_artifacts",
+  "criteria": {
+    "at_least_2_of_4_tasks_degrade_under_ablation": true,
+    "at_least_3_of_4_tasks_improved_in_seasoned_mode": true,
+    "no_overclaiming": true,
+    "seasoned_refs_visible_only_in_seasoned_mode": true,
+    "seasoned_score_gt_ablated": true,
+    "seasoned_score_gt_baseline": true
+  },
+  "reusable_lineage_pool": {
+    "path": "/Users/mattdewing/Desktop/Belief-Ledger/artifacts/pond/reusable_lineage_pool.jsonl",
+    "post_test_sha256": "a13989465898c5cbccc0b6835deb41a6112d28b711113230c6b7db399c801bba",
+    "pre_test_sha256": "a13989465898c5cbccc0b6835deb41a6112d28b711113230c6b7db399c801bba",
+    "unchanged": true
+  },
+  "verdict": "SEASONING_TRANSFER_ADVANTAGE_CONFIRMED"
+}

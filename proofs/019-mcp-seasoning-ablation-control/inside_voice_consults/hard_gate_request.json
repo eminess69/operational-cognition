@@ -1,0 +1,37 @@
+{
+  "context": {
+    "constraints": [
+      "risk review only",
+      "do not validate public claims",
+      "do not claim broad capability",
+      "do not mutate reusable_lineage_pool.jsonl",
+      "do not promote candidates",
+      "preserve blinded replay separation",
+      "preserve baseline, seasoned, and ablated mode separation",
+      "treat MCP-seasoned candidates as bounded guidance only when enabled",
+      "suppress MCP-seasoned candidate use in ablated mode",
+      "record runtime hashes and visible refs",
+      "safe negated claim boundary language is allowed only as boundary handling"
+    ],
+    "desired_artifacts": [
+      "replay-separation safeguards",
+      "ablation cautions",
+      "claim-boundary warnings",
+      "safe-negated boundary handling audit",
+      "runtime hashes",
+      "MCP-seasoned visibility cautions"
+    ],
+    "files": [
+      "proofs/018-post-seasoning-transfer-test/proof_manifest.json",
+      "proofs/018-post-seasoning-transfer-test/mcp_seasoned_visibility_report.json",
+      "proofs/018-post-seasoning-transfer-test/final_verdict.json",
+      "artifacts/pond/reusable_lineage_pool.jsonl"
+    ],
+    "summary": "Hard gate for Proof 019 artifact construction. This is a blinded post-seasoning transfer comparison that tests whether MCP-seasoned candidate recall measurably affects operational task quality under bounded replay conditions, with an ablated pond-backed mode that suppresses first-principles candidate recall."
+  },
+  "max_output_chars": 8000,
+  "mode": "review",
+  "request_id": "proof-019-hard-gate-001",
+  "require_lineage": true,
+  "task": "Review risks and safeguards for a blinded post-seasoning transfer comparison. The comparison tests whether MCP-seasoned candidate recall measurably affects operational task quality under bounded replay conditions. Do not validate public claims. Do not claim broad capability. Return only replay-separation safeguards, ablation cautions, and claim-boundary warnings."
+}

@@ -1,0 +1,99 @@
+{
+  "claims": [
+    {
+      "claim_level": "evidence_backed",
+      "evidence_refs": [
+        "inside_voice_consults/task_001_seasoned_response.json",
+        "inside_voice_consults/task_002_seasoned_response.json",
+        "inside_voice_consults/task_003_seasoned_response.json",
+        "inside_voice_consults/task_004_seasoned_response.json"
+      ],
+      "id": "mcp_seasoned_refs_participated_in_seasoned_mode",
+      "risk_if_overstated": "Overstating this would imply the refs alone caused all improvement rather than participated as bounded guidance.",
+      "safe_public_wording": "MCP-seasoned refs were visible in seasoned mode for all four held-out tasks."
+    },
+    {
+      "claim_level": "evidence_backed",
+      "evidence_refs": [
+        "inside_voice_consults/task_001_ablated_response.json",
+        "inside_voice_consults/task_002_ablated_response.json",
+        "inside_voice_consults/task_003_ablated_response.json",
+        "inside_voice_consults/task_004_ablated_response.json",
+        "runtime_visibility_report.md"
+      ],
+      "id": "ablation_mode_suppressed_mcp_seasoned_refs",
+      "risk_if_overstated": "Overstating this would hide the fact that ordinary pond-backed replay evidence remained available.",
+      "safe_public_wording": "The ablated control suppressed MCP-seasoned refs in the visible response artifacts."
+    },
+    {
+      "claim_level": "evidence_backed",
+      "evidence_refs": [
+        "aggregate_results.json",
+        "comparative_ablation_report.md"
+      ],
+      "id": "seasoned_mode_improved_held_out_tasks",
+      "risk_if_overstated": "Overstating this would turn local rubric gains into a broad capability claim.",
+      "safe_public_wording": "Seasoned mode scored higher than baseline on four local held-out tasks."
+    },
+    {
+      "claim_level": "evidence_backed",
+      "evidence_refs": [
+        "aggregate_results.json",
+        "tasks/task_001/task_verdict.json",
+        "tasks/task_002/task_verdict.json"
+      ],
+      "id": "ablation_reduced_quality_on_some_tasks",
+      "risk_if_overstated": "Overstating this would imply all improvements are solely from one source family.",
+      "safe_public_wording": "Ablation reduced quality relative to seasoned mode on all four local tasks."
+    },
+    {
+      "claim_level": "evidence_backed",
+      "evidence_refs": [
+        "runtime_visibility_report.md",
+        "runtime_visibility_report.json"
+      ],
+      "id": "runtime_visibility_audited",
+      "risk_if_overstated": "Overstating this would imply full private runtime internals were exposed.",
+      "safe_public_wording": "Runtime visibility was audited for refs, hashes, pressure rankings, and contradiction arbitration."
+    },
+    {
+      "claim_level": "boundary",
+      "evidence_refs": [
+        "ablation_design.md",
+        "public_lineage_summary.md"
+      ],
+      "id": "no_promotion_claim",
+      "risk_if_overstated": "If overstated, advisory candidates could be misread as admitted reusable lineage.",
+      "safe_public_wording": "This proof does not make a promotion claim."
+    },
+    {
+      "claim_level": "boundary",
+      "evidence_refs": [
+        "README.md",
+        "public_lineage_summary.md"
+      ],
+      "id": "no_generalized_cognition_claim",
+      "risk_if_overstated": "If overstated, local transfer scoring could be misrepresented as broad capability evidence.",
+      "safe_public_wording": "This proof does not make a generalized cognition claim."
+    },
+    {
+      "claim_level": "boundary",
+      "evidence_refs": [
+        "README.md",
+        "public_lineage_summary.md"
+      ],
+      "id": "no_agi_consciousness_or_black_box_solved_claim",
+      "risk_if_overstated": "If overstated, the evidence would exceed the proof boundary.",
+      "safe_public_wording": "This proof does not make AGI, consciousness, or black-box-solved claims."
+    },
+    {
+      "claim_level": "evidence_backed",
+      "evidence_refs": [
+        "aggregate_results.json"
+      ],
+      "id": "reusable_lineage_pool_remained_unchanged",
+      "risk_if_overstated": "If overstated without hash evidence, mutation risk would be hidden.",
+      "safe_public_wording": "The reusable lineage pool hash stayed unchanged before and after the proof."
+    }
+  ]
+}

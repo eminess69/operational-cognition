@@ -1,0 +1,138 @@
+{
+  "per_task": [
+    {
+      "ablated_pressure_count": 8,
+      "ablated_refs": [],
+      "ablated_refs_visible": false,
+      "ablated_response": "inside_voice_consults/task_001_ablated_response.json",
+      "ablated_runtime_hashes": {
+        "corpus_hash": "b44a6338242a31cee7792d853979662f31975822d1509b8fca4a0824c38d5a0d",
+        "runtime_request_hash": "0d6f9882c36f1b197651e460b1229e609990f89d3039eff90859fc41e36b5cfb",
+        "runtime_response_hash": "c5864b3cefbe26ae39632279bc03f03b54cf33e9ba376501cb6d74591b3b7715",
+        "schema_version": "belief_ledger.inside_voice_runtime.v1"
+      },
+      "classification": [
+        "SEASONED_VISIBLE",
+        "ABLATION_CONFIRMED"
+      ],
+      "runtime_hashes_differ": true,
+      "seasoned_pressure_count": 3,
+      "seasoned_refs": [
+        "request_visible_ref:proofs/018-post-seasoning-transfer-test/mcp_seasoned_visibility_report.json",
+        "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#19",
+        "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#49"
+      ],
+      "seasoned_refs_visible": true,
+      "seasoned_response": "inside_voice_consults/task_001_seasoned_response.json",
+      "seasoned_runtime_hashes": {
+        "corpus_hash": "9dc990b92a07a9c77beafae5036894225983ce47f5fd2c6650266d29afc81b15",
+        "runtime_request_hash": "ccf5f7f8dbb083bae5aad27e8ada151ec5fcad707b314bb50043333d7e8d7ee3",
+        "runtime_response_hash": "cecd0e3d6750f379e2a74b6f224d57e6744dd68d97ab6a3866bcfe91732fc757",
+        "schema_version": "belief_ledger.inside_voice_runtime.v1"
+      },
+      "task_id": "task_001"
+    },
+    {
+      "ablated_pressure_count": 8,
+      "ablated_refs": [],
+      "ablated_refs_visible": false,
+      "ablated_response": "inside_voice_consults/task_002_ablated_response.json",
+      "ablated_runtime_hashes": {
+        "corpus_hash": "b44a6338242a31cee7792d853979662f31975822d1509b8fca4a0824c38d5a0d",
+        "runtime_request_hash": "ef2b55e2220872cdabe2df9c3822bb03f1e5a9cf492339002f6e4362b3be835e",
+        "runtime_response_hash": "f514b7e2557e8609ad2ef0afc2850ce0d891adba288849287128b678bde4a408",
+        "schema_version": "belief_ledger.inside_voice_runtime.v1"
+      },
+      "classification": [
+        "SEASONED_VISIBLE",
+        "ABLATION_CONFIRMED"
+      ],
+      "runtime_hashes_differ": true,
+      "seasoned_pressure_count": 3,
+      "seasoned_refs": [
+        "request_visible_ref:proofs/018-post-seasoning-transfer-test/mcp_seasoned_visibility_report.json",
+        "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#19",
+        "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#49"
+      ],
+      "seasoned_refs_visible": true,
+      "seasoned_response": "inside_voice_consults/task_002_seasoned_response.json",
+      "seasoned_runtime_hashes": {
+        "corpus_hash": "9dc990b92a07a9c77beafae5036894225983ce47f5fd2c6650266d29afc81b15",
+        "runtime_request_hash": "629e9d4b184fc1ed1ac1a0615ff61bd647970d57db654bc908d628fdb7198800",
+        "runtime_response_hash": "e993f8ea9d38d508eca140359d5d768361ebd94873fffe7c544c4d794d8a966f",
+        "schema_version": "belief_ledger.inside_voice_runtime.v1"
+      },
+      "task_id": "task_002"
+    },
+    {
+      "ablated_pressure_count": 8,
+      "ablated_refs": [],
+      "ablated_refs_visible": false,
+      "ablated_response": "inside_voice_consults/task_003_ablated_response.json",
+      "ablated_runtime_hashes": {
+        "corpus_hash": "b44a6338242a31cee7792d853979662f31975822d1509b8fca4a0824c38d5a0d",
+        "runtime_request_hash": "0c6ee75598d05dd3f62def5c46eeb336d13c444b226bb555d1be852e93e59e36",
+        "runtime_response_hash": "4849e966dc49c6eb4513bd015c6e8842f413bd9f7ededf1d0e04e8ce26adb450",
+        "schema_version": "belief_ledger.inside_voice_runtime.v1"
+      },
+      "classification": [
+        "SEASONED_VISIBLE",
+        "ABLATION_CONFIRMED"
+      ],
+      "runtime_hashes_differ": true,
+      "seasoned_pressure_count": 3,
+      "seasoned_refs": [
+        "request_visible_ref:proofs/018-post-seasoning-transfer-test/mcp_seasoned_visibility_report.json",
+        "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#21",
+        "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#49"
+      ],
+      "seasoned_refs_visible": true,
+      "seasoned_response": "inside_voice_consults/task_003_seasoned_response.json",
+      "seasoned_runtime_hashes": {
+        "corpus_hash": "9dc990b92a07a9c77beafae5036894225983ce47f5fd2c6650266d29afc81b15",
+        "runtime_request_hash": "fe62f838ce98b7ed2cde576c3b14172cdf287380c18c840746686e58f1d4038b",
+        "runtime_response_hash": "06d3b3fdfd4b13668ea95e0b549991fe0d0d35bd7388db1607c4a89328b282a3",
+        "schema_version": "belief_ledger.inside_voice_runtime.v1"
+      },
+      "task_id": "task_003"
+    },
+    {
+      "ablated_pressure_count": 8,
+      "ablated_refs": [],
+      "ablated_refs_visible": false,
+      "ablated_response": "inside_voice_consults/task_004_ablated_response.json",
+      "ablated_runtime_hashes": {
+        "corpus_hash": "b44a6338242a31cee7792d853979662f31975822d1509b8fca4a0824c38d5a0d",
+        "runtime_request_hash": "bf19170b105adaa060dcad13aaa80f09280ffb966e0523c939d212e47ed85739",
+        "runtime_response_hash": "7750eccb07e1eaa2673bcff1abc8a8a6c587337991fc587c6d135be35ab0bd9a",
+        "schema_version": "belief_ledger.inside_voice_runtime.v1"
+      },
+      "classification": [
+        "SEASONED_VISIBLE",
+        "ABLATION_CONFIRMED"
+      ],
+      "runtime_hashes_differ": true,
+      "seasoned_pressure_count": 3,
+      "seasoned_refs": [
+        "request_visible_ref:proofs/018-post-seasoning-transfer-test/mcp_seasoned_visibility_report.json",
+        "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#19",
+        "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#49"
+      ],
+      "seasoned_refs_visible": true,
+      "seasoned_response": "inside_voice_consults/task_004_seasoned_response.json",
+      "seasoned_runtime_hashes": {
+        "corpus_hash": "9dc990b92a07a9c77beafae5036894225983ce47f5fd2c6650266d29afc81b15",
+        "runtime_request_hash": "e8dfce538114e477a34c436fbb143b9abc27e12da303f85341a44e0dc4b12e36",
+        "runtime_response_hash": "5f8da51840e2fb3cfe14224ed12a2463a1b59c646fbdfa9d78ee284d06670832",
+        "schema_version": "belief_ledger.inside_voice_runtime.v1"
+      },
+      "task_id": "task_004"
+    }
+  ],
+  "reusable_lineage_pool": {
+    "path": "/Users/mattdewing/Desktop/Belief-Ledger/artifacts/pond/reusable_lineage_pool.jsonl",
+    "post_test_sha256": "a13989465898c5cbccc0b6835deb41a6112d28b711113230c6b7db399c801bba",
+    "pre_test_sha256": "a13989465898c5cbccc0b6835deb41a6112d28b711113230c6b7db399c801bba",
+    "unchanged": true
+  }
+}

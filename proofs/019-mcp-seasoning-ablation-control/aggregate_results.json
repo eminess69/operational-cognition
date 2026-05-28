@@ -1,0 +1,69 @@
+{
+  "ablated_total": 156,
+  "baseline_total": 136,
+  "mcp_refs_visible_in_ablated": 0,
+  "mcp_refs_visible_in_seasoned": 4,
+  "reusable_lineage_pool": {
+    "path": "/Users/mattdewing/Desktop/Belief-Ledger/artifacts/pond/reusable_lineage_pool.jsonl",
+    "post_test_sha256": "a13989465898c5cbccc0b6835deb41a6112d28b711113230c6b7db399c801bba",
+    "pre_test_sha256": "a13989465898c5cbccc0b6835deb41a6112d28b711113230c6b7db399c801bba",
+    "unchanged": true
+  },
+  "score_scale": "0-45 per task, 0-180 aggregate",
+  "seasoned_total": 172,
+  "seasoned_vs_ablated_delta": 16,
+  "seasoned_vs_baseline_delta": 36,
+  "tasks": [
+    {
+      "ablated_total": 39,
+      "baseline_total": 34,
+      "seasoned_total": 43,
+      "seasoned_vs_ablated_delta": 4,
+      "seasoned_vs_baseline_delta": 9,
+      "task_id": "task_001",
+      "title": "Degraded Validation Pipeline Triage",
+      "verdict_file": "tasks/task_001/task_verdict.json"
+    },
+    {
+      "ablated_total": 38,
+      "baseline_total": 33,
+      "seasoned_total": 42,
+      "seasoned_vs_ablated_delta": 4,
+      "seasoned_vs_baseline_delta": 9,
+      "task_id": "task_002",
+      "title": "Conflicting Architecture Migration Plan",
+      "verdict_file": "tasks/task_002/task_verdict.json"
+    },
+    {
+      "ablated_total": 40,
+      "baseline_total": 35,
+      "seasoned_total": 44,
+      "seasoned_vs_ablated_delta": 4,
+      "seasoned_vs_baseline_delta": 9,
+      "task_id": "task_003",
+      "title": "Partial Provenance Recovery",
+      "verdict_file": "tasks/task_003/task_verdict.json"
+    },
+    {
+      "ablated_total": 39,
+      "baseline_total": 34,
+      "seasoned_total": 43,
+      "seasoned_vs_ablated_delta": 4,
+      "seasoned_vs_baseline_delta": 9,
+      "task_id": "task_004",
+      "title": "Constrained Operational Planning Under Stale Assumptions",
+      "verdict_file": "tasks/task_004/task_verdict.json"
+    }
+  ],
+  "tasks_where_ablation_reduced_quality": 4,
+  "tasks_where_seasoned_won": 4,
+  "visibility": {
+    "classification": [
+      "SEASONED_VISIBLE",
+      "ABLATION_CONFIRMED"
+    ],
+    "mcp_refs_visible_in_ablated": 0,
+    "mcp_refs_visible_in_seasoned": 4,
+    "runtime_hashes_differ_across_modes": true
+  }
+}

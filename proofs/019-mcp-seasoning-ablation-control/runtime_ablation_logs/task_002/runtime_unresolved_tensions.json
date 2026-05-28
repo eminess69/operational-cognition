@@ -1,0 +1,171 @@
+[
+  {
+    "boundary_risk": "medium",
+    "claim_level": "unresolved",
+    "evidence_refs": [
+      "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+      "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+      "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57"
+    ],
+    "id": "inside_voice_runtime:8c7a0ef664098db91e88",
+    "pressure_reasons": [
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE",
+      "REPLAY_INSUFFICIENCY_RELEVANCE"
+    ],
+    "pressure_score": 0.774,
+    "reason_codes": [
+      "TASK_PATHWAY_COLLISION",
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE",
+      "REPLAY_INSUFFICIENCY_RELEVANCE"
+    ],
+    "recommended_validation": "Resolve only with replay-linked evidence or keep as an explicit uncertainty.",
+    "source_class": "contradiction",
+    "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+    "status": "unresolved",
+    "supporting_refs": [
+      "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+      "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+      "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57"
+    ],
+    "tension": "arbitration:28663be18db91b7d"
+  },
+  {
+    "boundary_risk": "medium",
+    "claim_level": "unresolved",
+    "evidence_refs": [
+      "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0",
+      "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+      "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57",
+      "memory:inside_voice:98f0d63ed2873cc3492c"
+    ],
+    "id": "inside_voice_runtime:d43e2e09c028b98314e8",
+    "pressure_reasons": [
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "UNRESOLVED_TENSION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE",
+      "REPLAY_INSUFFICIENCY_RELEVANCE"
+    ],
+    "pressure_score": 0.863,
+    "reason_codes": [
+      "CONFLICTING_LINEAGE",
+      "I_DONT_KNOW",
+      "NEEDS_OPERATOR_REVIEW",
+      "TASK_PATHWAY_COLLISION",
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "UNRESOLVED_TENSION_RELEVANCE"
+    ],
+    "recommended_validation": "Resolve only with replay-linked evidence or keep as an explicit uncertainty.",
+    "source_class": "unresolved",
+    "source_ref": "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0",
+    "status": "unresolved",
+    "supporting_refs": [
+      "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0",
+      "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+      "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57",
+      "memory:inside_voice:98f0d63ed2873cc3492c"
+    ],
+    "tension": "gap:5c482ea64982398d"
+  },
+  {
+    "boundary_risk": "medium",
+    "claim_level": "unresolved",
+    "evidence_refs": [
+      "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+    ],
+    "id": "inside_voice_runtime:090c5db589c51515dfae",
+    "pressure_reasons": [
+      "DIRECT_REQUEST_MATCH",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE"
+    ],
+    "pressure_score": 0.5,
+    "reason_codes": [
+      "CONTRADICTION_CLUSTER",
+      "CONFLICTING_PATHWAY_REINFORCEMENT",
+      "DIRECT_REQUEST_MATCH",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE"
+    ],
+    "recommended_validation": "Resolve only with replay-linked evidence or keep as an explicit uncertainty.",
+    "source_class": "contradiction",
+    "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+    "status": "unresolved",
+    "supporting_refs": [
+      "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+    ],
+    "tension": "CONFLICTING_PATHWAY_REINFORCEMENT"
+  },
+  {
+    "boundary_risk": "medium",
+    "claim_level": "unresolved",
+    "evidence_refs": [
+      "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json"
+    ],
+    "id": "inside_voice_runtime:7cd6749b3341fe9a38e3",
+    "pressure_reasons": [
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE"
+    ],
+    "pressure_score": 0.675,
+    "reason_codes": [
+      "PROOF_CLAIM_BOUNDARY",
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE"
+    ],
+    "recommended_validation": "Resolve only with replay-linked evidence or keep as an explicit uncertainty.",
+    "source_class": "claim_register",
+    "source_ref": "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json",
+    "status": "unresolved",
+    "supporting_refs": [
+      "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json"
+    ],
+    "tension": "proof claim boundary"
+  },
+  {
+    "boundary_risk": "high",
+    "claim_level": "unresolved",
+    "evidence_refs": [
+      "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json"
+    ],
+    "id": "inside_voice_runtime:af06912b7bc49de2b350",
+    "pressure_reasons": [
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE",
+      "REPLAY_INSUFFICIENCY_RELEVANCE"
+    ],
+    "pressure_score": 0.78,
+    "reason_codes": [
+      "claim_register",
+      "CLAIM_DISCIPLINE",
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE",
+      "REPLAY_INSUFFICIENCY_RELEVANCE"
+    ],
+    "recommended_validation": "Resolve only with replay-linked evidence or keep as an explicit uncertainty.",
+    "source_class": "claim_register",
+    "source_ref": "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+    "status": "unresolved",
+    "supporting_refs": [
+      "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json"
+    ],
+    "tension": "claim boundary"
+  }
+]

@@ -1,0 +1,733 @@
+{
+  "contribution_grade": {
+    "contribution_grade": "bounded",
+    "grade_reasons": [
+      "refs_motifs_tensions_and_pressure_present"
+    ],
+    "minimum_gate_passed": true
+  },
+  "gate_failures": [],
+  "operational_boundaries": [],
+  "pressure_rankings": [
+    {
+      "boundary_risk": "medium",
+      "claim_level": "unresolved",
+      "id": "pressure:44eeb320a80c1c5f",
+      "kind": "unresolved",
+      "pressure_reasons": [
+        "DIRECT_REQUEST_MATCH",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE",
+        "CONTRADICTION_CLUSTER",
+        "CONFLICTING_PATHWAY_REINFORCEMENT",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "UNRESOLVED_TENSION_RELEVANCE",
+        "REPLAY_INSUFFICIENCY_RELEVANCE"
+      ],
+      "pressure_score": 0.912,
+      "reason_codes": [
+        "CONTRADICTION_CLUSTER",
+        "CONFLICTING_PATHWAY_REINFORCEMENT",
+        "DIRECT_REQUEST_MATCH",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "UNRESOLVED_TENSION_RELEVANCE",
+        "REPLAY_INSUFFICIENCY_RELEVANCE"
+      ],
+      "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+      "supporting_refs": [
+        "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+      ],
+      "title": "CONFLICTING_PATHWAY_REINFORCEMENT"
+    },
+    {
+      "boundary_risk": "medium",
+      "claim_level": "unresolved",
+      "id": "pressure:cf4e82e380cf1a94",
+      "kind": "unresolved",
+      "pressure_reasons": [
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE",
+        "REPLAY_INSUFFICIENCY_RELEVANCE",
+        "TASK_PATHWAY_COLLISION",
+        "UNRESOLVED_TENSION_RELEVANCE"
+      ],
+      "pressure_score": 0.909,
+      "reason_codes": [
+        "TASK_PATHWAY_COLLISION",
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE",
+        "REPLAY_INSUFFICIENCY_RELEVANCE",
+        "UNRESOLVED_TENSION_RELEVANCE"
+      ],
+      "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+      "supporting_refs": [
+        "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+        "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+        "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57"
+      ],
+      "title": "arbitration:28663be18db91b7d"
+    },
+    {
+      "boundary_risk": "medium",
+      "claim_level": "unresolved",
+      "id": "pressure:7ba41d8ba5ef3698",
+      "kind": "unresolved",
+      "pressure_reasons": [
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE",
+        "REPLAY_INSUFFICIENCY_RELEVANCE",
+        "claim_register",
+        "CLAIM_DISCIPLINE",
+        "UNRESOLVED_TENSION_RELEVANCE"
+      ],
+      "pressure_score": 0.906,
+      "reason_codes": [
+        "claim_register",
+        "CLAIM_DISCIPLINE",
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE",
+        "REPLAY_INSUFFICIENCY_RELEVANCE",
+        "UNRESOLVED_TENSION_RELEVANCE"
+      ],
+      "source_ref": "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+      "supporting_refs": [
+        "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json"
+      ],
+      "title": "claim boundary"
+    },
+    {
+      "boundary_risk": "medium",
+      "claim_level": "unresolved",
+      "id": "pressure:62a978e2d84c9f5a",
+      "kind": "unresolved",
+      "pressure_reasons": [
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE",
+        "PROOF_CLAIM_BOUNDARY",
+        "UNRESOLVED_TENSION_RELEVANCE",
+        "REPLAY_INSUFFICIENCY_RELEVANCE"
+      ],
+      "pressure_score": 0.892,
+      "reason_codes": [
+        "PROOF_CLAIM_BOUNDARY",
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE",
+        "UNRESOLVED_TENSION_RELEVANCE",
+        "REPLAY_INSUFFICIENCY_RELEVANCE"
+      ],
+      "source_ref": "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json",
+      "supporting_refs": [
+        "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json"
+      ],
+      "title": "proof claim boundary"
+    },
+    {
+      "boundary_risk": "medium",
+      "claim_level": "unresolved",
+      "id": "pressure:92605474c9a9fc18",
+      "kind": "unresolved",
+      "pressure_reasons": [
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE",
+        "UNRESOLVED_TENSION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE",
+        "REPLAY_INSUFFICIENCY_RELEVANCE",
+        "CONFLICTING_LINEAGE",
+        "I_DONT_KNOW"
+      ],
+      "pressure_score": 0.887,
+      "reason_codes": [
+        "CONFLICTING_LINEAGE",
+        "I_DONT_KNOW",
+        "NEEDS_OPERATOR_REVIEW",
+        "TASK_PATHWAY_COLLISION",
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE",
+        "UNRESOLVED_TENSION_RELEVANCE"
+      ],
+      "source_ref": "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0",
+      "supporting_refs": [
+        "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0",
+        "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+        "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57",
+        "memory:inside_voice:98f0d63ed2873cc3492c"
+      ],
+      "title": "gap:5c482ea64982398d"
+    },
+    {
+      "boundary_risk": "medium",
+      "claim_level": "observed",
+      "id": "pressure:4c617afdf60d4bdf",
+      "kind": "lineage",
+      "pressure_reasons": [
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE",
+        "SYNTHETIC_ONLY_WARNING_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE",
+        "REPLAY_INSUFFICIENCY_RELEVANCE"
+      ],
+      "pressure_score": 0.806,
+      "reason_codes": [
+        "PROOF_DOCUMENT",
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE",
+        "SYNTHETIC_ONLY_WARNING_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE",
+        "REPLAY_INSUFFICIENCY_RELEVANCE"
+      ],
+      "source_class": "proof",
+      "source_ref": "docs/proofs/RECURSIVE_INTELLIGENCE_FAILURE_GAUNTLET.md",
+      "supporting_refs": [
+        "docs/proofs/RECURSIVE_INTELLIGENCE_FAILURE_GAUNTLET.md"
+      ],
+      "title": "RECURSIVE_INTELLIGENCE_FAILURE_GAUNTLET"
+    },
+    {
+      "boundary_risk": "medium",
+      "claim_level": "inferred",
+      "id": "pressure:cdd7c56880c04dc3",
+      "kind": "claim_pressure",
+      "pressure_reasons": [
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE",
+        "REPLAY_INSUFFICIENCY_RELEVANCE",
+        "TASK_PATHWAY_COLLISION"
+      ],
+      "pressure_score": 0.774,
+      "reason_codes": [
+        "TASK_PATHWAY_COLLISION",
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE",
+        "REPLAY_INSUFFICIENCY_RELEVANCE"
+      ],
+      "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+      "supporting_refs": [
+        "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+        "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+        "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57"
+      ],
+      "title": "arbitration:28663be18db91b7d"
+    },
+    {
+      "boundary_risk": "high",
+      "claim_level": "observed",
+      "id": "pressure:9fe83d2a134324e5",
+      "kind": "lineage",
+      "pressure_reasons": [
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE",
+        "REPLAY_INSUFFICIENCY_RELEVANCE"
+      ],
+      "pressure_score": 0.708,
+      "reason_codes": [
+        "PROOF_DOCUMENT",
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE",
+        "REPLAY_INSUFFICIENCY_RELEVANCE"
+      ],
+      "source_class": "proof",
+      "source_ref": "docs/integrations/COGNITION.md",
+      "supporting_refs": [
+        "docs/integrations/COGNITION.md"
+      ],
+      "title": "COGNITION"
+    }
+  ],
+  "public_private_boundary": {
+    "boundary_hash": "951e6e34c3c043a84d84be76093886f20a152826d4d52e42da22232c04971600",
+    "exposes": [
+      "stage summaries",
+      "pressure scores and reason codes",
+      "artifact refs",
+      "claim-boundary audit entries",
+      "deterministic hashes"
+    ],
+    "never_exposes": [
+      "private reasoning text",
+      "raw Memory API traceback rows",
+      "private scoring internals beyond public reason codes",
+      "local absolute paths",
+      "secrets or tokens"
+    ],
+    "redaction_rules": [
+      "local paths redacted",
+      "tracebacks redacted",
+      "secret-like tokens redacted",
+      "unsupported broad claim terms replaced or blocked"
+    ],
+    "response_public_hash": "c5864b3cefbe26ae39632279bc03f03b54cf33e9ba376501cb6d74591b3b7715",
+    "status": "public_safe"
+  },
+  "request_hash": "0d6f9882c36f1b197651e460b1229e609990f89d3039eff90859fc41e36b5cfb",
+  "response_hash": "c5864b3cefbe26ae39632279bc03f03b54cf33e9ba376501cb6d74591b3b7715",
+  "schema_version": "belief_ledger.inside_voice_runtime.v1.stage_report.v1",
+  "stage_order": [
+    "season_request_context",
+    "recall_motifs",
+    "recall_lineage_refs",
+    "recall_unresolved_tensions",
+    "recall_claim_pressure",
+    "rank_operational_pressure",
+    "synthesize_bounded_guidance",
+    "audit_claim_boundary",
+    "validate_runtime_contribution"
+  ],
+  "stage_summaries": [
+    {
+      "details": {
+        "flags": {
+          "adversarial_task": true,
+          "broad_claim_terms": [],
+          "claim_language_summary": {
+            "decision": "allow",
+            "safe_negated_count": 2,
+            "unsafe_assertive_count": 0
+          },
+          "proof_010_requested": false,
+          "proof_011_requested": false,
+          "proof_012_requested": false,
+          "proof_013_requested": false,
+          "proof_task": true,
+          "real_trace_requested": false,
+          "safe_negated_claim_language": true,
+          "synthetic_as_real_trace": false,
+          "synthetic_fixture_requested": false,
+          "unsafe_assertive_claim_language": false
+        },
+        "request_hash": "0d6f9882c36f1b197651e460b1229e609990f89d3039eff90859fc41e36b5cfb",
+        "request_term_count": 97
+      },
+      "stage": "season_request_context",
+      "status": "ok",
+      "summary_hash": "b3d41447722d75fd540a4d6e3d7f1b0fdaa73ab3c89ade2f1182c7ea1c5ea9a9"
+    },
+    {
+      "details": {
+        "query_hash": "29be79f4045bfceec965ce782bcbd5b98cb39986b1a600611ab83e260fdf3662",
+        "recalled_count": 5,
+        "selected_trace_ids": [
+          "inside_voice_runtime:b52f584c333f5750c031",
+          "inside_voice_runtime:3591cc0fd8efa87ae74c",
+          "inside_voice_runtime:4be72c39afb8a6346fe5",
+          "inside_voice_runtime:66a06b4bbc7cc6a19bfd",
+          "inside_voice_runtime:7cd6749b3341fe9a38e3"
+        ]
+      },
+      "stage": "recall_motifs",
+      "status": "ok",
+      "summary_hash": "ceb922d957f8675321043c64f3d78ab9b980d4d77bb4396d0cf6f859ce97605f"
+    },
+    {
+      "details": {
+        "lineage_ref_count": 10,
+        "query_hashes": {
+          "lineage": "878bf15afab61ec2a22407fd362781940f94568b7a78cb5459617fae0ca89c7b",
+          "proof": "794f529169e26c6f8299d75616c8a19496bfd52bfca0d9b3b8156bc5af0c7e86"
+        },
+        "selected_trace_ids": [
+          "inside_voice_runtime:2b41fa2db16d0d7d90ec",
+          "inside_voice_runtime:3591cc0fd8efa87ae74c",
+          "inside_voice_runtime:3c5d87a45c4a501549a6",
+          "inside_voice_runtime:6c9e02fc9a5e06b628a6",
+          "inside_voice_runtime:7cd6749b3341fe9a38e3",
+          "inside_voice_runtime:af06912b7bc49de2b350",
+          "inside_voice_runtime:b33840a8efed1de7f1d6",
+          "inside_voice_runtime:d38efcb6a3972d08a79c"
+        ]
+      },
+      "stage": "recall_lineage_refs",
+      "status": "ok",
+      "summary_hash": "23e56baa6c27be8763a6cdacf98383ec04d1a9a5b989e4b7589f16b8d762f4f0"
+    },
+    {
+      "details": {
+        "query_hash": "3b70aacf3bd3bd5ca2c7b1335cdcaf5231c09726b629fbf6bfc6fd250ca50ab4",
+        "selected_trace_ids": [
+          "inside_voice_runtime:8c7a0ef664098db91e88",
+          "inside_voice_runtime:d43e2e09c028b98314e8",
+          "inside_voice_runtime:090c5db589c51515dfae",
+          "inside_voice_runtime:7cd6749b3341fe9a38e3",
+          "inside_voice_runtime:af06912b7bc49de2b350"
+        ],
+        "unresolved_tension_count": 5
+      },
+      "stage": "recall_unresolved_tensions",
+      "status": "ok",
+      "summary_hash": "489ecf0589483ef95bf6d93f77a2a323b08408886476fd7dab50c715c25ae662"
+    },
+    {
+      "details": {
+        "authority_warning_count": 6,
+        "claim_pressure_count": 12,
+        "compression_warning_count": 3,
+        "contradiction_warning_count": 6,
+        "query_hashes": {
+          "claim": "e377246311f4419ca1590d5186b7ef93b386ed84e8bf0e50c4d3a3fdb3e135c2",
+          "compression": "c60dd763c8146b625bdebf343635fee117f1cc936c85c944f5bafa90306c112e",
+          "contradiction": "59f5672b62d6f3e0121c24db397804fdc085a584aae239f81bcd5418d0a0d58c"
+        }
+      },
+      "stage": "recall_claim_pressure",
+      "status": "ok",
+      "summary_hash": "a6ab96b8fbaff9077cb465646d05a2614c66442ad118428467b069970a5c025b"
+    },
+    {
+      "details": {
+        "pressure_ranking_count": 8,
+        "top_pressure_ids": [
+          "pressure:44eeb320a80c1c5f",
+          "pressure:cf4e82e380cf1a94",
+          "pressure:7ba41d8ba5ef3698"
+        ],
+        "top_pressure_scores": [
+          0.912,
+          0.909,
+          0.906
+        ]
+      },
+      "stage": "rank_operational_pressure",
+      "status": "ok",
+      "summary_hash": "28d76ed590d8f8ca7107cb29d59a51ed519d430fca42bc41a666b705579c8cf9"
+    },
+    {
+      "details": {
+        "confidence": "medium",
+        "recommended_validation_count": 4,
+        "synthesis_hash": "8ae48d6f99b15de0d0542ab8fba6fcbc2f7683974c5255b09e81e0d3da9b3d2e"
+      },
+      "stage": "synthesize_bounded_guidance",
+      "status": "ok",
+      "summary_hash": "93bd29038f20e5d27eef83ac1dd98df147c15f7c81890392f85c13d7a8ddcc56"
+    },
+    {
+      "details": {
+        "audit_count": 2,
+        "audit_hash": "59bee03a359b7079074e22eb0741f3fa113c155cdc67c4181e3c28d75f5cef10",
+        "blocked_count": 0
+      },
+      "stage": "audit_claim_boundary",
+      "status": "ok",
+      "summary_hash": "69c95d87408e3a41224ad8492bdc3ebffd9e4a93e0dfe5682b81a893788d43b9"
+    },
+    {
+      "details": {
+        "contribution_grade": "bounded",
+        "gate_failure_codes": [],
+        "minimum_gate_passed": true
+      },
+      "stage": "validate_runtime_contribution",
+      "status": "ok",
+      "summary_hash": "efd39eab15d0d97689d18948541cca0d3990fe6410cb85ed4723d91d79a27258"
+    }
+  ],
+  "top_claim_pressure": [
+    {
+      "boundary_risk": "medium",
+      "claim_level": "inferred",
+      "evidence_refs": [
+        "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+      ],
+      "id": "contradiction:400f6de8bc04",
+      "pressure_reasons": [
+        "DIRECT_REQUEST_MATCH",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE"
+      ],
+      "pressure_score": 0.5,
+      "reason_codes": [
+        "CONTRADICTION_CLUSTER",
+        "CONFLICTING_PATHWAY_REINFORCEMENT",
+        "DIRECT_REQUEST_MATCH",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE"
+      ],
+      "source_class": "contradiction",
+      "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+      "supporting_refs": [
+        "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+      ],
+      "warning": "CONFLICTING_PATHWAY_REINFORCEMENT"
+    },
+    {
+      "boundary_risk": "medium",
+      "claim_level": "inferred",
+      "evidence_refs": [
+        "artifacts/pond/high_grade_seasoning_corpus.jsonl#75",
+        "artifacts/pond/reusable_lineage_pool.jsonl",
+        "artifacts/pond/reusable_lineage_pool.jsonl#0",
+        "trace.falsification.hostile_ext_001"
+      ],
+      "id": "contradiction:c3328bb2ea1b",
+      "pressure_reasons": [
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE"
+      ],
+      "pressure_score": 0.657,
+      "reason_codes": [
+        "BLOCKED_LOW_REUSE_POTENTIAL",
+        "BLOCKED_DUPLICATE",
+        "BLOCKED_SYNTHETIC_INFLATION",
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE"
+      ],
+      "source_class": "claim_pressure",
+      "source_ref": "artifacts/pond/high_grade_seasoning_corpus.jsonl#75",
+      "supporting_refs": [
+        "artifacts/pond/high_grade_seasoning_corpus.jsonl#75",
+        "artifacts/pond/reusable_lineage_pool.jsonl",
+        "artifacts/pond/reusable_lineage_pool.jsonl#0",
+        "trace.falsification.hostile_ext_001"
+      ],
+      "warning": "seasoning_00076"
+    },
+    {
+      "boundary_risk": "medium",
+      "claim_level": "inferred",
+      "evidence_refs": [
+        "artifacts/pond/high_grade_seasoning_corpus.jsonl#76",
+        "artifacts/pond/pattern_overlap_clusters.jsonl",
+        "artifacts/pond/pattern_overlap_clusters.jsonl#0",
+        "trace.falsification.hostile_ext_001"
+      ],
+      "id": "contradiction:9d85edad8192",
+      "pressure_reasons": [
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE"
+      ],
+      "pressure_score": 0.657,
+      "reason_codes": [
+        "BLOCKED_LOW_REUSE_POTENTIAL",
+        "BLOCKED_DUPLICATE",
+        "BLOCKED_SYNTHETIC_INFLATION",
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE"
+      ],
+      "source_class": "claim_pressure",
+      "source_ref": "artifacts/pond/high_grade_seasoning_corpus.jsonl#76",
+      "supporting_refs": [
+        "artifacts/pond/high_grade_seasoning_corpus.jsonl#76",
+        "artifacts/pond/pattern_overlap_clusters.jsonl",
+        "artifacts/pond/pattern_overlap_clusters.jsonl#0",
+        "trace.falsification.hostile_ext_001"
+      ],
+      "warning": "seasoning_00077"
+    }
+  ],
+  "top_recalled_motifs": [
+    {
+      "boundary_risk": "medium",
+      "claim_level": "observed",
+      "motif": "overlap_cluster_0018",
+      "motif_id": "inside_voice_runtime:b52f584c333f5750c031",
+      "pressure_reasons": [
+        "DIRECT_REQUEST_MATCH",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE"
+      ],
+      "pressure_score": 0.458,
+      "reason_codes": [
+        "recurring_motif",
+        "DIRECT_REQUEST_MATCH",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE"
+      ],
+      "source_class": "motif",
+      "source_ref": "artifacts/pond/pattern_overlap_clusters.jsonl#0",
+      "supporting_refs": [
+        "artifacts/pond/pattern_overlap_clusters.jsonl#0",
+        "artifacts/falsification/external_falsification_results.jsonl#0",
+        "artifacts/falsification/external_falsification_results.jsonl#1",
+        "artifacts/falsification/external_falsification_results.jsonl#2"
+      ]
+    },
+    {
+      "boundary_risk": "medium",
+      "claim_level": "observed",
+      "motif": "fragment_00001",
+      "motif_id": "inside_voice_runtime:3591cc0fd8efa87ae74c",
+      "pressure_reasons": [
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE"
+      ],
+      "pressure_score": 0.35,
+      "reason_codes": [
+        "lineage_fragment",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE"
+      ],
+      "source_class": "lineage",
+      "source_ref": "artifacts/pond/reusable_lineage_pool.jsonl#0",
+      "supporting_refs": [
+        "artifacts/pond/reusable_lineage_pool.jsonl#0",
+        "artifacts/pond/pattern_overlap_clusters.jsonl",
+        "artifacts/falsification/external_falsification_results.jsonl#0",
+        "artifacts/falsification/external_falsification_results.jsonl#1"
+      ]
+    },
+    {
+      "boundary_risk": "medium",
+      "claim_level": "observed",
+      "motif": "harmonic_recall_report",
+      "motif_id": "inside_voice_runtime:4be72c39afb8a6346fe5",
+      "pressure_reasons": [
+        "DIRECT_REQUEST_MATCH",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE"
+      ],
+      "pressure_score": 0.413,
+      "reason_codes": [
+        "CONVERGENCE_STATE",
+        "DIRECT_REQUEST_MATCH",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE"
+      ],
+      "source_class": "convergence",
+      "source_ref": "artifacts/pond/harmonic_recall_report.json",
+      "supporting_refs": [
+        "artifacts/pond/harmonic_recall_report.json"
+      ]
+    }
+  ],
+  "top_unresolved_tensions": [
+    {
+      "boundary_risk": "medium",
+      "claim_level": "unresolved",
+      "evidence_refs": [
+        "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+        "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+        "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57"
+      ],
+      "id": "inside_voice_runtime:8c7a0ef664098db91e88",
+      "pressure_reasons": [
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE",
+        "REPLAY_INSUFFICIENCY_RELEVANCE"
+      ],
+      "pressure_score": 0.774,
+      "reason_codes": [
+        "TASK_PATHWAY_COLLISION",
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE",
+        "REPLAY_INSUFFICIENCY_RELEVANCE"
+      ],
+      "recommended_validation": "Resolve only with replay-linked evidence or keep as an explicit uncertainty.",
+      "source_class": "contradiction",
+      "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+      "status": "unresolved",
+      "supporting_refs": [
+        "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+        "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+        "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57"
+      ],
+      "tension": "arbitration:28663be18db91b7d"
+    },
+    {
+      "boundary_risk": "medium",
+      "claim_level": "unresolved",
+      "evidence_refs": [
+        "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0",
+        "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+        "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57",
+        "memory:inside_voice:98f0d63ed2873cc3492c"
+      ],
+      "id": "inside_voice_runtime:d43e2e09c028b98314e8",
+      "pressure_reasons": [
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE",
+        "UNRESOLVED_TENSION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE",
+        "REPLAY_INSUFFICIENCY_RELEVANCE"
+      ],
+      "pressure_score": 0.863,
+      "reason_codes": [
+        "CONFLICTING_LINEAGE",
+        "I_DONT_KNOW",
+        "NEEDS_OPERATOR_REVIEW",
+        "TASK_PATHWAY_COLLISION",
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE",
+        "UNRESOLVED_TENSION_RELEVANCE"
+      ],
+      "recommended_validation": "Resolve only with replay-linked evidence or keep as an explicit uncertainty.",
+      "source_class": "unresolved",
+      "source_ref": "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0",
+      "status": "unresolved",
+      "supporting_refs": [
+        "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0",
+        "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+        "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57",
+        "memory:inside_voice:98f0d63ed2873cc3492c"
+      ],
+      "tension": "gap:5c482ea64982398d"
+    },
+    {
+      "boundary_risk": "medium",
+      "claim_level": "unresolved",
+      "evidence_refs": [
+        "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+      ],
+      "id": "inside_voice_runtime:090c5db589c51515dfae",
+      "pressure_reasons": [
+        "DIRECT_REQUEST_MATCH",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE"
+      ],
+      "pressure_score": 0.5,
+      "reason_codes": [
+        "CONTRADICTION_CLUSTER",
+        "CONFLICTING_PATHWAY_REINFORCEMENT",
+        "DIRECT_REQUEST_MATCH",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE"
+      ],
+      "recommended_validation": "Resolve only with replay-linked evidence or keep as an explicit uncertainty.",
+      "source_class": "contradiction",
+      "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+      "status": "unresolved",
+      "supporting_refs": [
+        "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+      ],
+      "tension": "CONFLICTING_PATHWAY_REINFORCEMENT"
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+[
+  {
+    "boundary_risk": "medium",
+    "claim_level": "inferred",
+    "evidence_refs": [
+      "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+    ],
+    "id": "contradiction:400f6de8bc04",
+    "pressure_reasons": [
+      "DIRECT_REQUEST_MATCH",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE"
+    ],
+    "pressure_score": 0.5,
+    "reason_codes": [
+      "CONTRADICTION_CLUSTER",
+      "CONFLICTING_PATHWAY_REINFORCEMENT",
+      "DIRECT_REQUEST_MATCH",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE"
+    ],
+    "source_class": "contradiction",
+    "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+    "supporting_refs": [
+      "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+    ],
+    "warning": "CONFLICTING_PATHWAY_REINFORCEMENT"
+  },
+  {
+    "boundary_risk": "medium",
+    "claim_level": "inferred",
+    "evidence_refs": [
+      "artifacts/pond/high_grade_seasoning_corpus.jsonl#75",
+      "artifacts/pond/reusable_lineage_pool.jsonl",
+      "artifacts/pond/reusable_lineage_pool.jsonl#0",
+      "trace.falsification.hostile_ext_001"
+    ],
+    "id": "contradiction:c3328bb2ea1b",
+    "pressure_reasons": [
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE"
+    ],
+    "pressure_score": 0.657,
+    "reason_codes": [
+      "BLOCKED_LOW_REUSE_POTENTIAL",
+      "BLOCKED_DUPLICATE",
+      "BLOCKED_SYNTHETIC_INFLATION",
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE"
+    ],
+    "source_class": "claim_pressure",
+    "source_ref": "artifacts/pond/high_grade_seasoning_corpus.jsonl#75",
+    "supporting_refs": [
+      "artifacts/pond/high_grade_seasoning_corpus.jsonl#75",
+      "artifacts/pond/reusable_lineage_pool.jsonl",
+      "artifacts/pond/reusable_lineage_pool.jsonl#0",
+      "trace.falsification.hostile_ext_001"
+    ],
+    "warning": "seasoning_00076"
+  },
+  {
+    "boundary_risk": "medium",
+    "claim_level": "inferred",
+    "evidence_refs": [
+      "artifacts/pond/high_grade_seasoning_corpus.jsonl#76",
+      "artifacts/pond/pattern_overlap_clusters.jsonl",
+      "artifacts/pond/pattern_overlap_clusters.jsonl#0",
+      "trace.falsification.hostile_ext_001"
+    ],
+    "id": "contradiction:9d85edad8192",
+    "pressure_reasons": [
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE"
+    ],
+    "pressure_score": 0.657,
+    "reason_codes": [
+      "BLOCKED_LOW_REUSE_POTENTIAL",
+      "BLOCKED_DUPLICATE",
+      "BLOCKED_SYNTHETIC_INFLATION",
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE"
+    ],
+    "source_class": "claim_pressure",
+    "source_ref": "artifacts/pond/high_grade_seasoning_corpus.jsonl#76",
+    "supporting_refs": [
+      "artifacts/pond/high_grade_seasoning_corpus.jsonl#76",
+      "artifacts/pond/pattern_overlap_clusters.jsonl",
+      "artifacts/pond/pattern_overlap_clusters.jsonl#0",
+      "trace.falsification.hostile_ext_001"
+    ],
+    "warning": "seasoning_00077"
+  },
+  {
+    "boundary_risk": "medium",
+    "claim_level": "inferred",
+    "evidence_refs": [
+      "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+      "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+      "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57"
+    ],
+    "id": "contradiction:38acceb289c8",
+    "pressure_reasons": [
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE",
+      "REPLAY_INSUFFICIENCY_RELEVANCE"
+    ],
+    "pressure_score": 0.774,
+    "reason_codes": [
+      "TASK_PATHWAY_COLLISION",
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE",
+      "REPLAY_INSUFFICIENCY_RELEVANCE"
+    ],
+    "source_class": "contradiction",
+    "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+    "supporting_refs": [
+      "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+      "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+      "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57"
+    ],
+    "warning": "arbitration:28663be18db91b7d"
+  },
+  {
+    "boundary_risk": "medium",
+    "claim_level": "inferred",
+    "evidence_refs": [
+      "artifacts/pond/high_grade_seasoning_corpus.jsonl#78",
+      "artifacts/pond/external_experience_admitted.jsonl",
+      "artifacts/pond/external_experience_admitted.jsonl#0",
+      "adversarial_trace_1"
+    ],
+    "id": "contradiction:a75c10c1d888",
+    "pressure_reasons": [
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE"
+    ],
+    "pressure_score": 0.65,
+    "reason_codes": [
+      "BLOCKED_INCOMPLETE_LINEAGE",
+      "BLOCKED_LOW_REUSE_POTENTIAL",
+      "BLOCKED_DUPLICATE",
+      "BLOCKED_SYNTHETIC_INFLATION",
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE"
+    ],
+    "source_class": "claim_pressure",
+    "source_ref": "artifacts/pond/high_grade_seasoning_corpus.jsonl#78",
+    "supporting_refs": [
+      "artifacts/pond/high_grade_seasoning_corpus.jsonl#78",
+      "artifacts/pond/external_experience_admitted.jsonl",
+      "artifacts/pond/external_experience_admitted.jsonl#0",
+      "adversarial_trace_1"
+    ],
+    "warning": "seasoning_00079"
+  },
+  {
+    "boundary_risk": "medium",
+    "claim_level": "inferred",
+    "evidence_refs": [
+      "artifacts/pond/high_grade_seasoning_corpus.jsonl#79",
+      "artifacts/pond/external_experience_admitted.jsonl",
+      "artifacts/pond/external_experience_admitted.jsonl#1",
+      "adversarial_trace_1"
+    ],
+    "id": "contradiction:0b8ea451d69f",
+    "pressure_reasons": [
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE"
+    ],
+    "pressure_score": 0.65,
+    "reason_codes": [
+      "BLOCKED_INCOMPLETE_LINEAGE",
+      "BLOCKED_LOW_REUSE_POTENTIAL",
+      "BLOCKED_DUPLICATE",
+      "BLOCKED_SYNTHETIC_INFLATION",
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE"
+    ],
+    "source_class": "claim_pressure",
+    "source_ref": "artifacts/pond/high_grade_seasoning_corpus.jsonl#79",
+    "supporting_refs": [
+      "artifacts/pond/high_grade_seasoning_corpus.jsonl#79",
+      "artifacts/pond/external_experience_admitted.jsonl",
+      "artifacts/pond/external_experience_admitted.jsonl#1",
+      "adversarial_trace_1"
+    ],
+    "warning": "seasoning_00080"
+  },
+  {
+    "boundary_risk": "medium",
+    "claim_level": "observed",
+    "evidence_refs": [
+      "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json"
+    ],
+    "id": "authority:4161d447bc9a",
+    "pressure_reasons": [
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE"
+    ],
+    "pressure_score": 0.605,
+    "reason_codes": [
+      "PROOF_CLAIM_BOUNDARY",
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE"
+    ],
+    "source_class": "claim_register",
+    "source_ref": "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json",
+    "supporting_refs": [
+      "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json"
+    ],
+    "warning": "proof claim boundary"
+  },
+  {
+    "boundary_risk": "high",
+    "claim_level": "observed",
+    "evidence_refs": [
+      "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json"
+    ],
+    "id": "authority:632e86fc77ae",
+    "pressure_reasons": [
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE",
+      "REPLAY_INSUFFICIENCY_RELEVANCE"
+    ],
+    "pressure_score": 0.71,
+    "reason_codes": [
+      "claim_register",
+      "CLAIM_DISCIPLINE",
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE",
+      "REPLAY_INSUFFICIENCY_RELEVANCE"
+    ],
+    "source_class": "claim_register",
+    "source_ref": "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+    "supporting_refs": [
+      "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json"
+    ],
+    "warning": "claim boundary"
+  },
+  {
+    "boundary_risk": "medium",
+    "claim_level": "observed",
+    "evidence_refs": [
+      "artifacts/pond/high_grade_seasoning_corpus.jsonl#75",
+      "artifacts/pond/reusable_lineage_pool.jsonl",
+      "artifacts/pond/reusable_lineage_pool.jsonl#0",
+      "trace.falsification.hostile_ext_001"
+    ],
+    "id": "authority:c3328bb2ea1b",
+    "pressure_reasons": [
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE"
+    ],
+    "pressure_score": 0.588,
+    "reason_codes": [
+      "BLOCKED_LOW_REUSE_POTENTIAL",
+      "BLOCKED_DUPLICATE",
+      "BLOCKED_SYNTHETIC_INFLATION",
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE"
+    ],
+    "source_class": "claim_pressure",
+    "source_ref": "artifacts/pond/high_grade_seasoning_corpus.jsonl#75",
+    "supporting_refs": [
+      "artifacts/pond/high_grade_seasoning_corpus.jsonl#75",
+      "artifacts/pond/reusable_lineage_pool.jsonl",
+      "artifacts/pond/reusable_lineage_pool.jsonl#0",
+      "trace.falsification.hostile_ext_001"
+    ],
+    "warning": "seasoning_00076"
+  },
+  {
+    "boundary_risk": "medium",
+    "claim_level": "observed",
+    "evidence_refs": [
+      "artifacts/pond/high_grade_seasoning_corpus.jsonl#76",
+      "artifacts/pond/pattern_overlap_clusters.jsonl",
+      "artifacts/pond/pattern_overlap_clusters.jsonl#0",
+      "trace.falsification.hostile_ext_001"
+    ],
+    "id": "authority:9d85edad8192",
+    "pressure_reasons": [
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE"
+    ],
+    "pressure_score": 0.588,
+    "reason_codes": [
+      "BLOCKED_LOW_REUSE_POTENTIAL",
+      "BLOCKED_DUPLICATE",
+      "BLOCKED_SYNTHETIC_INFLATION",
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE"
+    ],
+    "source_class": "claim_pressure",
+    "source_ref": "artifacts/pond/high_grade_seasoning_corpus.jsonl#76",
+    "supporting_refs": [
+      "artifacts/pond/high_grade_seasoning_corpus.jsonl#76",
+      "artifacts/pond/pattern_overlap_clusters.jsonl",
+      "artifacts/pond/pattern_overlap_clusters.jsonl#0",
+      "trace.falsification.hostile_ext_001"
+    ],
+    "warning": "seasoning_00077"
+  },
+  {
+    "boundary_risk": "medium",
+    "claim_level": "observed",
+    "evidence_refs": [
+      "artifacts/proof/recursive_stability_proof_rollup/recursive_stability_claim_boundary.json"
+    ],
+    "id": "authority:7e4919d7f9e0",
+    "pressure_reasons": [
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE"
+    ],
+    "pressure_score": 0.56,
+    "reason_codes": [
+      "claim_register",
+      "CLAIM_DISCIPLINE",
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE"
+    ],
+    "source_class": "claim_register",
+    "source_ref": "artifacts/proof/recursive_stability_proof_rollup/recursive_stability_claim_boundary.json",
+    "supporting_refs": [
+      "artifacts/proof/recursive_stability_proof_rollup/recursive_stability_claim_boundary.json"
+    ],
+    "warning": "claim boundary"
+  },
+  {
+    "boundary_risk": "medium",
+    "claim_level": "observed",
+    "evidence_refs": [
+      "artifacts/pond/high_grade_seasoning_corpus.jsonl#78",
+      "artifacts/pond/external_experience_admitted.jsonl",
+      "artifacts/pond/external_experience_admitted.jsonl#0",
+      "adversarial_trace_1"
+    ],
+    "id": "authority:a75c10c1d888",
+    "pressure_reasons": [
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE"
+    ],
+    "pressure_score": 0.58,
+    "reason_codes": [
+      "BLOCKED_INCOMPLETE_LINEAGE",
+      "BLOCKED_LOW_REUSE_POTENTIAL",
+      "BLOCKED_DUPLICATE",
+      "BLOCKED_SYNTHETIC_INFLATION",
+      "DIRECT_REQUEST_MATCH",
+      "PROOF_BOUNDARY_RELEVANCE",
+      "CONTRADICTION_RELEVANCE",
+      "CLAIM_DISCIPLINE_RELEVANCE"
+    ],
+    "source_class": "claim_pressure",
+    "source_ref": "artifacts/pond/high_grade_seasoning_corpus.jsonl#78",
+    "supporting_refs": [
+      "artifacts/pond/high_grade_seasoning_corpus.jsonl#78",
+      "artifacts/pond/external_experience_admitted.jsonl",
+      "artifacts/pond/external_experience_admitted.jsonl#0",
+      "adversarial_trace_1"
+    ],
+    "warning": "seasoning_00079"
+  }
+]

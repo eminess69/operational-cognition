@@ -1,0 +1,23 @@
+{
+  "ablated_refs_visible": false,
+  "ablation_reduced_quality": true,
+  "mode_totals": {
+    "ablated": 39,
+    "baseline": 34,
+    "seasoned": 43
+  },
+  "reveal_mapping": {
+    "solution_A": "baseline",
+    "solution_B": "seasoned",
+    "solution_C": "ablated"
+  },
+  "reveal_phase": "post_scoring",
+  "score_delta": {
+    "ablated_vs_baseline": 5,
+    "seasoned_vs_ablated": 4,
+    "seasoned_vs_baseline": 9
+  },
+  "seasoned_refs_visible": true,
+  "task_id": "task_001",
+  "verdict": "SEASONED_TASK_ADVANTAGE"
+}

@@ -1,0 +1,1758 @@
+{
+  "request": {
+    "context": {
+      "constraints": [
+        "pond-backed runtime required",
+        "MCP-seasoned candidate recall disabled for this control arm",
+        "ordinary replay evidence allowed",
+        "contradiction refs allowed",
+        "authority refs allowed",
+        "unresolved tensions allowed",
+        "pressure rankings required",
+        "do not mutate reusable_lineage_pool.jsonl",
+        "do not promote candidates",
+        "do not validate public claims",
+        "do not claim broad capability"
+      ],
+      "desired_artifacts": [
+        "operational plan",
+        "ablation visibility evidence",
+        "contradiction arbitration",
+        "authority ranking",
+        "replayable stop conditions",
+        "runtime hashes"
+      ],
+      "files": [
+        "proofs/019-mcp-seasoning-ablation-control/tasks/task_001/task_description.md",
+        "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+        "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl",
+        "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+        "artifacts/pond/reusable_lineage_pool.jsonl",
+        "artifacts/pond/pattern_overlap_clusters.jsonl",
+        "docs/integrations/COGNITION.md"
+      ],
+      "summary": "Ablated mode for Proof 019 task_001. The control arm removes MCP-seasoned first-principles candidate sources before recall while retaining ordinary pond-backed replay and pressure sources."
+    },
+    "max_output_chars": 8000,
+    "mode": "review",
+    "request_id": "proof-019-task_001-ablated",
+    "require_lineage": true,
+    "task": "Solve the held-out degraded validation pipeline triage task with the candidate-family ablation enabled. Use normal pond replay, contradiction, authority, unresolved-tension, and pressure evidence, but exclude MCP-seasoned candidate recall from the control arm."
+  },
+  "response": {
+    "adapter_status": "pond_backed",
+    "authority_warnings": [
+      {
+        "boundary_risk": "medium",
+        "claim_level": "observed",
+        "evidence_refs": [
+          "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json"
+        ],
+        "id": "authority:4161d447bc9a",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.605,
+        "reason_codes": [
+          "PROOF_CLAIM_BOUNDARY",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "source_class": "claim_register",
+        "source_ref": "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json",
+        "supporting_refs": [
+          "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json"
+        ],
+        "warning": "proof claim boundary"
+      },
+      {
+        "boundary_risk": "high",
+        "claim_level": "observed",
+        "evidence_refs": [
+          "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json"
+        ],
+        "id": "authority:632e86fc77ae",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE",
+          "REPLAY_INSUFFICIENCY_RELEVANCE"
+        ],
+        "pressure_score": 0.71,
+        "reason_codes": [
+          "claim_register",
+          "CLAIM_DISCIPLINE",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE",
+          "REPLAY_INSUFFICIENCY_RELEVANCE"
+        ],
+        "source_class": "claim_register",
+        "source_ref": "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+        "supporting_refs": [
+          "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json"
+        ],
+        "warning": "claim boundary"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "observed",
+        "evidence_refs": [
+          "artifacts/pond/high_grade_seasoning_corpus.jsonl#75",
+          "artifacts/pond/reusable_lineage_pool.jsonl",
+          "artifacts/pond/reusable_lineage_pool.jsonl#0",
+          "trace.falsification.hostile_ext_001"
+        ],
+        "id": "authority:c3328bb2ea1b",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.588,
+        "reason_codes": [
+          "BLOCKED_LOW_REUSE_POTENTIAL",
+          "BLOCKED_DUPLICATE",
+          "BLOCKED_SYNTHETIC_INFLATION",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "source_class": "claim_pressure",
+        "source_ref": "artifacts/pond/high_grade_seasoning_corpus.jsonl#75",
+        "supporting_refs": [
+          "artifacts/pond/high_grade_seasoning_corpus.jsonl#75",
+          "artifacts/pond/reusable_lineage_pool.jsonl",
+          "artifacts/pond/reusable_lineage_pool.jsonl#0",
+          "trace.falsification.hostile_ext_001"
+        ],
+        "warning": "seasoning_00076"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "observed",
+        "evidence_refs": [
+          "artifacts/pond/high_grade_seasoning_corpus.jsonl#76",
+          "artifacts/pond/pattern_overlap_clusters.jsonl",
+          "artifacts/pond/pattern_overlap_clusters.jsonl#0",
+          "trace.falsification.hostile_ext_001"
+        ],
+        "id": "authority:9d85edad8192",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.588,
+        "reason_codes": [
+          "BLOCKED_LOW_REUSE_POTENTIAL",
+          "BLOCKED_DUPLICATE",
+          "BLOCKED_SYNTHETIC_INFLATION",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "source_class": "claim_pressure",
+        "source_ref": "artifacts/pond/high_grade_seasoning_corpus.jsonl#76",
+        "supporting_refs": [
+          "artifacts/pond/high_grade_seasoning_corpus.jsonl#76",
+          "artifacts/pond/pattern_overlap_clusters.jsonl",
+          "artifacts/pond/pattern_overlap_clusters.jsonl#0",
+          "trace.falsification.hostile_ext_001"
+        ],
+        "warning": "seasoning_00077"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "observed",
+        "evidence_refs": [
+          "artifacts/proof/recursive_stability_proof_rollup/recursive_stability_claim_boundary.json"
+        ],
+        "id": "authority:7e4919d7f9e0",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.56,
+        "reason_codes": [
+          "claim_register",
+          "CLAIM_DISCIPLINE",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "source_class": "claim_register",
+        "source_ref": "artifacts/proof/recursive_stability_proof_rollup/recursive_stability_claim_boundary.json",
+        "supporting_refs": [
+          "artifacts/proof/recursive_stability_proof_rollup/recursive_stability_claim_boundary.json"
+        ],
+        "warning": "claim boundary"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "observed",
+        "evidence_refs": [
+          "artifacts/pond/high_grade_seasoning_corpus.jsonl#78",
+          "artifacts/pond/external_experience_admitted.jsonl",
+          "artifacts/pond/external_experience_admitted.jsonl#0",
+          "adversarial_trace_1"
+        ],
+        "id": "authority:a75c10c1d888",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.58,
+        "reason_codes": [
+          "BLOCKED_INCOMPLETE_LINEAGE",
+          "BLOCKED_LOW_REUSE_POTENTIAL",
+          "BLOCKED_DUPLICATE",
+          "BLOCKED_SYNTHETIC_INFLATION",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "source_class": "claim_pressure",
+        "source_ref": "artifacts/pond/high_grade_seasoning_corpus.jsonl#78",
+        "supporting_refs": [
+          "artifacts/pond/high_grade_seasoning_corpus.jsonl#78",
+          "artifacts/pond/external_experience_admitted.jsonl",
+          "artifacts/pond/external_experience_admitted.jsonl#0",
+          "adversarial_trace_1"
+        ],
+        "warning": "seasoning_00079"
+      }
+    ],
+    "bounded_synthesis": "Observed: pond/proof recall returned 5 motifs and 10 lineage refs; 6 contradiction warnings and 5 unresolved tensions remain visible. Inferred: the safe next response should use survivable lineage, replay adequacy, claim-boundary checks, and contradiction pressure before accepting any recursive-convergence conclusion. Hypothesis: a bounded operational synthesis is usable with medium confidence when the cited refs are inspected directly. Unresolved: unsupported broad claims, forced coherence across conflicting lineage, and missing replay evidence remain blocked.",
+    "claim_boundary_audit": [
+      {
+        "boundary_risk": "low",
+        "evidence_refs": [
+          "request_visible_ref:proofs/019-mcp-seasoning-ablation-control/tasks/task_001/task_description.md",
+          "request_visible_ref:artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+          "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json",
+          "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json"
+        ],
+        "id": "audit.public_private_boundary",
+        "message": "Only public-safe summaries, scores, refs, warnings, and hashes are exposed.",
+        "reason_codes": [
+          "PUBLIC_PRIVATE_BOUNDARY",
+          "NO_HIDDEN_REASONING_EXPOSED"
+        ],
+        "status": "pass"
+      },
+      {
+        "boundary_risk": "low",
+        "claim_language_summary": {
+          "decision": "allow",
+          "safe_negated_count": 2,
+          "unsafe_assertive_count": 0
+        },
+        "evidence_refs": [
+          "request_context:claim_boundary_language",
+          "request_visible_ref:proofs/019-mcp-seasoning-ablation-control/tasks/task_001/task_description.md",
+          "request_visible_ref:artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+          "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json"
+        ],
+        "id": "audit.safe_negated_claim_boundary",
+        "message": "Negated safety language was treated as a boundary, not a claim escalation.",
+        "reason_codes": [
+          "SAFE_NEGATED_CLAIM_LANGUAGE"
+        ],
+        "status": "pass"
+      }
+    ],
+    "claim_pressure": [
+      {
+        "boundary_risk": "medium",
+        "claim_level": "inferred",
+        "evidence_refs": [
+          "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+        ],
+        "id": "contradiction:400f6de8bc04",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.5,
+        "reason_codes": [
+          "CONTRADICTION_CLUSTER",
+          "CONFLICTING_PATHWAY_REINFORCEMENT",
+          "DIRECT_REQUEST_MATCH",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "source_class": "contradiction",
+        "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+        "supporting_refs": [
+          "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+        ],
+        "warning": "CONFLICTING_PATHWAY_REINFORCEMENT"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "inferred",
+        "evidence_refs": [
+          "artifacts/pond/high_grade_seasoning_corpus.jsonl#75",
+          "artifacts/pond/reusable_lineage_pool.jsonl",
+          "artifacts/pond/reusable_lineage_pool.jsonl#0",
+          "trace.falsification.hostile_ext_001"
+        ],
+        "id": "contradiction:c3328bb2ea1b",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.657,
+        "reason_codes": [
+          "BLOCKED_LOW_REUSE_POTENTIAL",
+          "BLOCKED_DUPLICATE",
+          "BLOCKED_SYNTHETIC_INFLATION",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "source_class": "claim_pressure",
+        "source_ref": "artifacts/pond/high_grade_seasoning_corpus.jsonl#75",
+        "supporting_refs": [
+          "artifacts/pond/high_grade_seasoning_corpus.jsonl#75",
+          "artifacts/pond/reusable_lineage_pool.jsonl",
+          "artifacts/pond/reusable_lineage_pool.jsonl#0",
+          "trace.falsification.hostile_ext_001"
+        ],
+        "warning": "seasoning_00076"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "inferred",
+        "evidence_refs": [
+          "artifacts/pond/high_grade_seasoning_corpus.jsonl#76",
+          "artifacts/pond/pattern_overlap_clusters.jsonl",
+          "artifacts/pond/pattern_overlap_clusters.jsonl#0",
+          "trace.falsification.hostile_ext_001"
+        ],
+        "id": "contradiction:9d85edad8192",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.657,
+        "reason_codes": [
+          "BLOCKED_LOW_REUSE_POTENTIAL",
+          "BLOCKED_DUPLICATE",
+          "BLOCKED_SYNTHETIC_INFLATION",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "source_class": "claim_pressure",
+        "source_ref": "artifacts/pond/high_grade_seasoning_corpus.jsonl#76",
+        "supporting_refs": [
+          "artifacts/pond/high_grade_seasoning_corpus.jsonl#76",
+          "artifacts/pond/pattern_overlap_clusters.jsonl",
+          "artifacts/pond/pattern_overlap_clusters.jsonl#0",
+          "trace.falsification.hostile_ext_001"
+        ],
+        "warning": "seasoning_00077"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "inferred",
+        "evidence_refs": [
+          "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+          "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+          "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57"
+        ],
+        "id": "contradiction:38acceb289c8",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE",
+          "REPLAY_INSUFFICIENCY_RELEVANCE"
+        ],
+        "pressure_score": 0.774,
+        "reason_codes": [
+          "TASK_PATHWAY_COLLISION",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE",
+          "REPLAY_INSUFFICIENCY_RELEVANCE"
+        ],
+        "source_class": "contradiction",
+        "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+        "supporting_refs": [
+          "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+          "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+          "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57"
+        ],
+        "warning": "arbitration:28663be18db91b7d"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "inferred",
+        "evidence_refs": [
+          "artifacts/pond/high_grade_seasoning_corpus.jsonl#78",
+          "artifacts/pond/external_experience_admitted.jsonl",
+          "artifacts/pond/external_experience_admitted.jsonl#0",
+          "adversarial_trace_1"
+        ],
+        "id": "contradiction:a75c10c1d888",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.65,
+        "reason_codes": [
+          "BLOCKED_INCOMPLETE_LINEAGE",
+          "BLOCKED_LOW_REUSE_POTENTIAL",
+          "BLOCKED_DUPLICATE",
+          "BLOCKED_SYNTHETIC_INFLATION",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "source_class": "claim_pressure",
+        "source_ref": "artifacts/pond/high_grade_seasoning_corpus.jsonl#78",
+        "supporting_refs": [
+          "artifacts/pond/high_grade_seasoning_corpus.jsonl#78",
+          "artifacts/pond/external_experience_admitted.jsonl",
+          "artifacts/pond/external_experience_admitted.jsonl#0",
+          "adversarial_trace_1"
+        ],
+        "warning": "seasoning_00079"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "inferred",
+        "evidence_refs": [
+          "artifacts/pond/high_grade_seasoning_corpus.jsonl#79",
+          "artifacts/pond/external_experience_admitted.jsonl",
+          "artifacts/pond/external_experience_admitted.jsonl#1",
+          "adversarial_trace_1"
+        ],
+        "id": "contradiction:0b8ea451d69f",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.65,
+        "reason_codes": [
+          "BLOCKED_INCOMPLETE_LINEAGE",
+          "BLOCKED_LOW_REUSE_POTENTIAL",
+          "BLOCKED_DUPLICATE",
+          "BLOCKED_SYNTHETIC_INFLATION",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "source_class": "claim_pressure",
+        "source_ref": "artifacts/pond/high_grade_seasoning_corpus.jsonl#79",
+        "supporting_refs": [
+          "artifacts/pond/high_grade_seasoning_corpus.jsonl#79",
+          "artifacts/pond/external_experience_admitted.jsonl",
+          "artifacts/pond/external_experience_admitted.jsonl#1",
+          "adversarial_trace_1"
+        ],
+        "warning": "seasoning_00080"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "observed",
+        "evidence_refs": [
+          "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json"
+        ],
+        "id": "authority:4161d447bc9a",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.605,
+        "reason_codes": [
+          "PROOF_CLAIM_BOUNDARY",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "source_class": "claim_register",
+        "source_ref": "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json",
+        "supporting_refs": [
+          "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json"
+        ],
+        "warning": "proof claim boundary"
+      },
+      {
+        "boundary_risk": "high",
+        "claim_level": "observed",
+        "evidence_refs": [
+          "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json"
+        ],
+        "id": "authority:632e86fc77ae",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE",
+          "REPLAY_INSUFFICIENCY_RELEVANCE"
+        ],
+        "pressure_score": 0.71,
+        "reason_codes": [
+          "claim_register",
+          "CLAIM_DISCIPLINE",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE",
+          "REPLAY_INSUFFICIENCY_RELEVANCE"
+        ],
+        "source_class": "claim_register",
+        "source_ref": "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+        "supporting_refs": [
+          "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json"
+        ],
+        "warning": "claim boundary"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "observed",
+        "evidence_refs": [
+          "artifacts/pond/high_grade_seasoning_corpus.jsonl#75",
+          "artifacts/pond/reusable_lineage_pool.jsonl",
+          "artifacts/pond/reusable_lineage_pool.jsonl#0",
+          "trace.falsification.hostile_ext_001"
+        ],
+        "id": "authority:c3328bb2ea1b",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.588,
+        "reason_codes": [
+          "BLOCKED_LOW_REUSE_POTENTIAL",
+          "BLOCKED_DUPLICATE",
+          "BLOCKED_SYNTHETIC_INFLATION",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "source_class": "claim_pressure",
+        "source_ref": "artifacts/pond/high_grade_seasoning_corpus.jsonl#75",
+        "supporting_refs": [
+          "artifacts/pond/high_grade_seasoning_corpus.jsonl#75",
+          "artifacts/pond/reusable_lineage_pool.jsonl",
+          "artifacts/pond/reusable_lineage_pool.jsonl#0",
+          "trace.falsification.hostile_ext_001"
+        ],
+        "warning": "seasoning_00076"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "observed",
+        "evidence_refs": [
+          "artifacts/pond/high_grade_seasoning_corpus.jsonl#76",
+          "artifacts/pond/pattern_overlap_clusters.jsonl",
+          "artifacts/pond/pattern_overlap_clusters.jsonl#0",
+          "trace.falsification.hostile_ext_001"
+        ],
+        "id": "authority:9d85edad8192",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.588,
+        "reason_codes": [
+          "BLOCKED_LOW_REUSE_POTENTIAL",
+          "BLOCKED_DUPLICATE",
+          "BLOCKED_SYNTHETIC_INFLATION",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "source_class": "claim_pressure",
+        "source_ref": "artifacts/pond/high_grade_seasoning_corpus.jsonl#76",
+        "supporting_refs": [
+          "artifacts/pond/high_grade_seasoning_corpus.jsonl#76",
+          "artifacts/pond/pattern_overlap_clusters.jsonl",
+          "artifacts/pond/pattern_overlap_clusters.jsonl#0",
+          "trace.falsification.hostile_ext_001"
+        ],
+        "warning": "seasoning_00077"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "observed",
+        "evidence_refs": [
+          "artifacts/proof/recursive_stability_proof_rollup/recursive_stability_claim_boundary.json"
+        ],
+        "id": "authority:7e4919d7f9e0",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.56,
+        "reason_codes": [
+          "claim_register",
+          "CLAIM_DISCIPLINE",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "source_class": "claim_register",
+        "source_ref": "artifacts/proof/recursive_stability_proof_rollup/recursive_stability_claim_boundary.json",
+        "supporting_refs": [
+          "artifacts/proof/recursive_stability_proof_rollup/recursive_stability_claim_boundary.json"
+        ],
+        "warning": "claim boundary"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "observed",
+        "evidence_refs": [
+          "artifacts/pond/high_grade_seasoning_corpus.jsonl#78",
+          "artifacts/pond/external_experience_admitted.jsonl",
+          "artifacts/pond/external_experience_admitted.jsonl#0",
+          "adversarial_trace_1"
+        ],
+        "id": "authority:a75c10c1d888",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.58,
+        "reason_codes": [
+          "BLOCKED_INCOMPLETE_LINEAGE",
+          "BLOCKED_LOW_REUSE_POTENTIAL",
+          "BLOCKED_DUPLICATE",
+          "BLOCKED_SYNTHETIC_INFLATION",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "source_class": "claim_pressure",
+        "source_ref": "artifacts/pond/high_grade_seasoning_corpus.jsonl#78",
+        "supporting_refs": [
+          "artifacts/pond/high_grade_seasoning_corpus.jsonl#78",
+          "artifacts/pond/external_experience_admitted.jsonl",
+          "artifacts/pond/external_experience_admitted.jsonl#0",
+          "adversarial_trace_1"
+        ],
+        "warning": "seasoning_00079"
+      }
+    ],
+    "compression_warnings": [
+      {
+        "boundary_risk": "medium",
+        "claim_level": "inferred",
+        "evidence_refs": [
+          "artifacts/pond/harmonic_recall_report.json"
+        ],
+        "id": "compression:6ae49ba06e0c",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.373,
+        "reason_codes": [
+          "CONVERGENCE_STATE",
+          "DIRECT_REQUEST_MATCH",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "source_class": "convergence",
+        "source_ref": "artifacts/pond/harmonic_recall_report.json",
+        "supporting_refs": [
+          "artifacts/pond/harmonic_recall_report.json"
+        ],
+        "warning": "harmonic_recall_report"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "inferred",
+        "evidence_refs": [
+          "artifacts/pond/base_saturation_state.json"
+        ],
+        "id": "compression:003c6ddb1716",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.373,
+        "reason_codes": [
+          "CONVERGENCE_STATE",
+          "DIRECT_REQUEST_MATCH",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "source_class": "convergence",
+        "source_ref": "artifacts/pond/base_saturation_state.json",
+        "supporting_refs": [
+          "artifacts/pond/base_saturation_state.json"
+        ],
+        "warning": "base_saturation_state"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "inferred",
+        "evidence_refs": [
+          "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json",
+          "compression_recursion_results.json",
+          "compression_recursion_trace.jsonl",
+          "artifacts/proof/compression_recursion_distortion/compression_recursion_results.json"
+        ],
+        "id": "compression:3e29addc8009",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.512,
+        "reason_codes": [
+          "PROOF_CORPUS",
+          "PASS",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "source_class": "proof",
+        "source_ref": "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json",
+        "supporting_refs": [
+          "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json",
+          "compression_recursion_results.json",
+          "compression_recursion_trace.jsonl",
+          "artifacts/proof/compression_recursion_distortion/compression_recursion_results.json"
+        ],
+        "warning": "stage_4_compression_recursion_drift"
+      }
+    ],
+    "confidence": "medium",
+    "contradiction_warnings": [
+      {
+        "boundary_risk": "medium",
+        "claim_level": "inferred",
+        "evidence_refs": [
+          "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+        ],
+        "id": "contradiction:400f6de8bc04",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.5,
+        "reason_codes": [
+          "CONTRADICTION_CLUSTER",
+          "CONFLICTING_PATHWAY_REINFORCEMENT",
+          "DIRECT_REQUEST_MATCH",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "source_class": "contradiction",
+        "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+        "supporting_refs": [
+          "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+        ],
+        "warning": "CONFLICTING_PATHWAY_REINFORCEMENT"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "inferred",
+        "evidence_refs": [
+          "artifacts/pond/high_grade_seasoning_corpus.jsonl#75",
+          "artifacts/pond/reusable_lineage_pool.jsonl",
+          "artifacts/pond/reusable_lineage_pool.jsonl#0",
+          "trace.falsification.hostile_ext_001"
+        ],
+        "id": "contradiction:c3328bb2ea1b",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.657,
+        "reason_codes": [
+          "BLOCKED_LOW_REUSE_POTENTIAL",
+          "BLOCKED_DUPLICATE",
+          "BLOCKED_SYNTHETIC_INFLATION",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "source_class": "claim_pressure",
+        "source_ref": "artifacts/pond/high_grade_seasoning_corpus.jsonl#75",
+        "supporting_refs": [
+          "artifacts/pond/high_grade_seasoning_corpus.jsonl#75",
+          "artifacts/pond/reusable_lineage_pool.jsonl",
+          "artifacts/pond/reusable_lineage_pool.jsonl#0",
+          "trace.falsification.hostile_ext_001"
+        ],
+        "warning": "seasoning_00076"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "inferred",
+        "evidence_refs": [
+          "artifacts/pond/high_grade_seasoning_corpus.jsonl#76",
+          "artifacts/pond/pattern_overlap_clusters.jsonl",
+          "artifacts/pond/pattern_overlap_clusters.jsonl#0",
+          "trace.falsification.hostile_ext_001"
+        ],
+        "id": "contradiction:9d85edad8192",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.657,
+        "reason_codes": [
+          "BLOCKED_LOW_REUSE_POTENTIAL",
+          "BLOCKED_DUPLICATE",
+          "BLOCKED_SYNTHETIC_INFLATION",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "source_class": "claim_pressure",
+        "source_ref": "artifacts/pond/high_grade_seasoning_corpus.jsonl#76",
+        "supporting_refs": [
+          "artifacts/pond/high_grade_seasoning_corpus.jsonl#76",
+          "artifacts/pond/pattern_overlap_clusters.jsonl",
+          "artifacts/pond/pattern_overlap_clusters.jsonl#0",
+          "trace.falsification.hostile_ext_001"
+        ],
+        "warning": "seasoning_00077"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "inferred",
+        "evidence_refs": [
+          "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+          "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+          "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57"
+        ],
+        "id": "contradiction:38acceb289c8",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE",
+          "REPLAY_INSUFFICIENCY_RELEVANCE"
+        ],
+        "pressure_score": 0.774,
+        "reason_codes": [
+          "TASK_PATHWAY_COLLISION",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE",
+          "REPLAY_INSUFFICIENCY_RELEVANCE"
+        ],
+        "source_class": "contradiction",
+        "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+        "supporting_refs": [
+          "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+          "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+          "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57"
+        ],
+        "warning": "arbitration:28663be18db91b7d"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "inferred",
+        "evidence_refs": [
+          "artifacts/pond/high_grade_seasoning_corpus.jsonl#78",
+          "artifacts/pond/external_experience_admitted.jsonl",
+          "artifacts/pond/external_experience_admitted.jsonl#0",
+          "adversarial_trace_1"
+        ],
+        "id": "contradiction:a75c10c1d888",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.65,
+        "reason_codes": [
+          "BLOCKED_INCOMPLETE_LINEAGE",
+          "BLOCKED_LOW_REUSE_POTENTIAL",
+          "BLOCKED_DUPLICATE",
+          "BLOCKED_SYNTHETIC_INFLATION",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "source_class": "claim_pressure",
+        "source_ref": "artifacts/pond/high_grade_seasoning_corpus.jsonl#78",
+        "supporting_refs": [
+          "artifacts/pond/high_grade_seasoning_corpus.jsonl#78",
+          "artifacts/pond/external_experience_admitted.jsonl",
+          "artifacts/pond/external_experience_admitted.jsonl#0",
+          "adversarial_trace_1"
+        ],
+        "warning": "seasoning_00079"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "inferred",
+        "evidence_refs": [
+          "artifacts/pond/high_grade_seasoning_corpus.jsonl#79",
+          "artifacts/pond/external_experience_admitted.jsonl",
+          "artifacts/pond/external_experience_admitted.jsonl#1",
+          "adversarial_trace_1"
+        ],
+        "id": "contradiction:0b8ea451d69f",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.65,
+        "reason_codes": [
+          "BLOCKED_INCOMPLETE_LINEAGE",
+          "BLOCKED_LOW_REUSE_POTENTIAL",
+          "BLOCKED_DUPLICATE",
+          "BLOCKED_SYNTHETIC_INFLATION",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "source_class": "claim_pressure",
+        "source_ref": "artifacts/pond/high_grade_seasoning_corpus.jsonl#79",
+        "supporting_refs": [
+          "artifacts/pond/high_grade_seasoning_corpus.jsonl#79",
+          "artifacts/pond/external_experience_admitted.jsonl",
+          "artifacts/pond/external_experience_admitted.jsonl#1",
+          "adversarial_trace_1"
+        ],
+        "warning": "seasoning_00080"
+      }
+    ],
+    "contribution_grade": "bounded",
+    "contribution_grade_details": {
+      "contribution_grade": "bounded",
+      "grade_reasons": [
+        "refs_motifs_tensions_and_pressure_present"
+      ],
+      "minimum_gate_passed": true
+    },
+    "gate_failures": [],
+    "lineage": {
+      "corpus_hash": "b44a6338242a31cee7792d853979662f31975822d1509b8fca4a0824c38d5a0d",
+      "memory_replay_hashes": {
+        "claim": "ae51f1d2391a38c3921c42d478bb7bf7472983ba05ed0fc7d7cfd1e01d00c13d",
+        "compression": "186b8a20a3a55f585fb51e8aed581b20474af967df7c22fff81cf6db0ae495a1",
+        "contradiction": "7f932beee1b68b994c9dd10b479a2935bf32da24d47b7a20c744329fb571ac22",
+        "lineage": "d507eaf499959c721a92ca88f92b5b110adbc31aa7090e19fec4be1303be7895",
+        "motif": "b1325c12bbe4b415c11377f0bf7a3eb372454b752fb4a1fe077319c8ea28d804",
+        "proof": "10acd21ad33751eb042ff5c0e6e8b8121714cc004a894a4e419d49c7d0bcd28c",
+        "unresolved": "e0ef790979e82d3150e016b51ac1c45d917e4f0f00151e82750132aff30a8e38"
+      },
+      "recall_query_hashes": {
+        "claim": "e377246311f4419ca1590d5186b7ef93b386ed84e8bf0e50c4d3a3fdb3e135c2",
+        "compression": "c60dd763c8146b625bdebf343635fee117f1cc936c85c944f5bafa90306c112e",
+        "contradiction": "59f5672b62d6f3e0121c24db397804fdc085a584aae239f81bcd5418d0a0d58c",
+        "lineage": "878bf15afab61ec2a22407fd362781940f94568b7a78cb5459617fae0ca89c7b",
+        "motif": "29be79f4045bfceec965ce782bcbd5b98cb39986b1a600611ab83e260fdf3662",
+        "proof": "794f529169e26c6f8299d75616c8a19496bfd52bfca0d9b3b8156bc5af0c7e86",
+        "unresolved": "3b70aacf3bd3bd5ca2c7b1335cdcaf5231c09726b629fbf6bfc6fd250ca50ab4"
+      },
+      "runtime_request_hash": "0d6f9882c36f1b197651e460b1229e609990f89d3039eff90859fc41e36b5cfb",
+      "runtime_response_hash": "c5864b3cefbe26ae39632279bc03f03b54cf33e9ba376501cb6d74591b3b7715",
+      "schema_version": "belief_ledger.inside_voice_runtime.v1",
+      "selected_trace_ids": [
+        "inside_voice_runtime:090c5db589c51515dfae",
+        "inside_voice_runtime:2746b4d3c9dba73a17ea",
+        "inside_voice_runtime:2b41fa2db16d0d7d90ec",
+        "inside_voice_runtime:3591cc0fd8efa87ae74c",
+        "inside_voice_runtime:3c5d87a45c4a501549a6",
+        "inside_voice_runtime:4b770bd0912a5a0288e1",
+        "inside_voice_runtime:4be72c39afb8a6346fe5",
+        "inside_voice_runtime:65d4ed150a65cf9c72f2",
+        "inside_voice_runtime:66a06b4bbc7cc6a19bfd",
+        "inside_voice_runtime:68121ebf717e29fbf8ef",
+        "inside_voice_runtime:6c9e02fc9a5e06b628a6",
+        "inside_voice_runtime:7cd6749b3341fe9a38e3",
+        "inside_voice_runtime:8c7a0ef664098db91e88",
+        "inside_voice_runtime:af06912b7bc49de2b350",
+        "inside_voice_runtime:b33840a8efed1de7f1d6",
+        "inside_voice_runtime:b52f584c333f5750c031",
+        "inside_voice_runtime:b8b688c3ac0c691bef5f",
+        "inside_voice_runtime:d38efcb6a3972d08a79c",
+        "inside_voice_runtime:d43e2e09c028b98314e8"
+      ],
+      "source_artifact_hashes": {
+        "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json": "aec931f2daa049a5b97236151e9945d95a67c584a2dc49dc46e2f216813ff48a",
+        "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl": "623da3a10aaa6da06d8c480c75e194d5776bdc84016eb473dd3f37067f1ec6ee",
+        "artifacts/pond/base_saturation_state.json": "d2a7715c88c71afd182ec69a416a652b51492d7d4695ce780473107cb3b2408e",
+        "artifacts/pond/harmonic_recall_report.json": "0ff0fa69a7a8a12bfd1be3ad1f607be098e35160591ad82099caa8e87b526466",
+        "artifacts/pond/high_grade_seasoning_corpus.jsonl": "0433ceef93e9a1d2db9bbc1de9508274477a8f57b93cf46b7adf7bfbf9d9c0c9",
+        "artifacts/pond/pattern_overlap_clusters.jsonl": "f502626a0204b07929325464a4f8a43001d3b78eab3f36ae8a2d062bf67b0616",
+        "artifacts/pond/reusable_lineage_pool.jsonl": "a13989465898c5cbccc0b6835deb41a6112d28b711113230c6b7db399c801bba",
+        "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json": "801c2431dfddf10ef776d6193e8530c96e59f4dbb7bb5317d55b1e3e4512aca4",
+        "artifacts/proof/recursive_intelligence_failure_gauntlet/failure_localization_report.json": "67e920f4d2734f7803f09e15baf1a479abdb48bacbaa9eb64167b419025ab050",
+        "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json": "0e631d5a4523e79c3e53798a2316165a5599c1075dda8cc0917efdb77ec165af",
+        "artifacts/proof/recursive_stability_proof_rollup/recursive_stability_claim_boundary.json": "7a22a0e79918f3cfcc25fb13833e96cff6faf56bf28b35b02aedd4682faf2478",
+        "docs/integrations/COGNITION.md": "b9f213908367345b0e828b6f11e01fcdf3d004cdf867f8d29431fa91e9da2503",
+        "docs/proofs/RECURSIVE_INTELLIGENCE_FAILURE_GAUNTLET.md": "c85241c403218c3fff6209db1e88fff0ee3b8afe4d8e4a566469e506f295f5a9",
+        "docs/proofs/RECURSIVE_STABILITY_PROOF_ROLLUP.md": "97551f7d5ea6441f0e706a37ff52a00ca150dc819551f3cc1a68e2e4ce09687e"
+      }
+    },
+    "lineage_refs": [
+      "request_visible_ref:proofs/019-mcp-seasoning-ablation-control/tasks/task_001/task_description.md",
+      "request_visible_ref:artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+      "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json",
+      "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+      "docs/proofs/RECURSIVE_INTELLIGENCE_FAILURE_GAUNTLET.md",
+      "artifacts/proof/recursive_stability_proof_rollup/recursive_stability_claim_boundary.json",
+      "docs/integrations/COGNITION.md",
+      "docs/proofs/RECURSIVE_STABILITY_PROOF_ROLLUP.md",
+      "artifacts/pond/reusable_lineage_pool.jsonl#0",
+      "artifacts/pond/pattern_overlap_clusters.jsonl"
+    ],
+    "operational_boundaries": [],
+    "pressure_rankings": [
+      {
+        "boundary_risk": "medium",
+        "claim_level": "unresolved",
+        "id": "pressure:44eeb320a80c1c5f",
+        "kind": "unresolved",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE",
+          "CONTRADICTION_CLUSTER",
+          "CONFLICTING_PATHWAY_REINFORCEMENT",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "UNRESOLVED_TENSION_RELEVANCE",
+          "REPLAY_INSUFFICIENCY_RELEVANCE"
+        ],
+        "pressure_score": 0.912,
+        "reason_codes": [
+          "CONTRADICTION_CLUSTER",
+          "CONFLICTING_PATHWAY_REINFORCEMENT",
+          "DIRECT_REQUEST_MATCH",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "UNRESOLVED_TENSION_RELEVANCE",
+          "REPLAY_INSUFFICIENCY_RELEVANCE"
+        ],
+        "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+        "supporting_refs": [
+          "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+        ],
+        "title": "CONFLICTING_PATHWAY_REINFORCEMENT"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "unresolved",
+        "id": "pressure:cf4e82e380cf1a94",
+        "kind": "unresolved",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE",
+          "REPLAY_INSUFFICIENCY_RELEVANCE",
+          "TASK_PATHWAY_COLLISION",
+          "UNRESOLVED_TENSION_RELEVANCE"
+        ],
+        "pressure_score": 0.909,
+        "reason_codes": [
+          "TASK_PATHWAY_COLLISION",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE",
+          "REPLAY_INSUFFICIENCY_RELEVANCE",
+          "UNRESOLVED_TENSION_RELEVANCE"
+        ],
+        "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+        "supporting_refs": [
+          "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+          "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+          "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57"
+        ],
+        "title": "arbitration:28663be18db91b7d"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "unresolved",
+        "id": "pressure:7ba41d8ba5ef3698",
+        "kind": "unresolved",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE",
+          "REPLAY_INSUFFICIENCY_RELEVANCE",
+          "claim_register",
+          "CLAIM_DISCIPLINE",
+          "UNRESOLVED_TENSION_RELEVANCE"
+        ],
+        "pressure_score": 0.906,
+        "reason_codes": [
+          "claim_register",
+          "CLAIM_DISCIPLINE",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE",
+          "REPLAY_INSUFFICIENCY_RELEVANCE",
+          "UNRESOLVED_TENSION_RELEVANCE"
+        ],
+        "source_ref": "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+        "supporting_refs": [
+          "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json"
+        ],
+        "title": "claim boundary"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "unresolved",
+        "id": "pressure:62a978e2d84c9f5a",
+        "kind": "unresolved",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE",
+          "PROOF_CLAIM_BOUNDARY",
+          "UNRESOLVED_TENSION_RELEVANCE",
+          "REPLAY_INSUFFICIENCY_RELEVANCE"
+        ],
+        "pressure_score": 0.892,
+        "reason_codes": [
+          "PROOF_CLAIM_BOUNDARY",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE",
+          "UNRESOLVED_TENSION_RELEVANCE",
+          "REPLAY_INSUFFICIENCY_RELEVANCE"
+        ],
+        "source_ref": "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json",
+        "supporting_refs": [
+          "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json"
+        ],
+        "title": "proof claim boundary"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "unresolved",
+        "id": "pressure:92605474c9a9fc18",
+        "kind": "unresolved",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "UNRESOLVED_TENSION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE",
+          "REPLAY_INSUFFICIENCY_RELEVANCE",
+          "CONFLICTING_LINEAGE",
+          "I_DONT_KNOW"
+        ],
+        "pressure_score": 0.887,
+        "reason_codes": [
+          "CONFLICTING_LINEAGE",
+          "I_DONT_KNOW",
+          "NEEDS_OPERATOR_REVIEW",
+          "TASK_PATHWAY_COLLISION",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "UNRESOLVED_TENSION_RELEVANCE"
+        ],
+        "source_ref": "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0",
+        "supporting_refs": [
+          "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0",
+          "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+          "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57",
+          "memory:inside_voice:98f0d63ed2873cc3492c"
+        ],
+        "title": "gap:5c482ea64982398d"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "observed",
+        "id": "pressure:4c617afdf60d4bdf",
+        "kind": "lineage",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "SYNTHETIC_ONLY_WARNING_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE",
+          "REPLAY_INSUFFICIENCY_RELEVANCE"
+        ],
+        "pressure_score": 0.806,
+        "reason_codes": [
+          "PROOF_DOCUMENT",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "SYNTHETIC_ONLY_WARNING_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE",
+          "REPLAY_INSUFFICIENCY_RELEVANCE"
+        ],
+        "source_class": "proof",
+        "source_ref": "docs/proofs/RECURSIVE_INTELLIGENCE_FAILURE_GAUNTLET.md",
+        "supporting_refs": [
+          "docs/proofs/RECURSIVE_INTELLIGENCE_FAILURE_GAUNTLET.md"
+        ],
+        "title": "RECURSIVE_INTELLIGENCE_FAILURE_GAUNTLET"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "inferred",
+        "id": "pressure:cdd7c56880c04dc3",
+        "kind": "claim_pressure",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE",
+          "REPLAY_INSUFFICIENCY_RELEVANCE",
+          "TASK_PATHWAY_COLLISION"
+        ],
+        "pressure_score": 0.774,
+        "reason_codes": [
+          "TASK_PATHWAY_COLLISION",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE",
+          "REPLAY_INSUFFICIENCY_RELEVANCE"
+        ],
+        "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+        "supporting_refs": [
+          "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+          "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+          "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57"
+        ],
+        "title": "arbitration:28663be18db91b7d"
+      },
+      {
+        "boundary_risk": "high",
+        "claim_level": "observed",
+        "id": "pressure:9fe83d2a134324e5",
+        "kind": "lineage",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE",
+          "REPLAY_INSUFFICIENCY_RELEVANCE"
+        ],
+        "pressure_score": 0.708,
+        "reason_codes": [
+          "PROOF_DOCUMENT",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE",
+          "REPLAY_INSUFFICIENCY_RELEVANCE"
+        ],
+        "source_class": "proof",
+        "source_ref": "docs/integrations/COGNITION.md",
+        "supporting_refs": [
+          "docs/integrations/COGNITION.md"
+        ],
+        "title": "COGNITION"
+      }
+    ],
+    "recalled_motifs": [
+      {
+        "boundary_risk": "medium",
+        "claim_level": "observed",
+        "motif": "overlap_cluster_0018",
+        "motif_id": "inside_voice_runtime:b52f584c333f5750c031",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.458,
+        "reason_codes": [
+          "recurring_motif",
+          "DIRECT_REQUEST_MATCH",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "source_class": "motif",
+        "source_ref": "artifacts/pond/pattern_overlap_clusters.jsonl#0",
+        "supporting_refs": [
+          "artifacts/pond/pattern_overlap_clusters.jsonl#0",
+          "artifacts/falsification/external_falsification_results.jsonl#0",
+          "artifacts/falsification/external_falsification_results.jsonl#1",
+          "artifacts/falsification/external_falsification_results.jsonl#2"
+        ]
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "observed",
+        "motif": "fragment_00001",
+        "motif_id": "inside_voice_runtime:3591cc0fd8efa87ae74c",
+        "pressure_reasons": [
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.35,
+        "reason_codes": [
+          "lineage_fragment",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "source_class": "lineage",
+        "source_ref": "artifacts/pond/reusable_lineage_pool.jsonl#0",
+        "supporting_refs": [
+          "artifacts/pond/reusable_lineage_pool.jsonl#0",
+          "artifacts/pond/pattern_overlap_clusters.jsonl",
+          "artifacts/falsification/external_falsification_results.jsonl#0",
+          "artifacts/falsification/external_falsification_results.jsonl#1"
+        ]
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "observed",
+        "motif": "harmonic_recall_report",
+        "motif_id": "inside_voice_runtime:4be72c39afb8a6346fe5",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.413,
+        "reason_codes": [
+          "CONVERGENCE_STATE",
+          "DIRECT_REQUEST_MATCH",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "source_class": "convergence",
+        "source_ref": "artifacts/pond/harmonic_recall_report.json",
+        "supporting_refs": [
+          "artifacts/pond/harmonic_recall_report.json"
+        ]
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "observed",
+        "motif": "base_saturation_state",
+        "motif_id": "inside_voice_runtime:66a06b4bbc7cc6a19bfd",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.413,
+        "reason_codes": [
+          "CONVERGENCE_STATE",
+          "DIRECT_REQUEST_MATCH",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "source_class": "convergence",
+        "source_ref": "artifacts/pond/base_saturation_state.json",
+        "supporting_refs": [
+          "artifacts/pond/base_saturation_state.json"
+        ]
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "observed",
+        "motif": "proof claim boundary",
+        "motif_id": "inside_voice_runtime:7cd6749b3341fe9a38e3",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.645,
+        "reason_codes": [
+          "PROOF_CLAIM_BOUNDARY",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "source_class": "claim_register",
+        "source_ref": "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json",
+        "supporting_refs": [
+          "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json"
+        ]
+      }
+    ],
+    "recommended_next_pressure": [
+      "Inspect the cited proof and claim-boundary artifacts before using the synthesis as task evidence.",
+      "Preserve observed/inferred/hypothesis/unresolved labels in any downstream response.",
+      "Resolve contradiction pressure with replay-linked evidence or keep it as a warning.",
+      "Treat unresolved tensions as blocking for claim escalation until answered with cited evidence."
+    ],
+    "recommended_validation": [
+      "Inspect the cited proof and claim-boundary artifacts before using the synthesis as task evidence.",
+      "Preserve observed/inferred/hypothesis/unresolved labels in any downstream response.",
+      "Resolve contradiction pressure with replay-linked evidence or keep it as a warning.",
+      "Treat unresolved tensions as blocking for claim escalation until answered with cited evidence."
+    ],
+    "relevant_lineage_refs": [
+      "request_visible_ref:proofs/019-mcp-seasoning-ablation-control/tasks/task_001/task_description.md",
+      "request_visible_ref:artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+      "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json",
+      "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+      "docs/proofs/RECURSIVE_INTELLIGENCE_FAILURE_GAUNTLET.md",
+      "artifacts/proof/recursive_stability_proof_rollup/recursive_stability_claim_boundary.json",
+      "docs/integrations/COGNITION.md",
+      "docs/proofs/RECURSIVE_STABILITY_PROOF_ROLLUP.md",
+      "artifacts/pond/reusable_lineage_pool.jsonl#0",
+      "artifacts/pond/pattern_overlap_clusters.jsonl"
+    ],
+    "retrieved_artifact_refs": [
+      "request_visible_ref:proofs/019-mcp-seasoning-ablation-control/tasks/task_001/task_description.md",
+      "request_visible_ref:artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+      "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json",
+      "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+      "docs/proofs/RECURSIVE_INTELLIGENCE_FAILURE_GAUNTLET.md",
+      "artifacts/proof/recursive_stability_proof_rollup/recursive_stability_claim_boundary.json",
+      "docs/integrations/COGNITION.md",
+      "docs/proofs/RECURSIVE_STABILITY_PROOF_ROLLUP.md",
+      "artifacts/pond/reusable_lineage_pool.jsonl#0",
+      "artifacts/pond/pattern_overlap_clusters.jsonl",
+      "artifacts/pond/pattern_overlap_clusters.jsonl#0",
+      "artifacts/falsification/external_falsification_results.jsonl#0",
+      "artifacts/falsification/external_falsification_results.jsonl#1",
+      "artifacts/falsification/external_falsification_results.jsonl#2",
+      "artifacts/pond/harmonic_recall_report.json",
+      "artifacts/pond/base_saturation_state.json",
+      "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+      "artifacts/pond/high_grade_seasoning_corpus.jsonl#75",
+      "artifacts/pond/reusable_lineage_pool.jsonl",
+      "trace.falsification.hostile_ext_001",
+      "artifacts/pond/high_grade_seasoning_corpus.jsonl#76",
+      "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+      "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57",
+      "artifacts/pond/high_grade_seasoning_corpus.jsonl#78"
+    ],
+    "runtime_stage_report_ref": "artifacts/integrations/inside_voice_runtime/runtime_stage_report.json",
+    "uncertainty": [
+      "Recall is bounded to indexed local pond/proof artifacts and may miss evidence outside the declared corpus.",
+      "Recalled reports remain evidence, not implementation capability.",
+      "Direct source inspection is still required before using any claim operationally.",
+      "Unresolved tensions remain open and block claim escalation.",
+      "Contradiction pressure remains advisory until replay-linked evidence resolves it."
+    ],
+    "unresolved_tensions": [
+      {
+        "boundary_risk": "medium",
+        "claim_level": "unresolved",
+        "evidence_refs": [
+          "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+          "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+          "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57"
+        ],
+        "id": "inside_voice_runtime:8c7a0ef664098db91e88",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE",
+          "REPLAY_INSUFFICIENCY_RELEVANCE"
+        ],
+        "pressure_score": 0.774,
+        "reason_codes": [
+          "TASK_PATHWAY_COLLISION",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE",
+          "REPLAY_INSUFFICIENCY_RELEVANCE"
+        ],
+        "recommended_validation": "Resolve only with replay-linked evidence or keep as an explicit uncertainty.",
+        "source_class": "contradiction",
+        "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+        "status": "unresolved",
+        "supporting_refs": [
+          "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+          "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+          "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57"
+        ],
+        "tension": "arbitration:28663be18db91b7d"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "unresolved",
+        "evidence_refs": [
+          "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0",
+          "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+          "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57",
+          "memory:inside_voice:98f0d63ed2873cc3492c"
+        ],
+        "id": "inside_voice_runtime:d43e2e09c028b98314e8",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "UNRESOLVED_TENSION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE",
+          "REPLAY_INSUFFICIENCY_RELEVANCE"
+        ],
+        "pressure_score": 0.863,
+        "reason_codes": [
+          "CONFLICTING_LINEAGE",
+          "I_DONT_KNOW",
+          "NEEDS_OPERATOR_REVIEW",
+          "TASK_PATHWAY_COLLISION",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "UNRESOLVED_TENSION_RELEVANCE"
+        ],
+        "recommended_validation": "Resolve only with replay-linked evidence or keep as an explicit uncertainty.",
+        "source_class": "unresolved",
+        "source_ref": "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0",
+        "status": "unresolved",
+        "supporting_refs": [
+          "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0",
+          "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+          "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57",
+          "memory:inside_voice:98f0d63ed2873cc3492c"
+        ],
+        "tension": "gap:5c482ea64982398d"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "unresolved",
+        "evidence_refs": [
+          "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+        ],
+        "id": "inside_voice_runtime:090c5db589c51515dfae",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.5,
+        "reason_codes": [
+          "CONTRADICTION_CLUSTER",
+          "CONFLICTING_PATHWAY_REINFORCEMENT",
+          "DIRECT_REQUEST_MATCH",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "recommended_validation": "Resolve only with replay-linked evidence or keep as an explicit uncertainty.",
+        "source_class": "contradiction",
+        "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+        "status": "unresolved",
+        "supporting_refs": [
+          "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+        ],
+        "tension": "CONFLICTING_PATHWAY_REINFORCEMENT"
+      },
+      {
+        "boundary_risk": "medium",
+        "claim_level": "unresolved",
+        "evidence_refs": [
+          "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json"
+        ],
+        "id": "inside_voice_runtime:7cd6749b3341fe9a38e3",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "pressure_score": 0.675,
+        "reason_codes": [
+          "PROOF_CLAIM_BOUNDARY",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE"
+        ],
+        "recommended_validation": "Resolve only with replay-linked evidence or keep as an explicit uncertainty.",
+        "source_class": "claim_register",
+        "source_ref": "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json",
+        "status": "unresolved",
+        "supporting_refs": [
+          "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json"
+        ],
+        "tension": "proof claim boundary"
+      },
+      {
+        "boundary_risk": "high",
+        "claim_level": "unresolved",
+        "evidence_refs": [
+          "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json"
+        ],
+        "id": "inside_voice_runtime:af06912b7bc49de2b350",
+        "pressure_reasons": [
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE",
+          "REPLAY_INSUFFICIENCY_RELEVANCE"
+        ],
+        "pressure_score": 0.78,
+        "reason_codes": [
+          "claim_register",
+          "CLAIM_DISCIPLINE",
+          "DIRECT_REQUEST_MATCH",
+          "PROOF_BOUNDARY_RELEVANCE",
+          "CONTRADICTION_RELEVANCE",
+          "CLAIM_DISCIPLINE_RELEVANCE",
+          "REPLAY_INSUFFICIENCY_RELEVANCE"
+        ],
+        "recommended_validation": "Resolve only with replay-linked evidence or keep as an explicit uncertainty.",
+        "source_class": "claim_register",
+        "source_ref": "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+        "status": "unresolved",
+        "supporting_refs": [
+          "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json"
+        ],
+        "tension": "claim boundary"
+      }
+    ]
+  },
+  "runtime_evidence": {
+    "memory_replay_hashes": {
+      "claim": "ae51f1d2391a38c3921c42d478bb7bf7472983ba05ed0fc7d7cfd1e01d00c13d",
+      "compression": "186b8a20a3a55f585fb51e8aed581b20474af967df7c22fff81cf6db0ae495a1",
+      "contradiction": "7f932beee1b68b994c9dd10b479a2935bf32da24d47b7a20c744329fb571ac22",
+      "lineage": "d507eaf499959c721a92ca88f92b5b110adbc31aa7090e19fec4be1303be7895",
+      "motif": "b1325c12bbe4b415c11377f0bf7a3eb372454b752fb4a1fe077319c8ea28d804",
+      "proof": "10acd21ad33751eb042ff5c0e6e8b8121714cc004a894a4e419d49c7d0bcd28c",
+      "unresolved": "e0ef790979e82d3150e016b51ac1c45d917e4f0f00151e82750132aff30a8e38"
+    },
+    "recall_query_hashes": {
+      "claim": "e377246311f4419ca1590d5186b7ef93b386ed84e8bf0e50c4d3a3fdb3e135c2",
+      "compression": "c60dd763c8146b625bdebf343635fee117f1cc936c85c944f5bafa90306c112e",
+      "contradiction": "59f5672b62d6f3e0121c24db397804fdc085a584aae239f81bcd5418d0a0d58c",
+      "lineage": "878bf15afab61ec2a22407fd362781940f94568b7a78cb5459617fae0ca89c7b",
+      "motif": "29be79f4045bfceec965ce782bcbd5b98cb39986b1a600611ab83e260fdf3662",
+      "proof": "794f529169e26c6f8299d75616c8a19496bfd52bfca0d9b3b8156bc5af0c7e86",
+      "unresolved": "3b70aacf3bd3bd5ca2c7b1335cdcaf5231c09726b629fbf6bfc6fd250ca50ab4"
+    },
+    "retrieved_artifact_refs": [
+      "request_visible_ref:proofs/019-mcp-seasoning-ablation-control/tasks/task_001/task_description.md",
+      "request_visible_ref:artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+      "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json",
+      "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+      "docs/proofs/RECURSIVE_INTELLIGENCE_FAILURE_GAUNTLET.md",
+      "artifacts/proof/recursive_stability_proof_rollup/recursive_stability_claim_boundary.json",
+      "docs/integrations/COGNITION.md",
+      "docs/proofs/RECURSIVE_STABILITY_PROOF_ROLLUP.md",
+      "artifacts/pond/reusable_lineage_pool.jsonl#0",
+      "artifacts/pond/pattern_overlap_clusters.jsonl",
+      "artifacts/pond/pattern_overlap_clusters.jsonl#0",
+      "artifacts/falsification/external_falsification_results.jsonl#0",
+      "artifacts/falsification/external_falsification_results.jsonl#1",
+      "artifacts/falsification/external_falsification_results.jsonl#2",
+      "artifacts/pond/harmonic_recall_report.json",
+      "artifacts/pond/base_saturation_state.json",
+      "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+      "artifacts/pond/high_grade_seasoning_corpus.jsonl#75",
+      "artifacts/pond/reusable_lineage_pool.jsonl",
+      "trace.falsification.hostile_ext_001",
+      "artifacts/pond/high_grade_seasoning_corpus.jsonl#76",
+      "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+      "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57",
+      "artifacts/pond/high_grade_seasoning_corpus.jsonl#78"
+    ],
+    "selected_trace_ids": [
+      "inside_voice_runtime:090c5db589c51515dfae",
+      "inside_voice_runtime:2746b4d3c9dba73a17ea",
+      "inside_voice_runtime:2b41fa2db16d0d7d90ec",
+      "inside_voice_runtime:3591cc0fd8efa87ae74c",
+      "inside_voice_runtime:3c5d87a45c4a501549a6",
+      "inside_voice_runtime:4b770bd0912a5a0288e1",
+      "inside_voice_runtime:4be72c39afb8a6346fe5",
+      "inside_voice_runtime:65d4ed150a65cf9c72f2",
+      "inside_voice_runtime:66a06b4bbc7cc6a19bfd",
+      "inside_voice_runtime:68121ebf717e29fbf8ef",
+      "inside_voice_runtime:6c9e02fc9a5e06b628a6",
+      "inside_voice_runtime:7cd6749b3341fe9a38e3",
+      "inside_voice_runtime:8c7a0ef664098db91e88",
+      "inside_voice_runtime:af06912b7bc49de2b350",
+      "inside_voice_runtime:b33840a8efed1de7f1d6",
+      "inside_voice_runtime:b52f584c333f5750c031",
+      "inside_voice_runtime:b8b688c3ac0c691bef5f",
+      "inside_voice_runtime:d38efcb6a3972d08a79c",
+      "inside_voice_runtime:d43e2e09c028b98314e8"
+    ],
+    "source_artifact_hashes": {
+      "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json": "aec931f2daa049a5b97236151e9945d95a67c584a2dc49dc46e2f216813ff48a",
+      "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl": "623da3a10aaa6da06d8c480c75e194d5776bdc84016eb473dd3f37067f1ec6ee",
+      "artifacts/pond/base_saturation_state.json": "d2a7715c88c71afd182ec69a416a652b51492d7d4695ce780473107cb3b2408e",
+      "artifacts/pond/harmonic_recall_report.json": "0ff0fa69a7a8a12bfd1be3ad1f607be098e35160591ad82099caa8e87b526466",
+      "artifacts/pond/high_grade_seasoning_corpus.jsonl": "0433ceef93e9a1d2db9bbc1de9508274477a8f57b93cf46b7adf7bfbf9d9c0c9",
+      "artifacts/pond/pattern_overlap_clusters.jsonl": "f502626a0204b07929325464a4f8a43001d3b78eab3f36ae8a2d062bf67b0616",
+      "artifacts/pond/reusable_lineage_pool.jsonl": "a13989465898c5cbccc0b6835deb41a6112d28b711113230c6b7db399c801bba",
+      "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json": "801c2431dfddf10ef776d6193e8530c96e59f4dbb7bb5317d55b1e3e4512aca4",
+      "artifacts/proof/recursive_intelligence_failure_gauntlet/failure_localization_report.json": "67e920f4d2734f7803f09e15baf1a479abdb48bacbaa9eb64167b419025ab050",
+      "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json": "0e631d5a4523e79c3e53798a2316165a5599c1075dda8cc0917efdb77ec165af",
+      "artifacts/proof/recursive_stability_proof_rollup/recursive_stability_claim_boundary.json": "7a22a0e79918f3cfcc25fb13833e96cff6faf56bf28b35b02aedd4682faf2478",
+      "docs/integrations/COGNITION.md": "b9f213908367345b0e828b6f11e01fcdf3d004cdf867f8d29431fa91e9da2503",
+      "docs/proofs/RECURSIVE_INTELLIGENCE_FAILURE_GAUNTLET.md": "c85241c403218c3fff6209db1e88fff0ee3b8afe4d8e4a566469e506f295f5a9",
+      "docs/proofs/RECURSIVE_STABILITY_PROOF_ROLLUP.md": "97551f7d5ea6441f0e706a37ff52a00ca150dc819551f3cc1a68e2e4ce09687e"
+    }
+  },
+  "schema_version": "belief_ledger.inside_voice_runtime.v1"
+}

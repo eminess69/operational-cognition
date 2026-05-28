@@ -1,0 +1,40 @@
+{
+  "context": {
+    "constraints": [
+      "pond-backed runtime required",
+      "MCP-seasoned candidate recall disabled for this control arm",
+      "ordinary replay evidence allowed",
+      "contradiction refs allowed",
+      "authority refs allowed",
+      "unresolved tensions allowed",
+      "pressure rankings required",
+      "do not mutate reusable_lineage_pool.jsonl",
+      "do not promote candidates",
+      "do not validate public claims",
+      "do not claim broad capability"
+    ],
+    "desired_artifacts": [
+      "operational plan",
+      "ablation visibility evidence",
+      "contradiction arbitration",
+      "authority ranking",
+      "replayable stop conditions",
+      "runtime hashes"
+    ],
+    "files": [
+      "proofs/019-mcp-seasoning-ablation-control/tasks/task_004/task_description.md",
+      "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+      "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl",
+      "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+      "artifacts/pond/reusable_lineage_pool.jsonl",
+      "artifacts/pond/pattern_overlap_clusters.jsonl",
+      "docs/integrations/COGNITION.md"
+    ],
+    "summary": "Ablated mode for Proof 019 task_004. The control arm removes MCP-seasoned first-principles candidate sources before recall while retaining ordinary pond-backed replay and pressure sources."
+  },
+  "max_output_chars": 8000,
+  "mode": "review",
+  "request_id": "proof-019-task_004-ablated",
+  "require_lineage": true,
+  "task": "Solve the held-out constrained operational planning under stale assumptions task with the candidate-family ablation enabled. Use normal pond replay, contradiction, authority, unresolved-tension, and pressure evidence, but exclude MCP-seasoned candidate recall from the control arm."
+}
