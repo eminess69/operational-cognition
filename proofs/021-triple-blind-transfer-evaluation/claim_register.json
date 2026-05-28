@@ -1,0 +1,87 @@
+{
+  "claims": [
+    {
+      "id": "five_held_out_tasks_selected",
+      "claim_level": "evidence_backed",
+      "evidence_refs": [
+        "task_selection_report.md",
+        "anonymized_outputs/"
+      ],
+      "safe_public_wording": "Five new local held-out operational tasks were selected outside the Proofs 018-020 task titles.",
+      "risk_if_overstated": "Overstating this would imply broader novelty than the recorded title and domain separation supports."
+    },
+    {
+      "id": "anonymized_solution_labels_used",
+      "claim_level": "evidence_backed",
+      "evidence_refs": [
+        "anonymized_outputs/",
+        "blind_scores.json"
+      ],
+      "safe_public_wording": "The scorer evaluated solution_A, solution_B, and solution_C labels before reveal.",
+      "risk_if_overstated": "Overstating this would hide any accidental source-identifying text in blind artifacts."
+    },
+    {
+      "id": "scorer_had_no_mode_names",
+      "claim_level": "evidence_backed",
+      "evidence_refs": [
+        "blind_protocol.md",
+        "blind_scores.json"
+      ],
+      "safe_public_wording": "The blind scoring artifact records no access to production mode names during scoring.",
+      "risk_if_overstated": "Overstating this would weaken the leakage control the proof is meant to test."
+    },
+    {
+      "id": "blind_scores_written_before_reveal",
+      "claim_level": "evidence_backed",
+      "evidence_refs": [
+        "blind_scores.json",
+        "mode_mapping_hidden.json",
+        "revealed_results.json"
+      ],
+      "safe_public_wording": "The hidden mapping records reveal after the blind score lock and binds to the blind score hash.",
+      "risk_if_overstated": "Overstating this would permit self-confirming score edits after reveal."
+    },
+    {
+      "id": "no_seasoned_refs_in_blind_artifacts",
+      "claim_level": "evidence_backed",
+      "evidence_refs": [
+        "anonymized_outputs/",
+        "blind_scores.json",
+        "tools/validate_triple_blind_transfer.py"
+      ],
+      "safe_public_wording": "MCP-seasoned refs are absent from blind scoring artifacts.",
+      "risk_if_overstated": "Overstating this would conceal evaluator leakage."
+    },
+    {
+      "id": "seasoned_first_or_tied_on_at_least_four_tasks",
+      "claim_level": "evidence_backed",
+      "evidence_refs": [
+        "revealed_results.json",
+        "comparative_blind_report.md"
+      ],
+      "safe_public_wording": "After reveal, the MCP-seasoned condition was first on all five local tasks.",
+      "risk_if_overstated": "Overstating this would turn a local blind-scored result into an unsupported general result."
+    },
+    {
+      "id": "seasoned_aggregate_exceeded_controls",
+      "claim_level": "evidence_backed",
+      "evidence_refs": [
+        "revealed_results.json",
+        "final_verdict.json"
+      ],
+      "safe_public_wording": "After reveal, the MCP-seasoned aggregate score exceeded both controls in this proof.",
+      "risk_if_overstated": "Overstating this would imply superiority outside the recorded task set."
+    },
+    {
+      "id": "no_overclaiming",
+      "claim_level": "boundary",
+      "evidence_refs": [
+        "README.md",
+        "public_lineage_summary.md",
+        "final_verdict.json"
+      ],
+      "safe_public_wording": "The final verdict is bounded to the five local held-out tasks and this rubric.",
+      "risk_if_overstated": "If overstated, the evidence boundary would be exceeded."
+    }
+  ]
+}

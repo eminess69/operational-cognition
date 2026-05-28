@@ -1,0 +1,137 @@
+{
+  "proof_id": "021-triple-blind-transfer-evaluation",
+  "blind_scores_sha256": "75803b2f097766f4545f88470f179a49a3a597e84b7a0fb7e2a07284523b03f8",
+  "mode_mapping_hidden_sha256": "74d29b2ffdea43e30c5bfeb00b946cb48316d0092c4f5b0cd3d09b3fefc365ab",
+  "mapping_revealed_at": "2026-05-28T09:25:00-07:00",
+  "mapping_revealed_after_blind_scores": true,
+  "task_results": {
+    "task_001": {
+      "labels": {
+        "solution_A": {
+          "mode": "baseline_visible_only",
+          "total_score": 30
+        },
+        "solution_B": {
+          "mode": "pond_backed_mcp_seasoned",
+          "total_score": 36
+        },
+        "solution_C": {
+          "mode": "pond_backed_ablated",
+          "total_score": 32
+        }
+      },
+      "mode_totals": {
+        "baseline_visible_only": 30,
+        "pond_backed_ablated": 32,
+        "pond_backed_mcp_seasoned": 36
+      },
+      "winner_modes": [
+        "pond_backed_mcp_seasoned"
+      ]
+    },
+    "task_002": {
+      "labels": {
+        "solution_A": {
+          "mode": "pond_backed_ablated",
+          "total_score": 31
+        },
+        "solution_B": {
+          "mode": "baseline_visible_only",
+          "total_score": 29
+        },
+        "solution_C": {
+          "mode": "pond_backed_mcp_seasoned",
+          "total_score": 35
+        }
+      },
+      "mode_totals": {
+        "baseline_visible_only": 29,
+        "pond_backed_ablated": 31,
+        "pond_backed_mcp_seasoned": 35
+      },
+      "winner_modes": [
+        "pond_backed_mcp_seasoned"
+      ]
+    },
+    "task_003": {
+      "labels": {
+        "solution_A": {
+          "mode": "pond_backed_mcp_seasoned",
+          "total_score": 34
+        },
+        "solution_B": {
+          "mode": "pond_backed_ablated",
+          "total_score": 32
+        },
+        "solution_C": {
+          "mode": "baseline_visible_only",
+          "total_score": 31
+        }
+      },
+      "mode_totals": {
+        "baseline_visible_only": 31,
+        "pond_backed_ablated": 32,
+        "pond_backed_mcp_seasoned": 34
+      },
+      "winner_modes": [
+        "pond_backed_mcp_seasoned"
+      ]
+    },
+    "task_004": {
+      "labels": {
+        "solution_A": {
+          "mode": "baseline_visible_only",
+          "total_score": 30
+        },
+        "solution_B": {
+          "mode": "pond_backed_ablated",
+          "total_score": 30
+        },
+        "solution_C": {
+          "mode": "pond_backed_mcp_seasoned",
+          "total_score": 34
+        }
+      },
+      "mode_totals": {
+        "baseline_visible_only": 30,
+        "pond_backed_ablated": 30,
+        "pond_backed_mcp_seasoned": 34
+      },
+      "winner_modes": [
+        "pond_backed_mcp_seasoned"
+      ]
+    },
+    "task_005": {
+      "labels": {
+        "solution_A": {
+          "mode": "pond_backed_ablated",
+          "total_score": 33
+        },
+        "solution_B": {
+          "mode": "pond_backed_mcp_seasoned",
+          "total_score": 35
+        },
+        "solution_C": {
+          "mode": "baseline_visible_only",
+          "total_score": 32
+        }
+      },
+      "mode_totals": {
+        "baseline_visible_only": 32,
+        "pond_backed_ablated": 33,
+        "pond_backed_mcp_seasoned": 35
+      },
+      "winner_modes": [
+        "pond_backed_mcp_seasoned"
+      ]
+    }
+  },
+  "aggregate": {
+    "baseline_visible_only_total": 152,
+    "pond_backed_ablated_total": 158,
+    "pond_backed_mcp_seasoned_total": 174,
+    "seasoned_first_or_tied_tasks": 5,
+    "seasoned_vs_baseline_delta": 22,
+    "seasoned_vs_ablated_delta": 16
+  }
+}

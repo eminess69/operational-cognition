@@ -1,0 +1,304 @@
+{
+  "proof_id": "021-triple-blind-transfer-evaluation",
+  "scoring_status": "locked_before_reveal",
+  "scoring_locked_at": "2026-05-28T09:15:00-07:00",
+  "labels_scored": [
+    "solution_A",
+    "solution_B",
+    "solution_C"
+  ],
+  "mode_mapping_included": false,
+  "scorer_inputs": [
+    "task prompts",
+    "anonymized answer files",
+    "rubric keys"
+  ],
+  "forbidden_inputs_attested_absent": [
+    "production labels",
+    "generation notes",
+    "source refs",
+    "hidden mapping"
+  ],
+  "score_scale": {
+    "minimum": 0,
+    "maximum": 5,
+    "maximum_total": 40
+  },
+  "rubric_keys": [
+    "contradiction_preservation",
+    "authority_arbitration",
+    "operational_prioritization",
+    "replayability",
+    "uncertainty_discipline",
+    "recovery_planning",
+    "boundary_control",
+    "actionability"
+  ],
+  "tasks": {
+    "task_001": {
+      "task_title": "Legal Hold Restore Collision",
+      "results": {
+        "solution_A": {
+          "scores": {
+            "contradiction_preservation": 3,
+            "authority_arbitration": 4,
+            "operational_prioritization": 4,
+            "replayability": 4,
+            "uncertainty_discipline": 4,
+            "recovery_planning": 3,
+            "boundary_control": 4,
+            "actionability": 4
+          },
+          "total_score": 30,
+          "rank": 3,
+          "first_place_tied": false,
+          "rationale": "Good containment and a reasonable restore sequence, but the authority order and failure branches are less explicit than the stronger answers."
+        },
+        "solution_B": {
+          "scores": {
+            "contradiction_preservation": 5,
+            "authority_arbitration": 5,
+            "operational_prioritization": 4,
+            "replayability": 5,
+            "uncertainty_discipline": 4,
+            "recovery_planning": 5,
+            "boundary_control": 4,
+            "actionability": 4
+          },
+          "total_score": 36,
+          "rank": 1,
+          "first_place_tied": true,
+          "rationale": "Best separation of preservation authority, restore evidence, schema risk, customer wording, and stop conditions."
+        },
+        "solution_C": {
+          "scores": {
+            "contradiction_preservation": 4,
+            "authority_arbitration": 4,
+            "operational_prioritization": 4,
+            "replayability": 4,
+            "uncertainty_discipline": 4,
+            "recovery_planning": 4,
+            "boundary_control": 4,
+            "actionability": 4
+          },
+          "total_score": 32,
+          "rank": 2,
+          "first_place_tied": false,
+          "rationale": "Solid preservation and restore controls, with less detailed owner and stop-condition structure."
+        }
+      }
+    },
+    "task_002": {
+      "task_title": "Billing Flag Exposure Triage",
+      "results": {
+        "solution_A": {
+          "scores": {
+            "contradiction_preservation": 4,
+            "authority_arbitration": 4,
+            "operational_prioritization": 4,
+            "replayability": 4,
+            "uncertainty_discipline": 4,
+            "recovery_planning": 4,
+            "boundary_control": 3,
+            "actionability": 4
+          },
+          "total_score": 31,
+          "rank": 2,
+          "first_place_tied": false,
+          "rationale": "Strong containment and ledger-gap handling, but external language and authority hierarchy are not as tight as the top answer."
+        },
+        "solution_B": {
+          "scores": {
+            "contradiction_preservation": 3,
+            "authority_arbitration": 3,
+            "operational_prioritization": 4,
+            "replayability": 4,
+            "uncertainty_discipline": 4,
+            "recovery_planning": 3,
+            "boundary_control": 4,
+            "actionability": 4
+          },
+          "total_score": 29,
+          "rank": 3,
+          "first_place_tied": false,
+          "rationale": "Usable checks, but it gives too much weight to current flag state and owner assertion before closing the missing ledger range."
+        },
+        "solution_C": {
+          "scores": {
+            "contradiction_preservation": 5,
+            "authority_arbitration": 5,
+            "operational_prioritization": 4,
+            "replayability": 5,
+            "uncertainty_discipline": 4,
+            "recovery_planning": 5,
+            "boundary_control": 4,
+            "actionability": 3
+          },
+          "total_score": 35,
+          "rank": 1,
+          "first_place_tied": true,
+          "rationale": "Best distinction between path exposure and charge impact, with strong containment, evidence order, and stop conditions."
+        }
+      }
+    },
+    "task_003": {
+      "task_title": "Support Queue SLA Rebalance",
+      "results": {
+        "solution_A": {
+          "scores": {
+            "contradiction_preservation": 5,
+            "authority_arbitration": 4,
+            "operational_prioritization": 5,
+            "replayability": 4,
+            "uncertainty_discipline": 4,
+            "recovery_planning": 4,
+            "boundary_control": 4,
+            "actionability": 4
+          },
+          "total_score": 34,
+          "rank": 1,
+          "first_place_tied": true,
+          "rationale": "Best live-evidence ordering, training constraint handling, queue protection, and limited recovery claim."
+        },
+        "solution_B": {
+          "scores": {
+            "contradiction_preservation": 4,
+            "authority_arbitration": 4,
+            "operational_prioritization": 4,
+            "replayability": 4,
+            "uncertainty_discipline": 4,
+            "recovery_planning": 4,
+            "boundary_control": 4,
+            "actionability": 4
+          },
+          "total_score": 32,
+          "rank": 2,
+          "first_place_tied": false,
+          "rationale": "Balanced and workable, though less explicit about source authority and stop conditions."
+        },
+        "solution_C": {
+          "scores": {
+            "contradiction_preservation": 4,
+            "authority_arbitration": 3,
+            "operational_prioritization": 4,
+            "replayability": 4,
+            "uncertainty_discipline": 4,
+            "recovery_planning": 4,
+            "boundary_control": 4,
+            "actionability": 4
+          },
+          "total_score": 31,
+          "rank": 3,
+          "first_place_tied": false,
+          "rationale": "Actionable but too willing to move staff before current evidence and training constraints are fully established."
+        }
+      }
+    },
+    "task_004": {
+      "task_title": "Restore Rehearsal Source Conflict",
+      "results": {
+        "solution_A": {
+          "scores": {
+            "contradiction_preservation": 4,
+            "authority_arbitration": 3,
+            "operational_prioritization": 4,
+            "replayability": 4,
+            "uncertainty_discipline": 4,
+            "recovery_planning": 3,
+            "boundary_control": 4,
+            "actionability": 4
+          },
+          "total_score": 30,
+          "rank": 2,
+          "first_place_tied": false,
+          "rationale": "Reasonable first path, but the admissibility test and compliance wording need sharper separation."
+        },
+        "solution_B": {
+          "scores": {
+            "contradiction_preservation": 4,
+            "authority_arbitration": 4,
+            "operational_prioritization": 4,
+            "replayability": 4,
+            "uncertainty_discipline": 4,
+            "recovery_planning": 3,
+            "boundary_control": 3,
+            "actionability": 4
+          },
+          "total_score": 30,
+          "rank": 2,
+          "first_place_tied": false,
+          "rationale": "Good source-validation caution, but it is less complete on validation evidence and signed result boundaries."
+        },
+        "solution_C": {
+          "scores": {
+            "contradiction_preservation": 5,
+            "authority_arbitration": 4,
+            "operational_prioritization": 5,
+            "replayability": 4,
+            "uncertainty_discipline": 4,
+            "recovery_planning": 5,
+            "boundary_control": 3,
+            "actionability": 4
+          },
+          "total_score": 34,
+          "rank": 1,
+          "first_place_tied": true,
+          "rationale": "Best source admissibility split, evidence capture, access control handling, freeze timing, and signed-result boundary."
+        }
+      }
+    },
+    "task_005": {
+      "task_title": "Security Exception Sunset Plan",
+      "results": {
+        "solution_A": {
+          "scores": {
+            "contradiction_preservation": 4,
+            "authority_arbitration": 4,
+            "operational_prioritization": 4,
+            "replayability": 4,
+            "uncertainty_discipline": 4,
+            "recovery_planning": 5,
+            "boundary_control": 4,
+            "actionability": 4
+          },
+          "total_score": 33,
+          "rank": 2,
+          "first_place_tied": false,
+          "rationale": "Strong risk branches and evidence refresh, with slightly less owner hierarchy than the top answer."
+        },
+        "solution_B": {
+          "scores": {
+            "contradiction_preservation": 5,
+            "authority_arbitration": 5,
+            "operational_prioritization": 4,
+            "replayability": 4,
+            "uncertainty_discipline": 4,
+            "recovery_planning": 5,
+            "boundary_control": 4,
+            "actionability": 4
+          },
+          "total_score": 35,
+          "rank": 1,
+          "first_place_tied": true,
+          "rationale": "Best authority order, evidence-refresh requirement, branch structure, accountable risk acceptance, and expiry control."
+        },
+        "solution_C": {
+          "scores": {
+            "contradiction_preservation": 4,
+            "authority_arbitration": 3,
+            "operational_prioritization": 4,
+            "replayability": 4,
+            "uncertainty_discipline": 4,
+            "recovery_planning": 4,
+            "boundary_control": 4,
+            "actionability": 5
+          },
+          "total_score": 32,
+          "rank": 3,
+          "first_place_tied": false,
+          "rationale": "Clear branch at a high level, but it underweights stale evidence and accountable risk acceptance before release."
+        }
+      }
+    }
+  }
+}

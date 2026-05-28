@@ -1,0 +1,34 @@
+{
+  "verdict": "BLIND_SEASONED_ADVANTAGE_CONFIRMED",
+  "allowed_verdicts": [
+    "BLIND_SEASONED_ADVANTAGE_CONFIRMED",
+    "FAIL_CLOSED",
+    "INVALID_BLIND_TEST",
+    "NO_BLIND_SEASONED_ADVANTAGE",
+    "PARTIAL_BLIND_SEASONED_ADVANTAGE"
+  ],
+  "claim_boundary": "bounded_to_five_local_held_out_tasks_prelocked_blind_scores_and_recorded_reveal_mapping",
+  "aggregate_metrics": {
+    "baseline_visible_only_total": 152,
+    "pond_backed_ablated_total": 158,
+    "pond_backed_mcp_seasoned_total": 174,
+    "seasoned_first_or_tied_tasks": 5,
+    "seasoned_vs_baseline_delta": 22,
+    "seasoned_vs_ablated_delta": 16
+  },
+  "criteria": {
+    "seasoned_wins_or_ties_first_on_at_least_4_of_5_tasks": true,
+    "seasoned_aggregate_gt_baseline": true,
+    "seasoned_aggregate_gt_ablated": true,
+    "no_mcp_seasoned_refs_leaked_into_blind_scoring_files": true,
+    "blind_scores_written_before_mapping_reveal": true,
+    "no_overclaiming": true
+  },
+  "scope_limitations": [
+    "The verdict applies only to the five local held-out task fixtures.",
+    "The verdict depends on the recorded blind rubric and locked blind score file.",
+    "The verdict does not support claims about unrelated tasks, target systems, endpoint behavior, or broad capability."
+  ],
+  "blind_scores_sha256": "75803b2f097766f4545f88470f179a49a3a597e84b7a0fb7e2a07284523b03f8",
+  "mode_mapping_hidden_sha256": "74d29b2ffdea43e30c5bfeb00b946cb48316d0092c4f5b0cd3d09b3fefc365ab"
+}

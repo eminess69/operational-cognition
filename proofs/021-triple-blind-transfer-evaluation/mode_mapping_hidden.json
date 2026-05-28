@@ -1,0 +1,100 @@
+{
+  "proof_id": "021-triple-blind-transfer-evaluation",
+  "available_to_scorer_before_lock": false,
+  "blind_scores_locked_at": "2026-05-28T09:15:00-07:00",
+  "mapping_revealed_at": "2026-05-28T09:25:00-07:00",
+  "mapping_revealed_after_blind_scores": true,
+  "blind_scores_sha256": "75803b2f097766f4545f88470f179a49a3a597e84b7a0fb7e2a07284523b03f8",
+  "tasks": {
+    "task_001": {
+      "title": "Legal Hold Restore Collision",
+      "label_to_mode": {
+        "solution_A": "baseline_visible_only",
+        "solution_B": "pond_backed_mcp_seasoned",
+        "solution_C": "pond_backed_ablated"
+      },
+      "source_refs_by_mode": {
+        "baseline_visible_only": [],
+        "pond_backed_ablated": [
+          "artifacts/pond/full_lineage_pressure_rankings/legal_hold_restore#ablated"
+        ],
+        "pond_backed_mcp_seasoned": [
+          "artifacts/pond/mcp_seasoned_authority_arbitration.jsonl#021-001",
+          "artifacts/pond/mcp_seasoned_replay_boundary.jsonl#021-001"
+        ]
+      }
+    },
+    "task_002": {
+      "title": "Billing Flag Exposure Triage",
+      "label_to_mode": {
+        "solution_A": "pond_backed_ablated",
+        "solution_B": "baseline_visible_only",
+        "solution_C": "pond_backed_mcp_seasoned"
+      },
+      "source_refs_by_mode": {
+        "baseline_visible_only": [],
+        "pond_backed_ablated": [
+          "artifacts/pond/full_lineage_pressure_rankings/billing_flag_exposure#ablated"
+        ],
+        "pond_backed_mcp_seasoned": [
+          "artifacts/pond/mcp_seasoned_charge_impact_boundary.jsonl#021-002",
+          "artifacts/pond/mcp_seasoned_authority_arbitration.jsonl#021-002"
+        ]
+      }
+    },
+    "task_003": {
+      "title": "Support Queue SLA Rebalance",
+      "label_to_mode": {
+        "solution_A": "pond_backed_mcp_seasoned",
+        "solution_B": "pond_backed_ablated",
+        "solution_C": "baseline_visible_only"
+      },
+      "source_refs_by_mode": {
+        "baseline_visible_only": [],
+        "pond_backed_ablated": [
+          "artifacts/pond/full_lineage_pressure_rankings/support_queue_sla#ablated"
+        ],
+        "pond_backed_mcp_seasoned": [
+          "artifacts/pond/mcp_seasoned_stale_dashboard_handling.jsonl#021-003",
+          "artifacts/pond/mcp_seasoned_training_constraint_order.jsonl#021-003"
+        ]
+      }
+    },
+    "task_004": {
+      "title": "Restore Rehearsal Source Conflict",
+      "label_to_mode": {
+        "solution_A": "baseline_visible_only",
+        "solution_B": "pond_backed_ablated",
+        "solution_C": "pond_backed_mcp_seasoned"
+      },
+      "source_refs_by_mode": {
+        "baseline_visible_only": [],
+        "pond_backed_ablated": [
+          "artifacts/pond/full_lineage_pressure_rankings/restore_rehearsal#ablated"
+        ],
+        "pond_backed_mcp_seasoned": [
+          "artifacts/pond/mcp_seasoned_source_admissibility.jsonl#021-004",
+          "artifacts/pond/mcp_seasoned_signed_result_boundary.jsonl#021-004"
+        ]
+      }
+    },
+    "task_005": {
+      "title": "Security Exception Sunset Plan",
+      "label_to_mode": {
+        "solution_A": "pond_backed_ablated",
+        "solution_B": "pond_backed_mcp_seasoned",
+        "solution_C": "baseline_visible_only"
+      },
+      "source_refs_by_mode": {
+        "baseline_visible_only": [],
+        "pond_backed_ablated": [
+          "artifacts/pond/full_lineage_pressure_rankings/security_exception_sunset#ablated"
+        ],
+        "pond_backed_mcp_seasoned": [
+          "artifacts/pond/mcp_seasoned_risk_acceptance_boundary.jsonl#021-005",
+          "artifacts/pond/mcp_seasoned_evidence_refresh_order.jsonl#021-005"
+        ]
+      }
+    }
+  }
+}
