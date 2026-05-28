@@ -1,0 +1,99 @@
+{
+  "claims": [
+    {
+      "claim_id": "pond_backed_runtime_participated",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "hard_gate_response.json#adapter_status",
+        "inside_voice_learning_consult_response.json#adapter_status",
+        "repeat_replay_response.json#adapter_status"
+      ],
+      "risk_if_overstated": "Would imply more runtime authority than the recorded consult responses support.",
+      "safe_public_wording": "The recorded consult responses for this proof report pond-backed adapter status."
+    },
+    {
+      "claim_id": "learning_record_created",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "inside_voice_learning_record.json"
+      ],
+      "risk_if_overstated": "Would confuse a compact learning artifact with persistent general memory.",
+      "safe_public_wording": "A compact learning record was created for proof_015_learning_001."
+    },
+    {
+      "claim_id": "learning_record_lineage_preserved",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "inside_voice_learning_record.json#source_refs",
+        "inside_voice_learning_consult_response.json#lineage",
+        "repeat_replay_response.json#lineage"
+      ],
+      "risk_if_overstated": "Would treat source refs as proof of hidden state mutation.",
+      "safe_public_wording": "The learning record and consult responses preserve public-safe source refs and runtime hashes."
+    },
+    {
+      "claim_id": "repeat_request_separated_from_original_solution",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "repeat_replay_request.json#context.constraints",
+        "initial_codex_solution.md"
+      ],
+      "risk_if_overstated": "Would count copied text as replay.",
+      "safe_public_wording": "The repeat request includes a learning id and original solution hash but not the full first-pass solution."
+    },
+    {
+      "claim_id": "repeat_solution_used_recalled_pattern",
+      "claim_level": "inferred",
+      "evidence_refs": [
+        "repeat_replay_response.json#lineage_refs",
+        "repeat_solution.md#Fixture-Minimization Validator Structure",
+        "inside_voice_learning_record.json#new_pattern"
+      ],
+      "risk_if_overstated": "Would claim a stronger recall mechanism than the visible artifacts prove.",
+      "safe_public_wording": "The repeat solution used the three-layer pattern after the replay response returned the learning record as a lineage ref."
+    },
+    {
+      "claim_id": "bounded_replay_advantage_observed",
+      "claim_level": "bounded",
+      "evidence_refs": [
+        "comparative_learning_audit.md#Summary",
+        "replay_reconstruction_results.json#summary",
+        "final_verdict.json#verdict"
+      ],
+      "risk_if_overstated": "Would turn a single artifact-bundle result into a broader performance claim.",
+      "safe_public_wording": "Within this proof bundle, the repeat pass was more actionable and preserved the required boundaries."
+    },
+    {
+      "claim_id": "no_global_superiority_claim",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "final_verdict.json#overclaim_flags",
+        "tools/validate_novel_learning_replay.py"
+      ],
+      "risk_if_overstated": "Would exceed the proof scope.",
+      "safe_public_wording": "The proof does not assert global superiority."
+    },
+    {
+      "claim_id": "no_hidden_state_or_black_box_claim",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "final_verdict.json#overclaim_flags",
+        "public_lineage_summary.md"
+      ],
+      "risk_if_overstated": "Would imply access to private or hidden process data.",
+      "safe_public_wording": "The proof reports only public-safe artifacts, source refs, and hashes."
+    },
+    {
+      "claim_id": "remaining_uncertainty_preserved",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "repeat_replay_response.json#uncertainty",
+        "repeat_replay_response.json#unresolved_tensions",
+        "comparative_learning_audit.md"
+      ],
+      "risk_if_overstated": "Would hide unresolved pressure from the replay response.",
+      "safe_public_wording": "The proof keeps uncertainty and pressure refs visible."
+    }
+  ],
+  "proof_id": "015-novel-learning-replay-test"
+}

@@ -1,0 +1,32 @@
+{
+  "adapter_status": "pond_backed",
+  "audit_dimension_counts": {
+    "degraded": 0,
+    "improved": 6,
+    "improved_or_unchanged_strong": 9,
+    "unchanged": 3,
+    "unresolved": 0
+  },
+  "basis": [
+    "The learned pattern was recalled through the learning-record lineage refs in repeat_replay_response.json.",
+    "Source refs and runtime hashes were preserved in all recorded consult responses.",
+    "The repeat solution used the three-layer pattern against a changed fixture-minimization variant.",
+    "The comparative audit reports six improved dimensions and three unchanged strong dimensions.",
+    "Overclaim flags are false."
+  ],
+  "learning_id": "proof_015_learning_001",
+  "overclaim_flags": {
+    "black_box_solved_claim": false,
+    "consciousness_claim": false,
+    "general_intelligence_claim": false,
+    "global_superiority_claim": false,
+    "target_system_defect_claim": false
+  },
+  "proof_id": "015-novel-learning-replay-test",
+  "reconstruction_summary": {
+    "partially_reconstructed": 0,
+    "reconstructed": 8,
+    "unresolved": 0
+  },
+  "verdict": "LEARNING_REPLAY_ADVANTAGE_OBSERVED"
+}

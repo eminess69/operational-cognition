@@ -1,0 +1,90 @@
+{
+  "allowed_values": [
+    "reconstructed",
+    "partially_reconstructed",
+    "unresolved"
+  ],
+  "learning_id": "proof_015_learning_001",
+  "proof_id": "015-novel-learning-replay-test",
+  "results": [
+    {
+      "answer": "reconstructed",
+      "evidence_refs": [
+        "repeat_replay_response.json#lineage_refs[0]",
+        "inside_voice_learning_record.json#new_pattern",
+        "repeat_solution.md#Fixture-Minimization Validator Structure"
+      ],
+      "question": "learned_pattern_recalled",
+      "required_answer": "Was the learned pattern recalled?"
+    },
+    {
+      "answer": "reconstructed",
+      "evidence_refs": [
+        "repeat_replay_response.json#lineage_refs",
+        "inside_voice_learning_record.json#source_refs"
+      ],
+      "question": "source_refs_preserved",
+      "required_answer": "Were source refs preserved?"
+    },
+    {
+      "answer": "reconstructed",
+      "evidence_refs": [
+        "inside_voice_learning_record.json#applicability_conditions",
+        "repeat_solution.md#Repeat Variant"
+      ],
+      "question": "applicability_conditions_preserved",
+      "required_answer": "Were applicability conditions preserved?"
+    },
+    {
+      "answer": "reconstructed",
+      "evidence_refs": [
+        "inside_voice_learning_record.json#failure_modes",
+        "repeat_solution.md#Separation Gate"
+      ],
+      "question": "failure_modes_preserved",
+      "required_answer": "Were failure modes preserved?"
+    },
+    {
+      "answer": "reconstructed",
+      "evidence_refs": [
+        "inside_voice_learning_record.json#contradiction_or_boundary_rules",
+        "repeat_replay_response.json#claim_boundary_audit",
+        "repeat_solution.md#Verdict Discipline"
+      ],
+      "question": "boundary_rules_preserved",
+      "required_answer": "Were boundary rules preserved?"
+    },
+    {
+      "answer": "reconstructed",
+      "evidence_refs": [
+        "repeat_solution.md#Fixture-Minimization Validator Structure",
+        "comparative_learning_audit.md#Summary"
+      ],
+      "question": "repeat_solution_used_recalled_pattern",
+      "required_answer": "Did repeat solution use the recalled pattern?"
+    },
+    {
+      "answer": "reconstructed",
+      "evidence_refs": [
+        "repeat_solution.md#Verdict Discipline",
+        "claim_register.json#claims"
+      ],
+      "question": "repeat_solution_avoided_overclaiming",
+      "required_answer": "Did the repeat solution avoid overclaiming?"
+    },
+    {
+      "answer": "reconstructed",
+      "evidence_refs": [
+        "comparative_learning_audit.md#Summary",
+        "repeat_solution.md#Replay Benefit Observed In This Repeat"
+      ],
+      "question": "replay_improved_actionability",
+      "required_answer": "Did replay improve actionability?"
+    }
+  ],
+  "summary": {
+    "partially_reconstructed": 0,
+    "reconstructed": 8,
+    "unresolved": 0
+  }
+}

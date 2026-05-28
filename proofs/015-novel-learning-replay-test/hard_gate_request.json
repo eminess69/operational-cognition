@@ -1,0 +1,31 @@
+{
+  "context": {
+    "constraints": [
+      "local repository artifacts only",
+      "no external network input",
+      "no private data",
+      "no API or endpoint change",
+      "one named proof scope only",
+      "treat recalled material as advisory evidence"
+    ],
+    "desired_artifacts": [
+      "adapter_status pond_backed",
+      "runtime_stage_report_ref",
+      "pressure_rankings",
+      "runtime_response_hash",
+      "corpus_hash",
+      "empty gate_failures"
+    ],
+    "files": [
+      "tools/validate_novel_learning_replay.py",
+      "tests/test_novel_learning_replay.py",
+      "proofs/015-novel-learning-replay-test/inside_voice_learning_record.json"
+    ],
+    "summary": "Bounded learning-risk consult before writing artifacts. The candidate task is a validator for replay artifact completeness. The expected use is advisory: preserve source references, applicability limits, failure modes, boundary rules, and repeat-test criteria for one repeat pass."
+  },
+  "max_output_chars": 8000,
+  "mode": "proof_planning",
+  "request_id": "proof-015-hard-gate-002",
+  "require_lineage": true,
+  "task": "Hard gate for Proof 015: assess whether a single redacted-real operational artifact design pattern can be recorded with lineage and replayed on a changed repeat variant inside this repository."
+}

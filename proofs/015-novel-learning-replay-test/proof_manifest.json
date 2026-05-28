@@ -1,0 +1,48 @@
+{
+  "claim_level": "evidence_backed",
+  "disallowed_claims": [
+    "general_intelligence",
+    "consciousness",
+    "black_box_solved",
+    "target_system_defects",
+    "universal_validation",
+    "global_superiority"
+  ],
+  "inside_voice_adapter_status": "pond_backed",
+  "lineage": {
+    "candidate_status": "eligible",
+    "contract_version": "inside_voice.mcp.consultation.v1",
+    "derived_from": "hard_gate_response.json",
+    "mcp_endpoint": "http://127.0.0.1:8766",
+    "request_hash": "d74087ec5c0f534f0cc0c6c3655bcac81b4e3d8970348ccc43dc7185f7507210",
+    "response_hash": "5660a9b24857ab2f25ce702d55326c04a645475d9be96b34061692ed40da5765",
+    "validates": "novel_learning_replay_test"
+  },
+  "proof_id": "015-novel-learning-replay-test",
+  "public_private_boundary": "sanitized_public_artifacts_runtime_hashes_and_redacted_local_lineage_only",
+  "required_artifacts": [
+    "README.md",
+    "learning_task_selection.md",
+    "initial_codex_solution.md",
+    "inside_voice_learning_record.json",
+    "inside_voice_learning_consult_request.json",
+    "inside_voice_learning_consult_response.json",
+    "repeat_replay_request.json",
+    "repeat_replay_response.json",
+    "repeat_solution.md",
+    "comparative_learning_audit.md",
+    "replay_reconstruction_results.json",
+    "claim_register.json",
+    "public_lineage_summary.md",
+    "final_verdict.json",
+    "proof_manifest.json",
+    "hard_gate_request.json",
+    "hard_gate_response.json"
+  ],
+  "status": "complete",
+  "targets": [
+    "NovelOperationalLearningReplay",
+    "PondBackedInsideVoiceRuntime"
+  ],
+  "title": "Novel Learning Replay Test"
+}

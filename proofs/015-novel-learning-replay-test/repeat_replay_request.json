@@ -1,0 +1,29 @@
+{
+  "context": {
+    "constraints": [
+      "learning_id=proof_015_learning_001",
+      "learning_content_hash=277a5c87e75e1886a9598ca5d20e816012d65fcd134722dac696ff75c6c55101",
+      "forbidden_original_solution_hash=61388774d21eba858478b11d7494873dc58263aa627a4f9932104a0c17480464",
+      "Do not use the full original solution text.",
+      "Apply only the replayable operational pattern if recalled.",
+      "Keep the answer scoped to this repeat variant."
+    ],
+    "desired_artifacts": [
+      "recalled learning refs",
+      "motif or pressure refs",
+      "boundary warnings",
+      "recommended solution structure",
+      "replay hashes"
+    ],
+    "files": [
+      "proofs/015-novel-learning-replay-test/inside_voice_learning_record.json",
+      "proofs/015-novel-learning-replay-test/inside_voice_learning_consult_response.json"
+    ],
+    "summary": "Repeat variant: design a deterministic validator for fixture-minimization artifact completeness. It should verify a public proof bundle has a minimization plan, input fixture refs, reduced fixture refs, deterministic equivalence checks, consult lineage, reconstruction answers, and a scoped final verdict. Replay learning_id proof_015_learning_001 if available; do not paste the first-pass validator solution."
+  },
+  "max_output_chars": 8000,
+  "mode": "synthesis",
+  "request_id": "proof-015-repeat-replay-001",
+  "require_lineage": true,
+  "task": "Replay the learned operational pattern for learning_id proof_015_learning_001 against a changed fixture-minimization completeness validator task. Return recalled refs, motif or pressure refs, boundary warnings, a recommended solution structure, and replay hashes."
+}

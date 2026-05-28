@@ -1,0 +1,29 @@
+{
+  "context": {
+    "constraints": [
+      "Use this as a bounded learning artifact. Do not promote broad claims. Preserve it as replayable operational guidance with source refs, boundary risks, and repeat-test criteria.",
+      "Store only public-safe operational guidance and hashes.",
+      "Keep the guidance scoped to one proof bundle and one repeat pass.",
+      "Treat recall as advisory evidence only.",
+      "Do not require external network input or private data."
+    ],
+    "desired_artifacts": [
+      "recalled learning_id proof_015_learning_001",
+      "source refs",
+      "boundary risks",
+      "repeat-test criteria",
+      "runtime lineage hashes"
+    ],
+    "files": [
+      "proofs/015-novel-learning-replay-test/inside_voice_learning_record.json",
+      "proofs/015-novel-learning-replay-test/initial_codex_solution.md",
+      "proofs/015-novel-learning-replay-test/learning_task_selection.md"
+    ],
+    "summary": "Learning record for bounded replay: learning_id=proof_015_learning_001; new_pattern=Three-layer replay completeness validation: first require pond-backed lineage hashes, then enforce first-pass/repeat separation, then require reconstruction answers plus scoped verdict and overclaim screening.; applicability=public-safe proof directory, recorded pond-backed consult lineage, repeat request references learning_id without original solution paste, explicit reconstruction questions.; failure_modes=missing source refs, repeat request copies original, missing runtime hashes, narrative-only audit, over-scoped verdict.; required_lineage_fields=adapter_status, contribution_grade, runtime_stage_report_ref, pressure_rankings, gate_failures, lineage request/response hashes, runtime_response_hash, corpus_hash, source_refs.; content_hash=277a5c87e75e1886a9598ca5d20e816012d65fcd134722dac696ff75c6c55101."
+  },
+  "max_output_chars": 8000,
+  "mode": "synthesis",
+  "request_id": "proof-015-learning-artifact-001",
+  "require_lineage": true,
+  "task": "Use this as a bounded learning artifact. Do not promote broad claims. Preserve it as replayable operational guidance with source refs, boundary risks, and repeat-test criteria."
+}

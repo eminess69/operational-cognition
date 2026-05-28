@@ -1,0 +1,48 @@
+{
+  "applicability_conditions": [
+    "A proof directory has a fixed list of public-safe artifacts.",
+    "At least one pond-backed consult response is recorded with runtime lineage.",
+    "A repeat request references a learning identifier but does not paste the original solution.",
+    "Replay success can be audited with explicit reconstruction questions and bounded verdict rules."
+  ],
+  "content_hash": "277a5c87e75e1886a9598ca5d20e816012d65fcd134722dac696ff75c6c55101",
+  "contradiction_or_boundary_rules": [
+    "A repeat answer that copies the first-pass solution is not replay evidence.",
+    "Runtime recall is advisory evidence, not project-state authority.",
+    "A final verdict must stay scoped to the named proof and must not make system-wide claims.",
+    "Missing source refs or runtime hashes downgrade reconstruction to unresolved or invalid."
+  ],
+  "failure_modes": [
+    "The learning record has no source refs, so replay cannot establish lineage.",
+    "The repeat request includes full original-solution text, so separation fails.",
+    "The response lacks pond-backed runtime hashes, so lineage preservation fails.",
+    "The audit uses narrative judgment without required reconstruction answers.",
+    "The final verdict claims more than the artifact bundle supports."
+  ],
+  "learning_id": "proof_015_learning_001",
+  "minimal_replay_test": [
+    "Create a changed-surface repeat validator task.",
+    "Ask Inside Voice to replay learning_id proof_015_learning_001 without including the full original solution.",
+    "Require recalled refs, boundary warnings, a recommended solution structure, and replay hashes.",
+    "Build the repeat solution from the recalled three-layer pattern.",
+    "Score reconstruction questions and audit dimensions before issuing a verdict."
+  ],
+  "new_pattern": "Three-layer replay completeness validation: first require pond-backed lineage hashes, then enforce first-pass/repeat separation, then require reconstruction answers plus scoped verdict and overclaim screening.",
+  "required_lineage_fields": [
+    "adapter_status",
+    "contribution_grade",
+    "runtime_stage_report_ref",
+    "pressure_rankings",
+    "gate_failures",
+    "lineage.request_hash",
+    "lineage.response_hash",
+    "lineage.runtime.runtime_response_hash",
+    "lineage.runtime.corpus_hash",
+    "lineage.source_refs"
+  ],
+  "source_refs": [
+    "proofs/015-novel-learning-replay-test/learning_task_selection.md",
+    "proofs/015-novel-learning-replay-test/initial_codex_solution.md",
+    "proofs/015-novel-learning-replay-test/hard_gate_response.json"
+  ]
+}
