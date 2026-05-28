@@ -1,0 +1,14 @@
+{
+  "compaction_hash": "9a67e199a9529368e7292bc3bd62ac0fce3edeb2de2584a924c277595641e915",
+  "compression_boundary": "visible replay receives only transcript, event order, and visible action sequence",
+  "lineage_preserved_for_full_mode": [
+    "tool_result_hashes",
+    "authority_refs",
+    "omitted_ranges",
+    "temporal_validity",
+    "environment_refs",
+    "runtime_hashes",
+    "recovery_trace"
+  ],
+  "trace_id": "trace_002"
+}

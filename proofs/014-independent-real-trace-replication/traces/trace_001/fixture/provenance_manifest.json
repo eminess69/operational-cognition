@@ -1,0 +1,15 @@
+{
+  "candidate_class": "malformed request recovery trace",
+  "fixture_hash": "504c92d5957ea53b6e4b8a81bdfc3b7962a4ddeb7ea4d1ca5b9dd4945d66fec0",
+  "independent_from_proof_013": true,
+  "provenance_status": "established_for_redacted_local_trace",
+  "public_private_boundary": "local paths, private terminal context, and raw process details are redacted; public-safe hashes and summaries remain",
+  "redaction_complete": true,
+  "source_refs": [
+    "T1-TR-001",
+    "T1-TR-002",
+    "T1-TR-003"
+  ],
+  "trace_id": "trace_001",
+  "visible_only_separable_from_full_lineage": true
+}

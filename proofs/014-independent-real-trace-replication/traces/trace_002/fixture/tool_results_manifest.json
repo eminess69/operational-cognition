@@ -1,0 +1,59 @@
+{
+  "public_private_boundary": "raw terminal output is summarized; deterministic hashes preserve replay lineage",
+  "result_hash_algorithm": "sha256 canonical public-safe summary",
+  "tool_results": [
+    {
+      "action_ref": "T2-A-001",
+      "id": "T2-TR-001",
+      "lineage_refs": [
+        "commit:1c89d45"
+      ],
+      "observed_result": "Required Belief-Ledger checkout resolved to commit 1c89d45.",
+      "public_private_boundary": "public-safe summary; raw local paths and private terminal details redacted",
+      "result_hash": "a569beb992cffd1e170bf8895985161644ce9054f071dee2754d8447ccdcbae6"
+    },
+    {
+      "action_ref": "T2-A-002",
+      "id": "T2-TR-002",
+      "lineage_refs": [
+        "exit_code:2",
+        "summary:address_already_in_use"
+      ],
+      "observed_result": "Server start attempt reported port 8766 already in use.",
+      "public_private_boundary": "public-safe summary; raw local paths and private terminal details redacted",
+      "result_hash": "85a5a12eac2d6921beac7aa46f59a698891944cef1f6578467ac55fd125ffbe9"
+    },
+    {
+      "action_ref": "T2-A-003",
+      "id": "T2-TR-003",
+      "lineage_refs": [
+        "listener:127.0.0.1:8766"
+      ],
+      "observed_result": "Listener was present on 127.0.0.1:8766.",
+      "public_private_boundary": "public-safe summary; raw local paths and private terminal details redacted",
+      "result_hash": "fb79da7b406bb8d52cba9744cfa2dc1e099ab6ac41a82e38551637ac6b7ed61e"
+    },
+    {
+      "action_ref": "T2-A-004",
+      "id": "T2-TR-004",
+      "lineage_refs": [
+        "cwd_hash:1ffb1fc13823654689b1d5aed96efd4a14bb3bb69f57f10aec1f414b105a141a"
+      ],
+      "observed_result": "Listener cwd resolved to the required Belief-Ledger checkout; local path redacted.",
+      "public_private_boundary": "public-safe summary; raw local paths and private terminal details redacted",
+      "result_hash": "97cf39aa5ef4e10a778e05afdfab73e00b2bb0b4079a8e9ffe59ac04ca8c9951"
+    },
+    {
+      "action_ref": "T2-A-005",
+      "id": "T2-TR-005",
+      "lineage_refs": [
+        "request_hash:3058fd26c728327a834b61df8afbbefbc0060515112cd2b813be6a8ecc8ee034",
+        "response_hash:2544e68ef8c9b29d50f0032e68a08beed59736c51d6e9d8f4d302721272329ce"
+      ],
+      "observed_result": "Hard gate used the verified listener and returned pond-backed runtime lineage.",
+      "public_private_boundary": "public-safe summary; raw local paths and private terminal details redacted",
+      "result_hash": "6b1d544659cedbd3ddafa0aec9eb961f253b7f5cca26022155639e80f2bf4851"
+    }
+  ],
+  "trace_id": "trace_002"
+}

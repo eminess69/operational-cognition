@@ -1,0 +1,3 @@
+{"content": "Select and replay runtime/server checkout mismatch trace as a redacted-real operational trace.", "id": "T002-T-001", "speaker": "operator", "visibility": "public_redacted"}
+{"content": "Observed Runtime listener checkout verification with correction and recovery behavior; raw local path details are redacted.", "id": "T002-T-002", "speaker": "codex", "visibility": "public_redacted"}
+{"content": "Visible replay preserves event order and action sequence, while full-lineage replay adds tool result hashes, authority refs, omitted ranges, temporal refs, environment refs, and runtime hashes.", "id": "T002-T-003", "speaker": "codex", "visibility": "public_redacted"}

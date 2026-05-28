@@ -1,0 +1,124 @@
+{
+  "allowed_inputs": [
+    "all fixture artifacts",
+    "claim-boundary pattern refs",
+    "runtime audit refs",
+    "pond-backed runtime hashes"
+  ],
+  "mode": "full_lineage",
+  "proof_id": "014-independent-real-trace-replication",
+  "results": [
+    {
+      "claim_level": "observed",
+      "fixture_refs": [
+        "T3-TR-001",
+        "T3-TR-002",
+        "T3-TR-003",
+        "T003-A-001"
+      ],
+      "probe": "tool-dependent action reconstruction",
+      "probe_id": "P-001",
+      "reason": "Tool results reconstruct gate 002 audit contents, safe-negated pattern inspection, audit logic inspection, and gate 003 response.",
+      "score": "reconstructed"
+    },
+    {
+      "claim_level": "observed",
+      "fixture_refs": [
+        "T003-C-001",
+        "T3-TR-001",
+        "T3-TR-002",
+        "T3-TR-003",
+        "T3-TR-004"
+      ],
+      "probe": "contradiction resolution reconstruction",
+      "probe_id": "P-002",
+      "reason": "Contradiction refs show the missing required audit was resolved by exact safe-negated boundary language, not by weakening the gate.",
+      "score": "reconstructed"
+    },
+    {
+      "claim_level": "observed",
+      "fixture_refs": [
+        "T003-MEM-001",
+        "T003-MEM-002",
+        "T003-AUTH-001"
+      ],
+      "probe": "memory/authority reconstruction",
+      "probe_id": "P-003",
+      "reason": "Memory and authority refs bind safe-negated language rules to Proof 010/011 boundaries and the final audit response.",
+      "score": "reconstructed"
+    },
+    {
+      "claim_level": "observed",
+      "fixture_refs": [
+        "T003-O-001",
+        "T3-TR-001",
+        "T3-TR-002",
+        "T3-TR-003"
+      ],
+      "probe": "omitted-range recovery",
+      "probe_id": "P-004",
+      "reason": "Omitted-range refs recover compacted audit response and code-range summaries without exposing private implementation detail beyond public-safe refs.",
+      "score": "reconstructed"
+    },
+    {
+      "claim_level": "observed",
+      "fixture_refs": [
+        "T003-ENV-001",
+        "T003-ENV-002",
+        "T3-TR-003",
+        "T3-TR-004"
+      ],
+      "probe": "environment dependency reconstruction",
+      "probe_id": "P-005",
+      "reason": "Environment refs reconstruct the hardened runtime, safe-claim detector commit, schema cap, and runtime hashes.",
+      "score": "reconstructed"
+    },
+    {
+      "claim_level": "observed",
+      "fixture_refs": [
+        "T003-R-001",
+        "T003-R-002",
+        "T003-R-003",
+        "T3-TR-001",
+        "T3-TR-002",
+        "T3-TR-003"
+      ],
+      "probe": "recovery-loop reconstruction",
+      "probe_id": "P-006",
+      "reason": "Recovery trace links missing audit id, pattern discovery, corrected request text, and final pass.",
+      "score": "reconstructed"
+    },
+    {
+      "claim_level": "observed",
+      "fixture_refs": [
+        "T003-AUTH-001",
+        "T003-AUTH-002",
+        "AUTH-RUNTIME-014"
+      ],
+      "probe": "authority lineage reconstruction",
+      "probe_id": "P-007",
+      "reason": "Authority lineage separates user hard-gate requirement from runtime audit implementation and response evidence.",
+      "score": "reconstructed"
+    },
+    {
+      "claim_level": "observed",
+      "fixture_refs": [
+        "T003-TV-001",
+        "T003-TV-002",
+        "T3-TR-003",
+        "T3-TR-004"
+      ],
+      "probe": "temporal validity reconstruction",
+      "probe_id": "P-008",
+      "reason": "Temporal refs distinguish gate 002 from gate 003 and bind the audit transition to the 2026-05-27 sequence.",
+      "score": "reconstructed"
+    }
+  ],
+  "source_fixture": "proofs/014-independent-real-trace-replication/traces/trace_003/fixture",
+  "summary": {
+    "partially_reconstructed": 0,
+    "reconstructed": 8,
+    "unresolved": 0
+  },
+  "trace_id": "trace_003"
+}

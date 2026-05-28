@@ -1,0 +1,15 @@
+{
+  "contradictions": [
+    {
+      "contradiction": "The instruction said start the server, but the start command reported port 8766 already in use.",
+      "id": "T2-C-001",
+      "resolution_refs": [
+        "T2-TR-002",
+        "T2-TR-003",
+        "T2-TR-004",
+        "T2-TR-005"
+      ]
+    }
+  ],
+  "trace_id": "trace_002"
+}

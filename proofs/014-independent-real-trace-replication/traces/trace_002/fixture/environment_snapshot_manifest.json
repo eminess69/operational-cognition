@@ -1,0 +1,21 @@
+{
+  "environment_hash": "f1ca7b2957a206c0f95283bec6c15ca48d323d91070414c1c4babd39767c9841",
+  "environment_refs": [
+    {
+      "id": "T002-ENV-001",
+      "name": "inside_voice_mcp_endpoint",
+      "value": "http://127.0.0.1:8766"
+    },
+    {
+      "id": "T002-ENV-002",
+      "name": "belief_ledger_required_commit",
+      "value": "1c89d45"
+    },
+    {
+      "id": "T002-ENV-003",
+      "name": "workspace",
+      "value": "Operational Cognition checkout; local path redacted"
+    }
+  ],
+  "trace_id": "trace_002"
+}

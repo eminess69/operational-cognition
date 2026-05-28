@@ -1,0 +1,34 @@
+{
+  "adapter_status": "pond_backed",
+  "agi_claim": false,
+  "black_box_solved_claim": false,
+  "consciousness_claim": false,
+  "contribution_grade": "strong",
+  "full_lineage_improvement_observed": true,
+  "global_superiority_claim": false,
+  "inside_voice_lineage": {
+    "corpus_hash": "b44a6338242a31cee7792d853979662f31975822d1509b8fca4a0824c38d5a0d",
+    "hard_gate_request_hash": "769b3099fa42819348275fbe643877c05e1db13630d14ad6d2ea58fee5035619",
+    "hard_gate_response_hash": "2ec587e8eca05520ba60b363fdffaaccbe64c5bda2b732b20e9deebcfdcc5376",
+    "runtime_response_hash": "f1817b0ef485632d392bd530f1d82a33765f0535740ed40cdd4d2db1d71bdb95"
+  },
+  "next_required_validation": "additional independent redacted-real replay runs with the same fixture schema",
+  "proof_id": "014-independent-real-trace-replication",
+  "remaining_unresolved_questions": [
+    "public-only traces with less tool lineage remain untested",
+    "other runtime deployments remain untested",
+    "no target-system defect assessment was performed"
+  ],
+  "runtime_hash_stable": true,
+  "safe_public_claim": "Across these three selected redacted-real operational traces, full-lineage replay reconstructed operational probes that visible-only replay left partial or unresolved, using deterministic lineage artifacts and verified pond-backed Inside Voice participation.",
+  "target_system_defect_claim": false,
+  "trace_count": 3,
+  "trace_verdicts": {
+    "trace_001": "TRACE_ADVANTAGE_OBSERVED",
+    "trace_002": "TRACE_ADVANTAGE_OBSERVED",
+    "trace_003": "TRACE_ADVANTAGE_OBSERVED"
+  },
+  "valid_trace_count": 3,
+  "verdict": "REPLICATION_ADVANTAGE_OBSERVED",
+  "visible_only_limitations_observed": true
+}

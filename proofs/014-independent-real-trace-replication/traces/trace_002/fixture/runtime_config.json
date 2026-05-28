@@ -1,0 +1,20 @@
+{
+  "inside_voice_gate": {
+    "adapter_status": "pond_backed",
+    "contribution_grade": "strong",
+    "corpus_hash": "b44a6338242a31cee7792d853979662f31975822d1509b8fca4a0824c38d5a0d",
+    "gate_failures": [],
+    "operational_boundaries": [
+      "boundary.proof_010.synthetic_fixture_only",
+      "boundary.proof_011.real_trace_gate"
+    ],
+    "request_hash": "769b3099fa42819348275fbe643877c05e1db13630d14ad6d2ea58fee5035619",
+    "response_hash": "2ec587e8eca05520ba60b363fdffaaccbe64c5bda2b732b20e9deebcfdcc5376",
+    "runtime_response_hash": "f1817b0ef485632d392bd530f1d82a33765f0535740ed40cdd4d2db1d71bdb95",
+    "runtime_stage_report_ref": "artifacts/integrations/inside_voice_runtime/runtime_stage_report.json"
+  },
+  "no_new_mcp_modes": true,
+  "required_checkout_commit": "1c89d45",
+  "runtime_endpoint": "http://127.0.0.1:8766",
+  "trace_id": "trace_002"
+}

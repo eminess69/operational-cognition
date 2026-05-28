@@ -1,0 +1,32 @@
+{
+  "context": {
+    "constraints": [
+      "aggregate verdict must remain bounded",
+      "no global superiority claims",
+      "no AGI claims",
+      "no consciousness claims",
+      "no black-box-solved claims",
+      "no target-system defect claims",
+      "preserve Proof 010 synthetic-only boundary",
+      "preserve Proof 011/013 real-trace replay boundaries",
+      "remaining unresolved questions must stay visible",
+      "public/private boundary must remain redacted"
+    ],
+    "desired_artifacts": [
+      "proofs/014-independent-real-trace-replication/inside_voice_consults/final_claim_boundary_audit_request.json",
+      "proofs/014-independent-real-trace-replication/inside_voice_consults/final_claim_boundary_audit_response.json"
+    ],
+    "files": [
+      "proofs/014-independent-real-trace-replication/replication_summary.md",
+      "proofs/014-independent-real-trace-replication/final_verdict.json",
+      "proofs/014-independent-real-trace-replication/claim_register.json",
+      "proofs/014-independent-real-trace-replication/public_lineage_summary.md"
+    ],
+    "summary": "Proof 014 has three independent redacted-real operational traces. The aggregate claim is bounded to replay reconstruction advantage under these fixtures and preserves unresolved questions. No global superiority claims, no AGI claims, no consciousness claims, no black-box-solved claims, and no target-system defect claims are made."
+  },
+  "max_output_chars": 8000,
+  "mode": "audit",
+  "request_id": "proof-014-final-claim-boundary-audit-artifact-001",
+  "require_lineage": true,
+  "task": "Final claim-boundary audit for Proof 014 independent real-trace replication. Verify bounded aggregate wording only, no global superiority claims, no AGI claims, no consciousness claims, no black-box-solved claims, and no target-system defect claims."
+}

@@ -1,0 +1,150 @@
+{
+  "allowed_inputs": [
+    "fixture/transcript.jsonl",
+    "fixture/events.jsonl visible order",
+    "visible action sequence only"
+  ],
+  "mode": "visible_only",
+  "proof_id": "014-independent-real-trace-replication",
+  "results": [
+    {
+      "available_refs": [
+        "T001-E-001",
+        "T001-A-001"
+      ],
+      "claim_level": "inferred",
+      "missing_refs": [
+        "T1-TR-001",
+        "T1-TR-002",
+        "T1-TR-003",
+        "T001-A-001"
+      ],
+      "probe": "tool-dependent action reconstruction",
+      "probe_id": "P-001",
+      "reason": "Visible replay sees a consult retry but cannot verify the failed response hash, schema cap, or final passing response lineage.",
+      "score": "partially_reconstructed"
+    },
+    {
+      "available_refs": [
+        "T001-E-001",
+        "T001-E-004"
+      ],
+      "claim_level": "inferred",
+      "missing_refs": [
+        "T001-C-001",
+        "T1-TR-001",
+        "T1-TR-002",
+        "T1-TR-003"
+      ],
+      "probe": "contradiction resolution reconstruction",
+      "probe_id": "P-002",
+      "reason": "Visible replay can infer a request-bound contradiction, but cannot prove the failure was the output-cap contract rather than runtime content.",
+      "score": "partially_reconstructed"
+    },
+    {
+      "available_refs": [
+        "T001-MEM-001"
+      ],
+      "claim_level": "unresolved",
+      "missing_refs": [
+        "T001-MEM-001",
+        "T001-MEM-002",
+        "T001-AUTH-001"
+      ],
+      "probe": "memory/authority reconstruction",
+      "probe_id": "P-003",
+      "reason": "Visible replay lacks the runtime contract authority, schema authority, and proof-boundary authority refs.",
+      "score": "unresolved"
+    },
+    {
+      "available_refs": [
+        "T001-E-002"
+      ],
+      "claim_level": "inferred",
+      "missing_refs": [
+        "T001-O-001",
+        "T1-TR-001",
+        "T1-TR-002",
+        "T1-TR-003"
+      ],
+      "probe": "omitted-range recovery",
+      "probe_id": "P-004",
+      "reason": "Visible transcript omits raw response fields and only preserves that a request was corrected.",
+      "score": "partially_reconstructed"
+    },
+    {
+      "available_refs": [
+        "T001-E-003"
+      ],
+      "claim_level": "inferred",
+      "missing_refs": [
+        "T001-ENV-001",
+        "T001-ENV-002",
+        "T1-TR-002",
+        "T1-TR-003"
+      ],
+      "probe": "environment dependency reconstruction",
+      "probe_id": "P-005",
+      "reason": "Visible replay knows a local MCP endpoint was used, but not the schema cap, checkout commit, or runtime hash dependencies.",
+      "score": "partially_reconstructed"
+    },
+    {
+      "available_refs": [
+        "T001-E-002",
+        "T001-E-004"
+      ],
+      "claim_level": "inferred",
+      "missing_refs": [
+        "T001-R-001",
+        "T001-R-002",
+        "T001-R-003",
+        "T1-TR-001",
+        "T1-TR-002",
+        "T1-TR-003"
+      ],
+      "probe": "recovery-loop reconstruction",
+      "probe_id": "P-006",
+      "reason": "Visible replay identifies a retry loop but cannot reconstruct fail-closed response, schema inspection, and corrected request as linked steps.",
+      "score": "partially_reconstructed"
+    },
+    {
+      "available_refs": [
+        "T001-MEM-002"
+      ],
+      "claim_level": "unresolved",
+      "missing_refs": [
+        "T001-AUTH-001",
+        "T001-AUTH-002",
+        "AUTH-RUNTIME-014"
+      ],
+      "probe": "authority lineage reconstruction",
+      "probe_id": "P-007",
+      "reason": "Visible replay cannot separate user hard-gate authority, MCP schema authority, and pond-backed runtime authority.",
+      "score": "unresolved"
+    },
+    {
+      "available_refs": [
+        "T001-E-001",
+        "T001-E-005"
+      ],
+      "claim_level": "observed",
+      "missing_refs": [
+        "T001-TV-001",
+        "T001-TV-002",
+        "T1-TR-002",
+        "T1-TR-003"
+      ],
+      "probe": "temporal validity reconstruction",
+      "probe_id": "P-008",
+      "reason": "Visible ordering is explicit enough to place failure before schema check and corrected gate.",
+      "score": "reconstructed"
+    }
+  ],
+  "source_fixture": "proofs/014-independent-real-trace-replication/traces/trace_001/fixture",
+  "summary": {
+    "partially_reconstructed": 5,
+    "reconstructed": 1,
+    "unresolved": 2
+  },
+  "trace_id": "trace_001"
+}

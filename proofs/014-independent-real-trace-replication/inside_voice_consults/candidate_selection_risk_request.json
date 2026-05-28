@@ -1,0 +1,32 @@
+{
+  "context": {
+    "constraints": [
+      "candidate is not Proof 013 duplicated",
+      "trace classes must differ",
+      "redact local/private content",
+      "preserve public/private boundary",
+      "no global superiority claims",
+      "no AGI claims",
+      "no consciousness claims",
+      "no black-box-solved claims",
+      "no target-system defect claims",
+      "preserve Proof 010 synthetic-only boundary",
+      "preserve Proof 011/013 real-trace replay boundaries"
+    ],
+    "desired_artifacts": [
+      "proofs/014-independent-real-trace-replication/inside_voice_consults/candidate_selection_risk_request.json",
+      "proofs/014-independent-real-trace-replication/inside_voice_consults/candidate_selection_risk_response.json"
+    ],
+    "files": [
+      "proofs/013-real-trace-replay-gate/proof_manifest.json",
+      "proofs/013-real-trace-replay-gate/reconstruction_probe_results.json",
+      "tools/validate_real_trace_replay_gate.py"
+    ],
+    "summary": "Select independent redacted-real operational traces that are not all the same failure mode. Proposed traces are current-session operational traces with visible event ordering, tool/action evidence, contradiction or correction, recovery behavior, environment dependency, and enough lineage for visible-only versus full-lineage replay."
+  },
+  "max_output_chars": 8000,
+  "mode": "proof_planning",
+  "request_id": "proof-014-candidate-selection-risk-artifact-001",
+  "require_lineage": true,
+  "task": "Assess candidate selection risk for Proof 014 independent real-trace replication. Candidate traces are malformed consult recovery, occupied MCP port with required checkout verification, and safe-negated claim-boundary audit repair. Enforce no global superiority claims, no AGI claims, no consciousness claims, no black-box-solved claims, and no target-system defect claim."
+}

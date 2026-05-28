@@ -1,0 +1,4 @@
+{"action": "curl POST /consult without exact safe-negated boundary phrases", "id": "T3-A-001", "input_boundary": "visible action summary only; private local paths redacted", "order": 1}
+{"action": "search hardened runtime for safe_negated patterns", "id": "T3-A-002", "input_boundary": "visible action summary only; private local paths redacted", "order": 2}
+{"action": "inspect audit construction code range", "id": "T3-A-003", "input_boundary": "visible action summary only; private local paths redacted", "order": 3}
+{"action": "curl POST /consult with exact safe-negated boundary phrases", "id": "T3-A-004", "input_boundary": "visible action summary only; private local paths redacted", "order": 4}

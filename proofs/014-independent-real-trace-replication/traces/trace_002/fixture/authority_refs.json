@@ -1,0 +1,20 @@
+{
+  "authority_refs": [
+    {
+      "authority": "user task hard gate and proof definition of done",
+      "claim_level": "observed",
+      "id": "T002-AUTH-001"
+    },
+    {
+      "authority": "Proof 010 synthetic-only and Proof 011/013 real-trace replay boundaries",
+      "claim_level": "observed",
+      "id": "T002-AUTH-002"
+    },
+    {
+      "authority": "pond-backed Inside Voice MCP consult response with deterministic runtime hashes",
+      "claim_level": "observed",
+      "id": "AUTH-RUNTIME-014"
+    }
+  ],
+  "trace_id": "trace_002"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_class": "runtime/server checkout mismatch trace",
+  "fixture_hash": "19b26bc59f158efedaab3537cdabb26b284f5e6a4c0aa1ac238f1162f45cddf8",
+  "independent_from_proof_013": true,
+  "provenance_status": "established_for_redacted_local_trace",
+  "public_private_boundary": "local paths, private terminal context, and raw process details are redacted; public-safe hashes and summaries remain",
+  "redaction_complete": true,
+  "source_refs": [
+    "T2-TR-001",
+    "T2-TR-002",
+    "T2-TR-003",
+    "T2-TR-004",
+    "T2-TR-005"
+  ],
+  "trace_id": "trace_002",
+  "visible_only_separable_from_full_lineage": true
+}

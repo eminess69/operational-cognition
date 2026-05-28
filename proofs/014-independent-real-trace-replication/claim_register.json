@@ -1,0 +1,95 @@
+{
+  "claims": [
+    {
+      "claim_id": "pond_backed_runtime_participated",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "inside_voice_consults/hard_gate_response.json",
+        "trace_results.json"
+      ],
+      "risk_if_overstated": "Overstating this would imply broader runtime capability than the recorded consults show.",
+      "safe_public_wording": "Pond-backed Inside Voice participated in the bounded Proof 014 gate and advisory checks."
+    },
+    {
+      "claim_id": "independent_traces_used",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "candidate_selection_report.md",
+        "trace_results.json"
+      ],
+      "risk_if_overstated": "Overstating this would erase remaining untested trace classes.",
+      "safe_public_wording": "Proof 014 used three independent redacted-real operational trace classes."
+    },
+    {
+      "claim_id": "full_lineage_improved_each_valid_trace",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "trace_results.json",
+        "comparative_reconstruction_report.md"
+      ],
+      "risk_if_overstated": "Overstating this would imply results outside these fixtures.",
+      "safe_public_wording": "Full-lineage replay improved reconstruction counts on each valid trace."
+    },
+    {
+      "claim_id": "aggregate_verdict_bounded",
+      "claim_level": "bounded",
+      "evidence_refs": [
+        "final_verdict.json",
+        "replication_summary.md"
+      ],
+      "risk_if_overstated": "Overstating this would become a global superiority claim.",
+      "safe_public_wording": "The aggregate verdict is bounded to the selected Proof 014 traces."
+    },
+    {
+      "claim_id": "no_global_superiority_claim",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "final_verdict.json",
+        "public_lineage_summary.md"
+      ],
+      "risk_if_overstated": "Overstating this would exceed the evidence.",
+      "safe_public_wording": "No global superiority claim is made."
+    },
+    {
+      "claim_id": "no_target_system_defect_claim",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "final_verdict.json",
+        "claim_register.json"
+      ],
+      "risk_if_overstated": "Overstating this would confuse reconstruction limits with defects.",
+      "safe_public_wording": "No target-system defect claim is made."
+    },
+    {
+      "claim_id": "proof_010_synthetic_only_boundary_preserved",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "comparative_reconstruction_report.md",
+        "inside_voice_consults/hard_gate_response.json"
+      ],
+      "risk_if_overstated": "Overstating this would treat synthetic fixture evidence as real-trace validation.",
+      "safe_public_wording": "Proof 010 remains a synthetic-only boundary."
+    },
+    {
+      "claim_id": "proof_011_013_real_trace_boundaries_preserved",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "comparative_reconstruction_report.md",
+        "replication_summary.md"
+      ],
+      "risk_if_overstated": "Overstating this would skip candidate and replay gates.",
+      "safe_public_wording": "Proof 011 and Proof 013 real-trace boundaries remain preserved."
+    },
+    {
+      "claim_id": "remaining_unresolved_questions_preserved",
+      "claim_level": "observed",
+      "evidence_refs": [
+        "replication_summary.md",
+        "final_verdict.json"
+      ],
+      "risk_if_overstated": "Overstating this would hide untested trace classes and deployments.",
+      "safe_public_wording": "Remaining unresolved questions are preserved in the proof summary and verdict."
+    }
+  ],
+  "proof_id": "014-independent-real-trace-replication"
+}

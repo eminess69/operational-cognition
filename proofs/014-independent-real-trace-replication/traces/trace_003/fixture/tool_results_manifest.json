@@ -1,0 +1,49 @@
+{
+  "public_private_boundary": "raw terminal output is summarized; deterministic hashes preserve replay lineage",
+  "result_hash_algorithm": "sha256 canonical public-safe summary",
+  "tool_results": [
+    {
+      "action_ref": "T3-A-001",
+      "id": "T3-TR-001",
+      "lineage_refs": [
+        "request_hash:764e15f9b022e9c516d848f47d1c327af87c31c9516a33bf69c8baa240f61e7f",
+        "response_hash:e0b314e45769c318a0f5018be92130ec528d39eb8eb5db11b3c581004bf52879"
+      ],
+      "observed_result": "Gate response was pond-backed but compacted claim_boundary_audit lacked audit.safe_negated_claim_boundary.",
+      "public_private_boundary": "public-safe summary; raw local paths and private terminal details redacted",
+      "result_hash": "8f79f9272a613143d89ef89fb2663aa7da125112bd9f8beff22e4f62d094d210"
+    },
+    {
+      "action_ref": "T3-A-002",
+      "id": "T3-TR-002",
+      "lineage_refs": [
+        "pattern_id:audit.safe_negated_claim_boundary"
+      ],
+      "observed_result": "Runtime source search found safe_negated claim-boundary patterns and audit id.",
+      "public_private_boundary": "public-safe summary; raw local paths and private terminal details redacted",
+      "result_hash": "77e07d09abb10e932dae0e821c0a61c1851d84494c7e64906f4b745d663a3772"
+    },
+    {
+      "action_ref": "T3-A-003",
+      "id": "T3-TR-003",
+      "lineage_refs": [
+        "code_ref:inside_voice_runtime.safe_negated_audit"
+      ],
+      "observed_result": "Audit logic showed safe_negated language appends audit.safe_negated_claim_boundary.",
+      "public_private_boundary": "public-safe summary; raw local paths and private terminal details redacted",
+      "result_hash": "c84b89b17edde193965d97654d7ce5b7ec3b77c5cc791b9a3fb62f5f774e0b2f"
+    },
+    {
+      "action_ref": "T3-A-004",
+      "id": "T3-TR-004",
+      "lineage_refs": [
+        "request_hash:3058fd26c728327a834b61df8afbbefbc0060515112cd2b813be6a8ecc8ee034",
+        "response_hash:2544e68ef8c9b29d50f0032e68a08beed59736c51d6e9d8f4d302721272329ce"
+      ],
+      "observed_result": "Corrected gate response included audit.safe_negated_claim_boundary and no gate failures.",
+      "public_private_boundary": "public-safe summary; raw local paths and private terminal details redacted",
+      "result_hash": "637a6e5add9f6aed03230a8373fc5e01bfe606838d13c1b5009dad1c64499cb0"
+    }
+  ],
+  "trace_id": "trace_003"
+}

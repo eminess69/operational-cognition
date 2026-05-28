@@ -1,0 +1,124 @@
+{
+  "allowed_inputs": [
+    "all fixture artifacts",
+    "process/listener result refs",
+    "checkout refs",
+    "pond-backed runtime hashes"
+  ],
+  "mode": "full_lineage",
+  "proof_id": "014-independent-real-trace-replication",
+  "results": [
+    {
+      "claim_level": "observed",
+      "fixture_refs": [
+        "T2-TR-001",
+        "T2-TR-002",
+        "T2-TR-003",
+        "T002-A-001"
+      ],
+      "probe": "tool-dependent action reconstruction",
+      "probe_id": "P-001",
+      "reason": "Tool results reconstruct commit check, failed start, listener discovery, cwd verification, and subsequent consult use.",
+      "score": "reconstructed"
+    },
+    {
+      "claim_level": "observed",
+      "fixture_refs": [
+        "T002-C-001",
+        "T2-TR-001",
+        "T2-TR-002",
+        "T2-TR-003",
+        "T2-TR-004"
+      ],
+      "probe": "contradiction resolution reconstruction",
+      "probe_id": "P-002",
+      "reason": "Contradiction refs show address-in-use did not invalidate the gate once cwd evidence tied the listener to the required checkout.",
+      "score": "reconstructed"
+    },
+    {
+      "claim_level": "observed",
+      "fixture_refs": [
+        "T002-MEM-001",
+        "T002-MEM-002",
+        "T002-AUTH-001"
+      ],
+      "probe": "memory/authority reconstruction",
+      "probe_id": "P-003",
+      "reason": "Memory and authority refs bind required minimum commit 1c89d45 to the verified listener cwd and hard gate.",
+      "score": "reconstructed"
+    },
+    {
+      "claim_level": "observed",
+      "fixture_refs": [
+        "T002-O-001",
+        "T2-TR-001",
+        "T2-TR-002",
+        "T2-TR-003"
+      ],
+      "probe": "omitted-range recovery",
+      "probe_id": "P-004",
+      "reason": "Omitted-range refs recover the process/listener evidence without exposing private process table details.",
+      "score": "reconstructed"
+    },
+    {
+      "claim_level": "observed",
+      "fixture_refs": [
+        "T002-ENV-001",
+        "T002-ENV-002",
+        "T2-TR-004",
+        "T2-TR-005"
+      ],
+      "probe": "environment dependency reconstruction",
+      "probe_id": "P-005",
+      "reason": "Environment refs reconstruct required checkout, port 8766, local-only endpoint, and pond-backed runtime corpus hash.",
+      "score": "reconstructed"
+    },
+    {
+      "claim_level": "observed",
+      "fixture_refs": [
+        "T002-R-001",
+        "T002-R-002",
+        "T002-R-003",
+        "T2-TR-001",
+        "T2-TR-002",
+        "T2-TR-003"
+      ],
+      "probe": "recovery-loop reconstruction",
+      "probe_id": "P-006",
+      "reason": "Recovery trace reconstructs failed start, listener inspection, checkout verification, and reuse decision.",
+      "score": "reconstructed"
+    },
+    {
+      "claim_level": "observed",
+      "fixture_refs": [
+        "T002-AUTH-001",
+        "T002-AUTH-002",
+        "AUTH-RUNTIME-014"
+      ],
+      "probe": "authority lineage reconstruction",
+      "probe_id": "P-007",
+      "reason": "Authority lineage separates user requirement, Belief-Ledger commit evidence, and MCP runtime response.",
+      "score": "reconstructed"
+    },
+    {
+      "claim_level": "observed",
+      "fixture_refs": [
+        "T002-TV-001",
+        "T002-TV-002",
+        "T2-TR-004",
+        "T2-TR-005"
+      ],
+      "probe": "temporal validity reconstruction",
+      "probe_id": "P-008",
+      "reason": "Temporal refs bind commit verification, address-in-use, listener cwd check, and gate pass to one ordered session.",
+      "score": "reconstructed"
+    }
+  ],
+  "source_fixture": "proofs/014-independent-real-trace-replication/traces/trace_002/fixture",
+  "summary": {
+    "partially_reconstructed": 0,
+    "reconstructed": 8,
+    "unresolved": 0
+  },
+  "trace_id": "trace_002"
+}

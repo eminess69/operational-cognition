@@ -1,0 +1,151 @@
+{
+  "allowed_inputs": [
+    "fixture/transcript.jsonl",
+    "fixture/events.jsonl visible order",
+    "visible action sequence only"
+  ],
+  "mode": "visible_only",
+  "proof_id": "014-independent-real-trace-replication",
+  "results": [
+    {
+      "available_refs": [
+        "T002-E-001",
+        "T002-A-001"
+      ],
+      "claim_level": "inferred",
+      "missing_refs": [
+        "T2-TR-001",
+        "T2-TR-002",
+        "T2-TR-003",
+        "T002-A-001"
+      ],
+      "probe": "tool-dependent action reconstruction",
+      "probe_id": "P-001",
+      "reason": "Visible replay sees a server-start attempt and listener verification but not the process result hashes.",
+      "score": "partially_reconstructed"
+    },
+    {
+      "available_refs": [
+        "T002-E-001",
+        "T002-E-004"
+      ],
+      "claim_level": "inferred",
+      "missing_refs": [
+        "T002-C-001",
+        "T2-TR-001",
+        "T2-TR-002",
+        "T2-TR-003",
+        "T2-TR-004"
+      ],
+      "probe": "contradiction resolution reconstruction",
+      "probe_id": "P-002",
+      "reason": "Visible replay knows address-in-use was corrected, but cannot distinguish unsafe reuse from verified required checkout reuse.",
+      "score": "partially_reconstructed"
+    },
+    {
+      "available_refs": [
+        "T002-MEM-001"
+      ],
+      "claim_level": "inferred",
+      "missing_refs": [
+        "T002-MEM-001",
+        "T002-MEM-002",
+        "T002-AUTH-001"
+      ],
+      "probe": "memory/authority reconstruction",
+      "probe_id": "P-003",
+      "reason": "Visible replay lacks the authority chain tying required commit, listener cwd, and hard-gate requirements together.",
+      "score": "partially_reconstructed"
+    },
+    {
+      "available_refs": [
+        "T002-E-002"
+      ],
+      "claim_level": "unresolved",
+      "missing_refs": [
+        "T002-O-001",
+        "T2-TR-001",
+        "T2-TR-002",
+        "T2-TR-003"
+      ],
+      "probe": "omitted-range recovery",
+      "probe_id": "P-004",
+      "reason": "The omitted listener details and command result summaries are not recoverable from visible-only replay.",
+      "score": "unresolved"
+    },
+    {
+      "available_refs": [
+        "T002-E-003"
+      ],
+      "claim_level": "inferred",
+      "missing_refs": [
+        "T002-ENV-001",
+        "T002-ENV-002",
+        "T2-TR-004",
+        "T2-TR-005"
+      ],
+      "probe": "environment dependency reconstruction",
+      "probe_id": "P-005",
+      "reason": "Visible replay partially reconstructs localhost dependency, but not commit and listener cwd evidence.",
+      "score": "partially_reconstructed"
+    },
+    {
+      "available_refs": [
+        "T002-E-002",
+        "T002-E-004"
+      ],
+      "claim_level": "inferred",
+      "missing_refs": [
+        "T002-R-001",
+        "T002-R-002",
+        "T002-R-003",
+        "T2-TR-001",
+        "T2-TR-002",
+        "T2-TR-003"
+      ],
+      "probe": "recovery-loop reconstruction",
+      "probe_id": "P-006",
+      "reason": "Visible replay can infer recovery by inspection but not the full address-in-use to lsof-cwd to consult sequence.",
+      "score": "partially_reconstructed"
+    },
+    {
+      "available_refs": [
+        "T002-MEM-002"
+      ],
+      "claim_level": "unresolved",
+      "missing_refs": [
+        "T002-AUTH-001",
+        "T002-AUTH-002",
+        "AUTH-RUNTIME-014"
+      ],
+      "probe": "authority lineage reconstruction",
+      "probe_id": "P-007",
+      "reason": "Visible replay cannot separate operator instruction authority from runtime process evidence.",
+      "score": "unresolved"
+    },
+    {
+      "available_refs": [
+        "T002-E-001",
+        "T002-E-005"
+      ],
+      "claim_level": "observed",
+      "missing_refs": [
+        "T002-TV-001",
+        "T002-TV-002",
+        "T2-TR-004",
+        "T2-TR-005"
+      ],
+      "probe": "temporal validity reconstruction",
+      "probe_id": "P-008",
+      "reason": "Visible ordering shows commit check preceded server-start recovery and gate execution.",
+      "score": "reconstructed"
+    }
+  ],
+  "source_fixture": "proofs/014-independent-real-trace-replication/traces/trace_002/fixture",
+  "summary": {
+    "partially_reconstructed": 5,
+    "reconstructed": 1,
+    "unresolved": 2
+  },
+  "trace_id": "trace_002"
+}

@@ -1,0 +1,151 @@
+{
+  "allowed_inputs": [
+    "fixture/transcript.jsonl",
+    "fixture/events.jsonl visible order",
+    "visible action sequence only"
+  ],
+  "mode": "visible_only",
+  "proof_id": "014-independent-real-trace-replication",
+  "results": [
+    {
+      "available_refs": [
+        "T003-E-001",
+        "T003-A-001"
+      ],
+      "claim_level": "inferred",
+      "missing_refs": [
+        "T3-TR-001",
+        "T3-TR-002",
+        "T3-TR-003",
+        "T003-A-001"
+      ],
+      "probe": "tool-dependent action reconstruction",
+      "probe_id": "P-001",
+      "reason": "Visible replay sees a second gate retry but not the exact audit id transition or pattern evidence.",
+      "score": "partially_reconstructed"
+    },
+    {
+      "available_refs": [
+        "T003-E-001",
+        "T003-E-004"
+      ],
+      "claim_level": "inferred",
+      "missing_refs": [
+        "T003-C-001",
+        "T3-TR-001",
+        "T3-TR-002",
+        "T3-TR-003",
+        "T3-TR-004"
+      ],
+      "probe": "contradiction resolution reconstruction",
+      "probe_id": "P-002",
+      "reason": "Visible replay knows the safe-negated audit was missing and then present, but cannot reconstruct why.",
+      "score": "partially_reconstructed"
+    },
+    {
+      "available_refs": [
+        "T003-MEM-001"
+      ],
+      "claim_level": "unresolved",
+      "missing_refs": [
+        "T003-MEM-001",
+        "T003-MEM-002",
+        "T003-AUTH-001"
+      ],
+      "probe": "memory/authority reconstruction",
+      "probe_id": "P-003",
+      "reason": "Visible replay lacks authority refs for safe-negated claim language and proof-boundary audit rules.",
+      "score": "unresolved"
+    },
+    {
+      "available_refs": [
+        "T003-E-002"
+      ],
+      "claim_level": "inferred",
+      "missing_refs": [
+        "T003-O-001",
+        "T3-TR-001",
+        "T3-TR-002",
+        "T3-TR-003"
+      ],
+      "probe": "omitted-range recovery",
+      "probe_id": "P-004",
+      "reason": "The omitted code-range and response details are not recoverable from visible-only event ordering.",
+      "score": "partially_reconstructed"
+    },
+    {
+      "available_refs": [
+        "T003-E-003"
+      ],
+      "claim_level": "inferred",
+      "missing_refs": [
+        "T003-ENV-001",
+        "T003-ENV-002",
+        "T3-TR-003",
+        "T3-TR-004"
+      ],
+      "probe": "environment dependency reconstruction",
+      "probe_id": "P-005",
+      "reason": "Visible replay partially reconstructs dependency on the hardened runtime but lacks pattern-rule and corpus refs.",
+      "score": "partially_reconstructed"
+    },
+    {
+      "available_refs": [
+        "T003-E-002",
+        "T003-E-004"
+      ],
+      "claim_level": "inferred",
+      "missing_refs": [
+        "T003-R-001",
+        "T003-R-002",
+        "T003-R-003",
+        "T3-TR-001",
+        "T3-TR-002",
+        "T3-TR-003"
+      ],
+      "probe": "recovery-loop reconstruction",
+      "probe_id": "P-006",
+      "reason": "Visible replay can infer a correction loop but not the sequence from missing audit to rule inspection to passing audit.",
+      "score": "partially_reconstructed"
+    },
+    {
+      "available_refs": [
+        "T003-MEM-002"
+      ],
+      "claim_level": "unresolved",
+      "missing_refs": [
+        "T003-AUTH-001",
+        "T003-AUTH-002",
+        "AUTH-RUNTIME-014"
+      ],
+      "probe": "authority lineage reconstruction",
+      "probe_id": "P-007",
+      "reason": "Visible replay cannot reconstruct the audit authority chain from runtime code, request language, and MCP response.",
+      "score": "unresolved"
+    },
+    {
+      "available_refs": [
+        "T003-E-001",
+        "T003-E-005"
+      ],
+      "claim_level": "inferred",
+      "missing_refs": [
+        "T003-TV-001",
+        "T003-TV-002",
+        "T3-TR-003",
+        "T3-TR-004"
+      ],
+      "probe": "temporal validity reconstruction",
+      "probe_id": "P-008",
+      "reason": "Visible replay has ordering but not temporal validity refs tying each response to the corrected request.",
+      "score": "partially_reconstructed"
+    }
+  ],
+  "source_fixture": "proofs/014-independent-real-trace-replication/traces/trace_003/fixture",
+  "summary": {
+    "partially_reconstructed": 6,
+    "reconstructed": 0,
+    "unresolved": 2
+  },
+  "trace_id": "trace_003"
+}

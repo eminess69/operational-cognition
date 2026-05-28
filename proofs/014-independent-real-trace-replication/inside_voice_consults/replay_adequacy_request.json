@@ -1,0 +1,32 @@
+{
+  "context": {
+    "constraints": [
+      "replay mode separation must be preserved",
+      "full-lineage artifacts must be deterministic and public-safe",
+      "no global superiority claims",
+      "no AGI claims",
+      "no consciousness claims",
+      "no black-box-solved claims",
+      "no target-system defect claims",
+      "preserve Proof 010 synthetic-only boundary",
+      "preserve Proof 011/013 real-trace replay boundaries",
+      "remaining unresolved questions must stay visible"
+    ],
+    "desired_artifacts": [
+      "proofs/014-independent-real-trace-replication/inside_voice_consults/replay_adequacy_request.json",
+      "proofs/014-independent-real-trace-replication/inside_voice_consults/replay_adequacy_response.json"
+    ],
+    "files": [
+      "proofs/013-real-trace-replay-gate/visible_only_replay_results.json",
+      "proofs/013-real-trace-replay-gate/full_lineage_replay_results.json",
+      "proofs/013-real-trace-replay-gate/reconstruction_probe_results.json",
+      "tools/validate_real_trace_replay_gate.py"
+    ],
+    "summary": "For each selected trace, Mode A uses visible transcript, event order, and action sequence only. Mode B uses fixture bundle, tool result refs/hashes, authority refs, omitted-range refs, temporal validity refs, environment refs, runtime config, recovery trace, provenance manifest, and pond-backed runtime hashes. Probes P-001 through P-008 classify reconstruction as reconstructed, partially_reconstructed, or unresolved."
+  },
+  "max_output_chars": 8000,
+  "mode": "review",
+  "request_id": "proof-014-replay-adequacy-artifact-001",
+  "require_lineage": true,
+  "task": "Analyze replay adequacy for Proof 014 visible-only versus full-lineage replay. Confirm probes can remain bounded and deterministic. Enforce no global superiority claims, no AGI claims, no consciousness claims, no black-box-solved claims, and no target-system defect claim."
+}

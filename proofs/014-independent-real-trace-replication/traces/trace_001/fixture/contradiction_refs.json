@@ -1,0 +1,14 @@
+{
+  "contradictions": [
+    {
+      "contradiction": "The first consult was intended as a gate but failed closed because the request violated the schema cap.",
+      "id": "T1-C-001",
+      "resolution_refs": [
+        "T1-TR-001",
+        "T1-TR-002",
+        "T1-TR-003"
+      ]
+    }
+  ],
+  "trace_id": "trace_001"
+}

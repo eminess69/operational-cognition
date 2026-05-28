@@ -1,0 +1,39 @@
+{
+  "public_private_boundary": "raw terminal output is summarized; deterministic hashes preserve replay lineage",
+  "result_hash_algorithm": "sha256 canonical public-safe summary",
+  "tool_results": [
+    {
+      "action_ref": "T1-A-001",
+      "id": "T1-TR-001",
+      "lineage_refs": [
+        "request_hash:130a283669043f691660bbffc6e4baf2ac71cae01ea82bc4f6bea99f1df69178",
+        "response_hash:37d4dd2ac9d638296366062d0fc7845ac76d439b853a8149d44025652e3587c5"
+      ],
+      "observed_result": "POST /consult failed closed with MAX_OUTPUT_CHARS_EXCEEDS_ALLOWED_CAP.",
+      "public_private_boundary": "public-safe summary; raw local paths and private terminal details redacted",
+      "result_hash": "64af93cb28d73774279277328b1242295830000a931dbbf2eede5a214938a409"
+    },
+    {
+      "action_ref": "T1-A-002",
+      "id": "T1-TR-002",
+      "lineage_refs": [
+        "schema_hash:e30c5f63440ef86a0d1dae6562361bc835a266d18efb8a3ccc0ec65d0d5696f2"
+      ],
+      "observed_result": "GET /schema reported max_output_chars_cap=8000.",
+      "public_private_boundary": "public-safe summary; raw local paths and private terminal details redacted",
+      "result_hash": "c8953a145e257e3ceb04cbc9ac7f6e66bdf7bbf080806ccf42422644c846675b"
+    },
+    {
+      "action_ref": "T1-A-003",
+      "id": "T1-TR-003",
+      "lineage_refs": [
+        "request_hash:3058fd26c728327a834b61df8afbbefbc0060515112cd2b813be6a8ecc8ee034",
+        "response_hash:2544e68ef8c9b29d50f0032e68a08beed59736c51d6e9d8f4d302721272329ce"
+      ],
+      "observed_result": "Corrected POST /consult passed with pond-backed runtime and no gate failures.",
+      "public_private_boundary": "public-safe summary; raw local paths and private terminal details redacted",
+      "result_hash": "e2325613dbe89c4a584bcc4d09209dd013cb272bb5387ab1ec6b8360a1cab592"
+    }
+  ],
+  "trace_id": "trace_001"
+}

@@ -1,0 +1,123 @@
+{
+  "allowed_inputs": [
+    "all fixture artifacts",
+    "tool result refs and hashes",
+    "schema cap evidence",
+    "pond-backed runtime hashes"
+  ],
+  "mode": "full_lineage",
+  "proof_id": "014-independent-real-trace-replication",
+  "results": [
+    {
+      "claim_level": "observed",
+      "fixture_refs": [
+        "T1-TR-001",
+        "T1-TR-002",
+        "T1-TR-003",
+        "T001-A-001"
+      ],
+      "probe": "tool-dependent action reconstruction",
+      "probe_id": "P-001",
+      "reason": "Tool action refs and result hashes link the malformed consult, schema-cap lookup, and corrected hard-gate request.",
+      "score": "reconstructed"
+    },
+    {
+      "claim_level": "observed",
+      "fixture_refs": [
+        "T001-C-001",
+        "T1-TR-001",
+        "T1-TR-002",
+        "T1-TR-003"
+      ],
+      "probe": "contradiction resolution reconstruction",
+      "probe_id": "P-002",
+      "reason": "Contradiction refs show MAX_OUTPUT_CHARS_EXCEEDS_ALLOWED_CAP was a request-contract failure resolved by max_output_chars=8000.",
+      "score": "reconstructed"
+    },
+    {
+      "claim_level": "observed",
+      "fixture_refs": [
+        "T001-MEM-001",
+        "T001-MEM-002",
+        "T001-AUTH-001"
+      ],
+      "probe": "memory/authority reconstruction",
+      "probe_id": "P-003",
+      "reason": "Authority refs separate user hard-gate requirements, MCP schema cap, and pond-backed runtime response evidence.",
+      "score": "reconstructed"
+    },
+    {
+      "claim_level": "observed",
+      "fixture_refs": [
+        "T001-O-001",
+        "T1-TR-001",
+        "T1-TR-002",
+        "T1-TR-003"
+      ],
+      "probe": "omitted-range recovery",
+      "probe_id": "P-004",
+      "reason": "Omitted-range refs preserve the failed response, schema body, and corrected response without exposing raw private terminal context.",
+      "score": "reconstructed"
+    },
+    {
+      "claim_level": "observed",
+      "fixture_refs": [
+        "T001-ENV-001",
+        "T001-ENV-002",
+        "T1-TR-002",
+        "T1-TR-003"
+      ],
+      "probe": "environment dependency reconstruction",
+      "probe_id": "P-005",
+      "reason": "Environment refs identify localhost endpoint, required checkout commit, and runtime corpus hash needed for reconstruction.",
+      "score": "reconstructed"
+    },
+    {
+      "claim_level": "observed",
+      "fixture_refs": [
+        "T001-R-001",
+        "T001-R-002",
+        "T001-R-003",
+        "T1-TR-001",
+        "T1-TR-002",
+        "T1-TR-003"
+      ],
+      "probe": "recovery-loop reconstruction",
+      "probe_id": "P-006",
+      "reason": "Recovery trace links fail-closed consult, schema check, safe-negated request repair, and gate pass.",
+      "score": "reconstructed"
+    },
+    {
+      "claim_level": "observed",
+      "fixture_refs": [
+        "T001-AUTH-001",
+        "T001-AUTH-002",
+        "AUTH-RUNTIME-014"
+      ],
+      "probe": "authority lineage reconstruction",
+      "probe_id": "P-007",
+      "reason": "Authority lineage reconstructs user instruction precedence, MCP schema authority, and Inside Voice advisory evidence.",
+      "score": "reconstructed"
+    },
+    {
+      "claim_level": "observed",
+      "fixture_refs": [
+        "T001-TV-001",
+        "T001-TV-002",
+        "T1-TR-002",
+        "T1-TR-003"
+      ],
+      "probe": "temporal validity reconstruction",
+      "probe_id": "P-008",
+      "reason": "Temporal refs bind the failure, schema inspection, and passing gate to the 2026-05-27 session order.",
+      "score": "reconstructed"
+    }
+  ],
+  "source_fixture": "proofs/014-independent-real-trace-replication/traces/trace_001/fixture",
+  "summary": {
+    "partially_reconstructed": 0,
+    "reconstructed": 8,
+    "unresolved": 0
+  },
+  "trace_id": "trace_001"
+}

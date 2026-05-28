@@ -1,0 +1,2 @@
+{"authority": "proof_task_boundary", "id": "T2-MEM-001", "memory": "Runtime must come from the required Belief-Ledger checkout.", "visibility": "public_redacted"}
+{"authority": "proof_task_boundary", "id": "T2-MEM-002", "memory": "An already-running listener is acceptable only if lineage establishes the required checkout.", "visibility": "public_redacted"}

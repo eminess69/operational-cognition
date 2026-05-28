@@ -1,0 +1,24 @@
+{
+  "omitted_ranges": [
+    {
+      "id": "T002-O-001",
+      "recoverable_with_refs": [
+        "T2-TR-001",
+        "T2-TR-002",
+        "T2-TR-003",
+        "T2-TR-004",
+        "T2-TR-005"
+      ],
+      "visible_gap": "raw tool response fields and private terminal context omitted from visible-only replay"
+    },
+    {
+      "id": "T002-O-002",
+      "recoverable_with_refs": [
+        "T002-AUTH-001",
+        "AUTH-RUNTIME-014"
+      ],
+      "visible_gap": "authority and runtime hash refs omitted from visible-only replay"
+    }
+  ],
+  "trace_id": "trace_002"
+}

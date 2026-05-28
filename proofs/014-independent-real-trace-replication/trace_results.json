@@ -1,0 +1,587 @@
+{
+  "aggregate_counts": {
+    "full_lineage_reconstructed": 24,
+    "improvement_count": 22,
+    "visible_partial_or_unresolved": 22,
+    "visible_reconstructed": 2
+  },
+  "inside_voice_consults": [
+    {
+      "adapter_status": "pond_backed",
+      "consult_type": "hard_gate",
+      "contribution_grade": "strong",
+      "corpus_hash": "b44a6338242a31cee7792d853979662f31975822d1509b8fca4a0824c38d5a0d",
+      "gate_failures": [],
+      "pressure_rankings": [
+        {
+          "boundary_risk": "medium",
+          "claim_level": "unresolved",
+          "id": "pressure:9b4f9fded2776784",
+          "kind": "claim_pressure",
+          "pressure_reasons": [
+            "DIRECT_REQUEST_MATCH",
+            "PROOF_BOUNDARY_RELEVANCE",
+            "CONTRADICTION_RELEVANCE"
+          ],
+          "pressure_score": 1.0,
+          "reason_codes": [
+            "authority_warning",
+            "CLAIM_DISCIPLINE",
+            "DIRECT_REQUEST_MATCH",
+            "PROOF_BOUNDARY_RELEVANCE"
+          ],
+          "source_ref": "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+          "supporting_refs": [
+            "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json"
+          ],
+          "title": "blocked unsupported claims"
+        },
+        {
+          "boundary_risk": "medium",
+          "claim_level": "inferred",
+          "id": "pressure:cdd7c56880c04dc3",
+          "kind": "claim_pressure",
+          "pressure_reasons": [
+            "DIRECT_REQUEST_MATCH",
+            "PROOF_BOUNDARY_RELEVANCE",
+            "CONTRADICTION_RELEVANCE"
+          ],
+          "pressure_score": 0.99,
+          "reason_codes": [
+            "TASK_PATHWAY_COLLISION",
+            "DIRECT_REQUEST_MATCH",
+            "PROOF_BOUNDARY_RELEVANCE",
+            "CONTRADICTION_RELEVANCE"
+          ],
+          "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+          "supporting_refs": [
+            "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+            "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee"
+          ],
+          "title": "arbitration:28663be18db91b7d"
+        },
+        {
+          "boundary_risk": "medium",
+          "claim_level": "unresolved",
+          "id": "pressure:cf4e82e380cf1a94",
+          "kind": "unresolved",
+          "pressure_reasons": [
+            "DIRECT_REQUEST_MATCH",
+            "PROOF_BOUNDARY_RELEVANCE",
+            "CONTRADICTION_RELEVANCE"
+          ],
+          "pressure_score": 0.99,
+          "reason_codes": [
+            "TASK_PATHWAY_COLLISION",
+            "DIRECT_REQUEST_MATCH",
+            "PROOF_BOUNDARY_RELEVANCE",
+            "CONTRADICTION_RELEVANCE"
+          ],
+          "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+          "supporting_refs": [
+            "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+            "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee"
+          ],
+          "title": "arbitration:28663be18db91b7d"
+        }
+      ],
+      "recalled_motifs": [
+        {
+          "boundary_risk": "medium",
+          "motif": "overlap_cluster_0018",
+          "motif_id": "inside_voice_runtime:b52f584c333f5750c031",
+          "pressure_score": 0.659
+        }
+      ],
+      "request_artifact": "inside_voice_consults/hard_gate_request.json",
+      "request_hash": "769b3099fa42819348275fbe643877c05e1db13630d14ad6d2ea58fee5035619",
+      "response_artifact": "inside_voice_consults/hard_gate_response.json",
+      "response_hash": "2ec587e8eca05520ba60b363fdffaaccbe64c5bda2b732b20e9deebcfdcc5376",
+      "retrieved_refs": [
+        "request_visible_ref:proofs/013-real-trace-replay-gate/proof_manifest.json",
+        "request_visible_ref:proofs/013-real-trace-replay-gate/final_verdict.json",
+        "request_visible_ref:proofs/010-fixture-execution/proof_manifest.json"
+      ],
+      "runtime_response_hash": "f1817b0ef485632d392bd530f1d82a33765f0535740ed40cdd4d2db1d71bdb95",
+      "unresolved_tensions": [
+        {
+          "boundary_risk": "medium",
+          "evidence_refs": [
+            "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0"
+          ],
+          "id": "inside_voice_runtime:d43e2e09c028b98314e8",
+          "pressure_score": 0.817,
+          "status": "unresolved",
+          "tension": "gap:5c482ea64982398d"
+        }
+      ]
+    },
+    {
+      "adapter_status": "pond_backed",
+      "consult_type": "candidate_selection_risk",
+      "contribution_grade": "strong",
+      "corpus_hash": "b44a6338242a31cee7792d853979662f31975822d1509b8fca4a0824c38d5a0d",
+      "gate_failures": [],
+      "pressure_rankings": [
+        {
+          "boundary_risk": "medium",
+          "claim_level": "observed",
+          "id": "pressure:d8573d273ed72157",
+          "kind": "operational_boundary",
+          "pressure_reasons": [
+            "DIRECT_REQUEST_MATCH",
+            "PROOF_BOUNDARY_RELEVANCE",
+            "CONTRADICTION_RELEVANCE"
+          ],
+          "pressure_score": 1.0,
+          "reason_codes": [
+            "DIRECT_REQUEST_MATCH",
+            "PROOF_BOUNDARY_RELEVANCE",
+            "CONTRADICTION_RELEVANCE",
+            "REAL_TRACE_REQUIREMENT_RELEVANCE"
+          ],
+          "source_ref": "request_context:proof_010_boundary",
+          "supporting_refs": [
+            "request_context:proof_010_boundary"
+          ],
+          "title": "Proof 010 remains a synthetic fixture validation boundary, not a real-trace validation result."
+        },
+        {
+          "boundary_risk": "medium",
+          "claim_level": "unresolved",
+          "id": "pressure:44eeb320a80c1c5f",
+          "kind": "unresolved",
+          "pressure_reasons": [
+            "DIRECT_REQUEST_MATCH",
+            "CONTRADICTION_RELEVANCE",
+            "CLAIM_DISCIPLINE_RELEVANCE"
+          ],
+          "pressure_score": 1.0,
+          "reason_codes": [
+            "CONTRADICTION_CLUSTER",
+            "CONFLICTING_PATHWAY_REINFORCEMENT",
+            "DIRECT_REQUEST_MATCH",
+            "CONTRADICTION_RELEVANCE"
+          ],
+          "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+          "supporting_refs": [
+            "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+          ],
+          "title": "CONFLICTING_PATHWAY_REINFORCEMENT"
+        },
+        {
+          "boundary_risk": "medium",
+          "claim_level": "unresolved",
+          "id": "pressure:7ba41d8ba5ef3698",
+          "kind": "unresolved",
+          "pressure_reasons": [
+            "DIRECT_REQUEST_MATCH",
+            "PROOF_BOUNDARY_RELEVANCE",
+            "CONTRADICTION_RELEVANCE"
+          ],
+          "pressure_score": 1.0,
+          "reason_codes": [
+            "claim_register",
+            "CLAIM_DISCIPLINE",
+            "DIRECT_REQUEST_MATCH",
+            "PROOF_BOUNDARY_RELEVANCE"
+          ],
+          "source_ref": "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+          "supporting_refs": [
+            "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json"
+          ],
+          "title": "claim boundary"
+        }
+      ],
+      "recalled_motifs": [
+        {
+          "boundary_risk": "medium",
+          "motif": "overlap_cluster_0018",
+          "motif_id": "inside_voice_runtime:b52f584c333f5750c031",
+          "pressure_score": 0.608
+        }
+      ],
+      "request_artifact": "inside_voice_consults/candidate_selection_risk_request.json",
+      "request_hash": "87d1782a688348f24addd6590c947d1c03d5a57e382e78cd6496e82f388798f5",
+      "response_artifact": "inside_voice_consults/candidate_selection_risk_response.json",
+      "response_hash": "6364a135f7abf0e1681355cad8c1c64bc05fb2c2960675a44ee280549565370d",
+      "retrieved_refs": [
+        "request_visible_ref:proofs/013-real-trace-replay-gate/proof_manifest.json",
+        "request_visible_ref:proofs/013-real-trace-replay-gate/reconstruction_probe_results.json",
+        "docs/proofs/RECURSIVE_STABILITY_PROOF_ROLLUP.md"
+      ],
+      "runtime_response_hash": "76f28d2f871232d3849f89ecc90f5b2839cc97c431c7b34522cd8033789a18bd",
+      "unresolved_tensions": [
+        {
+          "boundary_risk": "medium",
+          "evidence_refs": [
+            "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0"
+          ],
+          "id": "inside_voice_runtime:d43e2e09c028b98314e8",
+          "pressure_score": 0.846,
+          "status": "unresolved",
+          "tension": "gap:5c482ea64982398d"
+        }
+      ]
+    },
+    {
+      "adapter_status": "pond_backed",
+      "consult_type": "contradiction_mapping",
+      "contribution_grade": "strong",
+      "corpus_hash": "b44a6338242a31cee7792d853979662f31975822d1509b8fca4a0824c38d5a0d",
+      "gate_failures": [],
+      "pressure_rankings": [
+        {
+          "boundary_risk": "medium",
+          "claim_level": "observed",
+          "id": "pressure:d8573d273ed72157",
+          "kind": "operational_boundary",
+          "pressure_reasons": [
+            "DIRECT_REQUEST_MATCH",
+            "PROOF_BOUNDARY_RELEVANCE",
+            "CONTRADICTION_RELEVANCE"
+          ],
+          "pressure_score": 1.0,
+          "reason_codes": [
+            "DIRECT_REQUEST_MATCH",
+            "PROOF_BOUNDARY_RELEVANCE",
+            "CONTRADICTION_RELEVANCE",
+            "REAL_TRACE_REQUIREMENT_RELEVANCE"
+          ],
+          "source_ref": "request_context:proof_010_boundary",
+          "supporting_refs": [
+            "request_context:proof_010_boundary"
+          ],
+          "title": "Proof 010 remains a synthetic fixture validation boundary, not a real-trace validation result."
+        },
+        {
+          "boundary_risk": "medium",
+          "claim_level": "unresolved",
+          "id": "pressure:44eeb320a80c1c5f",
+          "kind": "unresolved",
+          "pressure_reasons": [
+            "DIRECT_REQUEST_MATCH",
+            "CONTRADICTION_RELEVANCE",
+            "CLAIM_DISCIPLINE_RELEVANCE"
+          ],
+          "pressure_score": 1.0,
+          "reason_codes": [
+            "CONTRADICTION_CLUSTER",
+            "CONFLICTING_PATHWAY_REINFORCEMENT",
+            "DIRECT_REQUEST_MATCH",
+            "CONTRADICTION_RELEVANCE"
+          ],
+          "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+          "supporting_refs": [
+            "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+          ],
+          "title": "CONFLICTING_PATHWAY_REINFORCEMENT"
+        },
+        {
+          "boundary_risk": "medium",
+          "claim_level": "unresolved",
+          "id": "pressure:7ba41d8ba5ef3698",
+          "kind": "unresolved",
+          "pressure_reasons": [
+            "DIRECT_REQUEST_MATCH",
+            "PROOF_BOUNDARY_RELEVANCE",
+            "CONTRADICTION_RELEVANCE"
+          ],
+          "pressure_score": 1.0,
+          "reason_codes": [
+            "claim_register",
+            "CLAIM_DISCIPLINE",
+            "DIRECT_REQUEST_MATCH",
+            "PROOF_BOUNDARY_RELEVANCE"
+          ],
+          "source_ref": "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+          "supporting_refs": [
+            "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json"
+          ],
+          "title": "claim boundary"
+        }
+      ],
+      "recalled_motifs": [
+        {
+          "boundary_risk": "medium",
+          "motif": "overlap_cluster_0018",
+          "motif_id": "inside_voice_runtime:b52f584c333f5750c031",
+          "pressure_score": 0.569
+        }
+      ],
+      "request_artifact": "inside_voice_consults/contradiction_mapping_request.json",
+      "request_hash": "e91ba5c861ffae521e872f5c1381afffd92b92f4502c023a1ee1670cceee0bfd",
+      "response_artifact": "inside_voice_consults/contradiction_mapping_response.json",
+      "response_hash": "91bff67f37bddb67f2667eec7e749c2fbddf73ddb0789ed308ee32d1be9f7e21",
+      "retrieved_refs": [
+        "request_visible_ref:proofs/013-real-trace-replay-gate/reconstruction_probe_results.json",
+        "docs/proofs/RECURSIVE_STABILITY_PROOF_ROLLUP.md",
+        "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json"
+      ],
+      "runtime_response_hash": "bfc29deac96b2ce53955f73ee0b3da111e700563925026927c4643ebe78f5d4d",
+      "unresolved_tensions": [
+        {
+          "boundary_risk": "medium",
+          "evidence_refs": [
+            "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0"
+          ],
+          "id": "inside_voice_runtime:d43e2e09c028b98314e8",
+          "pressure_score": 0.837,
+          "status": "unresolved",
+          "tension": "gap:5c482ea64982398d"
+        }
+      ]
+    },
+    {
+      "adapter_status": "pond_backed",
+      "consult_type": "replay_adequacy",
+      "contribution_grade": "strong",
+      "corpus_hash": "b44a6338242a31cee7792d853979662f31975822d1509b8fca4a0824c38d5a0d",
+      "gate_failures": [],
+      "pressure_rankings": [
+        {
+          "boundary_risk": "medium",
+          "claim_level": "unresolved",
+          "id": "pressure:9b4f9fded2776784",
+          "kind": "claim_pressure",
+          "pressure_reasons": [
+            "DIRECT_REQUEST_MATCH",
+            "PROOF_BOUNDARY_RELEVANCE",
+            "CONTRADICTION_RELEVANCE"
+          ],
+          "pressure_score": 1.0,
+          "reason_codes": [
+            "authority_warning",
+            "CLAIM_DISCIPLINE",
+            "DIRECT_REQUEST_MATCH",
+            "PROOF_BOUNDARY_RELEVANCE"
+          ],
+          "source_ref": "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+          "supporting_refs": [
+            "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json"
+          ],
+          "title": "blocked unsupported claims"
+        },
+        {
+          "boundary_risk": "medium",
+          "claim_level": "unresolved",
+          "id": "pressure:1502082532395b83",
+          "kind": "unresolved",
+          "pressure_reasons": [
+            "DIRECT_REQUEST_MATCH",
+            "PROOF_BOUNDARY_RELEVANCE",
+            "CONTRADICTION_RELEVANCE"
+          ],
+          "pressure_score": 1.0,
+          "reason_codes": [
+            "authority_warning",
+            "CLAIM_DISCIPLINE",
+            "DIRECT_REQUEST_MATCH",
+            "PROOF_BOUNDARY_RELEVANCE"
+          ],
+          "source_ref": "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+          "supporting_refs": [
+            "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json"
+          ],
+          "title": "blocked unsupported claims"
+        },
+        {
+          "boundary_risk": "medium",
+          "claim_level": "unresolved",
+          "id": "pressure:7ba41d8ba5ef3698",
+          "kind": "unresolved",
+          "pressure_reasons": [
+            "DIRECT_REQUEST_MATCH",
+            "PROOF_BOUNDARY_RELEVANCE",
+            "REAL_TRACE_REQUIREMENT_RELEVANCE"
+          ],
+          "pressure_score": 1.0,
+          "reason_codes": [
+            "claim_register",
+            "CLAIM_DISCIPLINE",
+            "DIRECT_REQUEST_MATCH",
+            "PROOF_BOUNDARY_RELEVANCE"
+          ],
+          "source_ref": "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+          "supporting_refs": [
+            "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json"
+          ],
+          "title": "claim boundary"
+        }
+      ],
+      "recalled_motifs": [
+        {
+          "boundary_risk": "medium",
+          "motif": "overlap_cluster_0018",
+          "motif_id": "inside_voice_runtime:b52f584c333f5750c031",
+          "pressure_score": 0.679
+        }
+      ],
+      "request_artifact": "inside_voice_consults/replay_adequacy_request.json",
+      "request_hash": "b5d5f0c098e43d4271bfaecf531177fc48f20a7694edae168caae3e5340a801d",
+      "response_artifact": "inside_voice_consults/replay_adequacy_response.json",
+      "response_hash": "3ce9f126bccee043cf944e5ec534f8aca93951bc27691a819cfe7b5b6a61a9d1",
+      "retrieved_refs": [
+        "request_visible_ref:proofs/013-real-trace-replay-gate/visible_only_replay_results.json",
+        "request_visible_ref:proofs/013-real-trace-replay-gate/full_lineage_replay_results.json",
+        "request_visible_ref:proofs/013-real-trace-replay-gate/reconstruction_probe_results.json"
+      ],
+      "runtime_response_hash": "54ab27fc8ed065b2733def16c984ed51c5e20fa6cc51bf083eaf258abe1c04ae",
+      "unresolved_tensions": [
+        {
+          "boundary_risk": "medium",
+          "evidence_refs": [
+            "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0"
+          ],
+          "id": "inside_voice_runtime:d43e2e09c028b98314e8",
+          "pressure_score": 0.817,
+          "status": "unresolved",
+          "tension": "gap:5c482ea64982398d"
+        }
+      ]
+    },
+    {
+      "adapter_status": "pond_backed",
+      "consult_type": "final_claim_boundary_audit",
+      "contribution_grade": "strong",
+      "corpus_hash": "b44a6338242a31cee7792d853979662f31975822d1509b8fca4a0824c38d5a0d",
+      "gate_failures": [],
+      "pressure_rankings": [
+        {
+          "boundary_risk": "medium",
+          "claim_level": "unresolved",
+          "id": "pressure:9b4f9fded2776784",
+          "kind": "claim_pressure",
+          "pressure_reasons": [
+            "DIRECT_REQUEST_MATCH",
+            "PROOF_BOUNDARY_RELEVANCE",
+            "CONTRADICTION_RELEVANCE"
+          ],
+          "pressure_score": 0.923,
+          "reason_codes": [
+            "authority_warning",
+            "CLAIM_DISCIPLINE",
+            "DIRECT_REQUEST_MATCH",
+            "PROOF_BOUNDARY_RELEVANCE"
+          ],
+          "source_ref": "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+          "supporting_refs": [
+            "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json"
+          ],
+          "title": "blocked unsupported claims"
+        },
+        {
+          "boundary_risk": "medium",
+          "claim_level": "unresolved",
+          "id": "pressure:7ba41d8ba5ef3698",
+          "kind": "unresolved",
+          "pressure_reasons": [
+            "DIRECT_REQUEST_MATCH",
+            "PROOF_BOUNDARY_RELEVANCE",
+            "REAL_TRACE_REQUIREMENT_RELEVANCE"
+          ],
+          "pressure_score": 0.884,
+          "reason_codes": [
+            "claim_register",
+            "CLAIM_DISCIPLINE",
+            "DIRECT_REQUEST_MATCH",
+            "PROOF_BOUNDARY_RELEVANCE"
+          ],
+          "source_ref": "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+          "supporting_refs": [
+            "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json"
+          ],
+          "title": "claim boundary"
+        },
+        {
+          "boundary_risk": "medium",
+          "claim_level": "unresolved",
+          "id": "pressure:62a978e2d84c9f5a",
+          "kind": "unresolved",
+          "pressure_reasons": [
+            "DIRECT_REQUEST_MATCH",
+            "PROOF_BOUNDARY_RELEVANCE",
+            "CLAIM_DISCIPLINE_RELEVANCE"
+          ],
+          "pressure_score": 0.88,
+          "reason_codes": [
+            "PROOF_CLAIM_BOUNDARY",
+            "DIRECT_REQUEST_MATCH",
+            "PROOF_BOUNDARY_RELEVANCE",
+            "CLAIM_DISCIPLINE_RELEVANCE"
+          ],
+          "source_ref": "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json",
+          "supporting_refs": [
+            "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json"
+          ],
+          "title": "proof claim boundary"
+        }
+      ],
+      "recalled_motifs": [
+        {
+          "boundary_risk": "medium",
+          "motif": "overlap_cluster_0018",
+          "motif_id": "inside_voice_runtime:b52f584c333f5750c031",
+          "pressure_score": 0.549
+        }
+      ],
+      "request_artifact": "inside_voice_consults/final_claim_boundary_audit_request.json",
+      "request_hash": "7cb05bc7ef822f4a7a371bb7c67f2750bb5e5613c6c2d4d196e67451be7a55bd",
+      "response_artifact": "inside_voice_consults/final_claim_boundary_audit_response.json",
+      "response_hash": "c0ec392856e7499018501e8e2957c25ba18c5ed8d9076fd7899f42440b74d666",
+      "retrieved_refs": [
+        "request_visible_ref:proofs/014-independent-real-trace-replication/replication_summary.md",
+        "request_visible_ref:proofs/014-independent-real-trace-replication/final_verdict.json",
+        "request_visible_ref:proofs/014-independent-real-trace-replication/claim_register.json"
+      ],
+      "runtime_response_hash": "c103e61b8a81b434d020b1375b8e3787403080ab243fad69ab8189f33d94e5d9",
+      "unresolved_tensions": [
+        {
+          "boundary_risk": "medium",
+          "evidence_refs": [
+            "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0"
+          ],
+          "id": "inside_voice_runtime:d43e2e09c028b98314e8",
+          "pressure_score": 0.699,
+          "status": "unresolved",
+          "tension": "gap:5c482ea64982398d"
+        }
+      ]
+    }
+  ],
+  "proof_id": "014-independent-real-trace-replication",
+  "trace_count": 3,
+  "traces": [
+    {
+      "candidate_class": "malformed request recovery trace",
+      "full_lineage_reconstructed": 8,
+      "improvement_count": 7,
+      "independence": "Request-shape failure and schema-cap correction; independent from Proof 013 and from runtime listener verification.",
+      "trace_id": "trace_001",
+      "verdict": "TRACE_ADVANTAGE_OBSERVED",
+      "visible_partial_or_unresolved": 7,
+      "visible_reconstructed": 1
+    },
+    {
+      "candidate_class": "runtime/server checkout mismatch trace",
+      "full_lineage_reconstructed": 8,
+      "improvement_count": 7,
+      "independence": "Runtime/server state recovery; independent from request-shape repair and claim-boundary language repair.",
+      "trace_id": "trace_002",
+      "verdict": "TRACE_ADVANTAGE_OBSERVED",
+      "visible_partial_or_unresolved": 7,
+      "visible_reconstructed": 1
+    },
+    {
+      "candidate_class": "claim-boundary false-positive trace",
+      "full_lineage_reconstructed": 8,
+      "improvement_count": 8,
+      "independence": "Claim-boundary language repair; independent from schema cap recovery and runtime listener verification.",
+      "trace_id": "trace_003",
+      "verdict": "TRACE_ADVANTAGE_OBSERVED",
+      "visible_partial_or_unresolved": 8,
+      "visible_reconstructed": 0
+    }
+  ],
+  "valid_trace_count": 3
+}

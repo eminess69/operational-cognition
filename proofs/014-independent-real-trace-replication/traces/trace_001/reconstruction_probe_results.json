@@ -1,0 +1,125 @@
+{
+  "mode_a": "visible_only",
+  "mode_b": "full_lineage",
+  "probe_ids": [
+    "P-001",
+    "P-002",
+    "P-003",
+    "P-004",
+    "P-005",
+    "P-006",
+    "P-007",
+    "P-008"
+  ],
+  "proof_id": "014-independent-real-trace-replication",
+  "results": [
+    {
+      "evidence_refs": [
+        "T1-TR-001",
+        "T1-TR-002",
+        "T1-TR-003",
+        "T001-A-001"
+      ],
+      "full_lineage": "reconstructed",
+      "improvement": true,
+      "probe_id": "P-001",
+      "visible_only": "partially_reconstructed"
+    },
+    {
+      "evidence_refs": [
+        "T001-C-001",
+        "T1-TR-001",
+        "T1-TR-002",
+        "T1-TR-003"
+      ],
+      "full_lineage": "reconstructed",
+      "improvement": true,
+      "probe_id": "P-002",
+      "visible_only": "partially_reconstructed"
+    },
+    {
+      "evidence_refs": [
+        "T001-MEM-001",
+        "T001-MEM-002",
+        "T001-AUTH-001"
+      ],
+      "full_lineage": "reconstructed",
+      "improvement": true,
+      "probe_id": "P-003",
+      "visible_only": "unresolved"
+    },
+    {
+      "evidence_refs": [
+        "T001-O-001",
+        "T1-TR-001",
+        "T1-TR-002",
+        "T1-TR-003"
+      ],
+      "full_lineage": "reconstructed",
+      "improvement": true,
+      "probe_id": "P-004",
+      "visible_only": "partially_reconstructed"
+    },
+    {
+      "evidence_refs": [
+        "T001-ENV-001",
+        "T001-ENV-002",
+        "T1-TR-002",
+        "T1-TR-003"
+      ],
+      "full_lineage": "reconstructed",
+      "improvement": true,
+      "probe_id": "P-005",
+      "visible_only": "partially_reconstructed"
+    },
+    {
+      "evidence_refs": [
+        "T001-R-001",
+        "T001-R-002",
+        "T001-R-003",
+        "T1-TR-001"
+      ],
+      "full_lineage": "reconstructed",
+      "improvement": true,
+      "probe_id": "P-006",
+      "visible_only": "partially_reconstructed"
+    },
+    {
+      "evidence_refs": [
+        "T001-AUTH-001",
+        "T001-AUTH-002",
+        "AUTH-RUNTIME-014"
+      ],
+      "full_lineage": "reconstructed",
+      "improvement": true,
+      "probe_id": "P-007",
+      "visible_only": "unresolved"
+    },
+    {
+      "evidence_refs": [
+        "T001-TV-001",
+        "T001-TV-002",
+        "T1-TR-002",
+        "T1-TR-003"
+      ],
+      "full_lineage": "reconstructed",
+      "improvement": false,
+      "probe_id": "P-008",
+      "visible_only": "reconstructed"
+    }
+  ],
+  "summary": {
+    "full_lineage": {
+      "partially_reconstructed": 0,
+      "reconstructed": 8,
+      "unresolved": 0
+    },
+    "improved_probe_count": 7,
+    "visible_only": {
+      "partially_reconstructed": 5,
+      "reconstructed": 1,
+      "unresolved": 2
+    }
+  },
+  "trace_id": "trace_001"
+}

@@ -1,0 +1,5 @@
+{"description": "A bounded replication-risk consult was attempted with an oversized output bound.", "event_type": "visible", "id": "T1-E-001", "order": 1, "public_private_boundary": "public-safe redacted event summary"}
+{"description": "The contract failed closed before runtime synthesis.", "event_type": "tool_result", "id": "T1-E-002", "order": 2, "public_private_boundary": "public-safe redacted event summary"}
+{"description": "The MCP schema was inspected for the allowed output cap.", "event_type": "tool_action", "id": "T1-E-003", "order": 3, "public_private_boundary": "public-safe redacted event summary"}
+{"description": "The hard gate was retried with max_output_chars=8000 and safe-negated boundary language.", "event_type": "tool_action", "id": "T1-E-004", "order": 4, "public_private_boundary": "public-safe redacted event summary"}
+{"description": "The gate passed with pond-backed runtime lineage hashes.", "event_type": "tool_result", "id": "T1-E-005", "order": 5, "public_private_boundary": "public-safe redacted event summary"}

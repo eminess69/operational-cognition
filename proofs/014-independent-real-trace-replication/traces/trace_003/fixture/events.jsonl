@@ -1,0 +1,5 @@
+{"description": "A pond-backed gate response did not expose the required safe-negated audit id.", "event_type": "tool_result", "id": "T3-E-001", "order": 1, "public_private_boundary": "public-safe redacted event summary"}
+{"description": "The hardened runtime was searched for safe-negated claim-boundary detection.", "event_type": "tool_action", "id": "T3-E-002", "order": 2, "public_private_boundary": "public-safe redacted event summary"}
+{"description": "The audit construction range was inspected.", "event_type": "tool_action", "id": "T3-E-003", "order": 3, "public_private_boundary": "public-safe redacted event summary"}
+{"description": "The gate was retried with exact safe-negated claim-boundary language.", "event_type": "tool_action", "id": "T3-E-004", "order": 4, "public_private_boundary": "public-safe redacted event summary"}
+{"description": "The corrected gate response exposed audit.safe_negated_claim_boundary.", "event_type": "tool_result", "id": "T3-E-005", "order": 5, "public_private_boundary": "public-safe redacted event summary"}

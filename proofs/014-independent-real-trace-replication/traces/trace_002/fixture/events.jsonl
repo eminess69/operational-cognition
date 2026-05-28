@@ -1,0 +1,5 @@
+{"description": "Required checkout commit was verified before runtime use.", "event_type": "tool_action", "id": "T2-E-001", "order": 1, "public_private_boundary": "public-safe redacted event summary"}
+{"description": "Starting the runtime reported port 8766 already in use.", "event_type": "tool_action", "id": "T2-E-002", "order": 2, "public_private_boundary": "public-safe redacted event summary"}
+{"description": "The listener on port 8766 was inspected.", "event_type": "tool_action", "id": "T2-E-003", "order": 3, "public_private_boundary": "public-safe redacted event summary"}
+{"description": "The listener cwd was verified as the required checkout.", "event_type": "tool_action", "id": "T2-E-004", "order": 4, "public_private_boundary": "public-safe redacted event summary"}
+{"description": "The verified listener served the pond-backed consult gate.", "event_type": "tool_result", "id": "T2-E-005", "order": 5, "public_private_boundary": "public-safe redacted event summary"}

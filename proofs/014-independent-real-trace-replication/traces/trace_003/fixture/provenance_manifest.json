@@ -1,0 +1,16 @@
+{
+  "candidate_class": "claim-boundary false-positive trace",
+  "fixture_hash": "93599de8e74cb10f57f56959d6446e326f960e29e332a0576a012901f1b4476b",
+  "independent_from_proof_013": true,
+  "provenance_status": "established_for_redacted_local_trace",
+  "public_private_boundary": "local paths, private terminal context, and raw process details are redacted; public-safe hashes and summaries remain",
+  "redaction_complete": true,
+  "source_refs": [
+    "T3-TR-001",
+    "T3-TR-002",
+    "T3-TR-003",
+    "T3-TR-004"
+  ],
+  "trace_id": "trace_003",
+  "visible_only_separable_from_full_lineage": true
+}

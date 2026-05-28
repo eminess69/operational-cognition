@@ -1,0 +1,31 @@
+{
+  "context": {
+    "constraints": [
+      "map contradictions as operational corrections only",
+      "do not infer target-system defects",
+      "no global superiority claims",
+      "no AGI claims",
+      "no consciousness claims",
+      "no black-box-solved claims",
+      "preserve Proof 010 synthetic-only boundary",
+      "preserve Proof 011/013 real-trace replay boundaries",
+      "use public-safe summaries and hashes only"
+    ],
+    "desired_artifacts": [
+      "proofs/014-independent-real-trace-replication/inside_voice_consults/contradiction_mapping_request.json",
+      "proofs/014-independent-real-trace-replication/inside_voice_consults/contradiction_mapping_response.json"
+    ],
+    "files": [
+      "tools/validate_real_trace_replay_gate.py",
+      "proofs/013-real-trace-replay-gate/reconstruction_probe_results.json",
+      "Belief-Ledger/tools/integrations/inside_voice_mcp_server.py",
+      "Belief-Ledger/belief_ledger/integrations/inside_voice_runtime.py"
+    ],
+    "summary": "Trace 001 contradiction: bounded consult request failed closed because max_output_chars exceeded schema cap, then schema cap was checked and compliant hard-gate request passed. Trace 002 contradiction: server start failed because port 8766 was occupied, then listener cwd evidence established the process was from the required checkout. Trace 003 contradiction: a gate response lacked audit.safe_negated_claim_boundary, then detection rules were inspected and exact safe-negated language produced the audit entry."
+  },
+  "max_output_chars": 8000,
+  "mode": "audit",
+  "request_id": "proof-014-contradiction-mapping-artifact-001",
+  "require_lineage": true,
+  "task": "Map contradictions and correction points for Proof 014 traces without making target-system defect claims. Include no global superiority claims, no AGI claims, no consciousness claims, and no black-box-solved claims."
+}

@@ -1,0 +1,33 @@
+{
+  "context": {
+    "constraints": [
+      "replication only, not endpoint expansion",
+      "no broad public claims",
+      "no global superiority claims",
+      "no AGI claims",
+      "no consciousness claims",
+      "no black-box-solved claims",
+      "no target-system defect claims",
+      "surface risks without treating them as defects",
+      "preserve Proof 010 synthetic-only boundary",
+      "preserve Proof 011/013 real-trace candidate and replay boundaries",
+      "require pond-backed runtime lineage hashes"
+    ],
+    "desired_artifacts": [
+      "proofs/014-independent-real-trace-replication/inside_voice_consults/hard_gate_request.json",
+      "proofs/014-independent-real-trace-replication/inside_voice_consults/hard_gate_response.json"
+    ],
+    "files": [
+      "proofs/013-real-trace-replay-gate/proof_manifest.json",
+      "proofs/013-real-trace-replay-gate/final_verdict.json",
+      "proofs/010-fixture-execution/proof_manifest.json",
+      "proofs/011-redacted-real-trace-candidate/proof_manifest.json"
+    ],
+    "summary": "Before selecting traces, gate Proof 014. Replicate Proof 013 across 2-3 independent redacted-real operational traces, comparing visible-only replay against full-lineage replay. This is replication only, not endpoint expansion."
+  },
+  "max_output_chars": 8000,
+  "mode": "audit",
+  "request_id": "proof-014-hard-gate-artifact-001",
+  "require_lineage": true,
+  "task": "Bounded replication-risk gate for Proof 014 independent real-trace replication. Evaluate whether replication can proceed while enforcing no global superiority claims, no AGI claims, no consciousness claims, no black-box-solved claims, and no target-system defect claim."
+}

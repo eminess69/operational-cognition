@@ -1,0 +1,15 @@
+{
+  "contradictions": [
+    {
+      "contradiction": "The gate needed audit.safe_negated_claim_boundary, but the first passing response did not expose that audit id.",
+      "id": "T3-C-001",
+      "resolution_refs": [
+        "T3-TR-001",
+        "T3-TR-002",
+        "T3-TR-003",
+        "T3-TR-004"
+      ]
+    }
+  ],
+  "trace_id": "trace_003"
+}

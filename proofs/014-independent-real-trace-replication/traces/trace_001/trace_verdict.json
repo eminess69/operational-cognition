@@ -1,0 +1,20 @@
+{
+  "agi_claim": false,
+  "black_box_solved_claim": false,
+  "boundary_probe_improved": true,
+  "candidate_class": "malformed request recovery trace",
+  "consciousness_claim": false,
+  "full_lineage_reconstructed": 8,
+  "global_superiority_claim": false,
+  "improvement_count": 7,
+  "proof_id": "014-independent-real-trace-replication",
+  "remaining_unresolved_questions": [
+    "public-only traces with less tool lineage remain untested",
+    "other runtime deployments remain untested"
+  ],
+  "safe_public_claim": "In this redacted-real operational trace, full-lineage replay reconstructed more replay probes than visible-only replay under the bounded Proof 014 fixture rules.",
+  "target_system_defect_claim": false,
+  "trace_id": "trace_001",
+  "verdict": "TRACE_ADVANTAGE_OBSERVED",
+  "visible_only_partial_or_unresolved": 7
+}

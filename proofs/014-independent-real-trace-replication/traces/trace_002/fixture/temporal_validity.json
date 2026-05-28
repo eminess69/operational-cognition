@@ -1,0 +1,16 @@
+{
+  "session_date": "2026-05-27 America/Vancouver",
+  "temporal_refs": [
+    {
+      "description": "Event order preserved in fixture/events.jsonl.",
+      "id": "T002-TV-001",
+      "validity": "ordered"
+    },
+    {
+      "description": "Recovery step occurred after contradiction/correction trigger.",
+      "id": "T002-TV-002",
+      "validity": "ordered"
+    }
+  ],
+  "trace_id": "trace_002"
+}
