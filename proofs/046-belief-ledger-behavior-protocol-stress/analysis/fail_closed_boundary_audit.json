@@ -1,0 +1,88 @@
+[
+  {
+    "accepted_invalid_response": false,
+    "adapter_status": "error",
+    "case_id": "unknown_mode",
+    "fail_closed_reason": "unknown_mode",
+    "instrument_errors": [],
+    "response_hash": "2ea19433e964440843aba9262f92b3f906b56b73713d5b18f92f88ea58dac1bd",
+    "status": "FAIL_CLOSED"
+  },
+  {
+    "accepted_invalid_response": false,
+    "adapter_status": "error",
+    "case_id": "missing_query_trace",
+    "fail_closed_reason": "http_error",
+    "instrument_errors": [
+      "QUERY_TRACE_CONTENT_REQUIRED_FAIL_CLOSED"
+    ],
+    "response_hash": "548b2ac10b6a8bd1bc8cde80289bc33ec66005563d399d831bd1c838c69a825c",
+    "status": "FAIL_CLOSED"
+  },
+  {
+    "accepted_invalid_response": false,
+    "adapter_status": "error",
+    "case_id": "missing_ledger_state",
+    "fail_closed_reason": "http_error",
+    "instrument_errors": [
+      "LEDGER_TRACES_REQUIRED_FAIL_CLOSED"
+    ],
+    "response_hash": "83bce3305e9c9bea137a000b1d01d1309a9f8e85e2df9625811ae1bb0386dda2",
+    "status": "FAIL_CLOSED"
+  },
+  {
+    "accepted_invalid_response": false,
+    "adapter_status": "error",
+    "case_id": "empty_traces",
+    "fail_closed_reason": "http_error",
+    "instrument_errors": [
+      "LEDGER_TRACES_REQUIRED_FAIL_CLOSED"
+    ],
+    "response_hash": "950f8dfca7e8cd778b26495580d68a652a6f600489e50688eec482f0b2884fa6",
+    "status": "FAIL_CLOSED"
+  },
+  {
+    "accepted_invalid_response": false,
+    "adapter_status": "error",
+    "case_id": "malformed_perturbation",
+    "fail_closed_reason": "http_error",
+    "instrument_errors": [
+      "TARGET_REQUIRED_FAIL_CLOSED"
+    ],
+    "response_hash": "377fc8d262028ac7954414f9123bccdd53bd0344ef0b0d7b69e1e1938448f04c",
+    "status": "FAIL_CLOSED"
+  },
+  {
+    "accepted_invalid_response": false,
+    "adapter_status": "error",
+    "case_id": "unsupported_mechanism",
+    "fail_closed_reason": "http_error",
+    "instrument_errors": [
+      "PERTURBATION_TARGET_NOT_FOUND_FAIL_CLOSED"
+    ],
+    "response_hash": "559d7effaa634909f9fd99dff919324fa99a8a2754a5de060187bfffbab8cd98",
+    "status": "FAIL_CLOSED"
+  },
+  {
+    "accepted_invalid_response": false,
+    "adapter_status": "error",
+    "case_id": "missing_motifs",
+    "fail_closed_reason": "http_error",
+    "instrument_errors": [
+      "NO_ACTIVATION_CANDIDATES_FAIL_CLOSED"
+    ],
+    "response_hash": "e33d77f66808a7fc4b0d3fe1692b8f0eaebada52b140bbc1c68d118228f1563f",
+    "status": "FAIL_CLOSED"
+  },
+  {
+    "accepted_invalid_response": false,
+    "adapter_status": "error",
+    "case_id": "missing_lineage",
+    "fail_closed_reason": "http_error",
+    "instrument_errors": [
+      "QUERY_TRACE_SOURCE_REF_REQUIRED_FAIL_CLOSED"
+    ],
+    "response_hash": "314962e0bfed55887f24085bea8c179bf8700ed4be03fc2cfe1b362483c5cd5b",
+    "status": "FAIL_CLOSED"
+  }
+]

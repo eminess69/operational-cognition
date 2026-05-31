@@ -1,0 +1,179 @@
+{
+  "advisory_only": true,
+  "collapse_id": "delayed_collapse:362f32b4e0ffbe02",
+  "collapse_reasons": [
+    {
+      "decision": "SURVIVED",
+      "pathway_id": "pathway:8cfb6e97dd200250",
+      "reason_codes": [
+        "DELAYED_COLLAPSE_SURVIVOR"
+      ]
+    },
+    {
+      "decision": "ELIMINATED",
+      "pathway_id": "pathway:45ca5f3b6a51448b",
+      "reason_codes": [
+        "MAX_SURVIVOR_BOUND"
+      ]
+    },
+    {
+      "decision": "ELIMINATED",
+      "pathway_id": "pathway:dd6482a2dbe555c8",
+      "reason_codes": [
+        "MAX_SURVIVOR_BOUND"
+      ]
+    },
+    {
+      "decision": "ELIMINATED",
+      "pathway_id": "pathway:f7124969b8b72446",
+      "reason_codes": [
+        "MAX_SURVIVOR_BOUND"
+      ]
+    },
+    {
+      "decision": "ELIMINATED",
+      "pathway_id": "pathway:a6ce185f1a049bd0",
+      "reason_codes": [
+        "MAX_SURVIVOR_BOUND"
+      ]
+    }
+  ],
+  "core_mutation_count": 0,
+  "deterministic_ordering": "ranking_score_desc_pathway_id_asc",
+  "eliminated_pathways": [
+    {
+      "base_activation_weight": 0.49625,
+      "elimination_rank": 2,
+      "interaction_support": 1.0,
+      "lineage_hashes": [
+        "4672474d1d808c29900e8329307b514242962adb43c40622c374b4cfe8152320",
+        "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363"
+      ],
+      "pathway": "FEEDBACK_AMPLIFICATION",
+      "pathway_id": "pathway:45ca5f3b6a51448b",
+      "ranking_score": 0.61625,
+      "reason_codes": [
+        "MAX_SURVIVOR_BOUND"
+      ],
+      "source_lineage_refs": [
+        "lineage:proof045:feedback",
+        "lineage:proof045:shared_operational_case"
+      ],
+      "supporting_motif_ids": [
+        "motif:2430caccbf15c518"
+      ],
+      "supporting_trace_ids": [
+        "trace-proof045-feedback"
+      ]
+    },
+    {
+      "base_activation_weight": 0.495203,
+      "elimination_rank": 3,
+      "interaction_support": 1.0,
+      "lineage_hashes": [
+        "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+        "b4f217dbdd357e3f70657926247f0077a3235b7bcb32697f8b84f6adff192204"
+      ],
+      "pathway": "BUFFERING_DELAY",
+      "pathway_id": "pathway:dd6482a2dbe555c8",
+      "ranking_score": 0.615203,
+      "reason_codes": [
+        "MAX_SURVIVOR_BOUND"
+      ],
+      "source_lineage_refs": [
+        "lineage:proof045:buffer",
+        "lineage:proof045:shared_operational_case"
+      ],
+      "supporting_motif_ids": [
+        "motif:2430caccbf15c518"
+      ],
+      "supporting_trace_ids": [
+        "trace-proof045-buffer"
+      ]
+    },
+    {
+      "base_activation_weight": 0.492957,
+      "elimination_rank": 4,
+      "interaction_support": 1.0,
+      "lineage_hashes": [
+        "36758d142f9f6e8a369e13b05c866bf017c552859a36fc6e369913db4bc436b4",
+        "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363"
+      ],
+      "pathway": "RESOURCE_DEPLETION",
+      "pathway_id": "pathway:f7124969b8b72446",
+      "ranking_score": 0.612957,
+      "reason_codes": [
+        "MAX_SURVIVOR_BOUND"
+      ],
+      "source_lineage_refs": [
+        "lineage:proof045:resource",
+        "lineage:proof045:shared_operational_case"
+      ],
+      "supporting_motif_ids": [
+        "motif:2430caccbf15c518"
+      ],
+      "supporting_trace_ids": [
+        "trace-proof045-resource"
+      ]
+    },
+    {
+      "base_activation_weight": 0.458,
+      "elimination_rank": 5,
+      "interaction_support": 1.0,
+      "lineage_hashes": [
+        "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+        "d1d85ea890034a1e11985ff0490442c953fee934cdbb1658b79601ed8bf26f8e"
+      ],
+      "pathway": "DIFFUSION_SPREAD",
+      "pathway_id": "pathway:a6ce185f1a049bd0",
+      "ranking_score": 0.578,
+      "reason_codes": [
+        "MAX_SURVIVOR_BOUND"
+      ],
+      "source_lineage_refs": [
+        "lineage:proof045:diffusion",
+        "lineage:proof045:shared_operational_case"
+      ],
+      "supporting_motif_ids": [
+        "motif:2430caccbf15c518"
+      ],
+      "supporting_trace_ids": [
+        "trace-proof045-diffusion"
+      ]
+    }
+  ],
+  "field_id": "activation_field:a9f5e0c18d2a405b",
+  "interaction_id": "field_interaction:b325e2910c49c570",
+  "premature_collapse_risk": false,
+  "schema_version": "delayed_collapse_trace.v1",
+  "surviving_pathways": [
+    {
+      "base_activation_weight": 0.498811,
+      "interaction_support": 1.0,
+      "lineage_hashes": [
+        "ab2672eeef1a3df6b4aacbe1855c7a33bd7d5403c7273e74d88b1f5a50c481aa",
+        "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363"
+      ],
+      "pathway": "THRESHOLD_GATE",
+      "pathway_id": "pathway:8cfb6e97dd200250",
+      "ranking_score": 0.618811,
+      "reason_codes": [
+        "DELAYED_COLLAPSE_SURVIVOR",
+        "DOMAIN_MATCH",
+        "MOTIF_MATCH",
+        "PROVENANCE_VALID"
+      ],
+      "source_lineage_refs": [
+        "lineage:proof045:shared_operational_case",
+        "lineage:proof045:threshold"
+      ],
+      "supporting_motif_ids": [
+        "motif:2430caccbf15c518"
+      ],
+      "supporting_trace_ids": [
+        "trace-proof045-threshold"
+      ],
+      "survival_rank": 1
+    }
+  ]
+}

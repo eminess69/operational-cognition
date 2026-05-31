@@ -1,0 +1,44 @@
+{
+  "claim_level": "validated",
+  "disallowed_claims": [
+    "Proof 046 proves cognition.",
+    "Proof 046 proves AGI, consciousness, or independent understanding.",
+    "Behavior protocol artifacts are a cognition proof.",
+    "Operational Cognition mutated Belief Ledger core state."
+  ],
+  "lineage": {
+    "contract_version": "inside_voice.behavior_protocol.v1",
+    "derived_from": "Proof 045 deterministic query trace and ledger-state fixture.",
+    "mcp_endpoint": "http://127.0.0.1:8765/protocol/behavior",
+    "request_log_hash": "f6de355424fda6a3f965509990bd818b4e0807c7b891016dce385bfa417e0bb9",
+    "stress_call_log_hash": "c0d4902296a3121e631356c9faf64e588d448dd9dbac18128cfe237864fbce1e",
+    "total_calls": 74,
+    "validates": "VERY_STRONG_SIGNAL"
+  },
+  "proof_id": "046-belief-ledger-behavior-protocol-stress",
+  "required_artifacts": [
+    "README.md",
+    "proof_manifest.json",
+    "mcp/raw_requests.jsonl",
+    "mcp/raw_responses.jsonl",
+    "mcp/stress_calls.jsonl",
+    "analysis/replay_stability_report.json",
+    "analysis/perturbation_sensitivity_report.json",
+    "analysis/collapse_boundary_audit.json",
+    "analysis/fail_closed_boundary_audit.json",
+    "analysis/hostile_instrument_audit.json",
+    "analysis/stress_metrics.json"
+  ],
+  "source_proof": "045-belief-ledger-mcp-behavior-integration",
+  "status": "complete",
+  "targets": [
+    "BeliefLedgerExternalInstrumentBoundary",
+    "InsideVoiceBehaviorProtocolStress",
+    "ReplayStability",
+    "PerturbationSensitivity",
+    "CollapseBoundaryAudit",
+    "FailClosedBoundaryAudit",
+    "HostileInstrumentAudit"
+  ],
+  "title": "Proof 046 - Belief Ledger Behavior Protocol Stress Test"
+}

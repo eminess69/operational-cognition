@@ -1,0 +1,68 @@
+[
+  {
+    "adapter_status": "pond_backed",
+    "baseline_field_hash": "4608d48d956b7eb76f5bd0393ec325e1e9ad8a37169fcfe2603578cec1bd2045",
+    "case_id": "remove_top_activated_mechanism",
+    "changed": true,
+    "fail_closed_reason": null,
+    "field_after_hash": "973a8e70158c583d98c8407a500e130d521db4d031fb5fbf53459cb4c53df7f7",
+    "notes": "Removed source trace trace-proof045-threshold for the highest activated pathway.",
+    "perturbation_type": "remove",
+    "valid_effect_observed": true
+  },
+  {
+    "adapter_status": "pond_backed",
+    "baseline_field_hash": "4608d48d956b7eb76f5bd0393ec325e1e9ad8a37169fcfe2603578cec1bd2045",
+    "case_id": "remove_top_two_activated_mechanisms",
+    "changed": true,
+    "fail_closed_reason": null,
+    "field_after_hash": "d0675df1d27477de79b387b32d222dd5bdaf218a2b7599a0b7807f9a315dfce5",
+    "notes": "Encoded as reduced ledger state without trace-proof045-threshold, then removed trace-proof045-feedback.",
+    "perturbation_type": "remove",
+    "valid_effect_observed": true
+  },
+  {
+    "adapter_status": "pond_backed",
+    "baseline_field_hash": "4608d48d956b7eb76f5bd0393ec325e1e9ad8a37169fcfe2603578cec1bd2045",
+    "case_id": "inject_irrelevant_mechanism",
+    "changed": true,
+    "fail_closed_reason": null,
+    "field_after_hash": "7ee28b8142a24ec4bde04c59de7ec4bbfbfac87a175d7cf1d2f833224a029995",
+    "notes": "Injected fragment changed perturbation field summary but did not inflate returned_motifs.",
+    "perturbation_type": "inject",
+    "valid_effect_observed": true
+  },
+  {
+    "adapter_status": "pond_backed",
+    "baseline_field_hash": "4608d48d956b7eb76f5bd0393ec325e1e9ad8a37169fcfe2603578cec1bd2045",
+    "case_id": "suppress_shared_motif",
+    "changed": true,
+    "fail_closed_reason": null,
+    "field_after_hash": "d76227e3f8662678340699c39f2743e27f5c1fad94f8671568bec6be0fa606fc",
+    "notes": "Suppressed shared motif motif:2430caccbf15c518.",
+    "perturbation_type": "suppress",
+    "valid_effect_observed": true
+  },
+  {
+    "adapter_status": "error",
+    "baseline_field_hash": "4608d48d956b7eb76f5bd0393ec325e1e9ad8a37169fcfe2603578cec1bd2045",
+    "case_id": "force_no_ranking",
+    "changed": true,
+    "fail_closed_reason": "http_error",
+    "field_after_hash": "",
+    "notes": "Survival threshold 1.0 produced no survivors; instrument failed closed instead of fabricating ranking.",
+    "perturbation_type": "force_no_ranking",
+    "valid_effect_observed": true
+  },
+  {
+    "adapter_status": "pond_backed",
+    "baseline_field_hash": "4608d48d956b7eb76f5bd0393ec325e1e9ad8a37169fcfe2603578cec1bd2045",
+    "case_id": "force_immediate_ranking",
+    "changed": true,
+    "fail_closed_reason": null,
+    "field_after_hash": "211efedd0ffe29ae243a3938cb7f68f8d2beac0e6ca06baa23a3f239410edba1",
+    "notes": "Reduced max_surviving_pathways to 1; field stayed traceable while collapse hash changed.",
+    "perturbation_type": "force_immediate_ranking",
+    "valid_effect_observed": true
+  }
+]
