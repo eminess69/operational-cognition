@@ -1,0 +1,27 @@
+{
+  "all_modes_covered": true,
+  "case_count_by_mode": {
+    "activation_only": 5,
+    "collapse_trace": 5,
+    "delayed_ranking": 5,
+    "field_interaction": 5,
+    "perturbation": 5,
+    "recall": 5
+  },
+  "expected_modes": [
+    "recall",
+    "activation_only",
+    "field_interaction",
+    "delayed_ranking",
+    "collapse_trace",
+    "perturbation"
+  ],
+  "observed_modes": [
+    "activation_only",
+    "collapse_trace",
+    "delayed_ranking",
+    "field_interaction",
+    "perturbation",
+    "recall"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "event": "inside_voice_mcp_consultation",
+  "mode": "recall",
+  "non_hash_metadata": {
+    "timestamp_utc": "2026-05-29T19:36:56Z"
+  },
+  "request": {
+    "context": {
+      "constraints": [
+        "Use only the real pond-backed adapter."
+      ],
+      "desired_artifacts": [
+        "returned_motifs",
+        "returned_lineages",
+        "lineage_hashes"
+      ],
+      "files": [],
+      "summary": "Season behavior-protocol pond with THRESHOLD."
+    },
+    "max_output_chars": 8000,
+    "mode": "recall",
+    "request_id": "proof-044-season-threshold-002",
+    "require_lineage": true,
+    "task": "ACTION: SEASON. Mechanism label: THRESHOLD. A boundary remains quiet until the threshold is crossed and a sudden transition occurs."
+  },
+  "request_hash": "fb6a0223e60a0ffd23666b4323bdd10be489f955660cc1a8c4e9486bd3ecce04",
+  "request_id": "proof-044-season-threshold-002",
+  "response": {
+    "adapter_status": "pond_backed",
+    "fail_closed_reason": null,
+    "findings": [
+      {
+        "claim": "Returned pond record pond:threshold:d0349a54f2cd5767.",
+        "confidence": "high",
+        "evidence": [
+          "pond:threshold:d0349a54f2cd5767",
+          "d0349a54f2cd5767e025e5eb53a3907d1a4eae9e5305185b08220ef2465a5785"
+        ],
+        "id": "season-pond-record-001",
+        "lineage_refs": [
+          "pond:threshold:d0349a54f2cd5767"
+        ],
+        "risk": "low"
+      }
+    ],
+    "lineage": {
+      "request_hash": "fb6a0223e60a0ffd23666b4323bdd10be489f955660cc1a8c4e9486bd3ecce04",
+      "response_hash": "696d1f33949a2603814637ea6ce8a8403f32a7fb3abfec4e0919e0828e50f1bb",
+      "source_refs": [
+        "pond:threshold:d0349a54f2cd5767"
+      ]
+    },
+    "lineage_hashes": [
+      "d0349a54f2cd5767e025e5eb53a3907d1a4eae9e5305185b08220ef2465a5785"
+    ],
+    "lineage_payloads": [
+      {
+        "cues": [
+          "boundary",
+          "crossed",
+          "sudden",
+          "threshold",
+          "until"
+        ],
+        "lesson_text": "ACTION: SEASON. Mechanism label: THRESHOLD. A boundary remains quiet until the threshold is crossed and a sudden transition occurs. Season behavior-protocol pond with THRESHOLD.",
+        "mechanism": "THRESHOLD",
+        "motifs": [
+          "Accumulation",
+          "Limit",
+          "Trigger",
+          "StateChange"
+        ],
+        "payload_hash": "6ffa0753ee305deea58df9888c48688cf6aac2ce3aff90f0f63bcc7d432291ce",
+        "request_id": "proof-044-season-threshold-002",
+        "source_refs": [
+          "request",
+          "context.summary"
+        ]
+      }
+    ],
+    "mode": "recall",
+    "recall_summary": "Seasoned THRESHOLD into local pond state with traceable lineage.",
+    "recommendations": [
+      {
+        "action": "Run validate_mcp_consults.py before using this response as proof evidence.",
+        "blocking": true,
+        "id": "validate-pond-backed-boundary",
+        "reason": "Pond-backed claims require non-empty motifs and lineage evidence."
+      }
+    ],
+    "request_id": "proof-044-season-threshold-002",
+    "response_source": "inside_voice_pond",
+    "returned_lineages": [
+      "pond:threshold:d0349a54f2cd5767"
+    ],
+    "returned_motifs": [
+      "Accumulation",
+      "Limit",
+      "Trigger",
+      "StateChange"
+    ],
+    "summary": "Seasoned THRESHOLD into local pond state with traceable lineage.",
+    "uncertainty": [
+      "Recall is deterministic over the local pond state and may miss records outside that state."
+    ],
+    "verdict": "ok"
+  },
+  "response_hash": "696d1f33949a2603814637ea6ce8a8403f32a7fb3abfec4e0919e0828e50f1bb"
+}

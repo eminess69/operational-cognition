@@ -1,0 +1,1291 @@
+{
+  "records": [
+    {
+      "cues": [
+        "accumulate",
+        "accumulation",
+        "build",
+        "buildup",
+        "cache",
+        "collect",
+        "deposit",
+        "gradual",
+        "overflow",
+        "pile",
+        "pressure",
+        "reserve",
+        "stock",
+        "storage",
+        "store"
+      ],
+      "lesson_text": "ACTION: SEASON. Mechanism label: ACCUMULATION. Input collects in storage, buildup grows gradually, and overflow appears after capacity is exceeded. Season behavior-protocol pond with ACCUMULATION.",
+      "lineage_hash": "1582e7ceda037cb1b1ae8edad9d1fab46bd6acf15bbee38c4dc2b21e7e01e9dd",
+      "lineage_payload": {
+        "cues": [
+          "accumulation",
+          "buildup",
+          "collect",
+          "overflow",
+          "storage"
+        ],
+        "lesson_text": "ACTION: SEASON. Mechanism label: ACCUMULATION. Input collects in storage, buildup grows gradually, and overflow appears after capacity is exceeded. Season behavior-protocol pond with ACCUMULATION.",
+        "mechanism": "ACCUMULATION",
+        "motifs": [
+          "Input",
+          "Storage",
+          "BuildUp",
+          "Overflow"
+        ],
+        "payload_hash": "61f43391d2d46870aca5967d7c363f92bb93fe69927cb0b6df69521680a15e80",
+        "request_id": "proof-044-season-accumulation-001",
+        "source_refs": [
+          "request",
+          "context.summary"
+        ]
+      },
+      "mechanism": "ACCUMULATION",
+      "motifs": [
+        "Input",
+        "Storage",
+        "BuildUp",
+        "Overflow"
+      ],
+      "record_id": "pond:accumulation:1582e7ceda037cb1"
+    },
+    {
+      "cues": [
+        "accumulate",
+        "accumulation",
+        "build",
+        "buildup",
+        "cache",
+        "collect",
+        "deposit",
+        "gradual",
+        "overflow",
+        "pile",
+        "pressure",
+        "reserve",
+        "stock",
+        "storage",
+        "store"
+      ],
+      "lesson_text": "ACTION: SEASON. Mechanism label: ACCUMULATION. Sediment deposits in a reservoir, pressure rises, and stored material spills over. Season behavior-protocol pond with ACCUMULATION.",
+      "lineage_hash": "eda10fd4cadcb2b4e75423f537ecbaffc933b9e6b2df7d8095ec4af46d7b2067",
+      "lineage_payload": {
+        "cues": [
+          "accumulation",
+          "deposit",
+          "pressure"
+        ],
+        "lesson_text": "ACTION: SEASON. Mechanism label: ACCUMULATION. Sediment deposits in a reservoir, pressure rises, and stored material spills over. Season behavior-protocol pond with ACCUMULATION.",
+        "mechanism": "ACCUMULATION",
+        "motifs": [
+          "Input",
+          "Storage",
+          "BuildUp",
+          "Overflow"
+        ],
+        "payload_hash": "e49f349b6195cc8f012cce619d92a871b54294cd68c4c9751e2d8e4efe9942cf",
+        "request_id": "proof-044-season-accumulation-002",
+        "source_refs": [
+          "request",
+          "context.summary"
+        ]
+      },
+      "mechanism": "ACCUMULATION",
+      "motifs": [
+        "Input",
+        "Storage",
+        "BuildUp",
+        "Overflow"
+      ],
+      "record_id": "pond:accumulation:eda10fd4cadcb2b4"
+    },
+    {
+      "cues": [
+        "accelerate",
+        "amplification",
+        "amplify",
+        "cascade",
+        "compounding",
+        "escalate",
+        "escalation",
+        "gain",
+        "growth",
+        "magnify",
+        "multiplier",
+        "propagate",
+        "propagation",
+        "signal",
+        "surge"
+      ],
+      "lesson_text": "ACTION: SEASON. Mechanism label: AMPLIFICATION. A small input gains strength through propagation, magnifies into a cascade, and escalates downstream. Season behavior-protocol pond with AMPLIFICATION.",
+      "lineage_hash": "4cbc4f9e39fdd94761a074a1dc62d495469626164fb64d5ef8e975256a5816bf",
+      "lineage_payload": {
+        "cues": [
+          "amplification",
+          "cascade",
+          "escalate",
+          "gain",
+          "propagation"
+        ],
+        "lesson_text": "ACTION: SEASON. Mechanism label: AMPLIFICATION. A small input gains strength through propagation, magnifies into a cascade, and escalates downstream. Season behavior-protocol pond with AMPLIFICATION.",
+        "mechanism": "AMPLIFICATION",
+        "motifs": [
+          "Input",
+          "Gain",
+          "Propagation",
+          "Escalation"
+        ],
+        "payload_hash": "b1da44c34a81eda90a731db91ddbbddb7b099a4191c8357318a08464175bc87d",
+        "request_id": "proof-044-season-amplification-001",
+        "source_refs": [
+          "request",
+          "context.summary"
+        ]
+      },
+      "mechanism": "AMPLIFICATION",
+      "motifs": [
+        "Input",
+        "Gain",
+        "Propagation",
+        "Escalation"
+      ],
+      "record_id": "pond:amplification:4cbc4f9e39fdd947"
+    },
+    {
+      "cues": [
+        "accelerate",
+        "amplification",
+        "amplify",
+        "cascade",
+        "compounding",
+        "escalate",
+        "escalation",
+        "gain",
+        "growth",
+        "magnify",
+        "multiplier",
+        "propagate",
+        "propagation",
+        "signal",
+        "surge"
+      ],
+      "lesson_text": "ACTION: SEASON. Mechanism label: AMPLIFICATION. A relay increases signal gain so each stage produces stronger output. Season behavior-protocol pond with AMPLIFICATION.",
+      "lineage_hash": "e75b0b7fe687d6741c77fc300eb5acd748e7ffae3903967acaa08c51115048d7",
+      "lineage_payload": {
+        "cues": [
+          "amplification",
+          "gain",
+          "signal"
+        ],
+        "lesson_text": "ACTION: SEASON. Mechanism label: AMPLIFICATION. A relay increases signal gain so each stage produces stronger output. Season behavior-protocol pond with AMPLIFICATION.",
+        "mechanism": "AMPLIFICATION",
+        "motifs": [
+          "Input",
+          "Gain",
+          "Propagation",
+          "Escalation"
+        ],
+        "payload_hash": "f369e0a904b56c3ba7f77913f00084043e08026046486cc7225cdc56cf24278c",
+        "request_id": "proof-044-season-amplification-002",
+        "source_refs": [
+          "request",
+          "context.summary"
+        ]
+      },
+      "mechanism": "AMPLIFICATION",
+      "motifs": [
+        "Input",
+        "Gain",
+        "Propagation",
+        "Escalation"
+      ],
+      "record_id": "pond:amplification:e75b0b7fe687d674"
+    },
+    {
+      "cues": [
+        "absorb",
+        "absorption",
+        "buffer",
+        "buffering",
+        "capacity",
+        "cushion",
+        "dampen",
+        "delay",
+        "hold",
+        "reserve",
+        "shock",
+        "slack",
+        "smooth",
+        "stabilize",
+        "temporary"
+      ],
+      "lesson_text": "ACTION: SEASON. Mechanism label: BUFFERING. Slack temporarily cushions input spikes and hides stress until reserve capacity is spent. Season behavior-protocol pond with BUFFERING.",
+      "lineage_hash": "1d7582ee0d996c2bb4ee7fa5d5199de484a56e02f325a7c05069ccdf191a28d8",
+      "lineage_payload": {
+        "cues": [
+          "buffer",
+          "buffering",
+          "capacity",
+          "cushion",
+          "reserve",
+          "slack"
+        ],
+        "lesson_text": "ACTION: SEASON. Mechanism label: BUFFERING. Slack temporarily cushions input spikes and hides stress until reserve capacity is spent. Season behavior-protocol pond with BUFFERING.",
+        "mechanism": "BUFFERING",
+        "motifs": [
+          "Input",
+          "Buffer",
+          "Absorption",
+          "Delay"
+        ],
+        "payload_hash": "c0ec34afd34937cdcc5c387dfcd4b6ef7f35c86559a329c84b74d087e5193b27",
+        "request_id": "proof-044-season-buffering-002",
+        "source_refs": [
+          "request",
+          "context.summary"
+        ]
+      },
+      "mechanism": "BUFFERING",
+      "motifs": [
+        "Input",
+        "Buffer",
+        "Absorption",
+        "Delay"
+      ],
+      "record_id": "pond:buffering:1d7582ee0d996c2b"
+    },
+    {
+      "cues": [
+        "absorb",
+        "absorption",
+        "buffer",
+        "buffering",
+        "capacity",
+        "cushion",
+        "dampen",
+        "delay",
+        "hold",
+        "reserve",
+        "shock",
+        "slack",
+        "smooth",
+        "stabilize",
+        "temporary"
+      ],
+      "lesson_text": "ACTION: SEASON. Mechanism label: BUFFERING. A buffer absorbs shock, uses reserve capacity, and delays visible failure while demand is smoothed. Season behavior-protocol pond with BUFFERING.",
+      "lineage_hash": "42dd7eb4eb768e73bf3d0122358d7802269a8a4e09dc16c91777b75f76d44f73",
+      "lineage_payload": {
+        "cues": [
+          "absorb",
+          "buffer",
+          "buffering",
+          "capacity",
+          "delay",
+          "reserve",
+          "shock",
+          "smooth"
+        ],
+        "lesson_text": "ACTION: SEASON. Mechanism label: BUFFERING. A buffer absorbs shock, uses reserve capacity, and delays visible failure while demand is smoothed. Season behavior-protocol pond with BUFFERING.",
+        "mechanism": "BUFFERING",
+        "motifs": [
+          "Input",
+          "Buffer",
+          "Absorption",
+          "Delay"
+        ],
+        "payload_hash": "29a8932a77306ddc58cea63b8567edd8b4af7dfe69e66cea9ac9be435a93d116",
+        "request_id": "proof-044-season-buffering-001",
+        "source_refs": [
+          "request",
+          "context.summary"
+        ]
+      },
+      "mechanism": "BUFFERING",
+      "motifs": [
+        "Input",
+        "Buffer",
+        "Absorption",
+        "Delay"
+      ],
+      "record_id": "pond:buffering:42dd7eb4eb768e73"
+    },
+    {
+      "cues": [
+        "adapt",
+        "adjust",
+        "backup",
+        "balance",
+        "compensate",
+        "compensation",
+        "correction",
+        "counteract",
+        "counteraction",
+        "maintain",
+        "mask",
+        "offset",
+        "stabilize",
+        "substitute",
+        "substitution"
+      ],
+      "lesson_text": "ACTION: SEASON. Mechanism label: COMPENSATION. A workaround masks loss by adding correction, but hidden demand remains. Season behavior-protocol pond with COMPENSATION.",
+      "lineage_hash": "ea642700d677efc3882a46a36b2eec1761796502ff03f26a1d4c5443a230d80e",
+      "lineage_payload": {
+        "cues": [
+          "compensation",
+          "correction",
+          "mask"
+        ],
+        "lesson_text": "ACTION: SEASON. Mechanism label: COMPENSATION. A workaround masks loss by adding correction, but hidden demand remains. Season behavior-protocol pond with COMPENSATION.",
+        "mechanism": "COMPENSATION",
+        "motifs": [
+          "Deviation",
+          "Counteraction",
+          "Substitution",
+          "Stabilization"
+        ],
+        "payload_hash": "6b30abf3f46eee9d785b8a22f5d3434401c0d4ecc8258e980e510fc52de62497",
+        "request_id": "proof-044-season-compensation-002",
+        "source_refs": [
+          "request",
+          "context.summary"
+        ]
+      },
+      "mechanism": "COMPENSATION",
+      "motifs": [
+        "Deviation",
+        "Counteraction",
+        "Substitution",
+        "Stabilization"
+      ],
+      "record_id": "pond:compensation:ea642700d677efc3"
+    },
+    {
+      "cues": [
+        "adapt",
+        "adjust",
+        "backup",
+        "balance",
+        "compensate",
+        "compensation",
+        "correction",
+        "counteract",
+        "counteraction",
+        "maintain",
+        "mask",
+        "offset",
+        "stabilize",
+        "substitute",
+        "substitution"
+      ],
+      "lesson_text": "ACTION: SEASON. Mechanism label: COMPENSATION. A counteraction offsets deviation; substitution and backup support maintain stability temporarily. Season behavior-protocol pond with COMPENSATION.",
+      "lineage_hash": "fb62bb4efe4599dc489397fe13665a80303abcf5523cfa00c28b1227dcbc5e6a",
+      "lineage_payload": {
+        "cues": [
+          "backup",
+          "compensation",
+          "counteraction",
+          "maintain",
+          "offset",
+          "substitution"
+        ],
+        "lesson_text": "ACTION: SEASON. Mechanism label: COMPENSATION. A counteraction offsets deviation; substitution and backup support maintain stability temporarily. Season behavior-protocol pond with COMPENSATION.",
+        "mechanism": "COMPENSATION",
+        "motifs": [
+          "Deviation",
+          "Counteraction",
+          "Substitution",
+          "Stabilization"
+        ],
+        "payload_hash": "f2fdcff7e6b4f9ff52173fefe7350608056c6118d2002d5f5386452f1141d656",
+        "request_id": "proof-044-season-compensation-001",
+        "source_refs": [
+          "request",
+          "context.summary"
+        ]
+      },
+      "mechanism": "COMPENSATION",
+      "motifs": [
+        "Deviation",
+        "Counteraction",
+        "Substitution",
+        "Stabilization"
+      ],
+      "record_id": "pond:compensation:fb62bb4efe4599dc"
+    },
+    {
+      "cues": [
+        "across",
+        "concentration",
+        "diffuse",
+        "diffusion",
+        "dilution",
+        "disperse",
+        "edge",
+        "gradient",
+        "leak",
+        "migration",
+        "permeate",
+        "scatter",
+        "seep",
+        "spread",
+        "uniform"
+      ],
+      "lesson_text": "ACTION: SEASON. Mechanism label: DIFFUSION. A source creates a gradient; material spreads outward, disperses, and becomes diluted across neighboring regions. Season behavior-protocol pond with DIFFUSION.",
+      "lineage_hash": "703b68fbcc0eda6a3a195ee4486b48c3925f5c50821f94f00c9706cd540b444e",
+      "lineage_payload": {
+        "cues": [
+          "across",
+          "diffusion",
+          "disperse",
+          "gradient",
+          "spread"
+        ],
+        "lesson_text": "ACTION: SEASON. Mechanism label: DIFFUSION. A source creates a gradient; material spreads outward, disperses, and becomes diluted across neighboring regions. Season behavior-protocol pond with DIFFUSION.",
+        "mechanism": "DIFFUSION",
+        "motifs": [
+          "Source",
+          "Gradient",
+          "Spread",
+          "Dilution"
+        ],
+        "payload_hash": "d702926cb36d18b665d6187eea6f8e9f687501d4fb828d6bc6d6e997f40ae709",
+        "request_id": "proof-044-season-diffusion-001",
+        "source_refs": [
+          "request",
+          "context.summary"
+        ]
+      },
+      "mechanism": "DIFFUSION",
+      "motifs": [
+        "Source",
+        "Gradient",
+        "Spread",
+        "Dilution"
+      ],
+      "record_id": "pond:diffusion:703b68fbcc0eda6a"
+    },
+    {
+      "cues": [
+        "across",
+        "concentration",
+        "diffuse",
+        "diffusion",
+        "dilution",
+        "disperse",
+        "edge",
+        "gradient",
+        "leak",
+        "migration",
+        "permeate",
+        "scatter",
+        "seep",
+        "spread",
+        "uniform"
+      ],
+      "lesson_text": "ACTION: SEASON. Mechanism label: DIFFUSION. A leak seeps from a concentrated edge and permeates side channels until the signal is uniform. Season behavior-protocol pond with DIFFUSION.",
+      "lineage_hash": "adc83cc783d490baa3030a3baf0985afbdd5d7fa9608dbadbb854af1f4a6e093",
+      "lineage_payload": {
+        "cues": [
+          "diffusion",
+          "edge",
+          "leak",
+          "permeate",
+          "seep",
+          "uniform"
+        ],
+        "lesson_text": "ACTION: SEASON. Mechanism label: DIFFUSION. A leak seeps from a concentrated edge and permeates side channels until the signal is uniform. Season behavior-protocol pond with DIFFUSION.",
+        "mechanism": "DIFFUSION",
+        "motifs": [
+          "Source",
+          "Gradient",
+          "Spread",
+          "Dilution"
+        ],
+        "payload_hash": "3f9bb22ce350f3f79c39926d204fcdaf26f3f32c51b5d0c8ef5dfe1f9ced57c2",
+        "request_id": "proof-044-season-diffusion-002",
+        "source_refs": [
+          "request",
+          "context.summary"
+        ]
+      },
+      "mechanism": "DIFFUSION",
+      "motifs": [
+        "Source",
+        "Gradient",
+        "Spread",
+        "Dilution"
+      ],
+      "record_id": "pond:diffusion:adc83cc783d490ba"
+    },
+    {
+      "cues": [
+        "adjust",
+        "correction",
+        "dampen",
+        "feedback",
+        "loop",
+        "monitor",
+        "recursive",
+        "reinforce",
+        "reinforcement",
+        "response",
+        "return",
+        "runaway",
+        "self",
+        "signal",
+        "stabilize"
+      ],
+      "lesson_text": "ACTION: SEASON. Mechanism label: FEEDBACK. A signal loops back into response; reinforcement amplifies the next signal and can become runaway. Season behavior-protocol pond with FEEDBACK.",
+      "lineage_hash": "51d687d18b0ab3f0ddb73914de26d1238a4cd5a9b3cf4e0c910ba1391793af7d",
+      "lineage_payload": {
+        "cues": [
+          "feedback",
+          "loop",
+          "reinforcement",
+          "response",
+          "runaway",
+          "signal"
+        ],
+        "lesson_text": "ACTION: SEASON. Mechanism label: FEEDBACK. A signal loops back into response; reinforcement amplifies the next signal and can become runaway. Season behavior-protocol pond with FEEDBACK.",
+        "mechanism": "FEEDBACK",
+        "motifs": [
+          "Signal",
+          "Loop",
+          "Response",
+          "Reinforcement"
+        ],
+        "payload_hash": "4a7f1d0b017d56309b0586b0094626cbbb257dbb1886e6120dbe3bcdf57dad9d",
+        "request_id": "proof-044-season-feedback-001",
+        "source_refs": [
+          "request",
+          "context.summary"
+        ]
+      },
+      "mechanism": "FEEDBACK",
+      "motifs": [
+        "Signal",
+        "Loop",
+        "Response",
+        "Reinforcement"
+      ],
+      "record_id": "pond:feedback:51d687d18b0ab3f0"
+    },
+    {
+      "cues": [
+        "adjust",
+        "correction",
+        "dampen",
+        "feedback",
+        "loop",
+        "monitor",
+        "recursive",
+        "reinforce",
+        "reinforcement",
+        "response",
+        "return",
+        "runaway",
+        "self",
+        "signal",
+        "stabilize"
+      ],
+      "lesson_text": "ACTION: SEASON. Mechanism label: FEEDBACK. A delayed correction returns through the same loop and strengthens the next adjustment. Season behavior-protocol pond with FEEDBACK.",
+      "lineage_hash": "cd21debcf355ae4bfbd33087b3489c287608f14171732372fc0269a9a36ee704",
+      "lineage_payload": {
+        "cues": [
+          "correction",
+          "feedback",
+          "loop",
+          "return"
+        ],
+        "lesson_text": "ACTION: SEASON. Mechanism label: FEEDBACK. A delayed correction returns through the same loop and strengthens the next adjustment. Season behavior-protocol pond with FEEDBACK.",
+        "mechanism": "FEEDBACK",
+        "motifs": [
+          "Signal",
+          "Loop",
+          "Response",
+          "Reinforcement"
+        ],
+        "payload_hash": "d7480c429b4a221a7fa540e5672b3fb7e55d3642c8a6137bef29b17ef6fe3ce6",
+        "request_id": "proof-044-season-feedback-002",
+        "source_refs": [
+          "request",
+          "context.summary"
+        ]
+      },
+      "mechanism": "FEEDBACK",
+      "motifs": [
+        "Signal",
+        "Loop",
+        "Response",
+        "Reinforcement"
+      ],
+      "record_id": "pond:feedback:cd21debcf355ae4b"
+    },
+    {
+      "cues": [
+        "arrival",
+        "backlog",
+        "bottleneck",
+        "channel",
+        "choke",
+        "decline",
+        "flow",
+        "input",
+        "lane",
+        "narrow",
+        "origin",
+        "output",
+        "passage",
+        "path",
+        "pipe",
+        "queue",
+        "resistance",
+        "restriction",
+        "route",
+        "source",
+        "supply",
+        "throat",
+        "throughput",
+        "upstream",
+        "water"
+      ],
+      "lesson_text": "ACTION: SEASON. Mechanism label: FLOW. A channel route carries supply until a restriction creates a bottleneck and downstream output falls. Season behavior-protocol pond with FLOW.",
+      "lineage_hash": "c59ae99394df370b0ba080cc9a440f00d28071cdf83b6d9eba3a55d0b7708e8f",
+      "lineage_payload": {
+        "cues": [
+          "bottleneck",
+          "channel",
+          "flow",
+          "output",
+          "restriction",
+          "route",
+          "supply"
+        ],
+        "lesson_text": "ACTION: SEASON. Mechanism label: FLOW. A channel route carries supply until a restriction creates a bottleneck and downstream output falls. Season behavior-protocol pond with FLOW.",
+        "mechanism": "FLOW",
+        "motifs": [
+          "Source",
+          "Path",
+          "Resistance",
+          "Flow"
+        ],
+        "payload_hash": "0331919273c3092025414eb6ef923eb3dc8fe2864a5b353090d6ba88297a4e07",
+        "request_id": "proof-044-season-flow-002",
+        "source_refs": [
+          "request",
+          "context.summary"
+        ]
+      },
+      "mechanism": "FLOW",
+      "motifs": [
+        "Source",
+        "Path",
+        "Resistance",
+        "Flow"
+      ],
+      "record_id": "pond:flow:c59ae99394df370b"
+    },
+    {
+      "cues": [
+        "arrival",
+        "backlog",
+        "bottleneck",
+        "channel",
+        "choke",
+        "decline",
+        "flow",
+        "input",
+        "lane",
+        "narrow",
+        "origin",
+        "output",
+        "passage",
+        "path",
+        "pipe",
+        "queue",
+        "resistance",
+        "restriction",
+        "route",
+        "source",
+        "supply",
+        "throat",
+        "throughput",
+        "upstream",
+        "water"
+      ],
+      "lesson_text": "ACTION: SEASON. Mechanism label: FLOW. A source sends water through a path; a narrowed throat adds resistance, throughput declines, and upstream backlog grows. Season behavior-protocol pond with FLOW.",
+      "lineage_hash": "cc02783bc819ddab8c659ab3b5bb122d908a7ebcc70f01c7427c5cae19c59c79",
+      "lineage_payload": {
+        "cues": [
+          "backlog",
+          "decline",
+          "flow",
+          "narrow",
+          "path",
+          "resistance",
+          "source",
+          "throat",
+          "throughput",
+          "upstream",
+          "water"
+        ],
+        "lesson_text": "ACTION: SEASON. Mechanism label: FLOW. A source sends water through a path; a narrowed throat adds resistance, throughput declines, and upstream backlog grows. Season behavior-protocol pond with FLOW.",
+        "mechanism": "FLOW",
+        "motifs": [
+          "Source",
+          "Path",
+          "Resistance",
+          "Flow"
+        ],
+        "payload_hash": "daafb2d15f913366c75c776854c567739ee6c96963a88bff3ed20bcea7173b11",
+        "request_id": "proof-044-season-flow-001",
+        "source_refs": [
+          "request",
+          "context.summary"
+        ]
+      },
+      "mechanism": "FLOW",
+      "motifs": [
+        "Source",
+        "Path",
+        "Resistance",
+        "Flow"
+      ],
+      "record_id": "pond:flow:cc02783bc819ddab"
+    },
+    {
+      "cues": [
+        "anchor",
+        "bend",
+        "bracket",
+        "burden",
+        "concentration",
+        "crack",
+        "distribution",
+        "failure",
+        "load",
+        "localized",
+        "lug",
+        "mass",
+        "structure",
+        "support",
+        "transfer"
+      ],
+      "lesson_text": "ACTION: SEASON. Mechanism label: LOAD_TRANSFER. A distributed burden shifts to one anchor; strain localizes and the lug tears. Season behavior-protocol pond with LOAD_TRANSFER.",
+      "lineage_hash": "67dcde5c9338cedb5213968113fb33b189b1f53f5d60d253673c43f9a9aa8f39",
+      "lineage_payload": {
+        "cues": [
+          "anchor",
+          "burden",
+          "lug"
+        ],
+        "lesson_text": "ACTION: SEASON. Mechanism label: LOAD_TRANSFER. A distributed burden shifts to one anchor; strain localizes and the lug tears. Season behavior-protocol pond with LOAD_TRANSFER.",
+        "mechanism": "LOAD_TRANSFER",
+        "motifs": [
+          "Load",
+          "Distribution",
+          "Concentration",
+          "Failure"
+        ],
+        "payload_hash": "80cec9ffce96c83ecadc10a85bafe8f19492f9baf7f446f0baf6094d4533b03b",
+        "request_id": "proof-044-season-load_transfer-002",
+        "source_refs": [
+          "request",
+          "context.summary"
+        ]
+      },
+      "mechanism": "LOAD_TRANSFER",
+      "motifs": [
+        "Load",
+        "Distribution",
+        "Concentration",
+        "Failure"
+      ],
+      "record_id": "pond:load_transfer:67dcde5c9338cedb"
+    },
+    {
+      "cues": [
+        "anchor",
+        "bend",
+        "bracket",
+        "burden",
+        "concentration",
+        "crack",
+        "distribution",
+        "failure",
+        "load",
+        "localized",
+        "lug",
+        "mass",
+        "structure",
+        "support",
+        "transfer"
+      ],
+      "lesson_text": "ACTION: SEASON. Mechanism label: LOAD_TRANSFER. A structure transfers load through supports; concentration at a local bracket bends material, cracks appear, and failure occurs. Season behavior-protocol pond with LOAD_TRANSFER.",
+      "lineage_hash": "ef9cd271709645fd3df296ce2c5705f164bb8c840670ef45d49f052bdd4637ca",
+      "lineage_payload": {
+        "cues": [
+          "bend",
+          "bracket",
+          "concentration",
+          "crack",
+          "failure",
+          "load",
+          "structure",
+          "support",
+          "transfer"
+        ],
+        "lesson_text": "ACTION: SEASON. Mechanism label: LOAD_TRANSFER. A structure transfers load through supports; concentration at a local bracket bends material, cracks appear, and failure occurs. Season behavior-protocol pond with LOAD_TRANSFER.",
+        "mechanism": "LOAD_TRANSFER",
+        "motifs": [
+          "Load",
+          "Distribution",
+          "Concentration",
+          "Failure"
+        ],
+        "payload_hash": "04c943f48007abe2c25ae6933bd7c239d2411094c0a9fe15d221e4e6b91ee7d7",
+        "request_id": "proof-044-season-load_transfer-001",
+        "source_refs": [
+          "request",
+          "context.summary"
+        ]
+      },
+      "mechanism": "LOAD_TRANSFER",
+      "motifs": [
+        "Load",
+        "Distribution",
+        "Concentration",
+        "Failure"
+      ],
+      "record_id": "pond:load_transfer:ef9cd271709645fd"
+    },
+    {
+      "cues": [
+        "alternate",
+        "cycle",
+        "delay",
+        "hunting",
+        "oscillate",
+        "oscillation",
+        "overshoot",
+        "periodic",
+        "phase",
+        "pulse",
+        "rebound",
+        "rhythm",
+        "swing",
+        "undershoot",
+        "wave"
+      ],
+      "lesson_text": "ACTION: SEASON. Mechanism label: OSCILLATION. Delayed response causes overshoot, undershoot, and repeated cycles around a target state. Season behavior-protocol pond with OSCILLATION.",
+      "lineage_hash": "36317b5fc9d2b9f7a98b926fd1c1c48e180cca68ec73ce996092aa80624feed9",
+      "lineage_payload": {
+        "cues": [
+          "cycle",
+          "delay",
+          "oscillation",
+          "overshoot",
+          "undershoot"
+        ],
+        "lesson_text": "ACTION: SEASON. Mechanism label: OSCILLATION. Delayed response causes overshoot, undershoot, and repeated cycles around a target state. Season behavior-protocol pond with OSCILLATION.",
+        "mechanism": "OSCILLATION",
+        "motifs": [
+          "State",
+          "Delay",
+          "Overshoot",
+          "Cycle"
+        ],
+        "payload_hash": "9dd96217e801da055c12ba375fa9790b9b87ccc920e1b5e4688f613b98ce2efc",
+        "request_id": "proof-044-season-oscillation-001",
+        "source_refs": [
+          "request",
+          "context.summary"
+        ]
+      },
+      "mechanism": "OSCILLATION",
+      "motifs": [
+        "State",
+        "Delay",
+        "Overshoot",
+        "Cycle"
+      ],
+      "record_id": "pond:oscillation:36317b5fc9d2b9f7"
+    },
+    {
+      "cues": [
+        "alternate",
+        "cycle",
+        "delay",
+        "hunting",
+        "oscillate",
+        "oscillation",
+        "overshoot",
+        "periodic",
+        "phase",
+        "pulse",
+        "rebound",
+        "rhythm",
+        "swing",
+        "undershoot",
+        "wave"
+      ],
+      "lesson_text": "ACTION: SEASON. Mechanism label: OSCILLATION. A controller hunts above and below the set point, producing periodic swings. Season behavior-protocol pond with OSCILLATION.",
+      "lineage_hash": "d31c346386bcd6871e501af1d1d6d44b8d00bd2be749090e9b42846210712c33",
+      "lineage_payload": {
+        "cues": [
+          "oscillation",
+          "periodic",
+          "swing"
+        ],
+        "lesson_text": "ACTION: SEASON. Mechanism label: OSCILLATION. A controller hunts above and below the set point, producing periodic swings. Season behavior-protocol pond with OSCILLATION.",
+        "mechanism": "OSCILLATION",
+        "motifs": [
+          "State",
+          "Delay",
+          "Overshoot",
+          "Cycle"
+        ],
+        "payload_hash": "5e1d9baa44a606c8c77deb2f7891b931050e8e9487873cdfd77c13c0bdcd9faf",
+        "request_id": "proof-044-season-oscillation-002",
+        "source_refs": [
+          "request",
+          "context.summary"
+        ]
+      },
+      "mechanism": "OSCILLATION",
+      "motifs": [
+        "State",
+        "Delay",
+        "Overshoot",
+        "Cycle"
+      ],
+      "record_id": "pond:oscillation:d31c346386bcd687"
+    },
+    {
+      "cues": [
+        "capacity",
+        "consume",
+        "consumption",
+        "deplete",
+        "depleted",
+        "depletion",
+        "drain",
+        "exhaust",
+        "exhaustion",
+        "fatigue",
+        "fuel",
+        "reserve",
+        "resource",
+        "scarcity",
+        "supply"
+      ],
+      "lesson_text": "ACTION: SEASON. Mechanism label: RESOURCE_DEPLETION. Fuel supply falls as capacity is used, leaving the system depleted and unable to continue. Season behavior-protocol pond with RESOURCE_DEPLETION.",
+      "lineage_hash": "ba275e24981d06a8f4018e12addaa2a24afadd389d11736d3180d60f77e3b2ab",
+      "lineage_payload": {
+        "cues": [
+          "capacity",
+          "depleted",
+          "fuel",
+          "supply"
+        ],
+        "lesson_text": "ACTION: SEASON. Mechanism label: RESOURCE_DEPLETION. Fuel supply falls as capacity is used, leaving the system depleted and unable to continue. Season behavior-protocol pond with RESOURCE_DEPLETION.",
+        "mechanism": "RESOURCE_DEPLETION",
+        "motifs": [
+          "Resource",
+          "Consumption",
+          "Scarcity",
+          "Exhaustion"
+        ],
+        "payload_hash": "e8bd71676c4fca23376ce62d75175723ef550ffd8ab1da005b36a5940eb4447d",
+        "request_id": "proof-044-season-resource_depletion-002",
+        "source_refs": [
+          "request",
+          "context.summary"
+        ]
+      },
+      "mechanism": "RESOURCE_DEPLETION",
+      "motifs": [
+        "Resource",
+        "Consumption",
+        "Scarcity",
+        "Exhaustion"
+      ],
+      "record_id": "pond:resource_depletion:ba275e24981d06a8"
+    },
+    {
+      "cues": [
+        "capacity",
+        "consume",
+        "consumption",
+        "deplete",
+        "depleted",
+        "depletion",
+        "drain",
+        "exhaust",
+        "exhaustion",
+        "fatigue",
+        "fuel",
+        "reserve",
+        "resource",
+        "scarcity",
+        "supply"
+      ],
+      "lesson_text": "ACTION: SEASON. Mechanism label: RESOURCE_DEPLETION. A resource is consumed over time; scarcity grows, reserve drains, and exhaustion causes collapse. Season behavior-protocol pond with RESOURCE_DEPLETION.",
+      "lineage_hash": "f17b7c54d243a98d762f13250d5ea7ab55c80a415d19e9a92b035fcaec282f29",
+      "lineage_payload": {
+        "cues": [
+          "drain",
+          "exhaustion",
+          "reserve",
+          "resource",
+          "scarcity"
+        ],
+        "lesson_text": "ACTION: SEASON. Mechanism label: RESOURCE_DEPLETION. A resource is consumed over time; scarcity grows, reserve drains, and exhaustion causes collapse. Season behavior-protocol pond with RESOURCE_DEPLETION.",
+        "mechanism": "RESOURCE_DEPLETION",
+        "motifs": [
+          "Resource",
+          "Consumption",
+          "Scarcity",
+          "Exhaustion"
+        ],
+        "payload_hash": "821b5da7003117103f596e93147e5df603b9b710ee4fdc45ab4d550b25ac54de",
+        "request_id": "proof-044-season-resource_depletion-001",
+        "source_refs": [
+          "request",
+          "context.summary"
+        ]
+      },
+      "mechanism": "RESOURCE_DEPLETION",
+      "motifs": [
+        "Resource",
+        "Consumption",
+        "Scarcity",
+        "Exhaustion"
+      ],
+      "record_id": "pond:resource_depletion:f17b7c54d243a98d"
+    },
+    {
+      "cues": [
+        "bearing",
+        "drag",
+        "friction",
+        "journal",
+        "lock",
+        "pivot",
+        "rotate",
+        "rotating",
+        "rotation",
+        "rough",
+        "seize",
+        "seizure",
+        "socket",
+        "support",
+        "turn",
+        "wobble"
+      ],
+      "lesson_text": "ACTION: SEASON. Mechanism label: SUPPORTED_ROTATION. A rotating shaft depends on support; friction rises at the bearing, wobble increases, and the pivot can seize. Season behavior-protocol pond with SUPPORTED_ROTATION.",
+      "lineage_hash": "8f86334625ba2fb00e57b2d3ebea469448804639c394e865eaeb893569ca3874",
+      "lineage_payload": {
+        "cues": [
+          "bearing",
+          "friction",
+          "pivot",
+          "rotating",
+          "seize",
+          "support",
+          "wobble"
+        ],
+        "lesson_text": "ACTION: SEASON. Mechanism label: SUPPORTED_ROTATION. A rotating shaft depends on support; friction rises at the bearing, wobble increases, and the pivot can seize. Season behavior-protocol pond with SUPPORTED_ROTATION.",
+        "mechanism": "SUPPORTED_ROTATION",
+        "motifs": [
+          "Rotation",
+          "Support",
+          "Friction",
+          "Failure"
+        ],
+        "payload_hash": "f38ef5a39ab74f7ec8147240f322203367ebcbf063888b771afcd0d5368c9682",
+        "request_id": "proof-044-season-supported_rotation-001",
+        "source_refs": [
+          "request",
+          "context.summary"
+        ]
+      },
+      "mechanism": "SUPPORTED_ROTATION",
+      "motifs": [
+        "Rotation",
+        "Support",
+        "Friction",
+        "Failure"
+      ],
+      "record_id": "pond:supported_rotation:8f86334625ba2fb0"
+    },
+    {
+      "cues": [
+        "bearing",
+        "drag",
+        "friction",
+        "journal",
+        "lock",
+        "pivot",
+        "rotate",
+        "rotating",
+        "rotation",
+        "rough",
+        "seize",
+        "seizure",
+        "socket",
+        "support",
+        "turn",
+        "wobble"
+      ],
+      "lesson_text": "ACTION: SEASON. Mechanism label: SUPPORTED_ROTATION. A journal turns inside a socket until drag and rough contact make rotation lock. Season behavior-protocol pond with SUPPORTED_ROTATION.",
+      "lineage_hash": "dd72cdf7da04ab1007c38419f87f8c5d7c8b2ce9d01e8505f0b09a4e8950b781",
+      "lineage_payload": {
+        "cues": [
+          "drag",
+          "journal",
+          "lock",
+          "rotation",
+          "rough",
+          "socket",
+          "turn"
+        ],
+        "lesson_text": "ACTION: SEASON. Mechanism label: SUPPORTED_ROTATION. A journal turns inside a socket until drag and rough contact make rotation lock. Season behavior-protocol pond with SUPPORTED_ROTATION.",
+        "mechanism": "SUPPORTED_ROTATION",
+        "motifs": [
+          "Rotation",
+          "Support",
+          "Friction",
+          "Failure"
+        ],
+        "payload_hash": "8d347a76a4ab82b6007bd58288cad8e7e4a9e4db03be72ae059f1781adc4ee58",
+        "request_id": "proof-044-season-supported_rotation-002",
+        "source_refs": [
+          "request",
+          "context.summary"
+        ]
+      },
+      "mechanism": "SUPPORTED_ROTATION",
+      "motifs": [
+        "Rotation",
+        "Support",
+        "Friction",
+        "Failure"
+      ],
+      "record_id": "pond:supported_rotation:dd72cdf7da04ab10"
+    },
+    {
+      "cues": [
+        "boundary",
+        "breakpoint",
+        "critical",
+        "crossed",
+        "crosses",
+        "limit",
+        "point",
+        "state",
+        "sudden",
+        "switch",
+        "threshold",
+        "tipping",
+        "trigger",
+        "trip",
+        "until"
+      ],
+      "lesson_text": "ACTION: SEASON. Mechanism label: THRESHOLD. A value accumulates until it crosses a critical limit, triggering a state switch. Season behavior-protocol pond with THRESHOLD.",
+      "lineage_hash": "ab23ece5c69cf986f680a59221e15014d363018f898e92828f4c7f5052289731",
+      "lineage_payload": {
+        "cues": [
+          "critical",
+          "crosses",
+          "limit",
+          "state",
+          "switch",
+          "threshold",
+          "trigger",
+          "until"
+        ],
+        "lesson_text": "ACTION: SEASON. Mechanism label: THRESHOLD. A value accumulates until it crosses a critical limit, triggering a state switch. Season behavior-protocol pond with THRESHOLD.",
+        "mechanism": "THRESHOLD",
+        "motifs": [
+          "Accumulation",
+          "Limit",
+          "Trigger",
+          "StateChange"
+        ],
+        "payload_hash": "e3562f193a8452a4e3b49afe579a62fe3c6519fd1dba1a73ccc0d87518396f37",
+        "request_id": "proof-044-season-threshold-001",
+        "source_refs": [
+          "request",
+          "context.summary"
+        ]
+      },
+      "mechanism": "THRESHOLD",
+      "motifs": [
+        "Accumulation",
+        "Limit",
+        "Trigger",
+        "StateChange"
+      ],
+      "record_id": "pond:threshold:ab23ece5c69cf986"
+    },
+    {
+      "cues": [
+        "boundary",
+        "breakpoint",
+        "critical",
+        "crossed",
+        "crosses",
+        "limit",
+        "point",
+        "state",
+        "sudden",
+        "switch",
+        "threshold",
+        "tipping",
+        "trigger",
+        "trip",
+        "until"
+      ],
+      "lesson_text": "ACTION: SEASON. Mechanism label: THRESHOLD. A boundary remains quiet until the threshold is crossed and a sudden transition occurs. Season behavior-protocol pond with THRESHOLD.",
+      "lineage_hash": "d0349a54f2cd5767e025e5eb53a3907d1a4eae9e5305185b08220ef2465a5785",
+      "lineage_payload": {
+        "cues": [
+          "boundary",
+          "crossed",
+          "sudden",
+          "threshold",
+          "until"
+        ],
+        "lesson_text": "ACTION: SEASON. Mechanism label: THRESHOLD. A boundary remains quiet until the threshold is crossed and a sudden transition occurs. Season behavior-protocol pond with THRESHOLD.",
+        "mechanism": "THRESHOLD",
+        "motifs": [
+          "Accumulation",
+          "Limit",
+          "Trigger",
+          "StateChange"
+        ],
+        "payload_hash": "6ffa0753ee305deea58df9888c48688cf6aac2ce3aff90f0f63bcc7d432291ce",
+        "request_id": "proof-044-season-threshold-002",
+        "source_refs": [
+          "request",
+          "context.summary"
+        ]
+      },
+      "mechanism": "THRESHOLD",
+      "motifs": [
+        "Accumulation",
+        "Limit",
+        "Trigger",
+        "StateChange"
+      ],
+      "record_id": "pond:threshold:d0349a54f2cd5767"
+    }
+  ],
+  "schema_version": "inside_voice_mcp_pond_state.v1",
+  "state_id": "inside_voice_mcp_local_pond",
+  "updated_by_request_id": "proof-044-season-threshold-002"
+}

@@ -1,0 +1,46 @@
+{
+  "claim_level": "evidence_backed",
+  "disallowed_claims": [
+    "Proof 044 proves cognition.",
+    "Behavior protocol output is externally validated.",
+    "Deterministic-catalog or hardcoding explanations are eliminated.",
+    "Perturbation effects prove causal mechanism discovery."
+  ],
+  "inside_voice_adapter_status": "pond_backed_behavior_protocol",
+  "lineage": {
+    "candidate_status": "eligible",
+    "contract_version": "inside_voice_mcp_contract/0.2",
+    "derived_from": "Proof 035b instrument validation and Proofs 038-043 behavior findings.",
+    "mcp_endpoint": "in-process tools.integrations.inside_voice_mcp_server.process_consult_request",
+    "request_hash": "069f07583577dbbf28a7491edd427c36af78551a2d28d65c8cd41a8db2cd6440",
+    "response_hash": "6aad53e44096582ef9f0fc336787eb4fb303e5e23152c82a94853ecc2918a7cf",
+    "validates": "STRONG_SIGNAL"
+  },
+  "proof_id": "044-inside-voice-mcp-behavior-protocol",
+  "public_private_boundary": "Public-safe artifacts expose motifs, lineage ids, lineage hashes, activation fields, interactions, collapse traces, and perturbation summaries without private substrate internals.",
+  "required_artifacts": [
+    "README.md",
+    "proof_manifest.json",
+    "tests/behavior_probe_cases.jsonl",
+    "mcp/pond_state_manifest.json",
+    "mcp/behavior_protocol_consults.jsonl",
+    "results/behavior_protocol_results.json",
+    "analysis/protocol_mode_coverage.json",
+    "analysis/fail_closed_audit.json",
+    "analysis/behavior_protocol_metrics.json",
+    "analysis/field_perturbation_report.json",
+    "analysis/collapse_trace_audit.json",
+    "analysis/hostile_protocol_audit.json"
+  ],
+  "status": "complete",
+  "targets": [
+    "BehaviorProtocolModes",
+    "ProtocolRouter",
+    "BehaviorProbeCLI",
+    "BehaviorCorpus",
+    "PerturbationStudy",
+    "CollapseTraceAudit",
+    "HostileProtocolAudit"
+  ],
+  "title": "Proof 044 - Inside Voice MCP Behavior Protocol"
+}
