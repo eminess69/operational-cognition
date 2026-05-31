@@ -1,0 +1,198 @@
+{
+  "accuracy": 1.0,
+  "answered_items": 4,
+  "answers": [
+    {
+      "answer": "12",
+      "concept_pathway": [
+        "counting",
+        "one_digit_addition",
+        "simple_word_problems",
+        "multiplication_as_repeated_addition"
+      ],
+      "confidence": 0.87,
+      "correct": true,
+      "expected_answer": "12",
+      "question": "If there are 3 bags with 4 apples each, how many apples?",
+      "question_id": "FT-T001",
+      "status": "ANSWERED",
+      "traceback_chain": [
+        {
+          "concept": "counting",
+          "expected_motif": "g1_counting_sequence",
+          "lesson_id": "G1-L001"
+        },
+        {
+          "concept": "one_digit_addition",
+          "expected_motif": "g1_count_forward_addition",
+          "lesson_id": "G1-L002"
+        },
+        {
+          "concept": "simple_word_problems",
+          "expected_motif": "g1_word_problem_operation_mapping",
+          "lesson_id": "G1-L006"
+        },
+        {
+          "concept": "multiplication_as_repeated_addition",
+          "expected_motif": "g2_equal_groups_repeated_addition",
+          "lesson_id": "G2-L005"
+        }
+      ],
+      "unsupported": false,
+      "used_grade_1_motifs": [
+        "g1_count_forward_addition",
+        "g1_counting_sequence",
+        "g1_word_problem_operation_mapping"
+      ],
+      "used_grade_2_motifs": [
+        "g2_equal_groups_repeated_addition"
+      ]
+    },
+    {
+      "answer": "33",
+      "concept_pathway": [
+        "counting",
+        "one_digit_addition",
+        "place_value",
+        "two_digit_addition_without_carrying"
+      ],
+      "confidence": 0.87,
+      "correct": true,
+      "expected_answer": "33",
+      "question": "What number is 10 more than 23?",
+      "question_id": "FT-T002",
+      "status": "ANSWERED",
+      "traceback_chain": [
+        {
+          "concept": "counting",
+          "expected_motif": "g1_counting_sequence",
+          "lesson_id": "G1-L001"
+        },
+        {
+          "concept": "one_digit_addition",
+          "expected_motif": "g1_count_forward_addition",
+          "lesson_id": "G1-L002"
+        },
+        {
+          "concept": "place_value",
+          "expected_motif": "g2_tens_ones_place_value",
+          "lesson_id": "G2-L003"
+        },
+        {
+          "concept": "two_digit_addition_without_carrying",
+          "expected_motif": "g2_no_carry_column_addition",
+          "lesson_id": "G2-L001"
+        }
+      ],
+      "unsupported": false,
+      "used_grade_1_motifs": [
+        "g1_count_forward_addition",
+        "g1_counting_sequence"
+      ],
+      "used_grade_2_motifs": [
+        "g2_no_carry_column_addition",
+        "g2_tens_ones_place_value"
+      ]
+    },
+    {
+      "answer": "20",
+      "concept_pathway": [
+        "counting",
+        "one_digit_subtraction",
+        "place_value",
+        "two_digit_subtraction_without_borrowing",
+        "simple_word_problems"
+      ],
+      "confidence": 0.95,
+      "correct": true,
+      "expected_answer": "20",
+      "question": "If 25 birds are on a tree and 5 fly away, how many remain?",
+      "question_id": "FT-T003",
+      "status": "ANSWERED",
+      "traceback_chain": [
+        {
+          "concept": "counting",
+          "expected_motif": "g1_counting_sequence",
+          "lesson_id": "G1-L001"
+        },
+        {
+          "concept": "one_digit_subtraction",
+          "expected_motif": "g1_take_away_subtraction",
+          "lesson_id": "G1-L003"
+        },
+        {
+          "concept": "place_value",
+          "expected_motif": "g2_tens_ones_place_value",
+          "lesson_id": "G2-L003"
+        },
+        {
+          "concept": "two_digit_subtraction_without_borrowing",
+          "expected_motif": "g2_no_borrow_column_subtraction",
+          "lesson_id": "G2-L002"
+        },
+        {
+          "concept": "simple_word_problems",
+          "expected_motif": "g1_word_problem_operation_mapping",
+          "lesson_id": "G1-L006"
+        }
+      ],
+      "unsupported": false,
+      "used_grade_1_motifs": [
+        "g1_counting_sequence",
+        "g1_take_away_subtraction",
+        "g1_word_problem_operation_mapping"
+      ],
+      "used_grade_2_motifs": [
+        "g2_no_borrow_column_subtraction",
+        "g2_tens_ones_place_value"
+      ]
+    },
+    {
+      "answer": "37",
+      "concept_pathway": [
+        "counting",
+        "number_comparison",
+        "place_value"
+      ],
+      "confidence": 0.79,
+      "correct": true,
+      "expected_answer": "37",
+      "question": "Which is larger: 37 or 29?",
+      "question_id": "FT-T004",
+      "status": "ANSWERED",
+      "traceback_chain": [
+        {
+          "concept": "counting",
+          "expected_motif": "g1_counting_sequence",
+          "lesson_id": "G1-L001"
+        },
+        {
+          "concept": "number_comparison",
+          "expected_motif": "g1_number_order_comparison",
+          "lesson_id": "G1-L005"
+        },
+        {
+          "concept": "place_value",
+          "expected_motif": "g2_tens_ones_place_value",
+          "lesson_id": "G2-L003"
+        }
+      ],
+      "unsupported": false,
+      "used_grade_1_motifs": [
+        "g1_counting_sequence",
+        "g1_number_order_comparison"
+      ],
+      "used_grade_2_motifs": [
+        "g2_tens_ones_place_value"
+      ]
+    }
+  ],
+  "deterministic_replay_match": true,
+  "evidence_of_concept_composition": true,
+  "execution_mode": "deterministic_cli_no_llm",
+  "phase": "foundation_transfer_test",
+  "pond_state": "grade_2_seasoned",
+  "total_items": 4,
+  "traceback_completeness": 1.0,
+  "unsupported_answers": 0
+}

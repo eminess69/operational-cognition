@@ -1,0 +1,81 @@
+{
+  "checks": [
+    {
+      "attack": "keyword_matching",
+      "finding": "Survives partially. The CLI maps text to learned role cues such as bottleneck, shaft, noisy, weight, one corner, and bracket. Hidden prompts avoid mechanism names, but role-cue keywords remain central.",
+      "status": "survives_partially"
+    },
+    {
+      "attack": "parser_behavior",
+      "finding": "Survives. The engine is a deterministic role-cue parser over a closed mechanism state. That can explain the observed success without requiring a stronger claim of general understanding.",
+      "status": "survives"
+    },
+    {
+      "attack": "memorization",
+      "finding": "Does not fully survive. The CLI receives only pond path and question text; expected answers live in test artifacts and are not loaded by the CLI. However, the curriculum and tests were both authored in this harness.",
+      "status": "mostly_rejected_with_boundary"
+    },
+    {
+      "attack": "hardcoded_mappings",
+      "finding": "Survives in a bounded form. There are no per-question answer mappings, but each mechanism has explicit role cues and deterministic output templates in the pond state.",
+      "status": "survives_bounded"
+    },
+    {
+      "attack": "mechanism_name_leakage",
+      "finding": "Hidden suite prompts do not contain FLOW, SUPPORTED_ROTATION, or LOAD_TRANSFER mechanism names.",
+      "status": "rejected_for_hidden_suite"
+    }
+  ],
+  "critical_metric_snapshot": {
+    "cross_domain_transfer_rate": 1.0,
+    "fail_closed_rate_on_unsupported_items": 1.0,
+    "hidden_mechanism_transfer_rate": 1.0,
+    "mechanism_transfer_rate": 1.0
+  },
+  "failure_condition_triggered": "parser_explanation_survives",
+  "hardcoded_mapping_explanation_survives": true,
+  "hidden_mechanism_name_leaks": [
+    {
+      "leak_detected": false,
+      "question_id": "HM-001"
+    },
+    {
+      "leak_detected": false,
+      "question_id": "HM-002"
+    },
+    {
+      "leak_detected": false,
+      "question_id": "HM-003"
+    },
+    {
+      "leak_detected": false,
+      "question_id": "HM-004"
+    },
+    {
+      "leak_detected": false,
+      "question_id": "HM-005"
+    },
+    {
+      "leak_detected": false,
+      "question_id": "HM-006"
+    }
+  ],
+  "hostile_verdict": "FAIL",
+  "interpretation": "The critical transfer metric is high, but the hostile audit rejects a strong cognition claim because parser and hardcoded-role explanations survive.",
+  "invalidated_claims": [
+    "Success cannot be explained by parser behavior.",
+    "Success cannot be explained by hardcoded mechanism role cues.",
+    "This establishes general mechanism understanding beyond the closed-world symbolic curriculum."
+  ],
+  "keyword_explanation_survives": true,
+  "memorization_explanation_survives": false,
+  "parser_explanation_survives": true,
+  "proof_id": "030-mechanistic-transfer-challenge",
+  "signal_before_hostile_audit": "STRONG_SIGNAL",
+  "surviving_claims": [
+    "No-LLM CLI generated all mechanism mappings.",
+    "The seasoned pond identified taught mechanisms across curated surface-domain changes.",
+    "The unseasoned pond and unsupported prompts failed closed.",
+    "Every identified item emitted the required mapping object with supporting motifs and source mechanism."
+  ]
+}

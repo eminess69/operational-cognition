@@ -1,0 +1,293 @@
+{
+  "all_replays_match": true,
+  "checked_items": 57,
+  "entries": [
+    {
+      "deterministic_replay_match": true,
+      "phase": "no_seasoning_baseline",
+      "question_id": "FE-T001"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "no_seasoning_baseline",
+      "question_id": "FE-T002"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "no_seasoning_baseline",
+      "question_id": "FE-T003"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "no_seasoning_baseline",
+      "question_id": "FE-T004"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "no_seasoning_baseline",
+      "question_id": "FE-T005"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "no_seasoning_baseline",
+      "question_id": "FE-T006"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "no_seasoning_baseline",
+      "question_id": "FE-T007"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "no_seasoning_baseline",
+      "question_id": "FE-T008"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "no_seasoning_baseline",
+      "question_id": "FE-T009"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "no_seasoning_baseline",
+      "question_id": "FE-T010"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "grade_1_test",
+      "question_id": "G1-T001"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "grade_1_test",
+      "question_id": "G1-T002"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "grade_1_test",
+      "question_id": "G1-T003"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "grade_1_test",
+      "question_id": "G1-T004"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "grade_1_test",
+      "question_id": "G1-T005"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "grade_1_test",
+      "question_id": "G1-T006"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "grade_1_test",
+      "question_id": "G1-T007"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "grade_2_test",
+      "question_id": "G2-T001"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "grade_2_test",
+      "question_id": "G2-T002"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "grade_2_test",
+      "question_id": "G2-T003"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "grade_2_test",
+      "question_id": "G2-T004"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "grade_2_test",
+      "question_id": "G2-T005"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "grade_2_test",
+      "question_id": "G2-T006"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "foundation_transfer_test",
+      "question_id": "FT-T001"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "foundation_transfer_test",
+      "question_id": "FT-T002"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "foundation_transfer_test",
+      "question_id": "FT-T003"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "foundation_transfer_test",
+      "question_id": "FT-T004"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_baseline",
+      "question_id": "FE-T001"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_baseline",
+      "question_id": "FE-T002"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_baseline",
+      "question_id": "FE-T003"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_baseline",
+      "question_id": "FE-T004"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_baseline",
+      "question_id": "FE-T005"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_baseline",
+      "question_id": "FE-T006"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_baseline",
+      "question_id": "FE-T007"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_baseline",
+      "question_id": "FE-T008"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_baseline",
+      "question_id": "FE-T009"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_baseline",
+      "question_id": "FE-T010"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_grade_1",
+      "question_id": "FE-T001"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_grade_1",
+      "question_id": "FE-T002"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_grade_1",
+      "question_id": "FE-T003"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_grade_1",
+      "question_id": "FE-T004"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_grade_1",
+      "question_id": "FE-T005"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_grade_1",
+      "question_id": "FE-T006"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_grade_1",
+      "question_id": "FE-T007"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_grade_1",
+      "question_id": "FE-T008"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_grade_1",
+      "question_id": "FE-T009"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_grade_1",
+      "question_id": "FE-T010"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_grade_2",
+      "question_id": "FE-T001"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_grade_2",
+      "question_id": "FE-T002"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_grade_2",
+      "question_id": "FE-T003"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_grade_2",
+      "question_id": "FE-T004"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_grade_2",
+      "question_id": "FE-T005"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_grade_2",
+      "question_id": "FE-T006"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_grade_2",
+      "question_id": "FE-T007"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_grade_2",
+      "question_id": "FE-T008"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_grade_2",
+      "question_id": "FE-T009"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "final_exam_grade_2",
+      "question_id": "FE-T010"
+    }
+  ],
+  "method": "Each question was answered twice by a fresh CLI subprocess; canonical JSON outputs were compared.",
+  "proof_id": "028-developmental-learning-grade-ladder"
+}

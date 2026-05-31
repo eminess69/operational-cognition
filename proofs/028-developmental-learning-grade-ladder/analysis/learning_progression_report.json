@@ -1,0 +1,18 @@
+{
+  "accuracy_improvement_after_seasoning": true,
+  "claim_boundary": "This proves a deterministic, rule-gated toy pond can reuse taught motifs on held-out grade-ladder math forms; it does not prove general mathematical cognition.",
+  "developmental_signal": "STRONG_SIGNAL",
+  "grade_2_improves_over_grade_1_on_same_exam": true,
+  "primary_metrics": {
+    "baseline_final_accuracy": 0.0,
+    "deterministic_replay_match": true,
+    "foundation_transfer_accuracy": 1.0,
+    "grade_1_final_exam_accuracy": 0.3,
+    "grade_1_held_out_accuracy": 1.0,
+    "grade_2_final_exam_accuracy": 1.0,
+    "grade_2_held_out_accuracy": 1.0,
+    "traceback_completeness_grade_2": 1.0
+  },
+  "proof_id": "028-developmental-learning-grade-ladder",
+  "transfer_success_on_unseen_problems": true
+}

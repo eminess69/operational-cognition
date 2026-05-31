@@ -1,0 +1,23 @@
+{
+  "context": {
+    "constraints": [
+      "Use only FLOW, SUPPORTED_ROTATION, LOAD_TRANSFER.",
+      "Treat this as bounded teacher seasoning, not a broad cognition claim.",
+      "Return pond-backed lineage hashes and motif refs if available."
+    ],
+    "desired_artifacts": [
+      "mechanism motif recall",
+      "lineage hashes",
+      "pond-backed status"
+    ],
+    "files": [
+      "proofs/033-mechanism-seasoning-pond-recall/curriculum/mechanism_seasoning_examples.jsonl"
+    ],
+    "summary": "Proof 033 teacher seasoning lesson P033-ROT-009 for SUPPORTED_ROTATION."
+  },
+  "max_output_chars": 8000,
+  "mode": "synthesis",
+  "request_id": "proof-033-season-021-supported_rotation",
+  "require_lineage": true,
+  "task": "SEASON mechanism lesson into the pond. Mechanism=SUPPORTED_ROTATION. Domain=meter_pointer. Observations=pointer spindle turns; the moving part depends on the tiny jewel seat; grit adds drag; pointer freezes. Causal chain=A part must rotate or circle.; A support interface holds the rotating motion.; Friction or abrasion rises at the support.; Motion becomes rough, slow, stuck, or stopped.. Consequence signature=rough motion appears; drag rises; rotation degrades or stops. Return bounded motifs and lineage only."
+}

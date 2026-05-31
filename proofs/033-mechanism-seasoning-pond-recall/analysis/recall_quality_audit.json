@@ -1,0 +1,293 @@
+{
+  "items": [
+    {
+      "case_id": "P033-FLOW-HO-001",
+      "expected_mechanism": "flow",
+      "lineage_traceable": true,
+      "motif_traceable": true,
+      "recall_relevant": true,
+      "recall_specificity": "SPECIFIC",
+      "recalled_mechanisms": [
+        "flow"
+      ],
+      "used_in_answer": true
+    },
+    {
+      "case_id": "P033-FLOW-HO-002",
+      "expected_mechanism": "flow",
+      "lineage_traceable": true,
+      "motif_traceable": true,
+      "recall_relevant": true,
+      "recall_specificity": "SPECIFIC",
+      "recalled_mechanisms": [
+        "flow"
+      ],
+      "used_in_answer": true
+    },
+    {
+      "case_id": "P033-FLOW-HO-003",
+      "expected_mechanism": "flow",
+      "lineage_traceable": true,
+      "motif_traceable": true,
+      "recall_relevant": true,
+      "recall_specificity": "SPECIFIC",
+      "recalled_mechanisms": [
+        "flow"
+      ],
+      "used_in_answer": true
+    },
+    {
+      "case_id": "P033-FLOW-HO-004",
+      "expected_mechanism": "flow",
+      "lineage_traceable": true,
+      "motif_traceable": true,
+      "recall_relevant": true,
+      "recall_specificity": "SPECIFIC",
+      "recalled_mechanisms": [
+        "flow"
+      ],
+      "used_in_answer": true
+    },
+    {
+      "case_id": "P033-FLOW-HO-005",
+      "expected_mechanism": "flow",
+      "lineage_traceable": true,
+      "motif_traceable": true,
+      "recall_relevant": true,
+      "recall_specificity": "SPECIFIC",
+      "recalled_mechanisms": [
+        "flow"
+      ],
+      "used_in_answer": true
+    },
+    {
+      "case_id": "P033-FLOW-HO-006",
+      "expected_mechanism": "flow",
+      "lineage_traceable": true,
+      "motif_traceable": true,
+      "recall_relevant": true,
+      "recall_specificity": "SPECIFIC",
+      "recalled_mechanisms": [
+        "flow"
+      ],
+      "used_in_answer": true
+    },
+    {
+      "case_id": "P033-FLOW-HO-007",
+      "expected_mechanism": "flow",
+      "lineage_traceable": true,
+      "motif_traceable": true,
+      "recall_relevant": true,
+      "recall_specificity": "SPECIFIC",
+      "recalled_mechanisms": [
+        "flow"
+      ],
+      "used_in_answer": true
+    },
+    {
+      "case_id": "P033-FLOW-HO-008",
+      "expected_mechanism": "flow",
+      "lineage_traceable": true,
+      "motif_traceable": true,
+      "recall_relevant": true,
+      "recall_specificity": "SPECIFIC",
+      "recalled_mechanisms": [
+        "flow"
+      ],
+      "used_in_answer": true
+    },
+    {
+      "case_id": "P033-ROT-HO-001",
+      "expected_mechanism": "supported_rotation",
+      "lineage_traceable": true,
+      "motif_traceable": true,
+      "recall_relevant": true,
+      "recall_specificity": "SPECIFIC",
+      "recalled_mechanisms": [
+        "supported_rotation"
+      ],
+      "used_in_answer": true
+    },
+    {
+      "case_id": "P033-ROT-HO-002",
+      "expected_mechanism": "supported_rotation",
+      "lineage_traceable": true,
+      "motif_traceable": true,
+      "recall_relevant": true,
+      "recall_specificity": "SPECIFIC",
+      "recalled_mechanisms": [
+        "supported_rotation"
+      ],
+      "used_in_answer": true
+    },
+    {
+      "case_id": "P033-ROT-HO-003",
+      "expected_mechanism": "supported_rotation",
+      "lineage_traceable": true,
+      "motif_traceable": true,
+      "recall_relevant": true,
+      "recall_specificity": "SPECIFIC",
+      "recalled_mechanisms": [
+        "supported_rotation"
+      ],
+      "used_in_answer": true
+    },
+    {
+      "case_id": "P033-ROT-HO-004",
+      "expected_mechanism": "supported_rotation",
+      "lineage_traceable": true,
+      "motif_traceable": true,
+      "recall_relevant": true,
+      "recall_specificity": "SPECIFIC",
+      "recalled_mechanisms": [
+        "supported_rotation"
+      ],
+      "used_in_answer": true
+    },
+    {
+      "case_id": "P033-ROT-HO-005",
+      "expected_mechanism": "supported_rotation",
+      "lineage_traceable": true,
+      "motif_traceable": true,
+      "recall_relevant": true,
+      "recall_specificity": "SPECIFIC",
+      "recalled_mechanisms": [
+        "supported_rotation"
+      ],
+      "used_in_answer": true
+    },
+    {
+      "case_id": "P033-ROT-HO-006",
+      "expected_mechanism": "supported_rotation",
+      "lineage_traceable": true,
+      "motif_traceable": true,
+      "recall_relevant": true,
+      "recall_specificity": "SPECIFIC",
+      "recalled_mechanisms": [
+        "supported_rotation"
+      ],
+      "used_in_answer": true
+    },
+    {
+      "case_id": "P033-ROT-HO-007",
+      "expected_mechanism": "supported_rotation",
+      "lineage_traceable": true,
+      "motif_traceable": true,
+      "recall_relevant": true,
+      "recall_specificity": "SPECIFIC",
+      "recalled_mechanisms": [
+        "supported_rotation"
+      ],
+      "used_in_answer": true
+    },
+    {
+      "case_id": "P033-ROT-HO-008",
+      "expected_mechanism": "supported_rotation",
+      "lineage_traceable": true,
+      "motif_traceable": true,
+      "recall_relevant": true,
+      "recall_specificity": "SPECIFIC",
+      "recalled_mechanisms": [
+        "supported_rotation"
+      ],
+      "used_in_answer": true
+    },
+    {
+      "case_id": "P033-LOAD-HO-001",
+      "expected_mechanism": "load_transfer",
+      "lineage_traceable": true,
+      "motif_traceable": true,
+      "recall_relevant": true,
+      "recall_specificity": "SPECIFIC",
+      "recalled_mechanisms": [
+        "load_transfer"
+      ],
+      "used_in_answer": true
+    },
+    {
+      "case_id": "P033-LOAD-HO-002",
+      "expected_mechanism": "load_transfer",
+      "lineage_traceable": true,
+      "motif_traceable": true,
+      "recall_relevant": true,
+      "recall_specificity": "SPECIFIC",
+      "recalled_mechanisms": [
+        "load_transfer"
+      ],
+      "used_in_answer": true
+    },
+    {
+      "case_id": "P033-LOAD-HO-003",
+      "expected_mechanism": "load_transfer",
+      "lineage_traceable": true,
+      "motif_traceable": true,
+      "recall_relevant": true,
+      "recall_specificity": "SPECIFIC",
+      "recalled_mechanisms": [
+        "load_transfer"
+      ],
+      "used_in_answer": true
+    },
+    {
+      "case_id": "P033-LOAD-HO-004",
+      "expected_mechanism": "load_transfer",
+      "lineage_traceable": true,
+      "motif_traceable": true,
+      "recall_relevant": true,
+      "recall_specificity": "SPECIFIC",
+      "recalled_mechanisms": [
+        "load_transfer"
+      ],
+      "used_in_answer": true
+    },
+    {
+      "case_id": "P033-LOAD-HO-005",
+      "expected_mechanism": "load_transfer",
+      "lineage_traceable": true,
+      "motif_traceable": true,
+      "recall_relevant": true,
+      "recall_specificity": "SPECIFIC",
+      "recalled_mechanisms": [
+        "load_transfer"
+      ],
+      "used_in_answer": true
+    },
+    {
+      "case_id": "P033-LOAD-HO-006",
+      "expected_mechanism": "load_transfer",
+      "lineage_traceable": true,
+      "motif_traceable": true,
+      "recall_relevant": true,
+      "recall_specificity": "SPECIFIC",
+      "recalled_mechanisms": [
+        "load_transfer"
+      ],
+      "used_in_answer": true
+    },
+    {
+      "case_id": "P033-LOAD-HO-007",
+      "expected_mechanism": "load_transfer",
+      "lineage_traceable": true,
+      "motif_traceable": true,
+      "recall_relevant": true,
+      "recall_specificity": "SPECIFIC",
+      "recalled_mechanisms": [
+        "load_transfer"
+      ],
+      "used_in_answer": true
+    },
+    {
+      "case_id": "P033-LOAD-HO-008",
+      "expected_mechanism": "load_transfer",
+      "lineage_traceable": true,
+      "motif_traceable": true,
+      "recall_relevant": true,
+      "recall_specificity": "SPECIFIC",
+      "recalled_mechanisms": [
+        "load_transfer"
+      ],
+      "used_in_answer": true
+    }
+  ],
+  "proof_id": "033-mechanism-seasoning-pond-recall"
+}

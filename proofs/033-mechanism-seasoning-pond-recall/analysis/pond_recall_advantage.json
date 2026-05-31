@@ -1,0 +1,33 @@
+{
+  "cases_harmed_by_recall": [],
+  "cases_improved_by_recall": [
+    "P033-FLOW-HO-001",
+    "P033-FLOW-HO-002",
+    "P033-FLOW-HO-004",
+    "P033-FLOW-HO-005",
+    "P033-FLOW-HO-006",
+    "P033-FLOW-HO-007",
+    "P033-FLOW-HO-008",
+    "P033-ROT-HO-001",
+    "P033-ROT-HO-002",
+    "P033-ROT-HO-003",
+    "P033-ROT-HO-004",
+    "P033-ROT-HO-005",
+    "P033-ROT-HO-006",
+    "P033-ROT-HO-007",
+    "P033-ROT-HO-008",
+    "P033-LOAD-HO-001",
+    "P033-LOAD-HO-002",
+    "P033-LOAD-HO-003",
+    "P033-LOAD-HO-004",
+    "P033-LOAD-HO-005",
+    "P033-LOAD-HO-006",
+    "P033-LOAD-HO-007"
+  ],
+  "fail_closed_rate": 0.0,
+  "generic_consult_accuracy": 0.0,
+  "mechanism_recall_accuracy": 1.0,
+  "no_pond_accuracy": 0.0833,
+  "pond_recall_delta_vs_generic": 1.0,
+  "pond_recall_delta_vs_no_pond": 0.9167
+}

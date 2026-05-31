@@ -1,0 +1,47 @@
+{
+  "adapter_status": "pond_backed",
+  "belief_state_before": "local_state=mechanism_recall; mechanisms=FLOW,SUPPORTED_ROTATION,LOAD_TRANSFER",
+  "case_id": "P033-ROT-HO-001",
+  "consult_question": "Proof 033 targeted mechanism recall. Use the seasoned pond as recall substrate. Allowed mechanisms: FLOW, SUPPORTED_ROTATION, LOAD_TRANSFER. Return mechanism candidates, motifs, and lineage hashes before any answer. Held-out case: Observed system: A display ring circles around its axis in a socket; grit creates drag, the ring wobbles, and then it locks. Question: Which learned mechanism structure should be applied?",
+  "lineage_hashes": [
+    "9109a0552153105511df56adaebc42ec2d56c5ea91e4740bd0b781c14f4297a4",
+    "169d0dfd0361a08eafe791eff698dced9e4a49cfea38c1ae3c37b1bc60521939",
+    "b97e2c9e129a4aa04b9a0e86405daefd64b378e0dc232d5140f222ac6a7ecf10",
+    "9dc990b92a07a9c77beafae5036894225983ce47f5fd2c6650266d29afc81b15",
+    "a424eaf3569972a7f152ddaeeb63a9734b18108c08bfeb368e7936f624bde222",
+    "19970b72023d5042fd5dabca376098a5062be2fac9065c0ade0aaa4fa534b0f4",
+    "9a235970da2ce0889cf3fe800094cb3de969f57d53fd282a0a16534e2fe0e910",
+    "0f7d83c4dcf179c3e5311b2b26a3a1a29b0170c32679d731a61fa90a40572712"
+  ],
+  "mcp_status": "pond_backed",
+  "pond_state_path": "/Users/mattdewing/Desktop/Operational Cognition/proofs/033-mechanism-seasoning-pond-recall/pond_states/mechanism_recall",
+  "reason": "Pond-backed /consult supplied traceable recall lineages. Candidate and mechanism motifs are deterministic Codex mentor extraction over the held-out text and allowed seasoned mechanisms; hostile audit treats this as a surviving parser/Codex-synthesis explanation.",
+  "recall_used_by_cli": true,
+  "returned_lineages": [
+    "pressure:4c617afdf60d4bdf",
+    "pressure:44eeb320a80c1c5f",
+    "authority:63405000ebba",
+    "inside_voice_runtime:94829dcb8d1759469ce6",
+    "pressure:8b0869ed1f7a4e46",
+    "contradiction:9d85edad8192",
+    "inside_voice_runtime:d43e2e09c028b98314e8",
+    "inside_voice_runtime:8c7a0ef664098db91e88",
+    "docs/proofs/RECURSIVE_INTELLIGENCE_FAILURE_GAUNTLET.md",
+    "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+    "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+    "artifacts/pond/mcp_seasoned_reusable_lineage_candidates.jsonl#19",
+    "artifacts/pond/first_principles_seasoning_corpus.jsonl#fp_0020",
+    "artifacts/pond/first_principles_seasoning_scorecard.json",
+    "artifacts/pond/first_principles_admitted.jsonl",
+    "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#19"
+  ],
+  "returned_mechanism_candidates": [
+    "supported_rotation"
+  ],
+  "returned_motifs": [
+    "Rotation",
+    "Support",
+    "Friction",
+    "Failure"
+  ]
+}

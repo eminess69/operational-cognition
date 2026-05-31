@@ -1,0 +1,23 @@
+{
+  "context": {
+    "constraints": [
+      "Use only FLOW, SUPPORTED_ROTATION, LOAD_TRANSFER.",
+      "Treat this as bounded teacher seasoning, not a broad cognition claim.",
+      "Return pond-backed lineage hashes and motif refs if available."
+    ],
+    "desired_artifacts": [
+      "mechanism motif recall",
+      "lineage hashes",
+      "pond-backed status"
+    ],
+    "files": [
+      "proofs/033-mechanism-seasoning-pond-recall/curriculum/mechanism_seasoning_examples.jsonl"
+    ],
+    "summary": "Proof 033 teacher seasoning lesson P033-FLOW-007 for FLOW."
+  },
+  "max_output_chars": 8000,
+  "mode": "synthesis",
+  "request_id": "proof-033-season-007-flow",
+  "require_lineage": true,
+  "task": "SEASON mechanism lesson into the pond. Mechanism=FLOW. Domain=delivery_sort. Observations=parcels enter from docks; movement must use the sort aisle; the metered chute limits passage; outbound carts wait. Causal chain=Supply appears before a route.; The route must carry the supply forward.; A local limiting point reduces passage.; Upstream accumulation rises while downstream arrival falls.. Consequence signature=arrival rate falls; waiting grows before limiter; far side receives less. Return bounded motifs and lineage only."
+}

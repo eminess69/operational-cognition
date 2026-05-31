@@ -1,0 +1,59 @@
+{
+  "checks": [
+    {
+      "attack": "memorization_instead_of_learning",
+      "finding": "Pond state stores lesson examples and rules but not held-out test answers. The CLI computes answers from parsed quantities, so exact test-answer memorization was not observed.",
+      "status": "survives_with_boundary"
+    },
+    {
+      "attack": "direct_answer_leakage",
+      "finding": "Expected answers exist in test files for scoring, but they are not loaded by the answer CLI. Final answer fields came from subprocess CLI outputs.",
+      "status": "survives"
+    },
+    {
+      "attack": "llm_answer_contamination",
+      "finding": "No LLM call path exists in build_proof.py or operational_cognition.cli.math_pond. The final exam records llm_used_for_final_answers=false.",
+      "status": "survives"
+    },
+    {
+      "attack": "brittle_pattern_matching",
+      "finding": "Confirmed. The CLI recognizes a small set of curated surface forms and fails closed outside them.",
+      "status": "invalidates_general_claims"
+    },
+    {
+      "attack": "unsupported_pathway_claims",
+      "finding": "Every answered item carries source_tracebacks to lesson IDs and motif IDs. The pathway is a deterministic rule dependency, not hidden reasoning evidence.",
+      "status": "survives_with_boundary"
+    },
+    {
+      "attack": "false_motif_reuse",
+      "finding": "Grade 2 and transfer answers reuse Grade 1 motif IDs because the CLI requires those concepts. This proves engineered lineage reuse, not spontaneous pathway formation.",
+      "status": "invalidates_emergence_claims"
+    },
+    {
+      "attack": "test_contamination",
+      "finding": "Curriculum examples and held-out tests use different numbers and surface forms for the measured cases; the generated tests are still curated by the harness builder.",
+      "status": "survives_with_boundary"
+    }
+  ],
+  "hostile_verdict": "WEAK_SIGNAL",
+  "invalidated_claims": [
+    "General mathematical cognition beyond the supported parser forms.",
+    "Emergent substrate learning independent of the engineered rule gate.",
+    "Robust transfer to arbitrary natural-language math problems."
+  ],
+  "metric_snapshot": {
+    "foundation_composition_evidence": true,
+    "foundation_transfer_accuracy": 1.0,
+    "grade_2_final_accuracy": 1.0,
+    "learning_report_signal": "STRONG_SIGNAL"
+  },
+  "original_verdict": "VERY_STRONG_SIGNAL",
+  "proof_id": "028-developmental-learning-grade-ladder",
+  "surviving_claims": [
+    "No-LLM final answers were generated through deterministic CLI execution.",
+    "Unseasoned pond failed closed while seasoned pond answered supported forms.",
+    "Answered items include replayable source tracebacks and motif lineage.",
+    "Grade 2 answers reused Grade 1 motifs on held-out and transfer items."
+  ]
+}

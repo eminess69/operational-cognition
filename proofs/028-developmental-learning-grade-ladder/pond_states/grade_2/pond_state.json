@@ -1,0 +1,361 @@
+{
+  "concepts": {
+    "counting": {
+      "first_grade": 1,
+      "lesson_ids": [
+        "G1-L001"
+      ],
+      "motifs": [
+        "g1_counting_sequence"
+      ]
+    },
+    "division_as_grouping": {
+      "first_grade": 2,
+      "lesson_ids": [
+        "G2-L006"
+      ],
+      "motifs": [
+        "g2_equal_grouping_division"
+      ]
+    },
+    "equality": {
+      "first_grade": 1,
+      "lesson_ids": [
+        "G1-L004"
+      ],
+      "motifs": [
+        "g1_same_value_equality"
+      ]
+    },
+    "multiplication_as_repeated_addition": {
+      "first_grade": 2,
+      "lesson_ids": [
+        "G2-L005"
+      ],
+      "motifs": [
+        "g2_equal_groups_repeated_addition"
+      ]
+    },
+    "number_comparison": {
+      "first_grade": 1,
+      "lesson_ids": [
+        "G1-L005"
+      ],
+      "motifs": [
+        "g1_number_order_comparison"
+      ]
+    },
+    "one_digit_addition": {
+      "first_grade": 1,
+      "lesson_ids": [
+        "G1-L002"
+      ],
+      "motifs": [
+        "g1_count_forward_addition"
+      ]
+    },
+    "one_digit_subtraction": {
+      "first_grade": 1,
+      "lesson_ids": [
+        "G1-L003"
+      ],
+      "motifs": [
+        "g1_take_away_subtraction"
+      ]
+    },
+    "place_value": {
+      "first_grade": 2,
+      "lesson_ids": [
+        "G2-L003"
+      ],
+      "motifs": [
+        "g2_tens_ones_place_value"
+      ]
+    },
+    "simple_word_problems": {
+      "first_grade": 1,
+      "lesson_ids": [
+        "G1-L006"
+      ],
+      "motifs": [
+        "g1_word_problem_operation_mapping"
+      ]
+    },
+    "skip_counting": {
+      "first_grade": 2,
+      "lesson_ids": [
+        "G2-L004"
+      ],
+      "motifs": [
+        "g2_fixed_step_skip_counting"
+      ]
+    },
+    "two_digit_addition_without_carrying": {
+      "first_grade": 2,
+      "lesson_ids": [
+        "G2-L001"
+      ],
+      "motifs": [
+        "g2_no_carry_column_addition"
+      ]
+    },
+    "two_digit_subtraction_without_borrowing": {
+      "first_grade": 2,
+      "lesson_ids": [
+        "G2-L002"
+      ],
+      "motifs": [
+        "g2_no_borrow_column_subtraction"
+      ]
+    }
+  },
+  "lessons": {
+    "G1-L001": {
+      "concept": "counting",
+      "examples": [
+        "What number comes after 3? Answer 4.",
+        "Count 1, 2, 3, 4, 5; the last count names the quantity."
+      ],
+      "expected_motif": "g1_counting_sequence",
+      "lesson_id": "G1-L001",
+      "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+      "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+    },
+    "G1-L002": {
+      "concept": "one_digit_addition",
+      "examples": [
+        "What is 2 + 3? Answer 5.",
+        "What is 6 + 1? Answer 7."
+      ],
+      "expected_motif": "g1_count_forward_addition",
+      "lesson_id": "G1-L002",
+      "rule": "One-digit addition combines two one-digit quantities by counting forward the second amount.",
+      "trace_expectation": "An addition answer must cite a one-digit addition motif and any counting dependency."
+    },
+    "G1-L003": {
+      "concept": "one_digit_subtraction",
+      "examples": [
+        "What is 7 - 2? Answer 5.",
+        "What is 9 - 4? Answer 5."
+      ],
+      "expected_motif": "g1_take_away_subtraction",
+      "lesson_id": "G1-L003",
+      "rule": "One-digit subtraction removes the second one-digit quantity from the first and counts what remains.",
+      "trace_expectation": "A subtraction answer must cite a take-away motif and any counting dependency."
+    },
+    "G1-L004": {
+      "concept": "equality",
+      "examples": [
+        "Does 3 + 2 = 5? Answer true.",
+        "Is 4 = 6? Answer false."
+      ],
+      "expected_motif": "g1_same_value_equality",
+      "lesson_id": "G1-L004",
+      "rule": "Equality is true when both sides name the same value and false otherwise.",
+      "trace_expectation": "An equality answer must cite the equality comparison motif and the operation used to evaluate each side."
+    },
+    "G1-L005": {
+      "concept": "number_comparison",
+      "examples": [
+        "Which is larger: 8 or 5? Answer 8.",
+        "Which is smaller: 2 or 6? Answer 2."
+      ],
+      "expected_motif": "g1_number_order_comparison",
+      "lesson_id": "G1-L005",
+      "rule": "The larger number comes later in the counting sequence; the smaller number comes earlier.",
+      "trace_expectation": "A comparison answer must cite the number-order motif and any place-value dependency for two-digit numbers."
+    },
+    "G1-L006": {
+      "concept": "simple_word_problems",
+      "examples": [
+        "Mia has 2 shells and finds 3 more. How many shells now? Answer 5.",
+        "Leo has 6 blocks and gives away 2. How many blocks remain? Answer 4."
+      ],
+      "expected_motif": "g1_word_problem_operation_mapping",
+      "lesson_id": "G1-L006",
+      "rule": "Simple word problems map 'more' language to addition and 'give away' or 'fly away' language to subtraction.",
+      "trace_expectation": "A word-problem answer must cite the language-to-operation motif plus the arithmetic motif used."
+    },
+    "G2-L001": {
+      "concept": "two_digit_addition_without_carrying",
+      "examples": [
+        "What is 23 + 14? Answer 37.",
+        "What is 52 + 36? Answer 88."
+      ],
+      "expected_motif": "g2_no_carry_column_addition",
+      "lesson_id": "G2-L001",
+      "rule": "Add ones to ones and tens to tens when the ones sum stays below ten.",
+      "trace_expectation": "A two-digit addition answer must cite place value, one-digit addition, and this no-carry motif."
+    },
+    "G2-L002": {
+      "concept": "two_digit_subtraction_without_borrowing",
+      "examples": [
+        "What is 46 - 12? Answer 34.",
+        "What is 75 - 21? Answer 54."
+      ],
+      "expected_motif": "g2_no_borrow_column_subtraction",
+      "lesson_id": "G2-L002",
+      "rule": "Subtract ones from ones and tens from tens when each top digit is at least the matching bottom digit.",
+      "trace_expectation": "A two-digit subtraction answer must cite place value, one-digit subtraction, and this no-borrow motif."
+    },
+    "G2-L003": {
+      "concept": "place_value",
+      "examples": [
+        "47 has 4 tens and 7 ones.",
+        "62 has 6 tens and 2 ones."
+      ],
+      "expected_motif": "g2_tens_ones_place_value",
+      "lesson_id": "G2-L003",
+      "rule": "In a two-digit number, the left digit counts tens and the right digit counts ones.",
+      "trace_expectation": "A place-value answer must cite the tens-and-ones motif and counting sequence motif."
+    },
+    "G2-L004": {
+      "concept": "skip_counting",
+      "examples": [
+        "Count by 5s after 10: 15.",
+        "Count by 2s after 8: 10."
+      ],
+      "expected_motif": "g2_fixed_step_skip_counting",
+      "lesson_id": "G2-L004",
+      "rule": "Skip counting advances by a repeated fixed step instead of by one.",
+      "trace_expectation": "A skip-counting answer must cite fixed-step counting and addition motifs."
+    },
+    "G2-L005": {
+      "concept": "multiplication_as_repeated_addition",
+      "examples": [
+        "3 groups of 4 means 4 + 4 + 4 = 12.",
+        "2 bags with 5 apples each means 5 + 5 = 10."
+      ],
+      "expected_motif": "g2_equal_groups_repeated_addition",
+      "lesson_id": "G2-L005",
+      "rule": "Multiplication with whole-number groups is repeated addition of equal group sizes.",
+      "trace_expectation": "A multiplication answer must cite repeated addition plus Grade 1 addition and counting motifs."
+    },
+    "G2-L006": {
+      "concept": "division_as_grouping",
+      "examples": [
+        "Share 12 cookies equally into 3 groups; each group has 4.",
+        "How many groups of 4 can be made from 16? Answer 4."
+      ],
+      "expected_motif": "g2_equal_grouping_division",
+      "lesson_id": "G2-L006",
+      "rule": "Division by grouping partitions a total into equal-size groups with no remainder in this curriculum.",
+      "trace_expectation": "A division answer must cite equal grouping plus counting or subtraction motifs."
+    }
+  },
+  "motifs": {
+    "g1_count_forward_addition": {
+      "concept": "one_digit_addition",
+      "examples_hash": "e81eda5966d40b43a2fa3b2b600dea318d2389cb62f63c27d07a613e987ac0ad",
+      "grade": 1,
+      "lesson_id": "G1-L002",
+      "rule": "One-digit addition combines two one-digit quantities by counting forward the second amount.",
+      "trace_expectation": "An addition answer must cite a one-digit addition motif and any counting dependency."
+    },
+    "g1_counting_sequence": {
+      "concept": "counting",
+      "examples_hash": "741a24eac4b0718234d68a2196473ab30b28beeeb0b28e74e759d59bf53d2f86",
+      "grade": 1,
+      "lesson_id": "G1-L001",
+      "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+      "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+    },
+    "g1_number_order_comparison": {
+      "concept": "number_comparison",
+      "examples_hash": "2293f812d06d162cc013c3ac2033e9979d864115eff7b95b6ac7811a97a03871",
+      "grade": 1,
+      "lesson_id": "G1-L005",
+      "rule": "The larger number comes later in the counting sequence; the smaller number comes earlier.",
+      "trace_expectation": "A comparison answer must cite the number-order motif and any place-value dependency for two-digit numbers."
+    },
+    "g1_same_value_equality": {
+      "concept": "equality",
+      "examples_hash": "d61f7f77c5f2f99e233bfdc79f94cc029da5752d72f52a4d72f56decb47495f3",
+      "grade": 1,
+      "lesson_id": "G1-L004",
+      "rule": "Equality is true when both sides name the same value and false otherwise.",
+      "trace_expectation": "An equality answer must cite the equality comparison motif and the operation used to evaluate each side."
+    },
+    "g1_take_away_subtraction": {
+      "concept": "one_digit_subtraction",
+      "examples_hash": "6b899e81627bf45cda2cdd53110be16f08c7c89fe2284dd96c2a9182110d7d61",
+      "grade": 1,
+      "lesson_id": "G1-L003",
+      "rule": "One-digit subtraction removes the second one-digit quantity from the first and counts what remains.",
+      "trace_expectation": "A subtraction answer must cite a take-away motif and any counting dependency."
+    },
+    "g1_word_problem_operation_mapping": {
+      "concept": "simple_word_problems",
+      "examples_hash": "3e544d73efef13aa67d974a2713f4065a63358e03dbd6623701ebc71ac3e3a6d",
+      "grade": 1,
+      "lesson_id": "G1-L006",
+      "rule": "Simple word problems map 'more' language to addition and 'give away' or 'fly away' language to subtraction.",
+      "trace_expectation": "A word-problem answer must cite the language-to-operation motif plus the arithmetic motif used."
+    },
+    "g2_equal_grouping_division": {
+      "concept": "division_as_grouping",
+      "examples_hash": "69895ac999a8bd0568f88e0b73d204c6671e97f1a3677cc8bda802f7684f6f82",
+      "grade": 2,
+      "lesson_id": "G2-L006",
+      "rule": "Division by grouping partitions a total into equal-size groups with no remainder in this curriculum.",
+      "trace_expectation": "A division answer must cite equal grouping plus counting or subtraction motifs."
+    },
+    "g2_equal_groups_repeated_addition": {
+      "concept": "multiplication_as_repeated_addition",
+      "examples_hash": "8cbf4845ac32bac57407d14163bb0825bb18922003f7735b83cc5271f8d6d211",
+      "grade": 2,
+      "lesson_id": "G2-L005",
+      "rule": "Multiplication with whole-number groups is repeated addition of equal group sizes.",
+      "trace_expectation": "A multiplication answer must cite repeated addition plus Grade 1 addition and counting motifs."
+    },
+    "g2_fixed_step_skip_counting": {
+      "concept": "skip_counting",
+      "examples_hash": "3c1f52105cff50fb219e50ca4b183f51505333a7f6490f9ea3b38fefeacefb8d",
+      "grade": 2,
+      "lesson_id": "G2-L004",
+      "rule": "Skip counting advances by a repeated fixed step instead of by one.",
+      "trace_expectation": "A skip-counting answer must cite fixed-step counting and addition motifs."
+    },
+    "g2_no_borrow_column_subtraction": {
+      "concept": "two_digit_subtraction_without_borrowing",
+      "examples_hash": "3064b5b169665de9f44f71e250c74caaa820cd260e31973d698b52c3128876a3",
+      "grade": 2,
+      "lesson_id": "G2-L002",
+      "rule": "Subtract ones from ones and tens from tens when each top digit is at least the matching bottom digit.",
+      "trace_expectation": "A two-digit subtraction answer must cite place value, one-digit subtraction, and this no-borrow motif."
+    },
+    "g2_no_carry_column_addition": {
+      "concept": "two_digit_addition_without_carrying",
+      "examples_hash": "848d712e59c8fd9a4297001403d02e163d05e1304451a4250eb3500365c6fdb9",
+      "grade": 2,
+      "lesson_id": "G2-L001",
+      "rule": "Add ones to ones and tens to tens when the ones sum stays below ten.",
+      "trace_expectation": "A two-digit addition answer must cite place value, one-digit addition, and this no-carry motif."
+    },
+    "g2_tens_ones_place_value": {
+      "concept": "place_value",
+      "examples_hash": "950bf8f89a962cb7498e0388ada7280ca4449260ec98efbc2025e51390fdafc6",
+      "grade": 2,
+      "lesson_id": "G2-L003",
+      "rule": "In a two-digit number, the left digit counts tens and the right digit counts ones.",
+      "trace_expectation": "A place-value answer must cite the tens-and-ones motif and counting sequence motif."
+    }
+  },
+  "schema_version": "math_pond_state.v1",
+  "seasoned_lesson_ids": [
+    "G1-L001",
+    "G1-L002",
+    "G1-L003",
+    "G1-L004",
+    "G1-L005",
+    "G1-L006",
+    "G2-L001",
+    "G2-L002",
+    "G2-L003",
+    "G2-L004",
+    "G2-L005",
+    "G2-L006"
+  ],
+  "state_hash": "8a54ef95ad748673289ddf8470417d2bedd9ad2641e26ef99c66b32178980322",
+  "state_id": "grade_2_seasoned"
+}

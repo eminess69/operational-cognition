@@ -1,0 +1,23 @@
+{
+  "context": {
+    "constraints": [
+      "Use only FLOW, SUPPORTED_ROTATION, LOAD_TRANSFER.",
+      "Treat this as bounded teacher seasoning, not a broad cognition claim.",
+      "Return pond-backed lineage hashes and motif refs if available."
+    ],
+    "desired_artifacts": [
+      "mechanism motif recall",
+      "lineage hashes",
+      "pond-backed status"
+    ],
+    "files": [
+      "proofs/033-mechanism-seasoning-pond-recall/curriculum/mechanism_seasoning_examples.jsonl"
+    ],
+    "summary": "Proof 033 teacher seasoning lesson P033-LOAD-003 for LOAD_TRANSFER."
+  },
+  "max_output_chars": 8000,
+  "mode": "synthesis",
+  "request_id": "proof-033-season-027-load_transfer",
+  "require_lineage": true,
+  "task": "SEASON mechanism lesson into the pond. Mechanism=LOAD_TRANSFER. Domain=server_rack. Observations=equipment mass sits on shelf rails; rails share demand; rear lug takes excess; rack face cants. Causal chain=A burden is carried by a structure.; The burden should distribute through members or supports.; Demand concentrates at a local point.; The local point deforms, cracks, bends, or gives way.. Consequence signature=local deformation appears; shape or alignment changes; failure starts at concentrated demand. Return bounded motifs and lineage only."
+}

@@ -1,0 +1,1582 @@
+{
+  "accuracy": 1.0,
+  "answered_items": 6,
+  "correct_items": 6,
+  "deterministic_replay_match": true,
+  "execution_mode": "deterministic_cli_no_llm",
+  "fail_closed_items": 0,
+  "items": [
+    {
+      "answer": "The similar mechanism is SUPPORTED_ROTATION: rotation depends on a support interface that can fail through friction or wear.",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 4,
+          "matched_consequence_cue_count": 4,
+          "matched_consequences": [
+            "audible_roughness",
+            "heat_rise",
+            "rising_drag",
+            "final_lockup"
+          ],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 3.71
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [
+        "supported_rotation"
+      ],
+      "component_category": "rotational support interface",
+      "confidence": 0.71,
+      "confidence_ranking": [
+        {
+          "matched_consequence_count": 4,
+          "matched_consequences": [
+            "audible_roughness",
+            "heat_rise",
+            "rising_drag",
+            "final_lockup"
+          ],
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rank": 1,
+          "relative_confidence": 0.95,
+          "score": 3.71
+        }
+      ],
+      "consequence_features": [
+        {
+          "feature_id": "audible_roughness",
+          "matched_cues": [
+            "rattling"
+          ],
+          "motif": "Consequence: rough motion becomes audible"
+        },
+        {
+          "feature_id": "heat_rise",
+          "matched_cues": [
+            "warmth"
+          ],
+          "motif": "Consequence: temperature rises during motion"
+        },
+        {
+          "feature_id": "rising_drag",
+          "matched_cues": [
+            "increasing drag"
+          ],
+          "motif": "Consequence: resistance to motion rises"
+        },
+        {
+          "feature_id": "final_lockup",
+          "matched_cues": [
+            "final lockup"
+          ],
+          "motif": "Consequence: motion finally stops or locks"
+        }
+      ],
+      "consequence_lineage": [
+        {
+          "feature_id": "audible_roughness",
+          "lesson_id": "MEC-L002",
+          "matched_cues": [
+            "rattling"
+          ],
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "motif": "Consequence: rough motion becomes audible"
+        },
+        {
+          "feature_id": "heat_rise",
+          "lesson_id": "MEC-L002",
+          "matched_cues": [
+            "warmth"
+          ],
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "motif": "Consequence: temperature rises during motion"
+        },
+        {
+          "feature_id": "rising_drag",
+          "lesson_id": "MEC-L002",
+          "matched_cues": [
+            "increasing drag"
+          ],
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "motif": "Consequence: resistance to motion rises"
+        },
+        {
+          "feature_id": "final_lockup",
+          "lesson_id": "MEC-L002",
+          "matched_cues": [
+            "final lockup"
+          ],
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "motif": "Consequence: motion finally stops or locks"
+        }
+      ],
+      "correct": true,
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_candidate_mechanisms": [],
+      "expected_classification": "CONSEQUENCE_INFERENCE",
+      "expected_mechanism": "supported_rotation",
+      "expected_status": "ANSWERED",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "fail_closed_reason": "",
+      "identified_mechanism": "supported_rotation",
+      "inference_mode": "CONSEQUENCE_INFERENCE",
+      "inspection_priority": "Inspect the rotational support interface: bearing, bushing, axle, shaft, mount, or hub.",
+      "matched_consequence_ids": [
+        "audible_roughness",
+        "heat_rise",
+        "rising_drag",
+        "final_lockup"
+      ],
+      "matched_consequences": [
+        {
+          "feature_id": "audible_roughness",
+          "matched_cues": [
+            "rattling"
+          ],
+          "motif": "Consequence: rough motion becomes audible",
+          "weight": 0.9
+        },
+        {
+          "feature_id": "heat_rise",
+          "matched_cues": [
+            "warmth"
+          ],
+          "motif": "Consequence: temperature rises during motion",
+          "weight": 0.9
+        },
+        {
+          "feature_id": "rising_drag",
+          "matched_cues": [
+            "increasing drag"
+          ],
+          "motif": "Consequence: resistance to motion rises",
+          "weight": 0.9
+        },
+        {
+          "feature_id": "final_lockup",
+          "matched_cues": [
+            "final lockup"
+          ],
+          "motif": "Consequence: motion finally stops or locks",
+          "weight": 0.85
+        }
+      ],
+      "matched_role_ids": [],
+      "matched_roles": [],
+      "mechanism_explanation": "The observed system has a rotating part whose support interface shows friction, wear, noise, or stoppage.",
+      "motif_lineage": [],
+      "observed_system": "The fictional transport device called an Orbinsail developed increasing drag, rattling, warmth, and a final lockup.",
+      "question": "Observed system: The fictional transport device called an Orbinsail developed increasing drag, rattling, warmth, and a final lockup. Question: Which learned mechanism is most similar by expected observations?",
+      "question_id": "NS-001",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "SUPPORTED_ROTATION",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Rotation",
+            "Support",
+            "Friction",
+            "Failure"
+          ],
+          "lesson_id": "MEC-L002",
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "trace_expectation": "A mapped SUPPORTED_ROTATION answer must cite at least three of Rotation, Support, Friction, and Failure."
+        }
+      ],
+      "status": "ANSWERED",
+      "suite": "novel_surface",
+      "supporting_motifs": [
+        "Consequence: rough motion becomes audible",
+        "Consequence: temperature rises during motion",
+        "Consequence: resistance to motion rises",
+        "Consequence: motion finally stops or locks"
+      ],
+      "transfer_confidence": 0.71
+    },
+    {
+      "answer": "The similar mechanism is FLOW: movement through a path is reduced by resistance.",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 4,
+          "matched_consequence_cue_count": 4,
+          "matched_consequences": [
+            "rate_drop",
+            "backlog_growth",
+            "downstream_starvation",
+            "passage_ceases"
+          ],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 3.61
+        },
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "final_lockup"
+          ],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "failure"
+          ],
+          "mechanism_id": "supported_rotation",
+          "score": 1.94
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [
+        "flow",
+        "supported_rotation"
+      ],
+      "component_category": "path/resistance interface",
+      "confidence": 0.71,
+      "confidence_ranking": [
+        {
+          "matched_consequence_count": 4,
+          "matched_consequences": [
+            "rate_drop",
+            "backlog_growth",
+            "downstream_starvation",
+            "passage_ceases"
+          ],
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rank": 1,
+          "relative_confidence": 0.95,
+          "score": 3.61
+        },
+        {
+          "matched_consequence_count": 1,
+          "matched_consequences": [
+            "final_lockup"
+          ],
+          "matched_role_count": 1,
+          "matched_roles": [
+            "failure"
+          ],
+          "mechanism_id": "supported_rotation",
+          "rank": 2,
+          "relative_confidence": 0.5374,
+          "score": 1.94
+        }
+      ],
+      "consequence_features": [
+        {
+          "feature_id": "rate_drop",
+          "matched_cues": [
+            "delivery rate dropped"
+          ],
+          "motif": "Consequence: output or passage rate drops"
+        },
+        {
+          "feature_id": "backlog_growth",
+          "matched_cues": [
+            "backlog grew"
+          ],
+          "motif": "Consequence: upstream accumulation grows"
+        },
+        {
+          "feature_id": "downstream_starvation",
+          "matched_cues": [
+            "far side went idle"
+          ],
+          "motif": "Consequence: downstream side becomes starved"
+        },
+        {
+          "feature_id": "passage_ceases",
+          "matched_cues": [
+            "stopped arriving"
+          ],
+          "motif": "Consequence: passage eventually ceases"
+        }
+      ],
+      "consequence_lineage": [
+        {
+          "feature_id": "rate_drop",
+          "lesson_id": "MEC-L001",
+          "matched_cues": [
+            "delivery rate dropped"
+          ],
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "motif": "Consequence: output or passage rate drops"
+        },
+        {
+          "feature_id": "backlog_growth",
+          "lesson_id": "MEC-L001",
+          "matched_cues": [
+            "backlog grew"
+          ],
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "motif": "Consequence: upstream accumulation grows"
+        },
+        {
+          "feature_id": "downstream_starvation",
+          "lesson_id": "MEC-L001",
+          "matched_cues": [
+            "far side went idle"
+          ],
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "motif": "Consequence: downstream side becomes starved"
+        },
+        {
+          "feature_id": "passage_ceases",
+          "lesson_id": "MEC-L001",
+          "matched_cues": [
+            "stopped arriving"
+          ],
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "motif": "Consequence: passage eventually ceases"
+        }
+      ],
+      "correct": true,
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_candidate_mechanisms": [],
+      "expected_classification": "CONSEQUENCE_INFERENCE",
+      "expected_mechanism": "flow",
+      "expected_status": "ANSWERED",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "fail_closed_reason": "",
+      "identified_mechanism": "flow",
+      "inference_mode": "CONSEQUENCE_INFERENCE",
+      "inspection_priority": "Inspect the highest-resistance segment of the path.",
+      "matched_consequence_ids": [
+        "rate_drop",
+        "backlog_growth",
+        "downstream_starvation",
+        "passage_ceases"
+      ],
+      "matched_consequences": [
+        {
+          "feature_id": "rate_drop",
+          "matched_cues": [
+            "delivery rate dropped"
+          ],
+          "motif": "Consequence: output or passage rate drops",
+          "weight": 0.9
+        },
+        {
+          "feature_id": "backlog_growth",
+          "matched_cues": [
+            "backlog grew"
+          ],
+          "motif": "Consequence: upstream accumulation grows",
+          "weight": 0.9
+        },
+        {
+          "feature_id": "downstream_starvation",
+          "matched_cues": [
+            "far side went idle"
+          ],
+          "motif": "Consequence: downstream side becomes starved",
+          "weight": 0.85
+        },
+        {
+          "feature_id": "passage_ceases",
+          "matched_cues": [
+            "stopped arriving"
+          ],
+          "motif": "Consequence: passage eventually ceases",
+          "weight": 0.8
+        }
+      ],
+      "matched_role_ids": [],
+      "matched_roles": [],
+      "mechanism_explanation": "The observed system has movement through a path plus a restriction that reduces movement.",
+      "motif_lineage": [],
+      "observed_system": "In a made-up packet bazaar called Qorvex, delivery rate dropped, backlog grew, the far side went idle, and stopped arriving.",
+      "question": "Observed system: In a made-up packet bazaar called Qorvex, delivery rate dropped, backlog grew, the far side went idle, and stopped arriving. Question: Which learned mechanism is most similar by expected observations?",
+      "question_id": "NS-002",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "final_lockup"
+          ],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "failure"
+          ],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 1.94
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "FLOW",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Source",
+            "Path",
+            "Resistance",
+            "Flow"
+          ],
+          "lesson_id": "MEC-L001",
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "trace_expectation": "A mapped FLOW answer must cite at least three of Source, Path, Resistance, and Flow."
+        }
+      ],
+      "status": "ANSWERED",
+      "suite": "novel_surface",
+      "supporting_motifs": [
+        "Consequence: output or passage rate drops",
+        "Consequence: upstream accumulation grows",
+        "Consequence: downstream side becomes starved",
+        "Consequence: passage eventually ceases"
+      ],
+      "transfer_confidence": 0.71
+    },
+    {
+      "answer": "The similar mechanism is LOAD_TRANSFER: load must distribute through a path, and concentration creates failure risk.",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 4,
+          "matched_consequence_cue_count": 5,
+          "matched_consequences": [
+            "fracture_growth",
+            "localized_damage",
+            "alignment_loss",
+            "gave_way"
+          ],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 3.55
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [
+        "load_transfer"
+      ],
+      "component_category": "load path distribution element",
+      "confidence": 0.73,
+      "confidence_ranking": [
+        {
+          "matched_consequence_count": 4,
+          "matched_consequences": [
+            "fracture_growth",
+            "localized_damage",
+            "alignment_loss",
+            "gave_way"
+          ],
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rank": 1,
+          "relative_confidence": 0.95,
+          "score": 3.55
+        }
+      ],
+      "consequence_features": [
+        {
+          "feature_id": "fracture_growth",
+          "matched_cues": [
+            "fracture",
+            "fracture grew"
+          ],
+          "motif": "Consequence: cracks or splits grow"
+        },
+        {
+          "feature_id": "localized_damage",
+          "matched_cues": [
+            "one point"
+          ],
+          "motif": "Consequence: damage localizes"
+        },
+        {
+          "feature_id": "alignment_loss",
+          "matched_cues": [
+            "gap widened"
+          ],
+          "motif": "Consequence: geometry or alignment is lost"
+        },
+        {
+          "feature_id": "gave_way",
+          "matched_cues": [
+            "collapsed"
+          ],
+          "motif": "Consequence: structure gives way"
+        }
+      ],
+      "consequence_lineage": [
+        {
+          "feature_id": "fracture_growth",
+          "lesson_id": "MEC-L003",
+          "matched_cues": [
+            "fracture",
+            "fracture grew"
+          ],
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "motif": "Consequence: cracks or splits grow"
+        },
+        {
+          "feature_id": "localized_damage",
+          "lesson_id": "MEC-L003",
+          "matched_cues": [
+            "one point"
+          ],
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "motif": "Consequence: damage localizes"
+        },
+        {
+          "feature_id": "alignment_loss",
+          "lesson_id": "MEC-L003",
+          "matched_cues": [
+            "gap widened"
+          ],
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "motif": "Consequence: geometry or alignment is lost"
+        },
+        {
+          "feature_id": "gave_way",
+          "lesson_id": "MEC-L003",
+          "matched_cues": [
+            "collapsed"
+          ],
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "motif": "Consequence: structure gives way"
+        }
+      ],
+      "correct": true,
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_candidate_mechanisms": [],
+      "expected_classification": "CONSEQUENCE_INFERENCE",
+      "expected_mechanism": "load_transfer",
+      "expected_status": "ANSWERED",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "fail_closed_reason": "",
+      "identified_mechanism": "load_transfer",
+      "inference_mode": "CONSEQUENCE_INFERENCE",
+      "inspection_priority": "Inspect the load path and high-stress concentration points such as joints, anchors, brackets, supports, and overloaded members.",
+      "matched_consequence_ids": [
+        "fracture_growth",
+        "localized_damage",
+        "alignment_loss",
+        "gave_way"
+      ],
+      "matched_consequences": [
+        {
+          "feature_id": "fracture_growth",
+          "matched_cues": [
+            "fracture",
+            "fracture grew"
+          ],
+          "motif": "Consequence: cracks or splits grow",
+          "weight": 0.9
+        },
+        {
+          "feature_id": "localized_damage",
+          "matched_cues": [
+            "one point"
+          ],
+          "motif": "Consequence: damage localizes",
+          "weight": 0.85
+        },
+        {
+          "feature_id": "alignment_loss",
+          "matched_cues": [
+            "gap widened"
+          ],
+          "motif": "Consequence: geometry or alignment is lost",
+          "weight": 0.75
+        },
+        {
+          "feature_id": "gave_way",
+          "matched_cues": [
+            "collapsed"
+          ],
+          "motif": "Consequence: structure gives way",
+          "weight": 0.85
+        }
+      ],
+      "matched_role_ids": [],
+      "matched_roles": [],
+      "mechanism_explanation": "The observed system carries load through supports, then fails where stress concentrates.",
+      "motif_lineage": [],
+      "observed_system": "The invented skytile named Plenarch showed one point drooping, gap widened, fracture grew, and then collapsed.",
+      "question": "Observed system: The invented skytile named Plenarch showed one point drooping, gap widened, fracture grew, and then collapsed. Question: Which learned mechanism is most similar by expected observations?",
+      "question_id": "NS-003",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "LOAD_TRANSFER",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Load",
+            "Distribution",
+            "Concentration",
+            "Failure"
+          ],
+          "lesson_id": "MEC-L003",
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "trace_expectation": "A mapped LOAD_TRANSFER answer must cite at least three of Load, Distribution, Concentration, and Failure."
+        }
+      ],
+      "status": "ANSWERED",
+      "suite": "novel_surface",
+      "supporting_motifs": [
+        "Consequence: cracks or splits grow",
+        "Consequence: damage localizes",
+        "Consequence: geometry or alignment is lost",
+        "Consequence: structure gives way"
+      ],
+      "transfer_confidence": 0.73
+    },
+    {
+      "answer": "The similar mechanism is SUPPORTED_ROTATION: rotation depends on a support interface that can fail through friction or wear.",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 4,
+          "matched_consequence_cue_count": 4,
+          "matched_consequences": [
+            "audible_roughness",
+            "heat_rise",
+            "speed_decline",
+            "final_lockup"
+          ],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "friction"
+          ],
+          "mechanism_id": "supported_rotation",
+          "score": 4.71
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [
+        "supported_rotation"
+      ],
+      "component_category": "rotational support interface",
+      "confidence": 0.83,
+      "confidence_ranking": [
+        {
+          "matched_consequence_count": 4,
+          "matched_consequences": [
+            "audible_roughness",
+            "heat_rise",
+            "speed_decline",
+            "final_lockup"
+          ],
+          "matched_role_count": 1,
+          "matched_roles": [
+            "friction"
+          ],
+          "mechanism_id": "supported_rotation",
+          "rank": 1,
+          "relative_confidence": 0.95,
+          "score": 4.71
+        }
+      ],
+      "consequence_features": [
+        {
+          "feature_id": "audible_roughness",
+          "matched_cues": [
+            "noise increased"
+          ],
+          "motif": "Consequence: rough motion becomes audible"
+        },
+        {
+          "feature_id": "heat_rise",
+          "matched_cues": [
+            "became hot"
+          ],
+          "motif": "Consequence: temperature rises during motion"
+        },
+        {
+          "feature_id": "speed_decline",
+          "matched_cues": [
+            "took longer to move"
+          ],
+          "motif": "Consequence: motion speed declines"
+        },
+        {
+          "feature_id": "final_lockup",
+          "matched_cues": [
+            "seized"
+          ],
+          "motif": "Consequence: motion finally stops or locks"
+        }
+      ],
+      "consequence_lineage": [
+        {
+          "feature_id": "audible_roughness",
+          "lesson_id": "MEC-L002",
+          "matched_cues": [
+            "noise increased"
+          ],
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "motif": "Consequence: rough motion becomes audible"
+        },
+        {
+          "feature_id": "heat_rise",
+          "lesson_id": "MEC-L002",
+          "matched_cues": [
+            "became hot"
+          ],
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "motif": "Consequence: temperature rises during motion"
+        },
+        {
+          "feature_id": "speed_decline",
+          "lesson_id": "MEC-L002",
+          "matched_cues": [
+            "took longer to move"
+          ],
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "motif": "Consequence: motion speed declines"
+        },
+        {
+          "feature_id": "final_lockup",
+          "lesson_id": "MEC-L002",
+          "matched_cues": [
+            "seized"
+          ],
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "motif": "Consequence: motion finally stops or locks"
+        }
+      ],
+      "correct": true,
+      "deterministic_replay_match": true,
+      "evidence_features": [
+        {
+          "matched_cues": [
+            "noise"
+          ],
+          "motif": "Friction",
+          "role_id": "friction"
+        }
+      ],
+      "expected_candidate_mechanisms": [],
+      "expected_classification": "CONSEQUENCE_INFERENCE",
+      "expected_mechanism": "supported_rotation",
+      "expected_status": "ANSWERED",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "fail_closed_reason": "",
+      "identified_mechanism": "supported_rotation",
+      "inference_mode": "CONSEQUENCE_INFERENCE",
+      "inspection_priority": "Inspect the rotational support interface: bearing, bushing, axle, shaft, mount, or hub.",
+      "matched_consequence_ids": [
+        "audible_roughness",
+        "heat_rise",
+        "speed_decline",
+        "final_lockup"
+      ],
+      "matched_consequences": [
+        {
+          "feature_id": "audible_roughness",
+          "matched_cues": [
+            "noise increased"
+          ],
+          "motif": "Consequence: rough motion becomes audible",
+          "weight": 0.9
+        },
+        {
+          "feature_id": "heat_rise",
+          "matched_cues": [
+            "became hot"
+          ],
+          "motif": "Consequence: temperature rises during motion",
+          "weight": 0.9
+        },
+        {
+          "feature_id": "speed_decline",
+          "matched_cues": [
+            "took longer to move"
+          ],
+          "motif": "Consequence: motion speed declines",
+          "weight": 0.85
+        },
+        {
+          "feature_id": "final_lockup",
+          "matched_cues": [
+            "seized"
+          ],
+          "motif": "Consequence: motion finally stops or locks",
+          "weight": 0.85
+        }
+      ],
+      "matched_role_ids": [
+        "friction"
+      ],
+      "matched_roles": [
+        {
+          "matched_cues": [
+            "noise"
+          ],
+          "motif": "Friction",
+          "role_id": "friction",
+          "weight": 1.0
+        }
+      ],
+      "mechanism_explanation": "The observed system has a rotating part whose support interface shows friction, wear, noise, or stoppage.",
+      "motif_lineage": [
+        {
+          "lesson_id": "MEC-L002",
+          "matched_cues": [
+            "noise"
+          ],
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "motif": "Friction",
+          "role_id": "friction"
+        }
+      ],
+      "observed_system": "A fictional glider node, the Varn Loop, took longer to move, noise increased, became hot, and then seized.",
+      "question": "Observed system: A fictional glider node, the Varn Loop, took longer to move, noise increased, became hot, and then seized. Question: Which learned mechanism is most similar by expected observations?",
+      "question_id": "NS-004",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "SUPPORTED_ROTATION",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Rotation",
+            "Support",
+            "Friction",
+            "Failure"
+          ],
+          "lesson_id": "MEC-L002",
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "trace_expectation": "A mapped SUPPORTED_ROTATION answer must cite at least three of Rotation, Support, Friction, and Failure."
+        }
+      ],
+      "status": "ANSWERED",
+      "suite": "novel_surface",
+      "supporting_motifs": [
+        "Friction",
+        "Consequence: rough motion becomes audible",
+        "Consequence: temperature rises during motion",
+        "Consequence: motion speed declines",
+        "Consequence: motion finally stops or locks"
+      ],
+      "transfer_confidence": 0.83
+    },
+    {
+      "answer": "The similar mechanism is FLOW: movement through a path is reduced by resistance.",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 4,
+          "matched_consequence_cue_count": 4,
+          "matched_consequences": [
+            "backlog_growth",
+            "downstream_starvation",
+            "passage_ceases",
+            "uneven_delivery"
+          ],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 3.41
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [
+        "flow"
+      ],
+      "component_category": "path/resistance interface",
+      "confidence": 0.71,
+      "confidence_ranking": [
+        {
+          "matched_consequence_count": 4,
+          "matched_consequences": [
+            "backlog_growth",
+            "downstream_starvation",
+            "passage_ceases",
+            "uneven_delivery"
+          ],
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rank": 1,
+          "relative_confidence": 0.95,
+          "score": 3.41
+        }
+      ],
+      "consequence_features": [
+        {
+          "feature_id": "backlog_growth",
+          "matched_cues": [
+            "backlog built"
+          ],
+          "motif": "Consequence: upstream accumulation grows"
+        },
+        {
+          "feature_id": "downstream_starvation",
+          "matched_cues": [
+            "receivers waited"
+          ],
+          "motif": "Consequence: downstream side becomes starved"
+        },
+        {
+          "feature_id": "passage_ceases",
+          "matched_cues": [
+            "passage ceased"
+          ],
+          "motif": "Consequence: passage eventually ceases"
+        },
+        {
+          "feature_id": "uneven_delivery",
+          "matched_cues": [
+            "bursts then gaps"
+          ],
+          "motif": "Consequence: delivery becomes intermittent"
+        }
+      ],
+      "consequence_lineage": [
+        {
+          "feature_id": "backlog_growth",
+          "lesson_id": "MEC-L001",
+          "matched_cues": [
+            "backlog built"
+          ],
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "motif": "Consequence: upstream accumulation grows"
+        },
+        {
+          "feature_id": "downstream_starvation",
+          "lesson_id": "MEC-L001",
+          "matched_cues": [
+            "receivers waited"
+          ],
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "motif": "Consequence: downstream side becomes starved"
+        },
+        {
+          "feature_id": "passage_ceases",
+          "lesson_id": "MEC-L001",
+          "matched_cues": [
+            "passage ceased"
+          ],
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "motif": "Consequence: passage eventually ceases"
+        },
+        {
+          "feature_id": "uneven_delivery",
+          "lesson_id": "MEC-L001",
+          "matched_cues": [
+            "bursts then gaps"
+          ],
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "motif": "Consequence: delivery becomes intermittent"
+        }
+      ],
+      "correct": true,
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_candidate_mechanisms": [],
+      "expected_classification": "CONSEQUENCE_INFERENCE",
+      "expected_mechanism": "flow",
+      "expected_status": "ANSWERED",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "fail_closed_reason": "",
+      "identified_mechanism": "flow",
+      "inference_mode": "CONSEQUENCE_INFERENCE",
+      "inspection_priority": "Inspect the highest-resistance segment of the path.",
+      "matched_consequence_ids": [
+        "backlog_growth",
+        "downstream_starvation",
+        "passage_ceases",
+        "uneven_delivery"
+      ],
+      "matched_consequences": [
+        {
+          "feature_id": "backlog_growth",
+          "matched_cues": [
+            "backlog built"
+          ],
+          "motif": "Consequence: upstream accumulation grows",
+          "weight": 0.9
+        },
+        {
+          "feature_id": "downstream_starvation",
+          "matched_cues": [
+            "receivers waited"
+          ],
+          "motif": "Consequence: downstream side becomes starved",
+          "weight": 0.85
+        },
+        {
+          "feature_id": "passage_ceases",
+          "matched_cues": [
+            "passage ceased"
+          ],
+          "motif": "Consequence: passage eventually ceases",
+          "weight": 0.8
+        },
+        {
+          "feature_id": "uneven_delivery",
+          "matched_cues": [
+            "bursts then gaps"
+          ],
+          "motif": "Consequence: delivery becomes intermittent",
+          "weight": 0.7
+        }
+      ],
+      "matched_role_ids": [],
+      "matched_roles": [],
+      "mechanism_explanation": "The observed system has movement through a path plus a restriction that reduces movement.",
+      "motif_lineage": [],
+      "observed_system": "On the imaginary service Mirr, bursts then gaps appeared, backlog built, receivers waited, and passage ceased.",
+      "question": "Observed system: On the imaginary service Mirr, bursts then gaps appeared, backlog built, receivers waited, and passage ceased. Question: Which learned mechanism is most similar by expected observations?",
+      "question_id": "NS-005",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "FLOW",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Source",
+            "Path",
+            "Resistance",
+            "Flow"
+          ],
+          "lesson_id": "MEC-L001",
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "trace_expectation": "A mapped FLOW answer must cite at least three of Source, Path, Resistance, and Flow."
+        }
+      ],
+      "status": "ANSWERED",
+      "suite": "novel_surface",
+      "supporting_motifs": [
+        "Consequence: upstream accumulation grows",
+        "Consequence: downstream side becomes starved",
+        "Consequence: passage eventually ceases",
+        "Consequence: delivery becomes intermittent"
+      ],
+      "transfer_confidence": 0.71
+    },
+    {
+      "answer": "The similar mechanism is LOAD_TRANSFER: load must distribute through a path, and concentration creates failure risk.",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 4,
+          "matched_consequence_cue_count": 4,
+          "matched_consequences": [
+            "fracture_growth",
+            "localized_damage",
+            "alignment_loss",
+            "gave_way"
+          ],
+          "matched_cue_count": 2,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "failure"
+          ],
+          "mechanism_id": "load_transfer",
+          "score": 4.61
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "failure"
+          ],
+          "mechanism_id": "supported_rotation",
+          "score": 1.05
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [
+        "load_transfer",
+        "supported_rotation"
+      ],
+      "component_category": "load path distribution element",
+      "confidence": 0.85,
+      "confidence_ranking": [
+        {
+          "matched_consequence_count": 4,
+          "matched_consequences": [
+            "fracture_growth",
+            "localized_damage",
+            "alignment_loss",
+            "gave_way"
+          ],
+          "matched_role_count": 1,
+          "matched_roles": [
+            "failure"
+          ],
+          "mechanism_id": "load_transfer",
+          "rank": 1,
+          "relative_confidence": 0.95,
+          "score": 4.61
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequences": [],
+          "matched_role_count": 1,
+          "matched_roles": [
+            "failure"
+          ],
+          "mechanism_id": "supported_rotation",
+          "rank": 2,
+          "relative_confidence": 0.2278,
+          "score": 1.05
+        }
+      ],
+      "consequence_features": [
+        {
+          "feature_id": "fracture_growth",
+          "matched_cues": [
+            "cracks appeared"
+          ],
+          "motif": "Consequence: cracks or splits grow"
+        },
+        {
+          "feature_id": "localized_damage",
+          "matched_cues": [
+            "local dent"
+          ],
+          "motif": "Consequence: damage localizes"
+        },
+        {
+          "feature_id": "alignment_loss",
+          "matched_cues": [
+            "uneven height"
+          ],
+          "motif": "Consequence: geometry or alignment is lost"
+        },
+        {
+          "feature_id": "gave_way",
+          "matched_cues": [
+            "could not hold"
+          ],
+          "motif": "Consequence: structure gives way"
+        }
+      ],
+      "consequence_lineage": [
+        {
+          "feature_id": "fracture_growth",
+          "lesson_id": "MEC-L003",
+          "matched_cues": [
+            "cracks appeared"
+          ],
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "motif": "Consequence: cracks or splits grow"
+        },
+        {
+          "feature_id": "localized_damage",
+          "lesson_id": "MEC-L003",
+          "matched_cues": [
+            "local dent"
+          ],
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "motif": "Consequence: damage localizes"
+        },
+        {
+          "feature_id": "alignment_loss",
+          "lesson_id": "MEC-L003",
+          "matched_cues": [
+            "uneven height"
+          ],
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "motif": "Consequence: geometry or alignment is lost"
+        },
+        {
+          "feature_id": "gave_way",
+          "lesson_id": "MEC-L003",
+          "matched_cues": [
+            "could not hold"
+          ],
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "motif": "Consequence: structure gives way"
+        }
+      ],
+      "correct": true,
+      "deterministic_replay_match": true,
+      "evidence_features": [
+        {
+          "matched_cues": [
+            "cracks",
+            "crack"
+          ],
+          "motif": "Failure",
+          "role_id": "failure"
+        }
+      ],
+      "expected_candidate_mechanisms": [],
+      "expected_classification": "CONSEQUENCE_INFERENCE",
+      "expected_mechanism": "load_transfer",
+      "expected_status": "ANSWERED",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "fail_closed_reason": "",
+      "identified_mechanism": "load_transfer",
+      "inference_mode": "CONSEQUENCE_INFERENCE",
+      "inspection_priority": "Inspect the load path and high-stress concentration points such as joints, anchors, brackets, supports, and overloaded members.",
+      "matched_consequence_ids": [
+        "fracture_growth",
+        "localized_damage",
+        "alignment_loss",
+        "gave_way"
+      ],
+      "matched_consequences": [
+        {
+          "feature_id": "fracture_growth",
+          "matched_cues": [
+            "cracks appeared"
+          ],
+          "motif": "Consequence: cracks or splits grow",
+          "weight": 0.9
+        },
+        {
+          "feature_id": "localized_damage",
+          "matched_cues": [
+            "local dent"
+          ],
+          "motif": "Consequence: damage localizes",
+          "weight": 0.85
+        },
+        {
+          "feature_id": "alignment_loss",
+          "matched_cues": [
+            "uneven height"
+          ],
+          "motif": "Consequence: geometry or alignment is lost",
+          "weight": 0.75
+        },
+        {
+          "feature_id": "gave_way",
+          "matched_cues": [
+            "could not hold"
+          ],
+          "motif": "Consequence: structure gives way",
+          "weight": 0.85
+        }
+      ],
+      "matched_role_ids": [
+        "failure"
+      ],
+      "matched_roles": [
+        {
+          "matched_cues": [
+            "cracks",
+            "crack"
+          ],
+          "motif": "Failure",
+          "role_id": "failure",
+          "weight": 1.0
+        }
+      ],
+      "mechanism_explanation": "The observed system carries load through supports, then fails where stress concentrates.",
+      "motif_lineage": [
+        {
+          "lesson_id": "MEC-L003",
+          "matched_cues": [
+            "cracks",
+            "crack"
+          ],
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "motif": "Failure",
+          "role_id": "failure"
+        }
+      ],
+      "observed_system": "A made-up object called a Halvek slab showed uneven height, a local dent, cracks appeared, and could not hold.",
+      "question": "Observed system: A made-up object called a Halvek slab showed uneven height, a local dent, cracks appeared, and could not hold. Question: Which learned mechanism is most similar by expected observations?",
+      "question_id": "NS-006",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "failure"
+          ],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 1.05
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "LOAD_TRANSFER",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Load",
+            "Distribution",
+            "Concentration",
+            "Failure"
+          ],
+          "lesson_id": "MEC-L003",
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "trace_expectation": "A mapped LOAD_TRANSFER answer must cite at least three of Load, Distribution, Concentration, and Failure."
+        }
+      ],
+      "status": "ANSWERED",
+      "suite": "novel_surface",
+      "supporting_motifs": [
+        "Failure",
+        "Consequence: cracks or splits grow",
+        "Consequence: damage localizes",
+        "Consequence: geometry or alignment is lost",
+        "Consequence: structure gives way"
+      ],
+      "transfer_confidence": 0.85
+    }
+  ],
+  "pond_state": "proofs/032-mechanistic-inference-challenge/pond_states/mechanism_inference",
+  "proof_id": "032-mechanistic-inference-challenge",
+  "suite": "novel_surface",
+  "total_items": 6
+}

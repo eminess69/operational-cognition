@@ -1,0 +1,52 @@
+{
+  "claim_level": "evidence_backed",
+  "disallowed_claims": [
+    "LLM generated final answers",
+    "general mechanism understanding",
+    "general physical reasoning",
+    "success independent of parser behavior",
+    "success independent of hand-authored role cues",
+    "success beyond FLOW, SUPPORTED_ROTATION, and LOAD_TRANSFER"
+  ],
+  "inside_voice_adapter_status": "not_used_final_answers_generated_by_deterministic_cli",
+  "lineage": {
+    "contract_version": "mechanism_pond.cli.v2",
+    "derived_from": "proofs/030-mechanistic-transfer-challenge/pond_states/mechanism_seasoned/pond_state.json; tests/*.jsonl; python3 -m operational_cognition.cli.mechanism_pond",
+    "mcp_endpoint": "none:deterministic_cli_no_llm",
+    "request_hash": "db23fa052f813c7195f5382e5c15673ba7f3f3283b18301a9d45d9a1981d2aa7",
+    "response_hash": "80c8f28dc1e74adaa007b1741893a890e58daeb1944543971d6e6106d063b578",
+    "validates": "cue_invariance_and_decoy_resistance_for_bounded_mechanism_mapping"
+  },
+  "proof_id": "031-mechanistic-transfer-cue-invariance",
+  "public_private_boundary": "All artifacts are public deterministic tests, pond state, CLI outputs, metrics, and audits. No hidden chain-of-thought or private substrate data is exposed.",
+  "required_artifacts": [
+    "README.md",
+    "proof_manifest.json",
+    "frozen_mechanism_inventory.json",
+    "pond_states/mechanism_seasoned/pond_state.json",
+    "tests/cue_removed.jsonl",
+    "tests/cue_swapped.jsonl",
+    "tests/decoy_cues.jsonl",
+    "tests/neutral_physics.jsonl",
+    "tests/ambiguous_fail_closed.jsonl",
+    "results/cue_removed_results.json",
+    "results/cue_swapped_results.json",
+    "results/decoy_cues_results.json",
+    "results/neutral_physics_results.json",
+    "results/ambiguous_fail_closed_results.json",
+    "analysis/cue_dependence_audit.json",
+    "analysis/decoy_resistance_audit.json",
+    "analysis/mechanism_structure_audit.json",
+    "analysis/hostile_cue_invariance_audit.json",
+    "analysis/cue_invariance_metrics.json"
+  ],
+  "status": "complete",
+  "targets": [
+    "MechanisticTransfer",
+    "CueInvariance",
+    "DecoyResistance",
+    "DeterministicNoLLMMapping",
+    "HostileParserAudit"
+  ],
+  "title": "Proof 031 - Mechanistic Transfer Challenge 002: Cue-Invariance and Decoy Resistance"
+}

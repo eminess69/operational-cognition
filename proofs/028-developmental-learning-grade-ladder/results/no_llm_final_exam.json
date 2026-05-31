@@ -1,0 +1,1341 @@
+{
+  "answer_generation_boundary": {
+    "cli_module": "operational_cognition.cli.math_pond",
+    "codex_answer_synthesis_used": false,
+    "fail_closed_policy": "If required motifs or parser support are absent, the CLI returns FAIL_CLOSED with blank answer.",
+    "final_answers_generated_by": "subprocess invocation of python3 -m operational_cognition.cli.math_pond answer --json",
+    "llm_used_for_final_answers": false
+  },
+  "baseline_unseasoned": {
+    "accuracy": 0.0,
+    "answered_items": 0,
+    "deterministic_replay_match": true,
+    "items": [
+      {
+        "answer": "",
+        "concept": "one_digit_addition",
+        "concept_pathway": [
+          "counting",
+          "one_digit_addition"
+        ],
+        "confidence": 0.0,
+        "correct": false,
+        "deterministic_replay_match": true,
+        "expected_answer": "13",
+        "fail_closed_reason": "missing_required_motifs:counting,one_digit_addition",
+        "motif_lineage": [],
+        "question": "What is 6 + 7?",
+        "question_id": "FE-T001",
+        "requires_transfer": true,
+        "source_tracebacks": [],
+        "status": "FAIL_CLOSED",
+        "traceback_complete": false,
+        "unsupported": true,
+        "used_grade_1_motifs": [],
+        "used_grade_2_motifs": []
+      },
+      {
+        "answer": "",
+        "concept": "simple_word_problems",
+        "concept_pathway": [
+          "counting",
+          "one_digit_subtraction",
+          "simple_word_problems"
+        ],
+        "confidence": 0.0,
+        "correct": false,
+        "deterministic_replay_match": true,
+        "expected_answer": "5",
+        "fail_closed_reason": "missing_required_motifs:counting,one_digit_subtraction,simple_word_problems",
+        "motif_lineage": [],
+        "question": "Tom has 8 marbles and gives away 3. How many marbles remain?",
+        "question_id": "FE-T002",
+        "requires_transfer": true,
+        "source_tracebacks": [],
+        "status": "FAIL_CLOSED",
+        "traceback_complete": false,
+        "unsupported": true,
+        "used_grade_1_motifs": [],
+        "used_grade_2_motifs": []
+      },
+      {
+        "answer": "",
+        "concept": "number_comparison",
+        "concept_pathway": [
+          "counting",
+          "number_comparison"
+        ],
+        "confidence": 0.0,
+        "correct": false,
+        "deterministic_replay_match": true,
+        "expected_answer": "9",
+        "fail_closed_reason": "missing_required_motifs:counting,number_comparison",
+        "motif_lineage": [],
+        "question": "Which is larger: 9 or 4?",
+        "question_id": "FE-T003",
+        "requires_transfer": true,
+        "source_tracebacks": [],
+        "status": "FAIL_CLOSED",
+        "traceback_complete": false,
+        "unsupported": true,
+        "used_grade_1_motifs": [],
+        "used_grade_2_motifs": []
+      },
+      {
+        "answer": "",
+        "concept": "two_digit_addition_without_carrying",
+        "concept_pathway": [
+          "counting",
+          "one_digit_addition",
+          "place_value",
+          "two_digit_addition_without_carrying"
+        ],
+        "confidence": 0.0,
+        "correct": false,
+        "deterministic_replay_match": true,
+        "expected_answer": "58",
+        "fail_closed_reason": "missing_required_motifs:counting,one_digit_addition,place_value,two_digit_addition_without_carrying",
+        "motif_lineage": [],
+        "question": "What is 42 + 16?",
+        "question_id": "FE-T004",
+        "requires_transfer": true,
+        "source_tracebacks": [],
+        "status": "FAIL_CLOSED",
+        "traceback_complete": false,
+        "unsupported": true,
+        "used_grade_1_motifs": [],
+        "used_grade_2_motifs": []
+      },
+      {
+        "answer": "",
+        "concept": "two_digit_subtraction_without_borrowing",
+        "concept_pathway": [
+          "counting",
+          "one_digit_subtraction",
+          "place_value",
+          "two_digit_subtraction_without_borrowing"
+        ],
+        "confidence": 0.0,
+        "correct": false,
+        "deterministic_replay_match": true,
+        "expected_answer": "54",
+        "fail_closed_reason": "missing_required_motifs:counting,one_digit_subtraction,place_value,two_digit_subtraction_without_borrowing",
+        "motif_lineage": [],
+        "question": "What is 75 - 21?",
+        "question_id": "FE-T005",
+        "requires_transfer": true,
+        "source_tracebacks": [],
+        "status": "FAIL_CLOSED",
+        "traceback_complete": false,
+        "unsupported": true,
+        "used_grade_1_motifs": [],
+        "used_grade_2_motifs": []
+      },
+      {
+        "answer": "",
+        "concept": "place_value",
+        "concept_pathway": [
+          "counting",
+          "place_value"
+        ],
+        "confidence": 0.0,
+        "correct": false,
+        "deterministic_replay_match": true,
+        "expected_answer": "6 tens and 4 ones",
+        "fail_closed_reason": "missing_required_motifs:counting,place_value",
+        "motif_lineage": [],
+        "question": "How many tens and ones are in 64?",
+        "question_id": "FE-T006",
+        "requires_transfer": true,
+        "source_tracebacks": [],
+        "status": "FAIL_CLOSED",
+        "traceback_complete": false,
+        "unsupported": true,
+        "used_grade_1_motifs": [],
+        "used_grade_2_motifs": []
+      },
+      {
+        "answer": "",
+        "concept": "multiplication_as_repeated_addition",
+        "concept_pathway": [
+          "counting",
+          "one_digit_addition",
+          "simple_word_problems",
+          "multiplication_as_repeated_addition"
+        ],
+        "confidence": 0.0,
+        "correct": false,
+        "deterministic_replay_match": true,
+        "expected_answer": "12",
+        "fail_closed_reason": "missing_required_motifs:counting,one_digit_addition,simple_word_problems,multiplication_as_repeated_addition",
+        "motif_lineage": [],
+        "question": "If there are 3 bags with 4 apples each, how many apples?",
+        "question_id": "FE-T007",
+        "requires_transfer": true,
+        "source_tracebacks": [],
+        "status": "FAIL_CLOSED",
+        "traceback_complete": false,
+        "unsupported": true,
+        "used_grade_1_motifs": [],
+        "used_grade_2_motifs": []
+      },
+      {
+        "answer": "",
+        "concept": "two_digit_addition_without_carrying",
+        "concept_pathway": [
+          "counting",
+          "one_digit_addition",
+          "place_value",
+          "two_digit_addition_without_carrying"
+        ],
+        "confidence": 0.0,
+        "correct": false,
+        "deterministic_replay_match": true,
+        "expected_answer": "33",
+        "fail_closed_reason": "missing_required_motifs:counting,one_digit_addition,place_value,two_digit_addition_without_carrying",
+        "motif_lineage": [],
+        "question": "What number is 10 more than 23?",
+        "question_id": "FE-T008",
+        "requires_transfer": true,
+        "source_tracebacks": [],
+        "status": "FAIL_CLOSED",
+        "traceback_complete": false,
+        "unsupported": true,
+        "used_grade_1_motifs": [],
+        "used_grade_2_motifs": []
+      },
+      {
+        "answer": "",
+        "concept": "division_as_grouping",
+        "concept_pathway": [
+          "counting",
+          "one_digit_subtraction",
+          "division_as_grouping"
+        ],
+        "confidence": 0.0,
+        "correct": false,
+        "deterministic_replay_match": true,
+        "expected_answer": "4",
+        "fail_closed_reason": "missing_required_motifs:counting,one_digit_subtraction,division_as_grouping",
+        "motif_lineage": [],
+        "question": "Share 16 cookies equally into 4 groups. How many in each group?",
+        "question_id": "FE-T009",
+        "requires_transfer": true,
+        "source_tracebacks": [],
+        "status": "FAIL_CLOSED",
+        "traceback_complete": false,
+        "unsupported": true,
+        "used_grade_1_motifs": [],
+        "used_grade_2_motifs": []
+      },
+      {
+        "answer": "",
+        "concept": "number_comparison",
+        "concept_pathway": [
+          "counting",
+          "number_comparison",
+          "place_value"
+        ],
+        "confidence": 0.0,
+        "correct": false,
+        "deterministic_replay_match": true,
+        "expected_answer": "37",
+        "fail_closed_reason": "missing_required_motifs:counting,number_comparison,place_value",
+        "motif_lineage": [],
+        "question": "Which is larger: 37 or 29?",
+        "question_id": "FE-T010",
+        "requires_transfer": true,
+        "source_tracebacks": [],
+        "status": "FAIL_CLOSED",
+        "traceback_complete": false,
+        "unsupported": true,
+        "used_grade_1_motifs": [],
+        "used_grade_2_motifs": []
+      }
+    ],
+    "total_items": 10,
+    "traceback_completeness": 0.0,
+    "unsupported_answers": 10
+  },
+  "comparison": {
+    "grade_1_accuracy": 0.3,
+    "grade_2_accuracy": 1.0,
+    "grade_2_improves_over_grade_1": true,
+    "grade_2_reuses_grade_1_motifs": true,
+    "seasoning_improves_over_unseasoned": true,
+    "unseasoned_accuracy": 0.0
+  },
+  "deterministic_replay_match": true,
+  "exam_id": "proof_028_no_llm_final_exam_v1",
+  "execution_mode": "deterministic_cli_no_llm",
+  "grade_1_seasoned": {
+    "accuracy": 0.3,
+    "answered_items": 3,
+    "deterministic_replay_match": true,
+    "items": [
+      {
+        "answer": "13",
+        "concept": "one_digit_addition",
+        "concept_pathway": [
+          "counting",
+          "one_digit_addition"
+        ],
+        "confidence": 0.71,
+        "correct": true,
+        "deterministic_replay_match": true,
+        "expected_answer": "13",
+        "motif_lineage": [
+          {
+            "concept": "counting",
+            "grade": 1,
+            "lesson_id": "G1-L001",
+            "motif_id": "g1_counting_sequence"
+          },
+          {
+            "concept": "one_digit_addition",
+            "grade": 1,
+            "lesson_id": "G1-L002",
+            "motif_id": "g1_count_forward_addition"
+          }
+        ],
+        "question": "What is 6 + 7?",
+        "question_id": "FE-T001",
+        "requires_transfer": true,
+        "source_tracebacks": [
+          {
+            "concept": "counting",
+            "expected_motif": "g1_counting_sequence",
+            "lesson_id": "G1-L001",
+            "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+            "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+          },
+          {
+            "concept": "one_digit_addition",
+            "expected_motif": "g1_count_forward_addition",
+            "lesson_id": "G1-L002",
+            "rule": "One-digit addition combines two one-digit quantities by counting forward the second amount.",
+            "trace_expectation": "An addition answer must cite a one-digit addition motif and any counting dependency."
+          }
+        ],
+        "status": "ANSWERED",
+        "traceback_complete": true,
+        "unsupported": false,
+        "used_grade_1_motifs": [
+          "g1_count_forward_addition",
+          "g1_counting_sequence"
+        ],
+        "used_grade_2_motifs": []
+      },
+      {
+        "answer": "5",
+        "concept": "simple_word_problems",
+        "concept_pathway": [
+          "counting",
+          "one_digit_subtraction",
+          "simple_word_problems"
+        ],
+        "confidence": 0.79,
+        "correct": true,
+        "deterministic_replay_match": true,
+        "expected_answer": "5",
+        "motif_lineage": [
+          {
+            "concept": "counting",
+            "grade": 1,
+            "lesson_id": "G1-L001",
+            "motif_id": "g1_counting_sequence"
+          },
+          {
+            "concept": "one_digit_subtraction",
+            "grade": 1,
+            "lesson_id": "G1-L003",
+            "motif_id": "g1_take_away_subtraction"
+          },
+          {
+            "concept": "simple_word_problems",
+            "grade": 1,
+            "lesson_id": "G1-L006",
+            "motif_id": "g1_word_problem_operation_mapping"
+          }
+        ],
+        "question": "Tom has 8 marbles and gives away 3. How many marbles remain?",
+        "question_id": "FE-T002",
+        "requires_transfer": true,
+        "source_tracebacks": [
+          {
+            "concept": "counting",
+            "expected_motif": "g1_counting_sequence",
+            "lesson_id": "G1-L001",
+            "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+            "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+          },
+          {
+            "concept": "one_digit_subtraction",
+            "expected_motif": "g1_take_away_subtraction",
+            "lesson_id": "G1-L003",
+            "rule": "One-digit subtraction removes the second one-digit quantity from the first and counts what remains.",
+            "trace_expectation": "A subtraction answer must cite a take-away motif and any counting dependency."
+          },
+          {
+            "concept": "simple_word_problems",
+            "expected_motif": "g1_word_problem_operation_mapping",
+            "lesson_id": "G1-L006",
+            "rule": "Simple word problems map 'more' language to addition and 'give away' or 'fly away' language to subtraction.",
+            "trace_expectation": "A word-problem answer must cite the language-to-operation motif plus the arithmetic motif used."
+          }
+        ],
+        "status": "ANSWERED",
+        "traceback_complete": true,
+        "unsupported": false,
+        "used_grade_1_motifs": [
+          "g1_counting_sequence",
+          "g1_take_away_subtraction",
+          "g1_word_problem_operation_mapping"
+        ],
+        "used_grade_2_motifs": []
+      },
+      {
+        "answer": "9",
+        "concept": "number_comparison",
+        "concept_pathway": [
+          "counting",
+          "number_comparison"
+        ],
+        "confidence": 0.71,
+        "correct": true,
+        "deterministic_replay_match": true,
+        "expected_answer": "9",
+        "motif_lineage": [
+          {
+            "concept": "counting",
+            "grade": 1,
+            "lesson_id": "G1-L001",
+            "motif_id": "g1_counting_sequence"
+          },
+          {
+            "concept": "number_comparison",
+            "grade": 1,
+            "lesson_id": "G1-L005",
+            "motif_id": "g1_number_order_comparison"
+          }
+        ],
+        "question": "Which is larger: 9 or 4?",
+        "question_id": "FE-T003",
+        "requires_transfer": true,
+        "source_tracebacks": [
+          {
+            "concept": "counting",
+            "expected_motif": "g1_counting_sequence",
+            "lesson_id": "G1-L001",
+            "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+            "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+          },
+          {
+            "concept": "number_comparison",
+            "expected_motif": "g1_number_order_comparison",
+            "lesson_id": "G1-L005",
+            "rule": "The larger number comes later in the counting sequence; the smaller number comes earlier.",
+            "trace_expectation": "A comparison answer must cite the number-order motif and any place-value dependency for two-digit numbers."
+          }
+        ],
+        "status": "ANSWERED",
+        "traceback_complete": true,
+        "unsupported": false,
+        "used_grade_1_motifs": [
+          "g1_counting_sequence",
+          "g1_number_order_comparison"
+        ],
+        "used_grade_2_motifs": []
+      },
+      {
+        "answer": "",
+        "concept": "two_digit_addition_without_carrying",
+        "concept_pathway": [
+          "counting",
+          "one_digit_addition",
+          "place_value",
+          "two_digit_addition_without_carrying"
+        ],
+        "confidence": 0.0,
+        "correct": false,
+        "deterministic_replay_match": true,
+        "expected_answer": "58",
+        "fail_closed_reason": "missing_required_motifs:place_value,two_digit_addition_without_carrying",
+        "motif_lineage": [],
+        "question": "What is 42 + 16?",
+        "question_id": "FE-T004",
+        "requires_transfer": true,
+        "source_tracebacks": [],
+        "status": "FAIL_CLOSED",
+        "traceback_complete": false,
+        "unsupported": true,
+        "used_grade_1_motifs": [],
+        "used_grade_2_motifs": []
+      },
+      {
+        "answer": "",
+        "concept": "two_digit_subtraction_without_borrowing",
+        "concept_pathway": [
+          "counting",
+          "one_digit_subtraction",
+          "place_value",
+          "two_digit_subtraction_without_borrowing"
+        ],
+        "confidence": 0.0,
+        "correct": false,
+        "deterministic_replay_match": true,
+        "expected_answer": "54",
+        "fail_closed_reason": "missing_required_motifs:place_value,two_digit_subtraction_without_borrowing",
+        "motif_lineage": [],
+        "question": "What is 75 - 21?",
+        "question_id": "FE-T005",
+        "requires_transfer": true,
+        "source_tracebacks": [],
+        "status": "FAIL_CLOSED",
+        "traceback_complete": false,
+        "unsupported": true,
+        "used_grade_1_motifs": [],
+        "used_grade_2_motifs": []
+      },
+      {
+        "answer": "",
+        "concept": "place_value",
+        "concept_pathway": [
+          "counting",
+          "place_value"
+        ],
+        "confidence": 0.0,
+        "correct": false,
+        "deterministic_replay_match": true,
+        "expected_answer": "6 tens and 4 ones",
+        "fail_closed_reason": "missing_required_motifs:place_value",
+        "motif_lineage": [],
+        "question": "How many tens and ones are in 64?",
+        "question_id": "FE-T006",
+        "requires_transfer": true,
+        "source_tracebacks": [],
+        "status": "FAIL_CLOSED",
+        "traceback_complete": false,
+        "unsupported": true,
+        "used_grade_1_motifs": [],
+        "used_grade_2_motifs": []
+      },
+      {
+        "answer": "",
+        "concept": "multiplication_as_repeated_addition",
+        "concept_pathway": [
+          "counting",
+          "one_digit_addition",
+          "simple_word_problems",
+          "multiplication_as_repeated_addition"
+        ],
+        "confidence": 0.0,
+        "correct": false,
+        "deterministic_replay_match": true,
+        "expected_answer": "12",
+        "fail_closed_reason": "missing_required_motifs:multiplication_as_repeated_addition",
+        "motif_lineage": [],
+        "question": "If there are 3 bags with 4 apples each, how many apples?",
+        "question_id": "FE-T007",
+        "requires_transfer": true,
+        "source_tracebacks": [],
+        "status": "FAIL_CLOSED",
+        "traceback_complete": false,
+        "unsupported": true,
+        "used_grade_1_motifs": [],
+        "used_grade_2_motifs": []
+      },
+      {
+        "answer": "",
+        "concept": "two_digit_addition_without_carrying",
+        "concept_pathway": [
+          "counting",
+          "one_digit_addition",
+          "place_value",
+          "two_digit_addition_without_carrying"
+        ],
+        "confidence": 0.0,
+        "correct": false,
+        "deterministic_replay_match": true,
+        "expected_answer": "33",
+        "fail_closed_reason": "missing_required_motifs:place_value,two_digit_addition_without_carrying",
+        "motif_lineage": [],
+        "question": "What number is 10 more than 23?",
+        "question_id": "FE-T008",
+        "requires_transfer": true,
+        "source_tracebacks": [],
+        "status": "FAIL_CLOSED",
+        "traceback_complete": false,
+        "unsupported": true,
+        "used_grade_1_motifs": [],
+        "used_grade_2_motifs": []
+      },
+      {
+        "answer": "",
+        "concept": "division_as_grouping",
+        "concept_pathway": [
+          "counting",
+          "one_digit_subtraction",
+          "division_as_grouping"
+        ],
+        "confidence": 0.0,
+        "correct": false,
+        "deterministic_replay_match": true,
+        "expected_answer": "4",
+        "fail_closed_reason": "missing_required_motifs:division_as_grouping",
+        "motif_lineage": [],
+        "question": "Share 16 cookies equally into 4 groups. How many in each group?",
+        "question_id": "FE-T009",
+        "requires_transfer": true,
+        "source_tracebacks": [],
+        "status": "FAIL_CLOSED",
+        "traceback_complete": false,
+        "unsupported": true,
+        "used_grade_1_motifs": [],
+        "used_grade_2_motifs": []
+      },
+      {
+        "answer": "",
+        "concept": "number_comparison",
+        "concept_pathway": [
+          "counting",
+          "number_comparison",
+          "place_value"
+        ],
+        "confidence": 0.0,
+        "correct": false,
+        "deterministic_replay_match": true,
+        "expected_answer": "37",
+        "fail_closed_reason": "missing_required_motifs:place_value",
+        "motif_lineage": [],
+        "question": "Which is larger: 37 or 29?",
+        "question_id": "FE-T010",
+        "requires_transfer": true,
+        "source_tracebacks": [],
+        "status": "FAIL_CLOSED",
+        "traceback_complete": false,
+        "unsupported": true,
+        "used_grade_1_motifs": [],
+        "used_grade_2_motifs": []
+      }
+    ],
+    "total_items": 10,
+    "traceback_completeness": 0.3,
+    "unsupported_answers": 7
+  },
+  "grade_2_seasoned": {
+    "accuracy": 1.0,
+    "answered_items": 10,
+    "deterministic_replay_match": true,
+    "items": [
+      {
+        "answer": "13",
+        "concept": "one_digit_addition",
+        "concept_pathway": [
+          "counting",
+          "one_digit_addition"
+        ],
+        "confidence": 0.71,
+        "correct": true,
+        "deterministic_replay_match": true,
+        "expected_answer": "13",
+        "motif_lineage": [
+          {
+            "concept": "counting",
+            "grade": 1,
+            "lesson_id": "G1-L001",
+            "motif_id": "g1_counting_sequence"
+          },
+          {
+            "concept": "one_digit_addition",
+            "grade": 1,
+            "lesson_id": "G1-L002",
+            "motif_id": "g1_count_forward_addition"
+          }
+        ],
+        "question": "What is 6 + 7?",
+        "question_id": "FE-T001",
+        "requires_transfer": true,
+        "source_tracebacks": [
+          {
+            "concept": "counting",
+            "expected_motif": "g1_counting_sequence",
+            "lesson_id": "G1-L001",
+            "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+            "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+          },
+          {
+            "concept": "one_digit_addition",
+            "expected_motif": "g1_count_forward_addition",
+            "lesson_id": "G1-L002",
+            "rule": "One-digit addition combines two one-digit quantities by counting forward the second amount.",
+            "trace_expectation": "An addition answer must cite a one-digit addition motif and any counting dependency."
+          }
+        ],
+        "status": "ANSWERED",
+        "traceback_complete": true,
+        "unsupported": false,
+        "used_grade_1_motifs": [
+          "g1_count_forward_addition",
+          "g1_counting_sequence"
+        ],
+        "used_grade_2_motifs": []
+      },
+      {
+        "answer": "5",
+        "concept": "simple_word_problems",
+        "concept_pathway": [
+          "counting",
+          "one_digit_subtraction",
+          "simple_word_problems"
+        ],
+        "confidence": 0.79,
+        "correct": true,
+        "deterministic_replay_match": true,
+        "expected_answer": "5",
+        "motif_lineage": [
+          {
+            "concept": "counting",
+            "grade": 1,
+            "lesson_id": "G1-L001",
+            "motif_id": "g1_counting_sequence"
+          },
+          {
+            "concept": "one_digit_subtraction",
+            "grade": 1,
+            "lesson_id": "G1-L003",
+            "motif_id": "g1_take_away_subtraction"
+          },
+          {
+            "concept": "simple_word_problems",
+            "grade": 1,
+            "lesson_id": "G1-L006",
+            "motif_id": "g1_word_problem_operation_mapping"
+          }
+        ],
+        "question": "Tom has 8 marbles and gives away 3. How many marbles remain?",
+        "question_id": "FE-T002",
+        "requires_transfer": true,
+        "source_tracebacks": [
+          {
+            "concept": "counting",
+            "expected_motif": "g1_counting_sequence",
+            "lesson_id": "G1-L001",
+            "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+            "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+          },
+          {
+            "concept": "one_digit_subtraction",
+            "expected_motif": "g1_take_away_subtraction",
+            "lesson_id": "G1-L003",
+            "rule": "One-digit subtraction removes the second one-digit quantity from the first and counts what remains.",
+            "trace_expectation": "A subtraction answer must cite a take-away motif and any counting dependency."
+          },
+          {
+            "concept": "simple_word_problems",
+            "expected_motif": "g1_word_problem_operation_mapping",
+            "lesson_id": "G1-L006",
+            "rule": "Simple word problems map 'more' language to addition and 'give away' or 'fly away' language to subtraction.",
+            "trace_expectation": "A word-problem answer must cite the language-to-operation motif plus the arithmetic motif used."
+          }
+        ],
+        "status": "ANSWERED",
+        "traceback_complete": true,
+        "unsupported": false,
+        "used_grade_1_motifs": [
+          "g1_counting_sequence",
+          "g1_take_away_subtraction",
+          "g1_word_problem_operation_mapping"
+        ],
+        "used_grade_2_motifs": []
+      },
+      {
+        "answer": "9",
+        "concept": "number_comparison",
+        "concept_pathway": [
+          "counting",
+          "number_comparison"
+        ],
+        "confidence": 0.71,
+        "correct": true,
+        "deterministic_replay_match": true,
+        "expected_answer": "9",
+        "motif_lineage": [
+          {
+            "concept": "counting",
+            "grade": 1,
+            "lesson_id": "G1-L001",
+            "motif_id": "g1_counting_sequence"
+          },
+          {
+            "concept": "number_comparison",
+            "grade": 1,
+            "lesson_id": "G1-L005",
+            "motif_id": "g1_number_order_comparison"
+          }
+        ],
+        "question": "Which is larger: 9 or 4?",
+        "question_id": "FE-T003",
+        "requires_transfer": true,
+        "source_tracebacks": [
+          {
+            "concept": "counting",
+            "expected_motif": "g1_counting_sequence",
+            "lesson_id": "G1-L001",
+            "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+            "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+          },
+          {
+            "concept": "number_comparison",
+            "expected_motif": "g1_number_order_comparison",
+            "lesson_id": "G1-L005",
+            "rule": "The larger number comes later in the counting sequence; the smaller number comes earlier.",
+            "trace_expectation": "A comparison answer must cite the number-order motif and any place-value dependency for two-digit numbers."
+          }
+        ],
+        "status": "ANSWERED",
+        "traceback_complete": true,
+        "unsupported": false,
+        "used_grade_1_motifs": [
+          "g1_counting_sequence",
+          "g1_number_order_comparison"
+        ],
+        "used_grade_2_motifs": []
+      },
+      {
+        "answer": "58",
+        "concept": "two_digit_addition_without_carrying",
+        "concept_pathway": [
+          "counting",
+          "one_digit_addition",
+          "place_value",
+          "two_digit_addition_without_carrying"
+        ],
+        "confidence": 0.87,
+        "correct": true,
+        "deterministic_replay_match": true,
+        "expected_answer": "58",
+        "motif_lineage": [
+          {
+            "concept": "counting",
+            "grade": 1,
+            "lesson_id": "G1-L001",
+            "motif_id": "g1_counting_sequence"
+          },
+          {
+            "concept": "one_digit_addition",
+            "grade": 1,
+            "lesson_id": "G1-L002",
+            "motif_id": "g1_count_forward_addition"
+          },
+          {
+            "concept": "place_value",
+            "grade": 2,
+            "lesson_id": "G2-L003",
+            "motif_id": "g2_tens_ones_place_value"
+          },
+          {
+            "concept": "two_digit_addition_without_carrying",
+            "grade": 2,
+            "lesson_id": "G2-L001",
+            "motif_id": "g2_no_carry_column_addition"
+          }
+        ],
+        "question": "What is 42 + 16?",
+        "question_id": "FE-T004",
+        "requires_transfer": true,
+        "source_tracebacks": [
+          {
+            "concept": "counting",
+            "expected_motif": "g1_counting_sequence",
+            "lesson_id": "G1-L001",
+            "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+            "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+          },
+          {
+            "concept": "one_digit_addition",
+            "expected_motif": "g1_count_forward_addition",
+            "lesson_id": "G1-L002",
+            "rule": "One-digit addition combines two one-digit quantities by counting forward the second amount.",
+            "trace_expectation": "An addition answer must cite a one-digit addition motif and any counting dependency."
+          },
+          {
+            "concept": "place_value",
+            "expected_motif": "g2_tens_ones_place_value",
+            "lesson_id": "G2-L003",
+            "rule": "In a two-digit number, the left digit counts tens and the right digit counts ones.",
+            "trace_expectation": "A place-value answer must cite the tens-and-ones motif and counting sequence motif."
+          },
+          {
+            "concept": "two_digit_addition_without_carrying",
+            "expected_motif": "g2_no_carry_column_addition",
+            "lesson_id": "G2-L001",
+            "rule": "Add ones to ones and tens to tens when the ones sum stays below ten.",
+            "trace_expectation": "A two-digit addition answer must cite place value, one-digit addition, and this no-carry motif."
+          }
+        ],
+        "status": "ANSWERED",
+        "traceback_complete": true,
+        "unsupported": false,
+        "used_grade_1_motifs": [
+          "g1_count_forward_addition",
+          "g1_counting_sequence"
+        ],
+        "used_grade_2_motifs": [
+          "g2_no_carry_column_addition",
+          "g2_tens_ones_place_value"
+        ]
+      },
+      {
+        "answer": "54",
+        "concept": "two_digit_subtraction_without_borrowing",
+        "concept_pathway": [
+          "counting",
+          "one_digit_subtraction",
+          "place_value",
+          "two_digit_subtraction_without_borrowing"
+        ],
+        "confidence": 0.87,
+        "correct": true,
+        "deterministic_replay_match": true,
+        "expected_answer": "54",
+        "motif_lineage": [
+          {
+            "concept": "counting",
+            "grade": 1,
+            "lesson_id": "G1-L001",
+            "motif_id": "g1_counting_sequence"
+          },
+          {
+            "concept": "one_digit_subtraction",
+            "grade": 1,
+            "lesson_id": "G1-L003",
+            "motif_id": "g1_take_away_subtraction"
+          },
+          {
+            "concept": "place_value",
+            "grade": 2,
+            "lesson_id": "G2-L003",
+            "motif_id": "g2_tens_ones_place_value"
+          },
+          {
+            "concept": "two_digit_subtraction_without_borrowing",
+            "grade": 2,
+            "lesson_id": "G2-L002",
+            "motif_id": "g2_no_borrow_column_subtraction"
+          }
+        ],
+        "question": "What is 75 - 21?",
+        "question_id": "FE-T005",
+        "requires_transfer": true,
+        "source_tracebacks": [
+          {
+            "concept": "counting",
+            "expected_motif": "g1_counting_sequence",
+            "lesson_id": "G1-L001",
+            "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+            "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+          },
+          {
+            "concept": "one_digit_subtraction",
+            "expected_motif": "g1_take_away_subtraction",
+            "lesson_id": "G1-L003",
+            "rule": "One-digit subtraction removes the second one-digit quantity from the first and counts what remains.",
+            "trace_expectation": "A subtraction answer must cite a take-away motif and any counting dependency."
+          },
+          {
+            "concept": "place_value",
+            "expected_motif": "g2_tens_ones_place_value",
+            "lesson_id": "G2-L003",
+            "rule": "In a two-digit number, the left digit counts tens and the right digit counts ones.",
+            "trace_expectation": "A place-value answer must cite the tens-and-ones motif and counting sequence motif."
+          },
+          {
+            "concept": "two_digit_subtraction_without_borrowing",
+            "expected_motif": "g2_no_borrow_column_subtraction",
+            "lesson_id": "G2-L002",
+            "rule": "Subtract ones from ones and tens from tens when each top digit is at least the matching bottom digit.",
+            "trace_expectation": "A two-digit subtraction answer must cite place value, one-digit subtraction, and this no-borrow motif."
+          }
+        ],
+        "status": "ANSWERED",
+        "traceback_complete": true,
+        "unsupported": false,
+        "used_grade_1_motifs": [
+          "g1_counting_sequence",
+          "g1_take_away_subtraction"
+        ],
+        "used_grade_2_motifs": [
+          "g2_no_borrow_column_subtraction",
+          "g2_tens_ones_place_value"
+        ]
+      },
+      {
+        "answer": "6 tens and 4 ones",
+        "concept": "place_value",
+        "concept_pathway": [
+          "counting",
+          "place_value"
+        ],
+        "confidence": 0.71,
+        "correct": true,
+        "deterministic_replay_match": true,
+        "expected_answer": "6 tens and 4 ones",
+        "motif_lineage": [
+          {
+            "concept": "counting",
+            "grade": 1,
+            "lesson_id": "G1-L001",
+            "motif_id": "g1_counting_sequence"
+          },
+          {
+            "concept": "place_value",
+            "grade": 2,
+            "lesson_id": "G2-L003",
+            "motif_id": "g2_tens_ones_place_value"
+          }
+        ],
+        "question": "How many tens and ones are in 64?",
+        "question_id": "FE-T006",
+        "requires_transfer": true,
+        "source_tracebacks": [
+          {
+            "concept": "counting",
+            "expected_motif": "g1_counting_sequence",
+            "lesson_id": "G1-L001",
+            "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+            "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+          },
+          {
+            "concept": "place_value",
+            "expected_motif": "g2_tens_ones_place_value",
+            "lesson_id": "G2-L003",
+            "rule": "In a two-digit number, the left digit counts tens and the right digit counts ones.",
+            "trace_expectation": "A place-value answer must cite the tens-and-ones motif and counting sequence motif."
+          }
+        ],
+        "status": "ANSWERED",
+        "traceback_complete": true,
+        "unsupported": false,
+        "used_grade_1_motifs": [
+          "g1_counting_sequence"
+        ],
+        "used_grade_2_motifs": [
+          "g2_tens_ones_place_value"
+        ]
+      },
+      {
+        "answer": "12",
+        "concept": "multiplication_as_repeated_addition",
+        "concept_pathway": [
+          "counting",
+          "one_digit_addition",
+          "simple_word_problems",
+          "multiplication_as_repeated_addition"
+        ],
+        "confidence": 0.87,
+        "correct": true,
+        "deterministic_replay_match": true,
+        "expected_answer": "12",
+        "motif_lineage": [
+          {
+            "concept": "counting",
+            "grade": 1,
+            "lesson_id": "G1-L001",
+            "motif_id": "g1_counting_sequence"
+          },
+          {
+            "concept": "one_digit_addition",
+            "grade": 1,
+            "lesson_id": "G1-L002",
+            "motif_id": "g1_count_forward_addition"
+          },
+          {
+            "concept": "simple_word_problems",
+            "grade": 1,
+            "lesson_id": "G1-L006",
+            "motif_id": "g1_word_problem_operation_mapping"
+          },
+          {
+            "concept": "multiplication_as_repeated_addition",
+            "grade": 2,
+            "lesson_id": "G2-L005",
+            "motif_id": "g2_equal_groups_repeated_addition"
+          }
+        ],
+        "question": "If there are 3 bags with 4 apples each, how many apples?",
+        "question_id": "FE-T007",
+        "requires_transfer": true,
+        "source_tracebacks": [
+          {
+            "concept": "counting",
+            "expected_motif": "g1_counting_sequence",
+            "lesson_id": "G1-L001",
+            "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+            "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+          },
+          {
+            "concept": "one_digit_addition",
+            "expected_motif": "g1_count_forward_addition",
+            "lesson_id": "G1-L002",
+            "rule": "One-digit addition combines two one-digit quantities by counting forward the second amount.",
+            "trace_expectation": "An addition answer must cite a one-digit addition motif and any counting dependency."
+          },
+          {
+            "concept": "simple_word_problems",
+            "expected_motif": "g1_word_problem_operation_mapping",
+            "lesson_id": "G1-L006",
+            "rule": "Simple word problems map 'more' language to addition and 'give away' or 'fly away' language to subtraction.",
+            "trace_expectation": "A word-problem answer must cite the language-to-operation motif plus the arithmetic motif used."
+          },
+          {
+            "concept": "multiplication_as_repeated_addition",
+            "expected_motif": "g2_equal_groups_repeated_addition",
+            "lesson_id": "G2-L005",
+            "rule": "Multiplication with whole-number groups is repeated addition of equal group sizes.",
+            "trace_expectation": "A multiplication answer must cite repeated addition plus Grade 1 addition and counting motifs."
+          }
+        ],
+        "status": "ANSWERED",
+        "traceback_complete": true,
+        "unsupported": false,
+        "used_grade_1_motifs": [
+          "g1_count_forward_addition",
+          "g1_counting_sequence",
+          "g1_word_problem_operation_mapping"
+        ],
+        "used_grade_2_motifs": [
+          "g2_equal_groups_repeated_addition"
+        ]
+      },
+      {
+        "answer": "33",
+        "concept": "two_digit_addition_without_carrying",
+        "concept_pathway": [
+          "counting",
+          "one_digit_addition",
+          "place_value",
+          "two_digit_addition_without_carrying"
+        ],
+        "confidence": 0.87,
+        "correct": true,
+        "deterministic_replay_match": true,
+        "expected_answer": "33",
+        "motif_lineage": [
+          {
+            "concept": "counting",
+            "grade": 1,
+            "lesson_id": "G1-L001",
+            "motif_id": "g1_counting_sequence"
+          },
+          {
+            "concept": "one_digit_addition",
+            "grade": 1,
+            "lesson_id": "G1-L002",
+            "motif_id": "g1_count_forward_addition"
+          },
+          {
+            "concept": "place_value",
+            "grade": 2,
+            "lesson_id": "G2-L003",
+            "motif_id": "g2_tens_ones_place_value"
+          },
+          {
+            "concept": "two_digit_addition_without_carrying",
+            "grade": 2,
+            "lesson_id": "G2-L001",
+            "motif_id": "g2_no_carry_column_addition"
+          }
+        ],
+        "question": "What number is 10 more than 23?",
+        "question_id": "FE-T008",
+        "requires_transfer": true,
+        "source_tracebacks": [
+          {
+            "concept": "counting",
+            "expected_motif": "g1_counting_sequence",
+            "lesson_id": "G1-L001",
+            "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+            "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+          },
+          {
+            "concept": "one_digit_addition",
+            "expected_motif": "g1_count_forward_addition",
+            "lesson_id": "G1-L002",
+            "rule": "One-digit addition combines two one-digit quantities by counting forward the second amount.",
+            "trace_expectation": "An addition answer must cite a one-digit addition motif and any counting dependency."
+          },
+          {
+            "concept": "place_value",
+            "expected_motif": "g2_tens_ones_place_value",
+            "lesson_id": "G2-L003",
+            "rule": "In a two-digit number, the left digit counts tens and the right digit counts ones.",
+            "trace_expectation": "A place-value answer must cite the tens-and-ones motif and counting sequence motif."
+          },
+          {
+            "concept": "two_digit_addition_without_carrying",
+            "expected_motif": "g2_no_carry_column_addition",
+            "lesson_id": "G2-L001",
+            "rule": "Add ones to ones and tens to tens when the ones sum stays below ten.",
+            "trace_expectation": "A two-digit addition answer must cite place value, one-digit addition, and this no-carry motif."
+          }
+        ],
+        "status": "ANSWERED",
+        "traceback_complete": true,
+        "unsupported": false,
+        "used_grade_1_motifs": [
+          "g1_count_forward_addition",
+          "g1_counting_sequence"
+        ],
+        "used_grade_2_motifs": [
+          "g2_no_carry_column_addition",
+          "g2_tens_ones_place_value"
+        ]
+      },
+      {
+        "answer": "4",
+        "concept": "division_as_grouping",
+        "concept_pathway": [
+          "counting",
+          "one_digit_subtraction",
+          "division_as_grouping"
+        ],
+        "confidence": 0.79,
+        "correct": true,
+        "deterministic_replay_match": true,
+        "expected_answer": "4",
+        "motif_lineage": [
+          {
+            "concept": "counting",
+            "grade": 1,
+            "lesson_id": "G1-L001",
+            "motif_id": "g1_counting_sequence"
+          },
+          {
+            "concept": "one_digit_subtraction",
+            "grade": 1,
+            "lesson_id": "G1-L003",
+            "motif_id": "g1_take_away_subtraction"
+          },
+          {
+            "concept": "division_as_grouping",
+            "grade": 2,
+            "lesson_id": "G2-L006",
+            "motif_id": "g2_equal_grouping_division"
+          }
+        ],
+        "question": "Share 16 cookies equally into 4 groups. How many in each group?",
+        "question_id": "FE-T009",
+        "requires_transfer": true,
+        "source_tracebacks": [
+          {
+            "concept": "counting",
+            "expected_motif": "g1_counting_sequence",
+            "lesson_id": "G1-L001",
+            "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+            "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+          },
+          {
+            "concept": "one_digit_subtraction",
+            "expected_motif": "g1_take_away_subtraction",
+            "lesson_id": "G1-L003",
+            "rule": "One-digit subtraction removes the second one-digit quantity from the first and counts what remains.",
+            "trace_expectation": "A subtraction answer must cite a take-away motif and any counting dependency."
+          },
+          {
+            "concept": "division_as_grouping",
+            "expected_motif": "g2_equal_grouping_division",
+            "lesson_id": "G2-L006",
+            "rule": "Division by grouping partitions a total into equal-size groups with no remainder in this curriculum.",
+            "trace_expectation": "A division answer must cite equal grouping plus counting or subtraction motifs."
+          }
+        ],
+        "status": "ANSWERED",
+        "traceback_complete": true,
+        "unsupported": false,
+        "used_grade_1_motifs": [
+          "g1_counting_sequence",
+          "g1_take_away_subtraction"
+        ],
+        "used_grade_2_motifs": [
+          "g2_equal_grouping_division"
+        ]
+      },
+      {
+        "answer": "37",
+        "concept": "number_comparison",
+        "concept_pathway": [
+          "counting",
+          "number_comparison",
+          "place_value"
+        ],
+        "confidence": 0.79,
+        "correct": true,
+        "deterministic_replay_match": true,
+        "expected_answer": "37",
+        "motif_lineage": [
+          {
+            "concept": "counting",
+            "grade": 1,
+            "lesson_id": "G1-L001",
+            "motif_id": "g1_counting_sequence"
+          },
+          {
+            "concept": "number_comparison",
+            "grade": 1,
+            "lesson_id": "G1-L005",
+            "motif_id": "g1_number_order_comparison"
+          },
+          {
+            "concept": "place_value",
+            "grade": 2,
+            "lesson_id": "G2-L003",
+            "motif_id": "g2_tens_ones_place_value"
+          }
+        ],
+        "question": "Which is larger: 37 or 29?",
+        "question_id": "FE-T010",
+        "requires_transfer": true,
+        "source_tracebacks": [
+          {
+            "concept": "counting",
+            "expected_motif": "g1_counting_sequence",
+            "lesson_id": "G1-L001",
+            "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+            "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+          },
+          {
+            "concept": "number_comparison",
+            "expected_motif": "g1_number_order_comparison",
+            "lesson_id": "G1-L005",
+            "rule": "The larger number comes later in the counting sequence; the smaller number comes earlier.",
+            "trace_expectation": "A comparison answer must cite the number-order motif and any place-value dependency for two-digit numbers."
+          },
+          {
+            "concept": "place_value",
+            "expected_motif": "g2_tens_ones_place_value",
+            "lesson_id": "G2-L003",
+            "rule": "In a two-digit number, the left digit counts tens and the right digit counts ones.",
+            "trace_expectation": "A place-value answer must cite the tens-and-ones motif and counting sequence motif."
+          }
+        ],
+        "status": "ANSWERED",
+        "traceback_complete": true,
+        "unsupported": false,
+        "used_grade_1_motifs": [
+          "g1_counting_sequence",
+          "g1_number_order_comparison"
+        ],
+        "used_grade_2_motifs": [
+          "g2_tens_ones_place_value"
+        ]
+      }
+    ],
+    "total_items": 10,
+    "traceback_completeness": 1.0,
+    "unsupported_answers": 0
+  },
+  "phase": "no_llm_cli_final_exam",
+  "same_exam_used_for_all_states": true,
+  "verdict": "VERY_STRONG_SIGNAL"
+}

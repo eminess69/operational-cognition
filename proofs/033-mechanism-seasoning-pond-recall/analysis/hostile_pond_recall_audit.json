@@ -1,0 +1,51 @@
+{
+  "attacks": [
+    {
+      "attack": "CLI hardcoding",
+      "finding": "Survives in bounded form. The CLI still contains fixed mechanism role and consequence cues in the local state.",
+      "status": "survives_bounded"
+    },
+    {
+      "attack": "parser behavior",
+      "finding": "Survives. Mentor candidate extraction uses deterministic cue scoring over the held-out text.",
+      "status": "survives"
+    },
+    {
+      "attack": "generic consult pressure",
+      "finding": "Rejected for this run: generic consults returned no mechanism candidates and scored below targeted recall.",
+      "status": "mostly_rejected"
+    },
+    {
+      "attack": "answer leakage",
+      "finding": "Partially controlled. Consult requests did not include expected_mechanism fields, but cases and extractor were authored in the same harness.",
+      "status": "survives_partially"
+    },
+    {
+      "attack": "pond recall not actually used",
+      "finding": "Rejected for CLI execution: targeted answer rows include used_pond_recall=true and cite recall lineages/motifs.",
+      "status": "rejected_for_execution"
+    },
+    {
+      "attack": "irrelevant pond recall",
+      "finding": "Survives partially. MCP returned pond-backed lineages, but explicit mechanism candidates were mentor-extracted rather than independently emitted by the adapter.",
+      "status": "survives_partially"
+    }
+  ],
+  "hostile_verdict": "WEAK_SIGNAL",
+  "invalidated_claims": [
+    "The pond independently learned and emitted explicit FLOW/SUPPORTED_ROTATION/LOAD_TRANSFER candidates.",
+    "The result cannot be explained by deterministic parser behavior.",
+    "The result establishes broad mechanism cognition beyond the bounded three-mechanism curriculum.",
+    "The generic MCP substrate alone is sufficient without Codex mentor extraction."
+  ],
+  "original_verdict": "STRONG_SIGNAL",
+  "remaining_generic_consult_explanation": false,
+  "remaining_parser_explanation": true,
+  "remaining_pond_recall_explanation": true,
+  "surviving_claims": [
+    "The proof used live /consult calls before final targeted mechanism inference.",
+    "MCP responses were pond-backed and traceable by request/response/runtime hashes.",
+    "The CLI consumed per-case recall JSON and exposed used_pond_recall, used_recalled_lineages, and used_recalled_motifs.",
+    "Targeted, Codex-mentored recall outperformed no-recall and generic-consult baselines in this closed three-mechanism harness."
+  ]
+}

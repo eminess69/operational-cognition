@@ -1,0 +1,187 @@
+{
+  "concepts": {
+    "counting": {
+      "first_grade": 1,
+      "lesson_ids": [
+        "G1-L001"
+      ],
+      "motifs": [
+        "g1_counting_sequence"
+      ]
+    },
+    "equality": {
+      "first_grade": 1,
+      "lesson_ids": [
+        "G1-L004"
+      ],
+      "motifs": [
+        "g1_same_value_equality"
+      ]
+    },
+    "number_comparison": {
+      "first_grade": 1,
+      "lesson_ids": [
+        "G1-L005"
+      ],
+      "motifs": [
+        "g1_number_order_comparison"
+      ]
+    },
+    "one_digit_addition": {
+      "first_grade": 1,
+      "lesson_ids": [
+        "G1-L002"
+      ],
+      "motifs": [
+        "g1_count_forward_addition"
+      ]
+    },
+    "one_digit_subtraction": {
+      "first_grade": 1,
+      "lesson_ids": [
+        "G1-L003"
+      ],
+      "motifs": [
+        "g1_take_away_subtraction"
+      ]
+    },
+    "simple_word_problems": {
+      "first_grade": 1,
+      "lesson_ids": [
+        "G1-L006"
+      ],
+      "motifs": [
+        "g1_word_problem_operation_mapping"
+      ]
+    }
+  },
+  "lessons": {
+    "G1-L001": {
+      "concept": "counting",
+      "examples": [
+        "What number comes after 3? Answer 4.",
+        "Count 1, 2, 3, 4, 5; the last count names the quantity."
+      ],
+      "expected_motif": "g1_counting_sequence",
+      "lesson_id": "G1-L001",
+      "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+      "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+    },
+    "G1-L002": {
+      "concept": "one_digit_addition",
+      "examples": [
+        "What is 2 + 3? Answer 5.",
+        "What is 6 + 1? Answer 7."
+      ],
+      "expected_motif": "g1_count_forward_addition",
+      "lesson_id": "G1-L002",
+      "rule": "One-digit addition combines two one-digit quantities by counting forward the second amount.",
+      "trace_expectation": "An addition answer must cite a one-digit addition motif and any counting dependency."
+    },
+    "G1-L003": {
+      "concept": "one_digit_subtraction",
+      "examples": [
+        "What is 7 - 2? Answer 5.",
+        "What is 9 - 4? Answer 5."
+      ],
+      "expected_motif": "g1_take_away_subtraction",
+      "lesson_id": "G1-L003",
+      "rule": "One-digit subtraction removes the second one-digit quantity from the first and counts what remains.",
+      "trace_expectation": "A subtraction answer must cite a take-away motif and any counting dependency."
+    },
+    "G1-L004": {
+      "concept": "equality",
+      "examples": [
+        "Does 3 + 2 = 5? Answer true.",
+        "Is 4 = 6? Answer false."
+      ],
+      "expected_motif": "g1_same_value_equality",
+      "lesson_id": "G1-L004",
+      "rule": "Equality is true when both sides name the same value and false otherwise.",
+      "trace_expectation": "An equality answer must cite the equality comparison motif and the operation used to evaluate each side."
+    },
+    "G1-L005": {
+      "concept": "number_comparison",
+      "examples": [
+        "Which is larger: 8 or 5? Answer 8.",
+        "Which is smaller: 2 or 6? Answer 2."
+      ],
+      "expected_motif": "g1_number_order_comparison",
+      "lesson_id": "G1-L005",
+      "rule": "The larger number comes later in the counting sequence; the smaller number comes earlier.",
+      "trace_expectation": "A comparison answer must cite the number-order motif and any place-value dependency for two-digit numbers."
+    },
+    "G1-L006": {
+      "concept": "simple_word_problems",
+      "examples": [
+        "Mia has 2 shells and finds 3 more. How many shells now? Answer 5.",
+        "Leo has 6 blocks and gives away 2. How many blocks remain? Answer 4."
+      ],
+      "expected_motif": "g1_word_problem_operation_mapping",
+      "lesson_id": "G1-L006",
+      "rule": "Simple word problems map 'more' language to addition and 'give away' or 'fly away' language to subtraction.",
+      "trace_expectation": "A word-problem answer must cite the language-to-operation motif plus the arithmetic motif used."
+    }
+  },
+  "motifs": {
+    "g1_count_forward_addition": {
+      "concept": "one_digit_addition",
+      "examples_hash": "e81eda5966d40b43a2fa3b2b600dea318d2389cb62f63c27d07a613e987ac0ad",
+      "grade": 1,
+      "lesson_id": "G1-L002",
+      "rule": "One-digit addition combines two one-digit quantities by counting forward the second amount.",
+      "trace_expectation": "An addition answer must cite a one-digit addition motif and any counting dependency."
+    },
+    "g1_counting_sequence": {
+      "concept": "counting",
+      "examples_hash": "741a24eac4b0718234d68a2196473ab30b28beeeb0b28e74e759d59bf53d2f86",
+      "grade": 1,
+      "lesson_id": "G1-L001",
+      "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+      "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+    },
+    "g1_number_order_comparison": {
+      "concept": "number_comparison",
+      "examples_hash": "2293f812d06d162cc013c3ac2033e9979d864115eff7b95b6ac7811a97a03871",
+      "grade": 1,
+      "lesson_id": "G1-L005",
+      "rule": "The larger number comes later in the counting sequence; the smaller number comes earlier.",
+      "trace_expectation": "A comparison answer must cite the number-order motif and any place-value dependency for two-digit numbers."
+    },
+    "g1_same_value_equality": {
+      "concept": "equality",
+      "examples_hash": "d61f7f77c5f2f99e233bfdc79f94cc029da5752d72f52a4d72f56decb47495f3",
+      "grade": 1,
+      "lesson_id": "G1-L004",
+      "rule": "Equality is true when both sides name the same value and false otherwise.",
+      "trace_expectation": "An equality answer must cite the equality comparison motif and the operation used to evaluate each side."
+    },
+    "g1_take_away_subtraction": {
+      "concept": "one_digit_subtraction",
+      "examples_hash": "6b899e81627bf45cda2cdd53110be16f08c7c89fe2284dd96c2a9182110d7d61",
+      "grade": 1,
+      "lesson_id": "G1-L003",
+      "rule": "One-digit subtraction removes the second one-digit quantity from the first and counts what remains.",
+      "trace_expectation": "A subtraction answer must cite a take-away motif and any counting dependency."
+    },
+    "g1_word_problem_operation_mapping": {
+      "concept": "simple_word_problems",
+      "examples_hash": "3e544d73efef13aa67d974a2713f4065a63358e03dbd6623701ebc71ac3e3a6d",
+      "grade": 1,
+      "lesson_id": "G1-L006",
+      "rule": "Simple word problems map 'more' language to addition and 'give away' or 'fly away' language to subtraction.",
+      "trace_expectation": "A word-problem answer must cite the language-to-operation motif plus the arithmetic motif used."
+    }
+  },
+  "schema_version": "math_pond_state.v1",
+  "seasoned_lesson_ids": [
+    "G1-L001",
+    "G1-L002",
+    "G1-L003",
+    "G1-L004",
+    "G1-L005",
+    "G1-L006"
+  ],
+  "state_hash": "494716a9f9dfc938665fe5fd238e5f47c462567a37984151db1ebbc5d8c29862",
+  "state_id": "grade_1_seasoned"
+}

@@ -1,0 +1,414 @@
+{
+  "accuracy": 1.0,
+  "answered_items": 7,
+  "deterministic_replay_match": true,
+  "execution_mode": "deterministic_cli_no_llm",
+  "items": [
+    {
+      "answer": "7",
+      "concept": "counting",
+      "concept_pathway": [
+        "counting"
+      ],
+      "confidence": 0.63,
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_answer": "7",
+      "motif_lineage": [
+        {
+          "concept": "counting",
+          "grade": 1,
+          "lesson_id": "G1-L001",
+          "motif_id": "g1_counting_sequence"
+        }
+      ],
+      "question": "What number comes after 6?",
+      "question_id": "G1-T001",
+      "requires_transfer": true,
+      "source_tracebacks": [
+        {
+          "concept": "counting",
+          "expected_motif": "g1_counting_sequence",
+          "lesson_id": "G1-L001",
+          "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+          "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+        }
+      ],
+      "status": "ANSWERED",
+      "traceback_complete": true,
+      "unsupported": false,
+      "used_grade_1_motifs": [
+        "g1_counting_sequence"
+      ],
+      "used_grade_2_motifs": []
+    },
+    {
+      "answer": "9",
+      "concept": "one_digit_addition",
+      "concept_pathway": [
+        "counting",
+        "one_digit_addition"
+      ],
+      "confidence": 0.71,
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_answer": "9",
+      "motif_lineage": [
+        {
+          "concept": "counting",
+          "grade": 1,
+          "lesson_id": "G1-L001",
+          "motif_id": "g1_counting_sequence"
+        },
+        {
+          "concept": "one_digit_addition",
+          "grade": 1,
+          "lesson_id": "G1-L002",
+          "motif_id": "g1_count_forward_addition"
+        }
+      ],
+      "question": "What is 4 + 5?",
+      "question_id": "G1-T002",
+      "requires_transfer": true,
+      "source_tracebacks": [
+        {
+          "concept": "counting",
+          "expected_motif": "g1_counting_sequence",
+          "lesson_id": "G1-L001",
+          "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+          "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+        },
+        {
+          "concept": "one_digit_addition",
+          "expected_motif": "g1_count_forward_addition",
+          "lesson_id": "G1-L002",
+          "rule": "One-digit addition combines two one-digit quantities by counting forward the second amount.",
+          "trace_expectation": "An addition answer must cite a one-digit addition motif and any counting dependency."
+        }
+      ],
+      "status": "ANSWERED",
+      "traceback_complete": true,
+      "unsupported": false,
+      "used_grade_1_motifs": [
+        "g1_count_forward_addition",
+        "g1_counting_sequence"
+      ],
+      "used_grade_2_motifs": []
+    },
+    {
+      "answer": "6",
+      "concept": "one_digit_subtraction",
+      "concept_pathway": [
+        "counting",
+        "one_digit_subtraction"
+      ],
+      "confidence": 0.71,
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_answer": "6",
+      "motif_lineage": [
+        {
+          "concept": "counting",
+          "grade": 1,
+          "lesson_id": "G1-L001",
+          "motif_id": "g1_counting_sequence"
+        },
+        {
+          "concept": "one_digit_subtraction",
+          "grade": 1,
+          "lesson_id": "G1-L003",
+          "motif_id": "g1_take_away_subtraction"
+        }
+      ],
+      "question": "What is 9 - 3?",
+      "question_id": "G1-T003",
+      "requires_transfer": true,
+      "source_tracebacks": [
+        {
+          "concept": "counting",
+          "expected_motif": "g1_counting_sequence",
+          "lesson_id": "G1-L001",
+          "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+          "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+        },
+        {
+          "concept": "one_digit_subtraction",
+          "expected_motif": "g1_take_away_subtraction",
+          "lesson_id": "G1-L003",
+          "rule": "One-digit subtraction removes the second one-digit quantity from the first and counts what remains.",
+          "trace_expectation": "A subtraction answer must cite a take-away motif and any counting dependency."
+        }
+      ],
+      "status": "ANSWERED",
+      "traceback_complete": true,
+      "unsupported": false,
+      "used_grade_1_motifs": [
+        "g1_counting_sequence",
+        "g1_take_away_subtraction"
+      ],
+      "used_grade_2_motifs": []
+    },
+    {
+      "answer": "true",
+      "concept": "equality",
+      "concept_pathway": [
+        "counting",
+        "one_digit_addition",
+        "equality"
+      ],
+      "confidence": 0.79,
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_answer": "true",
+      "motif_lineage": [
+        {
+          "concept": "counting",
+          "grade": 1,
+          "lesson_id": "G1-L001",
+          "motif_id": "g1_counting_sequence"
+        },
+        {
+          "concept": "one_digit_addition",
+          "grade": 1,
+          "lesson_id": "G1-L002",
+          "motif_id": "g1_count_forward_addition"
+        },
+        {
+          "concept": "equality",
+          "grade": 1,
+          "lesson_id": "G1-L004",
+          "motif_id": "g1_same_value_equality"
+        }
+      ],
+      "question": "Does 4 + 2 = 6?",
+      "question_id": "G1-T004",
+      "requires_transfer": true,
+      "source_tracebacks": [
+        {
+          "concept": "counting",
+          "expected_motif": "g1_counting_sequence",
+          "lesson_id": "G1-L001",
+          "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+          "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+        },
+        {
+          "concept": "one_digit_addition",
+          "expected_motif": "g1_count_forward_addition",
+          "lesson_id": "G1-L002",
+          "rule": "One-digit addition combines two one-digit quantities by counting forward the second amount.",
+          "trace_expectation": "An addition answer must cite a one-digit addition motif and any counting dependency."
+        },
+        {
+          "concept": "equality",
+          "expected_motif": "g1_same_value_equality",
+          "lesson_id": "G1-L004",
+          "rule": "Equality is true when both sides name the same value and false otherwise.",
+          "trace_expectation": "An equality answer must cite the equality comparison motif and the operation used to evaluate each side."
+        }
+      ],
+      "status": "ANSWERED",
+      "traceback_complete": true,
+      "unsupported": false,
+      "used_grade_1_motifs": [
+        "g1_count_forward_addition",
+        "g1_counting_sequence",
+        "g1_same_value_equality"
+      ],
+      "used_grade_2_motifs": []
+    },
+    {
+      "answer": "8",
+      "concept": "number_comparison",
+      "concept_pathway": [
+        "counting",
+        "number_comparison"
+      ],
+      "confidence": 0.71,
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_answer": "8",
+      "motif_lineage": [
+        {
+          "concept": "counting",
+          "grade": 1,
+          "lesson_id": "G1-L001",
+          "motif_id": "g1_counting_sequence"
+        },
+        {
+          "concept": "number_comparison",
+          "grade": 1,
+          "lesson_id": "G1-L005",
+          "motif_id": "g1_number_order_comparison"
+        }
+      ],
+      "question": "Which is larger: 8 or 5?",
+      "question_id": "G1-T005",
+      "requires_transfer": true,
+      "source_tracebacks": [
+        {
+          "concept": "counting",
+          "expected_motif": "g1_counting_sequence",
+          "lesson_id": "G1-L001",
+          "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+          "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+        },
+        {
+          "concept": "number_comparison",
+          "expected_motif": "g1_number_order_comparison",
+          "lesson_id": "G1-L005",
+          "rule": "The larger number comes later in the counting sequence; the smaller number comes earlier.",
+          "trace_expectation": "A comparison answer must cite the number-order motif and any place-value dependency for two-digit numbers."
+        }
+      ],
+      "status": "ANSWERED",
+      "traceback_complete": true,
+      "unsupported": false,
+      "used_grade_1_motifs": [
+        "g1_counting_sequence",
+        "g1_number_order_comparison"
+      ],
+      "used_grade_2_motifs": []
+    },
+    {
+      "answer": "7",
+      "concept": "simple_word_problems",
+      "concept_pathway": [
+        "counting",
+        "one_digit_addition",
+        "simple_word_problems"
+      ],
+      "confidence": 0.79,
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_answer": "7",
+      "motif_lineage": [
+        {
+          "concept": "counting",
+          "grade": 1,
+          "lesson_id": "G1-L001",
+          "motif_id": "g1_counting_sequence"
+        },
+        {
+          "concept": "one_digit_addition",
+          "grade": 1,
+          "lesson_id": "G1-L002",
+          "motif_id": "g1_count_forward_addition"
+        },
+        {
+          "concept": "simple_word_problems",
+          "grade": 1,
+          "lesson_id": "G1-L006",
+          "motif_id": "g1_word_problem_operation_mapping"
+        }
+      ],
+      "question": "Lena has 3 crayons and finds 4 more. How many crayons now?",
+      "question_id": "G1-T006",
+      "requires_transfer": true,
+      "source_tracebacks": [
+        {
+          "concept": "counting",
+          "expected_motif": "g1_counting_sequence",
+          "lesson_id": "G1-L001",
+          "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+          "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+        },
+        {
+          "concept": "one_digit_addition",
+          "expected_motif": "g1_count_forward_addition",
+          "lesson_id": "G1-L002",
+          "rule": "One-digit addition combines two one-digit quantities by counting forward the second amount.",
+          "trace_expectation": "An addition answer must cite a one-digit addition motif and any counting dependency."
+        },
+        {
+          "concept": "simple_word_problems",
+          "expected_motif": "g1_word_problem_operation_mapping",
+          "lesson_id": "G1-L006",
+          "rule": "Simple word problems map 'more' language to addition and 'give away' or 'fly away' language to subtraction.",
+          "trace_expectation": "A word-problem answer must cite the language-to-operation motif plus the arithmetic motif used."
+        }
+      ],
+      "status": "ANSWERED",
+      "traceback_complete": true,
+      "unsupported": false,
+      "used_grade_1_motifs": [
+        "g1_count_forward_addition",
+        "g1_counting_sequence",
+        "g1_word_problem_operation_mapping"
+      ],
+      "used_grade_2_motifs": []
+    },
+    {
+      "answer": "5",
+      "concept": "simple_word_problems",
+      "concept_pathway": [
+        "counting",
+        "one_digit_subtraction",
+        "simple_word_problems"
+      ],
+      "confidence": 0.79,
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_answer": "5",
+      "motif_lineage": [
+        {
+          "concept": "counting",
+          "grade": 1,
+          "lesson_id": "G1-L001",
+          "motif_id": "g1_counting_sequence"
+        },
+        {
+          "concept": "one_digit_subtraction",
+          "grade": 1,
+          "lesson_id": "G1-L003",
+          "motif_id": "g1_take_away_subtraction"
+        },
+        {
+          "concept": "simple_word_problems",
+          "grade": 1,
+          "lesson_id": "G1-L006",
+          "motif_id": "g1_word_problem_operation_mapping"
+        }
+      ],
+      "question": "Tom has 7 marbles and gives away 2. How many marbles remain?",
+      "question_id": "G1-T007",
+      "requires_transfer": true,
+      "source_tracebacks": [
+        {
+          "concept": "counting",
+          "expected_motif": "g1_counting_sequence",
+          "lesson_id": "G1-L001",
+          "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+          "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+        },
+        {
+          "concept": "one_digit_subtraction",
+          "expected_motif": "g1_take_away_subtraction",
+          "lesson_id": "G1-L003",
+          "rule": "One-digit subtraction removes the second one-digit quantity from the first and counts what remains.",
+          "trace_expectation": "A subtraction answer must cite a take-away motif and any counting dependency."
+        },
+        {
+          "concept": "simple_word_problems",
+          "expected_motif": "g1_word_problem_operation_mapping",
+          "lesson_id": "G1-L006",
+          "rule": "Simple word problems map 'more' language to addition and 'give away' or 'fly away' language to subtraction.",
+          "trace_expectation": "A word-problem answer must cite the language-to-operation motif plus the arithmetic motif used."
+        }
+      ],
+      "status": "ANSWERED",
+      "traceback_complete": true,
+      "unsupported": false,
+      "used_grade_1_motifs": [
+        "g1_counting_sequence",
+        "g1_take_away_subtraction",
+        "g1_word_problem_operation_mapping"
+      ],
+      "used_grade_2_motifs": []
+    }
+  ],
+  "phase": "grade_1_test",
+  "pond_state": "grade_1_seasoned",
+  "total_items": 7,
+  "traceback_completeness": 1.0,
+  "unsupported_answers": 0
+}

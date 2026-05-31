@@ -1,0 +1,11 @@
+{
+  "deterministic_replay_match": true,
+  "distractor_accuracy": 1.0,
+  "multistep_accuracy": 1.0,
+  "out_of_scope_fail_closed_rate": 1.0,
+  "parser_match_rate": 0.15,
+  "reversed_accuracy": 1.0,
+  "reworded_accuracy": 1.0,
+  "structure_reuse_rate": 0.85,
+  "unsupported_answer_count": 0
+}

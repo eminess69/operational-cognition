@@ -1,0 +1,26 @@
+{
+  "concept_count": 6,
+  "formed_motifs": [
+    "g1_count_forward_addition",
+    "g1_counting_sequence",
+    "g1_number_order_comparison",
+    "g1_same_value_equality",
+    "g1_take_away_subtraction",
+    "g1_word_problem_operation_mapping"
+  ],
+  "ingested_lessons": [
+    "G1-L001",
+    "G1-L002",
+    "G1-L003",
+    "G1-L004",
+    "G1-L005",
+    "G1-L006"
+  ],
+  "lesson_count": 6,
+  "motif_count": 6,
+  "rejected_lessons": [],
+  "seasoning_mode": "deterministic_jsonl_ingest",
+  "state_hash": "494716a9f9dfc938665fe5fd238e5f47c462567a37984151db1ebbc5d8c29862",
+  "state_id": "grade_1_seasoned",
+  "traceback_policy": "Every answered item must include source_tracebacks to lesson_id, rule, trace_expectation, and expected_motif."
+}

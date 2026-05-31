@@ -1,0 +1,203 @@
+{
+  "hidden_cause_inference_rate": 1.0,
+  "items": [
+    {
+      "classification": "CONSEQUENCE_INFERENCE",
+      "explicit_role_present": false,
+      "hidden_cause_inferred": true,
+      "mechanism": "supported_rotation",
+      "question_id": "CO-001"
+    },
+    {
+      "classification": "CONSEQUENCE_INFERENCE",
+      "explicit_role_present": false,
+      "hidden_cause_inferred": true,
+      "mechanism": "flow",
+      "question_id": "CO-002"
+    },
+    {
+      "classification": "CONSEQUENCE_INFERENCE",
+      "explicit_role_present": false,
+      "hidden_cause_inferred": true,
+      "mechanism": "load_transfer",
+      "question_id": "CO-003"
+    },
+    {
+      "classification": "CONSEQUENCE_INFERENCE",
+      "explicit_role_present": false,
+      "hidden_cause_inferred": true,
+      "mechanism": "supported_rotation",
+      "question_id": "CO-004"
+    },
+    {
+      "classification": "CONSEQUENCE_INFERENCE",
+      "explicit_role_present": false,
+      "hidden_cause_inferred": true,
+      "mechanism": "flow",
+      "question_id": "CO-005"
+    },
+    {
+      "classification": "CONSEQUENCE_INFERENCE",
+      "explicit_role_present": false,
+      "hidden_cause_inferred": true,
+      "mechanism": "load_transfer",
+      "question_id": "CO-006"
+    },
+    {
+      "classification": "CONSEQUENCE_INFERENCE",
+      "explicit_role_present": false,
+      "hidden_cause_inferred": true,
+      "mechanism": "supported_rotation",
+      "question_id": "RE-001"
+    },
+    {
+      "classification": "CONSEQUENCE_INFERENCE",
+      "explicit_role_present": false,
+      "hidden_cause_inferred": true,
+      "mechanism": "flow",
+      "question_id": "RE-002"
+    },
+    {
+      "classification": "CONSEQUENCE_INFERENCE",
+      "explicit_role_present": false,
+      "hidden_cause_inferred": true,
+      "mechanism": "load_transfer",
+      "question_id": "RE-003"
+    },
+    {
+      "classification": "CONSEQUENCE_INFERENCE",
+      "explicit_role_present": false,
+      "hidden_cause_inferred": true,
+      "mechanism": "supported_rotation",
+      "question_id": "RE-004"
+    },
+    {
+      "classification": "CONSEQUENCE_INFERENCE",
+      "explicit_role_present": false,
+      "hidden_cause_inferred": true,
+      "mechanism": "flow",
+      "question_id": "RE-005"
+    },
+    {
+      "classification": "CONSEQUENCE_INFERENCE",
+      "explicit_role_present": false,
+      "hidden_cause_inferred": true,
+      "mechanism": "load_transfer",
+      "question_id": "RE-006"
+    },
+    {
+      "classification": "RELATIONAL_INFERENCE",
+      "explicit_role_present": false,
+      "hidden_cause_inferred": true,
+      "mechanism": "supported_rotation",
+      "question_id": "MR-001"
+    },
+    {
+      "classification": "RELATIONAL_INFERENCE",
+      "explicit_role_present": false,
+      "hidden_cause_inferred": true,
+      "mechanism": "flow",
+      "question_id": "MR-002"
+    },
+    {
+      "classification": "RELATIONAL_INFERENCE",
+      "explicit_role_present": false,
+      "hidden_cause_inferred": true,
+      "mechanism": "load_transfer",
+      "question_id": "MR-003"
+    },
+    {
+      "classification": "RELATIONAL_INFERENCE",
+      "explicit_role_present": false,
+      "hidden_cause_inferred": true,
+      "mechanism": "supported_rotation",
+      "question_id": "MR-004"
+    },
+    {
+      "classification": "RELATIONAL_INFERENCE",
+      "explicit_role_present": false,
+      "hidden_cause_inferred": true,
+      "mechanism": "flow",
+      "question_id": "MR-005"
+    },
+    {
+      "classification": "RELATIONAL_INFERENCE",
+      "explicit_role_present": false,
+      "hidden_cause_inferred": true,
+      "mechanism": "load_transfer",
+      "question_id": "MR-006"
+    },
+    {
+      "classification": "RELATIONAL_INFERENCE",
+      "explicit_role_present": false,
+      "hidden_cause_inferred": true,
+      "mechanism": "supported_rotation",
+      "question_id": "MC-001"
+    },
+    {
+      "classification": "RELATIONAL_INFERENCE",
+      "explicit_role_present": false,
+      "hidden_cause_inferred": true,
+      "mechanism": "load_transfer",
+      "question_id": "MC-002"
+    },
+    {
+      "classification": "RELATIONAL_INFERENCE",
+      "explicit_role_present": false,
+      "hidden_cause_inferred": true,
+      "mechanism": "supported_rotation",
+      "question_id": "MC-003"
+    },
+    {
+      "classification": "RELATIONAL_INFERENCE",
+      "explicit_role_present": false,
+      "hidden_cause_inferred": true,
+      "mechanism": "load_transfer",
+      "question_id": "MC-004"
+    },
+    {
+      "classification": "CONSEQUENCE_INFERENCE",
+      "explicit_role_present": false,
+      "hidden_cause_inferred": true,
+      "mechanism": "supported_rotation",
+      "question_id": "NS-001"
+    },
+    {
+      "classification": "CONSEQUENCE_INFERENCE",
+      "explicit_role_present": false,
+      "hidden_cause_inferred": true,
+      "mechanism": "flow",
+      "question_id": "NS-002"
+    },
+    {
+      "classification": "CONSEQUENCE_INFERENCE",
+      "explicit_role_present": false,
+      "hidden_cause_inferred": true,
+      "mechanism": "load_transfer",
+      "question_id": "NS-003"
+    },
+    {
+      "classification": "CONSEQUENCE_INFERENCE",
+      "explicit_role_present": false,
+      "hidden_cause_inferred": true,
+      "mechanism": "supported_rotation",
+      "question_id": "NS-004"
+    },
+    {
+      "classification": "CONSEQUENCE_INFERENCE",
+      "explicit_role_present": false,
+      "hidden_cause_inferred": true,
+      "mechanism": "flow",
+      "question_id": "NS-005"
+    },
+    {
+      "classification": "CONSEQUENCE_INFERENCE",
+      "explicit_role_present": false,
+      "hidden_cause_inferred": true,
+      "mechanism": "load_transfer",
+      "question_id": "NS-006"
+    }
+  ],
+  "proof_id": "032-mechanistic-inference-challenge",
+  "question": "Did the system identify a mechanism without direct role cues?"
+}

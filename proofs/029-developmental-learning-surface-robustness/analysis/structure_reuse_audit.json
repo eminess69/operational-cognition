@@ -1,0 +1,522 @@
+{
+  "answered_item_count": 20,
+  "items": [
+    {
+      "classification": "AMBIGUOUS",
+      "composition_depth": 1,
+      "question_id": "RQ-001",
+      "source_lessons": [
+        "G1-L001",
+        "G1-L002"
+      ],
+      "structure_reuse_supported": true,
+      "used_motifs": [
+        "g1_count_forward_addition",
+        "g1_counting_sequence"
+      ],
+      "used_pathways": [
+        "pathway:counting->one_digit_addition",
+        "pathway:g1_counting->g1_one_digit_addition",
+        "pathway:g1_counting_sequence"
+      ]
+    },
+    {
+      "classification": "STRUCTURE_REUSE",
+      "composition_depth": 1,
+      "question_id": "RQ-002",
+      "source_lessons": [
+        "G1-L001",
+        "G1-L002",
+        "G2-L001",
+        "G2-L003"
+      ],
+      "structure_reuse_supported": true,
+      "used_motifs": [
+        "g1_count_forward_addition",
+        "g1_counting_sequence",
+        "g2_no_carry_column_addition",
+        "g2_tens_ones_place_value"
+      ],
+      "used_pathways": [
+        "pathway:counting->one_digit_addition->place_value->two_digit_addition_without_carrying",
+        "pathway:g1_addition->g2_place_value->g2_no_carry_addition",
+        "pathway:g1_counting->g1_one_digit_addition",
+        "pathway:g1_counting->g2_tens_ones_place_value",
+        "pathway:g1_counting_sequence"
+      ]
+    },
+    {
+      "classification": "PARSER_MATCH",
+      "composition_depth": 1,
+      "question_id": "RQ-003",
+      "source_lessons": [
+        "G1-L001",
+        "G1-L003",
+        "G2-L002",
+        "G2-L003"
+      ],
+      "structure_reuse_supported": false,
+      "used_motifs": [
+        "g1_counting_sequence",
+        "g1_take_away_subtraction",
+        "g2_no_borrow_column_subtraction",
+        "g2_tens_ones_place_value"
+      ],
+      "used_pathways": [
+        "pathway:counting->one_digit_subtraction->place_value->two_digit_subtraction_without_borrowing",
+        "pathway:g1_counting->g1_one_digit_subtraction",
+        "pathway:g1_counting->g2_tens_ones_place_value",
+        "pathway:g1_counting_sequence",
+        "pathway:g1_subtraction->g2_place_value->g2_no_borrow_subtraction"
+      ]
+    },
+    {
+      "classification": "PARSER_MATCH",
+      "composition_depth": 1,
+      "question_id": "RQ-004",
+      "source_lessons": [
+        "G1-L001",
+        "G1-L002",
+        "G2-L004"
+      ],
+      "structure_reuse_supported": false,
+      "used_motifs": [
+        "g1_count_forward_addition",
+        "g1_counting_sequence",
+        "g2_fixed_step_skip_counting"
+      ],
+      "used_pathways": [
+        "pathway:counting->one_digit_addition->skip_counting",
+        "pathway:g1_addition->g2_fixed_step_skip_counting",
+        "pathway:g1_counting->g1_one_digit_addition",
+        "pathway:g1_counting_sequence"
+      ]
+    },
+    {
+      "classification": "PARSER_MATCH",
+      "composition_depth": 1,
+      "question_id": "RQ-005",
+      "source_lessons": [
+        "G1-L001",
+        "G2-L003"
+      ],
+      "structure_reuse_supported": false,
+      "used_motifs": [
+        "g1_counting_sequence",
+        "g2_tens_ones_place_value"
+      ],
+      "used_pathways": [
+        "pathway:counting->place_value",
+        "pathway:g1_counting->g2_tens_ones_place_value",
+        "pathway:g1_counting_sequence"
+      ]
+    },
+    {
+      "classification": "STRUCTURE_REUSE",
+      "composition_depth": 1,
+      "question_id": "DQ-001",
+      "source_lessons": [
+        "G1-L001",
+        "G1-L002",
+        "G1-L006"
+      ],
+      "structure_reuse_supported": true,
+      "used_motifs": [
+        "g1_count_forward_addition",
+        "g1_counting_sequence",
+        "g1_word_problem_operation_mapping"
+      ],
+      "used_pathways": [
+        "pathway:counting->one_digit_addition->simple_word_problems",
+        "pathway:g1_counting->g1_one_digit_addition",
+        "pathway:g1_counting_sequence",
+        "pathway:g1_language_to_operation"
+      ]
+    },
+    {
+      "classification": "STRUCTURE_REUSE",
+      "composition_depth": 1,
+      "question_id": "DQ-002",
+      "source_lessons": [
+        "G1-L001",
+        "G1-L002",
+        "G1-L006",
+        "G2-L001",
+        "G2-L003"
+      ],
+      "structure_reuse_supported": true,
+      "used_motifs": [
+        "g1_count_forward_addition",
+        "g1_counting_sequence",
+        "g1_word_problem_operation_mapping",
+        "g2_no_carry_column_addition",
+        "g2_tens_ones_place_value"
+      ],
+      "used_pathways": [
+        "pathway:counting->one_digit_addition->place_value->two_digit_addition_without_carrying->simple_word_problems",
+        "pathway:g1_addition->g2_place_value->g2_no_carry_addition",
+        "pathway:g1_counting->g1_one_digit_addition",
+        "pathway:g1_counting->g2_tens_ones_place_value",
+        "pathway:g1_counting_sequence",
+        "pathway:g1_language_to_operation"
+      ]
+    },
+    {
+      "classification": "STRUCTURE_REUSE",
+      "composition_depth": 1,
+      "question_id": "DQ-003",
+      "source_lessons": [
+        "G1-L001",
+        "G1-L002",
+        "G1-L006"
+      ],
+      "structure_reuse_supported": true,
+      "used_motifs": [
+        "g1_count_forward_addition",
+        "g1_counting_sequence",
+        "g1_word_problem_operation_mapping"
+      ],
+      "used_pathways": [
+        "pathway:counting->one_digit_addition->simple_word_problems",
+        "pathway:g1_counting->g1_one_digit_addition",
+        "pathway:g1_counting_sequence",
+        "pathway:g1_language_to_operation"
+      ]
+    },
+    {
+      "classification": "STRUCTURE_REUSE",
+      "composition_depth": 1,
+      "question_id": "DQ-004",
+      "source_lessons": [
+        "G1-L001",
+        "G1-L003",
+        "G1-L006",
+        "G2-L002",
+        "G2-L003"
+      ],
+      "structure_reuse_supported": true,
+      "used_motifs": [
+        "g1_counting_sequence",
+        "g1_take_away_subtraction",
+        "g1_word_problem_operation_mapping",
+        "g2_no_borrow_column_subtraction",
+        "g2_tens_ones_place_value"
+      ],
+      "used_pathways": [
+        "pathway:counting->one_digit_subtraction->place_value->two_digit_subtraction_without_borrowing->simple_word_problems",
+        "pathway:g1_counting->g1_one_digit_subtraction",
+        "pathway:g1_counting->g2_tens_ones_place_value",
+        "pathway:g1_counting_sequence",
+        "pathway:g1_language_to_operation",
+        "pathway:g1_subtraction->g2_place_value->g2_no_borrow_subtraction"
+      ]
+    },
+    {
+      "classification": "STRUCTURE_REUSE",
+      "composition_depth": 1,
+      "question_id": "DQ-005",
+      "source_lessons": [
+        "G1-L001",
+        "G1-L002",
+        "G1-L006",
+        "G2-L005"
+      ],
+      "structure_reuse_supported": true,
+      "used_motifs": [
+        "g1_count_forward_addition",
+        "g1_counting_sequence",
+        "g1_word_problem_operation_mapping",
+        "g2_equal_groups_repeated_addition"
+      ],
+      "used_pathways": [
+        "pathway:counting->one_digit_addition->multiplication_as_repeated_addition->simple_word_problems",
+        "pathway:g1_addition->g2_equal_groups_repeated_addition",
+        "pathway:g1_counting->g1_one_digit_addition",
+        "pathway:g1_counting_sequence",
+        "pathway:g1_language_to_operation"
+      ]
+    },
+    {
+      "classification": "STRUCTURE_REUSE",
+      "composition_depth": 2,
+      "question_id": "RV-001",
+      "source_lessons": [
+        "G1-L001",
+        "G1-L002",
+        "G1-L004"
+      ],
+      "structure_reuse_supported": true,
+      "used_motifs": [
+        "g1_count_forward_addition",
+        "g1_counting_sequence",
+        "g1_same_value_equality"
+      ],
+      "used_pathways": [
+        "pathway:counting->one_digit_addition->equality",
+        "pathway:g1_counting->g1_one_digit_addition",
+        "pathway:g1_counting_sequence",
+        "pathway:g1_equality_check"
+      ]
+    },
+    {
+      "classification": "STRUCTURE_REUSE",
+      "composition_depth": 2,
+      "question_id": "RV-002",
+      "source_lessons": [
+        "G1-L001",
+        "G1-L002",
+        "G1-L003",
+        "G1-L004",
+        "G1-L006"
+      ],
+      "structure_reuse_supported": true,
+      "used_motifs": [
+        "g1_count_forward_addition",
+        "g1_counting_sequence",
+        "g1_same_value_equality",
+        "g1_take_away_subtraction",
+        "g1_word_problem_operation_mapping"
+      ],
+      "used_pathways": [
+        "pathway:counting->one_digit_addition->simple_word_problems->one_digit_subtraction->equality",
+        "pathway:g1_counting->g1_one_digit_addition",
+        "pathway:g1_counting->g1_one_digit_subtraction",
+        "pathway:g1_counting_sequence",
+        "pathway:g1_equality_check",
+        "pathway:g1_language_to_operation"
+      ]
+    },
+    {
+      "classification": "STRUCTURE_REUSE",
+      "composition_depth": 1,
+      "question_id": "RV-003",
+      "source_lessons": [
+        "G1-L001",
+        "G1-L005",
+        "G2-L003"
+      ],
+      "structure_reuse_supported": true,
+      "used_motifs": [
+        "g1_counting_sequence",
+        "g1_number_order_comparison",
+        "g2_tens_ones_place_value"
+      ],
+      "used_pathways": [
+        "pathway:counting->number_comparison->place_value",
+        "pathway:g1_counting->g1_number_order",
+        "pathway:g1_counting->g2_tens_ones_place_value",
+        "pathway:g1_counting_sequence"
+      ]
+    },
+    {
+      "classification": "STRUCTURE_REUSE",
+      "composition_depth": 2,
+      "question_id": "RV-004",
+      "source_lessons": [
+        "G1-L001",
+        "G1-L003",
+        "G1-L004",
+        "G2-L002",
+        "G2-L003"
+      ],
+      "structure_reuse_supported": true,
+      "used_motifs": [
+        "g1_counting_sequence",
+        "g1_same_value_equality",
+        "g1_take_away_subtraction",
+        "g2_no_borrow_column_subtraction",
+        "g2_tens_ones_place_value"
+      ],
+      "used_pathways": [
+        "pathway:counting->one_digit_subtraction->place_value->two_digit_subtraction_without_borrowing->equality",
+        "pathway:g1_counting->g1_one_digit_subtraction",
+        "pathway:g1_counting->g2_tens_ones_place_value",
+        "pathway:g1_counting_sequence",
+        "pathway:g1_equality_check",
+        "pathway:g1_subtraction->g2_place_value->g2_no_borrow_subtraction"
+      ]
+    },
+    {
+      "classification": "STRUCTURE_REUSE",
+      "composition_depth": 1,
+      "question_id": "RV-005",
+      "source_lessons": [
+        "G1-L001",
+        "G1-L005",
+        "G2-L003"
+      ],
+      "structure_reuse_supported": true,
+      "used_motifs": [
+        "g1_counting_sequence",
+        "g1_number_order_comparison",
+        "g2_tens_ones_place_value"
+      ],
+      "used_pathways": [
+        "pathway:counting->number_comparison->place_value",
+        "pathway:g1_counting->g1_number_order",
+        "pathway:g1_counting->g2_tens_ones_place_value",
+        "pathway:g1_counting_sequence"
+      ]
+    },
+    {
+      "classification": "STRUCTURE_REUSE",
+      "composition_depth": 2,
+      "question_id": "MS-001",
+      "source_lessons": [
+        "G1-L001",
+        "G1-L002",
+        "G1-L003",
+        "G1-L006",
+        "G2-L002",
+        "G2-L003",
+        "G2-L005"
+      ],
+      "structure_reuse_supported": true,
+      "used_motifs": [
+        "g1_count_forward_addition",
+        "g1_counting_sequence",
+        "g1_take_away_subtraction",
+        "g1_word_problem_operation_mapping",
+        "g2_equal_groups_repeated_addition",
+        "g2_no_borrow_column_subtraction",
+        "g2_tens_ones_place_value"
+      ],
+      "used_pathways": [
+        "pathway:counting->one_digit_addition->multiplication_as_repeated_addition->simple_word_problems->one_digit_subtraction->place_value->two_digit_subtraction_without_borrowing",
+        "pathway:g1_addition->g2_equal_groups_repeated_addition",
+        "pathway:g1_counting->g1_one_digit_addition",
+        "pathway:g1_counting->g1_one_digit_subtraction",
+        "pathway:g1_counting->g2_tens_ones_place_value",
+        "pathway:g1_counting_sequence",
+        "pathway:g1_language_to_operation",
+        "pathway:g1_subtraction->g2_place_value->g2_no_borrow_subtraction"
+      ]
+    },
+    {
+      "classification": "STRUCTURE_REUSE",
+      "composition_depth": 2,
+      "question_id": "MS-002",
+      "source_lessons": [
+        "G1-L001",
+        "G1-L002",
+        "G1-L003",
+        "G2-L001",
+        "G2-L002",
+        "G2-L003"
+      ],
+      "structure_reuse_supported": true,
+      "used_motifs": [
+        "g1_count_forward_addition",
+        "g1_counting_sequence",
+        "g1_take_away_subtraction",
+        "g2_no_borrow_column_subtraction",
+        "g2_no_carry_column_addition",
+        "g2_tens_ones_place_value"
+      ],
+      "used_pathways": [
+        "pathway:counting->one_digit_addition->place_value->two_digit_addition_without_carrying->one_digit_subtraction->two_digit_subtraction_without_borrowing",
+        "pathway:g1_addition->g2_place_value->g2_no_carry_addition",
+        "pathway:g1_counting->g1_one_digit_addition",
+        "pathway:g1_counting->g1_one_digit_subtraction",
+        "pathway:g1_counting->g2_tens_ones_place_value",
+        "pathway:g1_counting_sequence",
+        "pathway:g1_subtraction->g2_place_value->g2_no_borrow_subtraction"
+      ]
+    },
+    {
+      "classification": "STRUCTURE_REUSE",
+      "composition_depth": 2,
+      "question_id": "MS-003",
+      "source_lessons": [
+        "G1-L001",
+        "G1-L002",
+        "G1-L006",
+        "G2-L001",
+        "G2-L003",
+        "G2-L005"
+      ],
+      "structure_reuse_supported": true,
+      "used_motifs": [
+        "g1_count_forward_addition",
+        "g1_counting_sequence",
+        "g1_word_problem_operation_mapping",
+        "g2_equal_groups_repeated_addition",
+        "g2_no_carry_column_addition",
+        "g2_tens_ones_place_value"
+      ],
+      "used_pathways": [
+        "pathway:counting->one_digit_addition->multiplication_as_repeated_addition->simple_word_problems->place_value->two_digit_addition_without_carrying",
+        "pathway:g1_addition->g2_equal_groups_repeated_addition",
+        "pathway:g1_addition->g2_place_value->g2_no_carry_addition",
+        "pathway:g1_counting->g1_one_digit_addition",
+        "pathway:g1_counting->g2_tens_ones_place_value",
+        "pathway:g1_counting_sequence",
+        "pathway:g1_language_to_operation"
+      ]
+    },
+    {
+      "classification": "STRUCTURE_REUSE",
+      "composition_depth": 2,
+      "question_id": "MS-004",
+      "source_lessons": [
+        "G1-L001",
+        "G1-L002",
+        "G1-L003",
+        "G1-L006",
+        "G2-L001",
+        "G2-L002",
+        "G2-L003"
+      ],
+      "structure_reuse_supported": true,
+      "used_motifs": [
+        "g1_count_forward_addition",
+        "g1_counting_sequence",
+        "g1_take_away_subtraction",
+        "g1_word_problem_operation_mapping",
+        "g2_no_borrow_column_subtraction",
+        "g2_no_carry_column_addition",
+        "g2_tens_ones_place_value"
+      ],
+      "used_pathways": [
+        "pathway:counting->one_digit_addition->place_value->two_digit_addition_without_carrying->simple_word_problems->one_digit_subtraction->two_digit_subtraction_without_borrowing",
+        "pathway:g1_addition->g2_place_value->g2_no_carry_addition",
+        "pathway:g1_counting->g1_one_digit_addition",
+        "pathway:g1_counting->g1_one_digit_subtraction",
+        "pathway:g1_counting->g2_tens_ones_place_value",
+        "pathway:g1_counting_sequence",
+        "pathway:g1_language_to_operation",
+        "pathway:g1_subtraction->g2_place_value->g2_no_borrow_subtraction"
+      ]
+    },
+    {
+      "classification": "STRUCTURE_REUSE",
+      "composition_depth": 2,
+      "question_id": "MS-005",
+      "source_lessons": [
+        "G1-L001",
+        "G1-L002",
+        "G2-L001",
+        "G2-L003",
+        "G2-L004"
+      ],
+      "structure_reuse_supported": true,
+      "used_motifs": [
+        "g1_count_forward_addition",
+        "g1_counting_sequence",
+        "g2_fixed_step_skip_counting",
+        "g2_no_carry_column_addition",
+        "g2_tens_ones_place_value"
+      ],
+      "used_pathways": [
+        "pathway:counting->one_digit_addition->skip_counting->place_value->two_digit_addition_without_carrying",
+        "pathway:g1_addition->g2_fixed_step_skip_counting",
+        "pathway:g1_addition->g2_place_value->g2_no_carry_addition",
+        "pathway:g1_counting->g1_one_digit_addition",
+        "pathway:g1_counting->g2_tens_ones_place_value",
+        "pathway:g1_counting_sequence"
+      ]
+    }
+  ],
+  "proof_id": "029-developmental-learning-surface-robustness",
+  "structure_reuse_supported_count": 17
+}

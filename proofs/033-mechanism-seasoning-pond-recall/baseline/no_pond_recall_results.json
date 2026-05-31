@@ -1,0 +1,2989 @@
+{
+  "accuracy": 0.0833,
+  "answered_items": 2,
+  "correct_items": 2,
+  "deterministic_replay_match": true,
+  "execution_boundary": "deterministic_cli",
+  "fail_closed_items": 22,
+  "items": [
+    {
+      "answer": "",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [],
+      "case_id": "P033-FLOW-HO-001",
+      "case_type": "cue_removed",
+      "component_category": "",
+      "confidence": 0.0,
+      "confidence_ranking": [],
+      "consequence_features": [],
+      "consequence_lineage": [],
+      "correct": false,
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_mechanism": "flow",
+      "expected_reason": "Origin plus passage plus limiting throat produces reduced emergence.",
+      "fail_closed_reason": "insufficient_motif_support",
+      "identified_mechanism": "",
+      "inference_mode": "UNSUPPORTED",
+      "inspection_priority": "",
+      "matched_consequences": [],
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_lineage": [],
+      "observed_system": "People enter a museum entry area, use a roped passage, then bunch before a pinched throat; only a few emerge into the exhibit hall.",
+      "question": "Observed system: People enter a museum entry area, use a roped passage, then bunch before a pinched throat; only a few emerge into the exhibit hall. Question: Which learned mechanism structure should be applied?",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "supporting_motifs": [],
+      "surface_domain": "museum_entry",
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [],
+      "case_id": "P033-FLOW-HO-002",
+      "case_type": "consequence_only",
+      "component_category": "",
+      "confidence": 0.0,
+      "confidence_ranking": [],
+      "consequence_features": [],
+      "consequence_lineage": [],
+      "correct": false,
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_mechanism": "flow",
+      "expected_reason": "Sparse arrivals plus buildup before an unseen point are FLOW consequences.",
+      "fail_closed_reason": "insufficient_motif_support",
+      "identified_mechanism": "",
+      "inference_mode": "UNSUPPORTED",
+      "inspection_priority": "",
+      "matched_consequences": [],
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_lineage": [],
+      "observed_system": "The receiving side saw sparse arrivals, the waiting group before an unseen point grew, and later almost nothing emerged.",
+      "question": "Observed system: The receiving side saw sparse arrivals, the waiting group before an unseen point grew, and later almost nothing emerged. Question: Which learned mechanism structure should be applied?",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "supporting_motifs": [],
+      "surface_domain": "anonymous_transfer",
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "The system maps to Source -> Path -> Resistance -> Flow.",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 4,
+          "matched_role_count": 3,
+          "matched_roles": [
+            "source",
+            "path",
+            "flow"
+          ],
+          "mechanism_id": "flow",
+          "score": 3.2
+        },
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "fracture_growth"
+          ],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "failure"
+          ],
+          "mechanism_id": "load_transfer",
+          "score": 1.99
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 2,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "support"
+          ],
+          "mechanism_id": "supported_rotation",
+          "score": 1.1
+        }
+      ],
+      "candidate_mechanisms": [
+        "flow",
+        "load_transfer",
+        "supported_rotation"
+      ],
+      "case_id": "P033-FLOW-HO-003",
+      "case_type": "decoy",
+      "component_category": "path/resistance interface",
+      "confidence": 0.78,
+      "confidence_ranking": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequences": [],
+          "matched_role_count": 3,
+          "matched_roles": [
+            "source",
+            "path",
+            "flow"
+          ],
+          "mechanism_id": "flow",
+          "rank": 1,
+          "relative_confidence": 0.95,
+          "score": 3.2
+        },
+        {
+          "matched_consequence_count": 1,
+          "matched_consequences": [
+            "fracture_growth"
+          ],
+          "matched_role_count": 1,
+          "matched_roles": [
+            "failure"
+          ],
+          "mechanism_id": "load_transfer",
+          "rank": 2,
+          "relative_confidence": 0.6219,
+          "score": 1.99
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequences": [],
+          "matched_role_count": 1,
+          "matched_roles": [
+            "support"
+          ],
+          "mechanism_id": "supported_rotation",
+          "rank": 3,
+          "relative_confidence": 0.3438,
+          "score": 1.1
+        }
+      ],
+      "consequence_features": [],
+      "consequence_lineage": [],
+      "correct": true,
+      "deterministic_replay_match": true,
+      "evidence_features": [
+        {
+          "matched_cues": [
+            "origin"
+          ],
+          "motif": "Source",
+          "role_id": "source"
+        },
+        {
+          "matched_cues": [
+            "route",
+            "along"
+          ],
+          "motif": "Path",
+          "role_id": "path"
+        },
+        {
+          "matched_cues": [
+            "moves"
+          ],
+          "motif": "Flow",
+          "role_id": "flow"
+        }
+      ],
+      "expected_mechanism": "flow",
+      "expected_reason": "The active structure is transfer through a route limited by a gate, not rotation or load.",
+      "fail_closed_reason": "",
+      "identified_mechanism": "flow",
+      "inference_mode": "ROLE_MATCH",
+      "inspection_priority": "Inspect the highest-resistance segment of the path.",
+      "matched_consequences": [],
+      "matched_roles": [
+        {
+          "matched_cues": [
+            "origin"
+          ],
+          "motif": "Source",
+          "role_id": "source",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "route",
+            "along"
+          ],
+          "motif": "Path",
+          "role_id": "path",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "moves"
+          ],
+          "motif": "Flow",
+          "role_id": "flow",
+          "weight": 1.0
+        }
+      ],
+      "mechanism_explanation": "The observed system has movement through a path plus a restriction that reduces movement.",
+      "motif_lineage": [
+        {
+          "lesson_id": "MEC-L001",
+          "matched_cues": [
+            "origin"
+          ],
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "motif": "Source",
+          "role_id": "source"
+        },
+        {
+          "lesson_id": "MEC-L001",
+          "matched_cues": [
+            "route",
+            "along"
+          ],
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "motif": "Path",
+          "role_id": "path"
+        },
+        {
+          "lesson_id": "MEC-L001",
+          "matched_cues": [
+            "moves"
+          ],
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "motif": "Flow",
+          "role_id": "flow"
+        }
+      ],
+      "observed_system": "A note nearby says bearing, shaft, and cracked frame, but the actual task stream starts at an origin, moves along a service route, hits a metered gate, and downstream work receives little.",
+      "question": "Observed system: A note nearby says bearing, shaft, and cracked frame, but the actual task stream starts at an origin, moves along a service route, hits a metered gate, and downstream work receives little. Question: Which learned mechanism structure should be applied?",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "fracture_growth"
+          ],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "failure"
+          ],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 1.99
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 2,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "support"
+          ],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 1.1
+        }
+      ],
+      "source_mechanism": "FLOW",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Source",
+            "Path",
+            "Resistance",
+            "Flow"
+          ],
+          "lesson_id": "MEC-L001",
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "trace_expectation": "A mapped FLOW answer must cite at least three of Source, Path, Resistance, and Flow."
+        }
+      ],
+      "status": "ANSWERED",
+      "supporting_motifs": [
+        "Source",
+        "Path",
+        "Flow"
+      ],
+      "surface_domain": "service_route",
+      "transfer_confidence": 0.78
+    },
+    {
+      "answer": "",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "source"
+          ],
+          "mechanism_id": "flow",
+          "score": 1.05
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [
+        "flow"
+      ],
+      "case_id": "P033-FLOW-HO-004",
+      "case_type": "cue_removed",
+      "component_category": "",
+      "confidence": 0.0,
+      "confidence_ranking": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequences": [],
+          "matched_role_count": 1,
+          "matched_roles": [
+            "source"
+          ],
+          "mechanism_id": "flow",
+          "rank": 1,
+          "relative_confidence": 0.95,
+          "score": 1.05
+        }
+      ],
+      "consequence_features": [],
+      "consequence_lineage": [],
+      "correct": false,
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_mechanism": "flow",
+      "expected_reason": "A limiting throat on a passage reduces arrival rate.",
+      "fail_closed_reason": "insufficient_motif_support",
+      "identified_mechanism": "",
+      "inference_mode": "UNSUPPORTED",
+      "inspection_priority": "",
+      "matched_consequences": [],
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_lineage": [],
+      "observed_system": "Meal trays leave a prep origin, follow a side passage, then cluster at a single throat while the dining side gets late arrivals.",
+      "question": "Observed system: Meal trays leave a prep origin, follow a side passage, then cluster at a single throat while the dining side gets late arrivals. Question: Which learned mechanism structure should be applied?",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "source"
+          ],
+          "mechanism_id": "flow",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 1.05
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "supporting_motifs": [],
+      "surface_domain": "banquet_service",
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "backlog_growth"
+          ],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.94
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [
+        "flow"
+      ],
+      "case_id": "P033-FLOW-HO-005",
+      "case_type": "consequence_only",
+      "component_category": "",
+      "confidence": 0.0,
+      "confidence_ranking": [
+        {
+          "matched_consequence_count": 1,
+          "matched_consequences": [
+            "backlog_growth"
+          ],
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rank": 1,
+          "relative_confidence": 0.95,
+          "score": 0.94
+        }
+      ],
+      "consequence_features": [],
+      "consequence_lineage": [],
+      "correct": false,
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_mechanism": "flow",
+      "expected_reason": "Piling before an unnamed point and idle receiving side match blocked transfer.",
+      "fail_closed_reason": "insufficient_motif_support",
+      "identified_mechanism": "",
+      "inference_mode": "UNSUPPORTED",
+      "inspection_priority": "",
+      "matched_consequences": [],
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_lineage": [],
+      "observed_system": "Output became sparse, items piled up before an unnamed point, and the far side sat idle.",
+      "question": "Observed system: Output became sparse, items piled up before an unnamed point, and the far side sat idle. Question: Which learned mechanism structure should be applied?",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "backlog_growth"
+          ],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.94
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "supporting_motifs": [],
+      "surface_domain": "unlabeled_process",
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "uneven_delivery"
+          ],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "path"
+          ],
+          "mechanism_id": "flow",
+          "score": 1.79
+        },
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "localized_damage"
+          ],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.89
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [
+        "flow",
+        "load_transfer"
+      ],
+      "case_id": "P033-FLOW-HO-006",
+      "case_type": "decoy",
+      "component_category": "",
+      "confidence": 0.0,
+      "confidence_ranking": [
+        {
+          "matched_consequence_count": 1,
+          "matched_consequences": [
+            "uneven_delivery"
+          ],
+          "matched_role_count": 1,
+          "matched_roles": [
+            "path"
+          ],
+          "mechanism_id": "flow",
+          "rank": 1,
+          "relative_confidence": 0.95,
+          "score": 1.79
+        },
+        {
+          "matched_consequence_count": 1,
+          "matched_consequences": [
+            "localized_damage"
+          ],
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rank": 2,
+          "relative_confidence": 0.4972,
+          "score": 0.89
+        }
+      ],
+      "consequence_features": [],
+      "consequence_lineage": [],
+      "correct": false,
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_mechanism": "flow",
+      "expected_reason": "Origin, route, throttle, and trickle indicate FLOW despite decoy labels.",
+      "fail_closed_reason": "insufficient_motif_support",
+      "identified_mechanism": "",
+      "inference_mode": "UNSUPPORTED",
+      "inspection_priority": "",
+      "matched_consequences": [],
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_lineage": [],
+      "observed_system": "The report title mentions wobble and frame tilt, but the observed packets originate at one side, follow a route, encounter a throttle, and only a trickle exits.",
+      "question": "Observed system: The report title mentions wobble and frame tilt, but the observed packets originate at one side, follow a route, encounter a throttle, and only a trickle exits. Question: Which learned mechanism structure should be applied?",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "uneven_delivery"
+          ],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "path"
+          ],
+          "mechanism_id": "flow",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 1.79
+        },
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "localized_damage"
+          ],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.89
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "supporting_motifs": [],
+      "surface_domain": "packet_lane",
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 2,
+          "matched_role_count": 2,
+          "matched_roles": [
+            "source",
+            "path"
+          ],
+          "mechanism_id": "flow",
+          "score": 2.1
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "distribution"
+          ],
+          "mechanism_id": "load_transfer",
+          "score": 1.05
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [
+        "flow",
+        "load_transfer"
+      ],
+      "case_id": "P033-FLOW-HO-007",
+      "case_type": "cue_removed",
+      "component_category": "",
+      "confidence": 0.0,
+      "confidence_ranking": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequences": [],
+          "matched_role_count": 2,
+          "matched_roles": [
+            "source",
+            "path"
+          ],
+          "mechanism_id": "flow",
+          "rank": 1,
+          "relative_confidence": 0.95,
+          "score": 2.1
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequences": [],
+          "matched_role_count": 1,
+          "matched_roles": [
+            "distribution"
+          ],
+          "mechanism_id": "load_transfer",
+          "rank": 2,
+          "relative_confidence": 0.5,
+          "score": 1.05
+        }
+      ],
+      "consequence_features": [],
+      "consequence_lineage": [],
+      "correct": false,
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_mechanism": "flow",
+      "expected_reason": "A verification throat limits transfer along a passage.",
+      "fail_closed_reason": "insufficient_motif_support",
+      "identified_mechanism": "",
+      "inference_mode": "UNSUPPORTED",
+      "inspection_priority": "",
+      "matched_consequences": [],
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_lineage": [],
+      "observed_system": "Badges start at a kiosk origin, advance through a passage, then crowd before a verification throat; the exit side receives few badges.",
+      "question": "Observed system: Badges start at a kiosk origin, advance through a passage, then crowd before a verification throat; the exit side receives few badges. Question: Which learned mechanism structure should be applied?",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 2,
+          "matched_role_count": 2,
+          "matched_roles": [
+            "source",
+            "path"
+          ],
+          "mechanism_id": "flow",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 2.1
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "distribution"
+          ],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 1.05
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "supporting_motifs": [],
+      "surface_domain": "badge_pickup",
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "downstream_starvation"
+          ],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.89
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [
+        "flow"
+      ],
+      "case_id": "P033-FLOW-HO-008",
+      "case_type": "consequence_only",
+      "component_category": "",
+      "confidence": 0.0,
+      "confidence_ranking": [
+        {
+          "matched_consequence_count": 1,
+          "matched_consequences": [
+            "downstream_starvation"
+          ],
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rank": 1,
+          "relative_confidence": 0.95,
+          "score": 0.89
+        }
+      ],
+      "consequence_features": [],
+      "consequence_lineage": [],
+      "correct": false,
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_mechanism": "flow",
+      "expected_reason": "Intermittent arrival plus before-side accumulation matches FLOW consequence structure.",
+      "fail_closed_reason": "insufficient_motif_support",
+      "identified_mechanism": "",
+      "inference_mode": "UNSUPPORTED",
+      "inspection_priority": "",
+      "matched_consequences": [],
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_lineage": [],
+      "observed_system": "Bursts were followed by long gaps, the before-side pile grew, and the receiving end waited.",
+      "question": "Observed system: Bursts were followed by long gaps, the before-side pile grew, and the receiving end waited. Question: Which learned mechanism structure should be applied?",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "downstream_starvation"
+          ],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.89
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "supporting_motifs": [],
+      "surface_domain": "unnamed_delivery",
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [],
+      "case_id": "P033-ROT-HO-001",
+      "case_type": "cue_removed",
+      "component_category": "",
+      "confidence": 0.0,
+      "confidence_ranking": [],
+      "consequence_features": [],
+      "consequence_lineage": [],
+      "correct": false,
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_mechanism": "supported_rotation",
+      "expected_reason": "A rotating ring depends on support; abrasive drag degrades motion.",
+      "fail_closed_reason": "insufficient_motif_support",
+      "identified_mechanism": "",
+      "inference_mode": "UNSUPPORTED",
+      "inspection_priority": "",
+      "matched_consequences": [],
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_lineage": [],
+      "observed_system": "A display ring circles around its axis in a socket; grit creates drag, the ring wobbles, and then it locks.",
+      "question": "Observed system: A display ring circles around its axis in a socket; grit creates drag, the ring wobbles, and then it locks. Question: Which learned mechanism structure should be applied?",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "supporting_motifs": [],
+      "surface_domain": "display_ring",
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [],
+      "case_id": "P033-ROT-HO-002",
+      "case_type": "consequence_only",
+      "component_category": "",
+      "confidence": 0.0,
+      "confidence_ranking": [],
+      "consequence_features": [],
+      "consequence_lineage": [],
+      "correct": false,
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_mechanism": "supported_rotation",
+      "expected_reason": "Rising drag, wobble, grinding, and lockup are supported-rotation consequences.",
+      "fail_closed_reason": "insufficient_motif_support",
+      "identified_mechanism": "",
+      "inference_mode": "UNSUPPORTED",
+      "inspection_priority": "",
+      "matched_consequences": [],
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_lineage": [],
+      "observed_system": "Motion that used to be free developed drag, then wobbling, then grinding, and finally would not continue around its axis.",
+      "question": "Observed system: Motion that used to be free developed drag, then wobbling, then grinding, and finally would not continue around its axis. Question: Which learned mechanism structure should be applied?",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "supporting_motifs": [],
+      "surface_domain": "anonymous_rotor",
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "deformation"
+          ],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "failure"
+          ],
+          "mechanism_id": "load_transfer",
+          "score": 1.99
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "flow"
+          ],
+          "mechanism_id": "flow",
+          "score": 1.05
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [
+        "load_transfer",
+        "flow"
+      ],
+      "case_id": "P033-ROT-HO-003",
+      "case_type": "decoy",
+      "component_category": "",
+      "confidence": 0.0,
+      "confidence_ranking": [
+        {
+          "matched_consequence_count": 1,
+          "matched_consequences": [
+            "deformation"
+          ],
+          "matched_role_count": 1,
+          "matched_roles": [
+            "failure"
+          ],
+          "mechanism_id": "load_transfer",
+          "rank": 1,
+          "relative_confidence": 0.95,
+          "score": 1.99
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequences": [],
+          "matched_role_count": 1,
+          "matched_roles": [
+            "flow"
+          ],
+          "mechanism_id": "flow",
+          "rank": 2,
+          "relative_confidence": 0.5276,
+          "score": 1.05
+        }
+      ],
+      "consequence_features": [],
+      "consequence_lineage": [],
+      "correct": false,
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_mechanism": "supported_rotation",
+      "expected_reason": "The active relation is circling motion supported by a socket with abrasion.",
+      "fail_closed_reason": "insufficient_motif_support",
+      "identified_mechanism": "",
+      "inference_mode": "UNSUPPORTED",
+      "inspection_priority": "",
+      "matched_consequences": [],
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_lineage": [],
+      "observed_system": "A ticket mentions queue piles and a bent lug, but the active part is a circling plate seated in a socket; abrasion grows and the plate starts grinding.",
+      "question": "Observed system: A ticket mentions queue piles and a bent lug, but the active part is a circling plate seated in a socket; abrasion grows and the plate starts grinding. Question: Which learned mechanism structure should be applied?",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "deformation"
+          ],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "failure"
+          ],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 1.99
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "flow"
+          ],
+          "mechanism_id": "flow",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 1.05
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "supporting_motifs": [],
+      "surface_domain": "circling_plate",
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "failure"
+          ],
+          "mechanism_id": "supported_rotation",
+          "score": 1.05
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [
+        "supported_rotation"
+      ],
+      "case_id": "P033-ROT-HO-004",
+      "case_type": "cue_removed",
+      "component_category": "",
+      "confidence": 0.0,
+      "confidence_ranking": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequences": [],
+          "matched_role_count": 1,
+          "matched_roles": [
+            "failure"
+          ],
+          "mechanism_id": "supported_rotation",
+          "rank": 1,
+          "relative_confidence": 0.95,
+          "score": 1.05
+        }
+      ],
+      "consequence_features": [],
+      "consequence_lineage": [],
+      "correct": false,
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_mechanism": "supported_rotation",
+      "expected_reason": "Revolving supported motion degrades through drag at a cup interface.",
+      "fail_closed_reason": "insufficient_motif_support",
+      "identified_mechanism": "",
+      "inference_mode": "UNSUPPORTED",
+      "inspection_priority": "",
+      "matched_consequences": [],
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_lineage": [],
+      "observed_system": "A swivel head revolves in a cup; dry contact adds drag, the head wobbles, and aiming stops.",
+      "question": "Observed system: A swivel head revolves in a cup; dry contact adds drag, the head wobbles, and aiming stops. Question: Which learned mechanism structure should be applied?",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "failure"
+          ],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 1.05
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "supporting_motifs": [],
+      "surface_domain": "swivel_head",
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [],
+      "case_id": "P033-ROT-HO-005",
+      "case_type": "consequence_only",
+      "component_category": "",
+      "confidence": 0.0,
+      "confidence_ranking": [],
+      "consequence_features": [],
+      "consequence_lineage": [],
+      "correct": false,
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_mechanism": "supported_rotation",
+      "expected_reason": "The outcome chain indicates support-interface friction in rotation.",
+      "fail_closed_reason": "insufficient_motif_support",
+      "identified_mechanism": "",
+      "inference_mode": "UNSUPPORTED",
+      "inspection_priority": "",
+      "matched_consequences": [],
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_lineage": [],
+      "observed_system": "A normally smooth around-axis motion began to grind, wobble, warm at the contact, and then lock.",
+      "question": "Observed system: A normally smooth around-axis motion began to grind, wobble, warm at the contact, and then lock. Question: Which learned mechanism structure should be applied?",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "supporting_motifs": [],
+      "surface_domain": "unnamed_motion",
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "source"
+          ],
+          "mechanism_id": "flow",
+          "score": 1.05
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [
+        "flow"
+      ],
+      "case_id": "P033-ROT-HO-006",
+      "case_type": "decoy",
+      "component_category": "",
+      "confidence": 0.0,
+      "confidence_ranking": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequences": [],
+          "matched_role_count": 1,
+          "matched_roles": [
+            "source"
+          ],
+          "mechanism_id": "flow",
+          "rank": 1,
+          "relative_confidence": 0.95,
+          "score": 1.05
+        }
+      ],
+      "consequence_features": [],
+      "consequence_lineage": [],
+      "correct": false,
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_mechanism": "supported_rotation",
+      "expected_reason": "Orbiting around a support seat with drag is SUPPORTED_ROTATION.",
+      "fail_closed_reason": "insufficient_motif_support",
+      "identified_mechanism": "",
+      "inference_mode": "UNSUPPORTED",
+      "inspection_priority": "",
+      "matched_consequences": [],
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_lineage": [],
+      "observed_system": "The board label says origin passage and frame burden, but the observed mechanism is an orbiting ring on a seat; grit at the seat raises drag and the orbit becomes jerky.",
+      "question": "Observed system: The board label says origin passage and frame burden, but the observed mechanism is an orbiting ring on a seat; grit at the seat raises drag and the orbit becomes jerky. Question: Which learned mechanism structure should be applied?",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "source"
+          ],
+          "mechanism_id": "flow",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 1.05
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "supporting_motifs": [],
+      "surface_domain": "orbiting_ring",
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [],
+      "case_id": "P033-ROT-HO-007",
+      "case_type": "cue_removed",
+      "component_category": "",
+      "confidence": 0.0,
+      "confidence_ranking": [],
+      "consequence_features": [],
+      "consequence_lineage": [],
+      "correct": false,
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_mechanism": "supported_rotation",
+      "expected_reason": "Revolving motion supported by a socket fails through abrasion.",
+      "fail_closed_reason": "insufficient_motif_support",
+      "identified_mechanism": "",
+      "inference_mode": "UNSUPPORTED",
+      "inspection_priority": "",
+      "matched_consequences": [],
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_lineage": [],
+      "observed_system": "A calibration knob revolves on a tiny socket; abrasion makes it grind and the setting motion locks halfway.",
+      "question": "Observed system: A calibration knob revolves on a tiny socket; abrasion makes it grind and the setting motion locks halfway. Question: Which learned mechanism structure should be applied?",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "supporting_motifs": [],
+      "surface_domain": "calibration_knob",
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "flow"
+          ],
+          "mechanism_id": "flow",
+          "score": 1.05
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [
+        "flow"
+      ],
+      "case_id": "P033-ROT-HO-008",
+      "case_type": "consequence_only",
+      "component_category": "",
+      "confidence": 0.0,
+      "confidence_ranking": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequences": [],
+          "matched_role_count": 1,
+          "matched_roles": [
+            "flow"
+          ],
+          "mechanism_id": "flow",
+          "rank": 1,
+          "relative_confidence": 0.95,
+          "score": 1.05
+        }
+      ],
+      "consequence_features": [],
+      "consequence_lineage": [],
+      "correct": false,
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_mechanism": "supported_rotation",
+      "expected_reason": "Drag, wobble, grinding, and lockup are rotation-support failure consequences.",
+      "fail_closed_reason": "insufficient_motif_support",
+      "identified_mechanism": "",
+      "inference_mode": "UNSUPPORTED",
+      "inspection_priority": "",
+      "matched_consequences": [],
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_lineage": [],
+      "observed_system": "The moving element first showed drag, then side-to-side wobble, then a grinding trace, then a final lock.",
+      "question": "Observed system: The moving element first showed drag, then side-to-side wobble, then a grinding trace, then a final lock. Question: Which learned mechanism structure should be applied?",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "flow"
+          ],
+          "mechanism_id": "flow",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 1.05
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "supporting_motifs": [],
+      "surface_domain": "unlabeled_rotating_element",
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 2,
+          "matched_role_count": 2,
+          "matched_roles": [
+            "load",
+            "distribution"
+          ],
+          "mechanism_id": "load_transfer",
+          "score": 2.1
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [
+        "load_transfer"
+      ],
+      "case_id": "P033-LOAD-HO-001",
+      "case_type": "cue_removed",
+      "component_category": "",
+      "confidence": 0.0,
+      "confidence_ranking": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequences": [],
+          "matched_role_count": 2,
+          "matched_roles": [
+            "load",
+            "distribution"
+          ],
+          "mechanism_id": "load_transfer",
+          "rank": 1,
+          "relative_confidence": 0.95,
+          "score": 2.1
+        }
+      ],
+      "consequence_features": [],
+      "consequence_lineage": [],
+      "correct": false,
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_mechanism": "load_transfer",
+      "expected_reason": "Burden should distribute through ribs but concentrates at one lug.",
+      "fail_closed_reason": "insufficient_motif_support",
+      "identified_mechanism": "",
+      "inference_mode": "UNSUPPORTED",
+      "inspection_priority": "",
+      "matched_consequences": [],
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_lineage": [],
+      "observed_system": "A suspended panel imposes burden on two ribs; one single lug takes most demand, the panel tilts, and creases spread from that lug.",
+      "question": "Observed system: A suspended panel imposes burden on two ribs; one single lug takes most demand, the panel tilts, and creases spread from that lug. Question: Which learned mechanism structure should be applied?",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 2,
+          "matched_role_count": 2,
+          "matched_roles": [
+            "load",
+            "distribution"
+          ],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 2.1
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "supporting_motifs": [],
+      "surface_domain": "suspended_panel",
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "localized_damage"
+          ],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "distribution"
+          ],
+          "mechanism_id": "load_transfer",
+          "score": 1.94
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [
+        "load_transfer"
+      ],
+      "case_id": "P033-LOAD-HO-002",
+      "case_type": "consequence_only",
+      "component_category": "",
+      "confidence": 0.0,
+      "confidence_ranking": [
+        {
+          "matched_consequence_count": 1,
+          "matched_consequences": [
+            "localized_damage"
+          ],
+          "matched_role_count": 1,
+          "matched_roles": [
+            "distribution"
+          ],
+          "mechanism_id": "load_transfer",
+          "rank": 1,
+          "relative_confidence": 0.95,
+          "score": 1.94
+        }
+      ],
+      "consequence_features": [],
+      "consequence_lineage": [],
+      "correct": false,
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_mechanism": "load_transfer",
+      "expected_reason": "Localized deformation and spreading creases indicate concentrated load transfer failure.",
+      "fail_closed_reason": "insufficient_motif_support",
+      "identified_mechanism": "",
+      "inference_mode": "UNSUPPORTED",
+      "inspection_priority": "",
+      "matched_consequences": [],
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_lineage": [],
+      "observed_system": "One small region dented, the surface canted, creases spread, and the panel could not keep shape.",
+      "question": "Observed system: One small region dented, the surface canted, creases spread, and the panel could not keep shape. Question: Which learned mechanism structure should be applied?",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "localized_damage"
+          ],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "distribution"
+          ],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 1.94
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "supporting_motifs": [],
+      "surface_domain": "anonymous_structure",
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 2,
+          "matched_role_count": 2,
+          "matched_roles": [
+            "load",
+            "distribution"
+          ],
+          "mechanism_id": "load_transfer",
+          "score": 2.1
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [
+        "load_transfer"
+      ],
+      "case_id": "P033-LOAD-HO-003",
+      "case_type": "decoy",
+      "component_category": "",
+      "confidence": 0.0,
+      "confidence_ranking": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequences": [],
+          "matched_role_count": 2,
+          "matched_roles": [
+            "load",
+            "distribution"
+          ],
+          "mechanism_id": "load_transfer",
+          "rank": 1,
+          "relative_confidence": 0.95,
+          "score": 2.1
+        }
+      ],
+      "consequence_features": [],
+      "consequence_lineage": [],
+      "correct": false,
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_mechanism": "load_transfer",
+      "expected_reason": "Mass carried across ribs concentrates at one lug, causing warp.",
+      "fail_closed_reason": "insufficient_motif_support",
+      "identified_mechanism": "",
+      "inference_mode": "UNSUPPORTED",
+      "inspection_priority": "",
+      "matched_consequences": [],
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_lineage": [],
+      "observed_system": "A note says throttle and grinding socket, but the active fixture carries mass across two ribs; one lug receives the demand and the face warps.",
+      "question": "Observed system: A note says throttle and grinding socket, but the active fixture carries mass across two ribs; one lug receives the demand and the face warps. Question: Which learned mechanism structure should be applied?",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 2,
+          "matched_role_count": 2,
+          "matched_roles": [
+            "load",
+            "distribution"
+          ],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 2.1
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "supporting_motifs": [],
+      "surface_domain": "fixture_face",
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [],
+      "case_id": "P033-LOAD-HO-004",
+      "case_type": "cue_removed",
+      "component_category": "",
+      "confidence": 0.0,
+      "confidence_ranking": [],
+      "consequence_features": [],
+      "consequence_lineage": [],
+      "correct": false,
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_mechanism": "load_transfer",
+      "expected_reason": "A carried burden is not distributed; local demand deforms the span.",
+      "fail_closed_reason": "insufficient_motif_support",
+      "identified_mechanism": "",
+      "inference_mode": "UNSUPPORTED",
+      "inspection_priority": "",
+      "matched_consequences": [],
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_lineage": [],
+      "observed_system": "A tray span bears instrument mass; side ribs should share the burden, but a single rib takes most and the tray edge drops.",
+      "question": "Observed system: A tray span bears instrument mass; side ribs should share the burden, but a single rib takes most and the tray edge drops. Question: Which learned mechanism structure should be applied?",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "supporting_motifs": [],
+      "surface_domain": "instrument_tray",
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "localized_damage"
+          ],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.89
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [
+        "load_transfer"
+      ],
+      "case_id": "P033-LOAD-HO-005",
+      "case_type": "consequence_only",
+      "component_category": "",
+      "confidence": 0.0,
+      "confidence_ranking": [
+        {
+          "matched_consequence_count": 1,
+          "matched_consequences": [
+            "localized_damage"
+          ],
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rank": 1,
+          "relative_confidence": 0.95,
+          "score": 0.89
+        }
+      ],
+      "consequence_features": [],
+      "consequence_lineage": [],
+      "correct": false,
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_mechanism": "load_transfer",
+      "expected_reason": "Same-spot deformation and edge drop match load concentration.",
+      "fail_closed_reason": "insufficient_motif_support",
+      "identified_mechanism": "",
+      "inference_mode": "UNSUPPORTED",
+      "inspection_priority": "",
+      "matched_consequences": [],
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_lineage": [],
+      "observed_system": "The same spot wrinkled, then a crease widened, then one edge lowered, and the shape failed.",
+      "question": "Observed system: The same spot wrinkled, then a crease widened, then one edge lowered, and the shape failed. Question: Which learned mechanism structure should be applied?",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "localized_damage"
+          ],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.89
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "supporting_motifs": [],
+      "surface_domain": "unlabeled_panel",
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [],
+      "case_id": "P033-LOAD-HO-006",
+      "case_type": "decoy",
+      "component_category": "",
+      "confidence": 0.0,
+      "confidence_ranking": [],
+      "consequence_features": [],
+      "consequence_lineage": [],
+      "correct": false,
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_mechanism": "load_transfer",
+      "expected_reason": "Mass through a span concentrating at one lug is LOAD_TRANSFER.",
+      "fail_closed_reason": "insufficient_motif_support",
+      "identified_mechanism": "",
+      "inference_mode": "UNSUPPORTED",
+      "inspection_priority": "",
+      "matched_consequences": [],
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_lineage": [],
+      "observed_system": "The headline mentions sparse arrivals and orbiting drag, but the measured part is a frame span under mass; one lug takes the demand and creases form there.",
+      "question": "Observed system: The headline mentions sparse arrivals and orbiting drag, but the measured part is a frame span under mass; one lug takes the demand and creases form there. Question: Which learned mechanism structure should be applied?",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "supporting_motifs": [],
+      "surface_domain": "frame_span",
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "distribution"
+          ],
+          "mechanism_id": "load_transfer",
+          "score": 1.05
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [
+        "load_transfer"
+      ],
+      "case_id": "P033-LOAD-HO-007",
+      "case_type": "cue_removed",
+      "component_category": "",
+      "confidence": 0.0,
+      "confidence_ranking": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequences": [],
+          "matched_role_count": 1,
+          "matched_roles": [
+            "distribution"
+          ],
+          "mechanism_id": "load_transfer",
+          "rank": 1,
+          "relative_confidence": 0.95,
+          "score": 1.05
+        }
+      ],
+      "consequence_features": [],
+      "consequence_lineage": [],
+      "correct": false,
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_mechanism": "load_transfer",
+      "expected_reason": "Demand concentrates at one lug instead of distributing through rails.",
+      "fail_closed_reason": "insufficient_motif_support",
+      "identified_mechanism": "",
+      "inference_mode": "UNSUPPORTED",
+      "inspection_priority": "",
+      "matched_consequences": [],
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_lineage": [],
+      "observed_system": "A rack panel bears a new burden across two side rails; the rear lug receives most demand and the panel face cants.",
+      "question": "Observed system: A rack panel bears a new burden across two side rails; the rear lug receives most demand and the panel face cants. Question: Which learned mechanism structure should be applied?",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "distribution"
+          ],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 1.05
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "supporting_motifs": [],
+      "surface_domain": "rack_panel",
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "The system maps to Load -> Distribution -> Concentration -> Failure.",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 3,
+          "matched_consequence_cue_count": 4,
+          "matched_consequences": [
+            "localized_damage",
+            "alignment_loss",
+            "gave_way"
+          ],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 2.61
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [
+        "load_transfer"
+      ],
+      "case_id": "P033-LOAD-HO-008",
+      "case_type": "consequence_only",
+      "component_category": "load path distribution element",
+      "confidence": 0.62,
+      "confidence_ranking": [
+        {
+          "matched_consequence_count": 3,
+          "matched_consequences": [
+            "localized_damage",
+            "alignment_loss",
+            "gave_way"
+          ],
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rank": 1,
+          "relative_confidence": 0.95,
+          "score": 2.61
+        }
+      ],
+      "consequence_features": [
+        {
+          "feature_id": "localized_damage",
+          "matched_cues": [
+            "same spot",
+            "local dent"
+          ],
+          "motif": "Consequence: damage localizes"
+        },
+        {
+          "feature_id": "alignment_loss",
+          "matched_cues": [
+            "edge dropped"
+          ],
+          "motif": "Consequence: geometry or alignment is lost"
+        },
+        {
+          "feature_id": "gave_way",
+          "matched_cues": [
+            "gave way"
+          ],
+          "motif": "Consequence: structure gives way"
+        }
+      ],
+      "consequence_lineage": [
+        {
+          "feature_id": "localized_damage",
+          "lesson_id": "MEC-L003",
+          "matched_cues": [
+            "same spot",
+            "local dent"
+          ],
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "motif": "Consequence: damage localizes"
+        },
+        {
+          "feature_id": "alignment_loss",
+          "lesson_id": "MEC-L003",
+          "matched_cues": [
+            "edge dropped"
+          ],
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "motif": "Consequence: geometry or alignment is lost"
+        },
+        {
+          "feature_id": "gave_way",
+          "lesson_id": "MEC-L003",
+          "matched_cues": [
+            "gave way"
+          ],
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "motif": "Consequence: structure gives way"
+        }
+      ],
+      "correct": true,
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_mechanism": "load_transfer",
+      "expected_reason": "Localized deformation and same-spot failure indicate concentrated load transfer.",
+      "fail_closed_reason": "",
+      "identified_mechanism": "load_transfer",
+      "inference_mode": "CONSEQUENCE_INFERENCE",
+      "inspection_priority": "Inspect the load path and high-stress concentration points such as joints, anchors, brackets, supports, and overloaded members.",
+      "matched_consequences": [
+        {
+          "feature_id": "localized_damage",
+          "matched_cues": [
+            "same spot",
+            "local dent"
+          ],
+          "motif": "Consequence: damage localizes",
+          "weight": 0.85
+        },
+        {
+          "feature_id": "alignment_loss",
+          "matched_cues": [
+            "edge dropped"
+          ],
+          "motif": "Consequence: geometry or alignment is lost",
+          "weight": 0.75
+        },
+        {
+          "feature_id": "gave_way",
+          "matched_cues": [
+            "gave way"
+          ],
+          "motif": "Consequence: structure gives way",
+          "weight": 0.85
+        }
+      ],
+      "matched_roles": [],
+      "mechanism_explanation": "The observed system carries load through supports, then fails where stress concentrates.",
+      "motif_lineage": [],
+      "observed_system": "A local dent appeared, the face warped, the edge dropped, and the panel gave way at the same spot.",
+      "question": "Observed system: A local dent appeared, the face warped, the edge dropped, and the panel gave way at the same spot. Question: Which learned mechanism structure should be applied?",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 0.0
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "LOAD_TRANSFER",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Load",
+            "Distribution",
+            "Concentration",
+            "Failure"
+          ],
+          "lesson_id": "MEC-L003",
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "trace_expectation": "A mapped LOAD_TRANSFER answer must cite at least three of Load, Distribution, Concentration, and Failure."
+        }
+      ],
+      "status": "ANSWERED",
+      "supporting_motifs": [
+        "Consequence: damage localizes",
+        "Consequence: geometry or alignment is lost",
+        "Consequence: structure gives way"
+      ],
+      "surface_domain": "unnamed_frame",
+      "transfer_confidence": 0.62
+    }
+  ],
+  "mode": "no_pond_recall",
+  "proof_id": "033-mechanism-seasoning-pond-recall",
+  "total_items": 24
+}

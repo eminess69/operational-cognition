@@ -1,0 +1,56 @@
+{
+  "claim_level": "evidence_backed",
+  "disallowed_claims": [
+    "LLM generated final answers",
+    "general mechanism understanding",
+    "general physical reasoning",
+    "consciousness",
+    "AGI",
+    "hidden chain-of-thought",
+    "success independent of parser behavior",
+    "success independent of hardcoded mechanism role cues"
+  ],
+  "inside_voice_adapter_status": "not_used_final_answers_generated_by_deterministic_cli",
+  "lineage": {
+    "contract_version": "mechanism_pond.cli.v1",
+    "derived_from": "curriculum/mechanism_lessons.jsonl; tests/*.jsonl; pond_states/*/pond_state.json; python3 -m operational_cognition.cli.mechanism_pond",
+    "mcp_endpoint": "none:deterministic_cli_no_llm",
+    "request_hash": "a394d6e2f5d609522ff0a031d6c38ef69dbffaff9e84a9d2346d5f8c7fbe1cb4",
+    "response_hash": "bdaead9de96888c4729f0f0020a3b4223551c4bddca3f42d34850084e59a5bdb",
+    "validates": "curated_mechanism_transfer_mapping_with_fail_closed_no_llm_cli_answers"
+  },
+  "proof_id": "030-mechanistic-transfer-challenge",
+  "public_private_boundary": "All artifacts are public deterministic curriculum, tests, pond states, CLI outputs, metrics, and audits. No hidden chain-of-thought or private substrate data is exposed.",
+  "required_artifacts": [
+    "README.md",
+    "proof_manifest.json",
+    "curriculum/mechanism_lessons.jsonl",
+    "seasoning/mechanism_ingest_report.json",
+    "pond_states/unseasoned/pond_state.json",
+    "pond_states/mechanism_seasoned/pond_state.json",
+    "tests/in_domain_test.jsonl",
+    "tests/cross_domain_transfer_test.jsonl",
+    "tests/hidden_mechanism_test.jsonl",
+    "tests/fail_closed_test.jsonl",
+    "baseline/no_seasoning_results.json",
+    "results/in_domain_results.json",
+    "results/cross_domain_transfer_results.json",
+    "results/hidden_mechanism_results.json",
+    "results/fail_closed_results.json",
+    "results/mechanism_mapping_results.json",
+    "results/no_llm_mechanism_exam.json",
+    "analysis/mechanism_transfer_metrics.json",
+    "analysis/fail_closed_report.json",
+    "analysis/determinism_report.json",
+    "analysis/hostile_mechanism_audit.json"
+  ],
+  "status": "complete",
+  "targets": [
+    "MechanisticTransfer",
+    "StructureTransfer",
+    "DeterministicNoLLMMapping",
+    "FailClosedMechanismPondCLI",
+    "HostileParserAudit"
+  ],
+  "title": "Proof 030 - Mechanistic Transfer Challenge"
+}

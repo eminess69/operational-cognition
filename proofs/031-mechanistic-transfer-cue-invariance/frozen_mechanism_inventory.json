@@ -1,0 +1,92 @@
+{
+  "freeze_policy": "No mechanisms beyond FLOW, SUPPORTED_ROTATION, and LOAD_TRANSFER are available to the deterministic CLI.",
+  "mechanisms": [
+    {
+      "allowed_motifs": [
+        "Source",
+        "Path",
+        "Resistance",
+        "Flow"
+      ],
+      "core_structure": [
+        "entity or material enters from a source",
+        "movement proceeds along a path or channel",
+        "a restriction or resistance appears along that path",
+        "movement rate drops or backlog forms downstream"
+      ],
+      "forbidden_surface_shortcuts": [
+        "water",
+        "pipe",
+        "tank",
+        "battery",
+        "wire",
+        "road",
+        "traffic"
+      ],
+      "mechanism_id": "flow",
+      "mechanism_name": "FLOW",
+      "source_lessons": [
+        "MEC-L001"
+      ]
+    },
+    {
+      "allowed_motifs": [
+        "Rotation",
+        "Support",
+        "Friction",
+        "Failure"
+      ],
+      "core_structure": [
+        "moving part turns",
+        "turning part needs a support interface",
+        "support interface introduces friction, rough contact, heat, or wear",
+        "failure appears as noise, slowdown, uneven motion, seizure, or stoppage"
+      ],
+      "forbidden_surface_shortcuts": [
+        "wheel",
+        "bearing",
+        "axle",
+        "shaft",
+        "pulley",
+        "fan",
+        "motor",
+        "turntable"
+      ],
+      "mechanism_id": "supported_rotation",
+      "mechanism_name": "SUPPORTED_ROTATION",
+      "source_lessons": [
+        "MEC-L002"
+      ]
+    },
+    {
+      "allowed_motifs": [
+        "Load",
+        "Distribution",
+        "Concentration",
+        "Failure"
+      ],
+      "core_structure": [
+        "force or weight is carried by a structure",
+        "the structure distributes the load through members or supports",
+        "force concentrates at a local point",
+        "failure appears as bending, sagging, cracking, buckling, or collapse"
+      ],
+      "forbidden_surface_shortcuts": [
+        "bridge",
+        "truss",
+        "roof",
+        "crane",
+        "shelf",
+        "bracket"
+      ],
+      "mechanism_id": "load_transfer",
+      "mechanism_name": "LOAD_TRANSFER",
+      "source_lessons": [
+        "MEC-L003"
+      ]
+    }
+  ],
+  "proof_id": "031-mechanistic-transfer-cue-invariance",
+  "source_proof": "proofs/030-mechanistic-transfer-challenge",
+  "source_state_hash": "e708447ebb35c0b68e011e5b725afe1f0e7332db909f99d040d8c607a25172e3"
+}

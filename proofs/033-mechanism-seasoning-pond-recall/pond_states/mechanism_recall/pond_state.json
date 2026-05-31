@@ -1,0 +1,1180 @@
+{
+  "answer_boundary": "deterministic_cli_no_llm",
+  "consequence_inference_extension": {
+    "hostile_boundary": "This extension supports consequence-only tests but does not rule out deterministic parser explanations.",
+    "policy": "Adds hand-authored consequence signatures. Existing role-cue matching remains available.",
+    "source": "proofs/031-mechanistic-transfer-cue-invariance/pond_states/mechanism_seasoned/pond_state.json"
+  },
+  "derived_for": "033-mechanism-seasoning-pond-recall",
+  "derived_from_state": "proofs/032-mechanistic-inference-challenge/pond_states/mechanism_inference/pond_state.json",
+  "derived_from_state_hash": "e708447ebb35c0b68e011e5b725afe1f0e7332db909f99d040d8c607a25172e3",
+  "lessons": {
+    "MEC-L001": {
+      "causal_rule": "Increasing resistance along a path reduces flow from source to destination and can create backlog.",
+      "component_category": "path/resistance interface",
+      "consequence_signatures": [
+        {
+          "cues": [
+            "throughput decreased",
+            "throughput dropped",
+            "output fell",
+            "output dropped",
+            "delivery rate dropped",
+            "rate fell",
+            "progress slowed",
+            "efficiency declined",
+            "less passed",
+            "arrivals thinned",
+            "movement slowed"
+          ],
+          "feature_id": "rate_drop",
+          "motif": "Consequence: output or passage rate drops",
+          "weight": 0.9
+        },
+        {
+          "cues": [
+            "backlog grew",
+            "backlog built",
+            "queue grew",
+            "queues grew",
+            "waiting line grew",
+            "piled up",
+            "piling up",
+            "accumulated before",
+            "build up",
+            "built up",
+            "stacked up"
+          ],
+          "feature_id": "backlog_growth",
+          "motif": "Consequence: upstream accumulation grows",
+          "weight": 0.9
+        },
+        {
+          "cues": [
+            "downstream starved",
+            "downstream activity stopped",
+            "later stage starved",
+            "receivers waited",
+            "receiving end waited",
+            "far side received less",
+            "far side went idle"
+          ],
+          "feature_id": "downstream_starvation",
+          "motif": "Consequence: downstream side becomes starved",
+          "weight": 0.85
+        },
+        {
+          "cues": [
+            "nothing passed",
+            "passage ceased",
+            "movement ceased",
+            "delivery stopped",
+            "stalled out",
+            "could not pass",
+            "stopped arriving"
+          ],
+          "feature_id": "passage_ceases",
+          "motif": "Consequence: passage eventually ceases",
+          "weight": 0.8
+        },
+        {
+          "cues": [
+            "surges",
+            "trickle",
+            "sporadic",
+            "uneven arrival",
+            "delayed arrival",
+            "bursts then gaps"
+          ],
+          "feature_id": "uneven_delivery",
+          "motif": "Consequence: delivery becomes intermittent",
+          "weight": 0.7
+        }
+      ],
+      "core_motif": [
+        "Source",
+        "Path",
+        "Resistance",
+        "Flow"
+      ],
+      "direct_effect": "Greater resistance reduces movement through the path and can create backlog or stalled flow.",
+      "examples": [
+        {
+          "domain": "water_system",
+          "role_map": {
+            "flow": "water movement",
+            "path": "pipe",
+            "resistance": "restriction",
+            "source": "tank"
+          }
+        },
+        {
+          "domain": "electrical_circuit",
+          "role_map": {
+            "flow": "current",
+            "path": "wire",
+            "resistance": "resistor",
+            "source": "battery"
+          }
+        },
+        {
+          "domain": "traffic_network",
+          "role_map": {
+            "flow": "movement",
+            "path": "road",
+            "resistance": "traffic jam",
+            "source": "cars entering"
+          }
+        }
+      ],
+      "inspection_priority": "Inspect the highest-resistance segment of the path.",
+      "lesson_id": "MEC-L001",
+      "mapping_statement": "The system maps to Source -> Path -> Resistance -> Flow.",
+      "mechanism_explanation": "The observed system has movement through a path plus a restriction that reduces movement.",
+      "mechanism_id": "flow",
+      "mechanism_name": "FLOW",
+      "minimum_consequence_score": 2.25,
+      "minimum_score": 3.0,
+      "required_min_consequence_features": 3,
+      "required_min_roles": 3,
+      "roles": [
+        {
+          "cues": [
+            "source",
+            "supply",
+            "inlet",
+            "upstream",
+            "origin",
+            "reservoir",
+            "tank",
+            "battery",
+            "sender",
+            "pump"
+          ],
+          "motif": "Source",
+          "role_id": "source"
+        },
+        {
+          "cues": [
+            "path",
+            "pipe",
+            "line",
+            "channel",
+            "wire",
+            "road",
+            "route",
+            "corridor",
+            "hallway",
+            "vessel",
+            "gateway",
+            "network",
+            "through",
+            "along",
+            "conduit"
+          ],
+          "motif": "Path",
+          "role_id": "path"
+        },
+        {
+          "cues": [
+            "resistance",
+            "restriction",
+            "resistor",
+            "blocked",
+            "blockage",
+            "bottleneck",
+            "narrow",
+            "narrowed",
+            "narrower",
+            "clogged",
+            "jam",
+            "traffic jam",
+            "rate limited",
+            "rate limit",
+            "choke"
+          ],
+          "motif": "Resistance",
+          "role_id": "resistance"
+        },
+        {
+          "cues": [
+            "flow",
+            "movement",
+            "moving",
+            "moves",
+            "throughput",
+            "current",
+            "progress",
+            "circulation",
+            "circulates",
+            "pass",
+            "passes",
+            "queue",
+            "queues"
+          ],
+          "motif": "Flow",
+          "role_id": "flow"
+        }
+      ],
+      "similarity_statement": "The similar mechanism is FLOW: movement through a path is reduced by resistance.",
+      "trace_expectation": "A mapped FLOW answer must cite at least three of Source, Path, Resistance, and Flow."
+    },
+    "MEC-L002": {
+      "causal_rule": "Increasing friction at the support interface slows rotation and can cause noise, wear, seizure, or stoppage.",
+      "component_category": "rotational support interface",
+      "consequence_signatures": [
+        {
+          "cues": [
+            "became noisy",
+            "noise increased",
+            "noisy",
+            "rough sound",
+            "squeal",
+            "squealing",
+            "rattling",
+            "rattled",
+            "vibration",
+            "vibration increased",
+            "shudder"
+          ],
+          "feature_id": "audible_roughness",
+          "motif": "Consequence: rough motion becomes audible",
+          "weight": 0.9
+        },
+        {
+          "cues": [
+            "hotter",
+            "heat increased",
+            "temperature increased",
+            "ran hotter",
+            "warmed",
+            "warmth",
+            "heated up",
+            "became hot"
+          ],
+          "feature_id": "heat_rise",
+          "motif": "Consequence: temperature rises during motion",
+          "weight": 0.9
+        },
+        {
+          "cues": [
+            "slower",
+            "slowed",
+            "speed dropped",
+            "speed declined",
+            "efficiency slowly declined",
+            "motion lagged",
+            "movement became slower",
+            "took longer to move"
+          ],
+          "feature_id": "speed_decline",
+          "motif": "Consequence: motion speed declines",
+          "weight": 0.85
+        },
+        {
+          "cues": [
+            "resisting motion",
+            "resistance increased",
+            "drag grew",
+            "increasing drag",
+            "harder to move",
+            "normally moves freely",
+            "could not move freely"
+          ],
+          "feature_id": "rising_drag",
+          "motif": "Consequence: resistance to motion rises",
+          "weight": 0.9
+        },
+        {
+          "cues": [
+            "then stopped",
+            "stopped",
+            "halted",
+            "could not move",
+            "final lockup",
+            "locked up",
+            "stuck",
+            "seized",
+            "would not move"
+          ],
+          "feature_id": "final_lockup",
+          "motif": "Consequence: motion finally stops or locks",
+          "weight": 0.85
+        }
+      ],
+      "core_motif": [
+        "Rotation",
+        "Support",
+        "Friction",
+        "Failure"
+      ],
+      "direct_effect": "More friction at the support interface slows rotation, increases noise or wear, and can stop the rotating part.",
+      "examples": [
+        {
+          "domain": "wheel_assembly",
+          "role_map": {
+            "failure": "wheel seizes",
+            "friction": "bearing friction",
+            "rotation": "wheel",
+            "support": "bearing"
+          }
+        },
+        {
+          "domain": "pulley_system",
+          "role_map": {
+            "failure": "pulley slows",
+            "friction": "axle wear",
+            "rotation": "pulley",
+            "support": "axle"
+          }
+        },
+        {
+          "domain": "fan_assembly",
+          "role_map": {
+            "failure": "fan stops",
+            "friction": "shaft wear",
+            "rotation": "fan",
+            "support": "shaft"
+          }
+        }
+      ],
+      "inspection_priority": "Inspect the rotational support interface: bearing, bushing, axle, shaft, mount, or hub.",
+      "lesson_id": "MEC-L002",
+      "mapping_statement": "The system maps to Rotation -> Support -> Friction -> Failure.",
+      "mechanism_explanation": "The observed system has a rotating part whose support interface shows friction, wear, noise, or stoppage.",
+      "mechanism_id": "supported_rotation",
+      "mechanism_name": "SUPPORTED_ROTATION",
+      "minimum_consequence_score": 2.35,
+      "minimum_score": 3.0,
+      "required_min_consequence_features": 3,
+      "required_min_roles": 3,
+      "roles": [
+        {
+          "cues": [
+            "rotation",
+            "rotates",
+            "rotate",
+            "rotating",
+            "spins",
+            "spin",
+            "turns",
+            "wheel",
+            "pulley",
+            "fan",
+            "motor",
+            "turntable",
+            "rotor",
+            "spindle",
+            "disk"
+          ],
+          "motif": "Rotation",
+          "role_id": "rotation"
+        },
+        {
+          "cues": [
+            "support",
+            "bearing",
+            "axle",
+            "shaft",
+            "bushing",
+            "spindle",
+            "mount",
+            "hub",
+            "pivot",
+            "journal"
+          ],
+          "motif": "Support",
+          "role_id": "support"
+        },
+        {
+          "cues": [
+            "friction",
+            "wear",
+            "worn",
+            "wearing",
+            "noisy",
+            "noise",
+            "squeal",
+            "squealing",
+            "vibration",
+            "rough",
+            "heat"
+          ],
+          "motif": "Friction",
+          "role_id": "friction"
+        },
+        {
+          "cues": [
+            "failure",
+            "fails",
+            "stops",
+            "stopped",
+            "stalls",
+            "seizes",
+            "slows",
+            "slow",
+            "uneven",
+            "stuck"
+          ],
+          "motif": "Failure",
+          "role_id": "failure"
+        }
+      ],
+      "similarity_statement": "The similar mechanism is SUPPORTED_ROTATION: rotation depends on a support interface that can fail through friction or wear.",
+      "trace_expectation": "A mapped SUPPORTED_ROTATION answer must cite at least three of Rotation, Support, Friction, and Failure."
+    },
+    "MEC-L003": {
+      "causal_rule": "Loads must be distributed through a load path; concentrated stress raises failure risk at members, joints, anchors, or supports.",
+      "component_category": "load path distribution element",
+      "consequence_signatures": [
+        {
+          "cues": [
+            "sagged",
+            "sagging",
+            "bowed",
+            "bent",
+            "drooped",
+            "tilted",
+            "surface dipped",
+            "shape bowed",
+            "one side bowed"
+          ],
+          "feature_id": "deformation",
+          "motif": "Consequence: shape deforms under hidden demand",
+          "weight": 0.9
+        },
+        {
+          "cues": [
+            "crack widened",
+            "fine crack widened",
+            "cracked",
+            "cracks appeared",
+            "split",
+            "fracture",
+            "fracture grew",
+            "hairline marks spread"
+          ],
+          "feature_id": "fracture_growth",
+          "motif": "Consequence: cracks or splits grow",
+          "weight": 0.9
+        },
+        {
+          "cues": [
+            "one area",
+            "one side",
+            "single region",
+            "same spot",
+            "one point",
+            "one corner",
+            "small region",
+            "local dent"
+          ],
+          "feature_id": "localized_damage",
+          "motif": "Consequence: damage localizes",
+          "weight": 0.85
+        },
+        {
+          "cues": [
+            "gap widened",
+            "uneven height",
+            "misaligned",
+            "no longer level",
+            "edge dropped",
+            "tilt increased"
+          ],
+          "feature_id": "alignment_loss",
+          "motif": "Consequence: geometry or alignment is lost",
+          "weight": 0.75
+        },
+        {
+          "cues": [
+            "gave way",
+            "collapsed",
+            "broke apart",
+            "broke",
+            "could not hold",
+            "fell apart",
+            "failed suddenly"
+          ],
+          "feature_id": "gave_way",
+          "motif": "Consequence: structure gives way",
+          "weight": 0.85
+        }
+      ],
+      "core_motif": [
+        "Load",
+        "Distribution",
+        "Concentration",
+        "Failure"
+      ],
+      "direct_effect": "Load concentration raises stress where distribution fails and can cause sagging, cracking, bending, or collapse.",
+      "examples": [
+        {
+          "domain": "bridge",
+          "role_map": {
+            "concentration": "joint stress",
+            "distribution": "truss and supports",
+            "failure": "cracking or collapse",
+            "load": "vehicles and deck weight"
+          }
+        },
+        {
+          "domain": "roof_truss",
+          "role_map": {
+            "concentration": "overloaded member",
+            "distribution": "truss members",
+            "failure": "sagging",
+            "load": "roof weight"
+          }
+        },
+        {
+          "domain": "crane",
+          "role_map": {
+            "concentration": "anchor point",
+            "distribution": "boom and cables",
+            "failure": "bending",
+            "load": "lifted mass"
+          }
+        }
+      ],
+      "inspection_priority": "Inspect the load path and high-stress concentration points such as joints, anchors, brackets, supports, and overloaded members.",
+      "lesson_id": "MEC-L003",
+      "mapping_statement": "The system maps to Load -> Distribution -> Concentration -> Failure.",
+      "mechanism_explanation": "The observed system carries load through supports, then fails where stress concentrates.",
+      "mechanism_id": "load_transfer",
+      "mechanism_name": "LOAD_TRANSFER",
+      "minimum_consequence_score": 2.3,
+      "minimum_score": 3.0,
+      "required_min_consequence_features": 3,
+      "required_min_roles": 3,
+      "roles": [
+        {
+          "cues": [
+            "load",
+            "weight",
+            "heavy",
+            "force",
+            "carries",
+            "carrying",
+            "pull",
+            "pulls",
+            "suspended",
+            "boxes",
+            "cargo"
+          ],
+          "motif": "Load",
+          "role_id": "load"
+        },
+        {
+          "cues": [
+            "distribution",
+            "distribute",
+            "spread",
+            "spreads",
+            "shared",
+            "transfers",
+            "through",
+            "across",
+            "load path",
+            "members",
+            "cables",
+            "truss",
+            "posts",
+            "uprights",
+            "supports"
+          ],
+          "motif": "Distribution",
+          "role_id": "distribution"
+        },
+        {
+          "cues": [
+            "concentration",
+            "concentrated",
+            "one corner",
+            "single point",
+            "one anchor",
+            "localized",
+            "overload",
+            "overloaded",
+            "high stress",
+            "stress",
+            "bracket",
+            "joint"
+          ],
+          "motif": "Concentration",
+          "role_id": "concentration"
+        },
+        {
+          "cues": [
+            "failure",
+            "collapse",
+            "cracks",
+            "crack",
+            "bends",
+            "bent",
+            "sag",
+            "sags",
+            "bow",
+            "bows",
+            "buckle",
+            "buckles",
+            "breaks"
+          ],
+          "motif": "Failure",
+          "role_id": "failure"
+        }
+      ],
+      "similarity_statement": "The similar mechanism is LOAD_TRANSFER: load must distribute through a path, and concentration creates failure risk.",
+      "trace_expectation": "A mapped LOAD_TRANSFER answer must cite at least three of Load, Distribution, Concentration, and Failure."
+    }
+  },
+  "mechanisms": {
+    "flow": {
+      "causal_rule": "Increasing resistance along a path reduces flow from source to destination and can create backlog.",
+      "component_category": "path/resistance interface",
+      "consequence_signatures": [
+        {
+          "cues": [
+            "throughput decreased",
+            "throughput dropped",
+            "output fell",
+            "output dropped",
+            "delivery rate dropped",
+            "rate fell",
+            "progress slowed",
+            "efficiency declined",
+            "less passed",
+            "arrivals thinned",
+            "movement slowed"
+          ],
+          "feature_id": "rate_drop",
+          "motif": "Consequence: output or passage rate drops",
+          "weight": 0.9
+        },
+        {
+          "cues": [
+            "backlog grew",
+            "backlog built",
+            "queue grew",
+            "queues grew",
+            "waiting line grew",
+            "piled up",
+            "piling up",
+            "accumulated before",
+            "build up",
+            "built up",
+            "stacked up"
+          ],
+          "feature_id": "backlog_growth",
+          "motif": "Consequence: upstream accumulation grows",
+          "weight": 0.9
+        },
+        {
+          "cues": [
+            "downstream starved",
+            "downstream activity stopped",
+            "later stage starved",
+            "receivers waited",
+            "receiving end waited",
+            "far side received less",
+            "far side went idle"
+          ],
+          "feature_id": "downstream_starvation",
+          "motif": "Consequence: downstream side becomes starved",
+          "weight": 0.85
+        },
+        {
+          "cues": [
+            "nothing passed",
+            "passage ceased",
+            "movement ceased",
+            "delivery stopped",
+            "stalled out",
+            "could not pass",
+            "stopped arriving"
+          ],
+          "feature_id": "passage_ceases",
+          "motif": "Consequence: passage eventually ceases",
+          "weight": 0.8
+        },
+        {
+          "cues": [
+            "surges",
+            "trickle",
+            "sporadic",
+            "uneven arrival",
+            "delayed arrival",
+            "bursts then gaps"
+          ],
+          "feature_id": "uneven_delivery",
+          "motif": "Consequence: delivery becomes intermittent",
+          "weight": 0.7
+        }
+      ],
+      "core_motif": [
+        "Source",
+        "Path",
+        "Resistance",
+        "Flow"
+      ],
+      "direct_effect": "Greater resistance reduces movement through the path and can create backlog or stalled flow.",
+      "examples_hash": "bbb4cdc5514d702a412570f0ccd5551cb61d4e9d6c7e7a01233d115122e5f6a9",
+      "inspection_priority": "Inspect the highest-resistance segment of the path.",
+      "lesson_id": "MEC-L001",
+      "mapping_statement": "The system maps to Source -> Path -> Resistance -> Flow.",
+      "mechanism_explanation": "The observed system has movement through a path plus a restriction that reduces movement.",
+      "mechanism_name": "FLOW",
+      "minimum_consequence_score": 2.25,
+      "minimum_score": 3.0,
+      "required_min_consequence_features": 3,
+      "required_min_roles": 3,
+      "roles": [
+        {
+          "cues": [
+            "source",
+            "supply",
+            "inlet",
+            "upstream",
+            "origin",
+            "reservoir",
+            "tank",
+            "battery",
+            "sender",
+            "pump"
+          ],
+          "motif": "Source",
+          "role_id": "source"
+        },
+        {
+          "cues": [
+            "path",
+            "pipe",
+            "line",
+            "channel",
+            "wire",
+            "road",
+            "route",
+            "corridor",
+            "hallway",
+            "vessel",
+            "gateway",
+            "network",
+            "through",
+            "along",
+            "conduit"
+          ],
+          "motif": "Path",
+          "role_id": "path"
+        },
+        {
+          "cues": [
+            "resistance",
+            "restriction",
+            "resistor",
+            "blocked",
+            "blockage",
+            "bottleneck",
+            "narrow",
+            "narrowed",
+            "narrower",
+            "clogged",
+            "jam",
+            "traffic jam",
+            "rate limited",
+            "rate limit",
+            "choke"
+          ],
+          "motif": "Resistance",
+          "role_id": "resistance"
+        },
+        {
+          "cues": [
+            "flow",
+            "movement",
+            "moving",
+            "moves",
+            "throughput",
+            "current",
+            "progress",
+            "circulation",
+            "circulates",
+            "pass",
+            "passes",
+            "queue",
+            "queues"
+          ],
+          "motif": "Flow",
+          "role_id": "flow"
+        }
+      ],
+      "similarity_statement": "The similar mechanism is FLOW: movement through a path is reduced by resistance.",
+      "trace_expectation": "A mapped FLOW answer must cite at least three of Source, Path, Resistance, and Flow."
+    },
+    "load_transfer": {
+      "causal_rule": "Loads must be distributed through a load path; concentrated stress raises failure risk at members, joints, anchors, or supports.",
+      "component_category": "load path distribution element",
+      "consequence_signatures": [
+        {
+          "cues": [
+            "sagged",
+            "sagging",
+            "bowed",
+            "bent",
+            "drooped",
+            "tilted",
+            "surface dipped",
+            "shape bowed",
+            "one side bowed"
+          ],
+          "feature_id": "deformation",
+          "motif": "Consequence: shape deforms under hidden demand",
+          "weight": 0.9
+        },
+        {
+          "cues": [
+            "crack widened",
+            "fine crack widened",
+            "cracked",
+            "cracks appeared",
+            "split",
+            "fracture",
+            "fracture grew",
+            "hairline marks spread"
+          ],
+          "feature_id": "fracture_growth",
+          "motif": "Consequence: cracks or splits grow",
+          "weight": 0.9
+        },
+        {
+          "cues": [
+            "one area",
+            "one side",
+            "single region",
+            "same spot",
+            "one point",
+            "one corner",
+            "small region",
+            "local dent"
+          ],
+          "feature_id": "localized_damage",
+          "motif": "Consequence: damage localizes",
+          "weight": 0.85
+        },
+        {
+          "cues": [
+            "gap widened",
+            "uneven height",
+            "misaligned",
+            "no longer level",
+            "edge dropped",
+            "tilt increased"
+          ],
+          "feature_id": "alignment_loss",
+          "motif": "Consequence: geometry or alignment is lost",
+          "weight": 0.75
+        },
+        {
+          "cues": [
+            "gave way",
+            "collapsed",
+            "broke apart",
+            "broke",
+            "could not hold",
+            "fell apart",
+            "failed suddenly"
+          ],
+          "feature_id": "gave_way",
+          "motif": "Consequence: structure gives way",
+          "weight": 0.85
+        }
+      ],
+      "core_motif": [
+        "Load",
+        "Distribution",
+        "Concentration",
+        "Failure"
+      ],
+      "direct_effect": "Load concentration raises stress where distribution fails and can cause sagging, cracking, bending, or collapse.",
+      "examples_hash": "ebdc8343ac8cabe8e4df0dea96813476aafe1e4659be74040bbfac3c01dba57e",
+      "inspection_priority": "Inspect the load path and high-stress concentration points such as joints, anchors, brackets, supports, and overloaded members.",
+      "lesson_id": "MEC-L003",
+      "mapping_statement": "The system maps to Load -> Distribution -> Concentration -> Failure.",
+      "mechanism_explanation": "The observed system carries load through supports, then fails where stress concentrates.",
+      "mechanism_name": "LOAD_TRANSFER",
+      "minimum_consequence_score": 2.3,
+      "minimum_score": 3.0,
+      "required_min_consequence_features": 3,
+      "required_min_roles": 3,
+      "roles": [
+        {
+          "cues": [
+            "load",
+            "weight",
+            "heavy",
+            "force",
+            "carries",
+            "carrying",
+            "pull",
+            "pulls",
+            "suspended",
+            "boxes",
+            "cargo"
+          ],
+          "motif": "Load",
+          "role_id": "load"
+        },
+        {
+          "cues": [
+            "distribution",
+            "distribute",
+            "spread",
+            "spreads",
+            "shared",
+            "transfers",
+            "through",
+            "across",
+            "load path",
+            "members",
+            "cables",
+            "truss",
+            "posts",
+            "uprights",
+            "supports"
+          ],
+          "motif": "Distribution",
+          "role_id": "distribution"
+        },
+        {
+          "cues": [
+            "concentration",
+            "concentrated",
+            "one corner",
+            "single point",
+            "one anchor",
+            "localized",
+            "overload",
+            "overloaded",
+            "high stress",
+            "stress",
+            "bracket",
+            "joint"
+          ],
+          "motif": "Concentration",
+          "role_id": "concentration"
+        },
+        {
+          "cues": [
+            "failure",
+            "collapse",
+            "cracks",
+            "crack",
+            "bends",
+            "bent",
+            "sag",
+            "sags",
+            "bow",
+            "bows",
+            "buckle",
+            "buckles",
+            "breaks"
+          ],
+          "motif": "Failure",
+          "role_id": "failure"
+        }
+      ],
+      "similarity_statement": "The similar mechanism is LOAD_TRANSFER: load must distribute through a path, and concentration creates failure risk.",
+      "trace_expectation": "A mapped LOAD_TRANSFER answer must cite at least three of Load, Distribution, Concentration, and Failure."
+    },
+    "supported_rotation": {
+      "causal_rule": "Increasing friction at the support interface slows rotation and can cause noise, wear, seizure, or stoppage.",
+      "component_category": "rotational support interface",
+      "consequence_signatures": [
+        {
+          "cues": [
+            "became noisy",
+            "noise increased",
+            "noisy",
+            "rough sound",
+            "squeal",
+            "squealing",
+            "rattling",
+            "rattled",
+            "vibration",
+            "vibration increased",
+            "shudder"
+          ],
+          "feature_id": "audible_roughness",
+          "motif": "Consequence: rough motion becomes audible",
+          "weight": 0.9
+        },
+        {
+          "cues": [
+            "hotter",
+            "heat increased",
+            "temperature increased",
+            "ran hotter",
+            "warmed",
+            "warmth",
+            "heated up",
+            "became hot"
+          ],
+          "feature_id": "heat_rise",
+          "motif": "Consequence: temperature rises during motion",
+          "weight": 0.9
+        },
+        {
+          "cues": [
+            "slower",
+            "slowed",
+            "speed dropped",
+            "speed declined",
+            "efficiency slowly declined",
+            "motion lagged",
+            "movement became slower",
+            "took longer to move"
+          ],
+          "feature_id": "speed_decline",
+          "motif": "Consequence: motion speed declines",
+          "weight": 0.85
+        },
+        {
+          "cues": [
+            "resisting motion",
+            "resistance increased",
+            "drag grew",
+            "increasing drag",
+            "harder to move",
+            "normally moves freely",
+            "could not move freely"
+          ],
+          "feature_id": "rising_drag",
+          "motif": "Consequence: resistance to motion rises",
+          "weight": 0.9
+        },
+        {
+          "cues": [
+            "then stopped",
+            "stopped",
+            "halted",
+            "could not move",
+            "final lockup",
+            "locked up",
+            "stuck",
+            "seized",
+            "would not move"
+          ],
+          "feature_id": "final_lockup",
+          "motif": "Consequence: motion finally stops or locks",
+          "weight": 0.85
+        }
+      ],
+      "core_motif": [
+        "Rotation",
+        "Support",
+        "Friction",
+        "Failure"
+      ],
+      "direct_effect": "More friction at the support interface slows rotation, increases noise or wear, and can stop the rotating part.",
+      "examples_hash": "c0e55eb4f845fa1793aca1cbfac44bee20d214609456c2087c09169aa5e07d9a",
+      "inspection_priority": "Inspect the rotational support interface: bearing, bushing, axle, shaft, mount, or hub.",
+      "lesson_id": "MEC-L002",
+      "mapping_statement": "The system maps to Rotation -> Support -> Friction -> Failure.",
+      "mechanism_explanation": "The observed system has a rotating part whose support interface shows friction, wear, noise, or stoppage.",
+      "mechanism_name": "SUPPORTED_ROTATION",
+      "minimum_consequence_score": 2.35,
+      "minimum_score": 3.0,
+      "required_min_consequence_features": 3,
+      "required_min_roles": 3,
+      "roles": [
+        {
+          "cues": [
+            "rotation",
+            "rotates",
+            "rotate",
+            "rotating",
+            "spins",
+            "spin",
+            "turns",
+            "wheel",
+            "pulley",
+            "fan",
+            "motor",
+            "turntable",
+            "rotor",
+            "spindle",
+            "disk"
+          ],
+          "motif": "Rotation",
+          "role_id": "rotation"
+        },
+        {
+          "cues": [
+            "support",
+            "bearing",
+            "axle",
+            "shaft",
+            "bushing",
+            "spindle",
+            "mount",
+            "hub",
+            "pivot",
+            "journal"
+          ],
+          "motif": "Support",
+          "role_id": "support"
+        },
+        {
+          "cues": [
+            "friction",
+            "wear",
+            "worn",
+            "wearing",
+            "noisy",
+            "noise",
+            "squeal",
+            "squealing",
+            "vibration",
+            "rough",
+            "heat"
+          ],
+          "motif": "Friction",
+          "role_id": "friction"
+        },
+        {
+          "cues": [
+            "failure",
+            "fails",
+            "stops",
+            "stopped",
+            "stalls",
+            "seizes",
+            "slows",
+            "slow",
+            "uneven",
+            "stuck"
+          ],
+          "motif": "Failure",
+          "role_id": "failure"
+        }
+      ],
+      "similarity_statement": "The similar mechanism is SUPPORTED_ROTATION: rotation depends on a support interface that can fail through friction or wear.",
+      "trace_expectation": "A mapped SUPPORTED_ROTATION answer must cite at least three of Rotation, Support, Friction, and Failure."
+    }
+  },
+  "recall_boundary": {
+    "allowed_mechanisms": [
+      "FLOW",
+      "SUPPORTED_ROTATION",
+      "LOAD_TRANSFER"
+    ],
+    "policy": "Final answers may use held-out case text, this local mechanism state, and per-case pond recall JSON only."
+  },
+  "schema_version": "mechanism_pond_state.v1",
+  "seasoned_lesson_ids": [
+    "MEC-L001",
+    "MEC-L002",
+    "MEC-L003"
+  ],
+  "state_hash": "a6004b119c98c9328197e7714895b4bee7399c45a8e444f86d334a6c41927b4f",
+  "state_id": "mechanism_recall"
+}

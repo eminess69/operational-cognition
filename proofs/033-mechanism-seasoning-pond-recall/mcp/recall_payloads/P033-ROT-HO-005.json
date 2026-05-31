@@ -1,0 +1,47 @@
+{
+  "adapter_status": "pond_backed",
+  "belief_state_before": "local_state=mechanism_recall; mechanisms=FLOW,SUPPORTED_ROTATION,LOAD_TRANSFER",
+  "case_id": "P033-ROT-HO-005",
+  "consult_question": "Proof 033 targeted mechanism recall. Use the seasoned pond as recall substrate. Allowed mechanisms: FLOW, SUPPORTED_ROTATION, LOAD_TRANSFER. Return mechanism candidates, motifs, and lineage hashes before any answer. Held-out case: Observed system: A normally smooth around-axis motion began to grind, wobble, warm at the contact, and then lock. Question: Which learned mechanism structure should be applied?",
+  "lineage_hashes": [
+    "3d5681b682569897818b70e3bc2bc60f3d55c3448a10fd45ee441bd4c3a6a901",
+    "e26e6219f3716be9422534142eab46e229489c230ed8881266096065f4709ac1",
+    "c6e7ffa1204aedebae942ac7e0ef2e9863d8bcc6a9618b95142c07c1544422f3",
+    "9dc990b92a07a9c77beafae5036894225983ce47f5fd2c6650266d29afc81b15",
+    "19970b72023d5042fd5dabca376098a5062be2fac9065c0ade0aaa4fa534b0f4",
+    "9a235970da2ce0889cf3fe800094cb3de969f57d53fd282a0a16534e2fe0e910",
+    "2c39dcded5661e4afc8249a84bc54d80cf5d33397f009ccff164c5674eb4213b",
+    "f62f6bacaed6c6ce18692a3eb81e435caefcaf2494690be442ae5dc883517be4"
+  ],
+  "mcp_status": "pond_backed",
+  "pond_state_path": "/Users/mattdewing/Desktop/Operational Cognition/proofs/033-mechanism-seasoning-pond-recall/pond_states/mechanism_recall",
+  "reason": "Pond-backed /consult supplied traceable recall lineages. Candidate and mechanism motifs are deterministic Codex mentor extraction over the held-out text and allowed seasoned mechanisms; hostile audit treats this as a surviving parser/Codex-synthesis explanation.",
+  "recall_used_by_cli": true,
+  "returned_lineages": [
+    "pressure:44eeb320a80c1c5f",
+    "authority:63405000ebba",
+    "contradiction:9d85edad8192",
+    "pressure:bb90f0aca2202a76",
+    "inside_voice_runtime:8c7a0ef664098db91e88",
+    "authority:c3328bb2ea1b",
+    "authority:7e4919d7f9e0",
+    "lineage_ref:f7bc5dc9c820c97a",
+    "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+    "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+    "artifacts/pond/high_grade_seasoning_corpus.jsonl#76",
+    "artifacts/pond/pattern_overlap_clusters.jsonl",
+    "artifacts/pond/pattern_overlap_clusters.jsonl#0",
+    "trace.falsification.hostile_ext_001",
+    "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#14",
+    "artifacts/pond/first_principles_seasoning_corpus.jsonl#fp_0015"
+  ],
+  "returned_mechanism_candidates": [
+    "supported_rotation"
+  ],
+  "returned_motifs": [
+    "Rotation",
+    "Support",
+    "Friction",
+    "Failure"
+  ]
+}

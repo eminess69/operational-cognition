@@ -1,0 +1,25 @@
+{
+  "context": {
+    "constraints": [
+      "Call /consult before final mechanism inference.",
+      "Use only FLOW, SUPPORTED_ROTATION, LOAD_TRANSFER.",
+      "Return mechanism candidates, motifs, lineage refs, and lineage hashes.",
+      "Do not leak expected answer fields."
+    ],
+    "desired_artifacts": [
+      "mechanism candidates",
+      "recalled motifs",
+      "lineage hashes"
+    ],
+    "files": [
+      "proofs/033-mechanism-seasoning-pond-recall/curriculum/mechanism_seasoning_examples.jsonl",
+      "proofs/033-mechanism-seasoning-pond-recall/mcp/seasoning_log.jsonl"
+    ],
+    "summary": "Targeted mechanism recall for held-out case P033-ROT-HO-005."
+  },
+  "max_output_chars": 8000,
+  "mode": "review",
+  "request_id": "proof-033-recall-013-p033-rot-ho-005",
+  "require_lineage": true,
+  "task": "Proof 033 targeted mechanism recall. Use the seasoned pond as recall substrate. Allowed mechanisms: FLOW, SUPPORTED_ROTATION, LOAD_TRANSFER. Return mechanism candidates, motifs, and lineage hashes before any answer. Held-out case: Observed system: A normally smooth around-axis motion began to grind, wobble, warm at the contact, and then lock. Question: Which learned mechanism structure should be applied?"
+}

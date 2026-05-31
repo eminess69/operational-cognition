@@ -1,0 +1,13 @@
+{
+  "deterministic_replay_match": true,
+  "lineage_traceability_rate": 1.0,
+  "mechanism_recall_accuracy": 1.0,
+  "motif_traceability_rate": 1.0,
+  "pond_backed_responses": 84,
+  "recall_events": 24,
+  "recall_relevance_rate": 1.0,
+  "recall_specificity_rate": 1.0,
+  "seasoning_events": 36,
+  "unsupported_answer_count": 0,
+  "used_recall_rate": 1.0
+}

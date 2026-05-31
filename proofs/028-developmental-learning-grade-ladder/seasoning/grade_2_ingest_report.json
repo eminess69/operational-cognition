@@ -1,0 +1,41 @@
+{
+  "concept_count": 12,
+  "formed_motifs": [
+    "g1_count_forward_addition",
+    "g1_counting_sequence",
+    "g1_number_order_comparison",
+    "g1_same_value_equality",
+    "g1_take_away_subtraction",
+    "g1_word_problem_operation_mapping",
+    "g2_equal_grouping_division",
+    "g2_equal_groups_repeated_addition",
+    "g2_fixed_step_skip_counting",
+    "g2_no_borrow_column_subtraction",
+    "g2_no_carry_column_addition",
+    "g2_tens_ones_place_value"
+  ],
+  "ingested_lessons": [
+    "G2-L001",
+    "G2-L002",
+    "G2-L003",
+    "G2-L004",
+    "G2-L005",
+    "G2-L006"
+  ],
+  "lesson_count": 6,
+  "motif_count": 12,
+  "parent_state": "grade_1_seasoned",
+  "rejected_lessons": [],
+  "reused_parent_motifs": [
+    "g1_count_forward_addition",
+    "g1_counting_sequence",
+    "g1_number_order_comparison",
+    "g1_same_value_equality",
+    "g1_take_away_subtraction",
+    "g1_word_problem_operation_mapping"
+  ],
+  "seasoning_mode": "deterministic_jsonl_ingest",
+  "state_hash": "8a54ef95ad748673289ddf8470417d2bedd9ad2641e26ef99c66b32178980322",
+  "state_id": "grade_2_seasoned",
+  "traceback_policy": "Every answered item must include source_tracebacks to lesson_id, rule, trace_expectation, and expected_motif."
+}

@@ -1,0 +1,53 @@
+{
+  "claim_level": "evidence_backed",
+  "disallowed_claims": [
+    "LLM generated final answers",
+    "general mechanism understanding",
+    "general physical reasoning",
+    "success independent of parser behavior",
+    "success independent of hand-authored consequence cues",
+    "success beyond FLOW, SUPPORTED_ROTATION, and LOAD_TRANSFER"
+  ],
+  "inside_voice_adapter_status": "not_used_final_answers_generated_by_deterministic_cli",
+  "lineage": {
+    "contract_version": "mechanism_pond.cli.v3",
+    "derived_from": "proofs/031-mechanistic-transfer-cue-invariance/pond_states/mechanism_seasoned/pond_state.json; tests/*.jsonl; python3 -m operational_cognition.cli.mechanism_pond",
+    "mcp_endpoint": "none:deterministic_cli_no_llm",
+    "request_hash": "974f245360ea3fa6c2045b8b563d79222e547f4408c9292fe2f7e49bcd2d2e39",
+    "response_hash": "c8d9ebd49b305de15b40b20663d0aa7206e50c5631319317f22d781939bf3ee0",
+    "validates": "curated_consequence_only_mechanistic_inference_with_fail_closed_no_llm_cli_answers"
+  },
+  "proof_id": "032-mechanistic-inference-challenge",
+  "public_private_boundary": "All artifacts are public deterministic tests, pond state, CLI outputs, metrics, and audits. No hidden chain-of-thought or private substrate data is exposed.",
+  "required_artifacts": [
+    "README.md",
+    "proof_manifest.json",
+    "pond_states/mechanism_inference/pond_state.json",
+    "tests/consequence_only.jsonl",
+    "tests/reordered_evidence.jsonl",
+    "tests/missing_roles.jsonl",
+    "tests/multicause.jsonl",
+    "tests/novel_surface.jsonl",
+    "tests/fail_closed.jsonl",
+    "results/consequence_only_results.json",
+    "results/reordered_results.json",
+    "results/missing_roles_results.json",
+    "results/multicause_results.json",
+    "results/novel_surface_results.json",
+    "results/fail_closed_results.json",
+    "analysis/mechanistic_inference_audit.json",
+    "analysis/hidden_cause_audit.json",
+    "analysis/hostile_mechanistic_inference_audit.json",
+    "analysis/mechanistic_inference_metrics.json"
+  ],
+  "status": "complete",
+  "targets": [
+    "MechanisticInference",
+    "ConsequenceOnlyReasoning",
+    "HiddenCauseInference",
+    "MultiCauseRanking",
+    "FailClosedMechanismPondCLI",
+    "HostileParserAudit"
+  ],
+  "title": "Proof 032 - Mechanistic Inference Challenge: Consequence-Only Reasoning"
+}

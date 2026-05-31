@@ -1,0 +1,26 @@
+{
+  "baseline_all_fail_closed": true,
+  "baseline_fail_closed_count": 10,
+  "baseline_total_items": 10,
+  "fail_closed_reasons": [
+    "missing_required_motifs:counting,number_comparison",
+    "missing_required_motifs:counting,number_comparison,place_value",
+    "missing_required_motifs:counting,one_digit_addition",
+    "missing_required_motifs:counting,one_digit_addition,place_value,two_digit_addition_without_carrying",
+    "missing_required_motifs:counting,one_digit_addition,simple_word_problems,multiplication_as_repeated_addition",
+    "missing_required_motifs:counting,one_digit_subtraction,division_as_grouping",
+    "missing_required_motifs:counting,one_digit_subtraction,place_value,two_digit_subtraction_without_borrowing",
+    "missing_required_motifs:counting,one_digit_subtraction,simple_word_problems",
+    "missing_required_motifs:counting,place_value",
+    "missing_required_motifs:division_as_grouping",
+    "missing_required_motifs:multiplication_as_repeated_addition",
+    "missing_required_motifs:place_value",
+    "missing_required_motifs:place_value,two_digit_addition_without_carrying",
+    "missing_required_motifs:place_value,two_digit_subtraction_without_borrowing"
+  ],
+  "grade_1_fail_closed_count_on_unseasoned_grade_2_forms": 7,
+  "grade_2_fail_closed_count": 0,
+  "guessing_detected": false,
+  "policy": "A blank answer with FAIL_CLOSED is required when motifs are missing, a form is unrecognized, borrowing/carrying is required, or division has a remainder.",
+  "proof_id": "028-developmental-learning-grade-ladder"
+}

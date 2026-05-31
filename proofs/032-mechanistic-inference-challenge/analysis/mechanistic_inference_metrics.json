@@ -1,0 +1,20 @@
+{
+  "answered_successes": 28,
+  "classification_counts": {
+    "CONSEQUENCE_INFERENCE": 18,
+    "RELATIONAL_INFERENCE": 10,
+    "UNSUPPORTED": 5
+  },
+  "consequence_only_accuracy": 1.0,
+  "consequence_or_relational_success_rate": 1.0,
+  "consequence_or_relational_successes": 28,
+  "deterministic_replay_match": true,
+  "fail_closed_rate": 1.0,
+  "hidden_cause_inference_rate": 1.0,
+  "missing_roles_accuracy": 1.0,
+  "multicause_accuracy": 1.0,
+  "novel_surface_accuracy": 1.0,
+  "proof_id": "032-mechanistic-inference-challenge",
+  "reordered_accuracy": 1.0,
+  "signal_before_hostile_audit": "STRONG_SIGNAL"
+}

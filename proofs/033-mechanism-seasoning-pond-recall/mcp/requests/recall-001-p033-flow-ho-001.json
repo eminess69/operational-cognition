@@ -1,0 +1,25 @@
+{
+  "context": {
+    "constraints": [
+      "Call /consult before final mechanism inference.",
+      "Use only FLOW, SUPPORTED_ROTATION, LOAD_TRANSFER.",
+      "Return mechanism candidates, motifs, lineage refs, and lineage hashes.",
+      "Do not leak expected answer fields."
+    ],
+    "desired_artifacts": [
+      "mechanism candidates",
+      "recalled motifs",
+      "lineage hashes"
+    ],
+    "files": [
+      "proofs/033-mechanism-seasoning-pond-recall/curriculum/mechanism_seasoning_examples.jsonl",
+      "proofs/033-mechanism-seasoning-pond-recall/mcp/seasoning_log.jsonl"
+    ],
+    "summary": "Targeted mechanism recall for held-out case P033-FLOW-HO-001."
+  },
+  "max_output_chars": 8000,
+  "mode": "review",
+  "request_id": "proof-033-recall-001-p033-flow-ho-001",
+  "require_lineage": true,
+  "task": "Proof 033 targeted mechanism recall. Use the seasoned pond as recall substrate. Allowed mechanisms: FLOW, SUPPORTED_ROTATION, LOAD_TRANSFER. Return mechanism candidates, motifs, and lineage hashes before any answer. Held-out case: Observed system: People enter a museum entry area, use a roped passage, then bunch before a pinched throat; only a few emerge into the exhibit hall. Question: Which learned mechanism structure should be applied?"
+}

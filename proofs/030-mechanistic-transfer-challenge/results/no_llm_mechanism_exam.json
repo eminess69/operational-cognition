@@ -1,0 +1,33 @@
+{
+  "answer_generation_boundary": {
+    "cli_module": "operational_cognition.cli.mechanism_pond",
+    "codex_answer_synthesis_used": false,
+    "fail_closed_policy": "If mechanism role evidence is absent or ambiguous, the CLI returns FAIL_CLOSED with blank mapping fields.",
+    "final_answers_generated_by": "subprocess invocation of python3 -m operational_cognition.cli.mechanism_pond map --json",
+    "llm_used_for_final_answers": false
+  },
+  "baseline_unseasoned": {
+    "all_fail_closed": true,
+    "total_items": 12
+  },
+  "deterministic_replay_match": true,
+  "execution_mode": "deterministic_cli_no_llm",
+  "final_interpretation": "The critical transfer metric is high, but the hostile audit rejects a strong cognition claim because parser and hardcoded-role explanations survive.",
+  "hostile_verdict": "FAIL",
+  "phase": "no_llm_cli_mechanism_exam",
+  "proof_id": "030-mechanistic-transfer-challenge",
+  "result_refs": [
+    "results/in_domain_results.json",
+    "results/cross_domain_transfer_results.json",
+    "results/hidden_mechanism_results.json",
+    "results/mechanism_mapping_results.json",
+    "analysis/hostile_mechanism_audit.json"
+  ],
+  "seasoned": {
+    "cross_domain_transfer_rate": 1.0,
+    "hidden_mechanism_transfer_rate": 1.0,
+    "in_domain_identification_rate": 1.0,
+    "mechanism_transfer_rate": 1.0,
+    "unsupported_fail_closed_rate": 1.0
+  }
+}
