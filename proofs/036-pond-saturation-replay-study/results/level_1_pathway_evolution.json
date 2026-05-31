@@ -1,0 +1,1650 @@
+[
+  {
+    "case_id": "P034B-FLOW-001",
+    "final_status": "RANKED",
+    "initial_candidates": [
+      {
+        "local_matched_cues": [
+          "decline",
+          "output",
+          "queue",
+          "wait"
+        ],
+        "pathway": "FLOW",
+        "reason": "Observation preserves passage, restriction, output, backlog, or downstream starvation structure.",
+        "supporting_lineage_hashes": [
+          "5c7476d4485fe350e96dac3a1f9074a3e56284a991709266a36bfcb1a1368831",
+          "196e365e31a887595cf25742393619c5eb6c0ebe5784071d5401f6519539fbc7",
+          "3fe21f18de3ea9a3ec6ce46aeb10b4b669550f0cc59034c8c2a69f1d3a31bc74",
+          "2f12d089076b6e6b801586fe0e6ae5c1024f5dafb2d3585055b5267ae5eac33e",
+          "449cb1d71565af19ff92e3ff4c4751e23802e54b3793380184c77affbcf596a5"
+        ],
+        "supporting_motifs": [
+          "Flow",
+          "Path",
+          "Resistance",
+          "Source"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "FLOW"
+    ],
+    "updated_candidates": [
+      {
+        "local_matched_cues": [
+          "decline",
+          "output",
+          "queue",
+          "wait"
+        ],
+        "pathway": "FLOW",
+        "reason": "Observation preserves passage, restriction, output, backlog, or downstream starvation structure.",
+        "supporting_lineage_hashes": [
+          "5c7476d4485fe350e96dac3a1f9074a3e56284a991709266a36bfcb1a1368831",
+          "196e365e31a887595cf25742393619c5eb6c0ebe5784071d5401f6519539fbc7",
+          "3fe21f18de3ea9a3ec6ce46aeb10b4b669550f0cc59034c8c2a69f1d3a31bc74",
+          "2f12d089076b6e6b801586fe0e6ae5c1024f5dafb2d3585055b5267ae5eac33e",
+          "449cb1d71565af19ff92e3ff4c4751e23802e54b3793380184c77affbcf596a5"
+        ],
+        "supporting_motifs": [
+          "Flow",
+          "Path",
+          "Resistance",
+          "Source"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034B-FLOW-002",
+    "final_status": "RANKED",
+    "initial_candidates": [
+      {
+        "local_matched_cues": [],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "9ffceca5bc1e3e83329631a0229af7c6a1a434cd35b16555ee202375e5c9a056",
+          "f0b64c00b11d6a1f6f410a4d56561008cb32ce181ff11182409405d2eea90a12",
+          "2fbb2d0b511f344d5df15aa645cfe5f4d6ce1e00a2e12e744e27c399d40a46b0",
+          "6a7dc66b8ff38540f900ae22f837e8ce83e1127cb07cf1ca3e35ef6b20022e2d",
+          "9e06a42360b8fb35153955d50664563228d98805906b80fd94fff4ece3036030"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "SUPPORTED_ROTATION"
+    ],
+    "updated_candidates": [
+      {
+        "local_matched_cues": [],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "9ffceca5bc1e3e83329631a0229af7c6a1a434cd35b16555ee202375e5c9a056",
+          "f0b64c00b11d6a1f6f410a4d56561008cb32ce181ff11182409405d2eea90a12",
+          "2fbb2d0b511f344d5df15aa645cfe5f4d6ce1e00a2e12e744e27c399d40a46b0",
+          "6a7dc66b8ff38540f900ae22f837e8ce83e1127cb07cf1ca3e35ef6b20022e2d",
+          "9e06a42360b8fb35153955d50664563228d98805906b80fd94fff4ece3036030"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034B-FLOW-003",
+    "final_status": "RANKED",
+    "initial_candidates": [
+      {
+        "local_matched_cues": [
+          "narrowed",
+          "output",
+          "passage",
+          "wait"
+        ],
+        "pathway": "FLOW",
+        "reason": "Observation preserves passage, restriction, output, backlog, or downstream starvation structure.",
+        "supporting_lineage_hashes": [
+          "3fe21f18de3ea9a3ec6ce46aeb10b4b669550f0cc59034c8c2a69f1d3a31bc74",
+          "5c7476d4485fe350e96dac3a1f9074a3e56284a991709266a36bfcb1a1368831",
+          "137b0fbd2415e504e482c5d53b7f17b40e5c15a94f0a29928a897b4c90ac9675",
+          "196e365e31a887595cf25742393619c5eb6c0ebe5784071d5401f6519539fbc7",
+          "2f12d089076b6e6b801586fe0e6ae5c1024f5dafb2d3585055b5267ae5eac33e"
+        ],
+        "supporting_motifs": [
+          "Flow",
+          "Path",
+          "Resistance",
+          "Source"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "FLOW"
+    ],
+    "updated_candidates": [
+      {
+        "local_matched_cues": [
+          "narrowed",
+          "output",
+          "passage",
+          "wait"
+        ],
+        "pathway": "FLOW",
+        "reason": "Observation preserves passage, restriction, output, backlog, or downstream starvation structure.",
+        "supporting_lineage_hashes": [
+          "3fe21f18de3ea9a3ec6ce46aeb10b4b669550f0cc59034c8c2a69f1d3a31bc74",
+          "5c7476d4485fe350e96dac3a1f9074a3e56284a991709266a36bfcb1a1368831",
+          "137b0fbd2415e504e482c5d53b7f17b40e5c15a94f0a29928a897b4c90ac9675",
+          "196e365e31a887595cf25742393619c5eb6c0ebe5784071d5401f6519539fbc7",
+          "2f12d089076b6e6b801586fe0e6ae5c1024f5dafb2d3585055b5267ae5eac33e"
+        ],
+        "supporting_motifs": [
+          "Flow",
+          "Path",
+          "Resistance",
+          "Source"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034B-FLOW-004",
+    "final_status": "RANKED",
+    "initial_candidates": [
+      {
+        "local_matched_cues": [
+          "backlog",
+          "channel",
+          "decline",
+          "downstream",
+          "output",
+          "restriction",
+          "throughput",
+          "upstream"
+        ],
+        "pathway": "FLOW",
+        "reason": "Observation preserves passage, restriction, output, backlog, or downstream starvation structure.",
+        "supporting_lineage_hashes": [
+          "5c7476d4485fe350e96dac3a1f9074a3e56284a991709266a36bfcb1a1368831",
+          "137b0fbd2415e504e482c5d53b7f17b40e5c15a94f0a29928a897b4c90ac9675",
+          "196e365e31a887595cf25742393619c5eb6c0ebe5784071d5401f6519539fbc7",
+          "449cb1d71565af19ff92e3ff4c4751e23802e54b3793380184c77affbcf596a5",
+          "6e0c931d9629989f62a3820dc1e41d781e625a6a5571ef0ff5c831f67d685341"
+        ],
+        "supporting_motifs": [
+          "Flow",
+          "Path",
+          "Resistance",
+          "Source"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "FLOW"
+    ],
+    "updated_candidates": [
+      {
+        "local_matched_cues": [
+          "backlog",
+          "channel",
+          "decline",
+          "downstream",
+          "output",
+          "restriction",
+          "throughput",
+          "upstream"
+        ],
+        "pathway": "FLOW",
+        "reason": "Observation preserves passage, restriction, output, backlog, or downstream starvation structure.",
+        "supporting_lineage_hashes": [
+          "5c7476d4485fe350e96dac3a1f9074a3e56284a991709266a36bfcb1a1368831",
+          "137b0fbd2415e504e482c5d53b7f17b40e5c15a94f0a29928a897b4c90ac9675",
+          "196e365e31a887595cf25742393619c5eb6c0ebe5784071d5401f6519539fbc7",
+          "449cb1d71565af19ff92e3ff4c4751e23802e54b3793380184c77affbcf596a5",
+          "6e0c931d9629989f62a3820dc1e41d781e625a6a5571ef0ff5c831f67d685341"
+        ],
+        "supporting_motifs": [
+          "Flow",
+          "Path",
+          "Resistance",
+          "Source"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034B-FLOW-005",
+    "final_status": "RANKED",
+    "initial_candidates": [
+      {
+        "local_matched_cues": [
+          "arrival"
+        ],
+        "pathway": "FLOW",
+        "reason": "Observation preserves passage, restriction, output, backlog, or downstream starvation structure.",
+        "supporting_lineage_hashes": [
+          "c96d239322d5b1afa13ea406589897491fb49e77fd479c9393d33a45427e776d",
+          "196e365e31a887595cf25742393619c5eb6c0ebe5784071d5401f6519539fbc7",
+          "88706954decce435ae83532c5c761a3132f55c44944e6536bbbebd156b93692a",
+          "2f12d089076b6e6b801586fe0e6ae5c1024f5dafb2d3585055b5267ae5eac33e",
+          "3fe21f18de3ea9a3ec6ce46aeb10b4b669550f0cc59034c8c2a69f1d3a31bc74"
+        ],
+        "supporting_motifs": [
+          "Flow",
+          "Path",
+          "Resistance",
+          "Source"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "FLOW"
+    ],
+    "updated_candidates": [
+      {
+        "local_matched_cues": [
+          "arrival"
+        ],
+        "pathway": "FLOW",
+        "reason": "Observation preserves passage, restriction, output, backlog, or downstream starvation structure.",
+        "supporting_lineage_hashes": [
+          "c96d239322d5b1afa13ea406589897491fb49e77fd479c9393d33a45427e776d",
+          "196e365e31a887595cf25742393619c5eb6c0ebe5784071d5401f6519539fbc7",
+          "88706954decce435ae83532c5c761a3132f55c44944e6536bbbebd156b93692a",
+          "2f12d089076b6e6b801586fe0e6ae5c1024f5dafb2d3585055b5267ae5eac33e",
+          "3fe21f18de3ea9a3ec6ce46aeb10b4b669550f0cc59034c8c2a69f1d3a31bc74"
+        ],
+        "supporting_motifs": [
+          "Flow",
+          "Path",
+          "Resistance",
+          "Source"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034B-FLOW-006",
+    "final_status": "RANKED",
+    "initial_candidates": [
+      {
+        "local_matched_cues": [],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "2fbb2d0b511f344d5df15aa645cfe5f4d6ce1e00a2e12e744e27c399d40a46b0",
+          "4d6cedb54f0e99284fca8c946d0933138680724c83899e012390128b7518060b",
+          "4dd1aa8ed0fb8e8b8941c6fd67aadce0ce01aa40ca5ff8a2d5faa891578c0490",
+          "6a7dc66b8ff38540f900ae22f837e8ce83e1127cb07cf1ca3e35ef6b20022e2d",
+          "9e06a42360b8fb35153955d50664563228d98805906b80fd94fff4ece3036030"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "SUPPORTED_ROTATION"
+    ],
+    "updated_candidates": [
+      {
+        "local_matched_cues": [],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "2fbb2d0b511f344d5df15aa645cfe5f4d6ce1e00a2e12e744e27c399d40a46b0",
+          "4d6cedb54f0e99284fca8c946d0933138680724c83899e012390128b7518060b",
+          "4dd1aa8ed0fb8e8b8941c6fd67aadce0ce01aa40ca5ff8a2d5faa891578c0490",
+          "6a7dc66b8ff38540f900ae22f837e8ce83e1127cb07cf1ca3e35ef6b20022e2d",
+          "9e06a42360b8fb35153955d50664563228d98805906b80fd94fff4ece3036030"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034B-FLOW-007",
+    "final_status": "RANKED",
+    "initial_candidates": [
+      {
+        "local_matched_cues": [
+          "output",
+          "queue"
+        ],
+        "pathway": "FLOW",
+        "reason": "Observation preserves passage, restriction, output, backlog, or downstream starvation structure.",
+        "supporting_lineage_hashes": [
+          "196e365e31a887595cf25742393619c5eb6c0ebe5784071d5401f6519539fbc7",
+          "2f12d089076b6e6b801586fe0e6ae5c1024f5dafb2d3585055b5267ae5eac33e",
+          "449cb1d71565af19ff92e3ff4c4751e23802e54b3793380184c77affbcf596a5",
+          "137b0fbd2415e504e482c5d53b7f17b40e5c15a94f0a29928a897b4c90ac9675",
+          "3fe21f18de3ea9a3ec6ce46aeb10b4b669550f0cc59034c8c2a69f1d3a31bc74"
+        ],
+        "supporting_motifs": [
+          "Flow",
+          "Path",
+          "Resistance",
+          "Source"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "FLOW"
+    ],
+    "updated_candidates": [
+      {
+        "local_matched_cues": [
+          "output",
+          "queue"
+        ],
+        "pathway": "FLOW",
+        "reason": "Observation preserves passage, restriction, output, backlog, or downstream starvation structure.",
+        "supporting_lineage_hashes": [
+          "196e365e31a887595cf25742393619c5eb6c0ebe5784071d5401f6519539fbc7",
+          "2f12d089076b6e6b801586fe0e6ae5c1024f5dafb2d3585055b5267ae5eac33e",
+          "449cb1d71565af19ff92e3ff4c4751e23802e54b3793380184c77affbcf596a5",
+          "137b0fbd2415e504e482c5d53b7f17b40e5c15a94f0a29928a897b4c90ac9675",
+          "3fe21f18de3ea9a3ec6ce46aeb10b4b669550f0cc59034c8c2a69f1d3a31bc74"
+        ],
+        "supporting_motifs": [
+          "Flow",
+          "Path",
+          "Resistance",
+          "Source"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034B-FLOW-008",
+    "final_status": "RANKED",
+    "initial_candidates": [
+      {
+        "local_matched_cues": [],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "f0b64c00b11d6a1f6f410a4d56561008cb32ce181ff11182409405d2eea90a12",
+          "9ffceca5bc1e3e83329631a0229af7c6a1a434cd35b16555ee202375e5c9a056",
+          "4dd1aa8ed0fb8e8b8941c6fd67aadce0ce01aa40ca5ff8a2d5faa891578c0490",
+          "ea7db240180ec734bcb8569f0c9e8b4934737e23382332a63713738b745f7e56",
+          "f8556fa21fb6efbc7be9765d921efc8e331fec806898cc923100267639e156db"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "SUPPORTED_ROTATION"
+    ],
+    "updated_candidates": [
+      {
+        "local_matched_cues": [],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "f0b64c00b11d6a1f6f410a4d56561008cb32ce181ff11182409405d2eea90a12",
+          "9ffceca5bc1e3e83329631a0229af7c6a1a434cd35b16555ee202375e5c9a056",
+          "4dd1aa8ed0fb8e8b8941c6fd67aadce0ce01aa40ca5ff8a2d5faa891578c0490",
+          "ea7db240180ec734bcb8569f0c9e8b4934737e23382332a63713738b745f7e56",
+          "f8556fa21fb6efbc7be9765d921efc8e331fec806898cc923100267639e156db"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034B-ROT-001",
+    "final_status": "RANKED",
+    "initial_candidates": [
+      {
+        "local_matched_cues": [
+          "lock",
+          "rough",
+          "socket",
+          "turning",
+          "warm",
+          "wobble"
+        ],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "6a7dc66b8ff38540f900ae22f837e8ce83e1127cb07cf1ca3e35ef6b20022e2d",
+          "9e06a42360b8fb35153955d50664563228d98805906b80fd94fff4ece3036030",
+          "30445ea0e88c38fb7d3c83d9451da2cbf070c2a2e16aa8c05a0fadc24a74e3a3",
+          "b12ebc79bf22ec0157747af9527e2ed154ec0d3cd6709263bd05c5783cf3c331",
+          "ea7db240180ec734bcb8569f0c9e8b4934737e23382332a63713738b745f7e56"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "SUPPORTED_ROTATION"
+    ],
+    "updated_candidates": [
+      {
+        "local_matched_cues": [
+          "lock",
+          "rough",
+          "socket",
+          "turning",
+          "warm",
+          "wobble"
+        ],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "6a7dc66b8ff38540f900ae22f837e8ce83e1127cb07cf1ca3e35ef6b20022e2d",
+          "9e06a42360b8fb35153955d50664563228d98805906b80fd94fff4ece3036030",
+          "30445ea0e88c38fb7d3c83d9451da2cbf070c2a2e16aa8c05a0fadc24a74e3a3",
+          "b12ebc79bf22ec0157747af9527e2ed154ec0d3cd6709263bd05c5783cf3c331",
+          "ea7db240180ec734bcb8569f0c9e8b4934737e23382332a63713738b745f7e56"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034B-ROT-002",
+    "final_status": "RANKED",
+    "initial_candidates": [
+      {
+        "local_matched_cues": [
+          "circular",
+          "drag",
+          "pivot"
+        ],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "2fbb2d0b511f344d5df15aa645cfe5f4d6ce1e00a2e12e744e27c399d40a46b0",
+          "b12ebc79bf22ec0157747af9527e2ed154ec0d3cd6709263bd05c5783cf3c331",
+          "9ffceca5bc1e3e83329631a0229af7c6a1a434cd35b16555ee202375e5c9a056",
+          "f0b64c00b11d6a1f6f410a4d56561008cb32ce181ff11182409405d2eea90a12",
+          "f95327beaa7bd8eb1ca1dfbc569cb31da3a80fd15e7253617416fb2f4c19ec8a"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "SUPPORTED_ROTATION"
+    ],
+    "updated_candidates": [
+      {
+        "local_matched_cues": [
+          "circular",
+          "drag",
+          "pivot"
+        ],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "2fbb2d0b511f344d5df15aa645cfe5f4d6ce1e00a2e12e744e27c399d40a46b0",
+          "b12ebc79bf22ec0157747af9527e2ed154ec0d3cd6709263bd05c5783cf3c331",
+          "9ffceca5bc1e3e83329631a0229af7c6a1a434cd35b16555ee202375e5c9a056",
+          "f0b64c00b11d6a1f6f410a4d56561008cb32ce181ff11182409405d2eea90a12",
+          "f95327beaa7bd8eb1ca1dfbc569cb31da3a80fd15e7253617416fb2f4c19ec8a"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034B-ROT-003",
+    "final_status": "RANKED",
+    "initial_candidates": [
+      {
+        "local_matched_cues": [
+          "journal",
+          "rough",
+          "seizure",
+          "support"
+        ],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "b12ebc79bf22ec0157747af9527e2ed154ec0d3cd6709263bd05c5783cf3c331",
+          "2fbb2d0b511f344d5df15aa645cfe5f4d6ce1e00a2e12e744e27c399d40a46b0",
+          "30445ea0e88c38fb7d3c83d9451da2cbf070c2a2e16aa8c05a0fadc24a74e3a3",
+          "6a7dc66b8ff38540f900ae22f837e8ce83e1127cb07cf1ca3e35ef6b20022e2d",
+          "9e06a42360b8fb35153955d50664563228d98805906b80fd94fff4ece3036030"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "SUPPORTED_ROTATION"
+    ],
+    "updated_candidates": [
+      {
+        "local_matched_cues": [
+          "journal",
+          "rough",
+          "seizure",
+          "support"
+        ],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "b12ebc79bf22ec0157747af9527e2ed154ec0d3cd6709263bd05c5783cf3c331",
+          "2fbb2d0b511f344d5df15aa645cfe5f4d6ce1e00a2e12e744e27c399d40a46b0",
+          "30445ea0e88c38fb7d3c83d9451da2cbf070c2a2e16aa8c05a0fadc24a74e3a3",
+          "6a7dc66b8ff38540f900ae22f837e8ce83e1127cb07cf1ca3e35ef6b20022e2d",
+          "9e06a42360b8fb35153955d50664563228d98805906b80fd94fff4ece3036030"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034B-ROT-004",
+    "final_status": "RANKED",
+    "initial_candidates": [
+      {
+        "local_matched_cues": [
+          "lock",
+          "warm"
+        ],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "9e06a42360b8fb35153955d50664563228d98805906b80fd94fff4ece3036030",
+          "f95327beaa7bd8eb1ca1dfbc569cb31da3a80fd15e7253617416fb2f4c19ec8a",
+          "30445ea0e88c38fb7d3c83d9451da2cbf070c2a2e16aa8c05a0fadc24a74e3a3",
+          "4dd1aa8ed0fb8e8b8941c6fd67aadce0ce01aa40ca5ff8a2d5faa891578c0490",
+          "9ffceca5bc1e3e83329631a0229af7c6a1a434cd35b16555ee202375e5c9a056"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "SUPPORTED_ROTATION"
+    ],
+    "updated_candidates": [
+      {
+        "local_matched_cues": [
+          "lock",
+          "warm"
+        ],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "9e06a42360b8fb35153955d50664563228d98805906b80fd94fff4ece3036030",
+          "f95327beaa7bd8eb1ca1dfbc569cb31da3a80fd15e7253617416fb2f4c19ec8a",
+          "30445ea0e88c38fb7d3c83d9451da2cbf070c2a2e16aa8c05a0fadc24a74e3a3",
+          "4dd1aa8ed0fb8e8b8941c6fd67aadce0ce01aa40ca5ff8a2d5faa891578c0490",
+          "9ffceca5bc1e3e83329631a0229af7c6a1a434cd35b16555ee202375e5c9a056"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034B-ROT-005",
+    "final_status": "RANKED",
+    "initial_candidates": [
+      {
+        "local_matched_cues": [
+          "drag"
+        ],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "9e06a42360b8fb35153955d50664563228d98805906b80fd94fff4ece3036030",
+          "ea7db240180ec734bcb8569f0c9e8b4934737e23382332a63713738b745f7e56",
+          "f8556fa21fb6efbc7be9765d921efc8e331fec806898cc923100267639e156db",
+          "30445ea0e88c38fb7d3c83d9451da2cbf070c2a2e16aa8c05a0fadc24a74e3a3",
+          "2fbb2d0b511f344d5df15aa645cfe5f4d6ce1e00a2e12e744e27c399d40a46b0"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "SUPPORTED_ROTATION"
+    ],
+    "updated_candidates": [
+      {
+        "local_matched_cues": [
+          "drag"
+        ],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "9e06a42360b8fb35153955d50664563228d98805906b80fd94fff4ece3036030",
+          "ea7db240180ec734bcb8569f0c9e8b4934737e23382332a63713738b745f7e56",
+          "f8556fa21fb6efbc7be9765d921efc8e331fec806898cc923100267639e156db",
+          "30445ea0e88c38fb7d3c83d9451da2cbf070c2a2e16aa8c05a0fadc24a74e3a3",
+          "2fbb2d0b511f344d5df15aa645cfe5f4d6ce1e00a2e12e744e27c399d40a46b0"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034B-ROT-006",
+    "final_status": "RANKED",
+    "initial_candidates": [
+      {
+        "local_matched_cues": [
+          "rough"
+        ],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "9ffceca5bc1e3e83329631a0229af7c6a1a434cd35b16555ee202375e5c9a056",
+          "2fbb2d0b511f344d5df15aa645cfe5f4d6ce1e00a2e12e744e27c399d40a46b0",
+          "6a7dc66b8ff38540f900ae22f837e8ce83e1127cb07cf1ca3e35ef6b20022e2d",
+          "9e06a42360b8fb35153955d50664563228d98805906b80fd94fff4ece3036030",
+          "b12ebc79bf22ec0157747af9527e2ed154ec0d3cd6709263bd05c5783cf3c331"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "SUPPORTED_ROTATION"
+    ],
+    "updated_candidates": [
+      {
+        "local_matched_cues": [
+          "rough"
+        ],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "9ffceca5bc1e3e83329631a0229af7c6a1a434cd35b16555ee202375e5c9a056",
+          "2fbb2d0b511f344d5df15aa645cfe5f4d6ce1e00a2e12e744e27c399d40a46b0",
+          "6a7dc66b8ff38540f900ae22f837e8ce83e1127cb07cf1ca3e35ef6b20022e2d",
+          "9e06a42360b8fb35153955d50664563228d98805906b80fd94fff4ece3036030",
+          "b12ebc79bf22ec0157747af9527e2ed154ec0d3cd6709263bd05c5783cf3c331"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034B-ROT-007",
+    "final_status": "RANKED",
+    "initial_candidates": [
+      {
+        "local_matched_cues": [
+          "bracket",
+          "crack"
+        ],
+        "pathway": "LOAD_TRANSFER",
+        "reason": "Observation preserves burden, distribution, concentration, deformation, or localized failure structure.",
+        "supporting_lineage_hashes": [
+          "30472e8739faa106d34d5e57efbdb9401c927b6961d7d97926bc23629ddb8b6e",
+          "3366f03661f9046140d13006d687c2769f7cf0ca36fcfb5f9a431e63982af2f6",
+          "31f492078c5cd46329491a60d3bb3493ac61762bd74a4a0ee66055e9e607deec"
+        ],
+        "supporting_motifs": [
+          "Concentration",
+          "Distribution",
+          "Failure",
+          "Load"
+        ],
+        "weight": 0.6138
+      },
+      {
+        "local_matched_cues": [
+          "drag"
+        ],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "2fbb2d0b511f344d5df15aa645cfe5f4d6ce1e00a2e12e744e27c399d40a46b0",
+          "f8556fa21fb6efbc7be9765d921efc8e331fec806898cc923100267639e156db"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 0.3862
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "LOAD_TRANSFER",
+      "SUPPORTED_ROTATION"
+    ],
+    "updated_candidates": [
+      {
+        "local_matched_cues": [
+          "bracket",
+          "crack"
+        ],
+        "pathway": "LOAD_TRANSFER",
+        "reason": "Observation preserves burden, distribution, concentration, deformation, or localized failure structure.",
+        "supporting_lineage_hashes": [
+          "30472e8739faa106d34d5e57efbdb9401c927b6961d7d97926bc23629ddb8b6e",
+          "3366f03661f9046140d13006d687c2769f7cf0ca36fcfb5f9a431e63982af2f6",
+          "31f492078c5cd46329491a60d3bb3493ac61762bd74a4a0ee66055e9e607deec"
+        ],
+        "supporting_motifs": [
+          "Concentration",
+          "Distribution",
+          "Failure",
+          "Load"
+        ],
+        "weight": 0.5918
+      },
+      {
+        "local_matched_cues": [
+          "drag"
+        ],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "2fbb2d0b511f344d5df15aa645cfe5f4d6ce1e00a2e12e744e27c399d40a46b0",
+          "f8556fa21fb6efbc7be9765d921efc8e331fec806898cc923100267639e156db"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 0.4082
+      }
+    ]
+  },
+  {
+    "case_id": "P034B-ROT-008",
+    "final_status": "RANKED",
+    "initial_candidates": [
+      {
+        "local_matched_cues": [
+          "rough",
+          "support"
+        ],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "b12ebc79bf22ec0157747af9527e2ed154ec0d3cd6709263bd05c5783cf3c331",
+          "6a7dc66b8ff38540f900ae22f837e8ce83e1127cb07cf1ca3e35ef6b20022e2d",
+          "2fbb2d0b511f344d5df15aa645cfe5f4d6ce1e00a2e12e744e27c399d40a46b0",
+          "9e06a42360b8fb35153955d50664563228d98805906b80fd94fff4ece3036030",
+          "30445ea0e88c38fb7d3c83d9451da2cbf070c2a2e16aa8c05a0fadc24a74e3a3"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "SUPPORTED_ROTATION"
+    ],
+    "updated_candidates": [
+      {
+        "local_matched_cues": [
+          "rough",
+          "support"
+        ],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "b12ebc79bf22ec0157747af9527e2ed154ec0d3cd6709263bd05c5783cf3c331",
+          "6a7dc66b8ff38540f900ae22f837e8ce83e1127cb07cf1ca3e35ef6b20022e2d",
+          "2fbb2d0b511f344d5df15aa645cfe5f4d6ce1e00a2e12e744e27c399d40a46b0",
+          "9e06a42360b8fb35153955d50664563228d98805906b80fd94fff4ece3036030",
+          "30445ea0e88c38fb7d3c83d9451da2cbf070c2a2e16aa8c05a0fadc24a74e3a3"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034B-LOAD-001",
+    "final_status": "RANKED",
+    "initial_candidates": [
+      {
+        "local_matched_cues": [
+          "bend",
+          "bracket",
+          "crack",
+          "structure"
+        ],
+        "pathway": "LOAD_TRANSFER",
+        "reason": "Observation preserves burden, distribution, concentration, deformation, or localized failure structure.",
+        "supporting_lineage_hashes": [
+          "2425e11cd3666107d311da69cb29463140104cf9082ab29b0084983a328acca0",
+          "6ffafea26c11e9112a3266527b4d5ad3414e67f343074f91e36756dbcefddf58",
+          "8856422358e58bb4b69f68b03fe59155448d2565b1ad857ff1d8c1c10e34a943",
+          "30472e8739faa106d34d5e57efbdb9401c927b6961d7d97926bc23629ddb8b6e",
+          "31f492078c5cd46329491a60d3bb3493ac61762bd74a4a0ee66055e9e607deec"
+        ],
+        "supporting_motifs": [
+          "Concentration",
+          "Distribution",
+          "Failure",
+          "Load"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "LOAD_TRANSFER"
+    ],
+    "updated_candidates": [
+      {
+        "local_matched_cues": [
+          "bend",
+          "bracket",
+          "crack",
+          "structure"
+        ],
+        "pathway": "LOAD_TRANSFER",
+        "reason": "Observation preserves burden, distribution, concentration, deformation, or localized failure structure.",
+        "supporting_lineage_hashes": [
+          "2425e11cd3666107d311da69cb29463140104cf9082ab29b0084983a328acca0",
+          "6ffafea26c11e9112a3266527b4d5ad3414e67f343074f91e36756dbcefddf58",
+          "8856422358e58bb4b69f68b03fe59155448d2565b1ad857ff1d8c1c10e34a943",
+          "30472e8739faa106d34d5e57efbdb9401c927b6961d7d97926bc23629ddb8b6e",
+          "31f492078c5cd46329491a60d3bb3493ac61762bd74a4a0ee66055e9e607deec"
+        ],
+        "supporting_motifs": [
+          "Concentration",
+          "Distribution",
+          "Failure",
+          "Load"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034B-LOAD-002",
+    "final_status": "RANKED",
+    "initial_candidates": [
+      {
+        "local_matched_cues": [],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "2fbb2d0b511f344d5df15aa645cfe5f4d6ce1e00a2e12e744e27c399d40a46b0",
+          "6a7dc66b8ff38540f900ae22f837e8ce83e1127cb07cf1ca3e35ef6b20022e2d",
+          "9e06a42360b8fb35153955d50664563228d98805906b80fd94fff4ece3036030",
+          "9ffceca5bc1e3e83329631a0229af7c6a1a434cd35b16555ee202375e5c9a056",
+          "b12ebc79bf22ec0157747af9527e2ed154ec0d3cd6709263bd05c5783cf3c331"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "SUPPORTED_ROTATION"
+    ],
+    "updated_candidates": [
+      {
+        "local_matched_cues": [],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "2fbb2d0b511f344d5df15aa645cfe5f4d6ce1e00a2e12e744e27c399d40a46b0",
+          "6a7dc66b8ff38540f900ae22f837e8ce83e1127cb07cf1ca3e35ef6b20022e2d",
+          "9e06a42360b8fb35153955d50664563228d98805906b80fd94fff4ece3036030",
+          "9ffceca5bc1e3e83329631a0229af7c6a1a434cd35b16555ee202375e5c9a056",
+          "b12ebc79bf22ec0157747af9527e2ed154ec0d3cd6709263bd05c5783cf3c331"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034B-LOAD-003",
+    "final_status": "RANKED",
+    "initial_candidates": [
+      {
+        "local_matched_cues": [
+          "burden",
+          "crack"
+        ],
+        "pathway": "LOAD_TRANSFER",
+        "reason": "Observation preserves burden, distribution, concentration, deformation, or localized failure structure.",
+        "supporting_lineage_hashes": [
+          "31f492078c5cd46329491a60d3bb3493ac61762bd74a4a0ee66055e9e607deec",
+          "3366f03661f9046140d13006d687c2769f7cf0ca36fcfb5f9a431e63982af2f6",
+          "7bc147a684f2e73d9870105e6373c030db1d3e190475d67af2e538fc201002e1",
+          "83948cea4874489ade787a2620e0e4c7923eb6ea056ab64869ba2d36b46b14fc",
+          "2425e11cd3666107d311da69cb29463140104cf9082ab29b0084983a328acca0"
+        ],
+        "supporting_motifs": [
+          "Concentration",
+          "Distribution",
+          "Failure",
+          "Load"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "LOAD_TRANSFER"
+    ],
+    "updated_candidates": [
+      {
+        "local_matched_cues": [
+          "burden",
+          "crack"
+        ],
+        "pathway": "LOAD_TRANSFER",
+        "reason": "Observation preserves burden, distribution, concentration, deformation, or localized failure structure.",
+        "supporting_lineage_hashes": [
+          "31f492078c5cd46329491a60d3bb3493ac61762bd74a4a0ee66055e9e607deec",
+          "3366f03661f9046140d13006d687c2769f7cf0ca36fcfb5f9a431e63982af2f6",
+          "7bc147a684f2e73d9870105e6373c030db1d3e190475d67af2e538fc201002e1",
+          "83948cea4874489ade787a2620e0e4c7923eb6ea056ab64869ba2d36b46b14fc",
+          "2425e11cd3666107d311da69cb29463140104cf9082ab29b0084983a328acca0"
+        ],
+        "supporting_motifs": [
+          "Concentration",
+          "Distribution",
+          "Failure",
+          "Load"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034B-LOAD-004",
+    "final_status": "RANKED",
+    "initial_candidates": [
+      {
+        "local_matched_cues": [
+          "anchor"
+        ],
+        "pathway": "LOAD_TRANSFER",
+        "reason": "Observation preserves burden, distribution, concentration, deformation, or localized failure structure.",
+        "supporting_lineage_hashes": [
+          "30472e8739faa106d34d5e57efbdb9401c927b6961d7d97926bc23629ddb8b6e",
+          "3366f03661f9046140d13006d687c2769f7cf0ca36fcfb5f9a431e63982af2f6",
+          "31f492078c5cd46329491a60d3bb3493ac61762bd74a4a0ee66055e9e607deec",
+          "6ffafea26c11e9112a3266527b4d5ad3414e67f343074f91e36756dbcefddf58",
+          "83948cea4874489ade787a2620e0e4c7923eb6ea056ab64869ba2d36b46b14fc"
+        ],
+        "supporting_motifs": [
+          "Concentration",
+          "Distribution",
+          "Failure",
+          "Load"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "LOAD_TRANSFER"
+    ],
+    "updated_candidates": [
+      {
+        "local_matched_cues": [
+          "anchor"
+        ],
+        "pathway": "LOAD_TRANSFER",
+        "reason": "Observation preserves burden, distribution, concentration, deformation, or localized failure structure.",
+        "supporting_lineage_hashes": [
+          "30472e8739faa106d34d5e57efbdb9401c927b6961d7d97926bc23629ddb8b6e",
+          "3366f03661f9046140d13006d687c2769f7cf0ca36fcfb5f9a431e63982af2f6",
+          "31f492078c5cd46329491a60d3bb3493ac61762bd74a4a0ee66055e9e607deec",
+          "6ffafea26c11e9112a3266527b4d5ad3414e67f343074f91e36756dbcefddf58",
+          "83948cea4874489ade787a2620e0e4c7923eb6ea056ab64869ba2d36b46b14fc"
+        ],
+        "supporting_motifs": [
+          "Concentration",
+          "Distribution",
+          "Failure",
+          "Load"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034B-LOAD-005",
+    "final_status": "RANKED",
+    "initial_candidates": [
+      {
+        "local_matched_cues": [
+          "demand",
+          "mass"
+        ],
+        "pathway": "LOAD_TRANSFER",
+        "reason": "Observation preserves burden, distribution, concentration, deformation, or localized failure structure.",
+        "supporting_lineage_hashes": [
+          "2425e11cd3666107d311da69cb29463140104cf9082ab29b0084983a328acca0",
+          "31f492078c5cd46329491a60d3bb3493ac61762bd74a4a0ee66055e9e607deec",
+          "7bc147a684f2e73d9870105e6373c030db1d3e190475d67af2e538fc201002e1",
+          "83948cea4874489ade787a2620e0e4c7923eb6ea056ab64869ba2d36b46b14fc",
+          "8856422358e58bb4b69f68b03fe59155448d2565b1ad857ff1d8c1c10e34a943"
+        ],
+        "supporting_motifs": [
+          "Concentration",
+          "Distribution",
+          "Failure",
+          "Load"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "LOAD_TRANSFER"
+    ],
+    "updated_candidates": [
+      {
+        "local_matched_cues": [
+          "demand",
+          "mass"
+        ],
+        "pathway": "LOAD_TRANSFER",
+        "reason": "Observation preserves burden, distribution, concentration, deformation, or localized failure structure.",
+        "supporting_lineage_hashes": [
+          "2425e11cd3666107d311da69cb29463140104cf9082ab29b0084983a328acca0",
+          "31f492078c5cd46329491a60d3bb3493ac61762bd74a4a0ee66055e9e607deec",
+          "7bc147a684f2e73d9870105e6373c030db1d3e190475d67af2e538fc201002e1",
+          "83948cea4874489ade787a2620e0e4c7923eb6ea056ab64869ba2d36b46b14fc",
+          "8856422358e58bb4b69f68b03fe59155448d2565b1ad857ff1d8c1c10e34a943"
+        ],
+        "supporting_motifs": [
+          "Concentration",
+          "Distribution",
+          "Failure",
+          "Load"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034B-LOAD-006",
+    "final_status": "RANKED",
+    "initial_candidates": [
+      {
+        "local_matched_cues": [
+          "crack"
+        ],
+        "pathway": "LOAD_TRANSFER",
+        "reason": "Observation preserves burden, distribution, concentration, deformation, or localized failure structure.",
+        "supporting_lineage_hashes": [
+          "31f492078c5cd46329491a60d3bb3493ac61762bd74a4a0ee66055e9e607deec",
+          "83948cea4874489ade787a2620e0e4c7923eb6ea056ab64869ba2d36b46b14fc",
+          "2425e11cd3666107d311da69cb29463140104cf9082ab29b0084983a328acca0",
+          "3366f03661f9046140d13006d687c2769f7cf0ca36fcfb5f9a431e63982af2f6",
+          "d82fa9b29027d8fff05efcdbf5d8108675be2fa18ab5c4f336a3a4ce860800c1"
+        ],
+        "supporting_motifs": [
+          "Concentration",
+          "Distribution",
+          "Failure",
+          "Load"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "LOAD_TRANSFER"
+    ],
+    "updated_candidates": [
+      {
+        "local_matched_cues": [
+          "crack"
+        ],
+        "pathway": "LOAD_TRANSFER",
+        "reason": "Observation preserves burden, distribution, concentration, deformation, or localized failure structure.",
+        "supporting_lineage_hashes": [
+          "31f492078c5cd46329491a60d3bb3493ac61762bd74a4a0ee66055e9e607deec",
+          "83948cea4874489ade787a2620e0e4c7923eb6ea056ab64869ba2d36b46b14fc",
+          "2425e11cd3666107d311da69cb29463140104cf9082ab29b0084983a328acca0",
+          "3366f03661f9046140d13006d687c2769f7cf0ca36fcfb5f9a431e63982af2f6",
+          "d82fa9b29027d8fff05efcdbf5d8108675be2fa18ab5c4f336a3a4ce860800c1"
+        ],
+        "supporting_motifs": [
+          "Concentration",
+          "Distribution",
+          "Failure",
+          "Load"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034B-LOAD-007",
+    "final_status": "RANKED",
+    "initial_candidates": [
+      {
+        "local_matched_cues": [
+          "anchor"
+        ],
+        "pathway": "LOAD_TRANSFER",
+        "reason": "Observation preserves burden, distribution, concentration, deformation, or localized failure structure.",
+        "supporting_lineage_hashes": [
+          "3366f03661f9046140d13006d687c2769f7cf0ca36fcfb5f9a431e63982af2f6",
+          "31f492078c5cd46329491a60d3bb3493ac61762bd74a4a0ee66055e9e607deec",
+          "83948cea4874489ade787a2620e0e4c7923eb6ea056ab64869ba2d36b46b14fc",
+          "2425e11cd3666107d311da69cb29463140104cf9082ab29b0084983a328acca0",
+          "30472e8739faa106d34d5e57efbdb9401c927b6961d7d97926bc23629ddb8b6e"
+        ],
+        "supporting_motifs": [
+          "Concentration",
+          "Distribution",
+          "Failure",
+          "Load"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "LOAD_TRANSFER"
+    ],
+    "updated_candidates": [
+      {
+        "local_matched_cues": [
+          "anchor"
+        ],
+        "pathway": "LOAD_TRANSFER",
+        "reason": "Observation preserves burden, distribution, concentration, deformation, or localized failure structure.",
+        "supporting_lineage_hashes": [
+          "3366f03661f9046140d13006d687c2769f7cf0ca36fcfb5f9a431e63982af2f6",
+          "31f492078c5cd46329491a60d3bb3493ac61762bd74a4a0ee66055e9e607deec",
+          "83948cea4874489ade787a2620e0e4c7923eb6ea056ab64869ba2d36b46b14fc",
+          "2425e11cd3666107d311da69cb29463140104cf9082ab29b0084983a328acca0",
+          "30472e8739faa106d34d5e57efbdb9401c927b6961d7d97926bc23629ddb8b6e"
+        ],
+        "supporting_motifs": [
+          "Concentration",
+          "Distribution",
+          "Failure",
+          "Load"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034B-LOAD-008",
+    "final_status": "RANKED",
+    "initial_candidates": [
+      {
+        "local_matched_cues": [],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "2fbb2d0b511f344d5df15aa645cfe5f4d6ce1e00a2e12e744e27c399d40a46b0",
+          "6a7dc66b8ff38540f900ae22f837e8ce83e1127cb07cf1ca3e35ef6b20022e2d",
+          "30445ea0e88c38fb7d3c83d9451da2cbf070c2a2e16aa8c05a0fadc24a74e3a3",
+          "4d6cedb54f0e99284fca8c946d0933138680724c83899e012390128b7518060b",
+          "4dd1aa8ed0fb8e8b8941c6fd67aadce0ce01aa40ca5ff8a2d5faa891578c0490"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "SUPPORTED_ROTATION"
+    ],
+    "updated_candidates": [
+      {
+        "local_matched_cues": [],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "2fbb2d0b511f344d5df15aa645cfe5f4d6ce1e00a2e12e744e27c399d40a46b0",
+          "6a7dc66b8ff38540f900ae22f837e8ce83e1127cb07cf1ca3e35ef6b20022e2d",
+          "30445ea0e88c38fb7d3c83d9451da2cbf070c2a2e16aa8c05a0fadc24a74e3a3",
+          "4d6cedb54f0e99284fca8c946d0933138680724c83899e012390128b7518060b",
+          "4dd1aa8ed0fb8e8b8941c6fd67aadce0ce01aa40ca5ff8a2d5faa891578c0490"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034B-AMB-001",
+    "final_status": "AMBIGUOUS",
+    "initial_candidates": [
+      {
+        "local_matched_cues": [
+          "decline",
+          "output",
+          "queue"
+        ],
+        "pathway": "FLOW",
+        "reason": "Observation preserves passage, restriction, output, backlog, or downstream starvation structure.",
+        "supporting_lineage_hashes": [
+          "5c7476d4485fe350e96dac3a1f9074a3e56284a991709266a36bfcb1a1368831",
+          "3fe21f18de3ea9a3ec6ce46aeb10b4b669550f0cc59034c8c2a69f1d3a31bc74",
+          "fe5052dd9d44a96bd1d15e74cb94301a6c8562896a6ec48b2147704a69af34f3"
+        ],
+        "supporting_motifs": [
+          "Flow",
+          "Path",
+          "Resistance",
+          "Source"
+        ],
+        "weight": 0.5351
+      },
+      {
+        "local_matched_cues": [
+          "circular",
+          "rough",
+          "support",
+          "warm"
+        ],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "30445ea0e88c38fb7d3c83d9451da2cbf070c2a2e16aa8c05a0fadc24a74e3a3",
+          "9e06a42360b8fb35153955d50664563228d98805906b80fd94fff4ece3036030"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 0.4649
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "FLOW",
+      "SUPPORTED_ROTATION"
+    ],
+    "updated_candidates": [
+      {
+        "local_matched_cues": [
+          "decline",
+          "output",
+          "queue"
+        ],
+        "pathway": "FLOW",
+        "reason": "Observation preserves passage, restriction, output, backlog, or downstream starvation structure.",
+        "supporting_lineage_hashes": [
+          "5c7476d4485fe350e96dac3a1f9074a3e56284a991709266a36bfcb1a1368831",
+          "3fe21f18de3ea9a3ec6ce46aeb10b4b669550f0cc59034c8c2a69f1d3a31bc74",
+          "fe5052dd9d44a96bd1d15e74cb94301a6c8562896a6ec48b2147704a69af34f3"
+        ],
+        "supporting_motifs": [
+          "Flow",
+          "Path",
+          "Resistance",
+          "Source"
+        ],
+        "weight": 0.5283
+      },
+      {
+        "local_matched_cues": [
+          "circular",
+          "rough",
+          "support",
+          "warm"
+        ],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "30445ea0e88c38fb7d3c83d9451da2cbf070c2a2e16aa8c05a0fadc24a74e3a3",
+          "9e06a42360b8fb35153955d50664563228d98805906b80fd94fff4ece3036030"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 0.4717
+      }
+    ]
+  },
+  {
+    "case_id": "P034B-AMB-002",
+    "final_status": "RANKED",
+    "initial_candidates": [
+      {
+        "local_matched_cues": [
+          "bend",
+          "bracket"
+        ],
+        "pathway": "LOAD_TRANSFER",
+        "reason": "Observation preserves burden, distribution, concentration, deformation, or localized failure structure.",
+        "supporting_lineage_hashes": [
+          "8856422358e58bb4b69f68b03fe59155448d2565b1ad857ff1d8c1c10e34a943",
+          "31f492078c5cd46329491a60d3bb3493ac61762bd74a4a0ee66055e9e607deec",
+          "3366f03661f9046140d13006d687c2769f7cf0ca36fcfb5f9a431e63982af2f6",
+          "6ffafea26c11e9112a3266527b4d5ad3414e67f343074f91e36756dbcefddf58",
+          "7bc147a684f2e73d9870105e6373c030db1d3e190475d67af2e538fc201002e1"
+        ],
+        "supporting_motifs": [
+          "Concentration",
+          "Distribution",
+          "Failure",
+          "Load"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "LOAD_TRANSFER"
+    ],
+    "updated_candidates": [
+      {
+        "local_matched_cues": [
+          "bend",
+          "bracket"
+        ],
+        "pathway": "LOAD_TRANSFER",
+        "reason": "Observation preserves burden, distribution, concentration, deformation, or localized failure structure.",
+        "supporting_lineage_hashes": [
+          "8856422358e58bb4b69f68b03fe59155448d2565b1ad857ff1d8c1c10e34a943",
+          "31f492078c5cd46329491a60d3bb3493ac61762bd74a4a0ee66055e9e607deec",
+          "3366f03661f9046140d13006d687c2769f7cf0ca36fcfb5f9a431e63982af2f6",
+          "6ffafea26c11e9112a3266527b4d5ad3414e67f343074f91e36756dbcefddf58",
+          "7bc147a684f2e73d9870105e6373c030db1d3e190475d67af2e538fc201002e1"
+        ],
+        "supporting_motifs": [
+          "Concentration",
+          "Distribution",
+          "Failure",
+          "Load"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034B-AMB-003",
+    "final_status": "RANKED",
+    "initial_candidates": [
+      {
+        "local_matched_cues": [
+          "pivot",
+          "wobble"
+        ],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "2fbb2d0b511f344d5df15aa645cfe5f4d6ce1e00a2e12e744e27c399d40a46b0",
+          "4d6cedb54f0e99284fca8c946d0933138680724c83899e012390128b7518060b",
+          "6a7dc66b8ff38540f900ae22f837e8ce83e1127cb07cf1ca3e35ef6b20022e2d",
+          "9e06a42360b8fb35153955d50664563228d98805906b80fd94fff4ece3036030",
+          "9ffceca5bc1e3e83329631a0229af7c6a1a434cd35b16555ee202375e5c9a056"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "SUPPORTED_ROTATION"
+    ],
+    "updated_candidates": [
+      {
+        "local_matched_cues": [
+          "pivot",
+          "wobble"
+        ],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "2fbb2d0b511f344d5df15aa645cfe5f4d6ce1e00a2e12e744e27c399d40a46b0",
+          "4d6cedb54f0e99284fca8c946d0933138680724c83899e012390128b7518060b",
+          "6a7dc66b8ff38540f900ae22f837e8ce83e1127cb07cf1ca3e35ef6b20022e2d",
+          "9e06a42360b8fb35153955d50664563228d98805906b80fd94fff4ece3036030",
+          "9ffceca5bc1e3e83329631a0229af7c6a1a434cd35b16555ee202375e5c9a056"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034B-FAIL-001",
+    "final_status": "FAIL_CLOSED",
+    "initial_candidates": [],
+    "pathways_eliminated": [],
+    "pathways_preserved": [],
+    "updated_candidates": []
+  },
+  {
+    "case_id": "P034B-FAIL-002",
+    "final_status": "RANKED",
+    "initial_candidates": [
+      {
+        "local_matched_cues": [],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "2fbb2d0b511f344d5df15aa645cfe5f4d6ce1e00a2e12e744e27c399d40a46b0",
+          "4d6cedb54f0e99284fca8c946d0933138680724c83899e012390128b7518060b",
+          "4dd1aa8ed0fb8e8b8941c6fd67aadce0ce01aa40ca5ff8a2d5faa891578c0490",
+          "6a7dc66b8ff38540f900ae22f837e8ce83e1127cb07cf1ca3e35ef6b20022e2d",
+          "9e06a42360b8fb35153955d50664563228d98805906b80fd94fff4ece3036030"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "SUPPORTED_ROTATION"
+    ],
+    "updated_candidates": [
+      {
+        "local_matched_cues": [],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+        "supporting_lineage_hashes": [
+          "2fbb2d0b511f344d5df15aa645cfe5f4d6ce1e00a2e12e744e27c399d40a46b0",
+          "4d6cedb54f0e99284fca8c946d0933138680724c83899e012390128b7518060b",
+          "4dd1aa8ed0fb8e8b8941c6fd67aadce0ce01aa40ca5ff8a2d5faa891578c0490",
+          "6a7dc66b8ff38540f900ae22f837e8ce83e1127cb07cf1ca3e35ef6b20022e2d",
+          "9e06a42360b8fb35153955d50664563228d98805906b80fd94fff4ece3036030"
+        ],
+        "supporting_motifs": [
+          "Failure",
+          "Friction",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034B-FAIL-003",
+    "final_status": "FAIL_CLOSED",
+    "initial_candidates": [],
+    "pathways_eliminated": [],
+    "pathways_preserved": [],
+    "updated_candidates": []
+  }
+]

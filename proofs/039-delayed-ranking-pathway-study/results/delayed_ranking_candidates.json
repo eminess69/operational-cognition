@@ -1,0 +1,4498 @@
+[
+  {
+    "case_id": "P037-RC-001",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "FEEDBACK",
+          "BUFFERING",
+          "RESOURCE_DEPLETION"
+        ],
+        "pathway": "FEEDBACK + BUFFERING + RESOURCE_DEPLETION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab",
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Consumption",
+          "Delay",
+          "Exhaustion",
+          "Input",
+          "Loop",
+          "Reinforcement",
+          "Resource",
+          "Response",
+          "Scarcity",
+          "Signal"
+        ],
+        "weight": 0.2097
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "FEEDBACK",
+          "BUFFERING",
+          "THRESHOLD"
+        ],
+        "pathway": "FEEDBACK + BUFFERING + THRESHOLD",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:1dbfe551705dbe5c"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Accumulation",
+          "Buffer",
+          "Delay",
+          "Input",
+          "Limit",
+          "Loop",
+          "Reinforcement",
+          "Response",
+          "Signal",
+          "StateChange",
+          "Trigger"
+        ],
+        "weight": 0.2043
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "FEEDBACK",
+          "RESOURCE_DEPLETION",
+          "THRESHOLD"
+        ],
+        "pathway": "FEEDBACK + RESOURCE_DEPLETION + THRESHOLD",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab",
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:1dbfe551705dbe5c"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Consumption",
+          "Exhaustion",
+          "Limit",
+          "Loop",
+          "Reinforcement",
+          "Resource",
+          "Response",
+          "Scarcity",
+          "Signal",
+          "StateChange",
+          "Trigger"
+        ],
+        "weight": 0.2043
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "BUFFERING",
+          "RESOURCE_DEPLETION",
+          "THRESHOLD"
+        ],
+        "pathway": "BUFFERING + RESOURCE_DEPLETION + THRESHOLD",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:1dbfe551705dbe5c"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Accumulation",
+          "Buffer",
+          "Consumption",
+          "Delay",
+          "Exhaustion",
+          "Input",
+          "Limit",
+          "Resource",
+          "Scarcity",
+          "StateChange",
+          "Trigger"
+        ],
+        "weight": 0.1935
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "FEEDBACK",
+          "BUFFERING",
+          "FLOW"
+        ],
+        "pathway": "FEEDBACK + BUFFERING + FLOW",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab",
+          "pond:flow:3e0228bbea0e6e1c",
+          "pond:flow:5dac9687957be5f0"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Delay",
+          "Flow",
+          "Input",
+          "Loop",
+          "Path",
+          "Reinforcement",
+          "Resistance",
+          "Response",
+          "Signal",
+          "Source"
+        ],
+        "weight": 0.1881
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-002",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "THRESHOLD",
+          "OSCILLATION",
+          "COMPENSATION"
+        ],
+        "pathway": "THRESHOLD + OSCILLATION + COMPENSATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:compensation:1b348715597e8587",
+          "pond:compensation:29b7f9f7ae556a3b",
+          "pond:oscillation:019f81b9c8cdc87f",
+          "pond:oscillation:361241c5a28eb54e",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:1dbfe551705dbe5c"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Counteraction",
+          "Cycle",
+          "Delay",
+          "Deviation",
+          "Limit",
+          "Overshoot",
+          "Stabilization",
+          "State",
+          "StateChange",
+          "Substitution",
+          "Trigger"
+        ],
+        "weight": 0.2209
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "THRESHOLD",
+          "OSCILLATION",
+          "FEEDBACK"
+        ],
+        "pathway": "THRESHOLD + OSCILLATION + FEEDBACK",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:feedback:29970c37fcd9a815",
+          "pond:feedback:639dd439e706d4f8",
+          "pond:oscillation:019f81b9c8cdc87f",
+          "pond:oscillation:361241c5a28eb54e",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:1dbfe551705dbe5c"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Cycle",
+          "Delay",
+          "Limit",
+          "Loop",
+          "Overshoot",
+          "Reinforcement",
+          "Response",
+          "Signal",
+          "State",
+          "StateChange",
+          "Trigger"
+        ],
+        "weight": 0.2209
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "THRESHOLD",
+          "OSCILLATION",
+          "ACCUMULATION"
+        ],
+        "pathway": "THRESHOLD + OSCILLATION + ACCUMULATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:0b8b507e57754286",
+          "pond:accumulation:10c2c8ae31c87504",
+          "pond:oscillation:019f81b9c8cdc87f",
+          "pond:oscillation:361241c5a28eb54e",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:1dbfe551705dbe5c"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "BuildUp",
+          "Cycle",
+          "Delay",
+          "Input",
+          "Limit",
+          "Overflow",
+          "Overshoot",
+          "State",
+          "StateChange",
+          "Storage",
+          "Trigger"
+        ],
+        "weight": 0.218
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "THRESHOLD",
+          "COMPENSATION",
+          "FEEDBACK"
+        ],
+        "pathway": "THRESHOLD + COMPENSATION + FEEDBACK",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:compensation:1b348715597e8587",
+          "pond:compensation:29b7f9f7ae556a3b",
+          "pond:feedback:29970c37fcd9a815",
+          "pond:feedback:639dd439e706d4f8",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:1dbfe551705dbe5c"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Counteraction",
+          "Deviation",
+          "Limit",
+          "Loop",
+          "Reinforcement",
+          "Response",
+          "Signal",
+          "Stabilization",
+          "StateChange",
+          "Substitution",
+          "Trigger"
+        ],
+        "weight": 0.1716
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "THRESHOLD",
+          "COMPENSATION",
+          "ACCUMULATION"
+        ],
+        "pathway": "THRESHOLD + COMPENSATION + ACCUMULATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:0b8b507e57754286",
+          "pond:accumulation:10c2c8ae31c87504",
+          "pond:compensation:1b348715597e8587",
+          "pond:compensation:29b7f9f7ae556a3b",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:1dbfe551705dbe5c"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "BuildUp",
+          "Counteraction",
+          "Deviation",
+          "Input",
+          "Limit",
+          "Overflow",
+          "Stabilization",
+          "StateChange",
+          "Storage",
+          "Substitution",
+          "Trigger"
+        ],
+        "weight": 0.1687
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-003",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "FEEDBACK",
+          "DIFFUSION",
+          "AMPLIFICATION"
+        ],
+        "pathway": "FEEDBACK + DIFFUSION + AMPLIFICATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:amplification:18f5d2d240960f8d",
+          "pond:amplification:1b5b2323489efb04",
+          "pond:diffusion:0b89588dcc61beff",
+          "pond:diffusion:1295d8896f93fcd8",
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab"
+        ],
+        "supporting_motifs": [
+          "Dilution",
+          "Escalation",
+          "Gain",
+          "Gradient",
+          "Input",
+          "Loop",
+          "Propagation",
+          "Reinforcement",
+          "Response",
+          "Signal",
+          "Source",
+          "Spread"
+        ],
+        "weight": 0.3505
+      },
+      {
+        "combination_depth": 2,
+        "mechanisms": [
+          "FEEDBACK",
+          "DIFFUSION"
+        ],
+        "pathway": "FEEDBACK + DIFFUSION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:diffusion:0b89588dcc61beff",
+          "pond:diffusion:1295d8896f93fcd8",
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab"
+        ],
+        "supporting_motifs": [
+          "Dilution",
+          "Gradient",
+          "Loop",
+          "Reinforcement",
+          "Response",
+          "Signal",
+          "Source",
+          "Spread"
+        ],
+        "weight": 0.2591
+      },
+      {
+        "combination_depth": 2,
+        "mechanisms": [
+          "FEEDBACK",
+          "AMPLIFICATION"
+        ],
+        "pathway": "FEEDBACK + AMPLIFICATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:amplification:18f5d2d240960f8d",
+          "pond:amplification:1b5b2323489efb04",
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab"
+        ],
+        "supporting_motifs": [
+          "Escalation",
+          "Gain",
+          "Input",
+          "Loop",
+          "Propagation",
+          "Reinforcement",
+          "Response",
+          "Signal"
+        ],
+        "weight": 0.2499
+      },
+      {
+        "combination_depth": 2,
+        "mechanisms": [
+          "DIFFUSION",
+          "AMPLIFICATION"
+        ],
+        "pathway": "DIFFUSION + AMPLIFICATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:amplification:18f5d2d240960f8d",
+          "pond:amplification:1b5b2323489efb04",
+          "pond:diffusion:0b89588dcc61beff",
+          "pond:diffusion:1295d8896f93fcd8"
+        ],
+        "supporting_motifs": [
+          "Dilution",
+          "Escalation",
+          "Gain",
+          "Gradient",
+          "Input",
+          "Propagation",
+          "Source",
+          "Spread"
+        ],
+        "weight": 0.1405
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-004",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "RESOURCE_DEPLETION",
+          "BUFFERING",
+          "ACCUMULATION"
+        ],
+        "pathway": "RESOURCE_DEPLETION + BUFFERING + ACCUMULATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:0b8b507e57754286",
+          "pond:accumulation:2f351cd2b5c75d68",
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "BuildUp",
+          "Consumption",
+          "Delay",
+          "Exhaustion",
+          "Input",
+          "Overflow",
+          "Resource",
+          "Scarcity",
+          "Storage"
+        ],
+        "weight": 0.2093
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "RESOURCE_DEPLETION",
+          "BUFFERING",
+          "AMPLIFICATION"
+        ],
+        "pathway": "RESOURCE_DEPLETION + BUFFERING + AMPLIFICATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:amplification:3206405517eb80fb",
+          "pond:amplification:822274423d90b909",
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Consumption",
+          "Delay",
+          "Escalation",
+          "Exhaustion",
+          "Gain",
+          "Input",
+          "Propagation",
+          "Resource",
+          "Scarcity"
+        ],
+        "weight": 0.2021
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "RESOURCE_DEPLETION",
+          "ACCUMULATION",
+          "AMPLIFICATION"
+        ],
+        "pathway": "RESOURCE_DEPLETION + ACCUMULATION + AMPLIFICATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:0b8b507e57754286",
+          "pond:accumulation:2f351cd2b5c75d68",
+          "pond:amplification:3206405517eb80fb",
+          "pond:amplification:822274423d90b909",
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c"
+        ],
+        "supporting_motifs": [
+          "BuildUp",
+          "Consumption",
+          "Escalation",
+          "Exhaustion",
+          "Gain",
+          "Input",
+          "Overflow",
+          "Propagation",
+          "Resource",
+          "Scarcity",
+          "Storage"
+        ],
+        "weight": 0.1985
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "RESOURCE_DEPLETION",
+          "BUFFERING",
+          "COMPENSATION"
+        ],
+        "pathway": "RESOURCE_DEPLETION + BUFFERING + COMPENSATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:compensation:0293b4c027834565",
+          "pond:compensation:0f554fa27f3ebc01",
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Consumption",
+          "Counteraction",
+          "Delay",
+          "Deviation",
+          "Exhaustion",
+          "Input",
+          "Resource",
+          "Scarcity",
+          "Stabilization",
+          "Substitution"
+        ],
+        "weight": 0.1968
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "RESOURCE_DEPLETION",
+          "ACCUMULATION",
+          "COMPENSATION"
+        ],
+        "pathway": "RESOURCE_DEPLETION + ACCUMULATION + COMPENSATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:0b8b507e57754286",
+          "pond:accumulation:2f351cd2b5c75d68",
+          "pond:compensation:0293b4c027834565",
+          "pond:compensation:0f554fa27f3ebc01",
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c"
+        ],
+        "supporting_motifs": [
+          "BuildUp",
+          "Consumption",
+          "Counteraction",
+          "Deviation",
+          "Exhaustion",
+          "Input",
+          "Overflow",
+          "Resource",
+          "Scarcity",
+          "Stabilization",
+          "Storage",
+          "Substitution"
+        ],
+        "weight": 0.1932
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-005",
+    "ranked_pathways": [
+      {
+        "combination_depth": 2,
+        "mechanisms": [
+          "FLOW",
+          "BUFFERING"
+        ],
+        "pathway": "FLOW + BUFFERING",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:flow:174e933edaa55697",
+          "pond:flow:1b188635f25f4a13"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Delay",
+          "Flow",
+          "Input",
+          "Path",
+          "Resistance",
+          "Source"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-006",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "SUPPORTED_ROTATION",
+          "THRESHOLD",
+          "LOAD_TRANSFER"
+        ],
+        "pathway": "SUPPORTED_ROTATION + THRESHOLD + LOAD_TRANSFER",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:load_transfer:093852f103902af0",
+          "pond:load_transfer:100b958307e05044",
+          "pond:supported_rotation:1de1ef328a4b75af",
+          "pond:supported_rotation:51bcd0fd18de7e6a",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:1dbfe551705dbe5c"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Concentration",
+          "Distribution",
+          "Failure",
+          "Friction",
+          "Limit",
+          "Load",
+          "Rotation",
+          "StateChange",
+          "Support",
+          "Trigger"
+        ],
+        "weight": 0.234
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "SUPPORTED_ROTATION",
+          "THRESHOLD",
+          "COMPENSATION"
+        ],
+        "pathway": "SUPPORTED_ROTATION + THRESHOLD + COMPENSATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:compensation:24c5ab58cde4cf93",
+          "pond:compensation:32d910a73e42a8d1",
+          "pond:supported_rotation:1de1ef328a4b75af",
+          "pond:supported_rotation:51bcd0fd18de7e6a",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:1dbfe551705dbe5c"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Counteraction",
+          "Deviation",
+          "Failure",
+          "Friction",
+          "Limit",
+          "Rotation",
+          "Stabilization",
+          "StateChange",
+          "Substitution",
+          "Support",
+          "Trigger"
+        ],
+        "weight": 0.2339
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "SUPPORTED_ROTATION",
+          "COMPENSATION",
+          "LOAD_TRANSFER"
+        ],
+        "pathway": "SUPPORTED_ROTATION + COMPENSATION + LOAD_TRANSFER",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:compensation:24c5ab58cde4cf93",
+          "pond:compensation:32d910a73e42a8d1",
+          "pond:load_transfer:093852f103902af0",
+          "pond:load_transfer:100b958307e05044",
+          "pond:supported_rotation:1de1ef328a4b75af",
+          "pond:supported_rotation:51bcd0fd18de7e6a"
+        ],
+        "supporting_motifs": [
+          "Concentration",
+          "Counteraction",
+          "Deviation",
+          "Distribution",
+          "Failure",
+          "Friction",
+          "Load",
+          "Rotation",
+          "Stabilization",
+          "Substitution",
+          "Support"
+        ],
+        "weight": 0.1983
+      },
+      {
+        "combination_depth": 2,
+        "mechanisms": [
+          "SUPPORTED_ROTATION",
+          "THRESHOLD"
+        ],
+        "pathway": "SUPPORTED_ROTATION + THRESHOLD",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:supported_rotation:1de1ef328a4b75af",
+          "pond:supported_rotation:51bcd0fd18de7e6a",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:1dbfe551705dbe5c"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Failure",
+          "Friction",
+          "Limit",
+          "Rotation",
+          "StateChange",
+          "Support",
+          "Trigger"
+        ],
+        "weight": 0.1787
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "THRESHOLD",
+          "COMPENSATION",
+          "LOAD_TRANSFER"
+        ],
+        "pathway": "THRESHOLD + COMPENSATION + LOAD_TRANSFER",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:compensation:24c5ab58cde4cf93",
+          "pond:compensation:32d910a73e42a8d1",
+          "pond:load_transfer:093852f103902af0",
+          "pond:load_transfer:100b958307e05044",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:1dbfe551705dbe5c"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Concentration",
+          "Counteraction",
+          "Deviation",
+          "Distribution",
+          "Failure",
+          "Limit",
+          "Load",
+          "Stabilization",
+          "StateChange",
+          "Substitution",
+          "Trigger"
+        ],
+        "weight": 0.1552
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-007",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "LOAD_TRANSFER",
+          "THRESHOLD",
+          "ACCUMULATION"
+        ],
+        "pathway": "LOAD_TRANSFER + THRESHOLD + ACCUMULATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:0b8b507e57754286",
+          "pond:accumulation:10c2c8ae31c87504",
+          "pond:load_transfer:093852f103902af0",
+          "pond:load_transfer:100b958307e05044",
+          "pond:threshold:4805330b0343ed45",
+          "pond:threshold:7bb27a243a3a432e"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "BuildUp",
+          "Concentration",
+          "Distribution",
+          "Failure",
+          "Input",
+          "Limit",
+          "Load",
+          "Overflow",
+          "StateChange",
+          "Storage",
+          "Trigger"
+        ],
+        "weight": 0.3502
+      },
+      {
+        "combination_depth": 2,
+        "mechanisms": [
+          "LOAD_TRANSFER",
+          "THRESHOLD"
+        ],
+        "pathway": "LOAD_TRANSFER + THRESHOLD",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:load_transfer:093852f103902af0",
+          "pond:load_transfer:100b958307e05044",
+          "pond:threshold:4805330b0343ed45",
+          "pond:threshold:7bb27a243a3a432e"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Concentration",
+          "Distribution",
+          "Failure",
+          "Limit",
+          "Load",
+          "StateChange",
+          "Trigger"
+        ],
+        "weight": 0.291
+      },
+      {
+        "combination_depth": 2,
+        "mechanisms": [
+          "LOAD_TRANSFER",
+          "ACCUMULATION"
+        ],
+        "pathway": "LOAD_TRANSFER + ACCUMULATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:0b8b507e57754286",
+          "pond:accumulation:10c2c8ae31c87504",
+          "pond:load_transfer:093852f103902af0",
+          "pond:load_transfer:100b958307e05044"
+        ],
+        "supporting_motifs": [
+          "BuildUp",
+          "Concentration",
+          "Distribution",
+          "Failure",
+          "Input",
+          "Load",
+          "Overflow",
+          "Storage"
+        ],
+        "weight": 0.1982
+      },
+      {
+        "combination_depth": 2,
+        "mechanisms": [
+          "THRESHOLD",
+          "ACCUMULATION"
+        ],
+        "pathway": "THRESHOLD + ACCUMULATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:0b8b507e57754286",
+          "pond:accumulation:10c2c8ae31c87504",
+          "pond:threshold:4805330b0343ed45",
+          "pond:threshold:7bb27a243a3a432e"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "BuildUp",
+          "Input",
+          "Limit",
+          "Overflow",
+          "StateChange",
+          "Storage",
+          "Trigger"
+        ],
+        "weight": 0.1607
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-008",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "RESOURCE_DEPLETION",
+          "FEEDBACK",
+          "AMPLIFICATION"
+        ],
+        "pathway": "RESOURCE_DEPLETION + FEEDBACK + AMPLIFICATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:amplification:18f5d2d240960f8d",
+          "pond:amplification:1b5b2323489efb04",
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab",
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c"
+        ],
+        "supporting_motifs": [
+          "Consumption",
+          "Escalation",
+          "Exhaustion",
+          "Gain",
+          "Input",
+          "Loop",
+          "Propagation",
+          "Reinforcement",
+          "Resource",
+          "Response",
+          "Scarcity",
+          "Signal"
+        ],
+        "weight": 0.215
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "RESOURCE_DEPLETION",
+          "FEEDBACK",
+          "BUFFERING"
+        ],
+        "pathway": "RESOURCE_DEPLETION + FEEDBACK + BUFFERING",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab",
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Consumption",
+          "Delay",
+          "Exhaustion",
+          "Input",
+          "Loop",
+          "Reinforcement",
+          "Resource",
+          "Response",
+          "Scarcity",
+          "Signal"
+        ],
+        "weight": 0.1999
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "RESOURCE_DEPLETION",
+          "AMPLIFICATION",
+          "BUFFERING"
+        ],
+        "pathway": "RESOURCE_DEPLETION + AMPLIFICATION + BUFFERING",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:amplification:18f5d2d240960f8d",
+          "pond:amplification:1b5b2323489efb04",
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Consumption",
+          "Delay",
+          "Escalation",
+          "Exhaustion",
+          "Gain",
+          "Input",
+          "Propagation",
+          "Resource",
+          "Scarcity"
+        ],
+        "weight": 0.1985
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "RESOURCE_DEPLETION",
+          "FEEDBACK",
+          "FLOW"
+        ],
+        "pathway": "RESOURCE_DEPLETION + FEEDBACK + FLOW",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab",
+          "pond:flow:174e933edaa55697",
+          "pond:flow:1b188635f25f4a13",
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c"
+        ],
+        "supporting_motifs": [
+          "Consumption",
+          "Exhaustion",
+          "Flow",
+          "Loop",
+          "Path",
+          "Reinforcement",
+          "Resistance",
+          "Resource",
+          "Response",
+          "Scarcity",
+          "Signal",
+          "Source"
+        ],
+        "weight": 0.1962
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "RESOURCE_DEPLETION",
+          "FEEDBACK",
+          "ACCUMULATION"
+        ],
+        "pathway": "RESOURCE_DEPLETION + FEEDBACK + ACCUMULATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:16eb311b61f8f6b2",
+          "pond:accumulation:42a3759a8f240fdf",
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab",
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c"
+        ],
+        "supporting_motifs": [
+          "BuildUp",
+          "Consumption",
+          "Exhaustion",
+          "Input",
+          "Loop",
+          "Overflow",
+          "Reinforcement",
+          "Resource",
+          "Response",
+          "Scarcity",
+          "Signal",
+          "Storage"
+        ],
+        "weight": 0.1905
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-009",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "OSCILLATION",
+          "FEEDBACK",
+          "BUFFERING"
+        ],
+        "pathway": "OSCILLATION + FEEDBACK + BUFFERING",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:feedback:29970c37fcd9a815",
+          "pond:feedback:639dd439e706d4f8",
+          "pond:oscillation:019f81b9c8cdc87f",
+          "pond:oscillation:361241c5a28eb54e"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Cycle",
+          "Delay",
+          "Input",
+          "Loop",
+          "Overshoot",
+          "Reinforcement",
+          "Response",
+          "Signal",
+          "State"
+        ],
+        "weight": 0.2419
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "OSCILLATION",
+          "FEEDBACK",
+          "COMPENSATION"
+        ],
+        "pathway": "OSCILLATION + FEEDBACK + COMPENSATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:compensation:1b348715597e8587",
+          "pond:compensation:29b7f9f7ae556a3b",
+          "pond:feedback:29970c37fcd9a815",
+          "pond:feedback:639dd439e706d4f8",
+          "pond:oscillation:019f81b9c8cdc87f",
+          "pond:oscillation:361241c5a28eb54e"
+        ],
+        "supporting_motifs": [
+          "Counteraction",
+          "Cycle",
+          "Delay",
+          "Deviation",
+          "Loop",
+          "Overshoot",
+          "Reinforcement",
+          "Response",
+          "Signal",
+          "Stabilization",
+          "State",
+          "Substitution"
+        ],
+        "weight": 0.2243
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "OSCILLATION",
+          "BUFFERING",
+          "COMPENSATION"
+        ],
+        "pathway": "OSCILLATION + BUFFERING + COMPENSATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:compensation:1b348715597e8587",
+          "pond:compensation:29b7f9f7ae556a3b",
+          "pond:oscillation:019f81b9c8cdc87f",
+          "pond:oscillation:361241c5a28eb54e"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Counteraction",
+          "Cycle",
+          "Delay",
+          "Deviation",
+          "Input",
+          "Overshoot",
+          "Stabilization",
+          "State",
+          "Substitution"
+        ],
+        "weight": 0.1845
+      },
+      {
+        "combination_depth": 2,
+        "mechanisms": [
+          "OSCILLATION",
+          "FEEDBACK"
+        ],
+        "pathway": "OSCILLATION + FEEDBACK",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:feedback:29970c37fcd9a815",
+          "pond:feedback:639dd439e706d4f8",
+          "pond:oscillation:019f81b9c8cdc87f",
+          "pond:oscillation:361241c5a28eb54e"
+        ],
+        "supporting_motifs": [
+          "Cycle",
+          "Delay",
+          "Loop",
+          "Overshoot",
+          "Reinforcement",
+          "Response",
+          "Signal",
+          "State"
+        ],
+        "weight": 0.1761
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "FEEDBACK",
+          "BUFFERING",
+          "COMPENSATION"
+        ],
+        "pathway": "FEEDBACK + BUFFERING + COMPENSATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:compensation:1b348715597e8587",
+          "pond:compensation:29b7f9f7ae556a3b",
+          "pond:feedback:29970c37fcd9a815",
+          "pond:feedback:639dd439e706d4f8"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Counteraction",
+          "Delay",
+          "Deviation",
+          "Input",
+          "Loop",
+          "Reinforcement",
+          "Response",
+          "Signal",
+          "Stabilization",
+          "Substitution"
+        ],
+        "weight": 0.1731
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-010",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "DIFFUSION",
+          "RESOURCE_DEPLETION",
+          "BUFFERING"
+        ],
+        "pathway": "DIFFUSION + RESOURCE_DEPLETION + BUFFERING",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:diffusion:1e1929a4abb9bd0d",
+          "pond:diffusion:5fceeaf81812122f",
+          "pond:resource_depletion:55d78a46424150c9",
+          "pond:resource_depletion:772a8746b40af786"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Consumption",
+          "Delay",
+          "Dilution",
+          "Exhaustion",
+          "Gradient",
+          "Input",
+          "Resource",
+          "Scarcity",
+          "Source",
+          "Spread"
+        ],
+        "weight": 0.2184
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "DIFFUSION",
+          "RESOURCE_DEPLETION",
+          "FLOW"
+        ],
+        "pathway": "DIFFUSION + RESOURCE_DEPLETION + FLOW",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:diffusion:1e1929a4abb9bd0d",
+          "pond:diffusion:5fceeaf81812122f",
+          "pond:flow:174e933edaa55697",
+          "pond:flow:1b188635f25f4a13",
+          "pond:resource_depletion:55d78a46424150c9",
+          "pond:resource_depletion:772a8746b40af786"
+        ],
+        "supporting_motifs": [
+          "Consumption",
+          "Dilution",
+          "Exhaustion",
+          "Flow",
+          "Gradient",
+          "Path",
+          "Resistance",
+          "Resource",
+          "Scarcity",
+          "Source",
+          "Spread"
+        ],
+        "weight": 0.2044
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "DIFFUSION",
+          "BUFFERING",
+          "FLOW"
+        ],
+        "pathway": "DIFFUSION + BUFFERING + FLOW",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:diffusion:1e1929a4abb9bd0d",
+          "pond:diffusion:5fceeaf81812122f",
+          "pond:flow:174e933edaa55697",
+          "pond:flow:1b188635f25f4a13"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Delay",
+          "Dilution",
+          "Flow",
+          "Gradient",
+          "Input",
+          "Path",
+          "Resistance",
+          "Source",
+          "Spread"
+        ],
+        "weight": 0.2027
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "DIFFUSION",
+          "BUFFERING",
+          "ACCUMULATION"
+        ],
+        "pathway": "DIFFUSION + BUFFERING + ACCUMULATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:16eb311b61f8f6b2",
+          "pond:accumulation:42a3759a8f240fdf",
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:diffusion:1e1929a4abb9bd0d",
+          "pond:diffusion:5fceeaf81812122f"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "BuildUp",
+          "Delay",
+          "Dilution",
+          "Gradient",
+          "Input",
+          "Overflow",
+          "Source",
+          "Spread",
+          "Storage"
+        ],
+        "weight": 0.1901
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "DIFFUSION",
+          "RESOURCE_DEPLETION",
+          "ACCUMULATION"
+        ],
+        "pathway": "DIFFUSION + RESOURCE_DEPLETION + ACCUMULATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:16eb311b61f8f6b2",
+          "pond:accumulation:42a3759a8f240fdf",
+          "pond:diffusion:1e1929a4abb9bd0d",
+          "pond:diffusion:5fceeaf81812122f",
+          "pond:resource_depletion:55d78a46424150c9",
+          "pond:resource_depletion:772a8746b40af786"
+        ],
+        "supporting_motifs": [
+          "BuildUp",
+          "Consumption",
+          "Dilution",
+          "Exhaustion",
+          "Gradient",
+          "Input",
+          "Overflow",
+          "Resource",
+          "Scarcity",
+          "Source",
+          "Spread",
+          "Storage"
+        ],
+        "weight": 0.1844
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-011",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "FLOW",
+          "BUFFERING",
+          "OSCILLATION"
+        ],
+        "pathway": "FLOW + BUFFERING + OSCILLATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:2ddfeb5b0f9baf86",
+          "pond:flow:8725e050fc43ca48",
+          "pond:flow:8fb2c710a8e84550",
+          "pond:oscillation:019f81b9c8cdc87f",
+          "pond:oscillation:361241c5a28eb54e"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Cycle",
+          "Delay",
+          "Flow",
+          "Input",
+          "Overshoot",
+          "Path",
+          "Resistance",
+          "Source",
+          "State"
+        ],
+        "weight": 0.2237
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "FLOW",
+          "BUFFERING",
+          "AMPLIFICATION"
+        ],
+        "pathway": "FLOW + BUFFERING + AMPLIFICATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:amplification:49a80c094f40fa16",
+          "pond:amplification:669bc533991b7e59",
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:2ddfeb5b0f9baf86",
+          "pond:flow:8725e050fc43ca48",
+          "pond:flow:8fb2c710a8e84550"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Delay",
+          "Escalation",
+          "Flow",
+          "Gain",
+          "Input",
+          "Path",
+          "Propagation",
+          "Resistance",
+          "Source"
+        ],
+        "weight": 0.2137
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "FLOW",
+          "BUFFERING",
+          "FEEDBACK"
+        ],
+        "pathway": "FLOW + BUFFERING + FEEDBACK",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:2ddfeb5b0f9baf86",
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab",
+          "pond:flow:8725e050fc43ca48",
+          "pond:flow:8fb2c710a8e84550"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Delay",
+          "Flow",
+          "Input",
+          "Loop",
+          "Path",
+          "Reinforcement",
+          "Resistance",
+          "Response",
+          "Signal",
+          "Source"
+        ],
+        "weight": 0.2081
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "FLOW",
+          "OSCILLATION",
+          "FEEDBACK"
+        ],
+        "pathway": "FLOW + OSCILLATION + FEEDBACK",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab",
+          "pond:flow:8725e050fc43ca48",
+          "pond:flow:8fb2c710a8e84550",
+          "pond:oscillation:019f81b9c8cdc87f",
+          "pond:oscillation:361241c5a28eb54e"
+        ],
+        "supporting_motifs": [
+          "Cycle",
+          "Delay",
+          "Flow",
+          "Loop",
+          "Overshoot",
+          "Path",
+          "Reinforcement",
+          "Resistance",
+          "Response",
+          "Signal",
+          "Source",
+          "State"
+        ],
+        "weight": 0.178
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "FLOW",
+          "OSCILLATION",
+          "AMPLIFICATION"
+        ],
+        "pathway": "FLOW + OSCILLATION + AMPLIFICATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:amplification:49a80c094f40fa16",
+          "pond:amplification:669bc533991b7e59",
+          "pond:flow:8725e050fc43ca48",
+          "pond:flow:8fb2c710a8e84550",
+          "pond:oscillation:019f81b9c8cdc87f",
+          "pond:oscillation:361241c5a28eb54e"
+        ],
+        "supporting_motifs": [
+          "Cycle",
+          "Delay",
+          "Escalation",
+          "Flow",
+          "Gain",
+          "Input",
+          "Overshoot",
+          "Path",
+          "Propagation",
+          "Resistance",
+          "Source",
+          "State"
+        ],
+        "weight": 0.1764
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-012",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "SUPPORTED_ROTATION",
+          "THRESHOLD",
+          "DIFFUSION"
+        ],
+        "pathway": "SUPPORTED_ROTATION + THRESHOLD + DIFFUSION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:diffusion:1295d8896f93fcd8",
+          "pond:diffusion:558b4378784d5a7f",
+          "pond:supported_rotation:18f72fc932ab6180",
+          "pond:supported_rotation:1de1ef328a4b75af",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:1dbfe551705dbe5c"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Dilution",
+          "Failure",
+          "Friction",
+          "Gradient",
+          "Limit",
+          "Rotation",
+          "Source",
+          "Spread",
+          "StateChange",
+          "Support",
+          "Trigger"
+        ],
+        "weight": 0.2373
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "SUPPORTED_ROTATION",
+          "THRESHOLD",
+          "LOAD_TRANSFER"
+        ],
+        "pathway": "SUPPORTED_ROTATION + THRESHOLD + LOAD_TRANSFER",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:load_transfer:093852f103902af0",
+          "pond:load_transfer:100b958307e05044",
+          "pond:supported_rotation:18f72fc932ab6180",
+          "pond:supported_rotation:1de1ef328a4b75af",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:1dbfe551705dbe5c"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Concentration",
+          "Distribution",
+          "Failure",
+          "Friction",
+          "Limit",
+          "Load",
+          "Rotation",
+          "StateChange",
+          "Support",
+          "Trigger"
+        ],
+        "weight": 0.2324
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "SUPPORTED_ROTATION",
+          "DIFFUSION",
+          "LOAD_TRANSFER"
+        ],
+        "pathway": "SUPPORTED_ROTATION + DIFFUSION + LOAD_TRANSFER",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:diffusion:1295d8896f93fcd8",
+          "pond:diffusion:558b4378784d5a7f",
+          "pond:load_transfer:093852f103902af0",
+          "pond:load_transfer:100b958307e05044",
+          "pond:supported_rotation:18f72fc932ab6180",
+          "pond:supported_rotation:1de1ef328a4b75af"
+        ],
+        "supporting_motifs": [
+          "Concentration",
+          "Dilution",
+          "Distribution",
+          "Failure",
+          "Friction",
+          "Gradient",
+          "Load",
+          "Rotation",
+          "Source",
+          "Spread",
+          "Support"
+        ],
+        "weight": 0.1921
+      },
+      {
+        "combination_depth": 2,
+        "mechanisms": [
+          "SUPPORTED_ROTATION",
+          "THRESHOLD"
+        ],
+        "pathway": "SUPPORTED_ROTATION + THRESHOLD",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:supported_rotation:18f72fc932ab6180",
+          "pond:supported_rotation:1de1ef328a4b75af",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:1dbfe551705dbe5c"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Failure",
+          "Friction",
+          "Limit",
+          "Rotation",
+          "StateChange",
+          "Support",
+          "Trigger"
+        ],
+        "weight": 0.1816
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "THRESHOLD",
+          "DIFFUSION",
+          "LOAD_TRANSFER"
+        ],
+        "pathway": "THRESHOLD + DIFFUSION + LOAD_TRANSFER",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:diffusion:1295d8896f93fcd8",
+          "pond:diffusion:558b4378784d5a7f",
+          "pond:load_transfer:093852f103902af0",
+          "pond:load_transfer:100b958307e05044",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:1dbfe551705dbe5c"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Concentration",
+          "Dilution",
+          "Distribution",
+          "Failure",
+          "Gradient",
+          "Limit",
+          "Load",
+          "Source",
+          "Spread",
+          "StateChange",
+          "Trigger"
+        ],
+        "weight": 0.1566
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-013",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "LOAD_TRANSFER",
+          "THRESHOLD",
+          "SUPPORTED_ROTATION"
+        ],
+        "pathway": "LOAD_TRANSFER + THRESHOLD + SUPPORTED_ROTATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:load_transfer:100c18cc1d1c2bf9",
+          "pond:load_transfer:38ae4961e6268ecd",
+          "pond:supported_rotation:18f72fc932ab6180",
+          "pond:supported_rotation:1de1ef328a4b75af",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:1dbfe551705dbe5c"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Concentration",
+          "Distribution",
+          "Failure",
+          "Friction",
+          "Limit",
+          "Load",
+          "Rotation",
+          "StateChange",
+          "Support",
+          "Trigger"
+        ],
+        "weight": 0.2163
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "LOAD_TRANSFER",
+          "THRESHOLD",
+          "COMPENSATION"
+        ],
+        "pathway": "LOAD_TRANSFER + THRESHOLD + COMPENSATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:compensation:0293b4c027834565",
+          "pond:compensation:0f554fa27f3ebc01",
+          "pond:load_transfer:100c18cc1d1c2bf9",
+          "pond:load_transfer:38ae4961e6268ecd",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:1dbfe551705dbe5c"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Concentration",
+          "Counteraction",
+          "Deviation",
+          "Distribution",
+          "Failure",
+          "Limit",
+          "Load",
+          "Stabilization",
+          "StateChange",
+          "Substitution",
+          "Trigger"
+        ],
+        "weight": 0.2032
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "LOAD_TRANSFER",
+          "SUPPORTED_ROTATION",
+          "COMPENSATION"
+        ],
+        "pathway": "LOAD_TRANSFER + SUPPORTED_ROTATION + COMPENSATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:compensation:0293b4c027834565",
+          "pond:compensation:0f554fa27f3ebc01",
+          "pond:load_transfer:100c18cc1d1c2bf9",
+          "pond:load_transfer:38ae4961e6268ecd",
+          "pond:supported_rotation:18f72fc932ab6180",
+          "pond:supported_rotation:1de1ef328a4b75af"
+        ],
+        "supporting_motifs": [
+          "Concentration",
+          "Counteraction",
+          "Deviation",
+          "Distribution",
+          "Failure",
+          "Friction",
+          "Load",
+          "Rotation",
+          "Stabilization",
+          "Substitution",
+          "Support"
+        ],
+        "weight": 0.1997
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "LOAD_TRANSFER",
+          "THRESHOLD",
+          "ACCUMULATION"
+        ],
+        "pathway": "LOAD_TRANSFER + THRESHOLD + ACCUMULATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:0b8b507e57754286",
+          "pond:accumulation:10c2c8ae31c87504",
+          "pond:load_transfer:100c18cc1d1c2bf9",
+          "pond:load_transfer:38ae4961e6268ecd",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:1dbfe551705dbe5c"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "BuildUp",
+          "Concentration",
+          "Distribution",
+          "Failure",
+          "Input",
+          "Limit",
+          "Load",
+          "Overflow",
+          "StateChange",
+          "Storage",
+          "Trigger"
+        ],
+        "weight": 0.1921
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "LOAD_TRANSFER",
+          "SUPPORTED_ROTATION",
+          "ACCUMULATION"
+        ],
+        "pathway": "LOAD_TRANSFER + SUPPORTED_ROTATION + ACCUMULATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:0b8b507e57754286",
+          "pond:accumulation:10c2c8ae31c87504",
+          "pond:load_transfer:100c18cc1d1c2bf9",
+          "pond:load_transfer:38ae4961e6268ecd",
+          "pond:supported_rotation:18f72fc932ab6180",
+          "pond:supported_rotation:1de1ef328a4b75af"
+        ],
+        "supporting_motifs": [
+          "BuildUp",
+          "Concentration",
+          "Distribution",
+          "Failure",
+          "Friction",
+          "Input",
+          "Load",
+          "Overflow",
+          "Rotation",
+          "Storage",
+          "Support"
+        ],
+        "weight": 0.1887
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-014",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "FEEDBACK",
+          "AMPLIFICATION",
+          "THRESHOLD"
+        ],
+        "pathway": "FEEDBACK + AMPLIFICATION + THRESHOLD",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:amplification:4f7102b33900c26a",
+          "pond:amplification:7a741fe9eb0dd270",
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab",
+          "pond:threshold:4805330b0343ed45",
+          "pond:threshold:7bb27a243a3a432e"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Escalation",
+          "Gain",
+          "Input",
+          "Limit",
+          "Loop",
+          "Propagation",
+          "Reinforcement",
+          "Response",
+          "Signal",
+          "StateChange",
+          "Trigger"
+        ],
+        "weight": 0.3506
+      },
+      {
+        "combination_depth": 2,
+        "mechanisms": [
+          "FEEDBACK",
+          "AMPLIFICATION"
+        ],
+        "pathway": "FEEDBACK + AMPLIFICATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:amplification:4f7102b33900c26a",
+          "pond:amplification:7a741fe9eb0dd270",
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab"
+        ],
+        "supporting_motifs": [
+          "Escalation",
+          "Gain",
+          "Input",
+          "Loop",
+          "Propagation",
+          "Reinforcement",
+          "Response",
+          "Signal"
+        ],
+        "weight": 0.2435
+      },
+      {
+        "combination_depth": 2,
+        "mechanisms": [
+          "FEEDBACK",
+          "THRESHOLD"
+        ],
+        "pathway": "FEEDBACK + THRESHOLD",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab",
+          "pond:threshold:4805330b0343ed45",
+          "pond:threshold:7bb27a243a3a432e"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Limit",
+          "Loop",
+          "Reinforcement",
+          "Response",
+          "Signal",
+          "StateChange",
+          "Trigger"
+        ],
+        "weight": 0.2435
+      },
+      {
+        "combination_depth": 2,
+        "mechanisms": [
+          "AMPLIFICATION",
+          "THRESHOLD"
+        ],
+        "pathway": "AMPLIFICATION + THRESHOLD",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:amplification:4f7102b33900c26a",
+          "pond:amplification:7a741fe9eb0dd270",
+          "pond:threshold:4805330b0343ed45",
+          "pond:threshold:7bb27a243a3a432e"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Escalation",
+          "Gain",
+          "Input",
+          "Limit",
+          "Propagation",
+          "StateChange",
+          "Trigger"
+        ],
+        "weight": 0.1623
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-015",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "OSCILLATION",
+          "BUFFERING",
+          "ACCUMULATION"
+        ],
+        "pathway": "OSCILLATION + BUFFERING + ACCUMULATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:0b8b507e57754286",
+          "pond:accumulation:10c2c8ae31c87504",
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:oscillation:019f81b9c8cdc87f",
+          "pond:oscillation:361241c5a28eb54e"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "BuildUp",
+          "Cycle",
+          "Delay",
+          "Input",
+          "Overflow",
+          "Overshoot",
+          "State",
+          "Storage"
+        ],
+        "weight": 0.3562
+      },
+      {
+        "combination_depth": 2,
+        "mechanisms": [
+          "OSCILLATION",
+          "BUFFERING"
+        ],
+        "pathway": "OSCILLATION + BUFFERING",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:oscillation:019f81b9c8cdc87f",
+          "pond:oscillation:361241c5a28eb54e"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Cycle",
+          "Delay",
+          "Input",
+          "Overshoot",
+          "State"
+        ],
+        "weight": 0.2633
+      },
+      {
+        "combination_depth": 2,
+        "mechanisms": [
+          "OSCILLATION",
+          "ACCUMULATION"
+        ],
+        "pathway": "OSCILLATION + ACCUMULATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:0b8b507e57754286",
+          "pond:accumulation:10c2c8ae31c87504",
+          "pond:oscillation:019f81b9c8cdc87f",
+          "pond:oscillation:361241c5a28eb54e"
+        ],
+        "supporting_motifs": [
+          "BuildUp",
+          "Cycle",
+          "Delay",
+          "Input",
+          "Overflow",
+          "Overshoot",
+          "State",
+          "Storage"
+        ],
+        "weight": 0.2204
+      },
+      {
+        "combination_depth": 2,
+        "mechanisms": [
+          "BUFFERING",
+          "ACCUMULATION"
+        ],
+        "pathway": "BUFFERING + ACCUMULATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:0b8b507e57754286",
+          "pond:accumulation:10c2c8ae31c87504",
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "BuildUp",
+          "Delay",
+          "Input",
+          "Overflow",
+          "Storage"
+        ],
+        "weight": 0.16
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-016",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "DIFFUSION",
+          "FLOW",
+          "AMPLIFICATION"
+        ],
+        "pathway": "DIFFUSION + FLOW + AMPLIFICATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:amplification:18f5d2d240960f8d",
+          "pond:amplification:1b5b2323489efb04",
+          "pond:diffusion:1e1929a4abb9bd0d",
+          "pond:diffusion:5fceeaf81812122f",
+          "pond:flow:174e933edaa55697",
+          "pond:flow:1b188635f25f4a13"
+        ],
+        "supporting_motifs": [
+          "Dilution",
+          "Escalation",
+          "Flow",
+          "Gain",
+          "Gradient",
+          "Input",
+          "Path",
+          "Propagation",
+          "Resistance",
+          "Source",
+          "Spread"
+        ],
+        "weight": 0.2338
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "DIFFUSION",
+          "FLOW",
+          "RESOURCE_DEPLETION"
+        ],
+        "pathway": "DIFFUSION + FLOW + RESOURCE_DEPLETION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:diffusion:1e1929a4abb9bd0d",
+          "pond:diffusion:5fceeaf81812122f",
+          "pond:flow:174e933edaa55697",
+          "pond:flow:1b188635f25f4a13",
+          "pond:resource_depletion:55d78a46424150c9",
+          "pond:resource_depletion:772a8746b40af786"
+        ],
+        "supporting_motifs": [
+          "Consumption",
+          "Dilution",
+          "Exhaustion",
+          "Flow",
+          "Gradient",
+          "Path",
+          "Resistance",
+          "Resource",
+          "Scarcity",
+          "Source",
+          "Spread"
+        ],
+        "weight": 0.2207
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "DIFFUSION",
+          "AMPLIFICATION",
+          "RESOURCE_DEPLETION"
+        ],
+        "pathway": "DIFFUSION + AMPLIFICATION + RESOURCE_DEPLETION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:amplification:18f5d2d240960f8d",
+          "pond:amplification:1b5b2323489efb04",
+          "pond:diffusion:1e1929a4abb9bd0d",
+          "pond:diffusion:5fceeaf81812122f",
+          "pond:resource_depletion:55d78a46424150c9",
+          "pond:resource_depletion:772a8746b40af786"
+        ],
+        "supporting_motifs": [
+          "Consumption",
+          "Dilution",
+          "Escalation",
+          "Exhaustion",
+          "Gain",
+          "Gradient",
+          "Input",
+          "Propagation",
+          "Resource",
+          "Scarcity",
+          "Source",
+          "Spread"
+        ],
+        "weight": 0.21
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "FLOW",
+          "AMPLIFICATION",
+          "RESOURCE_DEPLETION"
+        ],
+        "pathway": "FLOW + AMPLIFICATION + RESOURCE_DEPLETION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:amplification:18f5d2d240960f8d",
+          "pond:amplification:1b5b2323489efb04",
+          "pond:flow:174e933edaa55697",
+          "pond:flow:1b188635f25f4a13",
+          "pond:resource_depletion:55d78a46424150c9",
+          "pond:resource_depletion:772a8746b40af786"
+        ],
+        "supporting_motifs": [
+          "Consumption",
+          "Escalation",
+          "Exhaustion",
+          "Flow",
+          "Gain",
+          "Input",
+          "Path",
+          "Propagation",
+          "Resistance",
+          "Resource",
+          "Scarcity",
+          "Source"
+        ],
+        "weight": 0.1772
+      },
+      {
+        "combination_depth": 2,
+        "mechanisms": [
+          "DIFFUSION",
+          "FLOW"
+        ],
+        "pathway": "DIFFUSION + FLOW",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:diffusion:1e1929a4abb9bd0d",
+          "pond:diffusion:5fceeaf81812122f",
+          "pond:flow:174e933edaa55697",
+          "pond:flow:1b188635f25f4a13"
+        ],
+        "supporting_motifs": [
+          "Dilution",
+          "Flow",
+          "Gradient",
+          "Path",
+          "Resistance",
+          "Source",
+          "Spread"
+        ],
+        "weight": 0.1582
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-017",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "FLOW",
+          "RESOURCE_DEPLETION",
+          "BUFFERING"
+        ],
+        "pathway": "FLOW + RESOURCE_DEPLETION + BUFFERING",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:2ddfeb5b0f9baf86",
+          "pond:flow:8725e050fc43ca48",
+          "pond:flow:8fb2c710a8e84550",
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Consumption",
+          "Delay",
+          "Exhaustion",
+          "Flow",
+          "Input",
+          "Path",
+          "Resistance",
+          "Resource",
+          "Scarcity",
+          "Source"
+        ],
+        "weight": 0.3506
+      },
+      {
+        "combination_depth": 2,
+        "mechanisms": [
+          "FLOW",
+          "RESOURCE_DEPLETION"
+        ],
+        "pathway": "FLOW + RESOURCE_DEPLETION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:flow:8725e050fc43ca48",
+          "pond:flow:8fb2c710a8e84550",
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c"
+        ],
+        "supporting_motifs": [
+          "Consumption",
+          "Exhaustion",
+          "Flow",
+          "Path",
+          "Resistance",
+          "Resource",
+          "Scarcity",
+          "Source"
+        ],
+        "weight": 0.2435
+      },
+      {
+        "combination_depth": 2,
+        "mechanisms": [
+          "FLOW",
+          "BUFFERING"
+        ],
+        "pathway": "FLOW + BUFFERING",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:2ddfeb5b0f9baf86",
+          "pond:flow:8725e050fc43ca48",
+          "pond:flow:8fb2c710a8e84550"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Delay",
+          "Flow",
+          "Input",
+          "Path",
+          "Resistance",
+          "Source"
+        ],
+        "weight": 0.2087
+      },
+      {
+        "combination_depth": 2,
+        "mechanisms": [
+          "RESOURCE_DEPLETION",
+          "BUFFERING"
+        ],
+        "pathway": "RESOURCE_DEPLETION + BUFFERING",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:2ddfeb5b0f9baf86",
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Consumption",
+          "Delay",
+          "Exhaustion",
+          "Input",
+          "Resource",
+          "Scarcity"
+        ],
+        "weight": 0.1971
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-018",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "OSCILLATION",
+          "FEEDBACK",
+          "SUPPORTED_ROTATION"
+        ],
+        "pathway": "OSCILLATION + FEEDBACK + SUPPORTED_ROTATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab",
+          "pond:oscillation:375bfcf0455750c7",
+          "pond:oscillation:4fbec22bb8891daa",
+          "pond:supported_rotation:385591267b223a4e",
+          "pond:supported_rotation:436ca1cfecfb4530"
+        ],
+        "supporting_motifs": [
+          "Cycle",
+          "Delay",
+          "Failure",
+          "Friction",
+          "Loop",
+          "Overshoot",
+          "Reinforcement",
+          "Response",
+          "Rotation",
+          "Signal",
+          "State",
+          "Support"
+        ],
+        "weight": 0.2245
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "OSCILLATION",
+          "FEEDBACK",
+          "ACCUMULATION"
+        ],
+        "pathway": "OSCILLATION + FEEDBACK + ACCUMULATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:0b8b507e57754286",
+          "pond:accumulation:10c2c8ae31c87504",
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab",
+          "pond:oscillation:375bfcf0455750c7",
+          "pond:oscillation:4fbec22bb8891daa"
+        ],
+        "supporting_motifs": [
+          "BuildUp",
+          "Cycle",
+          "Delay",
+          "Input",
+          "Loop",
+          "Overflow",
+          "Overshoot",
+          "Reinforcement",
+          "Response",
+          "Signal",
+          "State",
+          "Storage"
+        ],
+        "weight": 0.2185
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "OSCILLATION",
+          "SUPPORTED_ROTATION",
+          "ACCUMULATION"
+        ],
+        "pathway": "OSCILLATION + SUPPORTED_ROTATION + ACCUMULATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:0b8b507e57754286",
+          "pond:accumulation:10c2c8ae31c87504",
+          "pond:oscillation:375bfcf0455750c7",
+          "pond:oscillation:4fbec22bb8891daa",
+          "pond:supported_rotation:385591267b223a4e",
+          "pond:supported_rotation:436ca1cfecfb4530"
+        ],
+        "supporting_motifs": [
+          "BuildUp",
+          "Cycle",
+          "Delay",
+          "Failure",
+          "Friction",
+          "Input",
+          "Overflow",
+          "Overshoot",
+          "Rotation",
+          "State",
+          "Storage",
+          "Support"
+        ],
+        "weight": 0.2125
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "FEEDBACK",
+          "SUPPORTED_ROTATION",
+          "ACCUMULATION"
+        ],
+        "pathway": "FEEDBACK + SUPPORTED_ROTATION + ACCUMULATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:0b8b507e57754286",
+          "pond:accumulation:10c2c8ae31c87504",
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab",
+          "pond:supported_rotation:385591267b223a4e",
+          "pond:supported_rotation:436ca1cfecfb4530"
+        ],
+        "supporting_motifs": [
+          "BuildUp",
+          "Failure",
+          "Friction",
+          "Input",
+          "Loop",
+          "Overflow",
+          "Reinforcement",
+          "Response",
+          "Rotation",
+          "Signal",
+          "Storage",
+          "Support"
+        ],
+        "weight": 0.2005
+      },
+      {
+        "combination_depth": 2,
+        "mechanisms": [
+          "OSCILLATION",
+          "FEEDBACK"
+        ],
+        "pathway": "OSCILLATION + FEEDBACK",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab",
+          "pond:oscillation:375bfcf0455750c7",
+          "pond:oscillation:4fbec22bb8891daa"
+        ],
+        "supporting_motifs": [
+          "Cycle",
+          "Delay",
+          "Loop",
+          "Overshoot",
+          "Reinforcement",
+          "Response",
+          "Signal",
+          "State"
+        ],
+        "weight": 0.1439
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-019",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "LOAD_TRANSFER",
+          "BUFFERING",
+          "DIFFUSION"
+        ],
+        "pathway": "LOAD_TRANSFER + BUFFERING + DIFFUSION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:diffusion:4e680c9bfa373666",
+          "pond:diffusion:68b87dcfd90b79d8",
+          "pond:load_transfer:093852f103902af0",
+          "pond:load_transfer:100b958307e05044"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Concentration",
+          "Delay",
+          "Dilution",
+          "Distribution",
+          "Failure",
+          "Gradient",
+          "Input",
+          "Load",
+          "Source",
+          "Spread"
+        ],
+        "weight": 0.216
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "LOAD_TRANSFER",
+          "BUFFERING",
+          "RESOURCE_DEPLETION"
+        ],
+        "pathway": "LOAD_TRANSFER + BUFFERING + RESOURCE_DEPLETION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:load_transfer:093852f103902af0",
+          "pond:load_transfer:100b958307e05044",
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Concentration",
+          "Consumption",
+          "Delay",
+          "Distribution",
+          "Exhaustion",
+          "Failure",
+          "Input",
+          "Load",
+          "Resource",
+          "Scarcity"
+        ],
+        "weight": 0.1973
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "LOAD_TRANSFER",
+          "BUFFERING",
+          "THRESHOLD"
+        ],
+        "pathway": "LOAD_TRANSFER + BUFFERING + THRESHOLD",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:load_transfer:093852f103902af0",
+          "pond:load_transfer:100b958307e05044",
+          "pond:threshold:4805330b0343ed45",
+          "pond:threshold:7bb27a243a3a432e"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Accumulation",
+          "Buffer",
+          "Concentration",
+          "Delay",
+          "Distribution",
+          "Failure",
+          "Input",
+          "Limit",
+          "Load",
+          "StateChange",
+          "Trigger"
+        ],
+        "weight": 0.1973
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "LOAD_TRANSFER",
+          "DIFFUSION",
+          "RESOURCE_DEPLETION"
+        ],
+        "pathway": "LOAD_TRANSFER + DIFFUSION + RESOURCE_DEPLETION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:diffusion:4e680c9bfa373666",
+          "pond:diffusion:68b87dcfd90b79d8",
+          "pond:load_transfer:093852f103902af0",
+          "pond:load_transfer:100b958307e05044",
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c"
+        ],
+        "supporting_motifs": [
+          "Concentration",
+          "Consumption",
+          "Dilution",
+          "Distribution",
+          "Exhaustion",
+          "Failure",
+          "Gradient",
+          "Load",
+          "Resource",
+          "Scarcity",
+          "Source",
+          "Spread"
+        ],
+        "weight": 0.1947
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "LOAD_TRANSFER",
+          "DIFFUSION",
+          "THRESHOLD"
+        ],
+        "pathway": "LOAD_TRANSFER + DIFFUSION + THRESHOLD",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:diffusion:4e680c9bfa373666",
+          "pond:diffusion:68b87dcfd90b79d8",
+          "pond:load_transfer:093852f103902af0",
+          "pond:load_transfer:100b958307e05044",
+          "pond:threshold:4805330b0343ed45",
+          "pond:threshold:7bb27a243a3a432e"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Concentration",
+          "Dilution",
+          "Distribution",
+          "Failure",
+          "Gradient",
+          "Limit",
+          "Load",
+          "Source",
+          "Spread",
+          "StateChange",
+          "Trigger"
+        ],
+        "weight": 0.1947
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-020",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "THRESHOLD",
+          "FEEDBACK",
+          "FLOW"
+        ],
+        "pathway": "THRESHOLD + FEEDBACK + FLOW",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab",
+          "pond:flow:8725e050fc43ca48",
+          "pond:flow:8fb2c710a8e84550",
+          "pond:threshold:4805330b0343ed45",
+          "pond:threshold:7bb27a243a3a432e"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Flow",
+          "Limit",
+          "Loop",
+          "Path",
+          "Reinforcement",
+          "Resistance",
+          "Response",
+          "Signal",
+          "Source",
+          "StateChange",
+          "Trigger"
+        ],
+        "weight": 0.2101
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "THRESHOLD",
+          "FEEDBACK",
+          "BUFFERING"
+        ],
+        "pathway": "THRESHOLD + FEEDBACK + BUFFERING",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:2ddfeb5b0f9baf86",
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab",
+          "pond:threshold:4805330b0343ed45",
+          "pond:threshold:7bb27a243a3a432e"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Accumulation",
+          "Buffer",
+          "Delay",
+          "Input",
+          "Limit",
+          "Loop",
+          "Reinforcement",
+          "Response",
+          "Signal",
+          "StateChange",
+          "Trigger"
+        ],
+        "weight": 0.2077
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "THRESHOLD",
+          "FEEDBACK",
+          "OSCILLATION"
+        ],
+        "pathway": "THRESHOLD + FEEDBACK + OSCILLATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab",
+          "pond:oscillation:019f81b9c8cdc87f",
+          "pond:oscillation:361241c5a28eb54e",
+          "pond:threshold:4805330b0343ed45",
+          "pond:threshold:7bb27a243a3a432e"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Cycle",
+          "Delay",
+          "Limit",
+          "Loop",
+          "Overshoot",
+          "Reinforcement",
+          "Response",
+          "Signal",
+          "State",
+          "StateChange",
+          "Trigger"
+        ],
+        "weight": 0.2006
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "THRESHOLD",
+          "FLOW",
+          "BUFFERING"
+        ],
+        "pathway": "THRESHOLD + FLOW + BUFFERING",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:2ddfeb5b0f9baf86",
+          "pond:flow:8725e050fc43ca48",
+          "pond:flow:8fb2c710a8e84550",
+          "pond:threshold:4805330b0343ed45",
+          "pond:threshold:7bb27a243a3a432e"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Accumulation",
+          "Buffer",
+          "Delay",
+          "Flow",
+          "Input",
+          "Limit",
+          "Path",
+          "Resistance",
+          "Source",
+          "StateChange",
+          "Trigger"
+        ],
+        "weight": 0.191
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "THRESHOLD",
+          "BUFFERING",
+          "OSCILLATION"
+        ],
+        "pathway": "THRESHOLD + BUFFERING + OSCILLATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:2ddfeb5b0f9baf86",
+          "pond:oscillation:019f81b9c8cdc87f",
+          "pond:oscillation:361241c5a28eb54e",
+          "pond:threshold:4805330b0343ed45",
+          "pond:threshold:7bb27a243a3a432e"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Accumulation",
+          "Buffer",
+          "Cycle",
+          "Delay",
+          "Input",
+          "Limit",
+          "Overshoot",
+          "State",
+          "StateChange",
+          "Trigger"
+        ],
+        "weight": 0.1906
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-021",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "RESOURCE_DEPLETION",
+          "AMPLIFICATION",
+          "BUFFERING"
+        ],
+        "pathway": "RESOURCE_DEPLETION + AMPLIFICATION + BUFFERING",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:amplification:18f5d2d240960f8d",
+          "pond:amplification:1b5b2323489efb04",
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:resource_depletion:1470dfb316e6a70c",
+          "pond:resource_depletion:19867c05f793337d"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Consumption",
+          "Delay",
+          "Escalation",
+          "Exhaustion",
+          "Gain",
+          "Input",
+          "Propagation",
+          "Resource",
+          "Scarcity"
+        ],
+        "weight": 0.2056
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "RESOURCE_DEPLETION",
+          "AMPLIFICATION",
+          "ACCUMULATION"
+        ],
+        "pathway": "RESOURCE_DEPLETION + AMPLIFICATION + ACCUMULATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:16eb311b61f8f6b2",
+          "pond:accumulation:42a3759a8f240fdf",
+          "pond:amplification:18f5d2d240960f8d",
+          "pond:amplification:1b5b2323489efb04",
+          "pond:resource_depletion:1470dfb316e6a70c",
+          "pond:resource_depletion:19867c05f793337d"
+        ],
+        "supporting_motifs": [
+          "BuildUp",
+          "Consumption",
+          "Escalation",
+          "Exhaustion",
+          "Gain",
+          "Input",
+          "Overflow",
+          "Propagation",
+          "Resource",
+          "Scarcity",
+          "Storage"
+        ],
+        "weight": 0.2023
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "RESOURCE_DEPLETION",
+          "BUFFERING",
+          "ACCUMULATION"
+        ],
+        "pathway": "RESOURCE_DEPLETION + BUFFERING + ACCUMULATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:16eb311b61f8f6b2",
+          "pond:accumulation:42a3759a8f240fdf",
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:resource_depletion:1470dfb316e6a70c",
+          "pond:resource_depletion:19867c05f793337d"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "BuildUp",
+          "Consumption",
+          "Delay",
+          "Exhaustion",
+          "Input",
+          "Overflow",
+          "Resource",
+          "Scarcity",
+          "Storage"
+        ],
+        "weight": 0.2023
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "RESOURCE_DEPLETION",
+          "AMPLIFICATION",
+          "FLOW"
+        ],
+        "pathway": "RESOURCE_DEPLETION + AMPLIFICATION + FLOW",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:amplification:18f5d2d240960f8d",
+          "pond:amplification:1b5b2323489efb04",
+          "pond:flow:3e0228bbea0e6e1c",
+          "pond:flow:5dac9687957be5f0",
+          "pond:resource_depletion:1470dfb316e6a70c",
+          "pond:resource_depletion:19867c05f793337d"
+        ],
+        "supporting_motifs": [
+          "Consumption",
+          "Escalation",
+          "Exhaustion",
+          "Flow",
+          "Gain",
+          "Input",
+          "Path",
+          "Propagation",
+          "Resistance",
+          "Resource",
+          "Scarcity",
+          "Source"
+        ],
+        "weight": 0.1949
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "RESOURCE_DEPLETION",
+          "BUFFERING",
+          "FLOW"
+        ],
+        "pathway": "RESOURCE_DEPLETION + BUFFERING + FLOW",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:flow:3e0228bbea0e6e1c",
+          "pond:flow:5dac9687957be5f0",
+          "pond:resource_depletion:1470dfb316e6a70c",
+          "pond:resource_depletion:19867c05f793337d"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Consumption",
+          "Delay",
+          "Exhaustion",
+          "Flow",
+          "Input",
+          "Path",
+          "Resistance",
+          "Resource",
+          "Scarcity",
+          "Source"
+        ],
+        "weight": 0.1949
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-022",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "THRESHOLD",
+          "OSCILLATION",
+          "FEEDBACK"
+        ],
+        "pathway": "THRESHOLD + OSCILLATION + FEEDBACK",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab",
+          "pond:oscillation:019f81b9c8cdc87f",
+          "pond:oscillation:361241c5a28eb54e",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:27415f742a6cf086"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Cycle",
+          "Delay",
+          "Limit",
+          "Loop",
+          "Overshoot",
+          "Reinforcement",
+          "Response",
+          "Signal",
+          "State",
+          "StateChange",
+          "Trigger"
+        ],
+        "weight": 0.2189
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "THRESHOLD",
+          "OSCILLATION",
+          "BUFFERING"
+        ],
+        "pathway": "THRESHOLD + OSCILLATION + BUFFERING",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:oscillation:019f81b9c8cdc87f",
+          "pond:oscillation:361241c5a28eb54e",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:27415f742a6cf086"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Accumulation",
+          "Buffer",
+          "Cycle",
+          "Delay",
+          "Input",
+          "Limit",
+          "Overshoot",
+          "State",
+          "StateChange",
+          "Trigger"
+        ],
+        "weight": 0.2093
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "THRESHOLD",
+          "OSCILLATION",
+          "COMPENSATION"
+        ],
+        "pathway": "THRESHOLD + OSCILLATION + COMPENSATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:compensation:0293b4c027834565",
+          "pond:compensation:0f554fa27f3ebc01",
+          "pond:oscillation:019f81b9c8cdc87f",
+          "pond:oscillation:361241c5a28eb54e",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:27415f742a6cf086"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Counteraction",
+          "Cycle",
+          "Delay",
+          "Deviation",
+          "Limit",
+          "Overshoot",
+          "Stabilization",
+          "State",
+          "StateChange",
+          "Substitution",
+          "Trigger"
+        ],
+        "weight": 0.1936
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "THRESHOLD",
+          "OSCILLATION",
+          "AMPLIFICATION"
+        ],
+        "pathway": "THRESHOLD + OSCILLATION + AMPLIFICATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:amplification:18f5d2d240960f8d",
+          "pond:amplification:1b5b2323489efb04",
+          "pond:oscillation:019f81b9c8cdc87f",
+          "pond:oscillation:361241c5a28eb54e",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:27415f742a6cf086"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Cycle",
+          "Delay",
+          "Escalation",
+          "Gain",
+          "Input",
+          "Limit",
+          "Overshoot",
+          "Propagation",
+          "State",
+          "StateChange",
+          "Trigger"
+        ],
+        "weight": 0.19
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "THRESHOLD",
+          "FEEDBACK",
+          "BUFFERING"
+        ],
+        "pathway": "THRESHOLD + FEEDBACK + BUFFERING",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:27415f742a6cf086"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Accumulation",
+          "Buffer",
+          "Delay",
+          "Input",
+          "Limit",
+          "Loop",
+          "Reinforcement",
+          "Response",
+          "Signal",
+          "StateChange",
+          "Trigger"
+        ],
+        "weight": 0.1882
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-023",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "FLOW",
+          "ACCUMULATION",
+          "DIFFUSION"
+        ],
+        "pathway": "FLOW + ACCUMULATION + DIFFUSION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:10c2c8ae31c87504",
+          "pond:accumulation:15625a03373c9075",
+          "pond:diffusion:4e680c9bfa373666",
+          "pond:diffusion:68b87dcfd90b79d8",
+          "pond:flow:174e933edaa55697",
+          "pond:flow:1b188635f25f4a13"
+        ],
+        "supporting_motifs": [
+          "BuildUp",
+          "Dilution",
+          "Flow",
+          "Gradient",
+          "Input",
+          "Overflow",
+          "Path",
+          "Resistance",
+          "Source",
+          "Spread",
+          "Storage"
+        ],
+        "weight": 0.3531
+      },
+      {
+        "combination_depth": 2,
+        "mechanisms": [
+          "FLOW",
+          "ACCUMULATION"
+        ],
+        "pathway": "FLOW + ACCUMULATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:10c2c8ae31c87504",
+          "pond:accumulation:15625a03373c9075",
+          "pond:flow:174e933edaa55697",
+          "pond:flow:1b188635f25f4a13"
+        ],
+        "supporting_motifs": [
+          "BuildUp",
+          "Flow",
+          "Input",
+          "Overflow",
+          "Path",
+          "Resistance",
+          "Source",
+          "Storage"
+        ],
+        "weight": 0.2774
+      },
+      {
+        "combination_depth": 2,
+        "mechanisms": [
+          "FLOW",
+          "DIFFUSION"
+        ],
+        "pathway": "FLOW + DIFFUSION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:diffusion:4e680c9bfa373666",
+          "pond:diffusion:68b87dcfd90b79d8",
+          "pond:flow:174e933edaa55697",
+          "pond:flow:1b188635f25f4a13"
+        ],
+        "supporting_motifs": [
+          "Dilution",
+          "Flow",
+          "Gradient",
+          "Path",
+          "Resistance",
+          "Source",
+          "Spread"
+        ],
+        "weight": 0.2183
+      },
+      {
+        "combination_depth": 2,
+        "mechanisms": [
+          "ACCUMULATION",
+          "DIFFUSION"
+        ],
+        "pathway": "ACCUMULATION + DIFFUSION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:10c2c8ae31c87504",
+          "pond:accumulation:15625a03373c9075",
+          "pond:diffusion:4e680c9bfa373666",
+          "pond:diffusion:68b87dcfd90b79d8"
+        ],
+        "supporting_motifs": [
+          "BuildUp",
+          "Dilution",
+          "Gradient",
+          "Input",
+          "Overflow",
+          "Source",
+          "Spread",
+          "Storage"
+        ],
+        "weight": 0.1513
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-024",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "LOAD_TRANSFER",
+          "THRESHOLD",
+          "SUPPORTED_ROTATION"
+        ],
+        "pathway": "LOAD_TRANSFER + THRESHOLD + SUPPORTED_ROTATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:load_transfer:093852f103902af0",
+          "pond:load_transfer:100b958307e05044",
+          "pond:supported_rotation:18f72fc932ab6180",
+          "pond:supported_rotation:1de1ef328a4b75af",
+          "pond:threshold:4805330b0343ed45",
+          "pond:threshold:7bb27a243a3a432e"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Concentration",
+          "Distribution",
+          "Failure",
+          "Friction",
+          "Limit",
+          "Load",
+          "Rotation",
+          "StateChange",
+          "Support",
+          "Trigger"
+        ],
+        "weight": 0.3535
+      },
+      {
+        "combination_depth": 2,
+        "mechanisms": [
+          "LOAD_TRANSFER",
+          "THRESHOLD"
+        ],
+        "pathway": "LOAD_TRANSFER + THRESHOLD",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:load_transfer:093852f103902af0",
+          "pond:load_transfer:100b958307e05044",
+          "pond:threshold:4805330b0343ed45",
+          "pond:threshold:7bb27a243a3a432e"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Concentration",
+          "Distribution",
+          "Failure",
+          "Limit",
+          "Load",
+          "StateChange",
+          "Trigger"
+        ],
+        "weight": 0.2379
+      },
+      {
+        "combination_depth": 2,
+        "mechanisms": [
+          "LOAD_TRANSFER",
+          "SUPPORTED_ROTATION"
+        ],
+        "pathway": "LOAD_TRANSFER + SUPPORTED_ROTATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:load_transfer:093852f103902af0",
+          "pond:load_transfer:100b958307e05044",
+          "pond:supported_rotation:18f72fc932ab6180",
+          "pond:supported_rotation:1de1ef328a4b75af"
+        ],
+        "supporting_motifs": [
+          "Concentration",
+          "Distribution",
+          "Failure",
+          "Friction",
+          "Load",
+          "Rotation",
+          "Support"
+        ],
+        "weight": 0.2292
+      },
+      {
+        "combination_depth": 2,
+        "mechanisms": [
+          "THRESHOLD",
+          "SUPPORTED_ROTATION"
+        ],
+        "pathway": "THRESHOLD + SUPPORTED_ROTATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:supported_rotation:18f72fc932ab6180",
+          "pond:supported_rotation:1de1ef328a4b75af",
+          "pond:threshold:4805330b0343ed45",
+          "pond:threshold:7bb27a243a3a432e"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Failure",
+          "Friction",
+          "Limit",
+          "Rotation",
+          "StateChange",
+          "Support",
+          "Trigger"
+        ],
+        "weight": 0.1794
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-025",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "SUPPORTED_ROTATION",
+          "RESOURCE_DEPLETION",
+          "DIFFUSION"
+        ],
+        "pathway": "SUPPORTED_ROTATION + RESOURCE_DEPLETION + DIFFUSION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:diffusion:1295d8896f93fcd8",
+          "pond:diffusion:558b4378784d5a7f",
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c",
+          "pond:supported_rotation:1de1ef328a4b75af",
+          "pond:supported_rotation:43b7e46d4526aded"
+        ],
+        "supporting_motifs": [
+          "Consumption",
+          "Dilution",
+          "Exhaustion",
+          "Failure",
+          "Friction",
+          "Gradient",
+          "Resource",
+          "Rotation",
+          "Scarcity",
+          "Source",
+          "Spread",
+          "Support"
+        ],
+        "weight": 0.215
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "SUPPORTED_ROTATION",
+          "RESOURCE_DEPLETION",
+          "BUFFERING"
+        ],
+        "pathway": "SUPPORTED_ROTATION + RESOURCE_DEPLETION + BUFFERING",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c",
+          "pond:supported_rotation:1de1ef328a4b75af",
+          "pond:supported_rotation:43b7e46d4526aded"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Consumption",
+          "Delay",
+          "Exhaustion",
+          "Failure",
+          "Friction",
+          "Input",
+          "Resource",
+          "Rotation",
+          "Scarcity",
+          "Support"
+        ],
+        "weight": 0.2006
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "SUPPORTED_ROTATION",
+          "RESOURCE_DEPLETION",
+          "COMPENSATION"
+        ],
+        "pathway": "SUPPORTED_ROTATION + RESOURCE_DEPLETION + COMPENSATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:compensation:24c5ab58cde4cf93",
+          "pond:compensation:32d910a73e42a8d1",
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c",
+          "pond:supported_rotation:1de1ef328a4b75af",
+          "pond:supported_rotation:43b7e46d4526aded"
+        ],
+        "supporting_motifs": [
+          "Consumption",
+          "Counteraction",
+          "Deviation",
+          "Exhaustion",
+          "Failure",
+          "Friction",
+          "Resource",
+          "Rotation",
+          "Scarcity",
+          "Stabilization",
+          "Substitution",
+          "Support"
+        ],
+        "weight": 0.2006
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "SUPPORTED_ROTATION",
+          "DIFFUSION",
+          "BUFFERING"
+        ],
+        "pathway": "SUPPORTED_ROTATION + DIFFUSION + BUFFERING",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:diffusion:1295d8896f93fcd8",
+          "pond:diffusion:558b4378784d5a7f",
+          "pond:supported_rotation:1de1ef328a4b75af",
+          "pond:supported_rotation:43b7e46d4526aded"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Delay",
+          "Dilution",
+          "Failure",
+          "Friction",
+          "Gradient",
+          "Input",
+          "Rotation",
+          "Source",
+          "Spread",
+          "Support"
+        ],
+        "weight": 0.1919
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "SUPPORTED_ROTATION",
+          "DIFFUSION",
+          "COMPENSATION"
+        ],
+        "pathway": "SUPPORTED_ROTATION + DIFFUSION + COMPENSATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:compensation:24c5ab58cde4cf93",
+          "pond:compensation:32d910a73e42a8d1",
+          "pond:diffusion:1295d8896f93fcd8",
+          "pond:diffusion:558b4378784d5a7f",
+          "pond:supported_rotation:1de1ef328a4b75af",
+          "pond:supported_rotation:43b7e46d4526aded"
+        ],
+        "supporting_motifs": [
+          "Counteraction",
+          "Deviation",
+          "Dilution",
+          "Failure",
+          "Friction",
+          "Gradient",
+          "Rotation",
+          "Source",
+          "Spread",
+          "Stabilization",
+          "Substitution",
+          "Support"
+        ],
+        "weight": 0.1919
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-026",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "OSCILLATION",
+          "BUFFERING",
+          "ACCUMULATION"
+        ],
+        "pathway": "OSCILLATION + BUFFERING + ACCUMULATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:0b8b507e57754286",
+          "pond:accumulation:10c2c8ae31c87504",
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:oscillation:375bfcf0455750c7",
+          "pond:oscillation:4fbec22bb8891daa"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "BuildUp",
+          "Cycle",
+          "Delay",
+          "Input",
+          "Overflow",
+          "Overshoot",
+          "State",
+          "Storage"
+        ],
+        "weight": 0.24
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "OSCILLATION",
+          "BUFFERING",
+          "RESOURCE_DEPLETION"
+        ],
+        "pathway": "OSCILLATION + BUFFERING + RESOURCE_DEPLETION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:oscillation:375bfcf0455750c7",
+          "pond:oscillation:4fbec22bb8891daa",
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Consumption",
+          "Cycle",
+          "Delay",
+          "Exhaustion",
+          "Input",
+          "Overshoot",
+          "Resource",
+          "Scarcity",
+          "State"
+        ],
+        "weight": 0.2329
+      },
+      {
+        "combination_depth": 2,
+        "mechanisms": [
+          "OSCILLATION",
+          "BUFFERING"
+        ],
+        "pathway": "OSCILLATION + BUFFERING",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:oscillation:375bfcf0455750c7",
+          "pond:oscillation:4fbec22bb8891daa"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Cycle",
+          "Delay",
+          "Input",
+          "Overshoot",
+          "State"
+        ],
+        "weight": 0.1831
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "OSCILLATION",
+          "ACCUMULATION",
+          "RESOURCE_DEPLETION"
+        ],
+        "pathway": "OSCILLATION + ACCUMULATION + RESOURCE_DEPLETION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:0b8b507e57754286",
+          "pond:accumulation:10c2c8ae31c87504",
+          "pond:oscillation:375bfcf0455750c7",
+          "pond:oscillation:4fbec22bb8891daa",
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c"
+        ],
+        "supporting_motifs": [
+          "BuildUp",
+          "Consumption",
+          "Cycle",
+          "Delay",
+          "Exhaustion",
+          "Input",
+          "Overflow",
+          "Overshoot",
+          "Resource",
+          "Scarcity",
+          "State",
+          "Storage"
+        ],
+        "weight": 0.1782
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "BUFFERING",
+          "ACCUMULATION",
+          "RESOURCE_DEPLETION"
+        ],
+        "pathway": "BUFFERING + ACCUMULATION + RESOURCE_DEPLETION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:0b8b507e57754286",
+          "pond:accumulation:10c2c8ae31c87504",
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "BuildUp",
+          "Consumption",
+          "Delay",
+          "Exhaustion",
+          "Input",
+          "Overflow",
+          "Resource",
+          "Scarcity",
+          "Storage"
+        ],
+        "weight": 0.1658
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-027",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "LOAD_TRANSFER",
+          "DIFFUSION",
+          "COMPENSATION"
+        ],
+        "pathway": "LOAD_TRANSFER + DIFFUSION + COMPENSATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:compensation:0293b4c027834565",
+          "pond:compensation:0f554fa27f3ebc01",
+          "pond:diffusion:0b89588dcc61beff",
+          "pond:diffusion:1295d8896f93fcd8",
+          "pond:load_transfer:093852f103902af0",
+          "pond:load_transfer:100b958307e05044"
+        ],
+        "supporting_motifs": [
+          "Concentration",
+          "Counteraction",
+          "Deviation",
+          "Dilution",
+          "Distribution",
+          "Failure",
+          "Gradient",
+          "Load",
+          "Source",
+          "Spread",
+          "Stabilization",
+          "Substitution"
+        ],
+        "weight": 0.2166
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "LOAD_TRANSFER",
+          "DIFFUSION",
+          "SUPPORTED_ROTATION"
+        ],
+        "pathway": "LOAD_TRANSFER + DIFFUSION + SUPPORTED_ROTATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:diffusion:0b89588dcc61beff",
+          "pond:diffusion:1295d8896f93fcd8",
+          "pond:load_transfer:093852f103902af0",
+          "pond:load_transfer:100b958307e05044",
+          "pond:supported_rotation:18f72fc932ab6180",
+          "pond:supported_rotation:1de1ef328a4b75af"
+        ],
+        "supporting_motifs": [
+          "Concentration",
+          "Dilution",
+          "Distribution",
+          "Failure",
+          "Friction",
+          "Gradient",
+          "Load",
+          "Rotation",
+          "Source",
+          "Spread",
+          "Support"
+        ],
+        "weight": 0.2104
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "LOAD_TRANSFER",
+          "COMPENSATION",
+          "SUPPORTED_ROTATION"
+        ],
+        "pathway": "LOAD_TRANSFER + COMPENSATION + SUPPORTED_ROTATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:compensation:0293b4c027834565",
+          "pond:compensation:0f554fa27f3ebc01",
+          "pond:load_transfer:093852f103902af0",
+          "pond:load_transfer:100b958307e05044",
+          "pond:supported_rotation:18f72fc932ab6180",
+          "pond:supported_rotation:1de1ef328a4b75af"
+        ],
+        "supporting_motifs": [
+          "Concentration",
+          "Counteraction",
+          "Deviation",
+          "Distribution",
+          "Failure",
+          "Friction",
+          "Load",
+          "Rotation",
+          "Stabilization",
+          "Substitution",
+          "Support"
+        ],
+        "weight": 0.1987
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "LOAD_TRANSFER",
+          "DIFFUSION",
+          "THRESHOLD"
+        ],
+        "pathway": "LOAD_TRANSFER + DIFFUSION + THRESHOLD",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:diffusion:0b89588dcc61beff",
+          "pond:diffusion:1295d8896f93fcd8",
+          "pond:load_transfer:093852f103902af0",
+          "pond:load_transfer:100b958307e05044",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:1dbfe551705dbe5c"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Concentration",
+          "Dilution",
+          "Distribution",
+          "Failure",
+          "Gradient",
+          "Limit",
+          "Load",
+          "Source",
+          "Spread",
+          "StateChange",
+          "Trigger"
+        ],
+        "weight": 0.193
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "DIFFUSION",
+          "COMPENSATION",
+          "SUPPORTED_ROTATION"
+        ],
+        "pathway": "DIFFUSION + COMPENSATION + SUPPORTED_ROTATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:compensation:0293b4c027834565",
+          "pond:compensation:0f554fa27f3ebc01",
+          "pond:diffusion:0b89588dcc61beff",
+          "pond:diffusion:1295d8896f93fcd8",
+          "pond:supported_rotation:18f72fc932ab6180",
+          "pond:supported_rotation:1de1ef328a4b75af"
+        ],
+        "supporting_motifs": [
+          "Counteraction",
+          "Deviation",
+          "Dilution",
+          "Failure",
+          "Friction",
+          "Gradient",
+          "Rotation",
+          "Source",
+          "Spread",
+          "Stabilization",
+          "Substitution",
+          "Support"
+        ],
+        "weight": 0.1813
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-028",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "FEEDBACK",
+          "COMPENSATION",
+          "THRESHOLD"
+        ],
+        "pathway": "FEEDBACK + COMPENSATION + THRESHOLD",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:compensation:1b348715597e8587",
+          "pond:compensation:29b7f9f7ae556a3b",
+          "pond:feedback:29970c37fcd9a815",
+          "pond:feedback:639dd439e706d4f8",
+          "pond:threshold:1dbfe551705dbe5c",
+          "pond:threshold:32701a3d308b3051"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Counteraction",
+          "Deviation",
+          "Limit",
+          "Loop",
+          "Reinforcement",
+          "Response",
+          "Signal",
+          "Stabilization",
+          "StateChange",
+          "Substitution",
+          "Trigger"
+        ],
+        "weight": 0.22
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "FEEDBACK",
+          "COMPENSATION",
+          "BUFFERING"
+        ],
+        "pathway": "FEEDBACK + COMPENSATION + BUFFERING",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:2ddfeb5b0f9baf86",
+          "pond:compensation:1b348715597e8587",
+          "pond:compensation:29b7f9f7ae556a3b",
+          "pond:feedback:29970c37fcd9a815",
+          "pond:feedback:639dd439e706d4f8"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Counteraction",
+          "Delay",
+          "Deviation",
+          "Input",
+          "Loop",
+          "Reinforcement",
+          "Response",
+          "Signal",
+          "Stabilization",
+          "Substitution"
+        ],
+        "weight": 0.2033
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "FEEDBACK",
+          "COMPENSATION",
+          "FLOW"
+        ],
+        "pathway": "FEEDBACK + COMPENSATION + FLOW",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:compensation:1b348715597e8587",
+          "pond:compensation:29b7f9f7ae556a3b",
+          "pond:feedback:29970c37fcd9a815",
+          "pond:feedback:639dd439e706d4f8",
+          "pond:flow:174e933edaa55697",
+          "pond:flow:1b188635f25f4a13"
+        ],
+        "supporting_motifs": [
+          "Counteraction",
+          "Deviation",
+          "Flow",
+          "Loop",
+          "Path",
+          "Reinforcement",
+          "Resistance",
+          "Response",
+          "Signal",
+          "Source",
+          "Stabilization",
+          "Substitution"
+        ],
+        "weight": 0.2013
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "FEEDBACK",
+          "THRESHOLD",
+          "BUFFERING"
+        ],
+        "pathway": "FEEDBACK + THRESHOLD + BUFFERING",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:2ddfeb5b0f9baf86",
+          "pond:feedback:29970c37fcd9a815",
+          "pond:feedback:639dd439e706d4f8",
+          "pond:threshold:1dbfe551705dbe5c",
+          "pond:threshold:32701a3d308b3051"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Accumulation",
+          "Buffer",
+          "Delay",
+          "Input",
+          "Limit",
+          "Loop",
+          "Reinforcement",
+          "Response",
+          "Signal",
+          "StateChange",
+          "Trigger"
+        ],
+        "weight": 0.1887
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "FEEDBACK",
+          "THRESHOLD",
+          "FLOW"
+        ],
+        "pathway": "FEEDBACK + THRESHOLD + FLOW",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:feedback:29970c37fcd9a815",
+          "pond:feedback:639dd439e706d4f8",
+          "pond:flow:174e933edaa55697",
+          "pond:flow:1b188635f25f4a13",
+          "pond:threshold:1dbfe551705dbe5c",
+          "pond:threshold:32701a3d308b3051"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Flow",
+          "Limit",
+          "Loop",
+          "Path",
+          "Reinforcement",
+          "Resistance",
+          "Response",
+          "Signal",
+          "Source",
+          "StateChange",
+          "Trigger"
+        ],
+        "weight": 0.1867
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-029",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "BUFFERING",
+          "RESOURCE_DEPLETION",
+          "DIFFUSION"
+        ],
+        "pathway": "BUFFERING + RESOURCE_DEPLETION + DIFFUSION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:diffusion:0b89588dcc61beff",
+          "pond:diffusion:1295d8896f93fcd8",
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Consumption",
+          "Delay",
+          "Dilution",
+          "Exhaustion",
+          "Gradient",
+          "Input",
+          "Resource",
+          "Scarcity",
+          "Source",
+          "Spread"
+        ],
+        "weight": 0.2127
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "BUFFERING",
+          "RESOURCE_DEPLETION",
+          "OSCILLATION"
+        ],
+        "pathway": "BUFFERING + RESOURCE_DEPLETION + OSCILLATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:oscillation:019f81b9c8cdc87f",
+          "pond:oscillation:361241c5a28eb54e",
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Consumption",
+          "Cycle",
+          "Delay",
+          "Exhaustion",
+          "Input",
+          "Overshoot",
+          "Resource",
+          "Scarcity",
+          "State"
+        ],
+        "weight": 0.2035
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "BUFFERING",
+          "DIFFUSION",
+          "OSCILLATION"
+        ],
+        "pathway": "BUFFERING + DIFFUSION + OSCILLATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:diffusion:0b89588dcc61beff",
+          "pond:diffusion:1295d8896f93fcd8",
+          "pond:oscillation:019f81b9c8cdc87f",
+          "pond:oscillation:361241c5a28eb54e"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "Cycle",
+          "Delay",
+          "Dilution",
+          "Gradient",
+          "Input",
+          "Overshoot",
+          "Source",
+          "Spread",
+          "State"
+        ],
+        "weight": 0.1978
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "BUFFERING",
+          "RESOURCE_DEPLETION",
+          "ACCUMULATION"
+        ],
+        "pathway": "BUFFERING + RESOURCE_DEPLETION + ACCUMULATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:16eb311b61f8f6b2",
+          "pond:accumulation:42a3759a8f240fdf",
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "BuildUp",
+          "Consumption",
+          "Delay",
+          "Exhaustion",
+          "Input",
+          "Overflow",
+          "Resource",
+          "Scarcity",
+          "Storage"
+        ],
+        "weight": 0.1959
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "BUFFERING",
+          "DIFFUSION",
+          "ACCUMULATION"
+        ],
+        "pathway": "BUFFERING + DIFFUSION + ACCUMULATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:16eb311b61f8f6b2",
+          "pond:accumulation:42a3759a8f240fdf",
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:diffusion:0b89588dcc61beff",
+          "pond:diffusion:1295d8896f93fcd8"
+        ],
+        "supporting_motifs": [
+          "Absorption",
+          "Buffer",
+          "BuildUp",
+          "Delay",
+          "Dilution",
+          "Gradient",
+          "Input",
+          "Overflow",
+          "Source",
+          "Spread",
+          "Storage"
+        ],
+        "weight": 0.1901
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-030",
+    "ranked_pathways": [
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "THRESHOLD",
+          "OSCILLATION",
+          "FLOW"
+        ],
+        "pathway": "THRESHOLD + OSCILLATION + FLOW",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:flow:8725e050fc43ca48",
+          "pond:flow:8fb2c710a8e84550",
+          "pond:oscillation:49eecdfdee1794e8",
+          "pond:oscillation:8ca1805f5f03f852",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:1dbfe551705dbe5c"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Cycle",
+          "Delay",
+          "Flow",
+          "Limit",
+          "Overshoot",
+          "Path",
+          "Resistance",
+          "Source",
+          "State",
+          "StateChange",
+          "Trigger"
+        ],
+        "weight": 0.2261
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "THRESHOLD",
+          "OSCILLATION",
+          "SUPPORTED_ROTATION"
+        ],
+        "pathway": "THRESHOLD + OSCILLATION + SUPPORTED_ROTATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:oscillation:49eecdfdee1794e8",
+          "pond:oscillation:8ca1805f5f03f852",
+          "pond:supported_rotation:18f72fc932ab6180",
+          "pond:supported_rotation:1de1ef328a4b75af",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:1dbfe551705dbe5c"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Cycle",
+          "Delay",
+          "Failure",
+          "Friction",
+          "Limit",
+          "Overshoot",
+          "Rotation",
+          "State",
+          "StateChange",
+          "Support",
+          "Trigger"
+        ],
+        "weight": 0.1994
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "THRESHOLD",
+          "OSCILLATION",
+          "ACCUMULATION"
+        ],
+        "pathway": "THRESHOLD + OSCILLATION + ACCUMULATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:0b8b507e57754286",
+          "pond:accumulation:10c2c8ae31c87504",
+          "pond:oscillation:49eecdfdee1794e8",
+          "pond:oscillation:8ca1805f5f03f852",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:1dbfe551705dbe5c"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "BuildUp",
+          "Cycle",
+          "Delay",
+          "Input",
+          "Limit",
+          "Overflow",
+          "Overshoot",
+          "State",
+          "StateChange",
+          "Storage",
+          "Trigger"
+        ],
+        "weight": 0.1964
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "THRESHOLD",
+          "FLOW",
+          "SUPPORTED_ROTATION"
+        ],
+        "pathway": "THRESHOLD + FLOW + SUPPORTED_ROTATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:flow:8725e050fc43ca48",
+          "pond:flow:8fb2c710a8e84550",
+          "pond:supported_rotation:18f72fc932ab6180",
+          "pond:supported_rotation:1de1ef328a4b75af",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:1dbfe551705dbe5c"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Failure",
+          "Flow",
+          "Friction",
+          "Limit",
+          "Path",
+          "Resistance",
+          "Rotation",
+          "Source",
+          "StateChange",
+          "Support",
+          "Trigger"
+        ],
+        "weight": 0.1905
+      },
+      {
+        "combination_depth": 3,
+        "mechanisms": [
+          "THRESHOLD",
+          "FLOW",
+          "ACCUMULATION"
+        ],
+        "pathway": "THRESHOLD + FLOW + ACCUMULATION",
+        "reason": "Ranked after pair/triple interaction among activated mechanisms, before final answer selection.",
+        "supporting_lineages": [
+          "pond:accumulation:0b8b507e57754286",
+          "pond:accumulation:10c2c8ae31c87504",
+          "pond:flow:8725e050fc43ca48",
+          "pond:flow:8fb2c710a8e84550",
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:1dbfe551705dbe5c"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "BuildUp",
+          "Flow",
+          "Input",
+          "Limit",
+          "Overflow",
+          "Path",
+          "Resistance",
+          "Source",
+          "StateChange",
+          "Storage",
+          "Trigger"
+        ],
+        "weight": 0.1875
+      }
+    ]
+  }
+]

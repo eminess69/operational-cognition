@@ -1,0 +1,4007 @@
+[
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.0556,
+        "mechanism": "ACCUMULATION",
+        "supporting_lineage_hashes": [
+          "126fd7a982fc794e2e7ecd97965c7d76572acc83690d2d298f07d8e56c4d9ca5",
+          "67f87cc072ab4590799edf55aae178caf66f6e5c95c2b9a899d1fd03344d9195"
+        ],
+        "supporting_lineages": [
+          "pond:accumulation:126fd7a982fc794e",
+          "pond:accumulation:67f87cc072ab4590"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Storage",
+          "BuildUp",
+          "Overflow"
+        ]
+      },
+      {
+        "activation_weight": 0.0611,
+        "mechanism": "AMPLIFICATION",
+        "supporting_lineage_hashes": [
+          "04095fcb20ee4a24eb5bfa1352094ccfb870cfeff807adcc36e9acaeecc419d2",
+          "0ca8d4e64d2a607a952e1ca04a2de97c1ad384569bb683c4be017641c6f6940d"
+        ],
+        "supporting_lineages": [
+          "pond:amplification:04095fcb20ee4a24",
+          "pond:amplification:0ca8d4e64d2a607a"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Gain",
+          "Propagation",
+          "Escalation"
+        ]
+      },
+      {
+        "activation_weight": 0.1778,
+        "mechanism": "BUFFERING",
+        "supporting_lineage_hashes": [
+          "05f1bd9a4dbf3a3861343324afd952d273a74389d58fe47c9d10d83b79ad6e73",
+          "18f99a6fd838b599a677c695795749facdb497c1bf0a95bb984771a3abeb9659"
+        ],
+        "supporting_lineages": [
+          "pond:buffering:05f1bd9a4dbf3a38",
+          "pond:buffering:18f99a6fd838b599"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Buffer",
+          "Absorption",
+          "Delay"
+        ]
+      },
+      {
+        "activation_weight": 0.0444,
+        "mechanism": "COMPENSATION",
+        "supporting_lineage_hashes": [
+          "0154760ed13486189591df1a865a911b95e37c0ca4ff1c9c057e2d57c31d9522",
+          "024e0ea1a8910bd39ab4da1713aff2a0b2f759806d7fa8bd48e1f53c9096795f"
+        ],
+        "supporting_lineages": [
+          "pond:compensation:0154760ed1348618",
+          "pond:compensation:024e0ea1a8910bd3"
+        ],
+        "supporting_motifs": [
+          "Deviation",
+          "Counteraction",
+          "Substitution",
+          "Stabilization"
+        ]
+      },
+      {
+        "activation_weight": 0.2111,
+        "mechanism": "FEEDBACK",
+        "supporting_lineage_hashes": [
+          "2aaa00447b9bb53e1763d1ac00b2abbae402beeff84a93daf1b9864feb3b74cd",
+          "2dfd9ea4981e8f98c87f441e6c273eac55656c9b8575fa4c40d662caaafa2459"
+        ],
+        "supporting_lineages": [
+          "pond:feedback:2aaa00447b9bb53e",
+          "pond:feedback:2dfd9ea4981e8f98"
+        ],
+        "supporting_motifs": [
+          "Signal",
+          "Loop",
+          "Response",
+          "Reinforcement"
+        ]
+      },
+      {
+        "activation_weight": 0.1111,
+        "mechanism": "FLOW",
+        "supporting_lineage_hashes": [
+          "3a8c1d2c38fc3f306eaaf4c09691938fb6dca9f2fd64160e2ca5e73378472d95",
+          "6cb9fd15c3061e5be50a3f9d7b30e5052440afe8bf45c044115f3dbd6c7d2786"
+        ],
+        "supporting_lineages": [
+          "pond:flow:3a8c1d2c38fc3f30",
+          "pond:flow:6cb9fd15c3061e5b"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Path",
+          "Resistance",
+          "Flow"
+        ]
+      },
+      {
+        "activation_weight": 0.1778,
+        "mechanism": "RESOURCE_DEPLETION",
+        "supporting_lineage_hashes": [
+          "046c6450ff881c01b8e0fb4633c31188c3b5e76910dbcb778a3543f4820f6c6d",
+          "0602ea766c459325aac0e54da5c01b842a4daf1c802e42f20ff0c8ce363a022a"
+        ],
+        "supporting_lineages": [
+          "pond:resource_depletion:046c6450ff881c01",
+          "pond:resource_depletion:0602ea766c459325"
+        ],
+        "supporting_motifs": [
+          "Resource",
+          "Consumption",
+          "Scarcity",
+          "Exhaustion"
+        ]
+      },
+      {
+        "activation_weight": 0.1611,
+        "mechanism": "THRESHOLD",
+        "supporting_lineage_hashes": [
+          "01ca6d94bdc311b6fdaaca762ee234f21b1ef0cbcbf0db1c3962b71c8db83234",
+          "05fcb5e4cebb5706f5e79d1122e3c0b12308517ad85e9ddda7fe21e55836ae30"
+        ],
+        "supporting_lineages": [
+          "pond:threshold:01ca6d94bdc311b6",
+          "pond:threshold:05fcb5e4cebb5706"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Limit",
+          "Trigger",
+          "StateChange"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "ACCUMULATION": 0.0556,
+      "AMPLIFICATION": 0.0611,
+      "BUFFERING": 0.1778,
+      "COMPENSATION": 0.0444,
+      "FEEDBACK": 0.2111,
+      "FLOW": 0.1111,
+      "RESOURCE_DEPLETION": 0.1778,
+      "THRESHOLD": 0.1611
+    },
+    "case_id": "P037-RC-001",
+    "lineage_hashes": [
+      "126fd7a982fc794e2e7ecd97965c7d76572acc83690d2d298f07d8e56c4d9ca5",
+      "67f87cc072ab4590799edf55aae178caf66f6e5c95c2b9a899d1fd03344d9195",
+      "04095fcb20ee4a24eb5bfa1352094ccfb870cfeff807adcc36e9acaeecc419d2",
+      "0ca8d4e64d2a607a952e1ca04a2de97c1ad384569bb683c4be017641c6f6940d",
+      "05f1bd9a4dbf3a3861343324afd952d273a74389d58fe47c9d10d83b79ad6e73",
+      "18f99a6fd838b599a677c695795749facdb497c1bf0a95bb984771a3abeb9659",
+      "0154760ed13486189591df1a865a911b95e37c0ca4ff1c9c057e2d57c31d9522",
+      "024e0ea1a8910bd39ab4da1713aff2a0b2f759806d7fa8bd48e1f53c9096795f",
+      "2aaa00447b9bb53e1763d1ac00b2abbae402beeff84a93daf1b9864feb3b74cd",
+      "2dfd9ea4981e8f98c87f441e6c273eac55656c9b8575fa4c40d662caaafa2459",
+      "3a8c1d2c38fc3f306eaaf4c09691938fb6dca9f2fd64160e2ca5e73378472d95",
+      "6cb9fd15c3061e5be50a3f9d7b30e5052440afe8bf45c044115f3dbd6c7d2786",
+      "046c6450ff881c01b8e0fb4633c31188c3b5e76910dbcb778a3543f4820f6c6d",
+      "0602ea766c459325aac0e54da5c01b842a4daf1c802e42f20ff0c8ce363a022a",
+      "01ca6d94bdc311b6fdaaca762ee234f21b1ef0cbcbf0db1c3962b71c8db83234",
+      "05fcb5e4cebb5706f5e79d1122e3c0b12308517ad85e9ddda7fe21e55836ae30"
+    ],
+    "lineages": [
+      "pond:accumulation:126fd7a982fc794e",
+      "pond:accumulation:67f87cc072ab4590",
+      "pond:amplification:04095fcb20ee4a24",
+      "pond:amplification:0ca8d4e64d2a607a",
+      "pond:buffering:05f1bd9a4dbf3a38",
+      "pond:buffering:18f99a6fd838b599",
+      "pond:compensation:0154760ed1348618",
+      "pond:compensation:024e0ea1a8910bd3",
+      "pond:feedback:2aaa00447b9bb53e",
+      "pond:feedback:2dfd9ea4981e8f98",
+      "pond:flow:3a8c1d2c38fc3f30",
+      "pond:flow:6cb9fd15c3061e5b",
+      "pond:resource_depletion:046c6450ff881c01",
+      "pond:resource_depletion:0602ea766c459325",
+      "pond:threshold:01ca6d94bdc311b6",
+      "pond:threshold:05fcb5e4cebb5706"
+    ],
+    "motifs": [
+      "Input",
+      "Storage",
+      "BuildUp",
+      "Overflow",
+      "Gain",
+      "Propagation",
+      "Escalation",
+      "Buffer",
+      "Absorption",
+      "Delay",
+      "Deviation",
+      "Counteraction",
+      "Substitution",
+      "Stabilization",
+      "Signal",
+      "Loop",
+      "Response",
+      "Reinforcement",
+      "Source",
+      "Path",
+      "Resistance",
+      "Flow",
+      "Resource",
+      "Consumption",
+      "Scarcity",
+      "Exhaustion",
+      "Accumulation",
+      "Limit",
+      "Trigger",
+      "StateChange"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.1111,
+        "mechanism": "ACCUMULATION",
+        "supporting_lineage_hashes": [
+          "0bc78ccb352105d67a7a487235e54c576f502d29e82d8ac1be03a7070818d95a",
+          "0d0b68c94f3cb1ada32a532ea1cc5a562cfb2073d4d16567bf71cd9b52e6788b"
+        ],
+        "supporting_lineages": [
+          "pond:accumulation:0bc78ccb352105d6",
+          "pond:accumulation:0d0b68c94f3cb1ad"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Storage",
+          "BuildUp",
+          "Overflow"
+        ]
+      },
+      {
+        "activation_weight": 0.1222,
+        "mechanism": "COMPENSATION",
+        "supporting_lineage_hashes": [
+          "21bacabb0f975399da3de80e82d4c3cef3c4a66d98ca52c1943096e2848c5557",
+          "5d476702a32113619964156f60227ba5d5f7ccb05aae194a7a9f87c1c84b8931"
+        ],
+        "supporting_lineages": [
+          "pond:compensation:21bacabb0f975399",
+          "pond:compensation:5d476702a3211361"
+        ],
+        "supporting_motifs": [
+          "Deviation",
+          "Counteraction",
+          "Substitution",
+          "Stabilization"
+        ]
+      },
+      {
+        "activation_weight": 0.1222,
+        "mechanism": "FEEDBACK",
+        "supporting_lineage_hashes": [
+          "6c0111369168acfb8395e28238b0a224aa651b4728126d3714e542818c0e4967",
+          "92043caa946d6bb87b36d981a1dd58378f625d33ed49933b3fe0c761e9ba4948"
+        ],
+        "supporting_lineages": [
+          "pond:feedback:6c0111369168acfb",
+          "pond:feedback:92043caa946d6bb8"
+        ],
+        "supporting_motifs": [
+          "Signal",
+          "Loop",
+          "Response",
+          "Reinforcement"
+        ]
+      },
+      {
+        "activation_weight": 0.3111,
+        "mechanism": "OSCILLATION",
+        "supporting_lineage_hashes": [
+          "0e0648edba58f0d3dd507fd22425f3676804663944d02e94aa7056fed3455a6e",
+          "1b28c4ee90aa6b9cd38895f4fcf43f0c0759ab35adb858d38ebac6062afd0b51"
+        ],
+        "supporting_lineages": [
+          "pond:oscillation:0e0648edba58f0d3",
+          "pond:oscillation:1b28c4ee90aa6b9c"
+        ],
+        "supporting_motifs": [
+          "State",
+          "Delay",
+          "Overshoot",
+          "Cycle"
+        ]
+      },
+      {
+        "activation_weight": 0.3333,
+        "mechanism": "THRESHOLD",
+        "supporting_lineage_hashes": [
+          "01ca6d94bdc311b6fdaaca762ee234f21b1ef0cbcbf0db1c3962b71c8db83234",
+          "05fcb5e4cebb5706f5e79d1122e3c0b12308517ad85e9ddda7fe21e55836ae30"
+        ],
+        "supporting_lineages": [
+          "pond:threshold:01ca6d94bdc311b6",
+          "pond:threshold:05fcb5e4cebb5706"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Limit",
+          "Trigger",
+          "StateChange"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "ACCUMULATION": 0.1111,
+      "COMPENSATION": 0.1222,
+      "FEEDBACK": 0.1222,
+      "OSCILLATION": 0.3111,
+      "THRESHOLD": 0.3333
+    },
+    "case_id": "P037-RC-002",
+    "lineage_hashes": [
+      "0bc78ccb352105d67a7a487235e54c576f502d29e82d8ac1be03a7070818d95a",
+      "0d0b68c94f3cb1ada32a532ea1cc5a562cfb2073d4d16567bf71cd9b52e6788b",
+      "21bacabb0f975399da3de80e82d4c3cef3c4a66d98ca52c1943096e2848c5557",
+      "5d476702a32113619964156f60227ba5d5f7ccb05aae194a7a9f87c1c84b8931",
+      "6c0111369168acfb8395e28238b0a224aa651b4728126d3714e542818c0e4967",
+      "92043caa946d6bb87b36d981a1dd58378f625d33ed49933b3fe0c761e9ba4948",
+      "0e0648edba58f0d3dd507fd22425f3676804663944d02e94aa7056fed3455a6e",
+      "1b28c4ee90aa6b9cd38895f4fcf43f0c0759ab35adb858d38ebac6062afd0b51",
+      "01ca6d94bdc311b6fdaaca762ee234f21b1ef0cbcbf0db1c3962b71c8db83234",
+      "05fcb5e4cebb5706f5e79d1122e3c0b12308517ad85e9ddda7fe21e55836ae30"
+    ],
+    "lineages": [
+      "pond:accumulation:0bc78ccb352105d6",
+      "pond:accumulation:0d0b68c94f3cb1ad",
+      "pond:compensation:21bacabb0f975399",
+      "pond:compensation:5d476702a3211361",
+      "pond:feedback:6c0111369168acfb",
+      "pond:feedback:92043caa946d6bb8",
+      "pond:oscillation:0e0648edba58f0d3",
+      "pond:oscillation:1b28c4ee90aa6b9c",
+      "pond:threshold:01ca6d94bdc311b6",
+      "pond:threshold:05fcb5e4cebb5706"
+    ],
+    "motifs": [
+      "Input",
+      "Storage",
+      "BuildUp",
+      "Overflow",
+      "Deviation",
+      "Counteraction",
+      "Substitution",
+      "Stabilization",
+      "Signal",
+      "Loop",
+      "Response",
+      "Reinforcement",
+      "State",
+      "Delay",
+      "Overshoot",
+      "Cycle",
+      "Accumulation",
+      "Limit",
+      "Trigger",
+      "StateChange"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.2027,
+        "mechanism": "AMPLIFICATION",
+        "supporting_lineage_hashes": [
+          "04095fcb20ee4a24eb5bfa1352094ccfb870cfeff807adcc36e9acaeecc419d2",
+          "0ca8d4e64d2a607a952e1ca04a2de97c1ad384569bb683c4be017641c6f6940d"
+        ],
+        "supporting_lineages": [
+          "pond:amplification:04095fcb20ee4a24",
+          "pond:amplification:0ca8d4e64d2a607a"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Gain",
+          "Propagation",
+          "Escalation"
+        ]
+      },
+      {
+        "activation_weight": 0.2297,
+        "mechanism": "DIFFUSION",
+        "supporting_lineage_hashes": [
+          "02c98acc49b3d816498b31d537dda2b67736d5ee1dd2eb161fe5c17b25bca909",
+          "05b4f0a797ae462a881beaaf7795e1cc0d3ed5af960c877087961b9e5da23b71"
+        ],
+        "supporting_lineages": [
+          "pond:diffusion:02c98acc49b3d816",
+          "pond:diffusion:05b4f0a797ae462a"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Gradient",
+          "Spread",
+          "Dilution"
+        ]
+      },
+      {
+        "activation_weight": 0.5676,
+        "mechanism": "FEEDBACK",
+        "supporting_lineage_hashes": [
+          "2aaa00447b9bb53e1763d1ac00b2abbae402beeff84a93daf1b9864feb3b74cd",
+          "2dfd9ea4981e8f98c87f441e6c273eac55656c9b8575fa4c40d662caaafa2459"
+        ],
+        "supporting_lineages": [
+          "pond:feedback:2aaa00447b9bb53e",
+          "pond:feedback:2dfd9ea4981e8f98"
+        ],
+        "supporting_motifs": [
+          "Signal",
+          "Loop",
+          "Response",
+          "Reinforcement"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "AMPLIFICATION": 0.2027,
+      "DIFFUSION": 0.2297,
+      "FEEDBACK": 0.5676
+    },
+    "case_id": "P037-RC-003",
+    "lineage_hashes": [
+      "04095fcb20ee4a24eb5bfa1352094ccfb870cfeff807adcc36e9acaeecc419d2",
+      "0ca8d4e64d2a607a952e1ca04a2de97c1ad384569bb683c4be017641c6f6940d",
+      "02c98acc49b3d816498b31d537dda2b67736d5ee1dd2eb161fe5c17b25bca909",
+      "05b4f0a797ae462a881beaaf7795e1cc0d3ed5af960c877087961b9e5da23b71",
+      "2aaa00447b9bb53e1763d1ac00b2abbae402beeff84a93daf1b9864feb3b74cd",
+      "2dfd9ea4981e8f98c87f441e6c273eac55656c9b8575fa4c40d662caaafa2459"
+    ],
+    "lineages": [
+      "pond:amplification:04095fcb20ee4a24",
+      "pond:amplification:0ca8d4e64d2a607a",
+      "pond:diffusion:02c98acc49b3d816",
+      "pond:diffusion:05b4f0a797ae462a",
+      "pond:feedback:2aaa00447b9bb53e",
+      "pond:feedback:2dfd9ea4981e8f98"
+    ],
+    "motifs": [
+      "Input",
+      "Gain",
+      "Propagation",
+      "Escalation",
+      "Source",
+      "Gradient",
+      "Spread",
+      "Dilution",
+      "Signal",
+      "Loop",
+      "Response",
+      "Reinforcement"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.1566,
+        "mechanism": "ACCUMULATION",
+        "supporting_lineage_hashes": [
+          "0bc78ccb352105d67a7a487235e54c576f502d29e82d8ac1be03a7070818d95a",
+          "34ba97e4c545e8ed78fadc8a493be62e04a0793aa94f5859bad7640368ffb53c"
+        ],
+        "supporting_lineages": [
+          "pond:accumulation:0bc78ccb352105d6",
+          "pond:accumulation:34ba97e4c545e8ed"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Storage",
+          "BuildUp",
+          "Overflow"
+        ]
+      },
+      {
+        "activation_weight": 0.1325,
+        "mechanism": "AMPLIFICATION",
+        "supporting_lineage_hashes": [
+          "4b2918b758d4653c6498bf4141d70e979b4a26ce909034646b58572e2b3b535f",
+          "57cda5819a34092c02deaa942cc2699c0cea840b59dbe60f0a2089121150e063"
+        ],
+        "supporting_lineages": [
+          "pond:amplification:4b2918b758d4653c",
+          "pond:amplification:57cda5819a34092c"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Gain",
+          "Propagation",
+          "Escalation"
+        ]
+      },
+      {
+        "activation_weight": 0.1687,
+        "mechanism": "BUFFERING",
+        "supporting_lineage_hashes": [
+          "05f1bd9a4dbf3a3861343324afd952d273a74389d58fe47c9d10d83b79ad6e73",
+          "18f99a6fd838b599a677c695795749facdb497c1bf0a95bb984771a3abeb9659"
+        ],
+        "supporting_lineages": [
+          "pond:buffering:05f1bd9a4dbf3a38",
+          "pond:buffering:18f99a6fd838b599"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Buffer",
+          "Absorption",
+          "Delay"
+        ]
+      },
+      {
+        "activation_weight": 0.1446,
+        "mechanism": "COMPENSATION",
+        "supporting_lineage_hashes": [
+          "0154760ed13486189591df1a865a911b95e37c0ca4ff1c9c057e2d57c31d9522",
+          "024e0ea1a8910bd39ab4da1713aff2a0b2f759806d7fa8bd48e1f53c9096795f"
+        ],
+        "supporting_lineages": [
+          "pond:compensation:0154760ed1348618",
+          "pond:compensation:024e0ea1a8910bd3"
+        ],
+        "supporting_motifs": [
+          "Deviation",
+          "Counteraction",
+          "Substitution",
+          "Stabilization"
+        ]
+      },
+      {
+        "activation_weight": 0.1325,
+        "mechanism": "FLOW",
+        "supporting_lineage_hashes": [
+          "0ab689cbf92d39db77a3058b9b81ca627993f253468a164f369b9a4474d64092",
+          "0b5401b0e97dcc82ac21154a08c89b9a9dd8a164182aa5fc99634d0caedd4815"
+        ],
+        "supporting_lineages": [
+          "pond:flow:0ab689cbf92d39db",
+          "pond:flow:0b5401b0e97dcc82"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Path",
+          "Resistance",
+          "Flow"
+        ]
+      },
+      {
+        "activation_weight": 0.2651,
+        "mechanism": "RESOURCE_DEPLETION",
+        "supporting_lineage_hashes": [
+          "046c6450ff881c01b8e0fb4633c31188c3b5e76910dbcb778a3543f4820f6c6d",
+          "0602ea766c459325aac0e54da5c01b842a4daf1c802e42f20ff0c8ce363a022a"
+        ],
+        "supporting_lineages": [
+          "pond:resource_depletion:046c6450ff881c01",
+          "pond:resource_depletion:0602ea766c459325"
+        ],
+        "supporting_motifs": [
+          "Resource",
+          "Consumption",
+          "Scarcity",
+          "Exhaustion"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "ACCUMULATION": 0.1566,
+      "AMPLIFICATION": 0.1325,
+      "BUFFERING": 0.1687,
+      "COMPENSATION": 0.1446,
+      "FLOW": 0.1325,
+      "RESOURCE_DEPLETION": 0.2651
+    },
+    "case_id": "P037-RC-004",
+    "lineage_hashes": [
+      "0bc78ccb352105d67a7a487235e54c576f502d29e82d8ac1be03a7070818d95a",
+      "34ba97e4c545e8ed78fadc8a493be62e04a0793aa94f5859bad7640368ffb53c",
+      "4b2918b758d4653c6498bf4141d70e979b4a26ce909034646b58572e2b3b535f",
+      "57cda5819a34092c02deaa942cc2699c0cea840b59dbe60f0a2089121150e063",
+      "05f1bd9a4dbf3a3861343324afd952d273a74389d58fe47c9d10d83b79ad6e73",
+      "18f99a6fd838b599a677c695795749facdb497c1bf0a95bb984771a3abeb9659",
+      "0154760ed13486189591df1a865a911b95e37c0ca4ff1c9c057e2d57c31d9522",
+      "024e0ea1a8910bd39ab4da1713aff2a0b2f759806d7fa8bd48e1f53c9096795f",
+      "0ab689cbf92d39db77a3058b9b81ca627993f253468a164f369b9a4474d64092",
+      "0b5401b0e97dcc82ac21154a08c89b9a9dd8a164182aa5fc99634d0caedd4815",
+      "046c6450ff881c01b8e0fb4633c31188c3b5e76910dbcb778a3543f4820f6c6d",
+      "0602ea766c459325aac0e54da5c01b842a4daf1c802e42f20ff0c8ce363a022a"
+    ],
+    "lineages": [
+      "pond:accumulation:0bc78ccb352105d6",
+      "pond:accumulation:34ba97e4c545e8ed",
+      "pond:amplification:4b2918b758d4653c",
+      "pond:amplification:57cda5819a34092c",
+      "pond:buffering:05f1bd9a4dbf3a38",
+      "pond:buffering:18f99a6fd838b599",
+      "pond:compensation:0154760ed1348618",
+      "pond:compensation:024e0ea1a8910bd3",
+      "pond:flow:0ab689cbf92d39db",
+      "pond:flow:0b5401b0e97dcc82",
+      "pond:resource_depletion:046c6450ff881c01",
+      "pond:resource_depletion:0602ea766c459325"
+    ],
+    "motifs": [
+      "Input",
+      "Storage",
+      "BuildUp",
+      "Overflow",
+      "Gain",
+      "Propagation",
+      "Escalation",
+      "Buffer",
+      "Absorption",
+      "Delay",
+      "Deviation",
+      "Counteraction",
+      "Substitution",
+      "Stabilization",
+      "Source",
+      "Path",
+      "Resistance",
+      "Flow",
+      "Resource",
+      "Consumption",
+      "Scarcity",
+      "Exhaustion"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.3488,
+        "mechanism": "BUFFERING",
+        "supporting_lineage_hashes": [
+          "05f1bd9a4dbf3a3861343324afd952d273a74389d58fe47c9d10d83b79ad6e73",
+          "18f99a6fd838b599a677c695795749facdb497c1bf0a95bb984771a3abeb9659"
+        ],
+        "supporting_lineages": [
+          "pond:buffering:05f1bd9a4dbf3a38",
+          "pond:buffering:18f99a6fd838b599"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Buffer",
+          "Absorption",
+          "Delay"
+        ]
+      },
+      {
+        "activation_weight": 0.6512,
+        "mechanism": "FLOW",
+        "supporting_lineage_hashes": [
+          "0ab689cbf92d39db77a3058b9b81ca627993f253468a164f369b9a4474d64092",
+          "0b5401b0e97dcc82ac21154a08c89b9a9dd8a164182aa5fc99634d0caedd4815"
+        ],
+        "supporting_lineages": [
+          "pond:flow:0ab689cbf92d39db",
+          "pond:flow:0b5401b0e97dcc82"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Path",
+          "Resistance",
+          "Flow"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "BUFFERING": 0.3488,
+      "FLOW": 0.6512
+    },
+    "case_id": "P037-RC-005",
+    "lineage_hashes": [
+      "05f1bd9a4dbf3a3861343324afd952d273a74389d58fe47c9d10d83b79ad6e73",
+      "18f99a6fd838b599a677c695795749facdb497c1bf0a95bb984771a3abeb9659",
+      "0ab689cbf92d39db77a3058b9b81ca627993f253468a164f369b9a4474d64092",
+      "0b5401b0e97dcc82ac21154a08c89b9a9dd8a164182aa5fc99634d0caedd4815"
+    ],
+    "lineages": [
+      "pond:buffering:05f1bd9a4dbf3a38",
+      "pond:buffering:18f99a6fd838b599",
+      "pond:flow:0ab689cbf92d39db",
+      "pond:flow:0b5401b0e97dcc82"
+    ],
+    "motifs": [
+      "Input",
+      "Buffer",
+      "Absorption",
+      "Delay",
+      "Source",
+      "Path",
+      "Resistance",
+      "Flow"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.1471,
+        "mechanism": "COMPENSATION",
+        "supporting_lineage_hashes": [
+          "0154760ed13486189591df1a865a911b95e37c0ca4ff1c9c057e2d57c31d9522",
+          "339a0208580733ff923242ee67cc3c850e9165d66cccc81769ef05bca24db2c3"
+        ],
+        "supporting_lineages": [
+          "pond:compensation:0154760ed1348618",
+          "pond:compensation:339a0208580733ff"
+        ],
+        "supporting_motifs": [
+          "Deviation",
+          "Counteraction",
+          "Substitution",
+          "Stabilization"
+        ]
+      },
+      {
+        "activation_weight": 0.1176,
+        "mechanism": "LOAD_TRANSFER",
+        "supporting_lineage_hashes": [
+          "118a3f7e2e6e88c4825d81f8439a534293dbaa191c422fd1c94badb20caebfad",
+          "128c93a0a5b667672022ce1f6d2ced8a1b5b7ccc0c6eb8bd2ea08f2b93445d12"
+        ],
+        "supporting_lineages": [
+          "pond:load_transfer:118a3f7e2e6e88c4",
+          "pond:load_transfer:128c93a0a5b66767"
+        ],
+        "supporting_motifs": [
+          "Load",
+          "Distribution",
+          "Concentration",
+          "Failure"
+        ]
+      },
+      {
+        "activation_weight": 0.4412,
+        "mechanism": "SUPPORTED_ROTATION",
+        "supporting_lineage_hashes": [
+          "37905689f00799b5336c1ce7aa56916b994aff9b6c81eda60ef1f797a18b8185",
+          "39cd3c12528728976d55d470720dacf8d0c8190976fc4071dc0bbaeda55f3828"
+        ],
+        "supporting_lineages": [
+          "pond:supported_rotation:37905689f00799b5",
+          "pond:supported_rotation:39cd3c1252872897"
+        ],
+        "supporting_motifs": [
+          "Rotation",
+          "Support",
+          "Friction",
+          "Failure"
+        ]
+      },
+      {
+        "activation_weight": 0.2941,
+        "mechanism": "THRESHOLD",
+        "supporting_lineage_hashes": [
+          "01ca6d94bdc311b6fdaaca762ee234f21b1ef0cbcbf0db1c3962b71c8db83234",
+          "05fcb5e4cebb5706f5e79d1122e3c0b12308517ad85e9ddda7fe21e55836ae30"
+        ],
+        "supporting_lineages": [
+          "pond:threshold:01ca6d94bdc311b6",
+          "pond:threshold:05fcb5e4cebb5706"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Limit",
+          "Trigger",
+          "StateChange"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "COMPENSATION": 0.1471,
+      "LOAD_TRANSFER": 0.1176,
+      "SUPPORTED_ROTATION": 0.4412,
+      "THRESHOLD": 0.2941
+    },
+    "case_id": "P037-RC-006",
+    "lineage_hashes": [
+      "0154760ed13486189591df1a865a911b95e37c0ca4ff1c9c057e2d57c31d9522",
+      "339a0208580733ff923242ee67cc3c850e9165d66cccc81769ef05bca24db2c3",
+      "118a3f7e2e6e88c4825d81f8439a534293dbaa191c422fd1c94badb20caebfad",
+      "128c93a0a5b667672022ce1f6d2ced8a1b5b7ccc0c6eb8bd2ea08f2b93445d12",
+      "37905689f00799b5336c1ce7aa56916b994aff9b6c81eda60ef1f797a18b8185",
+      "39cd3c12528728976d55d470720dacf8d0c8190976fc4071dc0bbaeda55f3828",
+      "01ca6d94bdc311b6fdaaca762ee234f21b1ef0cbcbf0db1c3962b71c8db83234",
+      "05fcb5e4cebb5706f5e79d1122e3c0b12308517ad85e9ddda7fe21e55836ae30"
+    ],
+    "lineages": [
+      "pond:compensation:0154760ed1348618",
+      "pond:compensation:339a0208580733ff",
+      "pond:load_transfer:118a3f7e2e6e88c4",
+      "pond:load_transfer:128c93a0a5b66767",
+      "pond:supported_rotation:37905689f00799b5",
+      "pond:supported_rotation:39cd3c1252872897",
+      "pond:threshold:01ca6d94bdc311b6",
+      "pond:threshold:05fcb5e4cebb5706"
+    ],
+    "motifs": [
+      "Deviation",
+      "Counteraction",
+      "Substitution",
+      "Stabilization",
+      "Load",
+      "Distribution",
+      "Concentration",
+      "Failure",
+      "Rotation",
+      "Support",
+      "Friction",
+      "Accumulation",
+      "Limit",
+      "Trigger",
+      "StateChange"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.1067,
+        "mechanism": "ACCUMULATION",
+        "supporting_lineage_hashes": [
+          "0bc78ccb352105d67a7a487235e54c576f502d29e82d8ac1be03a7070818d95a",
+          "0d0b68c94f3cb1ada32a532ea1cc5a562cfb2073d4d16567bf71cd9b52e6788b"
+        ],
+        "supporting_lineages": [
+          "pond:accumulation:0bc78ccb352105d6",
+          "pond:accumulation:0d0b68c94f3cb1ad"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Storage",
+          "BuildUp",
+          "Overflow"
+        ]
+      },
+      {
+        "activation_weight": 0.5067,
+        "mechanism": "LOAD_TRANSFER",
+        "supporting_lineage_hashes": [
+          "118a3f7e2e6e88c4825d81f8439a534293dbaa191c422fd1c94badb20caebfad",
+          "128c93a0a5b667672022ce1f6d2ced8a1b5b7ccc0c6eb8bd2ea08f2b93445d12"
+        ],
+        "supporting_lineages": [
+          "pond:load_transfer:118a3f7e2e6e88c4",
+          "pond:load_transfer:128c93a0a5b66767"
+        ],
+        "supporting_motifs": [
+          "Load",
+          "Distribution",
+          "Concentration",
+          "Failure"
+        ]
+      },
+      {
+        "activation_weight": 0.3867,
+        "mechanism": "THRESHOLD",
+        "supporting_lineage_hashes": [
+          "05fcb5e4cebb5706f5e79d1122e3c0b12308517ad85e9ddda7fe21e55836ae30",
+          "1bd14fef092ff4c3e9b02b3cdf886a7c3742085201895f6074f30e7492c38d1f"
+        ],
+        "supporting_lineages": [
+          "pond:threshold:05fcb5e4cebb5706",
+          "pond:threshold:1bd14fef092ff4c3"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Limit",
+          "Trigger",
+          "StateChange"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "ACCUMULATION": 0.1067,
+      "LOAD_TRANSFER": 0.5067,
+      "THRESHOLD": 0.3867
+    },
+    "case_id": "P037-RC-007",
+    "lineage_hashes": [
+      "0bc78ccb352105d67a7a487235e54c576f502d29e82d8ac1be03a7070818d95a",
+      "0d0b68c94f3cb1ada32a532ea1cc5a562cfb2073d4d16567bf71cd9b52e6788b",
+      "118a3f7e2e6e88c4825d81f8439a534293dbaa191c422fd1c94badb20caebfad",
+      "128c93a0a5b667672022ce1f6d2ced8a1b5b7ccc0c6eb8bd2ea08f2b93445d12",
+      "05fcb5e4cebb5706f5e79d1122e3c0b12308517ad85e9ddda7fe21e55836ae30",
+      "1bd14fef092ff4c3e9b02b3cdf886a7c3742085201895f6074f30e7492c38d1f"
+    ],
+    "lineages": [
+      "pond:accumulation:0bc78ccb352105d6",
+      "pond:accumulation:0d0b68c94f3cb1ad",
+      "pond:load_transfer:118a3f7e2e6e88c4",
+      "pond:load_transfer:128c93a0a5b66767",
+      "pond:threshold:05fcb5e4cebb5706",
+      "pond:threshold:1bd14fef092ff4c3"
+    ],
+    "motifs": [
+      "Input",
+      "Storage",
+      "BuildUp",
+      "Overflow",
+      "Load",
+      "Distribution",
+      "Concentration",
+      "Failure",
+      "Accumulation",
+      "Limit",
+      "Trigger",
+      "StateChange"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.0709,
+        "mechanism": "ACCUMULATION",
+        "supporting_lineage_hashes": [
+          "126fd7a982fc794e2e7ecd97965c7d76572acc83690d2d298f07d8e56c4d9ca5",
+          "67f87cc072ab4590799edf55aae178caf66f6e5c95c2b9a899d1fd03344d9195"
+        ],
+        "supporting_lineages": [
+          "pond:accumulation:126fd7a982fc794e",
+          "pond:accumulation:67f87cc072ab4590"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Storage",
+          "BuildUp",
+          "Overflow"
+        ]
+      },
+      {
+        "activation_weight": 0.1631,
+        "mechanism": "AMPLIFICATION",
+        "supporting_lineage_hashes": [
+          "04095fcb20ee4a24eb5bfa1352094ccfb870cfeff807adcc36e9acaeecc419d2",
+          "0ca8d4e64d2a607a952e1ca04a2de97c1ad384569bb683c4be017641c6f6940d"
+        ],
+        "supporting_lineages": [
+          "pond:amplification:04095fcb20ee4a24",
+          "pond:amplification:0ca8d4e64d2a607a"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Gain",
+          "Propagation",
+          "Escalation"
+        ]
+      },
+      {
+        "activation_weight": 0.1064,
+        "mechanism": "BUFFERING",
+        "supporting_lineage_hashes": [
+          "05f1bd9a4dbf3a3861343324afd952d273a74389d58fe47c9d10d83b79ad6e73",
+          "18f99a6fd838b599a677c695795749facdb497c1bf0a95bb984771a3abeb9659"
+        ],
+        "supporting_lineages": [
+          "pond:buffering:05f1bd9a4dbf3a38",
+          "pond:buffering:18f99a6fd838b599"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Buffer",
+          "Absorption",
+          "Delay"
+        ]
+      },
+      {
+        "activation_weight": 0.1986,
+        "mechanism": "FEEDBACK",
+        "supporting_lineage_hashes": [
+          "2aaa00447b9bb53e1763d1ac00b2abbae402beeff84a93daf1b9864feb3b74cd",
+          "2dfd9ea4981e8f98c87f441e6c273eac55656c9b8575fa4c40d662caaafa2459"
+        ],
+        "supporting_lineages": [
+          "pond:feedback:2aaa00447b9bb53e",
+          "pond:feedback:2dfd9ea4981e8f98"
+        ],
+        "supporting_motifs": [
+          "Signal",
+          "Loop",
+          "Response",
+          "Reinforcement"
+        ]
+      },
+      {
+        "activation_weight": 0.0922,
+        "mechanism": "FLOW",
+        "supporting_lineage_hashes": [
+          "0ab689cbf92d39db77a3058b9b81ca627993f253468a164f369b9a4474d64092",
+          "0b5401b0e97dcc82ac21154a08c89b9a9dd8a164182aa5fc99634d0caedd4815"
+        ],
+        "supporting_lineages": [
+          "pond:flow:0ab689cbf92d39db",
+          "pond:flow:0b5401b0e97dcc82"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Path",
+          "Resistance",
+          "Flow"
+        ]
+      },
+      {
+        "activation_weight": 0.3688,
+        "mechanism": "RESOURCE_DEPLETION",
+        "supporting_lineage_hashes": [
+          "046c6450ff881c01b8e0fb4633c31188c3b5e76910dbcb778a3543f4820f6c6d",
+          "0602ea766c459325aac0e54da5c01b842a4daf1c802e42f20ff0c8ce363a022a"
+        ],
+        "supporting_lineages": [
+          "pond:resource_depletion:046c6450ff881c01",
+          "pond:resource_depletion:0602ea766c459325"
+        ],
+        "supporting_motifs": [
+          "Resource",
+          "Consumption",
+          "Scarcity",
+          "Exhaustion"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "ACCUMULATION": 0.0709,
+      "AMPLIFICATION": 0.1631,
+      "BUFFERING": 0.1064,
+      "FEEDBACK": 0.1986,
+      "FLOW": 0.0922,
+      "RESOURCE_DEPLETION": 0.3688
+    },
+    "case_id": "P037-RC-008",
+    "lineage_hashes": [
+      "126fd7a982fc794e2e7ecd97965c7d76572acc83690d2d298f07d8e56c4d9ca5",
+      "67f87cc072ab4590799edf55aae178caf66f6e5c95c2b9a899d1fd03344d9195",
+      "04095fcb20ee4a24eb5bfa1352094ccfb870cfeff807adcc36e9acaeecc419d2",
+      "0ca8d4e64d2a607a952e1ca04a2de97c1ad384569bb683c4be017641c6f6940d",
+      "05f1bd9a4dbf3a3861343324afd952d273a74389d58fe47c9d10d83b79ad6e73",
+      "18f99a6fd838b599a677c695795749facdb497c1bf0a95bb984771a3abeb9659",
+      "2aaa00447b9bb53e1763d1ac00b2abbae402beeff84a93daf1b9864feb3b74cd",
+      "2dfd9ea4981e8f98c87f441e6c273eac55656c9b8575fa4c40d662caaafa2459",
+      "0ab689cbf92d39db77a3058b9b81ca627993f253468a164f369b9a4474d64092",
+      "0b5401b0e97dcc82ac21154a08c89b9a9dd8a164182aa5fc99634d0caedd4815",
+      "046c6450ff881c01b8e0fb4633c31188c3b5e76910dbcb778a3543f4820f6c6d",
+      "0602ea766c459325aac0e54da5c01b842a4daf1c802e42f20ff0c8ce363a022a"
+    ],
+    "lineages": [
+      "pond:accumulation:126fd7a982fc794e",
+      "pond:accumulation:67f87cc072ab4590",
+      "pond:amplification:04095fcb20ee4a24",
+      "pond:amplification:0ca8d4e64d2a607a",
+      "pond:buffering:05f1bd9a4dbf3a38",
+      "pond:buffering:18f99a6fd838b599",
+      "pond:feedback:2aaa00447b9bb53e",
+      "pond:feedback:2dfd9ea4981e8f98",
+      "pond:flow:0ab689cbf92d39db",
+      "pond:flow:0b5401b0e97dcc82",
+      "pond:resource_depletion:046c6450ff881c01",
+      "pond:resource_depletion:0602ea766c459325"
+    ],
+    "motifs": [
+      "Input",
+      "Storage",
+      "BuildUp",
+      "Overflow",
+      "Gain",
+      "Propagation",
+      "Escalation",
+      "Buffer",
+      "Absorption",
+      "Delay",
+      "Signal",
+      "Loop",
+      "Response",
+      "Reinforcement",
+      "Source",
+      "Path",
+      "Resistance",
+      "Flow",
+      "Resource",
+      "Consumption",
+      "Scarcity",
+      "Exhaustion"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.1624,
+        "mechanism": "BUFFERING",
+        "supporting_lineage_hashes": [
+          "05f1bd9a4dbf3a3861343324afd952d273a74389d58fe47c9d10d83b79ad6e73",
+          "18f99a6fd838b599a677c695795749facdb497c1bf0a95bb984771a3abeb9659"
+        ],
+        "supporting_lineages": [
+          "pond:buffering:05f1bd9a4dbf3a38",
+          "pond:buffering:18f99a6fd838b599"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Buffer",
+          "Absorption",
+          "Delay"
+        ]
+      },
+      {
+        "activation_weight": 0.1111,
+        "mechanism": "COMPENSATION",
+        "supporting_lineage_hashes": [
+          "21bacabb0f975399da3de80e82d4c3cef3c4a66d98ca52c1943096e2848c5557",
+          "5d476702a32113619964156f60227ba5d5f7ccb05aae194a7a9f87c1c84b8931"
+        ],
+        "supporting_lineages": [
+          "pond:compensation:21bacabb0f975399",
+          "pond:compensation:5d476702a3211361"
+        ],
+        "supporting_motifs": [
+          "Deviation",
+          "Counteraction",
+          "Substitution",
+          "Stabilization"
+        ]
+      },
+      {
+        "activation_weight": 0.3504,
+        "mechanism": "FEEDBACK",
+        "supporting_lineage_hashes": [
+          "6c0111369168acfb8395e28238b0a224aa651b4728126d3714e542818c0e4967",
+          "92043caa946d6bb87b36d981a1dd58378f625d33ed49933b3fe0c761e9ba4948"
+        ],
+        "supporting_lineages": [
+          "pond:feedback:6c0111369168acfb",
+          "pond:feedback:92043caa946d6bb8"
+        ],
+        "supporting_motifs": [
+          "Signal",
+          "Loop",
+          "Response",
+          "Reinforcement"
+        ]
+      },
+      {
+        "activation_weight": 0.3761,
+        "mechanism": "OSCILLATION",
+        "supporting_lineage_hashes": [
+          "0e0648edba58f0d3dd507fd22425f3676804663944d02e94aa7056fed3455a6e",
+          "1b28c4ee90aa6b9cd38895f4fcf43f0c0759ab35adb858d38ebac6062afd0b51"
+        ],
+        "supporting_lineages": [
+          "pond:oscillation:0e0648edba58f0d3",
+          "pond:oscillation:1b28c4ee90aa6b9c"
+        ],
+        "supporting_motifs": [
+          "State",
+          "Delay",
+          "Overshoot",
+          "Cycle"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "BUFFERING": 0.1624,
+      "COMPENSATION": 0.1111,
+      "FEEDBACK": 0.3504,
+      "OSCILLATION": 0.3761
+    },
+    "case_id": "P037-RC-009",
+    "lineage_hashes": [
+      "05f1bd9a4dbf3a3861343324afd952d273a74389d58fe47c9d10d83b79ad6e73",
+      "18f99a6fd838b599a677c695795749facdb497c1bf0a95bb984771a3abeb9659",
+      "21bacabb0f975399da3de80e82d4c3cef3c4a66d98ca52c1943096e2848c5557",
+      "5d476702a32113619964156f60227ba5d5f7ccb05aae194a7a9f87c1c84b8931",
+      "6c0111369168acfb8395e28238b0a224aa651b4728126d3714e542818c0e4967",
+      "92043caa946d6bb87b36d981a1dd58378f625d33ed49933b3fe0c761e9ba4948",
+      "0e0648edba58f0d3dd507fd22425f3676804663944d02e94aa7056fed3455a6e",
+      "1b28c4ee90aa6b9cd38895f4fcf43f0c0759ab35adb858d38ebac6062afd0b51"
+    ],
+    "lineages": [
+      "pond:buffering:05f1bd9a4dbf3a38",
+      "pond:buffering:18f99a6fd838b599",
+      "pond:compensation:21bacabb0f975399",
+      "pond:compensation:5d476702a3211361",
+      "pond:feedback:6c0111369168acfb",
+      "pond:feedback:92043caa946d6bb8",
+      "pond:oscillation:0e0648edba58f0d3",
+      "pond:oscillation:1b28c4ee90aa6b9c"
+    ],
+    "motifs": [
+      "Input",
+      "Buffer",
+      "Absorption",
+      "Delay",
+      "Deviation",
+      "Counteraction",
+      "Substitution",
+      "Stabilization",
+      "Signal",
+      "Loop",
+      "Response",
+      "Reinforcement",
+      "State",
+      "Overshoot",
+      "Cycle"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.0786,
+        "mechanism": "ACCUMULATION",
+        "supporting_lineage_hashes": [
+          "126fd7a982fc794e2e7ecd97965c7d76572acc83690d2d298f07d8e56c4d9ca5",
+          "67f87cc072ab4590799edf55aae178caf66f6e5c95c2b9a899d1fd03344d9195"
+        ],
+        "supporting_lineages": [
+          "pond:accumulation:126fd7a982fc794e",
+          "pond:accumulation:67f87cc072ab4590"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Storage",
+          "BuildUp",
+          "Overflow"
+        ]
+      },
+      {
+        "activation_weight": 0.2143,
+        "mechanism": "BUFFERING",
+        "supporting_lineage_hashes": [
+          "05f1bd9a4dbf3a3861343324afd952d273a74389d58fe47c9d10d83b79ad6e73",
+          "18f99a6fd838b599a677c695795749facdb497c1bf0a95bb984771a3abeb9659"
+        ],
+        "supporting_lineages": [
+          "pond:buffering:05f1bd9a4dbf3a38",
+          "pond:buffering:18f99a6fd838b599"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Buffer",
+          "Absorption",
+          "Delay"
+        ]
+      },
+      {
+        "activation_weight": 0.3571,
+        "mechanism": "DIFFUSION",
+        "supporting_lineage_hashes": [
+          "1e568be0ef16f891288f48246a23293c03b95ac85ff2613a05728ecd664ddb66",
+          "400fb0284c7db30ce6206c93cf9e674b59d6410fd29db4f8a5e28c769703cbc0"
+        ],
+        "supporting_lineages": [
+          "pond:diffusion:1e568be0ef16f891",
+          "pond:diffusion:400fb0284c7db30c"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Gradient",
+          "Spread",
+          "Dilution"
+        ]
+      },
+      {
+        "activation_weight": 0.1286,
+        "mechanism": "FLOW",
+        "supporting_lineage_hashes": [
+          "0ab689cbf92d39db77a3058b9b81ca627993f253468a164f369b9a4474d64092",
+          "0b5401b0e97dcc82ac21154a08c89b9a9dd8a164182aa5fc99634d0caedd4815"
+        ],
+        "supporting_lineages": [
+          "pond:flow:0ab689cbf92d39db",
+          "pond:flow:0b5401b0e97dcc82"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Path",
+          "Resistance",
+          "Flow"
+        ]
+      },
+      {
+        "activation_weight": 0.2214,
+        "mechanism": "RESOURCE_DEPLETION",
+        "supporting_lineage_hashes": [
+          "21421d6f2c5628580f82b8857f535ec28b6d0c3689d68a1ad46ffc3bf11edb59",
+          "3250deabf63eaf974e55be3aa62f9e70a59c02ef8c978e832ccd13b89fd01e1f"
+        ],
+        "supporting_lineages": [
+          "pond:resource_depletion:21421d6f2c562858",
+          "pond:resource_depletion:3250deabf63eaf97"
+        ],
+        "supporting_motifs": [
+          "Resource",
+          "Consumption",
+          "Scarcity",
+          "Exhaustion"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "ACCUMULATION": 0.0786,
+      "BUFFERING": 0.2143,
+      "DIFFUSION": 0.3571,
+      "FLOW": 0.1286,
+      "RESOURCE_DEPLETION": 0.2214
+    },
+    "case_id": "P037-RC-010",
+    "lineage_hashes": [
+      "126fd7a982fc794e2e7ecd97965c7d76572acc83690d2d298f07d8e56c4d9ca5",
+      "67f87cc072ab4590799edf55aae178caf66f6e5c95c2b9a899d1fd03344d9195",
+      "05f1bd9a4dbf3a3861343324afd952d273a74389d58fe47c9d10d83b79ad6e73",
+      "18f99a6fd838b599a677c695795749facdb497c1bf0a95bb984771a3abeb9659",
+      "1e568be0ef16f891288f48246a23293c03b95ac85ff2613a05728ecd664ddb66",
+      "400fb0284c7db30ce6206c93cf9e674b59d6410fd29db4f8a5e28c769703cbc0",
+      "0ab689cbf92d39db77a3058b9b81ca627993f253468a164f369b9a4474d64092",
+      "0b5401b0e97dcc82ac21154a08c89b9a9dd8a164182aa5fc99634d0caedd4815",
+      "21421d6f2c5628580f82b8857f535ec28b6d0c3689d68a1ad46ffc3bf11edb59",
+      "3250deabf63eaf974e55be3aa62f9e70a59c02ef8c978e832ccd13b89fd01e1f"
+    ],
+    "lineages": [
+      "pond:accumulation:126fd7a982fc794e",
+      "pond:accumulation:67f87cc072ab4590",
+      "pond:buffering:05f1bd9a4dbf3a38",
+      "pond:buffering:18f99a6fd838b599",
+      "pond:diffusion:1e568be0ef16f891",
+      "pond:diffusion:400fb0284c7db30c",
+      "pond:flow:0ab689cbf92d39db",
+      "pond:flow:0b5401b0e97dcc82",
+      "pond:resource_depletion:21421d6f2c562858",
+      "pond:resource_depletion:3250deabf63eaf97"
+    ],
+    "motifs": [
+      "Input",
+      "Storage",
+      "BuildUp",
+      "Overflow",
+      "Buffer",
+      "Absorption",
+      "Delay",
+      "Source",
+      "Gradient",
+      "Spread",
+      "Dilution",
+      "Path",
+      "Resistance",
+      "Flow",
+      "Resource",
+      "Consumption",
+      "Scarcity",
+      "Exhaustion"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.0845,
+        "mechanism": "AMPLIFICATION",
+        "supporting_lineage_hashes": [
+          "20629f70774604bb00b795a8fc98b9dabf5f8473a959b2dd1d3c11a4a9d0267b",
+          "3faa293a2e7cf73bf48ae5f95ed4a43e51bf1c5c17f30aa7f961f81f8114485d"
+        ],
+        "supporting_lineages": [
+          "pond:amplification:20629f70774604bb",
+          "pond:amplification:3faa293a2e7cf73b"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Gain",
+          "Propagation",
+          "Escalation"
+        ]
+      },
+      {
+        "activation_weight": 0.2606,
+        "mechanism": "BUFFERING",
+        "supporting_lineage_hashes": [
+          "2235e3926424848a6f5bb9a5761f8e4477ca111c7c25b3a004484b11ca2b0ce6",
+          "4428e5c7d16438411d07a1735cace2b45e5b996d037d534537a77acf0826e561"
+        ],
+        "supporting_lineages": [
+          "pond:buffering:2235e3926424848a",
+          "pond:buffering:4428e5c7d1643841"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Buffer",
+          "Absorption",
+          "Delay"
+        ]
+      },
+      {
+        "activation_weight": 0.0915,
+        "mechanism": "FEEDBACK",
+        "supporting_lineage_hashes": [
+          "2aaa00447b9bb53e1763d1ac00b2abbae402beeff84a93daf1b9864feb3b74cd",
+          "2dfd9ea4981e8f98c87f441e6c273eac55656c9b8575fa4c40d662caaafa2459"
+        ],
+        "supporting_lineages": [
+          "pond:feedback:2aaa00447b9bb53e",
+          "pond:feedback:2dfd9ea4981e8f98"
+        ],
+        "supporting_motifs": [
+          "Signal",
+          "Loop",
+          "Response",
+          "Reinforcement"
+        ]
+      },
+      {
+        "activation_weight": 0.4296,
+        "mechanism": "FLOW",
+        "supporting_lineage_hashes": [
+          "243d5a3925926ca50ef5e959dc2cc4eadf7ae0a64396de1560ae7d70a4b3befb",
+          "49b186de5cf3a88d5296b9bf17a0693a863db51e15d23b0ed78710c9307425e7"
+        ],
+        "supporting_lineages": [
+          "pond:flow:243d5a3925926ca5",
+          "pond:flow:49b186de5cf3a88d"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Path",
+          "Resistance",
+          "Flow"
+        ]
+      },
+      {
+        "activation_weight": 0.1338,
+        "mechanism": "OSCILLATION",
+        "supporting_lineage_hashes": [
+          "0e0648edba58f0d3dd507fd22425f3676804663944d02e94aa7056fed3455a6e",
+          "1b28c4ee90aa6b9cd38895f4fcf43f0c0759ab35adb858d38ebac6062afd0b51"
+        ],
+        "supporting_lineages": [
+          "pond:oscillation:0e0648edba58f0d3",
+          "pond:oscillation:1b28c4ee90aa6b9c"
+        ],
+        "supporting_motifs": [
+          "State",
+          "Delay",
+          "Overshoot",
+          "Cycle"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "AMPLIFICATION": 0.0845,
+      "BUFFERING": 0.2606,
+      "FEEDBACK": 0.0915,
+      "FLOW": 0.4296,
+      "OSCILLATION": 0.1338
+    },
+    "case_id": "P037-RC-011",
+    "lineage_hashes": [
+      "20629f70774604bb00b795a8fc98b9dabf5f8473a959b2dd1d3c11a4a9d0267b",
+      "3faa293a2e7cf73bf48ae5f95ed4a43e51bf1c5c17f30aa7f961f81f8114485d",
+      "2235e3926424848a6f5bb9a5761f8e4477ca111c7c25b3a004484b11ca2b0ce6",
+      "4428e5c7d16438411d07a1735cace2b45e5b996d037d534537a77acf0826e561",
+      "2aaa00447b9bb53e1763d1ac00b2abbae402beeff84a93daf1b9864feb3b74cd",
+      "2dfd9ea4981e8f98c87f441e6c273eac55656c9b8575fa4c40d662caaafa2459",
+      "243d5a3925926ca50ef5e959dc2cc4eadf7ae0a64396de1560ae7d70a4b3befb",
+      "49b186de5cf3a88d5296b9bf17a0693a863db51e15d23b0ed78710c9307425e7",
+      "0e0648edba58f0d3dd507fd22425f3676804663944d02e94aa7056fed3455a6e",
+      "1b28c4ee90aa6b9cd38895f4fcf43f0c0759ab35adb858d38ebac6062afd0b51"
+    ],
+    "lineages": [
+      "pond:amplification:20629f70774604bb",
+      "pond:amplification:3faa293a2e7cf73b",
+      "pond:buffering:2235e3926424848a",
+      "pond:buffering:4428e5c7d1643841",
+      "pond:feedback:2aaa00447b9bb53e",
+      "pond:feedback:2dfd9ea4981e8f98",
+      "pond:flow:243d5a3925926ca5",
+      "pond:flow:49b186de5cf3a88d",
+      "pond:oscillation:0e0648edba58f0d3",
+      "pond:oscillation:1b28c4ee90aa6b9c"
+    ],
+    "motifs": [
+      "Input",
+      "Gain",
+      "Propagation",
+      "Escalation",
+      "Buffer",
+      "Absorption",
+      "Delay",
+      "Signal",
+      "Loop",
+      "Response",
+      "Reinforcement",
+      "Source",
+      "Path",
+      "Resistance",
+      "Flow",
+      "State",
+      "Overshoot",
+      "Cycle"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.15,
+        "mechanism": "DIFFUSION",
+        "supporting_lineage_hashes": [
+          "05b4f0a797ae462a881beaaf7795e1cc0d3ed5af960c877087961b9e5da23b71",
+          "288dc156b91cd3403f2da70f3f4da2359ca5695172e0c9f2bed23257bc98a191"
+        ],
+        "supporting_lineages": [
+          "pond:diffusion:05b4f0a797ae462a",
+          "pond:diffusion:288dc156b91cd340"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Gradient",
+          "Spread",
+          "Dilution"
+        ]
+      },
+      {
+        "activation_weight": 0.1,
+        "mechanism": "LOAD_TRANSFER",
+        "supporting_lineage_hashes": [
+          "118a3f7e2e6e88c4825d81f8439a534293dbaa191c422fd1c94badb20caebfad",
+          "128c93a0a5b667672022ce1f6d2ced8a1b5b7ccc0c6eb8bd2ea08f2b93445d12"
+        ],
+        "supporting_lineages": [
+          "pond:load_transfer:118a3f7e2e6e88c4",
+          "pond:load_transfer:128c93a0a5b66767"
+        ],
+        "supporting_motifs": [
+          "Load",
+          "Distribution",
+          "Concentration",
+          "Failure"
+        ]
+      },
+      {
+        "activation_weight": 0.4333,
+        "mechanism": "SUPPORTED_ROTATION",
+        "supporting_lineage_hashes": [
+          "02b6c8a2e5d647f30a09bb980e4478fb8137e77085b06a8d47b7dd0503827dc7",
+          "16634bc3e51f7481f995cfff67a3adb4c7d4031764cb3c51e6bd84e4548d320f"
+        ],
+        "supporting_lineages": [
+          "pond:supported_rotation:02b6c8a2e5d647f3",
+          "pond:supported_rotation:16634bc3e51f7481"
+        ],
+        "supporting_motifs": [
+          "Rotation",
+          "Support",
+          "Friction",
+          "Failure"
+        ]
+      },
+      {
+        "activation_weight": 0.3167,
+        "mechanism": "THRESHOLD",
+        "supporting_lineage_hashes": [
+          "01ca6d94bdc311b6fdaaca762ee234f21b1ef0cbcbf0db1c3962b71c8db83234",
+          "05fcb5e4cebb5706f5e79d1122e3c0b12308517ad85e9ddda7fe21e55836ae30"
+        ],
+        "supporting_lineages": [
+          "pond:threshold:01ca6d94bdc311b6",
+          "pond:threshold:05fcb5e4cebb5706"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Limit",
+          "Trigger",
+          "StateChange"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "DIFFUSION": 0.15,
+      "LOAD_TRANSFER": 0.1,
+      "SUPPORTED_ROTATION": 0.4333,
+      "THRESHOLD": 0.3167
+    },
+    "case_id": "P037-RC-012",
+    "lineage_hashes": [
+      "05b4f0a797ae462a881beaaf7795e1cc0d3ed5af960c877087961b9e5da23b71",
+      "288dc156b91cd3403f2da70f3f4da2359ca5695172e0c9f2bed23257bc98a191",
+      "118a3f7e2e6e88c4825d81f8439a534293dbaa191c422fd1c94badb20caebfad",
+      "128c93a0a5b667672022ce1f6d2ced8a1b5b7ccc0c6eb8bd2ea08f2b93445d12",
+      "02b6c8a2e5d647f30a09bb980e4478fb8137e77085b06a8d47b7dd0503827dc7",
+      "16634bc3e51f7481f995cfff67a3adb4c7d4031764cb3c51e6bd84e4548d320f",
+      "01ca6d94bdc311b6fdaaca762ee234f21b1ef0cbcbf0db1c3962b71c8db83234",
+      "05fcb5e4cebb5706f5e79d1122e3c0b12308517ad85e9ddda7fe21e55836ae30"
+    ],
+    "lineages": [
+      "pond:diffusion:05b4f0a797ae462a",
+      "pond:diffusion:288dc156b91cd340",
+      "pond:load_transfer:118a3f7e2e6e88c4",
+      "pond:load_transfer:128c93a0a5b66767",
+      "pond:supported_rotation:02b6c8a2e5d647f3",
+      "pond:supported_rotation:16634bc3e51f7481",
+      "pond:threshold:01ca6d94bdc311b6",
+      "pond:threshold:05fcb5e4cebb5706"
+    ],
+    "motifs": [
+      "Source",
+      "Gradient",
+      "Spread",
+      "Dilution",
+      "Load",
+      "Distribution",
+      "Concentration",
+      "Failure",
+      "Rotation",
+      "Support",
+      "Friction",
+      "Accumulation",
+      "Limit",
+      "Trigger",
+      "StateChange"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.1087,
+        "mechanism": "ACCUMULATION",
+        "supporting_lineage_hashes": [
+          "0bc78ccb352105d67a7a487235e54c576f502d29e82d8ac1be03a7070818d95a",
+          "0d0b68c94f3cb1ada32a532ea1cc5a562cfb2073d4d16567bf71cd9b52e6788b"
+        ],
+        "supporting_lineages": [
+          "pond:accumulation:0bc78ccb352105d6",
+          "pond:accumulation:0d0b68c94f3cb1ad"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Storage",
+          "BuildUp",
+          "Overflow"
+        ]
+      },
+      {
+        "activation_weight": 0.1522,
+        "mechanism": "COMPENSATION",
+        "supporting_lineage_hashes": [
+          "0154760ed13486189591df1a865a911b95e37c0ca4ff1c9c057e2d57c31d9522",
+          "024e0ea1a8910bd39ab4da1713aff2a0b2f759806d7fa8bd48e1f53c9096795f"
+        ],
+        "supporting_lineages": [
+          "pond:compensation:0154760ed1348618",
+          "pond:compensation:024e0ea1a8910bd3"
+        ],
+        "supporting_motifs": [
+          "Deviation",
+          "Counteraction",
+          "Substitution",
+          "Stabilization"
+        ]
+      },
+      {
+        "activation_weight": 0.3478,
+        "mechanism": "LOAD_TRANSFER",
+        "supporting_lineage_hashes": [
+          "203aff5ef4bed791aa979a2f72a48c9cc73f9b81363639a0e06e7d1aada8c105",
+          "3403f14f83123b013d98e2e09b3d5aeae777f1750609cef9dc84aa1d28574849"
+        ],
+        "supporting_lineages": [
+          "pond:load_transfer:203aff5ef4bed791",
+          "pond:load_transfer:3403f14f83123b01"
+        ],
+        "supporting_motifs": [
+          "Load",
+          "Distribution",
+          "Concentration",
+          "Failure"
+        ]
+      },
+      {
+        "activation_weight": 0.1739,
+        "mechanism": "SUPPORTED_ROTATION",
+        "supporting_lineage_hashes": [
+          "02b6c8a2e5d647f30a09bb980e4478fb8137e77085b06a8d47b7dd0503827dc7",
+          "16634bc3e51f7481f995cfff67a3adb4c7d4031764cb3c51e6bd84e4548d320f"
+        ],
+        "supporting_lineages": [
+          "pond:supported_rotation:02b6c8a2e5d647f3",
+          "pond:supported_rotation:16634bc3e51f7481"
+        ],
+        "supporting_motifs": [
+          "Rotation",
+          "Support",
+          "Friction",
+          "Failure"
+        ]
+      },
+      {
+        "activation_weight": 0.2174,
+        "mechanism": "THRESHOLD",
+        "supporting_lineage_hashes": [
+          "01ca6d94bdc311b6fdaaca762ee234f21b1ef0cbcbf0db1c3962b71c8db83234",
+          "05fcb5e4cebb5706f5e79d1122e3c0b12308517ad85e9ddda7fe21e55836ae30"
+        ],
+        "supporting_lineages": [
+          "pond:threshold:01ca6d94bdc311b6",
+          "pond:threshold:05fcb5e4cebb5706"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Limit",
+          "Trigger",
+          "StateChange"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "ACCUMULATION": 0.1087,
+      "COMPENSATION": 0.1522,
+      "LOAD_TRANSFER": 0.3478,
+      "SUPPORTED_ROTATION": 0.1739,
+      "THRESHOLD": 0.2174
+    },
+    "case_id": "P037-RC-013",
+    "lineage_hashes": [
+      "0bc78ccb352105d67a7a487235e54c576f502d29e82d8ac1be03a7070818d95a",
+      "0d0b68c94f3cb1ada32a532ea1cc5a562cfb2073d4d16567bf71cd9b52e6788b",
+      "0154760ed13486189591df1a865a911b95e37c0ca4ff1c9c057e2d57c31d9522",
+      "024e0ea1a8910bd39ab4da1713aff2a0b2f759806d7fa8bd48e1f53c9096795f",
+      "203aff5ef4bed791aa979a2f72a48c9cc73f9b81363639a0e06e7d1aada8c105",
+      "3403f14f83123b013d98e2e09b3d5aeae777f1750609cef9dc84aa1d28574849",
+      "02b6c8a2e5d647f30a09bb980e4478fb8137e77085b06a8d47b7dd0503827dc7",
+      "16634bc3e51f7481f995cfff67a3adb4c7d4031764cb3c51e6bd84e4548d320f",
+      "01ca6d94bdc311b6fdaaca762ee234f21b1ef0cbcbf0db1c3962b71c8db83234",
+      "05fcb5e4cebb5706f5e79d1122e3c0b12308517ad85e9ddda7fe21e55836ae30"
+    ],
+    "lineages": [
+      "pond:accumulation:0bc78ccb352105d6",
+      "pond:accumulation:0d0b68c94f3cb1ad",
+      "pond:compensation:0154760ed1348618",
+      "pond:compensation:024e0ea1a8910bd3",
+      "pond:load_transfer:203aff5ef4bed791",
+      "pond:load_transfer:3403f14f83123b01",
+      "pond:supported_rotation:02b6c8a2e5d647f3",
+      "pond:supported_rotation:16634bc3e51f7481",
+      "pond:threshold:01ca6d94bdc311b6",
+      "pond:threshold:05fcb5e4cebb5706"
+    ],
+    "motifs": [
+      "Input",
+      "Storage",
+      "BuildUp",
+      "Overflow",
+      "Deviation",
+      "Counteraction",
+      "Substitution",
+      "Stabilization",
+      "Load",
+      "Distribution",
+      "Concentration",
+      "Failure",
+      "Rotation",
+      "Support",
+      "Friction",
+      "Accumulation",
+      "Limit",
+      "Trigger",
+      "StateChange"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.25,
+        "mechanism": "AMPLIFICATION",
+        "supporting_lineage_hashes": [
+          "04095fcb20ee4a24eb5bfa1352094ccfb870cfeff807adcc36e9acaeecc419d2",
+          "3687781652ab50df3498dca2091de27791684a864f61009b780b5e436a9dda8a"
+        ],
+        "supporting_lineages": [
+          "pond:amplification:04095fcb20ee4a24",
+          "pond:amplification:3687781652ab50df"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Gain",
+          "Propagation",
+          "Escalation"
+        ]
+      },
+      {
+        "activation_weight": 0.5,
+        "mechanism": "FEEDBACK",
+        "supporting_lineage_hashes": [
+          "2aaa00447b9bb53e1763d1ac00b2abbae402beeff84a93daf1b9864feb3b74cd",
+          "2dfd9ea4981e8f98c87f441e6c273eac55656c9b8575fa4c40d662caaafa2459"
+        ],
+        "supporting_lineages": [
+          "pond:feedback:2aaa00447b9bb53e",
+          "pond:feedback:2dfd9ea4981e8f98"
+        ],
+        "supporting_motifs": [
+          "Signal",
+          "Loop",
+          "Response",
+          "Reinforcement"
+        ]
+      },
+      {
+        "activation_weight": 0.25,
+        "mechanism": "THRESHOLD",
+        "supporting_lineage_hashes": [
+          "05fcb5e4cebb5706f5e79d1122e3c0b12308517ad85e9ddda7fe21e55836ae30",
+          "1bd14fef092ff4c3e9b02b3cdf886a7c3742085201895f6074f30e7492c38d1f"
+        ],
+        "supporting_lineages": [
+          "pond:threshold:05fcb5e4cebb5706",
+          "pond:threshold:1bd14fef092ff4c3"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Limit",
+          "Trigger",
+          "StateChange"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "AMPLIFICATION": 0.25,
+      "FEEDBACK": 0.5,
+      "THRESHOLD": 0.25
+    },
+    "case_id": "P037-RC-014",
+    "lineage_hashes": [
+      "04095fcb20ee4a24eb5bfa1352094ccfb870cfeff807adcc36e9acaeecc419d2",
+      "3687781652ab50df3498dca2091de27791684a864f61009b780b5e436a9dda8a",
+      "2aaa00447b9bb53e1763d1ac00b2abbae402beeff84a93daf1b9864feb3b74cd",
+      "2dfd9ea4981e8f98c87f441e6c273eac55656c9b8575fa4c40d662caaafa2459",
+      "05fcb5e4cebb5706f5e79d1122e3c0b12308517ad85e9ddda7fe21e55836ae30",
+      "1bd14fef092ff4c3e9b02b3cdf886a7c3742085201895f6074f30e7492c38d1f"
+    ],
+    "lineages": [
+      "pond:amplification:04095fcb20ee4a24",
+      "pond:amplification:3687781652ab50df",
+      "pond:feedback:2aaa00447b9bb53e",
+      "pond:feedback:2dfd9ea4981e8f98",
+      "pond:threshold:05fcb5e4cebb5706",
+      "pond:threshold:1bd14fef092ff4c3"
+    ],
+    "motifs": [
+      "Input",
+      "Gain",
+      "Propagation",
+      "Escalation",
+      "Signal",
+      "Loop",
+      "Response",
+      "Reinforcement",
+      "Accumulation",
+      "Limit",
+      "Trigger",
+      "StateChange"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.1875,
+        "mechanism": "ACCUMULATION",
+        "supporting_lineage_hashes": [
+          "0bc78ccb352105d67a7a487235e54c576f502d29e82d8ac1be03a7070818d95a",
+          "0d0b68c94f3cb1ada32a532ea1cc5a562cfb2073d4d16567bf71cd9b52e6788b"
+        ],
+        "supporting_lineages": [
+          "pond:accumulation:0bc78ccb352105d6",
+          "pond:accumulation:0d0b68c94f3cb1ad"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Storage",
+          "BuildUp",
+          "Overflow"
+        ]
+      },
+      {
+        "activation_weight": 0.2946,
+        "mechanism": "BUFFERING",
+        "supporting_lineage_hashes": [
+          "05f1bd9a4dbf3a3861343324afd952d273a74389d58fe47c9d10d83b79ad6e73",
+          "18f99a6fd838b599a677c695795749facdb497c1bf0a95bb984771a3abeb9659"
+        ],
+        "supporting_lineages": [
+          "pond:buffering:05f1bd9a4dbf3a38",
+          "pond:buffering:18f99a6fd838b599"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Buffer",
+          "Absorption",
+          "Delay"
+        ]
+      },
+      {
+        "activation_weight": 0.5179,
+        "mechanism": "OSCILLATION",
+        "supporting_lineage_hashes": [
+          "0e0648edba58f0d3dd507fd22425f3676804663944d02e94aa7056fed3455a6e",
+          "1b28c4ee90aa6b9cd38895f4fcf43f0c0759ab35adb858d38ebac6062afd0b51"
+        ],
+        "supporting_lineages": [
+          "pond:oscillation:0e0648edba58f0d3",
+          "pond:oscillation:1b28c4ee90aa6b9c"
+        ],
+        "supporting_motifs": [
+          "State",
+          "Delay",
+          "Overshoot",
+          "Cycle"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "ACCUMULATION": 0.1875,
+      "BUFFERING": 0.2946,
+      "OSCILLATION": 0.5179
+    },
+    "case_id": "P037-RC-015",
+    "lineage_hashes": [
+      "0bc78ccb352105d67a7a487235e54c576f502d29e82d8ac1be03a7070818d95a",
+      "0d0b68c94f3cb1ada32a532ea1cc5a562cfb2073d4d16567bf71cd9b52e6788b",
+      "05f1bd9a4dbf3a3861343324afd952d273a74389d58fe47c9d10d83b79ad6e73",
+      "18f99a6fd838b599a677c695795749facdb497c1bf0a95bb984771a3abeb9659",
+      "0e0648edba58f0d3dd507fd22425f3676804663944d02e94aa7056fed3455a6e",
+      "1b28c4ee90aa6b9cd38895f4fcf43f0c0759ab35adb858d38ebac6062afd0b51"
+    ],
+    "lineages": [
+      "pond:accumulation:0bc78ccb352105d6",
+      "pond:accumulation:0d0b68c94f3cb1ad",
+      "pond:buffering:05f1bd9a4dbf3a38",
+      "pond:buffering:18f99a6fd838b599",
+      "pond:oscillation:0e0648edba58f0d3",
+      "pond:oscillation:1b28c4ee90aa6b9c"
+    ],
+    "motifs": [
+      "Input",
+      "Storage",
+      "BuildUp",
+      "Overflow",
+      "Buffer",
+      "Absorption",
+      "Delay",
+      "State",
+      "Overshoot",
+      "Cycle"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.2237,
+        "mechanism": "AMPLIFICATION",
+        "supporting_lineage_hashes": [
+          "04095fcb20ee4a24eb5bfa1352094ccfb870cfeff807adcc36e9acaeecc419d2",
+          "0ca8d4e64d2a607a952e1ca04a2de97c1ad384569bb683c4be017641c6f6940d"
+        ],
+        "supporting_lineages": [
+          "pond:amplification:04095fcb20ee4a24",
+          "pond:amplification:0ca8d4e64d2a607a"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Gain",
+          "Propagation",
+          "Escalation"
+        ]
+      },
+      {
+        "activation_weight": 0.3684,
+        "mechanism": "DIFFUSION",
+        "supporting_lineage_hashes": [
+          "1e568be0ef16f891288f48246a23293c03b95ac85ff2613a05728ecd664ddb66",
+          "400fb0284c7db30ce6206c93cf9e674b59d6410fd29db4f8a5e28c769703cbc0"
+        ],
+        "supporting_lineages": [
+          "pond:diffusion:1e568be0ef16f891",
+          "pond:diffusion:400fb0284c7db30c"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Gradient",
+          "Spread",
+          "Dilution"
+        ]
+      },
+      {
+        "activation_weight": 0.2368,
+        "mechanism": "FLOW",
+        "supporting_lineage_hashes": [
+          "0ab689cbf92d39db77a3058b9b81ca627993f253468a164f369b9a4474d64092",
+          "0b5401b0e97dcc82ac21154a08c89b9a9dd8a164182aa5fc99634d0caedd4815"
+        ],
+        "supporting_lineages": [
+          "pond:flow:0ab689cbf92d39db",
+          "pond:flow:0b5401b0e97dcc82"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Path",
+          "Resistance",
+          "Flow"
+        ]
+      },
+      {
+        "activation_weight": 0.1711,
+        "mechanism": "RESOURCE_DEPLETION",
+        "supporting_lineage_hashes": [
+          "21421d6f2c5628580f82b8857f535ec28b6d0c3689d68a1ad46ffc3bf11edb59",
+          "3250deabf63eaf974e55be3aa62f9e70a59c02ef8c978e832ccd13b89fd01e1f"
+        ],
+        "supporting_lineages": [
+          "pond:resource_depletion:21421d6f2c562858",
+          "pond:resource_depletion:3250deabf63eaf97"
+        ],
+        "supporting_motifs": [
+          "Resource",
+          "Consumption",
+          "Scarcity",
+          "Exhaustion"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "AMPLIFICATION": 0.2237,
+      "DIFFUSION": 0.3684,
+      "FLOW": 0.2368,
+      "RESOURCE_DEPLETION": 0.1711
+    },
+    "case_id": "P037-RC-016",
+    "lineage_hashes": [
+      "04095fcb20ee4a24eb5bfa1352094ccfb870cfeff807adcc36e9acaeecc419d2",
+      "0ca8d4e64d2a607a952e1ca04a2de97c1ad384569bb683c4be017641c6f6940d",
+      "1e568be0ef16f891288f48246a23293c03b95ac85ff2613a05728ecd664ddb66",
+      "400fb0284c7db30ce6206c93cf9e674b59d6410fd29db4f8a5e28c769703cbc0",
+      "0ab689cbf92d39db77a3058b9b81ca627993f253468a164f369b9a4474d64092",
+      "0b5401b0e97dcc82ac21154a08c89b9a9dd8a164182aa5fc99634d0caedd4815",
+      "21421d6f2c5628580f82b8857f535ec28b6d0c3689d68a1ad46ffc3bf11edb59",
+      "3250deabf63eaf974e55be3aa62f9e70a59c02ef8c978e832ccd13b89fd01e1f"
+    ],
+    "lineages": [
+      "pond:amplification:04095fcb20ee4a24",
+      "pond:amplification:0ca8d4e64d2a607a",
+      "pond:diffusion:1e568be0ef16f891",
+      "pond:diffusion:400fb0284c7db30c",
+      "pond:flow:0ab689cbf92d39db",
+      "pond:flow:0b5401b0e97dcc82",
+      "pond:resource_depletion:21421d6f2c562858",
+      "pond:resource_depletion:3250deabf63eaf97"
+    ],
+    "motifs": [
+      "Input",
+      "Gain",
+      "Propagation",
+      "Escalation",
+      "Source",
+      "Gradient",
+      "Spread",
+      "Dilution",
+      "Path",
+      "Resistance",
+      "Flow",
+      "Resource",
+      "Consumption",
+      "Scarcity",
+      "Exhaustion"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.25,
+        "mechanism": "BUFFERING",
+        "supporting_lineage_hashes": [
+          "2235e3926424848a6f5bb9a5761f8e4477ca111c7c25b3a004484b11ca2b0ce6",
+          "4428e5c7d16438411d07a1735cace2b45e5b996d037d534537a77acf0826e561"
+        ],
+        "supporting_lineages": [
+          "pond:buffering:2235e3926424848a",
+          "pond:buffering:4428e5c7d1643841"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Buffer",
+          "Absorption",
+          "Delay"
+        ]
+      },
+      {
+        "activation_weight": 0.3929,
+        "mechanism": "FLOW",
+        "supporting_lineage_hashes": [
+          "243d5a3925926ca50ef5e959dc2cc4eadf7ae0a64396de1560ae7d70a4b3befb",
+          "49b186de5cf3a88d5296b9bf17a0693a863db51e15d23b0ed78710c9307425e7"
+        ],
+        "supporting_lineages": [
+          "pond:flow:243d5a3925926ca5",
+          "pond:flow:49b186de5cf3a88d"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Path",
+          "Resistance",
+          "Flow"
+        ]
+      },
+      {
+        "activation_weight": 0.3571,
+        "mechanism": "RESOURCE_DEPLETION",
+        "supporting_lineage_hashes": [
+          "046c6450ff881c01b8e0fb4633c31188c3b5e76910dbcb778a3543f4820f6c6d",
+          "0602ea766c459325aac0e54da5c01b842a4daf1c802e42f20ff0c8ce363a022a"
+        ],
+        "supporting_lineages": [
+          "pond:resource_depletion:046c6450ff881c01",
+          "pond:resource_depletion:0602ea766c459325"
+        ],
+        "supporting_motifs": [
+          "Resource",
+          "Consumption",
+          "Scarcity",
+          "Exhaustion"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "BUFFERING": 0.25,
+      "FLOW": 0.3929,
+      "RESOURCE_DEPLETION": 0.3571
+    },
+    "case_id": "P037-RC-017",
+    "lineage_hashes": [
+      "2235e3926424848a6f5bb9a5761f8e4477ca111c7c25b3a004484b11ca2b0ce6",
+      "4428e5c7d16438411d07a1735cace2b45e5b996d037d534537a77acf0826e561",
+      "243d5a3925926ca50ef5e959dc2cc4eadf7ae0a64396de1560ae7d70a4b3befb",
+      "49b186de5cf3a88d5296b9bf17a0693a863db51e15d23b0ed78710c9307425e7",
+      "046c6450ff881c01b8e0fb4633c31188c3b5e76910dbcb778a3543f4820f6c6d",
+      "0602ea766c459325aac0e54da5c01b842a4daf1c802e42f20ff0c8ce363a022a"
+    ],
+    "lineages": [
+      "pond:buffering:2235e3926424848a",
+      "pond:buffering:4428e5c7d1643841",
+      "pond:flow:243d5a3925926ca5",
+      "pond:flow:49b186de5cf3a88d",
+      "pond:resource_depletion:046c6450ff881c01",
+      "pond:resource_depletion:0602ea766c459325"
+    ],
+    "motifs": [
+      "Input",
+      "Buffer",
+      "Absorption",
+      "Delay",
+      "Source",
+      "Path",
+      "Resistance",
+      "Flow",
+      "Resource",
+      "Consumption",
+      "Scarcity",
+      "Exhaustion"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.2093,
+        "mechanism": "ACCUMULATION",
+        "supporting_lineage_hashes": [
+          "0bc78ccb352105d67a7a487235e54c576f502d29e82d8ac1be03a7070818d95a",
+          "0d0b68c94f3cb1ada32a532ea1cc5a562cfb2073d4d16567bf71cd9b52e6788b"
+        ],
+        "supporting_lineages": [
+          "pond:accumulation:0bc78ccb352105d6",
+          "pond:accumulation:0d0b68c94f3cb1ad"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Storage",
+          "BuildUp",
+          "Overflow"
+        ]
+      },
+      {
+        "activation_weight": 0.2558,
+        "mechanism": "FEEDBACK",
+        "supporting_lineage_hashes": [
+          "2aaa00447b9bb53e1763d1ac00b2abbae402beeff84a93daf1b9864feb3b74cd",
+          "2dfd9ea4981e8f98c87f441e6c273eac55656c9b8575fa4c40d662caaafa2459"
+        ],
+        "supporting_lineages": [
+          "pond:feedback:2aaa00447b9bb53e",
+          "pond:feedback:2dfd9ea4981e8f98"
+        ],
+        "supporting_motifs": [
+          "Signal",
+          "Loop",
+          "Response",
+          "Reinforcement"
+        ]
+      },
+      {
+        "activation_weight": 0.3023,
+        "mechanism": "OSCILLATION",
+        "supporting_lineage_hashes": [
+          "0e0648edba58f0d3dd507fd22425f3676804663944d02e94aa7056fed3455a6e",
+          "1b28c4ee90aa6b9cd38895f4fcf43f0c0759ab35adb858d38ebac6062afd0b51"
+        ],
+        "supporting_lineages": [
+          "pond:oscillation:0e0648edba58f0d3",
+          "pond:oscillation:1b28c4ee90aa6b9c"
+        ],
+        "supporting_motifs": [
+          "State",
+          "Delay",
+          "Overshoot",
+          "Cycle"
+        ]
+      },
+      {
+        "activation_weight": 0.2326,
+        "mechanism": "SUPPORTED_ROTATION",
+        "supporting_lineage_hashes": [
+          "16634bc3e51f7481f995cfff67a3adb4c7d4031764cb3c51e6bd84e4548d320f",
+          "3391a014d0dce4665f46c2a28ecd4e8ba5ab8fa36cf97a35a185652ce83a304c"
+        ],
+        "supporting_lineages": [
+          "pond:supported_rotation:16634bc3e51f7481",
+          "pond:supported_rotation:3391a014d0dce466"
+        ],
+        "supporting_motifs": [
+          "Rotation",
+          "Support",
+          "Friction",
+          "Failure"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "ACCUMULATION": 0.2093,
+      "FEEDBACK": 0.2558,
+      "OSCILLATION": 0.3023,
+      "SUPPORTED_ROTATION": 0.2326
+    },
+    "case_id": "P037-RC-018",
+    "lineage_hashes": [
+      "0bc78ccb352105d67a7a487235e54c576f502d29e82d8ac1be03a7070818d95a",
+      "0d0b68c94f3cb1ada32a532ea1cc5a562cfb2073d4d16567bf71cd9b52e6788b",
+      "2aaa00447b9bb53e1763d1ac00b2abbae402beeff84a93daf1b9864feb3b74cd",
+      "2dfd9ea4981e8f98c87f441e6c273eac55656c9b8575fa4c40d662caaafa2459",
+      "0e0648edba58f0d3dd507fd22425f3676804663944d02e94aa7056fed3455a6e",
+      "1b28c4ee90aa6b9cd38895f4fcf43f0c0759ab35adb858d38ebac6062afd0b51",
+      "16634bc3e51f7481f995cfff67a3adb4c7d4031764cb3c51e6bd84e4548d320f",
+      "3391a014d0dce4665f46c2a28ecd4e8ba5ab8fa36cf97a35a185652ce83a304c"
+    ],
+    "lineages": [
+      "pond:accumulation:0bc78ccb352105d6",
+      "pond:accumulation:0d0b68c94f3cb1ad",
+      "pond:feedback:2aaa00447b9bb53e",
+      "pond:feedback:2dfd9ea4981e8f98",
+      "pond:oscillation:0e0648edba58f0d3",
+      "pond:oscillation:1b28c4ee90aa6b9c",
+      "pond:supported_rotation:16634bc3e51f7481",
+      "pond:supported_rotation:3391a014d0dce466"
+    ],
+    "motifs": [
+      "Input",
+      "Storage",
+      "BuildUp",
+      "Overflow",
+      "Signal",
+      "Loop",
+      "Response",
+      "Reinforcement",
+      "State",
+      "Delay",
+      "Overshoot",
+      "Cycle",
+      "Rotation",
+      "Support",
+      "Friction",
+      "Failure"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.2178,
+        "mechanism": "BUFFERING",
+        "supporting_lineage_hashes": [
+          "05f1bd9a4dbf3a3861343324afd952d273a74389d58fe47c9d10d83b79ad6e73",
+          "18f99a6fd838b599a677c695795749facdb497c1bf0a95bb984771a3abeb9659"
+        ],
+        "supporting_lineages": [
+          "pond:buffering:05f1bd9a4dbf3a38",
+          "pond:buffering:18f99a6fd838b599"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Buffer",
+          "Absorption",
+          "Delay"
+        ]
+      },
+      {
+        "activation_weight": 0.2079,
+        "mechanism": "DIFFUSION",
+        "supporting_lineage_hashes": [
+          "30f5e482ecf2ebedd4412aab81f11e03ff41ed552f389f3ddf9c3238251cece7",
+          "35bbc41d1c11d63f66a0a6fc8eb91aac2dee6890df81cf3974706246297302c4"
+        ],
+        "supporting_lineages": [
+          "pond:diffusion:30f5e482ecf2ebed",
+          "pond:diffusion:35bbc41d1c11d63f"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Gradient",
+          "Spread",
+          "Dilution"
+        ]
+      },
+      {
+        "activation_weight": 0.297,
+        "mechanism": "LOAD_TRANSFER",
+        "supporting_lineage_hashes": [
+          "118a3f7e2e6e88c4825d81f8439a534293dbaa191c422fd1c94badb20caebfad",
+          "128c93a0a5b667672022ce1f6d2ced8a1b5b7ccc0c6eb8bd2ea08f2b93445d12"
+        ],
+        "supporting_lineages": [
+          "pond:load_transfer:118a3f7e2e6e88c4",
+          "pond:load_transfer:128c93a0a5b66767"
+        ],
+        "supporting_motifs": [
+          "Load",
+          "Distribution",
+          "Concentration",
+          "Failure"
+        ]
+      },
+      {
+        "activation_weight": 0.1386,
+        "mechanism": "RESOURCE_DEPLETION",
+        "supporting_lineage_hashes": [
+          "046c6450ff881c01b8e0fb4633c31188c3b5e76910dbcb778a3543f4820f6c6d",
+          "0602ea766c459325aac0e54da5c01b842a4daf1c802e42f20ff0c8ce363a022a"
+        ],
+        "supporting_lineages": [
+          "pond:resource_depletion:046c6450ff881c01",
+          "pond:resource_depletion:0602ea766c459325"
+        ],
+        "supporting_motifs": [
+          "Resource",
+          "Consumption",
+          "Scarcity",
+          "Exhaustion"
+        ]
+      },
+      {
+        "activation_weight": 0.1386,
+        "mechanism": "THRESHOLD",
+        "supporting_lineage_hashes": [
+          "05fcb5e4cebb5706f5e79d1122e3c0b12308517ad85e9ddda7fe21e55836ae30",
+          "1bd14fef092ff4c3e9b02b3cdf886a7c3742085201895f6074f30e7492c38d1f"
+        ],
+        "supporting_lineages": [
+          "pond:threshold:05fcb5e4cebb5706",
+          "pond:threshold:1bd14fef092ff4c3"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Limit",
+          "Trigger",
+          "StateChange"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "BUFFERING": 0.2178,
+      "DIFFUSION": 0.2079,
+      "LOAD_TRANSFER": 0.297,
+      "RESOURCE_DEPLETION": 0.1386,
+      "THRESHOLD": 0.1386
+    },
+    "case_id": "P037-RC-019",
+    "lineage_hashes": [
+      "05f1bd9a4dbf3a3861343324afd952d273a74389d58fe47c9d10d83b79ad6e73",
+      "18f99a6fd838b599a677c695795749facdb497c1bf0a95bb984771a3abeb9659",
+      "30f5e482ecf2ebedd4412aab81f11e03ff41ed552f389f3ddf9c3238251cece7",
+      "35bbc41d1c11d63f66a0a6fc8eb91aac2dee6890df81cf3974706246297302c4",
+      "118a3f7e2e6e88c4825d81f8439a534293dbaa191c422fd1c94badb20caebfad",
+      "128c93a0a5b667672022ce1f6d2ced8a1b5b7ccc0c6eb8bd2ea08f2b93445d12",
+      "046c6450ff881c01b8e0fb4633c31188c3b5e76910dbcb778a3543f4820f6c6d",
+      "0602ea766c459325aac0e54da5c01b842a4daf1c802e42f20ff0c8ce363a022a",
+      "05fcb5e4cebb5706f5e79d1122e3c0b12308517ad85e9ddda7fe21e55836ae30",
+      "1bd14fef092ff4c3e9b02b3cdf886a7c3742085201895f6074f30e7492c38d1f"
+    ],
+    "lineages": [
+      "pond:buffering:05f1bd9a4dbf3a38",
+      "pond:buffering:18f99a6fd838b599",
+      "pond:diffusion:30f5e482ecf2ebed",
+      "pond:diffusion:35bbc41d1c11d63f",
+      "pond:load_transfer:118a3f7e2e6e88c4",
+      "pond:load_transfer:128c93a0a5b66767",
+      "pond:resource_depletion:046c6450ff881c01",
+      "pond:resource_depletion:0602ea766c459325",
+      "pond:threshold:05fcb5e4cebb5706",
+      "pond:threshold:1bd14fef092ff4c3"
+    ],
+    "motifs": [
+      "Input",
+      "Buffer",
+      "Absorption",
+      "Delay",
+      "Source",
+      "Gradient",
+      "Spread",
+      "Dilution",
+      "Load",
+      "Distribution",
+      "Concentration",
+      "Failure",
+      "Resource",
+      "Consumption",
+      "Scarcity",
+      "Exhaustion",
+      "Accumulation",
+      "Limit",
+      "Trigger",
+      "StateChange"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.0894,
+        "mechanism": "AMPLIFICATION",
+        "supporting_lineage_hashes": [
+          "04095fcb20ee4a24eb5bfa1352094ccfb870cfeff807adcc36e9acaeecc419d2",
+          "0ca8d4e64d2a607a952e1ca04a2de97c1ad384569bb683c4be017641c6f6940d"
+        ],
+        "supporting_lineages": [
+          "pond:amplification:04095fcb20ee4a24",
+          "pond:amplification:0ca8d4e64d2a607a"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Gain",
+          "Propagation",
+          "Escalation"
+        ]
+      },
+      {
+        "activation_weight": 0.1626,
+        "mechanism": "BUFFERING",
+        "supporting_lineage_hashes": [
+          "2235e3926424848a6f5bb9a5761f8e4477ca111c7c25b3a004484b11ca2b0ce6",
+          "4428e5c7d16438411d07a1735cace2b45e5b996d037d534537a77acf0826e561"
+        ],
+        "supporting_lineages": [
+          "pond:buffering:2235e3926424848a",
+          "pond:buffering:4428e5c7d1643841"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Buffer",
+          "Absorption",
+          "Delay"
+        ]
+      },
+      {
+        "activation_weight": 0.2195,
+        "mechanism": "FEEDBACK",
+        "supporting_lineage_hashes": [
+          "2aaa00447b9bb53e1763d1ac00b2abbae402beeff84a93daf1b9864feb3b74cd",
+          "2dfd9ea4981e8f98c87f441e6c273eac55656c9b8575fa4c40d662caaafa2459"
+        ],
+        "supporting_lineages": [
+          "pond:feedback:2aaa00447b9bb53e",
+          "pond:feedback:2dfd9ea4981e8f98"
+        ],
+        "supporting_motifs": [
+          "Signal",
+          "Loop",
+          "Response",
+          "Reinforcement"
+        ]
+      },
+      {
+        "activation_weight": 0.1626,
+        "mechanism": "FLOW",
+        "supporting_lineage_hashes": [
+          "243d5a3925926ca50ef5e959dc2cc4eadf7ae0a64396de1560ae7d70a4b3befb",
+          "49b186de5cf3a88d5296b9bf17a0693a863db51e15d23b0ed78710c9307425e7"
+        ],
+        "supporting_lineages": [
+          "pond:flow:243d5a3925926ca5",
+          "pond:flow:49b186de5cf3a88d"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Path",
+          "Resistance",
+          "Flow"
+        ]
+      },
+      {
+        "activation_weight": 0.1382,
+        "mechanism": "OSCILLATION",
+        "supporting_lineage_hashes": [
+          "0e0648edba58f0d3dd507fd22425f3676804663944d02e94aa7056fed3455a6e",
+          "1b28c4ee90aa6b9cd38895f4fcf43f0c0759ab35adb858d38ebac6062afd0b51"
+        ],
+        "supporting_lineages": [
+          "pond:oscillation:0e0648edba58f0d3",
+          "pond:oscillation:1b28c4ee90aa6b9c"
+        ],
+        "supporting_motifs": [
+          "State",
+          "Delay",
+          "Overshoot",
+          "Cycle"
+        ]
+      },
+      {
+        "activation_weight": 0.2276,
+        "mechanism": "THRESHOLD",
+        "supporting_lineage_hashes": [
+          "05fcb5e4cebb5706f5e79d1122e3c0b12308517ad85e9ddda7fe21e55836ae30",
+          "1bd14fef092ff4c3e9b02b3cdf886a7c3742085201895f6074f30e7492c38d1f"
+        ],
+        "supporting_lineages": [
+          "pond:threshold:05fcb5e4cebb5706",
+          "pond:threshold:1bd14fef092ff4c3"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Limit",
+          "Trigger",
+          "StateChange"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "AMPLIFICATION": 0.0894,
+      "BUFFERING": 0.1626,
+      "FEEDBACK": 0.2195,
+      "FLOW": 0.1626,
+      "OSCILLATION": 0.1382,
+      "THRESHOLD": 0.2276
+    },
+    "case_id": "P037-RC-020",
+    "lineage_hashes": [
+      "04095fcb20ee4a24eb5bfa1352094ccfb870cfeff807adcc36e9acaeecc419d2",
+      "0ca8d4e64d2a607a952e1ca04a2de97c1ad384569bb683c4be017641c6f6940d",
+      "2235e3926424848a6f5bb9a5761f8e4477ca111c7c25b3a004484b11ca2b0ce6",
+      "4428e5c7d16438411d07a1735cace2b45e5b996d037d534537a77acf0826e561",
+      "2aaa00447b9bb53e1763d1ac00b2abbae402beeff84a93daf1b9864feb3b74cd",
+      "2dfd9ea4981e8f98c87f441e6c273eac55656c9b8575fa4c40d662caaafa2459",
+      "243d5a3925926ca50ef5e959dc2cc4eadf7ae0a64396de1560ae7d70a4b3befb",
+      "49b186de5cf3a88d5296b9bf17a0693a863db51e15d23b0ed78710c9307425e7",
+      "0e0648edba58f0d3dd507fd22425f3676804663944d02e94aa7056fed3455a6e",
+      "1b28c4ee90aa6b9cd38895f4fcf43f0c0759ab35adb858d38ebac6062afd0b51",
+      "05fcb5e4cebb5706f5e79d1122e3c0b12308517ad85e9ddda7fe21e55836ae30",
+      "1bd14fef092ff4c3e9b02b3cdf886a7c3742085201895f6074f30e7492c38d1f"
+    ],
+    "lineages": [
+      "pond:amplification:04095fcb20ee4a24",
+      "pond:amplification:0ca8d4e64d2a607a",
+      "pond:buffering:2235e3926424848a",
+      "pond:buffering:4428e5c7d1643841",
+      "pond:feedback:2aaa00447b9bb53e",
+      "pond:feedback:2dfd9ea4981e8f98",
+      "pond:flow:243d5a3925926ca5",
+      "pond:flow:49b186de5cf3a88d",
+      "pond:oscillation:0e0648edba58f0d3",
+      "pond:oscillation:1b28c4ee90aa6b9c",
+      "pond:threshold:05fcb5e4cebb5706",
+      "pond:threshold:1bd14fef092ff4c3"
+    ],
+    "motifs": [
+      "Input",
+      "Gain",
+      "Propagation",
+      "Escalation",
+      "Buffer",
+      "Absorption",
+      "Delay",
+      "Signal",
+      "Loop",
+      "Response",
+      "Reinforcement",
+      "Source",
+      "Path",
+      "Resistance",
+      "Flow",
+      "State",
+      "Overshoot",
+      "Cycle",
+      "Accumulation",
+      "Limit",
+      "Trigger",
+      "StateChange"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.1429,
+        "mechanism": "ACCUMULATION",
+        "supporting_lineage_hashes": [
+          "126fd7a982fc794e2e7ecd97965c7d76572acc83690d2d298f07d8e56c4d9ca5",
+          "67f87cc072ab4590799edf55aae178caf66f6e5c95c2b9a899d1fd03344d9195"
+        ],
+        "supporting_lineages": [
+          "pond:accumulation:126fd7a982fc794e",
+          "pond:accumulation:67f87cc072ab4590"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Storage",
+          "BuildUp",
+          "Overflow"
+        ]
+      },
+      {
+        "activation_weight": 0.1558,
+        "mechanism": "AMPLIFICATION",
+        "supporting_lineage_hashes": [
+          "04095fcb20ee4a24eb5bfa1352094ccfb870cfeff807adcc36e9acaeecc419d2",
+          "0ca8d4e64d2a607a952e1ca04a2de97c1ad384569bb683c4be017641c6f6940d"
+        ],
+        "supporting_lineages": [
+          "pond:amplification:04095fcb20ee4a24",
+          "pond:amplification:0ca8d4e64d2a607a"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Gain",
+          "Propagation",
+          "Escalation"
+        ]
+      },
+      {
+        "activation_weight": 0.1558,
+        "mechanism": "BUFFERING",
+        "supporting_lineage_hashes": [
+          "05f1bd9a4dbf3a3861343324afd952d273a74389d58fe47c9d10d83b79ad6e73",
+          "18f99a6fd838b599a677c695795749facdb497c1bf0a95bb984771a3abeb9659"
+        ],
+        "supporting_lineages": [
+          "pond:buffering:05f1bd9a4dbf3a38",
+          "pond:buffering:18f99a6fd838b599"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Buffer",
+          "Absorption",
+          "Delay"
+        ]
+      },
+      {
+        "activation_weight": 0.1429,
+        "mechanism": "FLOW",
+        "supporting_lineage_hashes": [
+          "3a8c1d2c38fc3f306eaaf4c09691938fb6dca9f2fd64160e2ca5e73378472d95",
+          "6cb9fd15c3061e5be50a3f9d7b30e5052440afe8bf45c044115f3dbd6c7d2786"
+        ],
+        "supporting_lineages": [
+          "pond:flow:3a8c1d2c38fc3f30",
+          "pond:flow:6cb9fd15c3061e5b"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Path",
+          "Resistance",
+          "Flow"
+        ]
+      },
+      {
+        "activation_weight": 0.4026,
+        "mechanism": "RESOURCE_DEPLETION",
+        "supporting_lineage_hashes": [
+          "14d223b3e8e40f43cab715ef1a1e16cff1aa05d4eea96fe9cf2f539fc3ea21f3",
+          "1877691e7d4cf6814fb100e95ca0d29ecdc6fc16b881ad973edd32a5cb2fd38f"
+        ],
+        "supporting_lineages": [
+          "pond:resource_depletion:14d223b3e8e40f43",
+          "pond:resource_depletion:1877691e7d4cf681"
+        ],
+        "supporting_motifs": [
+          "Resource",
+          "Consumption",
+          "Scarcity",
+          "Exhaustion"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "ACCUMULATION": 0.1429,
+      "AMPLIFICATION": 0.1558,
+      "BUFFERING": 0.1558,
+      "FLOW": 0.1429,
+      "RESOURCE_DEPLETION": 0.4026
+    },
+    "case_id": "P037-RC-021",
+    "lineage_hashes": [
+      "126fd7a982fc794e2e7ecd97965c7d76572acc83690d2d298f07d8e56c4d9ca5",
+      "67f87cc072ab4590799edf55aae178caf66f6e5c95c2b9a899d1fd03344d9195",
+      "04095fcb20ee4a24eb5bfa1352094ccfb870cfeff807adcc36e9acaeecc419d2",
+      "0ca8d4e64d2a607a952e1ca04a2de97c1ad384569bb683c4be017641c6f6940d",
+      "05f1bd9a4dbf3a3861343324afd952d273a74389d58fe47c9d10d83b79ad6e73",
+      "18f99a6fd838b599a677c695795749facdb497c1bf0a95bb984771a3abeb9659",
+      "3a8c1d2c38fc3f306eaaf4c09691938fb6dca9f2fd64160e2ca5e73378472d95",
+      "6cb9fd15c3061e5be50a3f9d7b30e5052440afe8bf45c044115f3dbd6c7d2786",
+      "14d223b3e8e40f43cab715ef1a1e16cff1aa05d4eea96fe9cf2f539fc3ea21f3",
+      "1877691e7d4cf6814fb100e95ca0d29ecdc6fc16b881ad973edd32a5cb2fd38f"
+    ],
+    "lineages": [
+      "pond:accumulation:126fd7a982fc794e",
+      "pond:accumulation:67f87cc072ab4590",
+      "pond:amplification:04095fcb20ee4a24",
+      "pond:amplification:0ca8d4e64d2a607a",
+      "pond:buffering:05f1bd9a4dbf3a38",
+      "pond:buffering:18f99a6fd838b599",
+      "pond:flow:3a8c1d2c38fc3f30",
+      "pond:flow:6cb9fd15c3061e5b",
+      "pond:resource_depletion:14d223b3e8e40f43",
+      "pond:resource_depletion:1877691e7d4cf681"
+    ],
+    "motifs": [
+      "Input",
+      "Storage",
+      "BuildUp",
+      "Overflow",
+      "Gain",
+      "Propagation",
+      "Escalation",
+      "Buffer",
+      "Absorption",
+      "Delay",
+      "Source",
+      "Path",
+      "Resistance",
+      "Flow",
+      "Resource",
+      "Consumption",
+      "Scarcity",
+      "Exhaustion"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.0743,
+        "mechanism": "AMPLIFICATION",
+        "supporting_lineage_hashes": [
+          "04095fcb20ee4a24eb5bfa1352094ccfb870cfeff807adcc36e9acaeecc419d2",
+          "0ca8d4e64d2a607a952e1ca04a2de97c1ad384569bb683c4be017641c6f6940d"
+        ],
+        "supporting_lineages": [
+          "pond:amplification:04095fcb20ee4a24",
+          "pond:amplification:0ca8d4e64d2a607a"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Gain",
+          "Propagation",
+          "Escalation"
+        ]
+      },
+      {
+        "activation_weight": 0.1284,
+        "mechanism": "BUFFERING",
+        "supporting_lineage_hashes": [
+          "05f1bd9a4dbf3a3861343324afd952d273a74389d58fe47c9d10d83b79ad6e73",
+          "18f99a6fd838b599a677c695795749facdb497c1bf0a95bb984771a3abeb9659"
+        ],
+        "supporting_lineages": [
+          "pond:buffering:05f1bd9a4dbf3a38",
+          "pond:buffering:18f99a6fd838b599"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Buffer",
+          "Absorption",
+          "Delay"
+        ]
+      },
+      {
+        "activation_weight": 0.0878,
+        "mechanism": "COMPENSATION",
+        "supporting_lineage_hashes": [
+          "0154760ed13486189591df1a865a911b95e37c0ca4ff1c9c057e2d57c31d9522",
+          "024e0ea1a8910bd39ab4da1713aff2a0b2f759806d7fa8bd48e1f53c9096795f"
+        ],
+        "supporting_lineages": [
+          "pond:compensation:0154760ed1348618",
+          "pond:compensation:024e0ea1a8910bd3"
+        ],
+        "supporting_motifs": [
+          "Deviation",
+          "Counteraction",
+          "Substitution",
+          "Stabilization"
+        ]
+      },
+      {
+        "activation_weight": 0.1824,
+        "mechanism": "FEEDBACK",
+        "supporting_lineage_hashes": [
+          "2aaa00447b9bb53e1763d1ac00b2abbae402beeff84a93daf1b9864feb3b74cd",
+          "2dfd9ea4981e8f98c87f441e6c273eac55656c9b8575fa4c40d662caaafa2459"
+        ],
+        "supporting_lineages": [
+          "pond:feedback:2aaa00447b9bb53e",
+          "pond:feedback:2dfd9ea4981e8f98"
+        ],
+        "supporting_motifs": [
+          "Signal",
+          "Loop",
+          "Response",
+          "Reinforcement"
+        ]
+      },
+      {
+        "activation_weight": 0.2432,
+        "mechanism": "OSCILLATION",
+        "supporting_lineage_hashes": [
+          "0e0648edba58f0d3dd507fd22425f3676804663944d02e94aa7056fed3455a6e",
+          "1b28c4ee90aa6b9cd38895f4fcf43f0c0759ab35adb858d38ebac6062afd0b51"
+        ],
+        "supporting_lineages": [
+          "pond:oscillation:0e0648edba58f0d3",
+          "pond:oscillation:1b28c4ee90aa6b9c"
+        ],
+        "supporting_motifs": [
+          "State",
+          "Delay",
+          "Overshoot",
+          "Cycle"
+        ]
+      },
+      {
+        "activation_weight": 0.2838,
+        "mechanism": "THRESHOLD",
+        "supporting_lineage_hashes": [
+          "068bec2419fc71f044fb6ef921a5f5c9a8e908a936270026843b2fe34882cb1b",
+          "32c4d8b2f822e49d6f8eaa5bc61847739e9256115f1168d924f6f2709eedc599"
+        ],
+        "supporting_lineages": [
+          "pond:threshold:068bec2419fc71f0",
+          "pond:threshold:32c4d8b2f822e49d"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Limit",
+          "Trigger",
+          "StateChange"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "AMPLIFICATION": 0.0743,
+      "BUFFERING": 0.1284,
+      "COMPENSATION": 0.0878,
+      "FEEDBACK": 0.1824,
+      "OSCILLATION": 0.2432,
+      "THRESHOLD": 0.2838
+    },
+    "case_id": "P037-RC-022",
+    "lineage_hashes": [
+      "04095fcb20ee4a24eb5bfa1352094ccfb870cfeff807adcc36e9acaeecc419d2",
+      "0ca8d4e64d2a607a952e1ca04a2de97c1ad384569bb683c4be017641c6f6940d",
+      "05f1bd9a4dbf3a3861343324afd952d273a74389d58fe47c9d10d83b79ad6e73",
+      "18f99a6fd838b599a677c695795749facdb497c1bf0a95bb984771a3abeb9659",
+      "0154760ed13486189591df1a865a911b95e37c0ca4ff1c9c057e2d57c31d9522",
+      "024e0ea1a8910bd39ab4da1713aff2a0b2f759806d7fa8bd48e1f53c9096795f",
+      "2aaa00447b9bb53e1763d1ac00b2abbae402beeff84a93daf1b9864feb3b74cd",
+      "2dfd9ea4981e8f98c87f441e6c273eac55656c9b8575fa4c40d662caaafa2459",
+      "0e0648edba58f0d3dd507fd22425f3676804663944d02e94aa7056fed3455a6e",
+      "1b28c4ee90aa6b9cd38895f4fcf43f0c0759ab35adb858d38ebac6062afd0b51",
+      "068bec2419fc71f044fb6ef921a5f5c9a8e908a936270026843b2fe34882cb1b",
+      "32c4d8b2f822e49d6f8eaa5bc61847739e9256115f1168d924f6f2709eedc599"
+    ],
+    "lineages": [
+      "pond:amplification:04095fcb20ee4a24",
+      "pond:amplification:0ca8d4e64d2a607a",
+      "pond:buffering:05f1bd9a4dbf3a38",
+      "pond:buffering:18f99a6fd838b599",
+      "pond:compensation:0154760ed1348618",
+      "pond:compensation:024e0ea1a8910bd3",
+      "pond:feedback:2aaa00447b9bb53e",
+      "pond:feedback:2dfd9ea4981e8f98",
+      "pond:oscillation:0e0648edba58f0d3",
+      "pond:oscillation:1b28c4ee90aa6b9c",
+      "pond:threshold:068bec2419fc71f0",
+      "pond:threshold:32c4d8b2f822e49d"
+    ],
+    "motifs": [
+      "Input",
+      "Gain",
+      "Propagation",
+      "Escalation",
+      "Buffer",
+      "Absorption",
+      "Delay",
+      "Deviation",
+      "Counteraction",
+      "Substitution",
+      "Stabilization",
+      "Signal",
+      "Loop",
+      "Response",
+      "Reinforcement",
+      "State",
+      "Overshoot",
+      "Cycle",
+      "Accumulation",
+      "Limit",
+      "Trigger",
+      "StateChange"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.3421,
+        "mechanism": "ACCUMULATION",
+        "supporting_lineage_hashes": [
+          "34d04012c18909725c68b5209a6cf0170a9296fc6ee1abcfb16471782eb623b6",
+          "448b59acea535e6bc0ac3e3dcb541a6dc1f3b28cb4bb52918cfcae5aafb486b7"
+        ],
+        "supporting_lineages": [
+          "pond:accumulation:34d04012c1890972",
+          "pond:accumulation:448b59acea535e6b"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Storage",
+          "BuildUp",
+          "Overflow"
+        ]
+      },
+      {
+        "activation_weight": 0.1316,
+        "mechanism": "DIFFUSION",
+        "supporting_lineage_hashes": [
+          "30f5e482ecf2ebedd4412aab81f11e03ff41ed552f389f3ddf9c3238251cece7",
+          "35bbc41d1c11d63f66a0a6fc8eb91aac2dee6890df81cf3974706246297302c4"
+        ],
+        "supporting_lineages": [
+          "pond:diffusion:30f5e482ecf2ebed",
+          "pond:diffusion:35bbc41d1c11d63f"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Gradient",
+          "Spread",
+          "Dilution"
+        ]
+      },
+      {
+        "activation_weight": 0.5263,
+        "mechanism": "FLOW",
+        "supporting_lineage_hashes": [
+          "0ab689cbf92d39db77a3058b9b81ca627993f253468a164f369b9a4474d64092",
+          "0b5401b0e97dcc82ac21154a08c89b9a9dd8a164182aa5fc99634d0caedd4815"
+        ],
+        "supporting_lineages": [
+          "pond:flow:0ab689cbf92d39db",
+          "pond:flow:0b5401b0e97dcc82"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Path",
+          "Resistance",
+          "Flow"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "ACCUMULATION": 0.3421,
+      "DIFFUSION": 0.1316,
+      "FLOW": 0.5263
+    },
+    "case_id": "P037-RC-023",
+    "lineage_hashes": [
+      "34d04012c18909725c68b5209a6cf0170a9296fc6ee1abcfb16471782eb623b6",
+      "448b59acea535e6bc0ac3e3dcb541a6dc1f3b28cb4bb52918cfcae5aafb486b7",
+      "30f5e482ecf2ebedd4412aab81f11e03ff41ed552f389f3ddf9c3238251cece7",
+      "35bbc41d1c11d63f66a0a6fc8eb91aac2dee6890df81cf3974706246297302c4",
+      "0ab689cbf92d39db77a3058b9b81ca627993f253468a164f369b9a4474d64092",
+      "0b5401b0e97dcc82ac21154a08c89b9a9dd8a164182aa5fc99634d0caedd4815"
+    ],
+    "lineages": [
+      "pond:accumulation:34d04012c1890972",
+      "pond:accumulation:448b59acea535e6b",
+      "pond:diffusion:30f5e482ecf2ebed",
+      "pond:diffusion:35bbc41d1c11d63f",
+      "pond:flow:0ab689cbf92d39db",
+      "pond:flow:0b5401b0e97dcc82"
+    ],
+    "motifs": [
+      "Input",
+      "Storage",
+      "BuildUp",
+      "Overflow",
+      "Source",
+      "Gradient",
+      "Spread",
+      "Dilution",
+      "Path",
+      "Resistance",
+      "Flow"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.4368,
+        "mechanism": "LOAD_TRANSFER",
+        "supporting_lineage_hashes": [
+          "118a3f7e2e6e88c4825d81f8439a534293dbaa191c422fd1c94badb20caebfad",
+          "128c93a0a5b667672022ce1f6d2ced8a1b5b7ccc0c6eb8bd2ea08f2b93445d12"
+        ],
+        "supporting_lineages": [
+          "pond:load_transfer:118a3f7e2e6e88c4",
+          "pond:load_transfer:128c93a0a5b66767"
+        ],
+        "supporting_motifs": [
+          "Load",
+          "Distribution",
+          "Concentration",
+          "Failure"
+        ]
+      },
+      {
+        "activation_weight": 0.2529,
+        "mechanism": "SUPPORTED_ROTATION",
+        "supporting_lineage_hashes": [
+          "02b6c8a2e5d647f30a09bb980e4478fb8137e77085b06a8d47b7dd0503827dc7",
+          "16634bc3e51f7481f995cfff67a3adb4c7d4031764cb3c51e6bd84e4548d320f"
+        ],
+        "supporting_lineages": [
+          "pond:supported_rotation:02b6c8a2e5d647f3",
+          "pond:supported_rotation:16634bc3e51f7481"
+        ],
+        "supporting_motifs": [
+          "Rotation",
+          "Support",
+          "Friction",
+          "Failure"
+        ]
+      },
+      {
+        "activation_weight": 0.3103,
+        "mechanism": "THRESHOLD",
+        "supporting_lineage_hashes": [
+          "05fcb5e4cebb5706f5e79d1122e3c0b12308517ad85e9ddda7fe21e55836ae30",
+          "1bd14fef092ff4c3e9b02b3cdf886a7c3742085201895f6074f30e7492c38d1f"
+        ],
+        "supporting_lineages": [
+          "pond:threshold:05fcb5e4cebb5706",
+          "pond:threshold:1bd14fef092ff4c3"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Limit",
+          "Trigger",
+          "StateChange"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "LOAD_TRANSFER": 0.4368,
+      "SUPPORTED_ROTATION": 0.2529,
+      "THRESHOLD": 0.3103
+    },
+    "case_id": "P037-RC-024",
+    "lineage_hashes": [
+      "118a3f7e2e6e88c4825d81f8439a534293dbaa191c422fd1c94badb20caebfad",
+      "128c93a0a5b667672022ce1f6d2ced8a1b5b7ccc0c6eb8bd2ea08f2b93445d12",
+      "02b6c8a2e5d647f30a09bb980e4478fb8137e77085b06a8d47b7dd0503827dc7",
+      "16634bc3e51f7481f995cfff67a3adb4c7d4031764cb3c51e6bd84e4548d320f",
+      "05fcb5e4cebb5706f5e79d1122e3c0b12308517ad85e9ddda7fe21e55836ae30",
+      "1bd14fef092ff4c3e9b02b3cdf886a7c3742085201895f6074f30e7492c38d1f"
+    ],
+    "lineages": [
+      "pond:load_transfer:118a3f7e2e6e88c4",
+      "pond:load_transfer:128c93a0a5b66767",
+      "pond:supported_rotation:02b6c8a2e5d647f3",
+      "pond:supported_rotation:16634bc3e51f7481",
+      "pond:threshold:05fcb5e4cebb5706",
+      "pond:threshold:1bd14fef092ff4c3"
+    ],
+    "motifs": [
+      "Load",
+      "Distribution",
+      "Concentration",
+      "Failure",
+      "Rotation",
+      "Support",
+      "Friction",
+      "Accumulation",
+      "Limit",
+      "Trigger",
+      "StateChange"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.1398,
+        "mechanism": "BUFFERING",
+        "supporting_lineage_hashes": [
+          "05f1bd9a4dbf3a3861343324afd952d273a74389d58fe47c9d10d83b79ad6e73",
+          "18f99a6fd838b599a677c695795749facdb497c1bf0a95bb984771a3abeb9659"
+        ],
+        "supporting_lineages": [
+          "pond:buffering:05f1bd9a4dbf3a38",
+          "pond:buffering:18f99a6fd838b599"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Buffer",
+          "Absorption",
+          "Delay"
+        ]
+      },
+      {
+        "activation_weight": 0.1398,
+        "mechanism": "COMPENSATION",
+        "supporting_lineage_hashes": [
+          "0154760ed13486189591df1a865a911b95e37c0ca4ff1c9c057e2d57c31d9522",
+          "339a0208580733ff923242ee67cc3c850e9165d66cccc81769ef05bca24db2c3"
+        ],
+        "supporting_lineages": [
+          "pond:compensation:0154760ed1348618",
+          "pond:compensation:339a0208580733ff"
+        ],
+        "supporting_motifs": [
+          "Deviation",
+          "Counteraction",
+          "Substitution",
+          "Stabilization"
+        ]
+      },
+      {
+        "activation_weight": 0.1935,
+        "mechanism": "DIFFUSION",
+        "supporting_lineage_hashes": [
+          "05b4f0a797ae462a881beaaf7795e1cc0d3ed5af960c877087961b9e5da23b71",
+          "288dc156b91cd3403f2da70f3f4da2359ca5695172e0c9f2bed23257bc98a191"
+        ],
+        "supporting_lineages": [
+          "pond:diffusion:05b4f0a797ae462a",
+          "pond:diffusion:288dc156b91cd340"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Gradient",
+          "Spread",
+          "Dilution"
+        ]
+      },
+      {
+        "activation_weight": 0.2258,
+        "mechanism": "RESOURCE_DEPLETION",
+        "supporting_lineage_hashes": [
+          "046c6450ff881c01b8e0fb4633c31188c3b5e76910dbcb778a3543f4820f6c6d",
+          "0602ea766c459325aac0e54da5c01b842a4daf1c802e42f20ff0c8ce363a022a"
+        ],
+        "supporting_lineages": [
+          "pond:resource_depletion:046c6450ff881c01",
+          "pond:resource_depletion:0602ea766c459325"
+        ],
+        "supporting_motifs": [
+          "Resource",
+          "Consumption",
+          "Scarcity",
+          "Exhaustion"
+        ]
+      },
+      {
+        "activation_weight": 0.3011,
+        "mechanism": "SUPPORTED_ROTATION",
+        "supporting_lineage_hashes": [
+          "02b6c8a2e5d647f30a09bb980e4478fb8137e77085b06a8d47b7dd0503827dc7",
+          "3269be39744d8f28718de5fe034a5e13dbd9ae82c6327349d971e5ac5b2e062c"
+        ],
+        "supporting_lineages": [
+          "pond:supported_rotation:02b6c8a2e5d647f3",
+          "pond:supported_rotation:3269be39744d8f28"
+        ],
+        "supporting_motifs": [
+          "Rotation",
+          "Support",
+          "Friction",
+          "Failure"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "BUFFERING": 0.1398,
+      "COMPENSATION": 0.1398,
+      "DIFFUSION": 0.1935,
+      "RESOURCE_DEPLETION": 0.2258,
+      "SUPPORTED_ROTATION": 0.3011
+    },
+    "case_id": "P037-RC-025",
+    "lineage_hashes": [
+      "05f1bd9a4dbf3a3861343324afd952d273a74389d58fe47c9d10d83b79ad6e73",
+      "18f99a6fd838b599a677c695795749facdb497c1bf0a95bb984771a3abeb9659",
+      "0154760ed13486189591df1a865a911b95e37c0ca4ff1c9c057e2d57c31d9522",
+      "339a0208580733ff923242ee67cc3c850e9165d66cccc81769ef05bca24db2c3",
+      "05b4f0a797ae462a881beaaf7795e1cc0d3ed5af960c877087961b9e5da23b71",
+      "288dc156b91cd3403f2da70f3f4da2359ca5695172e0c9f2bed23257bc98a191",
+      "046c6450ff881c01b8e0fb4633c31188c3b5e76910dbcb778a3543f4820f6c6d",
+      "0602ea766c459325aac0e54da5c01b842a4daf1c802e42f20ff0c8ce363a022a",
+      "02b6c8a2e5d647f30a09bb980e4478fb8137e77085b06a8d47b7dd0503827dc7",
+      "3269be39744d8f28718de5fe034a5e13dbd9ae82c6327349d971e5ac5b2e062c"
+    ],
+    "lineages": [
+      "pond:buffering:05f1bd9a4dbf3a38",
+      "pond:buffering:18f99a6fd838b599",
+      "pond:compensation:0154760ed1348618",
+      "pond:compensation:339a0208580733ff",
+      "pond:diffusion:05b4f0a797ae462a",
+      "pond:diffusion:288dc156b91cd340",
+      "pond:resource_depletion:046c6450ff881c01",
+      "pond:resource_depletion:0602ea766c459325",
+      "pond:supported_rotation:02b6c8a2e5d647f3",
+      "pond:supported_rotation:3269be39744d8f28"
+    ],
+    "motifs": [
+      "Input",
+      "Buffer",
+      "Absorption",
+      "Delay",
+      "Deviation",
+      "Counteraction",
+      "Substitution",
+      "Stabilization",
+      "Source",
+      "Gradient",
+      "Spread",
+      "Dilution",
+      "Resource",
+      "Consumption",
+      "Scarcity",
+      "Exhaustion",
+      "Rotation",
+      "Support",
+      "Friction",
+      "Failure"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.1294,
+        "mechanism": "ACCUMULATION",
+        "supporting_lineage_hashes": [
+          "0bc78ccb352105d67a7a487235e54c576f502d29e82d8ac1be03a7070818d95a",
+          "0d0b68c94f3cb1ada32a532ea1cc5a562cfb2073d4d16567bf71cd9b52e6788b"
+        ],
+        "supporting_lineages": [
+          "pond:accumulation:0bc78ccb352105d6",
+          "pond:accumulation:0d0b68c94f3cb1ad"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Storage",
+          "BuildUp",
+          "Overflow"
+        ]
+      },
+      {
+        "activation_weight": 0.3294,
+        "mechanism": "BUFFERING",
+        "supporting_lineage_hashes": [
+          "05f1bd9a4dbf3a3861343324afd952d273a74389d58fe47c9d10d83b79ad6e73",
+          "18f99a6fd838b599a677c695795749facdb497c1bf0a95bb984771a3abeb9659"
+        ],
+        "supporting_lineages": [
+          "pond:buffering:05f1bd9a4dbf3a38",
+          "pond:buffering:18f99a6fd838b599"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Buffer",
+          "Absorption",
+          "Delay"
+        ]
+      },
+      {
+        "activation_weight": 0.4118,
+        "mechanism": "OSCILLATION",
+        "supporting_lineage_hashes": [
+          "0e0648edba58f0d3dd507fd22425f3676804663944d02e94aa7056fed3455a6e",
+          "1b28c4ee90aa6b9cd38895f4fcf43f0c0759ab35adb858d38ebac6062afd0b51"
+        ],
+        "supporting_lineages": [
+          "pond:oscillation:0e0648edba58f0d3",
+          "pond:oscillation:1b28c4ee90aa6b9c"
+        ],
+        "supporting_motifs": [
+          "State",
+          "Delay",
+          "Overshoot",
+          "Cycle"
+        ]
+      },
+      {
+        "activation_weight": 0.1294,
+        "mechanism": "RESOURCE_DEPLETION",
+        "supporting_lineage_hashes": [
+          "046c6450ff881c01b8e0fb4633c31188c3b5e76910dbcb778a3543f4820f6c6d",
+          "0602ea766c459325aac0e54da5c01b842a4daf1c802e42f20ff0c8ce363a022a"
+        ],
+        "supporting_lineages": [
+          "pond:resource_depletion:046c6450ff881c01",
+          "pond:resource_depletion:0602ea766c459325"
+        ],
+        "supporting_motifs": [
+          "Resource",
+          "Consumption",
+          "Scarcity",
+          "Exhaustion"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "ACCUMULATION": 0.1294,
+      "BUFFERING": 0.3294,
+      "OSCILLATION": 0.4118,
+      "RESOURCE_DEPLETION": 0.1294
+    },
+    "case_id": "P037-RC-026",
+    "lineage_hashes": [
+      "0bc78ccb352105d67a7a487235e54c576f502d29e82d8ac1be03a7070818d95a",
+      "0d0b68c94f3cb1ada32a532ea1cc5a562cfb2073d4d16567bf71cd9b52e6788b",
+      "05f1bd9a4dbf3a3861343324afd952d273a74389d58fe47c9d10d83b79ad6e73",
+      "18f99a6fd838b599a677c695795749facdb497c1bf0a95bb984771a3abeb9659",
+      "0e0648edba58f0d3dd507fd22425f3676804663944d02e94aa7056fed3455a6e",
+      "1b28c4ee90aa6b9cd38895f4fcf43f0c0759ab35adb858d38ebac6062afd0b51",
+      "046c6450ff881c01b8e0fb4633c31188c3b5e76910dbcb778a3543f4820f6c6d",
+      "0602ea766c459325aac0e54da5c01b842a4daf1c802e42f20ff0c8ce363a022a"
+    ],
+    "lineages": [
+      "pond:accumulation:0bc78ccb352105d6",
+      "pond:accumulation:0d0b68c94f3cb1ad",
+      "pond:buffering:05f1bd9a4dbf3a38",
+      "pond:buffering:18f99a6fd838b599",
+      "pond:oscillation:0e0648edba58f0d3",
+      "pond:oscillation:1b28c4ee90aa6b9c",
+      "pond:resource_depletion:046c6450ff881c01",
+      "pond:resource_depletion:0602ea766c459325"
+    ],
+    "motifs": [
+      "Input",
+      "Storage",
+      "BuildUp",
+      "Overflow",
+      "Buffer",
+      "Absorption",
+      "Delay",
+      "State",
+      "Overshoot",
+      "Cycle",
+      "Resource",
+      "Consumption",
+      "Scarcity",
+      "Exhaustion"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.2035,
+        "mechanism": "COMPENSATION",
+        "supporting_lineage_hashes": [
+          "0154760ed13486189591df1a865a911b95e37c0ca4ff1c9c057e2d57c31d9522",
+          "024e0ea1a8910bd39ab4da1713aff2a0b2f759806d7fa8bd48e1f53c9096795f"
+        ],
+        "supporting_lineages": [
+          "pond:compensation:0154760ed1348618",
+          "pond:compensation:024e0ea1a8910bd3"
+        ],
+        "supporting_motifs": [
+          "Deviation",
+          "Counteraction",
+          "Substitution",
+          "Stabilization"
+        ]
+      },
+      {
+        "activation_weight": 0.2478,
+        "mechanism": "DIFFUSION",
+        "supporting_lineage_hashes": [
+          "02c98acc49b3d816498b31d537dda2b67736d5ee1dd2eb161fe5c17b25bca909",
+          "05b4f0a797ae462a881beaaf7795e1cc0d3ed5af960c877087961b9e5da23b71"
+        ],
+        "supporting_lineages": [
+          "pond:diffusion:02c98acc49b3d816",
+          "pond:diffusion:05b4f0a797ae462a"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Gradient",
+          "Spread",
+          "Dilution"
+        ]
+      },
+      {
+        "activation_weight": 0.2832,
+        "mechanism": "LOAD_TRANSFER",
+        "supporting_lineage_hashes": [
+          "118a3f7e2e6e88c4825d81f8439a534293dbaa191c422fd1c94badb20caebfad",
+          "128c93a0a5b667672022ce1f6d2ced8a1b5b7ccc0c6eb8bd2ea08f2b93445d12"
+        ],
+        "supporting_lineages": [
+          "pond:load_transfer:118a3f7e2e6e88c4",
+          "pond:load_transfer:128c93a0a5b66767"
+        ],
+        "supporting_motifs": [
+          "Load",
+          "Distribution",
+          "Concentration",
+          "Failure"
+        ]
+      },
+      {
+        "activation_weight": 0.1504,
+        "mechanism": "SUPPORTED_ROTATION",
+        "supporting_lineage_hashes": [
+          "02b6c8a2e5d647f30a09bb980e4478fb8137e77085b06a8d47b7dd0503827dc7",
+          "16634bc3e51f7481f995cfff67a3adb4c7d4031764cb3c51e6bd84e4548d320f"
+        ],
+        "supporting_lineages": [
+          "pond:supported_rotation:02b6c8a2e5d647f3",
+          "pond:supported_rotation:16634bc3e51f7481"
+        ],
+        "supporting_motifs": [
+          "Rotation",
+          "Support",
+          "Friction",
+          "Failure"
+        ]
+      },
+      {
+        "activation_weight": 0.115,
+        "mechanism": "THRESHOLD",
+        "supporting_lineage_hashes": [
+          "01ca6d94bdc311b6fdaaca762ee234f21b1ef0cbcbf0db1c3962b71c8db83234",
+          "05fcb5e4cebb5706f5e79d1122e3c0b12308517ad85e9ddda7fe21e55836ae30"
+        ],
+        "supporting_lineages": [
+          "pond:threshold:01ca6d94bdc311b6",
+          "pond:threshold:05fcb5e4cebb5706"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Limit",
+          "Trigger",
+          "StateChange"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "COMPENSATION": 0.2035,
+      "DIFFUSION": 0.2478,
+      "LOAD_TRANSFER": 0.2832,
+      "SUPPORTED_ROTATION": 0.1504,
+      "THRESHOLD": 0.115
+    },
+    "case_id": "P037-RC-027",
+    "lineage_hashes": [
+      "0154760ed13486189591df1a865a911b95e37c0ca4ff1c9c057e2d57c31d9522",
+      "024e0ea1a8910bd39ab4da1713aff2a0b2f759806d7fa8bd48e1f53c9096795f",
+      "02c98acc49b3d816498b31d537dda2b67736d5ee1dd2eb161fe5c17b25bca909",
+      "05b4f0a797ae462a881beaaf7795e1cc0d3ed5af960c877087961b9e5da23b71",
+      "118a3f7e2e6e88c4825d81f8439a534293dbaa191c422fd1c94badb20caebfad",
+      "128c93a0a5b667672022ce1f6d2ced8a1b5b7ccc0c6eb8bd2ea08f2b93445d12",
+      "02b6c8a2e5d647f30a09bb980e4478fb8137e77085b06a8d47b7dd0503827dc7",
+      "16634bc3e51f7481f995cfff67a3adb4c7d4031764cb3c51e6bd84e4548d320f",
+      "01ca6d94bdc311b6fdaaca762ee234f21b1ef0cbcbf0db1c3962b71c8db83234",
+      "05fcb5e4cebb5706f5e79d1122e3c0b12308517ad85e9ddda7fe21e55836ae30"
+    ],
+    "lineages": [
+      "pond:compensation:0154760ed1348618",
+      "pond:compensation:024e0ea1a8910bd3",
+      "pond:diffusion:02c98acc49b3d816",
+      "pond:diffusion:05b4f0a797ae462a",
+      "pond:load_transfer:118a3f7e2e6e88c4",
+      "pond:load_transfer:128c93a0a5b66767",
+      "pond:supported_rotation:02b6c8a2e5d647f3",
+      "pond:supported_rotation:16634bc3e51f7481",
+      "pond:threshold:01ca6d94bdc311b6",
+      "pond:threshold:05fcb5e4cebb5706"
+    ],
+    "motifs": [
+      "Deviation",
+      "Counteraction",
+      "Substitution",
+      "Stabilization",
+      "Source",
+      "Gradient",
+      "Spread",
+      "Dilution",
+      "Load",
+      "Distribution",
+      "Concentration",
+      "Failure",
+      "Rotation",
+      "Support",
+      "Friction",
+      "Accumulation",
+      "Limit",
+      "Trigger",
+      "StateChange"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.0902,
+        "mechanism": "BUFFERING",
+        "supporting_lineage_hashes": [
+          "2235e3926424848a6f5bb9a5761f8e4477ca111c7c25b3a004484b11ca2b0ce6",
+          "4428e5c7d16438411d07a1735cace2b45e5b996d037d534537a77acf0826e561"
+        ],
+        "supporting_lineages": [
+          "pond:buffering:2235e3926424848a",
+          "pond:buffering:4428e5c7d1643841"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Buffer",
+          "Absorption",
+          "Delay"
+        ]
+      },
+      {
+        "activation_weight": 0.218,
+        "mechanism": "COMPENSATION",
+        "supporting_lineage_hashes": [
+          "21bacabb0f975399da3de80e82d4c3cef3c4a66d98ca52c1943096e2848c5557",
+          "5d476702a32113619964156f60227ba5d5f7ccb05aae194a7a9f87c1c84b8931"
+        ],
+        "supporting_lineages": [
+          "pond:compensation:21bacabb0f975399",
+          "pond:compensation:5d476702a3211361"
+        ],
+        "supporting_motifs": [
+          "Deviation",
+          "Counteraction",
+          "Substitution",
+          "Stabilization"
+        ]
+      },
+      {
+        "activation_weight": 0.4511,
+        "mechanism": "FEEDBACK",
+        "supporting_lineage_hashes": [
+          "6c0111369168acfb8395e28238b0a224aa651b4728126d3714e542818c0e4967",
+          "92043caa946d6bb87b36d981a1dd58378f625d33ed49933b3fe0c761e9ba4948"
+        ],
+        "supporting_lineages": [
+          "pond:feedback:6c0111369168acfb",
+          "pond:feedback:92043caa946d6bb8"
+        ],
+        "supporting_motifs": [
+          "Signal",
+          "Loop",
+          "Response",
+          "Reinforcement"
+        ]
+      },
+      {
+        "activation_weight": 0.0827,
+        "mechanism": "FLOW",
+        "supporting_lineage_hashes": [
+          "0ab689cbf92d39db77a3058b9b81ca627993f253468a164f369b9a4474d64092",
+          "0b5401b0e97dcc82ac21154a08c89b9a9dd8a164182aa5fc99634d0caedd4815"
+        ],
+        "supporting_lineages": [
+          "pond:flow:0ab689cbf92d39db",
+          "pond:flow:0b5401b0e97dcc82"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Path",
+          "Resistance",
+          "Flow"
+        ]
+      },
+      {
+        "activation_weight": 0.1579,
+        "mechanism": "THRESHOLD",
+        "supporting_lineage_hashes": [
+          "1e27408a062f5c28b3319afb4d92cbce5226a01b444de5bd82cbc1a4fd2809cc",
+          "45884bdd7c73f44d5b84dd5ebd0e31614fbf2d4ac63b076af604fae4d60a4fac"
+        ],
+        "supporting_lineages": [
+          "pond:threshold:1e27408a062f5c28",
+          "pond:threshold:45884bdd7c73f44d"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Limit",
+          "Trigger",
+          "StateChange"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "BUFFERING": 0.0902,
+      "COMPENSATION": 0.218,
+      "FEEDBACK": 0.4511,
+      "FLOW": 0.0827,
+      "THRESHOLD": 0.1579
+    },
+    "case_id": "P037-RC-028",
+    "lineage_hashes": [
+      "2235e3926424848a6f5bb9a5761f8e4477ca111c7c25b3a004484b11ca2b0ce6",
+      "4428e5c7d16438411d07a1735cace2b45e5b996d037d534537a77acf0826e561",
+      "21bacabb0f975399da3de80e82d4c3cef3c4a66d98ca52c1943096e2848c5557",
+      "5d476702a32113619964156f60227ba5d5f7ccb05aae194a7a9f87c1c84b8931",
+      "6c0111369168acfb8395e28238b0a224aa651b4728126d3714e542818c0e4967",
+      "92043caa946d6bb87b36d981a1dd58378f625d33ed49933b3fe0c761e9ba4948",
+      "0ab689cbf92d39db77a3058b9b81ca627993f253468a164f369b9a4474d64092",
+      "0b5401b0e97dcc82ac21154a08c89b9a9dd8a164182aa5fc99634d0caedd4815",
+      "1e27408a062f5c28b3319afb4d92cbce5226a01b444de5bd82cbc1a4fd2809cc",
+      "45884bdd7c73f44d5b84dd5ebd0e31614fbf2d4ac63b076af604fae4d60a4fac"
+    ],
+    "lineages": [
+      "pond:buffering:2235e3926424848a",
+      "pond:buffering:4428e5c7d1643841",
+      "pond:compensation:21bacabb0f975399",
+      "pond:compensation:5d476702a3211361",
+      "pond:feedback:6c0111369168acfb",
+      "pond:feedback:92043caa946d6bb8",
+      "pond:flow:0ab689cbf92d39db",
+      "pond:flow:0b5401b0e97dcc82",
+      "pond:threshold:1e27408a062f5c28",
+      "pond:threshold:45884bdd7c73f44d"
+    ],
+    "motifs": [
+      "Input",
+      "Buffer",
+      "Absorption",
+      "Delay",
+      "Deviation",
+      "Counteraction",
+      "Substitution",
+      "Stabilization",
+      "Signal",
+      "Loop",
+      "Response",
+      "Reinforcement",
+      "Source",
+      "Path",
+      "Resistance",
+      "Flow",
+      "Accumulation",
+      "Limit",
+      "Trigger",
+      "StateChange"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.0949,
+        "mechanism": "ACCUMULATION",
+        "supporting_lineage_hashes": [
+          "126fd7a982fc794e2e7ecd97965c7d76572acc83690d2d298f07d8e56c4d9ca5",
+          "67f87cc072ab4590799edf55aae178caf66f6e5c95c2b9a899d1fd03344d9195"
+        ],
+        "supporting_lineages": [
+          "pond:accumulation:126fd7a982fc794e",
+          "pond:accumulation:67f87cc072ab4590"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Storage",
+          "BuildUp",
+          "Overflow"
+        ]
+      },
+      {
+        "activation_weight": 0.3285,
+        "mechanism": "BUFFERING",
+        "supporting_lineage_hashes": [
+          "05f1bd9a4dbf3a3861343324afd952d273a74389d58fe47c9d10d83b79ad6e73",
+          "18f99a6fd838b599a677c695795749facdb497c1bf0a95bb984771a3abeb9659"
+        ],
+        "supporting_lineages": [
+          "pond:buffering:05f1bd9a4dbf3a38",
+          "pond:buffering:18f99a6fd838b599"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Buffer",
+          "Absorption",
+          "Delay"
+        ]
+      },
+      {
+        "activation_weight": 0.1825,
+        "mechanism": "DIFFUSION",
+        "supporting_lineage_hashes": [
+          "02c98acc49b3d816498b31d537dda2b67736d5ee1dd2eb161fe5c17b25bca909",
+          "05b4f0a797ae462a881beaaf7795e1cc0d3ed5af960c877087961b9e5da23b71"
+        ],
+        "supporting_lineages": [
+          "pond:diffusion:02c98acc49b3d816",
+          "pond:diffusion:05b4f0a797ae462a"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Gradient",
+          "Spread",
+          "Dilution"
+        ]
+      },
+      {
+        "activation_weight": 0.0657,
+        "mechanism": "FEEDBACK",
+        "supporting_lineage_hashes": [
+          "2aaa00447b9bb53e1763d1ac00b2abbae402beeff84a93daf1b9864feb3b74cd",
+          "2dfd9ea4981e8f98c87f441e6c273eac55656c9b8575fa4c40d662caaafa2459"
+        ],
+        "supporting_lineages": [
+          "pond:feedback:2aaa00447b9bb53e",
+          "pond:feedback:2dfd9ea4981e8f98"
+        ],
+        "supporting_motifs": [
+          "Signal",
+          "Loop",
+          "Response",
+          "Reinforcement"
+        ]
+      },
+      {
+        "activation_weight": 0.1241,
+        "mechanism": "OSCILLATION",
+        "supporting_lineage_hashes": [
+          "0e0648edba58f0d3dd507fd22425f3676804663944d02e94aa7056fed3455a6e",
+          "1b28c4ee90aa6b9cd38895f4fcf43f0c0759ab35adb858d38ebac6062afd0b51"
+        ],
+        "supporting_lineages": [
+          "pond:oscillation:0e0648edba58f0d3",
+          "pond:oscillation:1b28c4ee90aa6b9c"
+        ],
+        "supporting_motifs": [
+          "State",
+          "Delay",
+          "Overshoot",
+          "Cycle"
+        ]
+      },
+      {
+        "activation_weight": 0.2044,
+        "mechanism": "RESOURCE_DEPLETION",
+        "supporting_lineage_hashes": [
+          "046c6450ff881c01b8e0fb4633c31188c3b5e76910dbcb778a3543f4820f6c6d",
+          "0602ea766c459325aac0e54da5c01b842a4daf1c802e42f20ff0c8ce363a022a"
+        ],
+        "supporting_lineages": [
+          "pond:resource_depletion:046c6450ff881c01",
+          "pond:resource_depletion:0602ea766c459325"
+        ],
+        "supporting_motifs": [
+          "Resource",
+          "Consumption",
+          "Scarcity",
+          "Exhaustion"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "ACCUMULATION": 0.0949,
+      "BUFFERING": 0.3285,
+      "DIFFUSION": 0.1825,
+      "FEEDBACK": 0.0657,
+      "OSCILLATION": 0.1241,
+      "RESOURCE_DEPLETION": 0.2044
+    },
+    "case_id": "P037-RC-029",
+    "lineage_hashes": [
+      "126fd7a982fc794e2e7ecd97965c7d76572acc83690d2d298f07d8e56c4d9ca5",
+      "67f87cc072ab4590799edf55aae178caf66f6e5c95c2b9a899d1fd03344d9195",
+      "05f1bd9a4dbf3a3861343324afd952d273a74389d58fe47c9d10d83b79ad6e73",
+      "18f99a6fd838b599a677c695795749facdb497c1bf0a95bb984771a3abeb9659",
+      "02c98acc49b3d816498b31d537dda2b67736d5ee1dd2eb161fe5c17b25bca909",
+      "05b4f0a797ae462a881beaaf7795e1cc0d3ed5af960c877087961b9e5da23b71",
+      "2aaa00447b9bb53e1763d1ac00b2abbae402beeff84a93daf1b9864feb3b74cd",
+      "2dfd9ea4981e8f98c87f441e6c273eac55656c9b8575fa4c40d662caaafa2459",
+      "0e0648edba58f0d3dd507fd22425f3676804663944d02e94aa7056fed3455a6e",
+      "1b28c4ee90aa6b9cd38895f4fcf43f0c0759ab35adb858d38ebac6062afd0b51",
+      "046c6450ff881c01b8e0fb4633c31188c3b5e76910dbcb778a3543f4820f6c6d",
+      "0602ea766c459325aac0e54da5c01b842a4daf1c802e42f20ff0c8ce363a022a"
+    ],
+    "lineages": [
+      "pond:accumulation:126fd7a982fc794e",
+      "pond:accumulation:67f87cc072ab4590",
+      "pond:buffering:05f1bd9a4dbf3a38",
+      "pond:buffering:18f99a6fd838b599",
+      "pond:diffusion:02c98acc49b3d816",
+      "pond:diffusion:05b4f0a797ae462a",
+      "pond:feedback:2aaa00447b9bb53e",
+      "pond:feedback:2dfd9ea4981e8f98",
+      "pond:oscillation:0e0648edba58f0d3",
+      "pond:oscillation:1b28c4ee90aa6b9c",
+      "pond:resource_depletion:046c6450ff881c01",
+      "pond:resource_depletion:0602ea766c459325"
+    ],
+    "motifs": [
+      "Input",
+      "Storage",
+      "BuildUp",
+      "Overflow",
+      "Buffer",
+      "Absorption",
+      "Delay",
+      "Source",
+      "Gradient",
+      "Spread",
+      "Dilution",
+      "Signal",
+      "Loop",
+      "Response",
+      "Reinforcement",
+      "State",
+      "Overshoot",
+      "Cycle",
+      "Resource",
+      "Consumption",
+      "Scarcity",
+      "Exhaustion"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      {
+        "activation_weight": 0.1111,
+        "mechanism": "ACCUMULATION",
+        "supporting_lineage_hashes": [
+          "0bc78ccb352105d67a7a487235e54c576f502d29e82d8ac1be03a7070818d95a",
+          "0d0b68c94f3cb1ada32a532ea1cc5a562cfb2073d4d16567bf71cd9b52e6788b"
+        ],
+        "supporting_lineages": [
+          "pond:accumulation:0bc78ccb352105d6",
+          "pond:accumulation:0d0b68c94f3cb1ad"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Storage",
+          "BuildUp",
+          "Overflow"
+        ]
+      },
+      {
+        "activation_weight": 0.2222,
+        "mechanism": "FLOW",
+        "supporting_lineage_hashes": [
+          "243d5a3925926ca50ef5e959dc2cc4eadf7ae0a64396de1560ae7d70a4b3befb",
+          "49b186de5cf3a88d5296b9bf17a0693a863db51e15d23b0ed78710c9307425e7"
+        ],
+        "supporting_lineages": [
+          "pond:flow:243d5a3925926ca5",
+          "pond:flow:49b186de5cf3a88d"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Path",
+          "Resistance",
+          "Flow"
+        ]
+      },
+      {
+        "activation_weight": 0.2556,
+        "mechanism": "OSCILLATION",
+        "supporting_lineage_hashes": [
+          "33a1a42e11a12c1eb0fdce896877d6d93ddbb922d4f0afcd1f314511eb394c52",
+          "5222e2182498dc2de72b6fe307d52fa244d2518fb0c0dbbe316304623292ffd4"
+        ],
+        "supporting_lineages": [
+          "pond:oscillation:33a1a42e11a12c1e",
+          "pond:oscillation:5222e2182498dc2d"
+        ],
+        "supporting_motifs": [
+          "State",
+          "Delay",
+          "Overshoot",
+          "Cycle"
+        ]
+      },
+      {
+        "activation_weight": 0.1222,
+        "mechanism": "SUPPORTED_ROTATION",
+        "supporting_lineage_hashes": [
+          "02b6c8a2e5d647f30a09bb980e4478fb8137e77085b06a8d47b7dd0503827dc7",
+          "16634bc3e51f7481f995cfff67a3adb4c7d4031764cb3c51e6bd84e4548d320f"
+        ],
+        "supporting_lineages": [
+          "pond:supported_rotation:02b6c8a2e5d647f3",
+          "pond:supported_rotation:16634bc3e51f7481"
+        ],
+        "supporting_motifs": [
+          "Rotation",
+          "Support",
+          "Friction",
+          "Failure"
+        ]
+      },
+      {
+        "activation_weight": 0.2889,
+        "mechanism": "THRESHOLD",
+        "supporting_lineage_hashes": [
+          "01ca6d94bdc311b6fdaaca762ee234f21b1ef0cbcbf0db1c3962b71c8db83234",
+          "05fcb5e4cebb5706f5e79d1122e3c0b12308517ad85e9ddda7fe21e55836ae30"
+        ],
+        "supporting_lineages": [
+          "pond:threshold:01ca6d94bdc311b6",
+          "pond:threshold:05fcb5e4cebb5706"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Limit",
+          "Trigger",
+          "StateChange"
+        ]
+      }
+    ],
+    "activation_weights": {
+      "ACCUMULATION": 0.1111,
+      "FLOW": 0.2222,
+      "OSCILLATION": 0.2556,
+      "SUPPORTED_ROTATION": 0.1222,
+      "THRESHOLD": 0.2889
+    },
+    "case_id": "P037-RC-030",
+    "lineage_hashes": [
+      "0bc78ccb352105d67a7a487235e54c576f502d29e82d8ac1be03a7070818d95a",
+      "0d0b68c94f3cb1ada32a532ea1cc5a562cfb2073d4d16567bf71cd9b52e6788b",
+      "243d5a3925926ca50ef5e959dc2cc4eadf7ae0a64396de1560ae7d70a4b3befb",
+      "49b186de5cf3a88d5296b9bf17a0693a863db51e15d23b0ed78710c9307425e7",
+      "33a1a42e11a12c1eb0fdce896877d6d93ddbb922d4f0afcd1f314511eb394c52",
+      "5222e2182498dc2de72b6fe307d52fa244d2518fb0c0dbbe316304623292ffd4",
+      "02b6c8a2e5d647f30a09bb980e4478fb8137e77085b06a8d47b7dd0503827dc7",
+      "16634bc3e51f7481f995cfff67a3adb4c7d4031764cb3c51e6bd84e4548d320f",
+      "01ca6d94bdc311b6fdaaca762ee234f21b1ef0cbcbf0db1c3962b71c8db83234",
+      "05fcb5e4cebb5706f5e79d1122e3c0b12308517ad85e9ddda7fe21e55836ae30"
+    ],
+    "lineages": [
+      "pond:accumulation:0bc78ccb352105d6",
+      "pond:accumulation:0d0b68c94f3cb1ad",
+      "pond:flow:243d5a3925926ca5",
+      "pond:flow:49b186de5cf3a88d",
+      "pond:oscillation:33a1a42e11a12c1e",
+      "pond:oscillation:5222e2182498dc2d",
+      "pond:supported_rotation:02b6c8a2e5d647f3",
+      "pond:supported_rotation:16634bc3e51f7481",
+      "pond:threshold:01ca6d94bdc311b6",
+      "pond:threshold:05fcb5e4cebb5706"
+    ],
+    "motifs": [
+      "Input",
+      "Storage",
+      "BuildUp",
+      "Overflow",
+      "Source",
+      "Path",
+      "Resistance",
+      "Flow",
+      "State",
+      "Delay",
+      "Overshoot",
+      "Cycle",
+      "Rotation",
+      "Support",
+      "Friction",
+      "Failure",
+      "Accumulation",
+      "Limit",
+      "Trigger",
+      "StateChange"
+    ]
+  }
+]

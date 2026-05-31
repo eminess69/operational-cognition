@@ -1,0 +1,8 @@
+{
+  "mode_a_mode_b_agreement": 0.5333,
+  "mode_a_mode_c_agreement": 0.5,
+  "mode_a_valid_rate": 0.8667,
+  "mode_b_mode_c_agreement": 0.9667,
+  "mode_b_valid_rate": 0.7667,
+  "mode_c_valid_rate": 0.7667
+}

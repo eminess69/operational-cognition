@@ -1,0 +1,69 @@
+{
+  "levels": [
+    {
+      "generic_recall_rate": 1.0,
+      "level": 1,
+      "lineages_returned_per_consult": 5.0,
+      "mechanism_return_counts": {
+        "FLOW": 33,
+        "LOAD_TRANSFER": 38,
+        "SUPPORTED_ROTATION": 79
+      },
+      "mechanism_specific_recall_rate": 0.7917,
+      "motifs_returned_per_consult": 4.2333,
+      "redundant_recall_rate": 0.7867,
+      "total_lineage_hashes_returned": 150,
+      "unique_lineage_hashes": 32
+    },
+    {
+      "generic_recall_rate": 1.0,
+      "level": 2,
+      "lineages_returned_per_consult": 5.0,
+      "mechanism_return_counts": {
+        "FLOW": 33,
+        "LOAD_TRANSFER": 36,
+        "SUPPORTED_ROTATION": 81
+      },
+      "mechanism_specific_recall_rate": 0.7917,
+      "motifs_returned_per_consult": 4.2333,
+      "redundant_recall_rate": 0.74,
+      "total_lineage_hashes_returned": 150,
+      "unique_lineage_hashes": 39
+    },
+    {
+      "generic_recall_rate": 1.0,
+      "level": 3,
+      "lineages_returned_per_consult": 5.0,
+      "mechanism_return_counts": {
+        "FLOW": 33,
+        "LOAD_TRANSFER": 36,
+        "SUPPORTED_ROTATION": 81
+      },
+      "mechanism_specific_recall_rate": 0.7917,
+      "motifs_returned_per_consult": 4.2333,
+      "redundant_recall_rate": 0.62,
+      "total_lineage_hashes_returned": 150,
+      "unique_lineage_hashes": 57
+    },
+    {
+      "generic_recall_rate": 1.0,
+      "level": 4,
+      "lineages_returned_per_consult": 5.0,
+      "mechanism_return_counts": {
+        "FLOW": 33,
+        "LOAD_TRANSFER": 36,
+        "SUPPORTED_ROTATION": 81
+      },
+      "mechanism_specific_recall_rate": 0.7917,
+      "motifs_returned_per_consult": 4.2333,
+      "redundant_recall_rate": 0.4,
+      "total_lineage_hashes_returned": 150,
+      "unique_lineage_hashes": 90
+    }
+  ],
+  "notes": [
+    "Recall density is measured over discovery consults only.",
+    "Generic recall rate measures mechanism recall returned for insufficient-evidence cases.",
+    "Redundant recall rate is one minus unique lineage hashes divided by all returned lineage hashes."
+  ]
+}

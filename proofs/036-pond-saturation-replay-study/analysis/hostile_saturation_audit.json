@@ -1,0 +1,52 @@
+{
+  "attacks": [
+    {
+      "attack": "larger prompt volume only",
+      "finding": "Survives as a partial explanation because denser lessons contain more cue-bearing text."
+    },
+    {
+      "attack": "duplicate examples",
+      "finding": "Partially controlled by variant lesson IDs and cue frames; repeated surface domains remain."
+    },
+    {
+      "attack": "surface-domain leakage",
+      "finding": "Survives. The replay keeps held-out cases fixed, but denser seasoning intentionally broadens cue coverage."
+    },
+    {
+      "attack": "Codex/local scoring",
+      "finding": "Survives. Candidate scoring is imported from Proof 034b unchanged."
+    },
+    {
+      "attack": "generic consult pressure",
+      "finding": "Survives as a baseline explanation from Proof 034b."
+    },
+    {
+      "attack": "non-independent seasoning sets",
+      "finding": "Survives. Higher levels are supersets by density, not independently sampled curricula."
+    },
+    {
+      "attack": "unstable pond state",
+      "finding": "Rejected by fresh isolated pond state per saturation level."
+    },
+    {
+      "attack": "pathway inflation",
+      "finding": "Controlled by the unchanged Proof 034b candidate-generation rules and candidate caps."
+    }
+  ],
+  "hostile_verdict": "WEAK_SIGNAL",
+  "invalidated_claims": [
+    "Proof 036 proves cognition.",
+    "The saturation curve is independent of the deterministic local scoring function.",
+    "The denser curriculum fully rules out surface-domain or cue leakage.",
+    "Generic consult pressure is eliminated as an explanation."
+  ],
+  "remaining_codex_explanation": true,
+  "remaining_generic_consult_explanation": true,
+  "remaining_leakage_explanation": true,
+  "saturation_curve_survives": false,
+  "surviving_claims": [
+    "All saturation-level seasoning and discovery logs are pond-backed and validator-compatible.",
+    "Unique traceable lineage recall increased with seasoning density.",
+    "Candidate quality did not establish a surviving saturation curve."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-05-29T17:33:15Z",
+  "is_isolated": true,
+  "mechanisms": [
+    "ACCUMULATION",
+    "AMPLIFICATION",
+    "BUFFERING",
+    "COMPENSATION",
+    "DIFFUSION",
+    "FEEDBACK",
+    "FLOW",
+    "LOAD_TRANSFER",
+    "OSCILLATION",
+    "RESOURCE_DEPLETION",
+    "SUPPORTED_ROTATION",
+    "THRESHOLD"
+  ],
+  "notes": "Cases are copied unchanged from Proof 037/038. Ranking timing is the only experimental change.",
+  "pond_state_id": "proof-039-delayed-ranking-isolated-pond",
+  "prior_contents": [],
+  "ranking_strategy_changed_only": true,
+  "reuse_created_at": "2026-05-29T18:02:26Z",
+  "reused_by_proof": "040-ranking-independence-study",
+  "seasoning_examples": 288,
+  "source": "fresh local pond state seeded from Proof 037 group B curriculum"
+}

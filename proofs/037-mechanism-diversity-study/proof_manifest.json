@@ -1,0 +1,51 @@
+{
+  "claim_level": "evidence_backed",
+  "disallowed_claims": [
+    "Proof 037 proves cognition.",
+    "Mechanism diversity effects are independent of deterministic scoring.",
+    "Explicitly seeded mechanisms were discovered without teaching.",
+    "Non-independent mechanism definitions are fully ruled out."
+  ],
+  "inside_voice_adapter_status": "pond_backed",
+  "lineage": {
+    "candidate_status": "eligible",
+    "contract_version": "inside_voice_mcp_contract/0.2",
+    "derived_from": "Proof 036 saturation result and repaired pond-backed MCP consult path.",
+    "mcp_endpoint": "in_process_tools.integrations.inside_voice_mcp_server.process_consult_request",
+    "request_hash": "7d2bd0c2fc45af3664c0373911b295e0462d27cad544324213d20d765cd92f29",
+    "response_hash": "becb6a3ea35b40d50c846ee206a51eb8caece3cfb8d7a3aea4cb74d5cce161d4",
+    "validates": "FAIL"
+  },
+  "proof_id": "037-mechanism-diversity-study",
+  "public_private_boundary": "Public-safe proof artifacts record deterministic curricula, motifs, lineage refs, lineage hashes, and aggregate recombination metrics.",
+  "required_artifacts": [
+    "README.md",
+    "proof_manifest.json",
+    "curriculum/group_a_mechanisms.jsonl",
+    "curriculum/group_b_mechanisms.jsonl",
+    "curriculum/group_a_seasoning_examples.jsonl",
+    "curriculum/group_b_seasoning_examples.jsonl",
+    "mcp/pond_state_manifest.json",
+    "mcp/group_a_seasoning_log.jsonl",
+    "mcp/group_b_seasoning_log.jsonl",
+    "mcp/group_a_recombination_consults.jsonl",
+    "mcp/group_b_recombination_consults.jsonl",
+    "tests/recombination_cases.jsonl",
+    "results/recombination_candidates.json",
+    "analysis/recombination_metrics.json",
+    "analysis/harmonic_overlap_audit.json",
+    "analysis/hostile_audit.json"
+  ],
+  "status": "complete",
+  "targets": [
+    "MechanismDiversity",
+    "EqualSeasoningVolume",
+    "FreshIsolatedPonds",
+    "PondBackedSeasoning",
+    "PondBackedRecombinationRecall",
+    "NovelCombinationCases",
+    "HarmonicOverlapAudit",
+    "HostileDiversityAudit"
+  ],
+  "title": "Proof 037 - Mechanism Diversity Study"
+}

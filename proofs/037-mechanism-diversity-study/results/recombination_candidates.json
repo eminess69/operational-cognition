@@ -1,0 +1,1988 @@
+{
+  "groups": {
+    "A": [
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "FLOW",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "2023b4004fc89d3cab2d1d064d6ea1329b1bbf0be346e9acd393d2e8322fb24d",
+              "294be276b7106c6f3ff1d47dc331208b4c44524f5c199b2d004e85cd9faa9830",
+              "2a1124bffe81f22b7dcdd5e3f3cf161c80fd5dc60ca8e796226f33131a95428c"
+            ],
+            "supporting_motifs": [
+              "Source",
+              "Path",
+              "Resistance",
+              "Flow"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-001",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "FLOW"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "FLOW"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "SUPPORTED_ROTATION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "01dd3898dc31316fab4b293fdda01191a9eb83a78daf27b50f490fecf97eab69",
+              "03c1e36ee7456a023f4f1a8ca33ce9b8a9b82fafa2276c4923964febe639f08f",
+              "04ef8bdb853c5c5dc6c9712ef8599f7fdf9f30291035fb71455c17f3a0d432ed"
+            ],
+            "supporting_motifs": [
+              "Rotation",
+              "Support",
+              "Friction",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-002",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "SUPPORTED_ROTATION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "SUPPORTED_ROTATION"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "SUPPORTED_ROTATION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "01dd3898dc31316fab4b293fdda01191a9eb83a78daf27b50f490fecf97eab69",
+              "03c1e36ee7456a023f4f1a8ca33ce9b8a9b82fafa2276c4923964febe639f08f",
+              "04ef8bdb853c5c5dc6c9712ef8599f7fdf9f30291035fb71455c17f3a0d432ed"
+            ],
+            "supporting_motifs": [
+              "Rotation",
+              "Support",
+              "Friction",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-003",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "SUPPORTED_ROTATION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "SUPPORTED_ROTATION"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "SUPPORTED_ROTATION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "01dd3898dc31316fab4b293fdda01191a9eb83a78daf27b50f490fecf97eab69",
+              "03c1e36ee7456a023f4f1a8ca33ce9b8a9b82fafa2276c4923964febe639f08f",
+              "04ef8bdb853c5c5dc6c9712ef8599f7fdf9f30291035fb71455c17f3a0d432ed"
+            ],
+            "supporting_motifs": [
+              "Rotation",
+              "Support",
+              "Friction",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-004",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "SUPPORTED_ROTATION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "SUPPORTED_ROTATION"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "FLOW",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "001652497ef6b446124cbde4ada46f2185e51beea931f691205c856e68062777",
+              "014d06e603873822e7dc16334db02a448f644264b3f1b8dc80d15e93b5902264",
+              "02b6330dded2322bd6237654b7f7bf433288655d663de076cdd7244a29d31fbe"
+            ],
+            "supporting_motifs": [
+              "Source",
+              "Path",
+              "Resistance",
+              "Flow"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-005",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "FLOW"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "FLOW"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "SUPPORTED_ROTATION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "01dd3898dc31316fab4b293fdda01191a9eb83a78daf27b50f490fecf97eab69",
+              "03c1e36ee7456a023f4f1a8ca33ce9b8a9b82fafa2276c4923964febe639f08f",
+              "04ef8bdb853c5c5dc6c9712ef8599f7fdf9f30291035fb71455c17f3a0d432ed"
+            ],
+            "supporting_motifs": [
+              "Rotation",
+              "Support",
+              "Friction",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-006",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "SUPPORTED_ROTATION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "SUPPORTED_ROTATION"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "LOAD_TRANSFER",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "0188c33e2caa79ce708a05b7f9cdab5af3d8b82c9adf6f7117d55275b92b69f7",
+              "02de3ced3694870f6168d9823ec0426cc85c6f9dc42af507b06a1a5de6cb713d",
+              "04d55ab3fcc0e417f096ee4ccc4cae48138fa1e0dfe99687c2db497b872634c2"
+            ],
+            "supporting_motifs": [
+              "Load",
+              "Distribution",
+              "Concentration",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-007",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "LOAD_TRANSFER"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "LOAD_TRANSFER"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "SUPPORTED_ROTATION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "01dd3898dc31316fab4b293fdda01191a9eb83a78daf27b50f490fecf97eab69",
+              "03c1e36ee7456a023f4f1a8ca33ce9b8a9b82fafa2276c4923964febe639f08f",
+              "04ef8bdb853c5c5dc6c9712ef8599f7fdf9f30291035fb71455c17f3a0d432ed"
+            ],
+            "supporting_motifs": [
+              "Rotation",
+              "Support",
+              "Friction",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-008",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "SUPPORTED_ROTATION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "SUPPORTED_ROTATION"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "SUPPORTED_ROTATION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "01dd3898dc31316fab4b293fdda01191a9eb83a78daf27b50f490fecf97eab69",
+              "03c1e36ee7456a023f4f1a8ca33ce9b8a9b82fafa2276c4923964febe639f08f",
+              "04ef8bdb853c5c5dc6c9712ef8599f7fdf9f30291035fb71455c17f3a0d432ed"
+            ],
+            "supporting_motifs": [
+              "Rotation",
+              "Support",
+              "Friction",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-009",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "SUPPORTED_ROTATION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "SUPPORTED_ROTATION"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "FLOW",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "001652497ef6b446124cbde4ada46f2185e51beea931f691205c856e68062777",
+              "014d06e603873822e7dc16334db02a448f644264b3f1b8dc80d15e93b5902264",
+              "02b6330dded2322bd6237654b7f7bf433288655d663de076cdd7244a29d31fbe"
+            ],
+            "supporting_motifs": [
+              "Source",
+              "Path",
+              "Resistance",
+              "Flow"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-010",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "FLOW"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "FLOW"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "FLOW",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "001652497ef6b446124cbde4ada46f2185e51beea931f691205c856e68062777",
+              "014d06e603873822e7dc16334db02a448f644264b3f1b8dc80d15e93b5902264",
+              "02b6330dded2322bd6237654b7f7bf433288655d663de076cdd7244a29d31fbe"
+            ],
+            "supporting_motifs": [
+              "Source",
+              "Path",
+              "Resistance",
+              "Flow"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-011",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "FLOW"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "FLOW"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "SUPPORTED_ROTATION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "01dd3898dc31316fab4b293fdda01191a9eb83a78daf27b50f490fecf97eab69",
+              "03c1e36ee7456a023f4f1a8ca33ce9b8a9b82fafa2276c4923964febe639f08f",
+              "04ef8bdb853c5c5dc6c9712ef8599f7fdf9f30291035fb71455c17f3a0d432ed"
+            ],
+            "supporting_motifs": [
+              "Rotation",
+              "Support",
+              "Friction",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-012",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "SUPPORTED_ROTATION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "SUPPORTED_ROTATION"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "LOAD_TRANSFER",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "0188c33e2caa79ce708a05b7f9cdab5af3d8b82c9adf6f7117d55275b92b69f7",
+              "02de3ced3694870f6168d9823ec0426cc85c6f9dc42af507b06a1a5de6cb713d",
+              "04d55ab3fcc0e417f096ee4ccc4cae48138fa1e0dfe99687c2db497b872634c2"
+            ],
+            "supporting_motifs": [
+              "Load",
+              "Distribution",
+              "Concentration",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-013",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "LOAD_TRANSFER"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "LOAD_TRANSFER"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "SUPPORTED_ROTATION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "01dd3898dc31316fab4b293fdda01191a9eb83a78daf27b50f490fecf97eab69",
+              "03c1e36ee7456a023f4f1a8ca33ce9b8a9b82fafa2276c4923964febe639f08f",
+              "04ef8bdb853c5c5dc6c9712ef8599f7fdf9f30291035fb71455c17f3a0d432ed"
+            ],
+            "supporting_motifs": [
+              "Rotation",
+              "Support",
+              "Friction",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-014",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "SUPPORTED_ROTATION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "SUPPORTED_ROTATION"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "SUPPORTED_ROTATION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "052f8b7cd43891a3fe33150c8615d70d59355f2ca38490d97b9fbea9159b9b05",
+              "18a68e2e2202767f61a8f38f49acdc3ba7a579e349c8f5f44576da5587a2fd76",
+              "3fe8722b1aca810099208f5150c5ad79bb40d208e69f227f11f7ec2281a0fdbd"
+            ],
+            "supporting_motifs": [
+              "Rotation",
+              "Support",
+              "Friction",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-015",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "SUPPORTED_ROTATION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "SUPPORTED_ROTATION"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "FLOW",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "001652497ef6b446124cbde4ada46f2185e51beea931f691205c856e68062777",
+              "014d06e603873822e7dc16334db02a448f644264b3f1b8dc80d15e93b5902264",
+              "02b6330dded2322bd6237654b7f7bf433288655d663de076cdd7244a29d31fbe"
+            ],
+            "supporting_motifs": [
+              "Source",
+              "Path",
+              "Resistance",
+              "Flow"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-016",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "FLOW"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "FLOW"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "FLOW",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "001652497ef6b446124cbde4ada46f2185e51beea931f691205c856e68062777",
+              "014d06e603873822e7dc16334db02a448f644264b3f1b8dc80d15e93b5902264",
+              "02b6330dded2322bd6237654b7f7bf433288655d663de076cdd7244a29d31fbe"
+            ],
+            "supporting_motifs": [
+              "Source",
+              "Path",
+              "Resistance",
+              "Flow"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-017",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "FLOW"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "FLOW"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "SUPPORTED_ROTATION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "03c1e36ee7456a023f4f1a8ca33ce9b8a9b82fafa2276c4923964febe639f08f",
+              "0b75c63e955f9fe546bed1e84fb5ae9280a0e459963ac88e06374c000e5deafc",
+              "1918e8e72f5c8ffbbc7067862a7c5b795b01204286256ff0385ee4365de7914d"
+            ],
+            "supporting_motifs": [
+              "Rotation",
+              "Support",
+              "Friction",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-018",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "SUPPORTED_ROTATION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "SUPPORTED_ROTATION"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "LOAD_TRANSFER",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "0188c33e2caa79ce708a05b7f9cdab5af3d8b82c9adf6f7117d55275b92b69f7",
+              "02de3ced3694870f6168d9823ec0426cc85c6f9dc42af507b06a1a5de6cb713d",
+              "04d55ab3fcc0e417f096ee4ccc4cae48138fa1e0dfe99687c2db497b872634c2"
+            ],
+            "supporting_motifs": [
+              "Load",
+              "Distribution",
+              "Concentration",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-019",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "LOAD_TRANSFER"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "LOAD_TRANSFER"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "FLOW",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "02b6330dded2322bd6237654b7f7bf433288655d663de076cdd7244a29d31fbe",
+              "0af7f8fdc1ba87bbb2191a50f3d7fbb0565a0a708897aab9b00dd5c44dc1503c",
+              "0b541b538a3774bcb3741ca75fbd02154c24cfbd42a0ba742b26067d840c0a83"
+            ],
+            "supporting_motifs": [
+              "Source",
+              "Path",
+              "Resistance",
+              "Flow"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-020",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "FLOW"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "FLOW"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "SUPPORTED_ROTATION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "01dd3898dc31316fab4b293fdda01191a9eb83a78daf27b50f490fecf97eab69",
+              "03c1e36ee7456a023f4f1a8ca33ce9b8a9b82fafa2276c4923964febe639f08f",
+              "04ef8bdb853c5c5dc6c9712ef8599f7fdf9f30291035fb71455c17f3a0d432ed"
+            ],
+            "supporting_motifs": [
+              "Rotation",
+              "Support",
+              "Friction",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-021",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "SUPPORTED_ROTATION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "SUPPORTED_ROTATION"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "SUPPORTED_ROTATION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "01dd3898dc31316fab4b293fdda01191a9eb83a78daf27b50f490fecf97eab69",
+              "03c1e36ee7456a023f4f1a8ca33ce9b8a9b82fafa2276c4923964febe639f08f",
+              "04ef8bdb853c5c5dc6c9712ef8599f7fdf9f30291035fb71455c17f3a0d432ed"
+            ],
+            "supporting_motifs": [
+              "Rotation",
+              "Support",
+              "Friction",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-022",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "SUPPORTED_ROTATION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "SUPPORTED_ROTATION"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "FLOW",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "001652497ef6b446124cbde4ada46f2185e51beea931f691205c856e68062777",
+              "014d06e603873822e7dc16334db02a448f644264b3f1b8dc80d15e93b5902264",
+              "02b6330dded2322bd6237654b7f7bf433288655d663de076cdd7244a29d31fbe"
+            ],
+            "supporting_motifs": [
+              "Source",
+              "Path",
+              "Resistance",
+              "Flow"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-023",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "FLOW"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "FLOW"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "LOAD_TRANSFER",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "0188c33e2caa79ce708a05b7f9cdab5af3d8b82c9adf6f7117d55275b92b69f7",
+              "02de3ced3694870f6168d9823ec0426cc85c6f9dc42af507b06a1a5de6cb713d",
+              "04d55ab3fcc0e417f096ee4ccc4cae48138fa1e0dfe99687c2db497b872634c2"
+            ],
+            "supporting_motifs": [
+              "Load",
+              "Distribution",
+              "Concentration",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-024",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "LOAD_TRANSFER"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "LOAD_TRANSFER"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "SUPPORTED_ROTATION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "01dd3898dc31316fab4b293fdda01191a9eb83a78daf27b50f490fecf97eab69",
+              "03c1e36ee7456a023f4f1a8ca33ce9b8a9b82fafa2276c4923964febe639f08f",
+              "04ef8bdb853c5c5dc6c9712ef8599f7fdf9f30291035fb71455c17f3a0d432ed"
+            ],
+            "supporting_motifs": [
+              "Rotation",
+              "Support",
+              "Friction",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-025",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "SUPPORTED_ROTATION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "SUPPORTED_ROTATION"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "SUPPORTED_ROTATION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "01dd3898dc31316fab4b293fdda01191a9eb83a78daf27b50f490fecf97eab69",
+              "03c1e36ee7456a023f4f1a8ca33ce9b8a9b82fafa2276c4923964febe639f08f",
+              "04ef8bdb853c5c5dc6c9712ef8599f7fdf9f30291035fb71455c17f3a0d432ed"
+            ],
+            "supporting_motifs": [
+              "Rotation",
+              "Support",
+              "Friction",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-026",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "SUPPORTED_ROTATION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "SUPPORTED_ROTATION"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "LOAD_TRANSFER",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "0188c33e2caa79ce708a05b7f9cdab5af3d8b82c9adf6f7117d55275b92b69f7",
+              "02de3ced3694870f6168d9823ec0426cc85c6f9dc42af507b06a1a5de6cb713d",
+              "04d55ab3fcc0e417f096ee4ccc4cae48138fa1e0dfe99687c2db497b872634c2"
+            ],
+            "supporting_motifs": [
+              "Load",
+              "Distribution",
+              "Concentration",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-027",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "LOAD_TRANSFER"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "LOAD_TRANSFER"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "SUPPORTED_ROTATION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "01dd3898dc31316fab4b293fdda01191a9eb83a78daf27b50f490fecf97eab69",
+              "03c1e36ee7456a023f4f1a8ca33ce9b8a9b82fafa2276c4923964febe639f08f",
+              "04ef8bdb853c5c5dc6c9712ef8599f7fdf9f30291035fb71455c17f3a0d432ed"
+            ],
+            "supporting_motifs": [
+              "Rotation",
+              "Support",
+              "Friction",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-028",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "SUPPORTED_ROTATION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "SUPPORTED_ROTATION"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "SUPPORTED_ROTATION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "01dd3898dc31316fab4b293fdda01191a9eb83a78daf27b50f490fecf97eab69",
+              "03c1e36ee7456a023f4f1a8ca33ce9b8a9b82fafa2276c4923964febe639f08f",
+              "04ef8bdb853c5c5dc6c9712ef8599f7fdf9f30291035fb71455c17f3a0d432ed"
+            ],
+            "supporting_motifs": [
+              "Rotation",
+              "Support",
+              "Friction",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-029",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "SUPPORTED_ROTATION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "SUPPORTED_ROTATION"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "SUPPORTED_ROTATION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "01dd3898dc31316fab4b293fdda01191a9eb83a78daf27b50f490fecf97eab69",
+              "03c1e36ee7456a023f4f1a8ca33ce9b8a9b82fafa2276c4923964febe639f08f",
+              "04ef8bdb853c5c5dc6c9712ef8599f7fdf9f30291035fb71455c17f3a0d432ed"
+            ],
+            "supporting_motifs": [
+              "Rotation",
+              "Support",
+              "Friction",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-030",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "A",
+        "mechanism_combinations": [
+          [
+            "SUPPORTED_ROTATION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "SUPPORTED_ROTATION"
+        ]
+      }
+    ],
+    "B": [
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "FEEDBACK",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "05a6d920e75b84801de2f2e4a8fe3701f0179206277d597ae1a08b75b814ac1a",
+              "0657b1e49c371b9874f2be17dbd4feb3b890e83c114ef2d50f79b03ffedc596e",
+              "070205bade59a3e1bbbf1f693f0c889d78c982e37637521ac0b236561840746e"
+            ],
+            "supporting_motifs": [
+              "Signal",
+              "Loop",
+              "Response",
+              "Reinforcement"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-001",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "FEEDBACK"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "FEEDBACK"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "THRESHOLD",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "082723aae31cb8121ac089b8ede85ae1595f972ff2dfc033193d115aa83781cb",
+              "0d363a477cbb8ae66ba5a7ca79abc3ea223238fd03cf0f830ac553dcca8a853a",
+              "1d816d3fd182891f101ae3f6267e36dec6e81d35bf195f78d1c13bb738beafd3"
+            ],
+            "supporting_motifs": [
+              "Accumulation",
+              "Limit",
+              "Trigger",
+              "StateChange"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-002",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "THRESHOLD"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "THRESHOLD"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "FEEDBACK",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "05a6d920e75b84801de2f2e4a8fe3701f0179206277d597ae1a08b75b814ac1a",
+              "0657b1e49c371b9874f2be17dbd4feb3b890e83c114ef2d50f79b03ffedc596e",
+              "070205bade59a3e1bbbf1f693f0c889d78c982e37637521ac0b236561840746e"
+            ],
+            "supporting_motifs": [
+              "Signal",
+              "Loop",
+              "Response",
+              "Reinforcement"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-003",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "FEEDBACK"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "FEEDBACK"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "RESOURCE_DEPLETION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "053ef09708e288b73214c0db6e084554beeffcd72b52fa1afb67d364cbec17d7",
+              "0b95a006246994950e58278331eb1552c45928436ba0af504019d1ad18819181",
+              "1545cbeaf66ba1b8127c641647b8d6dadd77bba9b392d6a2c7786894e5d60cf4"
+            ],
+            "supporting_motifs": [
+              "Resource",
+              "Consumption",
+              "Scarcity",
+              "Exhaustion"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-004",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "RESOURCE_DEPLETION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "RESOURCE_DEPLETION"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "FLOW",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "117edbb2b4e7ea6f8a55a50313d3adf01e7957393ca406be0834a102a5e66f01",
+              "1b4021a178042f4afb18cd5fb7ad8e425f28c0e4df066d74e809b5c9a0dee6c6",
+              "35ccf43f7f204e9f23db3221f33a9d5bfbd6e905ae9eece37cee327f288cf846"
+            ],
+            "supporting_motifs": [
+              "Source",
+              "Path",
+              "Resistance",
+              "Flow"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-005",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "FLOW"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "FLOW"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "SUPPORTED_ROTATION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "022ffbe9ba5d9aa24a9be853cdbcb9953e6a6665784fc6fe82f858ddedf11bf4",
+              "031e227b7390752847036d1e5668e7272aea12408c277886f1a5d79ca8dff6a4",
+              "07564756464304da2cdca82b7da0c2e5bc7b0d9fcc5be41ee915f023cbff545c"
+            ],
+            "supporting_motifs": [
+              "Rotation",
+              "Support",
+              "Friction",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-006",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "SUPPORTED_ROTATION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "SUPPORTED_ROTATION"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "LOAD_TRANSFER",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "00a484acd79b360c1f8d397d371fdf14969048cbf8ba66605ee8d3756897800f",
+              "0206fb3ccbd90d61eb677033f29b44ede0cedfdfd66d89beb07b4a61090391a6",
+              "0bb8e4151be7e60390a28f54e4491511357fcfd625d2678ff56ec864cb1b9483"
+            ],
+            "supporting_motifs": [
+              "Load",
+              "Distribution",
+              "Concentration",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-007",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "LOAD_TRANSFER"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "LOAD_TRANSFER"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "RESOURCE_DEPLETION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "053ef09708e288b73214c0db6e084554beeffcd72b52fa1afb67d364cbec17d7",
+              "0b95a006246994950e58278331eb1552c45928436ba0af504019d1ad18819181",
+              "1545cbeaf66ba1b8127c641647b8d6dadd77bba9b392d6a2c7786894e5d60cf4"
+            ],
+            "supporting_motifs": [
+              "Resource",
+              "Consumption",
+              "Scarcity",
+              "Exhaustion"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-008",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "RESOURCE_DEPLETION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "RESOURCE_DEPLETION"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "FEEDBACK",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "05a6d920e75b84801de2f2e4a8fe3701f0179206277d597ae1a08b75b814ac1a",
+              "0657b1e49c371b9874f2be17dbd4feb3b890e83c114ef2d50f79b03ffedc596e",
+              "070205bade59a3e1bbbf1f693f0c889d78c982e37637521ac0b236561840746e"
+            ],
+            "supporting_motifs": [
+              "Signal",
+              "Loop",
+              "Response",
+              "Reinforcement"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-009",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "FEEDBACK"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "FEEDBACK"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "DIFFUSION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "01a3d43a3d712aa8f549a19e2f54f774ec896139c17e4d4894bfee395a713263",
+              "0886a568d499bdc308a1b5950cdad130fd8023b1c8e2cc85921b78a68ca2188b",
+              "1592b4cb45064075d10258de9030b2e184720f66de1633c21b8914c25534b8ef"
+            ],
+            "supporting_motifs": [
+              "Source",
+              "Gradient",
+              "Spread",
+              "Dilution"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-010",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "DIFFUSION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "DIFFUSION"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "FLOW",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "117edbb2b4e7ea6f8a55a50313d3adf01e7957393ca406be0834a102a5e66f01",
+              "1b4021a178042f4afb18cd5fb7ad8e425f28c0e4df066d74e809b5c9a0dee6c6",
+              "35ccf43f7f204e9f23db3221f33a9d5bfbd6e905ae9eece37cee327f288cf846"
+            ],
+            "supporting_motifs": [
+              "Source",
+              "Path",
+              "Resistance",
+              "Flow"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-011",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "FLOW"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "FLOW"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "SUPPORTED_ROTATION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "022ffbe9ba5d9aa24a9be853cdbcb9953e6a6665784fc6fe82f858ddedf11bf4",
+              "031e227b7390752847036d1e5668e7272aea12408c277886f1a5d79ca8dff6a4",
+              "07564756464304da2cdca82b7da0c2e5bc7b0d9fcc5be41ee915f023cbff545c"
+            ],
+            "supporting_motifs": [
+              "Rotation",
+              "Support",
+              "Friction",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-012",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "SUPPORTED_ROTATION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "SUPPORTED_ROTATION"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "LOAD_TRANSFER",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "00a484acd79b360c1f8d397d371fdf14969048cbf8ba66605ee8d3756897800f",
+              "0206fb3ccbd90d61eb677033f29b44ede0cedfdfd66d89beb07b4a61090391a6",
+              "0bb8e4151be7e60390a28f54e4491511357fcfd625d2678ff56ec864cb1b9483"
+            ],
+            "supporting_motifs": [
+              "Load",
+              "Distribution",
+              "Concentration",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-013",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "LOAD_TRANSFER"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "LOAD_TRANSFER"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "FEEDBACK",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "05a6d920e75b84801de2f2e4a8fe3701f0179206277d597ae1a08b75b814ac1a",
+              "0657b1e49c371b9874f2be17dbd4feb3b890e83c114ef2d50f79b03ffedc596e",
+              "070205bade59a3e1bbbf1f693f0c889d78c982e37637521ac0b236561840746e"
+            ],
+            "supporting_motifs": [
+              "Signal",
+              "Loop",
+              "Response",
+              "Reinforcement"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-014",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "FEEDBACK"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "FEEDBACK"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "OSCILLATION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "0652a9868245ebabfcad2eb4e10f51f76cd6f105d48fd95b2f2d622075027959",
+              "0a71aeaac2aeae74f232313b7781e58dbce8f35ffeac74054e764518dc963b44",
+              "0e1f8cc5687ef6e652367257d277591b8ba839e0eb90a36f6ac30aa497cc85e5"
+            ],
+            "supporting_motifs": [
+              "State",
+              "Delay",
+              "Overshoot",
+              "Cycle"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-015",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "OSCILLATION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "OSCILLATION"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "DIFFUSION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "01a3d43a3d712aa8f549a19e2f54f774ec896139c17e4d4894bfee395a713263",
+              "0886a568d499bdc308a1b5950cdad130fd8023b1c8e2cc85921b78a68ca2188b",
+              "1592b4cb45064075d10258de9030b2e184720f66de1633c21b8914c25534b8ef"
+            ],
+            "supporting_motifs": [
+              "Source",
+              "Gradient",
+              "Spread",
+              "Dilution"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-016",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "DIFFUSION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "DIFFUSION"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "FLOW",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "117edbb2b4e7ea6f8a55a50313d3adf01e7957393ca406be0834a102a5e66f01",
+              "1b4021a178042f4afb18cd5fb7ad8e425f28c0e4df066d74e809b5c9a0dee6c6",
+              "35ccf43f7f204e9f23db3221f33a9d5bfbd6e905ae9eece37cee327f288cf846"
+            ],
+            "supporting_motifs": [
+              "Source",
+              "Path",
+              "Resistance",
+              "Flow"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-017",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "FLOW"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "FLOW"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "SUPPORTED_ROTATION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "031e227b7390752847036d1e5668e7272aea12408c277886f1a5d79ca8dff6a4",
+              "34555225c582a09e9bd95e6f0b40aef6c43ffa61a39129c931582e2e112c2dc5",
+              "3467c34435512f4e4304dfe24cf81c2e960d0a0ededafd825f980b33ed5e1b55"
+            ],
+            "supporting_motifs": [
+              "Rotation",
+              "Support",
+              "Friction",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-018",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "SUPPORTED_ROTATION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "SUPPORTED_ROTATION"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "LOAD_TRANSFER",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "00a484acd79b360c1f8d397d371fdf14969048cbf8ba66605ee8d3756897800f",
+              "0206fb3ccbd90d61eb677033f29b44ede0cedfdfd66d89beb07b4a61090391a6",
+              "0bb8e4151be7e60390a28f54e4491511357fcfd625d2678ff56ec864cb1b9483"
+            ],
+            "supporting_motifs": [
+              "Load",
+              "Distribution",
+              "Concentration",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-019",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "LOAD_TRANSFER"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "LOAD_TRANSFER"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "FEEDBACK",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "05a6d920e75b84801de2f2e4a8fe3701f0179206277d597ae1a08b75b814ac1a",
+              "0657b1e49c371b9874f2be17dbd4feb3b890e83c114ef2d50f79b03ffedc596e",
+              "070205bade59a3e1bbbf1f693f0c889d78c982e37637521ac0b236561840746e"
+            ],
+            "supporting_motifs": [
+              "Signal",
+              "Loop",
+              "Response",
+              "Reinforcement"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-020",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "FEEDBACK"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "FEEDBACK"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "RESOURCE_DEPLETION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "053ef09708e288b73214c0db6e084554beeffcd72b52fa1afb67d364cbec17d7",
+              "0b95a006246994950e58278331eb1552c45928436ba0af504019d1ad18819181",
+              "1545cbeaf66ba1b8127c641647b8d6dadd77bba9b392d6a2c7786894e5d60cf4"
+            ],
+            "supporting_motifs": [
+              "Resource",
+              "Consumption",
+              "Scarcity",
+              "Exhaustion"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-021",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "RESOURCE_DEPLETION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "RESOURCE_DEPLETION"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "THRESHOLD",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "082723aae31cb8121ac089b8ede85ae1595f972ff2dfc033193d115aa83781cb",
+              "0d363a477cbb8ae66ba5a7ca79abc3ea223238fd03cf0f830ac553dcca8a853a",
+              "1d816d3fd182891f101ae3f6267e36dec6e81d35bf195f78d1c13bb738beafd3"
+            ],
+            "supporting_motifs": [
+              "Accumulation",
+              "Limit",
+              "Trigger",
+              "StateChange"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-022",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "THRESHOLD"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "THRESHOLD"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "FLOW",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "117edbb2b4e7ea6f8a55a50313d3adf01e7957393ca406be0834a102a5e66f01",
+              "1b4021a178042f4afb18cd5fb7ad8e425f28c0e4df066d74e809b5c9a0dee6c6",
+              "35ccf43f7f204e9f23db3221f33a9d5bfbd6e905ae9eece37cee327f288cf846"
+            ],
+            "supporting_motifs": [
+              "Source",
+              "Path",
+              "Resistance",
+              "Flow"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-023",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "FLOW"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "FLOW"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "LOAD_TRANSFER",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "00a484acd79b360c1f8d397d371fdf14969048cbf8ba66605ee8d3756897800f",
+              "0206fb3ccbd90d61eb677033f29b44ede0cedfdfd66d89beb07b4a61090391a6",
+              "0bb8e4151be7e60390a28f54e4491511357fcfd625d2678ff56ec864cb1b9483"
+            ],
+            "supporting_motifs": [
+              "Load",
+              "Distribution",
+              "Concentration",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-024",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "LOAD_TRANSFER"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "LOAD_TRANSFER"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "SUPPORTED_ROTATION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "022ffbe9ba5d9aa24a9be853cdbcb9953e6a6665784fc6fe82f858ddedf11bf4",
+              "031e227b7390752847036d1e5668e7272aea12408c277886f1a5d79ca8dff6a4",
+              "07564756464304da2cdca82b7da0c2e5bc7b0d9fcc5be41ee915f023cbff545c"
+            ],
+            "supporting_motifs": [
+              "Rotation",
+              "Support",
+              "Friction",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-025",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "SUPPORTED_ROTATION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "SUPPORTED_ROTATION"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "OSCILLATION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "0e1f8cc5687ef6e652367257d277591b8ba839e0eb90a36f6ac30aa497cc85e5",
+              "263a3f351d22e87aed0c60f3b3722adb1ddc0c7af5596fa6b91b4cc616ed4158",
+              "38dc29a27faa02e62d12dadc6e456e961191d12f71deceb167af527a91739a30"
+            ],
+            "supporting_motifs": [
+              "State",
+              "Delay",
+              "Overshoot",
+              "Cycle"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-026",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "OSCILLATION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "OSCILLATION"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "LOAD_TRANSFER",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "00a484acd79b360c1f8d397d371fdf14969048cbf8ba66605ee8d3756897800f",
+              "0206fb3ccbd90d61eb677033f29b44ede0cedfdfd66d89beb07b4a61090391a6",
+              "0bb8e4151be7e60390a28f54e4491511357fcfd625d2678ff56ec864cb1b9483"
+            ],
+            "supporting_motifs": [
+              "Load",
+              "Distribution",
+              "Concentration",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-027",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "LOAD_TRANSFER"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "LOAD_TRANSFER"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "FEEDBACK",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "05a6d920e75b84801de2f2e4a8fe3701f0179206277d597ae1a08b75b814ac1a",
+              "0657b1e49c371b9874f2be17dbd4feb3b890e83c114ef2d50f79b03ffedc596e",
+              "070205bade59a3e1bbbf1f693f0c889d78c982e37637521ac0b236561840746e"
+            ],
+            "supporting_motifs": [
+              "Signal",
+              "Loop",
+              "Response",
+              "Reinforcement"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-028",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "FEEDBACK"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "FEEDBACK"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "BUFFERING",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "0003a53aaef1b3d66201964492b17e95d53ad889d9c21e15d852645f98f6a4dd",
+              "0bd931e7f1a523c746db890e9163c3c542dabcfe1ce7038c41181dc63ce2dc8d",
+              "10d846fbcd3fbe85730cc3fd265076e583e728d6ddf4cbb3f78d0ffca658a0e5"
+            ],
+            "supporting_motifs": [
+              "Input",
+              "Buffer",
+              "Absorption",
+              "Delay"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-029",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "BUFFERING"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "BUFFERING"
+        ]
+      },
+      {
+        "candidate_pathways": [
+          {
+            "pathway": "SUPPORTED_ROTATION",
+            "reason": "Single mechanism retained as a component of the recalled combination, not a final answer.",
+            "supporting_lineage_hashes": [
+              "022ffbe9ba5d9aa24a9be853cdbcb9953e6a6665784fc6fe82f858ddedf11bf4",
+              "031e227b7390752847036d1e5668e7272aea12408c277886f1a5d79ca8dff6a4",
+              "07564756464304da2cdca82b7da0c2e5bc7b0d9fcc5be41ee915f023cbff545c"
+            ],
+            "supporting_motifs": [
+              "Rotation",
+              "Support",
+              "Friction",
+              "Failure"
+            ],
+            "weight": 1.0
+          }
+        ],
+        "case_id": "P037-RC-030",
+        "combination_depth": 1,
+        "confidence": 0.4,
+        "group": "B",
+        "mechanism_combinations": [
+          [
+            "SUPPORTED_ROTATION"
+          ]
+        ],
+        "status": "CANDIDATES_GENERATED",
+        "supporting_mechanisms": [
+          "SUPPORTED_ROTATION"
+        ]
+      }
+    ]
+  }
+}

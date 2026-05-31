@@ -1,0 +1,46 @@
+{
+  "claim_level": "evidence_backed",
+  "disallowed_claims": [
+    "Proof 042 proves cognition.",
+    "All deterministic scoring explanations are eliminated.",
+    "Candidate generation no longer explains any result.",
+    "Blind evaluation is human-independent."
+  ],
+  "inside_voice_adapter_status": "pond_backed",
+  "lineage": {
+    "candidate_status": "eligible",
+    "contract_version": "inside_voice_mcp_contract/0.2",
+    "derived_from": "Proof 041 activation field, Proof 041 interaction logic, and byte-identical Proof 041 composite cases.",
+    "mcp_endpoint": "not rerun; Proof 041 pond-backed activation consults reused",
+    "request_hash": "78b3a4d8a339ebc2635c9920edbf6e01303f1873e8bf4e407c52e027b96ff970",
+    "response_hash": "1de8fa9e7d4c33be985e427e342a101c21cb05ab4b3596fb8f8f6ca6302f44c0",
+    "validates": "STRONG_SIGNAL"
+  },
+  "proof_id": "042-blind-composite-evaluation-study",
+  "public_private_boundary": "Public-safe artifacts record score-free candidate sets, selected pathway ids, aggregate evaluator agreement, and hostile audit.",
+  "required_artifacts": [
+    "README.md",
+    "proof_manifest.json",
+    "tests/composite_pathway_cases.jsonl",
+    "mcp/activation_consults.jsonl",
+    "mcp/pond_state_manifest.json",
+    "results/composite_candidates.json",
+    "results/blind_candidate_set.json",
+    "results/evaluation_modes.json",
+    "analysis/evaluator_agreement.json",
+    "analysis/composite_necessity_audit.json",
+    "analysis/pathway_independence_audit.json",
+    "analysis/hostile_blind_evaluation_audit.json"
+  ],
+  "status": "complete",
+  "targets": [
+    "CandidateGeneration",
+    "BlindCandidateSet",
+    "IndependentEvaluation",
+    "EvaluatorAgreement",
+    "CompositeNecessityAudit",
+    "PathwayIndependenceAudit",
+    "HostileBlindEvaluationAudit"
+  ],
+  "title": "Proof 042 - Blind Composite Evaluation Study"
+}

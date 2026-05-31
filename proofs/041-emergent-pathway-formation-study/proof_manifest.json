@@ -1,0 +1,47 @@
+{
+  "claim_level": "evidence_backed",
+  "disallowed_claims": [
+    "Proof 041 proves cognition.",
+    "Composite formation is independent of deterministic scoring.",
+    "Preserving candidates alone solves composite cases.",
+    "Case construction bias is eliminated."
+  ],
+  "inside_voice_adapter_status": "pond_backed",
+  "lineage": {
+    "candidate_status": "eligible",
+    "contract_version": "inside_voice_mcp_contract/0.2",
+    "derived_from": "Proof 037 mechanism catalog, Proof 038 activation-only mode, and Proof 040 pond state.",
+    "mcp_endpoint": "in_process_tools.integrations.inside_voice_mcp_server.process_consult_request",
+    "request_hash": "78b3a4d8a339ebc2635c9920edbf6e01303f1873e8bf4e407c52e027b96ff970",
+    "response_hash": "64c8afa98fbc8277d3b52cce89e68e476d93d092486d6783c9f40044501574c7",
+    "validates": "WEAK_SIGNAL"
+  },
+  "proof_id": "041-emergent-pathway-formation-study",
+  "public_private_boundary": "Public-safe artifacts record composite cases, activation field, motifs, lineages, lineage hashes, and aggregate emergence metrics.",
+  "required_artifacts": [
+    "README.md",
+    "proof_manifest.json",
+    "analysis/single_mechanism_capability_map.json",
+    "tests/composite_pathway_cases.jsonl",
+    "mcp/pond_state_manifest.json",
+    "mcp/activation_consults.jsonl",
+    "results/activation_field.json",
+    "baseline/single_mechanism_results.json",
+    "baseline/preservation_only_results.json",
+    "results/composite_pathways.json",
+    "analysis/emergence_audit.json",
+    "analysis/emergent_pathway_metrics.json",
+    "analysis/hostile_emergence_audit.json"
+  ],
+  "status": "complete",
+  "targets": [
+    "SingleMechanismBaseline",
+    "CompositeCases",
+    "ActivationCapture",
+    "PreservationOnlyBaseline",
+    "CompositePathwayFormation",
+    "EmergenceAudit",
+    "HostileEmergenceAudit"
+  ],
+  "title": "Proof 041 - Emergent Pathway Formation Study"
+}

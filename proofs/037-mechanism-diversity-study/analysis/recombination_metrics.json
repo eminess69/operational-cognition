@@ -1,0 +1,11 @@
+{
+  "group_a_candidate_diversity": 1.0,
+  "group_a_combination_depth": 1.0,
+  "group_a_premature_convergence": 1.0,
+  "group_a_valid_candidate_rate": 0.0,
+  "group_b_candidate_diversity": 1.0,
+  "group_b_combination_depth": 1.0,
+  "group_b_premature_convergence": 1.0,
+  "group_b_valid_candidate_rate": 0.0,
+  "improvement_delta": 0.0
+}

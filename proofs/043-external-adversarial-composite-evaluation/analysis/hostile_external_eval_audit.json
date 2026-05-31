@@ -1,0 +1,50 @@
+{
+  "attacks": [
+    {
+      "attack": "evaluator leakage",
+      "finding": "Evaluation pack excludes expected labels, scores, activation weights, confidence, and original validity fields."
+    },
+    {
+      "attack": "LLM bias",
+      "finding": "Preserved because Mode C is a recorded Codex adversarial review, not a separately authenticated outside service."
+    },
+    {
+      "attack": "wording leakage",
+      "finding": "Preserved because candidate mechanism labels are visible to all evaluators."
+    },
+    {
+      "attack": "pathway inflation",
+      "finding": "181 candidates survived two or more modes; inflation remains possible."
+    },
+    {
+      "attack": "rubric weakness",
+      "finding": "Mitigated by requiring mechanism necessity, observation support, interaction, and falsifier fields."
+    },
+    {
+      "attack": "candidate-generation artifacts",
+      "finding": "Preserved because Proof 043 does not regenerate candidates."
+    },
+    {
+      "attack": "same-code evaluator contamination",
+      "finding": "Preserved for deterministic modes and recorded Codex review."
+    }
+  ],
+  "external_validity_survives": true,
+  "hostile_verdict": "WEAK_SIGNAL",
+  "invalidated_claims": [
+    "Proof 043 proves cognition.",
+    "The evaluation is fully external to Codex.",
+    "Candidate-generation bias has been eliminated.",
+    "Mechanism label wording cannot explain any survival.",
+    "All surviving candidates are true composites rather than pathway inflation artifacts."
+  ],
+  "remaining_evaluator_bias_explanation": true,
+  "remaining_generator_bias_explanation": true,
+  "remaining_llm_bias_explanation": true,
+  "remaining_same_code_evaluator_contamination": true,
+  "remaining_wording_leakage_explanation": true,
+  "surviving_claims": [
+    "A meaningful subset of stripped composite candidates survived two or more evaluator modes.",
+    "Original internal scores and expected labels are not needed for those surviving votes."
+  ]
+}

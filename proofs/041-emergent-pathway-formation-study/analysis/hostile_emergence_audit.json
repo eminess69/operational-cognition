@@ -1,0 +1,53 @@
+{
+  "attacks": [
+    {
+      "attack": "pathway inflation",
+      "finding": "Composite pathways are capped at 6 per case."
+    },
+    {
+      "attack": "fake recombination",
+      "finding": "Rejected only for pathways with at least two required mechanisms and traceable lineages/hashes."
+    },
+    {
+      "attack": "single-mechanism rewrites",
+      "finding": "Single-mechanism attempts are explicitly scored invalid for composite cases."
+    },
+    {
+      "attack": "obvious prompt leakage",
+      "finding": "Forbidden-term scan found no direct mechanism labels."
+    },
+    {
+      "attack": "scoring artifacts",
+      "finding": "Bounded. The composite arm uses deterministic interaction scoring over activation weights and support evidence."
+    },
+    {
+      "attack": "post-hoc composition",
+      "finding": "Expected labels are used only after activated mechanisms and composite pathways are generated."
+    },
+    {
+      "attack": "unsupported mechanism combinations",
+      "finding": "Rejected if a pathway lacks motifs, lineages, or lineage hashes."
+    },
+    {
+      "attack": "case construction bias",
+      "finding": "Survives in bounded form because cases are deliberately composite-specific."
+    }
+  ],
+  "hostile_verdict": "WEAK_SIGNAL",
+  "invalidated_claims": [
+    "Proof 041 proves cognition.",
+    "All scoring-artifact explanations are eliminated.",
+    "Composite-specific case construction has no effect.",
+    "Every activated mechanism combination is valid."
+  ],
+  "prompt_leakage_cases": [],
+  "remaining_preservation_only_explanation": false,
+  "remaining_prompt_leakage_explanation": false,
+  "remaining_scoring_artifact_explanation": true,
+  "surviving_claims": [
+    "Composite pathways beat single-mechanism and preservation-only baselines.",
+    "True composite pathways are supported by motifs, lineages, and lineage hashes.",
+    "Prompt-label leakage was not found by forbidden-term scan."
+  ],
+  "true_recombination_survives": true
+}

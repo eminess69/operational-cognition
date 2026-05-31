@@ -1,0 +1,48 @@
+{
+  "claim_level": "evidence_backed",
+  "disallowed_claims": [
+    "Proof 038 proves cognition.",
+    "Activation weights are independent of deterministic scoring.",
+    "Activation-only overlap is final mechanism discovery.",
+    "Shared motifs imply shared lineage identity."
+  ],
+  "inside_voice_adapter_status": "pond_backed",
+  "lineage": {
+    "candidate_status": "eligible",
+    "contract_version": "inside_voice_mcp_contract/0.2",
+    "derived_from": "Proof 037 mechanism set, Proof 037 recombination cases, activation_only MCP mode.",
+    "mcp_endpoint": "in_process_tools.integrations.inside_voice_mcp_server.process_consult_request",
+    "request_hash": "08aa14ac5fdfb7c4ef13389f976f759d52bfb98e346bc6930d162c7b73d4bc02",
+    "response_hash": "0b622bb2b3b73d24ab3f65f6b6089c4deb649e2e46dbc13bd520f39219518632",
+    "validates": "STRONG_SIGNAL"
+  },
+  "proof_id": "038-mechanism-field-activation-study",
+  "public_private_boundary": "Public-safe proof artifacts record activation weights, motifs, lineage refs, hashes, and aggregate overlap metrics.",
+  "required_artifacts": [
+    "README.md",
+    "proof_manifest.json",
+    "tests/activation_cases.jsonl",
+    "mcp/pond_state_manifest.json",
+    "mcp/seasoning_log.jsonl",
+    "mcp/activation_consults.jsonl",
+    "mcp/current_recall_consults.jsonl",
+    "results/activation_field.json",
+    "baseline/current_recall_winner_take_all.json",
+    "baseline/activation_field_summary.json",
+    "analysis/activation_overlap_metrics.json",
+    "analysis/ranking_transition.json",
+    "analysis/harmonic_activation_audit.json",
+    "analysis/hostile_activation_audit.json"
+  ],
+  "status": "complete",
+  "targets": [
+    "ActivationOnlyConsultMode",
+    "MechanismFieldActivation",
+    "Proof037CaseReplay",
+    "DelayedRanking",
+    "WinnerTakeAllBaseline",
+    "HarmonicActivationAudit",
+    "HostileActivationAudit"
+  ],
+  "title": "Proof 038 - Mechanism Field Activation Study"
+}

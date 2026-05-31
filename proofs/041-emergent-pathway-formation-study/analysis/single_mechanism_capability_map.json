@@ -1,0 +1,272 @@
+[
+  {
+    "can_explain_alone": [
+      "source-to-output passage",
+      "route restriction",
+      "throughput decline from resistance"
+    ],
+    "cannot_explain_alone": [
+      "delayed reserve absorption",
+      "returning signal reinforcement",
+      "state change after a limit",
+      "capacity drain"
+    ],
+    "expected_observations": [
+      "upstream/downstream contrast",
+      "narrow route",
+      "backlog",
+      "output starvation"
+    ],
+    "failure_boundary": [
+      "If the case requires reserve, return signal, or limit crossing, FLOW alone is insufficient."
+    ],
+    "mechanism": "FLOW"
+  },
+  {
+    "can_explain_alone": [
+      "turning part drag",
+      "rough pivot",
+      "friction rise",
+      "lockup"
+    ],
+    "cannot_explain_alone": [
+      "spread from source",
+      "offsetting controller action",
+      "capacity exhaustion",
+      "stored queue buildup"
+    ],
+    "expected_observations": [
+      "turning",
+      "drag",
+      "roughness",
+      "seizure or lock"
+    ],
+    "failure_boundary": [
+      "If the case requires external spread or controller offset, SUPPORTED_ROTATION alone is insufficient."
+    ],
+    "mechanism": "SUPPORTED_ROTATION"
+  },
+  {
+    "can_explain_alone": [
+      "force redistribution",
+      "local concentration",
+      "crack or bend at a point"
+    ],
+    "cannot_explain_alone": [
+      "temporary absorption",
+      "distributed spread",
+      "magnification loop",
+      "stored-error crossing"
+    ],
+    "expected_observations": [
+      "bracket",
+      "anchor",
+      "local stress",
+      "bend or crack"
+    ],
+    "failure_boundary": [
+      "If the case requires timing, reserve absorption, or spread, LOAD_TRANSFER alone is insufficient."
+    ],
+    "mechanism": "LOAD_TRANSFER"
+  },
+  {
+    "can_explain_alone": [
+      "return signal",
+      "looped response",
+      "self-reinforcing correction"
+    ],
+    "cannot_explain_alone": [
+      "reserve exhaustion",
+      "route restriction",
+      "crack accumulation",
+      "turning friction"
+    ],
+    "expected_observations": [
+      "return signal",
+      "response alters next response",
+      "reinforcement"
+    ],
+    "failure_boundary": [
+      "If the case requires material buildup, capacity drain, or physical passage restriction, FEEDBACK alone is insufficient."
+    ],
+    "mechanism": "FEEDBACK"
+  },
+  {
+    "can_explain_alone": [
+      "state change after a limit",
+      "trip point",
+      "sudden switch"
+    ],
+    "cannot_explain_alone": [
+      "why the limit was approached",
+      "repeating overshoot",
+      "capacity drain after crossing"
+    ],
+    "expected_observations": [
+      "until",
+      "critical point",
+      "limit",
+      "sudden change"
+    ],
+    "failure_boundary": [
+      "If the case requires pre-crossing buildup and post-crossing dynamics, THRESHOLD alone is insufficient."
+    ],
+    "mechanism": "THRESHOLD"
+  },
+  {
+    "can_explain_alone": [
+      "stored work",
+      "piles up",
+      "gradual collection",
+      "buildup"
+    ],
+    "cannot_explain_alone": [
+      "why release repeats",
+      "why a route starves",
+      "why a return signal reinforces decline"
+    ],
+    "expected_observations": [
+      "build",
+      "collect",
+      "stock",
+      "overflow"
+    ],
+    "failure_boundary": [
+      "If the case requires a trigger, route restriction, or return loop, ACCUMULATION alone is insufficient."
+    ],
+    "mechanism": "ACCUMULATION"
+  },
+  {
+    "can_explain_alone": [
+      "spread from source",
+      "gradient movement",
+      "trace appearing across neighbors"
+    ],
+    "cannot_explain_alone": [
+      "magnification at relays",
+      "reserve exhaustion",
+      "local force concentration"
+    ],
+    "expected_observations": [
+      "source",
+      "spread",
+      "gradient",
+      "across regions"
+    ],
+    "failure_boundary": [
+      "If the case requires gain, reserve, or structural failure, DIFFUSION alone is insufficient."
+    ],
+    "mechanism": "DIFFUSION"
+  },
+  {
+    "can_explain_alone": [
+      "repeated swing",
+      "overshoot/undershoot",
+      "periodic pulses"
+    ],
+    "cannot_explain_alone": [
+      "why material piles first",
+      "why a route narrows",
+      "why capacity drains"
+    ],
+    "expected_observations": [
+      "pulse",
+      "repeat",
+      "overshoot",
+      "undershoot",
+      "rhythm"
+    ],
+    "failure_boundary": [
+      "If the case requires buildup, route restriction, or capacity drain, OSCILLATION alone is insufficient."
+    ],
+    "mechanism": "OSCILLATION"
+  },
+  {
+    "can_explain_alone": [
+      "temporary absorption",
+      "reserve absorbs variation",
+      "slack smooths demand"
+    ],
+    "cannot_explain_alone": [
+      "why the reserve drains",
+      "why output starves through a route",
+      "why a return loop accelerates decline"
+    ],
+    "expected_observations": [
+      "reserve",
+      "slack",
+      "cushion",
+      "temporary stability"
+    ],
+    "failure_boundary": [
+      "If the case requires post-reserve collapse, BUFFERING alone is insufficient."
+    ],
+    "mechanism": "BUFFERING"
+  },
+  {
+    "can_explain_alone": [
+      "capacity drain",
+      "fuel or staff exhaustion",
+      "scarcity after use"
+    ],
+    "cannot_explain_alone": [
+      "why demand is redirected",
+      "why decline accelerates from a return signal",
+      "why a boundary is crossed"
+    ],
+    "expected_observations": [
+      "capacity drains",
+      "fuel falls",
+      "exhausted reserve",
+      "scarcity"
+    ],
+    "failure_boundary": [
+      "If the case requires route, loop, or limit mechanics, RESOURCE_DEPLETION alone is insufficient."
+    ],
+    "mechanism": "RESOURCE_DEPLETION"
+  },
+  {
+    "can_explain_alone": [
+      "magnified signal",
+      "relay gain",
+      "cascading escalation"
+    ],
+    "cannot_explain_alone": [
+      "why a signal returns",
+      "why material spreads",
+      "why capacity drains"
+    ],
+    "expected_observations": [
+      "magnify",
+      "gain",
+      "cascade",
+      "accelerate"
+    ],
+    "failure_boundary": [
+      "If the case requires source spread, return signal, or reserve drain, AMPLIFICATION alone is insufficient."
+    ],
+    "mechanism": "AMPLIFICATION"
+  },
+  {
+    "can_explain_alone": [
+      "offsetting action",
+      "backup routine",
+      "masking deviation"
+    ],
+    "cannot_explain_alone": [
+      "hidden buildup after masking",
+      "capacity drain after offset",
+      "repeating overshoot"
+    ],
+    "expected_observations": [
+      "offset",
+      "backup",
+      "mask",
+      "maintain"
+    ],
+    "failure_boundary": [
+      "If the case requires the masked quantity to build, drain, or repeat, COMPENSATION alone is insufficient."
+    ],
+    "mechanism": "COMPENSATION"
+  }
+]

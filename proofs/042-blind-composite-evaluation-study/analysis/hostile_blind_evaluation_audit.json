@@ -1,0 +1,50 @@
+{
+  "attacks": [
+    {
+      "attack": "scoring leakage",
+      "finding": "Blind candidate artifacts omit internal scores, activation weights, expected labels, ranking, and confidence."
+    },
+    {
+      "attack": "candidate-order effects",
+      "finding": "Mode B/Mode C exact agreement was 0.9667."
+    },
+    {
+      "attack": "expected-label contamination",
+      "finding": "Expected labels are used only after evaluator selection to compute validity."
+    },
+    {
+      "attack": "pathway inflation",
+      "finding": "Full candidate set false-composite rate was 0.3311."
+    },
+    {
+      "attack": "evaluator bias",
+      "finding": "Survives: the blind evaluator uses a deterministic observation-cue map."
+    },
+    {
+      "attack": "post-hoc ranking",
+      "finding": "Mode C selects from the score-free candidate set before expected labels are consulted."
+    }
+  ],
+  "candidate_set_audit": {
+    "average_candidates_per_case": 24.4667,
+    "false_composite_candidate_rate": 0.3311,
+    "total_candidates": 734,
+    "true_composite_candidate_rate": 0.2466,
+    "unsupported_candidate_count": 0
+  },
+  "hostile_verdict": "STRONG_SIGNAL",
+  "invalidated_claims": [
+    "Proof 042 proves cognition.",
+    "All scoring explanations are eliminated.",
+    "Candidate generation itself is not doing the main work.",
+    "The blind evaluator is free of deterministic bias."
+  ],
+  "remaining_candidate_generation_explanation": true,
+  "remaining_evaluator_bias_explanation": true,
+  "remaining_scoring_explanation": false,
+  "surviving_claims": [
+    "Composite candidates remain useful after internal score removal.",
+    "Candidate ordering is not the dominant explanation.",
+    "The internal Proof 041 scoring formula is not required for Mode C selection."
+  ]
+}

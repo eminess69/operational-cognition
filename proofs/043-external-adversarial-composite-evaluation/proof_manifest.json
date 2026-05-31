@@ -1,0 +1,46 @@
+{
+  "claim_level": "evidence_backed",
+  "disallowed_claims": [
+    "Proof 043 proves cognition.",
+    "Evaluation is fully independent of Codex.",
+    "Candidate generation bias is eliminated.",
+    "Mechanism wording leakage is eliminated."
+  ],
+  "inside_voice_adapter_status": "not_applicable_replay",
+  "lineage": {
+    "candidate_status": "eligible",
+    "contract_version": "inside_voice_mcp_contract/0.2",
+    "derived_from": "Proof 042 stripped blind candidate set copied byte-for-byte into input/blind_candidate_set.json.",
+    "mcp_endpoint": "not used; replay evaluation only",
+    "request_hash": "28af13bb991de468d76bbcbeccbcfc12dbc899eb8132899985d42ad3ca77b4ac",
+    "response_hash": "bd679f57971f8fddb04ca0935ad6d1d2c36275fd192c070cc698fd1ea868f9bb",
+    "validates": "WEAK_SIGNAL"
+  },
+  "proof_id": "043-external-adversarial-composite-evaluation",
+  "public_private_boundary": "Public-safe artifacts record stripped candidate input, adversarial evaluator outputs, consensus survival metrics, and hostile audit.",
+  "required_artifacts": [
+    "README.md",
+    "proof_manifest.json",
+    "input/blind_candidate_set.json",
+    "external_eval/evaluation_pack.json",
+    "external_eval/adversarial_rubric.md",
+    "external_eval/mode_a_results.json",
+    "external_eval/mode_b_results.json",
+    "external_eval/mode_c_results.json",
+    "external_eval/mode_c_prompt.md",
+    "external_eval/mode_c_response.json",
+    "analysis/external_eval_metrics.json",
+    "analysis/consensus_surviving_composites.json",
+    "analysis/hostile_external_eval_audit.json"
+  ],
+  "status": "complete",
+  "targets": [
+    "ExternalEvaluationPack",
+    "AdversarialRubric",
+    "ThreeEvaluatorModes",
+    "AgreementAndSurvivalMetrics",
+    "ConsensusSurvivalSet",
+    "HostileExternalEvalAudit"
+  ],
+  "title": "Proof 043 - External Adversarial Composite Evaluation"
+}

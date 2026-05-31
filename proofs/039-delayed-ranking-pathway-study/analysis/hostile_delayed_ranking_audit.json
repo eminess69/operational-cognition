@@ -1,0 +1,44 @@
+{
+  "attacks": [
+    {
+      "attack": "artificial pathway inflation",
+      "finding": "Controlled by top mechanism and candidate caps."
+    },
+    {
+      "attack": "combinatorial explosion",
+      "finding": "Controlled by capping activation mechanisms at 6 and ranked candidates at 5."
+    },
+    {
+      "attack": "fake recombination",
+      "finding": "Partially rejected by traceable activation lineages on every ranked pathway."
+    },
+    {
+      "attack": "scoring artifacts",
+      "finding": "Survives. Interaction ranking is deterministic over activation weights and motif overlap."
+    },
+    {
+      "attack": "post-hoc validation",
+      "finding": "Metrics use expected labels only after interaction candidates and delayed ranking are generated."
+    },
+    {
+      "attack": "unsupported pathway preservation",
+      "finding": "Rejected if unsupported_pathway_count is zero."
+    }
+  ],
+  "delayed_ranking_helped": true,
+  "false_combination_rate": 0.0863,
+  "hostile_verdict": "VERY_STRONG_SIGNAL",
+  "invalidated_claims": [
+    "Proof 039 proves cognition.",
+    "Delayed ranking is independent of deterministic interaction scoring.",
+    "All generated pathways are valid recombinations.",
+    "Expected mechanism labels were used during interaction generation."
+  ],
+  "remaining_inflation_explanation": false,
+  "remaining_scoring_artifact_explanation": true,
+  "surviving_claims": [
+    "Activation capture used pond-backed consults before interaction and delayed ranking.",
+    "Delayed ranking improved top-pathway valid candidate rate over immediate winner-take-all recall.",
+    "Delayed ranking preserved deeper mechanism combinations than immediate ranking."
+  ]
+}

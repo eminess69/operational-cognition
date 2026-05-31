@@ -1,0 +1,1332 @@
+{
+  "answer": false,
+  "groups": {
+    "A": {
+      "case_activations": [
+        {
+          "activated_mechanisms": [
+            "FLOW"
+          ],
+          "case_id": "P037-RC-001",
+          "expected_mechanisms": [
+            "BUFFERING",
+            "THRESHOLD",
+            "FEEDBACK",
+            "RESOURCE_DEPLETION"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Flow",
+            "Path",
+            "Resistance",
+            "Source"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "SUPPORTED_ROTATION"
+          ],
+          "case_id": "P037-RC-002",
+          "expected_mechanisms": [
+            "ACCUMULATION",
+            "THRESHOLD",
+            "OSCILLATION"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Failure",
+            "Friction",
+            "Rotation",
+            "Support"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "SUPPORTED_ROTATION"
+          ],
+          "case_id": "P037-RC-003",
+          "expected_mechanisms": [
+            "DIFFUSION",
+            "AMPLIFICATION",
+            "FEEDBACK"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Failure",
+            "Friction",
+            "Rotation",
+            "Support"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "SUPPORTED_ROTATION"
+          ],
+          "case_id": "P037-RC-004",
+          "expected_mechanisms": [
+            "COMPENSATION",
+            "ACCUMULATION",
+            "RESOURCE_DEPLETION"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Failure",
+            "Friction",
+            "Rotation",
+            "Support"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "FLOW"
+          ],
+          "case_id": "P037-RC-005",
+          "expected_mechanisms": [
+            "FLOW",
+            "BUFFERING",
+            "ACCUMULATION"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Flow",
+            "Path",
+            "Resistance",
+            "Source"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "SUPPORTED_ROTATION"
+          ],
+          "case_id": "P037-RC-006",
+          "expected_mechanisms": [
+            "SUPPORTED_ROTATION",
+            "COMPENSATION",
+            "THRESHOLD"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Failure",
+            "Friction",
+            "Rotation",
+            "Support"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "LOAD_TRANSFER"
+          ],
+          "case_id": "P037-RC-007",
+          "expected_mechanisms": [
+            "LOAD_TRANSFER",
+            "ACCUMULATION",
+            "THRESHOLD"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Concentration",
+            "Distribution",
+            "Failure",
+            "Load"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "SUPPORTED_ROTATION"
+          ],
+          "case_id": "P037-RC-008",
+          "expected_mechanisms": [
+            "RESOURCE_DEPLETION",
+            "FEEDBACK",
+            "AMPLIFICATION"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Failure",
+            "Friction",
+            "Rotation",
+            "Support"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "SUPPORTED_ROTATION"
+          ],
+          "case_id": "P037-RC-009",
+          "expected_mechanisms": [
+            "FEEDBACK",
+            "OSCILLATION",
+            "COMPENSATION"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Failure",
+            "Friction",
+            "Rotation",
+            "Support"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "FLOW"
+          ],
+          "case_id": "P037-RC-010",
+          "expected_mechanisms": [
+            "DIFFUSION",
+            "BUFFERING",
+            "RESOURCE_DEPLETION"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Flow",
+            "Path",
+            "Resistance",
+            "Source"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "FLOW"
+          ],
+          "case_id": "P037-RC-011",
+          "expected_mechanisms": [
+            "BUFFERING",
+            "FLOW",
+            "FEEDBACK"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Flow",
+            "Path",
+            "Resistance",
+            "Source"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "SUPPORTED_ROTATION"
+          ],
+          "case_id": "P037-RC-012",
+          "expected_mechanisms": [
+            "DIFFUSION",
+            "SUPPORTED_ROTATION",
+            "THRESHOLD"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Failure",
+            "Friction",
+            "Rotation",
+            "Support"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "LOAD_TRANSFER"
+          ],
+          "case_id": "P037-RC-013",
+          "expected_mechanisms": [
+            "COMPENSATION",
+            "ACCUMULATION",
+            "LOAD_TRANSFER"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Concentration",
+            "Distribution",
+            "Failure",
+            "Load"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "SUPPORTED_ROTATION"
+          ],
+          "case_id": "P037-RC-014",
+          "expected_mechanisms": [
+            "AMPLIFICATION",
+            "THRESHOLD",
+            "FEEDBACK"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Failure",
+            "Friction",
+            "Rotation",
+            "Support"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "SUPPORTED_ROTATION"
+          ],
+          "case_id": "P037-RC-015",
+          "expected_mechanisms": [
+            "ACCUMULATION",
+            "BUFFERING",
+            "OSCILLATION"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Failure",
+            "Friction",
+            "Rotation",
+            "Support"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "FLOW"
+          ],
+          "case_id": "P037-RC-016",
+          "expected_mechanisms": [
+            "DIFFUSION",
+            "AMPLIFICATION",
+            "RESOURCE_DEPLETION"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Flow",
+            "Path",
+            "Resistance",
+            "Source"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "FLOW"
+          ],
+          "case_id": "P037-RC-017",
+          "expected_mechanisms": [
+            "COMPENSATION",
+            "RESOURCE_DEPLETION",
+            "FLOW"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Flow",
+            "Path",
+            "Resistance",
+            "Source"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "SUPPORTED_ROTATION"
+          ],
+          "case_id": "P037-RC-018",
+          "expected_mechanisms": [
+            "SUPPORTED_ROTATION",
+            "ACCUMULATION",
+            "FEEDBACK",
+            "OSCILLATION"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Failure",
+            "Friction",
+            "Rotation",
+            "Support"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "LOAD_TRANSFER"
+          ],
+          "case_id": "P037-RC-019",
+          "expected_mechanisms": [
+            "LOAD_TRANSFER",
+            "BUFFERING",
+            "DIFFUSION",
+            "RESOURCE_DEPLETION"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Concentration",
+            "Distribution",
+            "Failure",
+            "Load"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "FLOW"
+          ],
+          "case_id": "P037-RC-020",
+          "expected_mechanisms": [
+            "FLOW",
+            "AMPLIFICATION",
+            "THRESHOLD",
+            "FEEDBACK"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Flow",
+            "Path",
+            "Resistance",
+            "Source"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "SUPPORTED_ROTATION"
+          ],
+          "case_id": "P037-RC-021",
+          "expected_mechanisms": [
+            "BUFFERING",
+            "RESOURCE_DEPLETION",
+            "FEEDBACK",
+            "AMPLIFICATION"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Failure",
+            "Friction",
+            "Rotation",
+            "Support"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "SUPPORTED_ROTATION"
+          ],
+          "case_id": "P037-RC-022",
+          "expected_mechanisms": [
+            "THRESHOLD",
+            "COMPENSATION",
+            "OSCILLATION",
+            "FEEDBACK"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Failure",
+            "Friction",
+            "Rotation",
+            "Support"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "FLOW"
+          ],
+          "case_id": "P037-RC-023",
+          "expected_mechanisms": [
+            "ACCUMULATION",
+            "DIFFUSION",
+            "FLOW"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Flow",
+            "Path",
+            "Resistance",
+            "Source"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "LOAD_TRANSFER"
+          ],
+          "case_id": "P037-RC-024",
+          "expected_mechanisms": [
+            "LOAD_TRANSFER",
+            "AMPLIFICATION",
+            "THRESHOLD"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Concentration",
+            "Distribution",
+            "Failure",
+            "Load"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "SUPPORTED_ROTATION"
+          ],
+          "case_id": "P037-RC-025",
+          "expected_mechanisms": [
+            "DIFFUSION",
+            "SUPPORTED_ROTATION",
+            "COMPENSATION",
+            "RESOURCE_DEPLETION"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Failure",
+            "Friction",
+            "Rotation",
+            "Support"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "SUPPORTED_ROTATION"
+          ],
+          "case_id": "P037-RC-026",
+          "expected_mechanisms": [
+            "ACCUMULATION",
+            "BUFFERING",
+            "OSCILLATION",
+            "FLOW"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Failure",
+            "Friction",
+            "Rotation",
+            "Support"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "LOAD_TRANSFER"
+          ],
+          "case_id": "P037-RC-027",
+          "expected_mechanisms": [
+            "DIFFUSION",
+            "COMPENSATION",
+            "LOAD_TRANSFER"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Concentration",
+            "Distribution",
+            "Failure",
+            "Load"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "SUPPORTED_ROTATION"
+          ],
+          "case_id": "P037-RC-028",
+          "expected_mechanisms": [
+            "FEEDBACK",
+            "ACCUMULATION",
+            "THRESHOLD",
+            "AMPLIFICATION"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Failure",
+            "Friction",
+            "Rotation",
+            "Support"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "SUPPORTED_ROTATION"
+          ],
+          "case_id": "P037-RC-029",
+          "expected_mechanisms": [
+            "BUFFERING",
+            "DIFFUSION",
+            "RESOURCE_DEPLETION",
+            "FEEDBACK"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Failure",
+            "Friction",
+            "Rotation",
+            "Support"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "SUPPORTED_ROTATION"
+          ],
+          "case_id": "P037-RC-030",
+          "expected_mechanisms": [
+            "SUPPORTED_ROTATION",
+            "OSCILLATION",
+            "ACCUMULATION",
+            "FLOW",
+            "THRESHOLD"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Failure",
+            "Friction",
+            "Rotation",
+            "Support"
+          ]
+        }
+      ],
+      "cross_domain_overlap": {
+        "cases_with_multiple_mechanisms": 0,
+        "surface_domains": [
+          "actuator",
+          "alerting",
+          "automation",
+          "bearing",
+          "capacity planning",
+          "channel",
+          "control system",
+          "control tuning",
+          "coordination",
+          "dispatch",
+          "energy",
+          "environment",
+          "feeder",
+          "fixture",
+          "frame",
+          "inventory",
+          "logistics",
+          "machine drive",
+          "mounting",
+          "operations",
+          "platform",
+          "rotor",
+          "routing",
+          "service desk",
+          "service queue",
+          "social spread",
+          "sorter",
+          "structure",
+          "support desk",
+          "workflow"
+        ]
+      },
+      "mechanism_reuse": {
+        "FLOW": 8,
+        "LOAD_TRANSFER": 5,
+        "SUPPORTED_ROTATION": 17
+      },
+      "pathway_convergence": {
+        "average_combination_depth": 1.0,
+        "multi_mechanism_cases": 0,
+        "single_mechanism_cases": 30
+      },
+      "shared_lineage_hashes": {
+        "reused": 118,
+        "total": 150,
+        "unique": 32
+      },
+      "shared_motifs": {
+        "Concentration": 5,
+        "Distribution": 5,
+        "Failure": 22,
+        "Flow": 8,
+        "Friction": 17,
+        "Load": 5,
+        "Path": 8,
+        "Resistance": 8,
+        "Rotation": 17,
+        "Source": 8,
+        "Support": 17
+      }
+    },
+    "B": {
+      "case_activations": [
+        {
+          "activated_mechanisms": [
+            "FEEDBACK"
+          ],
+          "case_id": "P037-RC-001",
+          "expected_mechanisms": [
+            "BUFFERING",
+            "THRESHOLD",
+            "FEEDBACK",
+            "RESOURCE_DEPLETION"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Loop",
+            "Reinforcement",
+            "Response",
+            "Signal"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "THRESHOLD"
+          ],
+          "case_id": "P037-RC-002",
+          "expected_mechanisms": [
+            "ACCUMULATION",
+            "THRESHOLD",
+            "OSCILLATION"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Accumulation",
+            "Limit",
+            "StateChange",
+            "Trigger"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "FEEDBACK"
+          ],
+          "case_id": "P037-RC-003",
+          "expected_mechanisms": [
+            "DIFFUSION",
+            "AMPLIFICATION",
+            "FEEDBACK"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Loop",
+            "Reinforcement",
+            "Response",
+            "Signal"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "RESOURCE_DEPLETION"
+          ],
+          "case_id": "P037-RC-004",
+          "expected_mechanisms": [
+            "COMPENSATION",
+            "ACCUMULATION",
+            "RESOURCE_DEPLETION"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Consumption",
+            "Exhaustion",
+            "Resource",
+            "Scarcity"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "FLOW"
+          ],
+          "case_id": "P037-RC-005",
+          "expected_mechanisms": [
+            "FLOW",
+            "BUFFERING",
+            "ACCUMULATION"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Flow",
+            "Path",
+            "Resistance",
+            "Source"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "SUPPORTED_ROTATION"
+          ],
+          "case_id": "P037-RC-006",
+          "expected_mechanisms": [
+            "SUPPORTED_ROTATION",
+            "COMPENSATION",
+            "THRESHOLD"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Failure",
+            "Friction",
+            "Rotation",
+            "Support"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "LOAD_TRANSFER"
+          ],
+          "case_id": "P037-RC-007",
+          "expected_mechanisms": [
+            "LOAD_TRANSFER",
+            "ACCUMULATION",
+            "THRESHOLD"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Concentration",
+            "Distribution",
+            "Failure",
+            "Load"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "RESOURCE_DEPLETION"
+          ],
+          "case_id": "P037-RC-008",
+          "expected_mechanisms": [
+            "RESOURCE_DEPLETION",
+            "FEEDBACK",
+            "AMPLIFICATION"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Consumption",
+            "Exhaustion",
+            "Resource",
+            "Scarcity"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "FEEDBACK"
+          ],
+          "case_id": "P037-RC-009",
+          "expected_mechanisms": [
+            "FEEDBACK",
+            "OSCILLATION",
+            "COMPENSATION"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Loop",
+            "Reinforcement",
+            "Response",
+            "Signal"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "DIFFUSION"
+          ],
+          "case_id": "P037-RC-010",
+          "expected_mechanisms": [
+            "DIFFUSION",
+            "BUFFERING",
+            "RESOURCE_DEPLETION"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Dilution",
+            "Gradient",
+            "Source",
+            "Spread"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "FLOW"
+          ],
+          "case_id": "P037-RC-011",
+          "expected_mechanisms": [
+            "BUFFERING",
+            "FLOW",
+            "FEEDBACK"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Flow",
+            "Path",
+            "Resistance",
+            "Source"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "SUPPORTED_ROTATION"
+          ],
+          "case_id": "P037-RC-012",
+          "expected_mechanisms": [
+            "DIFFUSION",
+            "SUPPORTED_ROTATION",
+            "THRESHOLD"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Failure",
+            "Friction",
+            "Rotation",
+            "Support"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "LOAD_TRANSFER"
+          ],
+          "case_id": "P037-RC-013",
+          "expected_mechanisms": [
+            "COMPENSATION",
+            "ACCUMULATION",
+            "LOAD_TRANSFER"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Concentration",
+            "Distribution",
+            "Failure",
+            "Load"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "FEEDBACK"
+          ],
+          "case_id": "P037-RC-014",
+          "expected_mechanisms": [
+            "AMPLIFICATION",
+            "THRESHOLD",
+            "FEEDBACK"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Loop",
+            "Reinforcement",
+            "Response",
+            "Signal"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "OSCILLATION"
+          ],
+          "case_id": "P037-RC-015",
+          "expected_mechanisms": [
+            "ACCUMULATION",
+            "BUFFERING",
+            "OSCILLATION"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Cycle",
+            "Delay",
+            "Overshoot",
+            "State"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "DIFFUSION"
+          ],
+          "case_id": "P037-RC-016",
+          "expected_mechanisms": [
+            "DIFFUSION",
+            "AMPLIFICATION",
+            "RESOURCE_DEPLETION"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Dilution",
+            "Gradient",
+            "Source",
+            "Spread"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "FLOW"
+          ],
+          "case_id": "P037-RC-017",
+          "expected_mechanisms": [
+            "COMPENSATION",
+            "RESOURCE_DEPLETION",
+            "FLOW"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Flow",
+            "Path",
+            "Resistance",
+            "Source"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "SUPPORTED_ROTATION"
+          ],
+          "case_id": "P037-RC-018",
+          "expected_mechanisms": [
+            "SUPPORTED_ROTATION",
+            "ACCUMULATION",
+            "FEEDBACK",
+            "OSCILLATION"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Failure",
+            "Friction",
+            "Rotation",
+            "Support"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "LOAD_TRANSFER"
+          ],
+          "case_id": "P037-RC-019",
+          "expected_mechanisms": [
+            "LOAD_TRANSFER",
+            "BUFFERING",
+            "DIFFUSION",
+            "RESOURCE_DEPLETION"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Concentration",
+            "Distribution",
+            "Failure",
+            "Load"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "FEEDBACK"
+          ],
+          "case_id": "P037-RC-020",
+          "expected_mechanisms": [
+            "FLOW",
+            "AMPLIFICATION",
+            "THRESHOLD",
+            "FEEDBACK"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Loop",
+            "Reinforcement",
+            "Response",
+            "Signal"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "RESOURCE_DEPLETION"
+          ],
+          "case_id": "P037-RC-021",
+          "expected_mechanisms": [
+            "BUFFERING",
+            "RESOURCE_DEPLETION",
+            "FEEDBACK",
+            "AMPLIFICATION"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Consumption",
+            "Exhaustion",
+            "Resource",
+            "Scarcity"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "THRESHOLD"
+          ],
+          "case_id": "P037-RC-022",
+          "expected_mechanisms": [
+            "THRESHOLD",
+            "COMPENSATION",
+            "OSCILLATION",
+            "FEEDBACK"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Accumulation",
+            "Limit",
+            "StateChange",
+            "Trigger"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "FLOW"
+          ],
+          "case_id": "P037-RC-023",
+          "expected_mechanisms": [
+            "ACCUMULATION",
+            "DIFFUSION",
+            "FLOW"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Flow",
+            "Path",
+            "Resistance",
+            "Source"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "LOAD_TRANSFER"
+          ],
+          "case_id": "P037-RC-024",
+          "expected_mechanisms": [
+            "LOAD_TRANSFER",
+            "AMPLIFICATION",
+            "THRESHOLD"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Concentration",
+            "Distribution",
+            "Failure",
+            "Load"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "SUPPORTED_ROTATION"
+          ],
+          "case_id": "P037-RC-025",
+          "expected_mechanisms": [
+            "DIFFUSION",
+            "SUPPORTED_ROTATION",
+            "COMPENSATION",
+            "RESOURCE_DEPLETION"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Failure",
+            "Friction",
+            "Rotation",
+            "Support"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "OSCILLATION"
+          ],
+          "case_id": "P037-RC-026",
+          "expected_mechanisms": [
+            "ACCUMULATION",
+            "BUFFERING",
+            "OSCILLATION",
+            "FLOW"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Cycle",
+            "Delay",
+            "Overshoot",
+            "State"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "LOAD_TRANSFER"
+          ],
+          "case_id": "P037-RC-027",
+          "expected_mechanisms": [
+            "DIFFUSION",
+            "COMPENSATION",
+            "LOAD_TRANSFER"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Concentration",
+            "Distribution",
+            "Failure",
+            "Load"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "FEEDBACK"
+          ],
+          "case_id": "P037-RC-028",
+          "expected_mechanisms": [
+            "FEEDBACK",
+            "ACCUMULATION",
+            "THRESHOLD",
+            "AMPLIFICATION"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Loop",
+            "Reinforcement",
+            "Response",
+            "Signal"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "BUFFERING"
+          ],
+          "case_id": "P037-RC-029",
+          "expected_mechanisms": [
+            "BUFFERING",
+            "DIFFUSION",
+            "RESOURCE_DEPLETION",
+            "FEEDBACK"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Absorption",
+            "Buffer",
+            "Delay",
+            "Input"
+          ]
+        },
+        {
+          "activated_mechanisms": [
+            "SUPPORTED_ROTATION"
+          ],
+          "case_id": "P037-RC-030",
+          "expected_mechanisms": [
+            "SUPPORTED_ROTATION",
+            "OSCILLATION",
+            "ACCUMULATION",
+            "FLOW",
+            "THRESHOLD"
+          ],
+          "lineage_hash_count": 5,
+          "multiple_mechanisms_activated": false,
+          "shared_motifs": [
+            "Failure",
+            "Friction",
+            "Rotation",
+            "Support"
+          ]
+        }
+      ],
+      "cross_domain_overlap": {
+        "cases_with_multiple_mechanisms": 0,
+        "surface_domains": [
+          "actuator",
+          "alerting",
+          "automation",
+          "bearing",
+          "capacity planning",
+          "channel",
+          "control system",
+          "control tuning",
+          "coordination",
+          "dispatch",
+          "energy",
+          "environment",
+          "feeder",
+          "fixture",
+          "frame",
+          "inventory",
+          "logistics",
+          "machine drive",
+          "mounting",
+          "operations",
+          "platform",
+          "rotor",
+          "routing",
+          "service desk",
+          "service queue",
+          "social spread",
+          "sorter",
+          "structure",
+          "support desk",
+          "workflow"
+        ]
+      },
+      "mechanism_reuse": {
+        "BUFFERING": 1,
+        "DIFFUSION": 2,
+        "FEEDBACK": 6,
+        "FLOW": 4,
+        "LOAD_TRANSFER": 5,
+        "OSCILLATION": 2,
+        "RESOURCE_DEPLETION": 3,
+        "SUPPORTED_ROTATION": 5,
+        "THRESHOLD": 2
+      },
+      "pathway_convergence": {
+        "average_combination_depth": 1.0,
+        "multi_mechanism_cases": 0,
+        "single_mechanism_cases": 30
+      },
+      "shared_lineage_hashes": {
+        "reused": 97,
+        "total": 150,
+        "unique": 53
+      },
+      "shared_motifs": {
+        "Absorption": 1,
+        "Accumulation": 2,
+        "Buffer": 1,
+        "Concentration": 5,
+        "Consumption": 3,
+        "Cycle": 2,
+        "Delay": 3,
+        "Dilution": 2,
+        "Distribution": 5,
+        "Exhaustion": 3,
+        "Failure": 10,
+        "Flow": 4,
+        "Friction": 5,
+        "Gradient": 2,
+        "Input": 1,
+        "Limit": 2,
+        "Load": 5,
+        "Loop": 6,
+        "Overshoot": 2,
+        "Path": 4,
+        "Reinforcement": 6,
+        "Resistance": 4,
+        "Resource": 3,
+        "Response": 6,
+        "Rotation": 5,
+        "Scarcity": 3,
+        "Signal": 6,
+        "Source": 6,
+        "Spread": 2,
+        "State": 2,
+        "StateChange": 2,
+        "Support": 5,
+        "Trigger": 2
+      }
+    }
+  },
+  "question": "Did multiple mechanisms activate together?"
+}

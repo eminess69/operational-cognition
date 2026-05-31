@@ -1,0 +1,812 @@
+[
+  {
+    "case_id": "P037-RC-001",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "FEEDBACK"
+        ],
+        "pathway": "FEEDBACK",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab",
+          "pond:feedback:29970c37fcd9a815",
+          "pond:feedback:2e4950031f09bcfa",
+          "pond:feedback:3dcc7a05c44a2ebf"
+        ],
+        "supporting_motifs": [
+          "Signal",
+          "Loop",
+          "Response",
+          "Reinforcement"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-002",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "THRESHOLD"
+        ],
+        "pathway": "THRESHOLD",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:1dbfe551705dbe5c",
+          "pond:threshold:27415f742a6cf086",
+          "pond:threshold:2daa1a842e176e28",
+          "pond:threshold:32701a3d308b3051"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Limit",
+          "Trigger",
+          "StateChange"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-003",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "FEEDBACK"
+        ],
+        "pathway": "FEEDBACK",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab",
+          "pond:feedback:29970c37fcd9a815",
+          "pond:feedback:2e4950031f09bcfa",
+          "pond:feedback:3dcc7a05c44a2ebf"
+        ],
+        "supporting_motifs": [
+          "Signal",
+          "Loop",
+          "Response",
+          "Reinforcement"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-004",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "RESOURCE_DEPLETION"
+        ],
+        "pathway": "RESOURCE_DEPLETION",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c",
+          "pond:resource_depletion:19867c05f793337d",
+          "pond:resource_depletion:19a01c2e40d07fa0",
+          "pond:resource_depletion:31665093c57cc5d3"
+        ],
+        "supporting_motifs": [
+          "Resource",
+          "Consumption",
+          "Scarcity",
+          "Exhaustion"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-005",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "FLOW"
+        ],
+        "pathway": "FLOW",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:flow:174e933edaa55697",
+          "pond:flow:1b188635f25f4a13",
+          "pond:flow:1def2c84460819fb",
+          "pond:flow:278603b18a844aa0",
+          "pond:flow:3e0228bbea0e6e1c"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Path",
+          "Resistance",
+          "Flow"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-006",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "SUPPORTED_ROTATION"
+        ],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:supported_rotation:18f72fc932ab6180",
+          "pond:supported_rotation:1de1ef328a4b75af",
+          "pond:supported_rotation:220b776cc79c1a28",
+          "pond:supported_rotation:2d2685a2a478497d",
+          "pond:supported_rotation:363ca18f7adae633"
+        ],
+        "supporting_motifs": [
+          "Rotation",
+          "Support",
+          "Friction",
+          "Failure"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-007",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "LOAD_TRANSFER"
+        ],
+        "pathway": "LOAD_TRANSFER",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:load_transfer:093852f103902af0",
+          "pond:load_transfer:100b958307e05044",
+          "pond:load_transfer:100c18cc1d1c2bf9",
+          "pond:load_transfer:18a2c08c04d4e452",
+          "pond:load_transfer:32596574151770b9"
+        ],
+        "supporting_motifs": [
+          "Load",
+          "Distribution",
+          "Concentration",
+          "Failure"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-008",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "RESOURCE_DEPLETION"
+        ],
+        "pathway": "RESOURCE_DEPLETION",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:resource_depletion:02ad5ee5193ae3c9",
+          "pond:resource_depletion:1470dfb316e6a70c",
+          "pond:resource_depletion:19867c05f793337d",
+          "pond:resource_depletion:19a01c2e40d07fa0",
+          "pond:resource_depletion:31665093c57cc5d3"
+        ],
+        "supporting_motifs": [
+          "Resource",
+          "Consumption",
+          "Scarcity",
+          "Exhaustion"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-009",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "FEEDBACK"
+        ],
+        "pathway": "FEEDBACK",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab",
+          "pond:feedback:29970c37fcd9a815",
+          "pond:feedback:2e4950031f09bcfa",
+          "pond:feedback:3dcc7a05c44a2ebf"
+        ],
+        "supporting_motifs": [
+          "Signal",
+          "Loop",
+          "Response",
+          "Reinforcement"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-010",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "DIFFUSION"
+        ],
+        "pathway": "DIFFUSION",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:diffusion:0b89588dcc61beff",
+          "pond:diffusion:1295d8896f93fcd8",
+          "pond:diffusion:1e1929a4abb9bd0d",
+          "pond:diffusion:2c005b4ef8b188dd",
+          "pond:diffusion:4e680c9bfa373666"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Gradient",
+          "Spread",
+          "Dilution"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-011",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "FLOW"
+        ],
+        "pathway": "FLOW",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:flow:174e933edaa55697",
+          "pond:flow:1b188635f25f4a13",
+          "pond:flow:1def2c84460819fb",
+          "pond:flow:278603b18a844aa0",
+          "pond:flow:3e0228bbea0e6e1c"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Path",
+          "Resistance",
+          "Flow"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-012",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "SUPPORTED_ROTATION"
+        ],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:supported_rotation:18f72fc932ab6180",
+          "pond:supported_rotation:1de1ef328a4b75af",
+          "pond:supported_rotation:220b776cc79c1a28",
+          "pond:supported_rotation:2d2685a2a478497d",
+          "pond:supported_rotation:363ca18f7adae633"
+        ],
+        "supporting_motifs": [
+          "Rotation",
+          "Support",
+          "Friction",
+          "Failure"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-013",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "LOAD_TRANSFER"
+        ],
+        "pathway": "LOAD_TRANSFER",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:load_transfer:093852f103902af0",
+          "pond:load_transfer:100b958307e05044",
+          "pond:load_transfer:100c18cc1d1c2bf9",
+          "pond:load_transfer:18a2c08c04d4e452",
+          "pond:load_transfer:32596574151770b9"
+        ],
+        "supporting_motifs": [
+          "Load",
+          "Distribution",
+          "Concentration",
+          "Failure"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-014",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "FEEDBACK"
+        ],
+        "pathway": "FEEDBACK",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab",
+          "pond:feedback:29970c37fcd9a815",
+          "pond:feedback:2e4950031f09bcfa",
+          "pond:feedback:3dcc7a05c44a2ebf"
+        ],
+        "supporting_motifs": [
+          "Signal",
+          "Loop",
+          "Response",
+          "Reinforcement"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-015",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "OSCILLATION"
+        ],
+        "pathway": "OSCILLATION",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:oscillation:019f81b9c8cdc87f",
+          "pond:oscillation:361241c5a28eb54e",
+          "pond:oscillation:375bfcf0455750c7",
+          "pond:oscillation:49eecdfdee1794e8",
+          "pond:oscillation:4fbec22bb8891daa"
+        ],
+        "supporting_motifs": [
+          "State",
+          "Delay",
+          "Overshoot",
+          "Cycle"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-016",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "DIFFUSION"
+        ],
+        "pathway": "DIFFUSION",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:diffusion:0b89588dcc61beff",
+          "pond:diffusion:1295d8896f93fcd8",
+          "pond:diffusion:1e1929a4abb9bd0d",
+          "pond:diffusion:2c005b4ef8b188dd",
+          "pond:diffusion:4e680c9bfa373666"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Gradient",
+          "Spread",
+          "Dilution"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-017",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "FLOW"
+        ],
+        "pathway": "FLOW",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:flow:174e933edaa55697",
+          "pond:flow:1b188635f25f4a13",
+          "pond:flow:1def2c84460819fb",
+          "pond:flow:278603b18a844aa0",
+          "pond:flow:3e0228bbea0e6e1c"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Path",
+          "Resistance",
+          "Flow"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-018",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "SUPPORTED_ROTATION"
+        ],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:supported_rotation:385591267b223a4e",
+          "pond:supported_rotation:436ca1cfecfb4530",
+          "pond:supported_rotation:5eea7bed3181c228",
+          "pond:supported_rotation:cccca26508578a28",
+          "pond:supported_rotation:f23635dc89d7b0a5"
+        ],
+        "supporting_motifs": [
+          "Rotation",
+          "Support",
+          "Friction",
+          "Failure"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-019",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "LOAD_TRANSFER"
+        ],
+        "pathway": "LOAD_TRANSFER",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:load_transfer:093852f103902af0",
+          "pond:load_transfer:100b958307e05044",
+          "pond:load_transfer:100c18cc1d1c2bf9",
+          "pond:load_transfer:18a2c08c04d4e452",
+          "pond:load_transfer:32596574151770b9"
+        ],
+        "supporting_motifs": [
+          "Load",
+          "Distribution",
+          "Concentration",
+          "Failure"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-020",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "FEEDBACK"
+        ],
+        "pathway": "FEEDBACK",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab",
+          "pond:feedback:29970c37fcd9a815",
+          "pond:feedback:2e4950031f09bcfa",
+          "pond:feedback:3dcc7a05c44a2ebf"
+        ],
+        "supporting_motifs": [
+          "Signal",
+          "Loop",
+          "Response",
+          "Reinforcement"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-021",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "RESOURCE_DEPLETION"
+        ],
+        "pathway": "RESOURCE_DEPLETION",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:resource_depletion:1470dfb316e6a70c",
+          "pond:resource_depletion:19867c05f793337d",
+          "pond:resource_depletion:19a01c2e40d07fa0",
+          "pond:resource_depletion:3d63f4cbc4c2c2f3",
+          "pond:resource_depletion:7943874693ee10d7"
+        ],
+        "supporting_motifs": [
+          "Resource",
+          "Consumption",
+          "Scarcity",
+          "Exhaustion"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-022",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "THRESHOLD"
+        ],
+        "pathway": "THRESHOLD",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:threshold:015d065dc2d74199",
+          "pond:threshold:1dbfe551705dbe5c",
+          "pond:threshold:27415f742a6cf086",
+          "pond:threshold:2daa1a842e176e28",
+          "pond:threshold:32701a3d308b3051"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Limit",
+          "Trigger",
+          "StateChange"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-023",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "FLOW"
+        ],
+        "pathway": "FLOW",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:flow:174e933edaa55697",
+          "pond:flow:1b188635f25f4a13",
+          "pond:flow:1def2c84460819fb",
+          "pond:flow:278603b18a844aa0",
+          "pond:flow:3e0228bbea0e6e1c"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Path",
+          "Resistance",
+          "Flow"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-024",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "LOAD_TRANSFER"
+        ],
+        "pathway": "LOAD_TRANSFER",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:load_transfer:093852f103902af0",
+          "pond:load_transfer:100b958307e05044",
+          "pond:load_transfer:100c18cc1d1c2bf9",
+          "pond:load_transfer:18a2c08c04d4e452",
+          "pond:load_transfer:32596574151770b9"
+        ],
+        "supporting_motifs": [
+          "Load",
+          "Distribution",
+          "Concentration",
+          "Failure"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-025",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "SUPPORTED_ROTATION"
+        ],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:supported_rotation:18f72fc932ab6180",
+          "pond:supported_rotation:1de1ef328a4b75af",
+          "pond:supported_rotation:220b776cc79c1a28",
+          "pond:supported_rotation:2d2685a2a478497d",
+          "pond:supported_rotation:363ca18f7adae633"
+        ],
+        "supporting_motifs": [
+          "Rotation",
+          "Support",
+          "Friction",
+          "Failure"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-026",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "OSCILLATION"
+        ],
+        "pathway": "OSCILLATION",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:oscillation:375bfcf0455750c7",
+          "pond:oscillation:4fbec22bb8891daa",
+          "pond:oscillation:83abaa81e12362bc",
+          "pond:oscillation:9b49ff4c4e9006ce",
+          "pond:oscillation:ad08c9ee6350118d"
+        ],
+        "supporting_motifs": [
+          "State",
+          "Delay",
+          "Overshoot",
+          "Cycle"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-027",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "LOAD_TRANSFER"
+        ],
+        "pathway": "LOAD_TRANSFER",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:load_transfer:093852f103902af0",
+          "pond:load_transfer:100b958307e05044",
+          "pond:load_transfer:100c18cc1d1c2bf9",
+          "pond:load_transfer:18a2c08c04d4e452",
+          "pond:load_transfer:32596574151770b9"
+        ],
+        "supporting_motifs": [
+          "Load",
+          "Distribution",
+          "Concentration",
+          "Failure"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-028",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "FEEDBACK"
+        ],
+        "pathway": "FEEDBACK",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:feedback:025e697cd0540aa5",
+          "pond:feedback:1ce9e53fa76e84ab",
+          "pond:feedback:29970c37fcd9a815",
+          "pond:feedback:2e4950031f09bcfa",
+          "pond:feedback:3dcc7a05c44a2ebf"
+        ],
+        "supporting_motifs": [
+          "Signal",
+          "Loop",
+          "Response",
+          "Reinforcement"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-029",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "BUFFERING"
+        ],
+        "pathway": "BUFFERING",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:buffering:010a47fc50ece231",
+          "pond:buffering:058131c3d6047bc5",
+          "pond:buffering:0ab7b6463cbfb778",
+          "pond:buffering:0bf583d689fee1a1",
+          "pond:buffering:1728e356688d9d7a"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Buffer",
+          "Absorption",
+          "Delay"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P037-RC-030",
+    "ranked_pathways": [
+      {
+        "combination_depth": 1,
+        "mechanisms": [
+          "SUPPORTED_ROTATION"
+        ],
+        "pathway": "SUPPORTED_ROTATION",
+        "reason": "Immediate winner-take-all recall baseline from current Proof 038 behavior.",
+        "supporting_lineages": [
+          "pond:supported_rotation:18f72fc932ab6180",
+          "pond:supported_rotation:1de1ef328a4b75af",
+          "pond:supported_rotation:220b776cc79c1a28",
+          "pond:supported_rotation:2d2685a2a478497d",
+          "pond:supported_rotation:363ca18f7adae633"
+        ],
+        "supporting_motifs": [
+          "Rotation",
+          "Support",
+          "Friction",
+          "Failure"
+        ],
+        "weight": 1.0
+      }
+    ]
+  }
+]

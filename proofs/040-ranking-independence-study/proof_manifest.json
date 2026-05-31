@@ -1,0 +1,51 @@
+{
+  "claim_level": "evidence_backed",
+  "disallowed_claims": [
+    "Proof 040 proves cognition.",
+    "All deterministic scoring explanations are eliminated.",
+    "The interaction window changed from Proof 039.",
+    "The held-out cases, pond, mechanisms, or activation field changed."
+  ],
+  "inside_voice_adapter_status": "pond_backed_reused_from_proof_039",
+  "lineage": {
+    "candidate_status": "eligible",
+    "contract_version": "inside_voice_mcp_contract/0.2",
+    "derived_from": "Proof 039 activation field and interaction candidates.",
+    "mcp_endpoint": "reused Proof 039 pond-backed MCP logs and activation-only consult outputs",
+    "request_hash": "08aa14ac5fdfb7c4ef13389f976f759d52bfb98e346bc6930d162c7b73d4bc02",
+    "response_hash": "b14f52dfa60bc7fd1d03ed121d11872a4f0f15429d732c350513cd8381f518a9",
+    "validates": "VERY_STRONG_SIGNAL"
+  },
+  "proof_id": "040-ranking-independence-study",
+  "public_private_boundary": "Public-safe artifacts reuse Proof 039 activation and interaction outputs, then compare ranking arms over pathway references, motifs, lineages, and aggregate metrics.",
+  "required_artifacts": [
+    "README.md",
+    "proof_manifest.json",
+    "tests/recombination_cases.jsonl",
+    "mcp/pond_state_manifest.json",
+    "mcp/seasoning_log.jsonl",
+    "mcp/activation_consults.jsonl",
+    "mcp/current_recall_consults.jsonl",
+    "results/activation_field.json",
+    "results/interaction_candidates.json",
+    "results/arm_a_current_ranking.json",
+    "results/arm_b_blind_ranking.json",
+    "results/arm_c_shuffled_weight_ranking.json",
+    "results/arm_d_independent_voting_ranking.json",
+    "results/arm_e_interaction_field_only.json",
+    "analysis/ranking_independence_metrics.json",
+    "analysis/ranking_stability_audit.json",
+    "analysis/field_preservation_audit.json",
+    "analysis/hostile_ranking_independence_audit.json"
+  ],
+  "status": "complete",
+  "targets": [
+    "RankingIndependence",
+    "BlindRanking",
+    "ShuffledWeightRanking",
+    "IndependentVotingRanking",
+    "NoRankingFieldQuality",
+    "HostileRankingAudit"
+  ],
+  "title": "Proof 040 - Ranking Independence Study"
+}

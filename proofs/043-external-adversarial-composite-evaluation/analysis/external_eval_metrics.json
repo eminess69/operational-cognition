@@ -1,0 +1,11 @@
+{
+  "a_b_agreement": 0.8,
+  "a_c_agreement": 0.8,
+  "b_c_agreement": 1.0,
+  "consensus_false_composite_rate": 0.0218,
+  "consensus_valid_rate": 0.8,
+  "mode_a_valid_rate": 1.0,
+  "mode_b_valid_rate": 0.8,
+  "mode_c_valid_rate": 0.8,
+  "surviving_composite_count": 181
+}
