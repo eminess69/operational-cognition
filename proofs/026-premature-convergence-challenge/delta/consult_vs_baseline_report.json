@@ -1,0 +1,44 @@
+{
+  "baseline_ignored_or_underweighted": [
+    "H3",
+    "H5",
+    "H6"
+  ],
+  "consult_recovered": [
+    "H3",
+    "H5",
+    "H6"
+  ],
+  "decision_gate_count": 5,
+  "hypothesis_changes": 5,
+  "primary_metric": {
+    "baseline": 3,
+    "consult": 6,
+    "delta": 3,
+    "interpretation": "Consult run preserved all six viable explanations before final convergence; baseline preserved three.",
+    "metric": "premature_convergence_resistance"
+  },
+  "success_condition": {
+    "basis": [
+      "Consult run significantly increased evidence diversity.",
+      "Consult run recovered valid competing explanations underweighted by baseline: H3, H5, H6.",
+      "Consult run abandoned the false path that the proximate MCAS failure alone should be called the primary mechanism."
+    ],
+    "met": true,
+    "qualification": "The observed consult responses were bounded and mostly generic; the measurable value came from forced contradiction gates plus recorded action, not from new domain facts supplied by the pond."
+  },
+  "unsupported_claim_reduction": [
+    {
+      "baseline_claim": "MCAS was the primary failure mechanism.",
+      "consult_revision": "MCAS was the proximate technical mechanism; development-assurance/certification failure was the primary mechanism."
+    },
+    {
+      "baseline_claim": "AOA sensor issues are only triggers.",
+      "consult_revision": "AOA sensor/maintenance/damage pathways remain active for accident-chain completeness and falsification."
+    },
+    {
+      "baseline_claim": "Production pressure is background context.",
+      "consult_revision": "Production/training continuity pressure remains a viable latent causal mechanism."
+    }
+  ]
+}

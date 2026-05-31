@@ -1,0 +1,44 @@
+{
+  "audit_id": "audit-001-consultation-causality",
+  "source_proof": "023-truth-reconstruction-challenge-002",
+  "direction_change_count": 2,
+  "direction_changes": [
+    {
+      "prior_hypothesis": "The three most important architectural decisions were CRI, CRDs, and Server-Side Apply.",
+      "consult_output": "consult_001 returned contradiction/tension pressure around the baseline ranking; consult_004 returned CSI-specific motif and pressure lineage, including inside_voice_runtime:6618eceaa43863e083b2 and CONFLICTING_PATHWAY_REINFORCEMENT.",
+      "post_consult_hypothesis": "The final third decision should be CSI/in-tree storage plugin migration, with Server-Side Apply demoted to important-but-not-top-three.",
+      "evidence_discovered": [
+        "https://github.com/kubernetes/design-proposals-archive/blob/main/storage/container-storage-interface.md",
+        "https://kubernetes.io/blog/2018/01/introducing-container-storage-interface/",
+        "https://kubernetes.io/blog/2019/01/15/container-storage-interface-ga/",
+        "https://kubernetes.io/blog/2022/09/26/storage-in-tree-to-csi-migration-status-update-1.25/"
+      ],
+      "verification_outcome": "Verified. Public Kubernetes CSI sources support in-tree plugin pain, FlexVolume limitations, CSI GA, and migration behind stable PV/PVC/StorageClass APIs."
+    },
+    {
+      "prior_hypothesis": "The architecture history could be treated as isolated major features: runtime, API extension, apply semantics.",
+      "consult_output": "consult_001 and consult_005 emphasized contradiction pressure and task-pathway collision around ranking. The memory_dependency_report records a shift to the motif of moving ecosystem integration points out of core behind stable APIs.",
+      "post_consult_hypothesis": "The stronger historical explanation is a repeated governance pattern: Kubernetes keeps stable APIs in core while moving runtime/storage/provider implementation outside core.",
+      "evidence_discovered": [
+        "CRI/dockershim evidence reinterpreted as runtime extraction.",
+        "CSI migration evidence added as storage extraction.",
+        "CRD/API aggregation evidence retained as API extension boundary."
+      ],
+      "verification_outcome": "Verified as a synthetic architectural interpretation grounded in public source lineages; not a standalone historical fact from consultation."
+    }
+  ],
+  "non_direction_changes": [
+    {
+      "consultation_id": "consult_002_cri",
+      "reason": "Confirmed and bounded an existing baseline conclusion."
+    },
+    {
+      "consultation_id": "consult_003_crd",
+      "reason": "Confirmed and bounded an existing baseline conclusion."
+    },
+    {
+      "consultation_id": "consult_005_final_contradiction_audit",
+      "reason": "Audited claim boundaries after the main direction change had already occurred."
+    }
+  ]
+}

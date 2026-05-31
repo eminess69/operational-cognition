@@ -1,0 +1,95 @@
+{
+  "phase": "baseline_no_consultation",
+  "target_repository": {
+    "name": "kubernetes/kubernetes",
+    "url": "https://github.com/kubernetes/kubernetes",
+    "qualification": {
+      "large_mature_repository": true,
+      "history_over_2_years": true,
+      "commit_count_observed": "138190 commits on GitHub repository page",
+      "issues_observed": "1.8k open issues on GitHub repository page",
+      "pull_requests_observed": "936 open pull requests on GitHub repository page",
+      "multiple_contributors": true,
+      "external_to_operational_cognition": true,
+      "source_refs": [
+        "https://github.com/kubernetes/kubernetes#repo-header-lines-150-158",
+        "https://github.com/kubernetes/kubernetes#history-lines-193-197"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-REPO-GH",
+      "title": "kubernetes/kubernetes GitHub repository page",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "used_for": ["repository qualification", "issues and pull requests", "commit scale"]
+    },
+    {
+      "id": "SRC-KEP-PROCESS",
+      "title": "Kubernetes Enhancement Proposals README",
+      "url": "https://github.com/kubernetes/enhancements/blob/master/keps/README.md",
+      "used_for": ["architectural decision record process", "historical record signal"]
+    },
+    {
+      "id": "SRC-CRI-BLOG-2016",
+      "title": "Introducing Container Runtime Interface (CRI) in Kubernetes",
+      "url": "https://kubernetes.io/blog/2016/12/container-runtime-interface-cri-in-kubernetes/",
+      "used_for": ["CRI original problem", "CRI competing proposal", "why imperative interface won"]
+    },
+    {
+      "id": "SRC-CRI-DOCKERSHIM-KEP-2221",
+      "title": "KEP-2221: Removing dockershim from kubelet",
+      "url": "https://github.com/kubernetes/enhancements/blob/master/keps/sig-node/2221-remove-dockershim/README.md",
+      "used_for": ["CRI long-term consequences", "dockershim removal lineage", "risks and alternatives"]
+    },
+    {
+      "id": "SRC-CRI-FAQ-2022",
+      "title": "Updated: Dockershim Removal FAQ",
+      "url": "https://kubernetes.io/blog/2022/02/17/dockershim-faq/",
+      "used_for": ["historical explanation of Docker dependency and dockershim"]
+    },
+    {
+      "id": "SRC-CRD-DOCS",
+      "title": "Kubernetes Custom Resources documentation",
+      "url": "https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/",
+      "used_for": ["CRD and API aggregation comparison", "extension architecture"]
+    },
+    {
+      "id": "SRC-TPR-DEPRECATION",
+      "title": "Archived ThirdPartyResource documentation",
+      "url": "https://pwittrock.github.io/docs/tasks/access-kubernetes-api/extend-api-third-party-resource/",
+      "used_for": ["pre-CRD lineage", "ThirdPartyResource deprecation"]
+    },
+    {
+      "id": "SRC-TPR-MIGRATION",
+      "title": "Archived migration from ThirdPartyResource to CustomResourceDefinition",
+      "url": "https://pwittrock.github.io/docs/tasks/access-kubernetes-api/migrate-third-party-resource/",
+      "used_for": ["CRD migration and compatibility pressure"]
+    },
+    {
+      "id": "SRC-CRD-KEP-95",
+      "title": "KEP-95: Graduate CustomResourceDefinitions to GA",
+      "url": "https://www.kubernetes.dev/resources/keps/95/",
+      "used_for": ["CRD original problem", "GA criteria", "scale consequences", "post-GA drift"]
+    },
+    {
+      "id": "SRC-SSA-KEP-555",
+      "title": "KEP-555: Apply / Server-Side Apply",
+      "url": "https://github.com/kubernetes/enhancements/blob/master/keps/sig-api-machinery/555-server-side-apply/README.md",
+      "used_for": ["baseline candidate architectural decision", "apply semantics", "field ownership"]
+    },
+    {
+      "id": "SRC-SSA-GA-BLOG",
+      "title": "Kubernetes 1.22: Server Side Apply moves to GA",
+      "url": "https://kubernetes.io/blog/2021/08/06/server-side-apply-ga/",
+      "used_for": ["SSA consequences and stable milestone"]
+    }
+  ],
+  "exclusions": [
+    {
+      "candidate": "Container Storage Interface (CSI)",
+      "baseline_status": "noticed only as a storage-plugin topic, not selected as a top-three decision",
+      "baseline_reason": "The baseline ranking overweighted API machinery semantics and underweighted the recurring out-of-tree interface extraction motif."
+    }
+  ]
+}

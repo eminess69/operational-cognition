@@ -1,0 +1,76 @@
+[
+  {
+    "description": "The response returns generic pressure, tension, or boundary language without task-specific source recovery.",
+    "examples": [
+      "historical-C",
+      "science-C"
+    ],
+    "failure_type": "GENERIC_PRESSURE_ONLY",
+    "recommended_mitigation": "Ask a falsifiable, current-belief-specific question and require source lineage that can be checked against the proof pack."
+  },
+  {
+    "description": "Consultation after the answer is already written adds approval language or formatting confidence but no causal influence.",
+    "examples": [
+      "software-B"
+    ],
+    "failure_type": "POST_HOC_DECORATION",
+    "recommended_mitigation": "Use late consult only as a claim-boundary audit; do not count it as discovery unless a concrete claim is removed or corrected."
+  },
+  {
+    "description": "The alleged recovered cluster was already present in baseline artifacts, so consult causality does not survive hostile replay.",
+    "examples": [
+      "science-A",
+      "science-C",
+      "science-D",
+      "science-F"
+    ],
+    "failure_type": "BASELINE_ALREADY_KNEW",
+    "recommended_mitigation": "Run baseline-leakage checks before crediting recovery; require a baseline-absent or baseline-weak classification."
+  },
+  {
+    "description": "The consult does not return domain-specific public source IDs or a testable domain pathway.",
+    "examples": [
+      "science-D",
+      "science-F"
+    ],
+    "failure_type": "NO_DOMAIN_SPECIFIC_RECOVERY",
+    "recommended_mitigation": "Treat the output as audit pressure only unless it names a verifiable evidence cluster not already in the baseline."
+  },
+  {
+    "description": "The response repeats lineage already present in the current evidence graph or source corpus.",
+    "examples": [
+      "historical-D",
+      "historical-F",
+      "software-B"
+    ],
+    "failure_type": "REDUNDANT_LINEAGE",
+    "recommended_mitigation": "Include an already-checked list and ask only for missing or conflicting lineage."
+  },
+  {
+    "description": "The operator pivots because the prompt named a path, not because the consult response recovered it.",
+    "examples": [
+      "science-C",
+      "science-D"
+    ],
+    "failure_type": "FALSE_PIVOT",
+    "recommended_mitigation": "Separate prompt-side hypotheses from response-side recoveries and require response-text evidence for causality."
+  },
+  {
+    "description": "The consult usefully blocks overclaiming but does not discover new task evidence.",
+    "examples": [
+      "historical-B",
+      "historical-E"
+    ],
+    "failure_type": "CLAIM_BOUNDARY_ONLY",
+    "recommended_mitigation": "Score this as audit value, not discovery value; record which claim changed."
+  },
+  {
+    "description": "The consult improves final safety or lineage language without changing the investigative path.",
+    "examples": [
+      "science-B",
+      "historical-B"
+    ],
+    "failure_type": "USEFUL_AUDIT_NOT_DISCOVERY",
+    "recommended_mitigation": "Keep it in the workflow as a final audit gate but exclude it from recovery or search-acceleration claims."
+  }
+]

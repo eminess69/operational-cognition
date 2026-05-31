@@ -1,0 +1,21 @@
+{
+  "accepted_consult_influence": [
+    "Decision-gate pressure was accepted only as a prompt to re-open source-corpus evidence.",
+    "Claim-boundary warnings prevented treating consult output as a historical or engineering authority.",
+    "Lineage pressure forced final claims to remain tied to public source IDs."
+  ],
+  "credited_to_consult_run": [
+    "The Protocol E gate sequence delayed final convergence.",
+    "The gate questions caused reinspection of underweighted source-corpus clusters.",
+    "The final verdict narrowed H1 from primary mechanism to proximate technical mechanism."
+  ],
+  "failure_boundary": "If success requires the pond itself to name Boeing-specific competing explanations, this run does not satisfy that stronger criterion. It satisfies only the broader success condition that the consult run increased evidence diversity and abandoned an over-narrow leading hypothesis.",
+  "not_credited_to_pond": [
+    "Identification of specific Boeing 737 MAX source facts.",
+    "Discovery of H3, H5, or H6 as domain facts.",
+    "Final causal ranking as an authoritative consult answer."
+  ],
+  "pond_supplied_new_boeing_facts": false,
+  "response_domain_specificity": "low",
+  "verdict": "bounded_pass_not_domain_discovery"
+}

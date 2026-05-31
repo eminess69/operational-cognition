@@ -1,0 +1,82 @@
+{
+  "events": [
+    {
+      "active_hypotheses": [
+        "H1",
+        "H2",
+        "H4"
+      ],
+      "consult_allowed": true,
+      "leading_hypothesis": "H1",
+      "reason": "Codex believed it had an answer; data gathering had ended.",
+      "state": "baseline_converged",
+      "step": 1
+    },
+    {
+      "active_hypotheses": [
+        "H1",
+        "H2",
+        "H4"
+      ],
+      "change": "Certification and human-factors assumptions promoted from background to mechanism.",
+      "leading_hypothesis": "H1/H2",
+      "state": "after_gate_001",
+      "step": 2
+    },
+    {
+      "active_hypotheses": [
+        "H1",
+        "H2",
+        "H3",
+        "H4"
+      ],
+      "change": "Program/training pressure recovered.",
+      "leading_hypothesis": "H1/H2 with H3 viable",
+      "state": "after_gate_002",
+      "step": 3
+    },
+    {
+      "active_hypotheses": [
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5",
+        "H6"
+      ],
+      "change": "Sensor/maintenance and derivative-architecture clusters restored.",
+      "leading_hypothesis": "H2",
+      "state": "after_gate_003",
+      "step": 4
+    },
+    {
+      "active_hypotheses": [
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5",
+        "H6"
+      ],
+      "change": "Single-component primary-cause assumption abandoned.",
+      "leading_hypothesis": "H2 with H1 as proximate expression",
+      "state": "after_gate_004",
+      "step": 5
+    },
+    {
+      "active_hypotheses": [
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5",
+        "H6"
+      ],
+      "change": "Final verdict narrowed and falsifier tests added.",
+      "leading_hypothesis": "H2",
+      "state": "after_gate_005_final",
+      "step": 6
+    }
+  ],
+  "run": "consult_protocol_e_only"
+}

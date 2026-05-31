@@ -1,0 +1,133 @@
+{
+  "cluster_count": 8,
+  "clusters": [
+    {
+      "baseline_weight": "high",
+      "cluster_id": "BCL-AMYLOID-TAU-THERAPY",
+      "source_ids": [
+        "PMID-33986301",
+        "PMID-35177833",
+        "PMID-34815562",
+        "PMID-39014245",
+        "PMID-37875627",
+        "PMID-36449413",
+        "PMID-37459141",
+        "PMID-37966285",
+        "PMID-35542991",
+        "PMID-33720637",
+        "PMID-38683602",
+        "PMID-35696185",
+        "PMID-32568367",
+        "PMID-41405855",
+        "PMID-37040116",
+        "PMID-38730496"
+      ],
+      "title": "Amyloid/tau biomarkers and anti-amyloid therapy outcomes",
+      "weakness": "Clinical effect size and trial generalizability remain unresolved."
+    },
+    {
+      "baseline_weight": "high",
+      "cluster_id": "BCL-BIOMARKERS",
+      "source_ids": [
+        "PMID-38429551",
+        "PMID-39068545",
+        "PMID-38866966",
+        "PMID-38252443",
+        "PMID-36508198",
+        "PMID-37443334",
+        "PMID-39068669",
+        "PMID-41324928",
+        "PMID-38888066",
+        "OFF-NIA-BLOOD-BIOMARKERS-2024"
+      ],
+      "title": "PET, CSF, and blood biomarker classification",
+      "weakness": "Biological positivity does not always identify the dominant clinical driver."
+    },
+    {
+      "baseline_weight": "medium",
+      "cluster_id": "BCL-IMMUNE",
+      "source_ids": [
+        "PMID-33318676",
+        "PMID-38424470",
+        "PMID-41315874",
+        "PMID-38769824"
+      ],
+      "title": "Microglia, astrocyte, complement, and immune activation",
+      "weakness": "Cell-state and timing ambiguity."
+    },
+    {
+      "baseline_weight": "medium",
+      "cluster_id": "BCL-VASCULAR",
+      "source_ids": [
+        "PMID-31827267",
+        "PMID-36129176",
+        "PMID-39620840",
+        "PMID-41052375",
+        "OFF-NINDS-VCID"
+      ],
+      "title": "Vascular risk, CAA, BBB, and cerebrovascular pathology",
+      "weakness": "Under-integrated with therapy safety."
+    },
+    {
+      "baseline_weight": "medium_low",
+      "cluster_id": "BCL-METABOLIC",
+      "source_ids": [
+        "PMID-40023293",
+        "PMID-34416829",
+        "PMID-32568367",
+        "PMID-39444005"
+      ],
+      "title": "Mitochondrial, oxidative, insulin, and metabolic evidence",
+      "weakness": "Mechanistic association outruns causal intervention evidence."
+    },
+    {
+      "baseline_weight": "medium_low",
+      "cluster_id": "BCL-MIXED-PATHOLOGY",
+      "source_ids": [
+        "PMID-32047067",
+        "PMID-33429401",
+        "PMID-37563264",
+        "PMID-38520489",
+        "PMID-40164861",
+        "PMID-38619853",
+        "PMID-35649653",
+        "OFF-CDC-ABOUT-ADRD",
+        "OFF-WHO-DEMENTIA"
+      ],
+      "title": "Subtypes, LATE/PART, mixed dementia, and copathology",
+      "weakness": "Recognized but not yet allowed to reorder the leading hypothesis."
+    },
+    {
+      "baseline_weight": "medium",
+      "cluster_id": "BCL-GENETIC-SYNAPTIC",
+      "source_ids": [
+        "PMID-38906999",
+        "PMID-33176118",
+        "PMID-36513730",
+        "PMID-35034755",
+        "PMID-39620846",
+        "PMID-39620836"
+      ],
+      "title": "APOE, genetic risk, synaptic degeneration, and symptom networks",
+      "weakness": "Risk and symptom evidence do not settle upstream mechanism."
+    },
+    {
+      "baseline_weight": "boundary",
+      "cluster_id": "BCL-OFFICIAL",
+      "source_ids": [
+        "OFF-FDA-LEQEMBI-2023",
+        "OFF-FDA-KISUNLA-2024",
+        "OFF-NIA-AD-CAUSES",
+        "OFF-NIA-BLOOD-BIOMARKERS-2024",
+        "OFF-CDC-ABOUT-ADRD",
+        "OFF-WHO-DEMENTIA",
+        "OFF-NINDS-VCID",
+        "OFF-ALZ-FACTS-2024"
+      ],
+      "title": "Official and institutional uncertainty boundary",
+      "weakness": "Summaries define public boundary; mechanistic claims still require peer-reviewed sources."
+    }
+  ],
+  "consult_used": false,
+  "run_id": "phase-a-baseline-no-consult"
+}

@@ -1,0 +1,19 @@
+{
+  "adapter_status": "not_executed",
+  "consult_adapter_status": "pond_backed",
+  "contract_version": "inside_voice.mcp.consultation.v1",
+  "endpoints": [
+    "/health",
+    "/schema",
+    "/consult",
+    "/version",
+    "/capabilities"
+  ],
+  "health_hash": "b707f27e6a4d0202e88b04b13f831bb5197a108e22f4e2f3c3b18d8b351de61b",
+  "host": "127.0.0.1",
+  "local_only": true,
+  "ok": true,
+  "port": 8766,
+  "service": "inside_voice_mcp_consultation_server",
+  "verdict": "ok"
+}

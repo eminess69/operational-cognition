@@ -1,0 +1,122 @@
+{
+  "audit_id": "audit-002-phase-2-source-lineage-verification",
+  "audit_mode": "hostile_forensic",
+  "input_scope": "source_corpus.json and consult/contradiction_atlas.json only",
+  "summary": {
+    "contradictions_reviewed": 12,
+    "missing_sources_detected": 0,
+    "strong_support": 4,
+    "weak_support": 8,
+    "hostile_finding": "All cited source IDs exist in source_corpus.json, but source existence is not enough. Several sources support adjacent facts or uncertainty rather than the asserted contradiction."
+  },
+  "contradictions": [
+    {
+      "contradiction_id": "CON-001",
+      "lineage_flag": "STRONG_SUPPORT",
+      "missing_sources": [],
+      "source_supports_claim": true,
+      "source_supports_contradiction": true,
+      "weak_sources": [],
+      "hostile_note": "Positive and negative/mixed anti-amyloid therapy records make this one of the better-supported tensions, though it remains partial rather than strict contradiction."
+    },
+    {
+      "contradiction_id": "CON-002",
+      "lineage_flag": "STRONG_SUPPORT",
+      "missing_sources": [],
+      "source_supports_claim": true,
+      "source_supports_contradiction": true,
+      "weak_sources": [],
+      "hostile_note": "The corpus contains explicit ARIA/CAA/anti-amyloid safety records. The support is strong for benefit-risk tension, not for a mechanistic contradiction."
+    },
+    {
+      "contradiction_id": "CON-003",
+      "lineage_flag": "STRONG_SUPPORT",
+      "missing_sources": [],
+      "source_supports_claim": true,
+      "source_supports_contradiction": true,
+      "weak_sources": [],
+      "hostile_note": "The cited biomarker and heterogeneity sources support a classification tension. They do not prove that biomarker-defined AD is invalid."
+    },
+    {
+      "contradiction_id": "CON-004",
+      "lineage_flag": "WEAK_SUPPORT",
+      "missing_sources": [],
+      "source_supports_claim": true,
+      "source_supports_contradiction": false,
+      "weak_sources": ["PMID-37902726"],
+      "hostile_note": "The cited sources support tau biology and unsettled tau therapy. They do not establish a contradiction; failed or exploratory therapy is weaker than causal falsification."
+    },
+    {
+      "contradiction_id": "CON-005",
+      "lineage_flag": "WEAK_SUPPORT",
+      "missing_sources": [],
+      "source_supports_claim": true,
+      "source_supports_contradiction": false,
+      "weak_sources": ["PMID-37317973", "PMID-38769824"],
+      "hostile_note": "The source set supports immune complexity, but protective versus damaging roles can be stage-dependent rather than contradictory."
+    },
+    {
+      "contradiction_id": "CON-006",
+      "lineage_flag": "WEAK_SUPPORT",
+      "missing_sources": [],
+      "source_supports_claim": true,
+      "source_supports_contradiction": false,
+      "weak_sources": [],
+      "hostile_note": "Vascular contribution is well supported, but the cited categories are compatible. The contradiction is mostly a classification/attribution artifact."
+    },
+    {
+      "contradiction_id": "CON-007",
+      "lineage_flag": "WEAK_SUPPORT",
+      "missing_sources": [],
+      "source_supports_claim": true,
+      "source_supports_contradiction": false,
+      "weak_sources": ["PMID-39236857"],
+      "hostile_note": "The sources support mitochondrial/metabolic association. They do not adjudicate upstream versus downstream causality."
+    },
+    {
+      "contradiction_id": "CON-008",
+      "lineage_flag": "WEAK_SUPPORT",
+      "missing_sources": [],
+      "source_supports_claim": true,
+      "source_supports_contradiction": false,
+      "weak_sources": ["PMID-36394841", "PMID-40715455"],
+      "hostile_note": "APOE pleiotropy is supported, but one source is about macular degeneration and one is a broad single-cell PRS methods/complex-disease source. This weakens the direct Alzheimer contradiction claim."
+    },
+    {
+      "contradiction_id": "CON-009",
+      "lineage_flag": "WEAK_SUPPORT",
+      "missing_sources": [],
+      "source_supports_claim": true,
+      "source_supports_contradiction": false,
+      "weak_sources": [],
+      "hostile_note": "The sources strongly support biomarker promise and deployment concerns, but that is implementation uncertainty, not contradiction."
+    },
+    {
+      "contradiction_id": "CON-010",
+      "lineage_flag": "STRONG_SUPPORT",
+      "missing_sources": [],
+      "source_supports_claim": true,
+      "source_supports_contradiction": true,
+      "weak_sources": [],
+      "hostile_note": "Mixed pathology and Alzheimer mimicry are directly supported. The support survives, although the issue is better framed as classification uncertainty."
+    },
+    {
+      "contradiction_id": "CON-011",
+      "lineage_flag": "WEAK_SUPPORT",
+      "missing_sources": [],
+      "source_supports_claim": true,
+      "source_supports_contradiction": false,
+      "weak_sources": ["PMID-41405855", "PMID-32568367"],
+      "hostile_note": "The source set combines reviews, single-target trials, and non-amyloid trials. It supports multifactorial uncertainty but not a crisp conflict between trial strategy and disease model."
+    },
+    {
+      "contradiction_id": "CON-012",
+      "lineage_flag": "WEAK_SUPPORT",
+      "missing_sources": [],
+      "source_supports_claim": true,
+      "source_supports_contradiction": false,
+      "weak_sources": [],
+      "hostile_note": "Synaptic/symptom and biomarker endpoint evidence are both present, but the atlas does not show that these evidence types actually contradict each other."
+    }
+  ]
+}

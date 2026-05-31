@@ -1,0 +1,31 @@
+{
+  "context": {
+    "constraints": [
+      "Protocol E only: contradiction-first, decision-gate consult.",
+      "Consultation is forbidden during data gathering; this request occurs after baseline convergence.",
+      "Use /consult as advisory contradiction pressure only; public historical/engineering claims require source_corpus.json IDs.",
+      "Do not provide hidden chain-of-thought, private substrate details, Inside Voice internals, or unsupported domain claims.",
+      "A consult earns value only if it changes a ranking, recovers a viable competitor, increases evidence diversity, reduces unsupported claims, or forces an abandoned false path."
+    ],
+    "desired_artifacts": [
+      "decision_gate_log.jsonl",
+      "consult/hypothesis_rankings.json",
+      "consult/evidence_clusters.json",
+      "delta/consult_vs_baseline_report.json",
+      "metrics.json"
+    ],
+    "files": [
+      "source_corpus.json",
+      "baseline/hypothesis_rankings.json",
+      "baseline/evidence_clusters.json",
+      "baseline/convergence_log.json",
+      "baseline/final_verdict.md"
+    ],
+    "summary": "Proof 026 asks whether contradiction-first consultation reduces premature convergence on the Boeing 737 MAX primary failure mechanism. Baseline converged on H1, the MCAS single-sensor repeated-authority control-law failure, while demoting certification, organizational, human-factors, sensor-maintenance, and derivative-architecture explanations. Decision gate: gate_003_underweighted_cluster. Current leading hypothesis: H2: development-assurance and certification breakdown.. Current belief state: The consult run is leaning toward certification/development assurance as the primary mechanism, with MCAS as proximate evidence.. Source corpus refs: SRC-FAA-JATR-2019, SRC-HOUSE-2020, SRC-NTSB-ASR-2019, SRC-FAA-RTS-2020, SRC-KNKT-JT610-2019, SRC-BEA-ET302-2023, SRC-NTSB-ET302-2023."
+  },
+  "max_output_chars": 8000,
+  "mode": "audit",
+  "request_id": "026-premature-convergence-challenge-003_gate_underweighted_cluster",
+  "require_lineage": true,
+  "task": "Proof 026 - Premature Convergence Challenge Protocol E decision gate. Leading hypothesis: H2: development-assurance and certification breakdown. Contradiction-first question: Which evidence cluster am I underweighting? Return concrete pressure against premature convergence, viable competing explanations, underweighted evidence clusters, and claim-boundary warnings. Do not answer as a standalone Boeing authority; tie any usable pressure to the supplied public source IDs."
+}

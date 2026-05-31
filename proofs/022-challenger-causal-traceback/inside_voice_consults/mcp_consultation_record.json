@@ -1,0 +1,55 @@
+{
+  "proof_id": "022-challenger-causal-traceback",
+  "consultation_id": "proof-022-challenger-traceback-audit-001",
+  "endpoint": "http://127.0.0.1:8766/consult",
+  "health_observed": {
+    "service": "inside_voice_mcp_consultation_server",
+    "host": "127.0.0.1",
+    "port": 8766,
+    "local_only": true,
+    "contract_version": "inside_voice.mcp.consultation.v1",
+    "consult_adapter_status": "pond_backed",
+    "verdict": "ok",
+    "health_hash": "b707f27e6a4d0202e88b04b13f831bb5197a108e22f4e2f3c3b18d8b351de61b"
+  },
+  "capabilities_observed": {
+    "lineage_required_supported": true,
+    "modes": ["audit", "synthesis", "review", "proof_planning"],
+    "max_output_chars_cap": 8000,
+    "state_mutation": false
+  },
+  "request": {
+    "path": "proofs/022-challenger-causal-traceback/inside_voice_consults/traceback_audit_request.json",
+    "file_sha256": "74a70d9798263c0575df4c9045028370f34865ae50348136616a47b3f9fb027f",
+    "runtime_request_hash": "dc8e05bbae34df1dfb52905d1515a134863b7d92e8e358b1641ab429f918be12"
+  },
+  "response": {
+    "path": "proofs/022-challenger-causal-traceback/inside_voice_consults/traceback_audit_response.json",
+    "file_sha256": "b79d6ce403540386f594bc00ed7a8bba3a2c6dcf36ab992d5e7d3be546de5940",
+    "runtime_response_hash": "aacc4f8fed80fa23f4965bc419bf455abeb047a3fff16cb054a951d4132e32fd",
+    "adapter_status": "pond_backed",
+    "mode": "audit",
+    "verdict": "ok",
+    "confidence": "medium",
+    "contribution_grade": "minimal",
+    "minimum_gate_passed": false,
+    "gate_failures": [
+      {
+        "blocking": true,
+        "code": "BROAD_UNSUPPORTED_CLAIM_BLOCKED",
+        "message": "Broad unsupported public claim language was detected and blocked."
+      }
+    ],
+    "uncertainty": [
+      "OUTPUT_COMPACTED_TO_MAX_OUTPUT_CHARS",
+      "Recall is bounded to indexed local pond/proof artifacts and may miss evidence outside the declared corpus.",
+      "Recalled reports remain evidence, not implementation capability."
+    ]
+  },
+  "audit_interpretation": {
+    "used_as_historical_source": false,
+    "used_as_claim_boundary_audit": true,
+    "effect_on_artifacts": "The consult is recorded as a bounded Inside Voice audit. It does not replace public NASA/Rogers source lineage. Its broad-claim warning constrains the proof pack to evidence-backed causal reconstruction and blocks broader claims about system cognition or global capability.",
+    "required_public_boundary": "Do not use this challenge result to claim AGI, consciousness, black-box solving, global truth recovery, or unsupported cognition capability."
+  }
+}

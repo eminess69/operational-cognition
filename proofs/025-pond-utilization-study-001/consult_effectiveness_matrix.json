@@ -1,0 +1,62 @@
+[
+  {
+    "avg_direction_changes": 0.0,
+    "avg_lineage_completeness": 0.79,
+    "avg_new_evidence_clusters": 0.0,
+    "avg_new_valid_contradictions": 0.0,
+    "avg_redundant_consults": 0.0,
+    "avg_unsupported_claims": 0.67,
+    "net_value_score": 0.0,
+    "protocol": "Protocol A - No Consult Baseline"
+  },
+  {
+    "avg_direction_changes": 0.0,
+    "avg_lineage_completeness": 0.85,
+    "avg_new_evidence_clusters": 0.0,
+    "avg_new_valid_contradictions": 0.0,
+    "avg_redundant_consults": 0.33,
+    "avg_unsupported_claims": 0.33,
+    "net_value_score": -0.38,
+    "protocol": "Protocol B - Late Audit Consult"
+  },
+  {
+    "avg_direction_changes": 0.33,
+    "avg_lineage_completeness": 0.88,
+    "avg_new_evidence_clusters": 0.33,
+    "avg_new_valid_contradictions": 0.33,
+    "avg_redundant_consults": 0.67,
+    "avg_unsupported_claims": 0.33,
+    "net_value_score": -0.4,
+    "protocol": "Protocol C - Early Planning Consult"
+  },
+  {
+    "avg_direction_changes": 0.67,
+    "avg_lineage_completeness": 0.89,
+    "avg_new_evidence_clusters": 0.67,
+    "avg_new_valid_contradictions": 0.33,
+    "avg_redundant_consults": 1.17,
+    "avg_unsupported_claims": 0.33,
+    "net_value_score": -0.45,
+    "protocol": "Protocol D - Periodic Pressure Consult"
+  },
+  {
+    "avg_direction_changes": 0.33,
+    "avg_lineage_completeness": 0.91,
+    "avg_new_evidence_clusters": 0.33,
+    "avg_new_valid_contradictions": 0.33,
+    "avg_redundant_consults": 0.0,
+    "avg_unsupported_claims": 0.0,
+    "net_value_score": 1.4,
+    "protocol": "Protocol E - Contradiction-First Consult"
+  },
+  {
+    "avg_direction_changes": 0.33,
+    "avg_lineage_completeness": 0.89,
+    "avg_new_evidence_clusters": 0.33,
+    "avg_new_valid_contradictions": 0.33,
+    "avg_redundant_consults": 0.67,
+    "avg_unsupported_claims": 0.33,
+    "net_value_score": 0.15,
+    "protocol": "Protocol F - Recovery Consult"
+  }
+]

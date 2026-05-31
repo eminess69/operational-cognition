@@ -1,0 +1,78 @@
+{
+  "claim_level": "evidence_backed_bounded",
+  "disallowed_claims": [
+    "inside_voice_as_kodak_authority",
+    "consult_as_data_gathering",
+    "consult_as_answer_mechanism",
+    "hidden_chain_of_thought",
+    "unsupported_historical_claims"
+  ],
+  "domain": "Collapse of Kodak",
+  "inside_voice_adapter_status": "pond_backed_protocol_e_elimination_gate_consults_used",
+  "lineage": {
+    "combined_request_hash": "579cc86b4b4c80ad35fef656ceb49a62a330a500acd9c939d04833a5eae9dca2",
+    "combined_response_hash": "a6579854137de35c67cbb581188429276ab261107fd6fd223b6262d50e1a5be6",
+    "contract_version": "inside_voice.mcp.consultation.v1",
+    "derived_from": "source_corpus.json; baseline artifacts; consult/inside_voice_consults; consult/decision_gate_log.jsonl",
+    "mcp_endpoint": "http://127.0.0.1:8766/consult",
+    "request_hashes": [
+      "2a2c9c5f3b73f5a54a8a0ff546702defe35a965b9cf56dbd7376f3ebb639ad6b",
+      "9f063b93e179921632a947ff78e1f153c479305c88eb6998642f86db8f7d30bc",
+      "0c30a7302ac167be0f755795915834032e9529449fbbc5d75c5686c1b1c9ea60",
+      "4294a3c42b43ec97d60976df4ac96bacc6450269583ffff61e1cd50ad3bf2612",
+      "28c7b0dc7e7a7e26163603dcee7432c9b6705e2eb78d645570cb00f03f96ee79",
+      "fa101f73ed43c406032cc732a26ac3146584b673c4ed32a5e7385f579e6c2a55"
+    ],
+    "response_hashes": [
+      "421f435fdfaf7187dc95d8e152c38707920f5e2f28c554cc4167fb90201d17fc",
+      "221cfc23e7c0ca179d34a73a6907f7c677f24c5ab7f2e0b4941f75526ef8e8c6",
+      "665d29057c6375490932c757c2be88d95e6d3bf28be91d4b49ed0dd984ca13b8",
+      "af5334d49005773696041373ebb0f91258ff30c6371d78184320cfb538be97f8",
+      "eb756c34af46dbfc74e919357b25a8a220c90d28d59d06dfb20aa2881ffafed6",
+      "84656e34b993a342d19de0b713cc87130747313fee3092a98eb3e1ebb4d823d0"
+    ],
+    "validates": "pathway_preservation_under_protocol_e_elimination_gate_consultation"
+  },
+  "proof_id": "027-pathway-intelligence-challenge",
+  "public_private_boundary": "Only public source IDs, bounded consult summaries, hashes, metrics, and decision-gate actions are exposed.",
+  "required_artifacts": [
+    "README.md",
+    "proof_manifest.json",
+    "source_corpus.json",
+    "source_lineage_verification.json",
+    "public_lineage_summary.md",
+    "baseline/pathway_graph.json",
+    "baseline/pathway_rankings.json",
+    "baseline/convergence_log.json",
+    "baseline/final_verdict.md",
+    "consult/pathway_graph.json",
+    "consult/pathway_rankings.json",
+    "consult/convergence_log.json",
+    "consult/decision_gate_log.jsonl",
+    "pathway_survival_log.jsonl",
+    "pathway_collapse_audit.json",
+    "pathway_diversity_metrics.json",
+    "consult_pathway_influence.json",
+    "final_pathway_map.md",
+    "hostile_pathway_audit.json",
+    "consult/inside_voice_consults/001_management_failure_elimination_request.json",
+    "consult/inside_voice_consults/002_incentive_structures_elimination_request.json",
+    "consult/inside_voice_consults/003_organizational_culture_elimination_request.json",
+    "consult/inside_voice_consults/004_timing_failure_elimination_request.json",
+    "consult/inside_voice_consults/005_capital_allocation_elimination_request.json",
+    "consult/inside_voice_consults/006_technology_blindness_elimination_request.json",
+    "consult/inside_voice_consults/001_management_failure_elimination_response.json",
+    "consult/inside_voice_consults/002_incentive_structures_elimination_response.json",
+    "consult/inside_voice_consults/003_organizational_culture_elimination_response.json",
+    "consult/inside_voice_consults/004_timing_failure_elimination_response.json",
+    "consult/inside_voice_consults/005_capital_allocation_elimination_response.json",
+    "consult/inside_voice_consults/006_technology_blindness_elimination_response.json"
+  ],
+  "status": "complete",
+  "targets": [
+    "ConvergenceResistance",
+    "PathwayPreservation",
+    "ProtocolEContradictionFirstConsultation"
+  ],
+  "title": "Proof 027 - Pathway Intelligence Challenge"
+}

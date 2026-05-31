@@ -1,0 +1,36 @@
+{
+  "request_id": "proof-023-truth-reconstruction-002-consult-004-csi",
+  "task": "Consult before concluding that Container Storage Interface and in-tree storage plugin migration should displace Server-Side Apply in the final top-three Kubernetes architectural decisions. Request related architectural motifs, historical lineage, prior decision traces, contradiction candidates, and recurring themes. Test whether CSI is a true system-level boundary extraction analogous to CRI.",
+  "context": {
+    "summary": "Candidate recovered decision: CSI moved storage plugin development and vendor integration out of core Kubernetes behind a stable standard interface. Baseline missed it. Public evidence includes the CSI design proposal, CSI alpha and GA blogs, and the 1.25 in-tree-to-CSI migration status update.",
+    "files": [
+      "https://github.com/kubernetes/design-proposals-archive/blob/main/storage/container-storage-interface.md",
+      "https://kubernetes.io/blog/2018/01/introducing-container-storage-interface/",
+      "https://kubernetes.io/blog/2019/01/15/container-storage-interface-ga/",
+      "https://kubernetes.io/blog/2022/09/26/storage-in-tree-to-csi-migration-status-update-1.25/",
+      "proofs/023-truth-reconstruction-challenge-002/baseline/source_index.json",
+      "proofs/023-truth-reconstruction-challenge-002/baseline/baseline_truth_map.json",
+      "proofs/023-truth-reconstruction-challenge-002/consult/inside_voice_consults/consult_001_top_three_rerank_response.json"
+    ],
+    "constraints": [
+      "Request related architectural motifs",
+      "Request historical lineage",
+      "Request prior decision traces",
+      "Request contradiction candidates",
+      "Request recurring themes",
+      "Treat consultation as search-direction guidance only; public sources must validate recovered facts",
+      "Explicitly compare CSI against Server-Side Apply as a top-three decision",
+      "Do not expose hidden chain-of-thought, Inside Voice internals, Belief Ledger internals, or private substrate state"
+    ],
+    "desired_artifacts": [
+      "CSI recovery lineage",
+      "out-of-tree integration motif",
+      "FlexVolume and in-tree plugin contradiction candidates",
+      "migration consequences",
+      "confidence boundary for replacing Server-Side Apply"
+    ]
+  },
+  "mode": "synthesis",
+  "max_output_chars": 8000,
+  "require_lineage": true
+}

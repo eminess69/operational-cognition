@@ -1,0 +1,154 @@
+{
+  "proof_id": "022-challenger-causal-traceback",
+  "report_type": "harmonic_traceback_report",
+  "public_boundary": "This report exposes claim lineage, source references, contradiction counts, and confidence summaries only. It does not expose hidden chain-of-thought, private substrate state, or Inside Voice internals.",
+  "method_summary": "Major conclusions were admitted only if supported by evidence graph nodes with source line ranges. Contradictions were preserved as explicit pressure on confidence rather than flattened away.",
+  "major_conclusions": [
+    {
+      "id": "MC-001",
+      "question_item": "Immediate physical cause",
+      "conclusion": "The Challenger disaster was immediately caused by failure of the right Solid Rocket Motor aft field joint seals, allowing hot combustion gases to escape.",
+      "claim_status": "evidence_backed",
+      "traceback_path": ["EV-001", "EV-002", "EV-003", "EV-005"],
+      "source_lineage": [
+        "SRC-001:L12-L18",
+        "SRC-001:L24-L36",
+        "SRC-002:L6-L8",
+        "SRC-002:L921-L928"
+      ],
+      "supporting_evidence_count": 4,
+      "contradiction_count": 0,
+      "contradictions": [],
+      "confidence": 0.98,
+      "confidence_basis": "Film, telemetry, recovered-wreckage analysis, and the Commission cause chapter converge on the right SRM joint and seal failure."
+    },
+    {
+      "id": "MC-002",
+      "question_item": "Contributing engineering causes",
+      "conclusion": "Engineering contributors included a faulty and poorly understood tang/clevis SRM field-joint seal design, O-ring distress history, temperature-sensitive O-ring resiliency, joint rotation/gap opening, putty pressure-delay behavior, and overreliance on secondary seal assumptions.",
+      "claim_status": "evidence_backed",
+      "traceback_path": ["EV-005", "EV-010", "EV-012", "EV-015", "EV-018"],
+      "source_lineage": [
+        "SRC-002:L469-L551",
+        "SRC-004:L8-L29",
+        "SRC-004:L1585-L1604",
+        "SRC-005:L108-L142",
+        "SRC-014:L1332-L1336",
+        "SRC-014:L1854-L1862",
+        "SRC-014:L1887-L1897",
+        "SRC-014:L1926-L1930"
+      ],
+      "supporting_evidence_count": 5,
+      "contradiction_count": 3,
+      "contradictions": ["CT-003", "CT-005", "CT-010"],
+      "confidence": 0.94,
+      "confidence_basis": "The exact micro-mechanical contribution of every variable is partly unresolved, but the joint/seal vulnerability, cold sensitivity, and secondary-seal-risk evidence are strong."
+    },
+    {
+      "id": "MC-003",
+      "question_item": "Contributing organizational causes",
+      "conclusion": "Organizational contributors included inadequate anomaly tracking, repeated launch-constraint waivers or omissions, weak safety-program independence, misclassification or misunderstanding of criticality, Marshall information containment, and schedule/operational pressure.",
+      "claim_status": "evidence_backed",
+      "traceback_path": ["EV-009", "EV-011", "EV-012", "EV-013", "EV-014", "EV-019"],
+      "source_lineage": [
+        "SRC-003:L6-L12",
+        "SRC-003:L30-L32",
+        "SRC-004:L1606-L1624",
+        "SRC-005:L6-L13",
+        "SRC-005:L83-L104",
+        "SRC-005:L108-L150",
+        "SRC-006:L6-L23",
+        "SRC-006:L125-L151"
+      ],
+      "supporting_evidence_count": 6,
+      "contradiction_count": 5,
+      "contradictions": ["CT-004", "CT-005", "CT-007", "CT-008", "CT-011"],
+      "confidence": 0.92,
+      "confidence_basis": "Multiple independent chapters trace the same organizational pattern, though schedule pressure is a contributing condition rather than a standalone cause."
+    },
+    {
+      "id": "MC-004",
+      "question_item": "Contributing decision-making failures",
+      "conclusion": "The key decision failure was reversing an engineering no-launch recommendation under NASA challenge while failing to preserve and escalate the uncertainty, contrary engineering views, and launch-constraint context to the senior launch decision structure.",
+      "claim_status": "evidence_backed",
+      "traceback_path": ["EV-006", "EV-007", "EV-008", "EV-009", "EV-016"],
+      "source_lineage": [
+        "SRC-003:L6-L12",
+        "SRC-003:L830-L879",
+        "SRC-004:L1556-L1562",
+        "SRC-017:L1634-L1658",
+        "SRC-017:L2026-L2074",
+        "SRC-016:L224-L238"
+      ],
+      "supporting_evidence_count": 5,
+      "contradiction_count": 4,
+      "contradictions": ["CT-001", "CT-002", "CT-006", "CT-010"],
+      "confidence": 0.95,
+      "confidence_basis": "The no-launch recommendation, management reversal, and incomplete escalation are all directly documented."
+    },
+    {
+      "id": "MC-005",
+      "question_item": "Earliest observable warning signals",
+      "conclusion": "The earliest warning signals were design/test indications that the joint seal behavior was not fully understood, followed by flight evidence of O-ring erosion and blow-by beginning early in Shuttle operations and becoming severe and temperature-relevant by STS 51-C and 51-B.",
+      "claim_status": "evidence_backed_with_boundary",
+      "traceback_path": ["EV-010", "EV-013", "EV-018", "EV-019"],
+      "source_lineage": [
+        "SRC-004:L8-L12",
+        "SRC-004:L1585-L1604",
+        "SRC-004:L1626-L1732",
+        "SRC-008:L25-L35"
+      ],
+      "supporting_evidence_count": 4,
+      "contradiction_count": 3,
+      "contradictions": ["CT-004", "CT-005", "CT-006"],
+      "confidence": 0.9,
+      "confidence_basis": "The documents strongly show a warning progression; the exact earliest document-level warning depends on whether design documents, test data, or post-flight anomalies define the boundary."
+    },
+    {
+      "id": "MC-006",
+      "question_item": "Most important causal pathway",
+      "conclusion": "The most important causal pathway was not merely cold weather or a defective part; it was known seal/joint vulnerability plus cold-weather sealing risk, transformed into disaster by normalized anomalies, flawed risk communication, management reversal, and launch approval outside the demonstrated experience base.",
+      "claim_status": "evidence_backed",
+      "traceback_path": [
+        "EV-010",
+        "EV-018",
+        "EV-019",
+        "EV-006",
+        "EV-007",
+        "EV-008",
+        "EV-009",
+        "EV-004",
+        "EV-005",
+        "EV-001",
+        "EV-002",
+        "EV-003",
+        "EV-020"
+      ],
+      "source_lineage": [
+        "SRC-001:L7-L36",
+        "SRC-002:L6-L8",
+        "SRC-002:L469-L551",
+        "SRC-003:L6-L12",
+        "SRC-003:L830-L879",
+        "SRC-004:L1556-L1624",
+        "SRC-005:L6-L13",
+        "SRC-014:L1741-L1742",
+        "SRC-017:L2026-L2074"
+      ],
+      "supporting_evidence_count": 13,
+      "contradiction_count": 9,
+      "contradictions": ["CT-001", "CT-002", "CT-003", "CT-004", "CT-005", "CT-006", "CT-007", "CT-008", "CT-010"],
+      "confidence": 0.95,
+      "confidence_basis": "The pathway integrates the highest-support physical sequence with the highest-impact organizational and decision contradictions."
+    }
+  ],
+  "aggregate": {
+    "evidence_graph_nodes": 20,
+    "causal_chain_links": 9,
+    "contradiction_records": 11,
+    "corpus_sources": 36,
+    "directly_used_sources_in_major_conclusions": 10,
+    "unsupported_major_conclusions": 0,
+    "overall_confidence": 0.95
+  }
+}

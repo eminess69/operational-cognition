@@ -1,0 +1,63 @@
+{
+  "consultation_used": false,
+  "convergence_events": [
+    {
+      "active_pathways": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8"
+      ],
+      "reason": "All eight pathways had at least minimal source lineage before ranking.",
+      "stage": "initial_pathway_set"
+    },
+    {
+      "collapse_risk": "high",
+      "leading_pathways": [
+        "P1",
+        "P2"
+      ],
+      "reason": "The most visible source facts are film decline, consumer digital loss, and Chapter 11.",
+      "stage": "dominant_pathway_forms"
+    },
+    {
+      "collapse_risk": "confirmed",
+      "eliminated": [
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ],
+      "reason": "Baseline folded incentives, culture, timing, and capital into the digital-disruption/business-model story.",
+      "stage": "secondary_pathways_collapsed"
+    },
+    {
+      "eliminated": [
+        "P8"
+      ],
+      "reason": "Technology-blindness was contradicted by Kodak's long-running digital investment and market participation.",
+      "stage": "false_simplification_removed"
+    },
+    {
+      "dominant_conclusion": "Kodak collapsed primarily from digital disruption interacting with film-profit business model rigidity.",
+      "known_premature_elimination_risk": [
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ],
+      "stage": "final_baseline_verdict",
+      "surviving_pathways": [
+        "P1",
+        "P2",
+        "P3"
+      ]
+    }
+  ],
+  "proof_id": "027-pathway-intelligence-challenge",
+  "run": "baseline"
+}

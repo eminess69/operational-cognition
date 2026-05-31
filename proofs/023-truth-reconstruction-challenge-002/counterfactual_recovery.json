@@ -1,0 +1,51 @@
+{
+  "audit_id": "audit-001-consultation-causality",
+  "source_proof": "023-truth-reconstruction-challenge-002",
+  "classification_scale": ["INEVITABLE", "LIKELY", "POSSIBLE", "UNLIKELY", "CONSULT_REQUIRED"],
+  "per_consult_removal": [
+    {
+      "consultation_id": "consult_001_top_three_rerank",
+      "removed_output": "consult/inside_voice_consults/consult_001_top_three_rerank_response.json",
+      "target_conclusion": "The baseline top three should be reranked and CSI/out-of-tree extraction should be investigated.",
+      "would_conclusion_still_emerge": "POSSIBLE",
+      "reasoning": "The baseline already named CSI as an exclusion and listed the out-of-tree extraction motif as an untested weakness. Without consult 001 output, a careful auditor could still follow that clue, but the actual proof path had not done so."
+    },
+    {
+      "consultation_id": "consult_002_cri",
+      "removed_output": "consult/inside_voice_consults/consult_002_cri_response.json",
+      "target_conclusion": "CRI remains a top-three architectural decision.",
+      "would_conclusion_still_emerge": "INEVITABLE",
+      "reasoning": "CRI was baseline rank 1 with high confidence and public CRI/dockershim evidence. The consult was mainly a contradiction and boundary check."
+    },
+    {
+      "consultation_id": "consult_003_crd",
+      "removed_output": "consult/inside_voice_consults/consult_003_crd_response.json",
+      "target_conclusion": "CRDs remain a top-three architectural decision.",
+      "would_conclusion_still_emerge": "INEVITABLE",
+      "reasoning": "CRDs were baseline rank 2 with high confidence and public CRD/ThirdPartyResource/KEP-95 evidence. The consult strengthened the API aggregation contrast but did not cause selection."
+    },
+    {
+      "consultation_id": "consult_004_csi",
+      "removed_output": "consult/inside_voice_consults/consult_004_csi_response.json",
+      "target_conclusion": "CSI replaces Server-Side Apply in the final top three.",
+      "would_conclusion_still_emerge": "LIKELY",
+      "reasoning": "By the time consult 004 was requested, the investigation had already gathered CSI public sources and explicitly framed CSI as the recovered candidate. The consult output strengthened confidence and pressure lineage, but the request envelope itself shows the path was already underway."
+    },
+    {
+      "consultation_id": "consult_005_final_contradiction_audit",
+      "removed_output": "consult/inside_voice_consults/consult_005_final_contradiction_audit_response.json",
+      "target_conclusion": "Final narrative should preserve claim boundaries and treat consultation as advisory.",
+      "would_conclusion_still_emerge": "LIKELY",
+      "reasoning": "The proof's method and architecture_truth_map already state public sources carry historical claims. Consult 005 provided final pressure but no new historical conclusion."
+    }
+  ],
+  "aggregate_full_consult_removal": {
+    "target_conclusion": "CSI would displace Server-Side Apply in the final top three.",
+    "would_conclusion_still_emerge": "UNLIKELY",
+    "reasoning": "A diligent no-consult replay could follow the baseline exclusion, so this is not CONSULT_REQUIRED. But the actual no-consult baseline did not follow it, selected Server-Side Apply, and did not collect CSI design, alpha, GA, or migration evidence. Removing all consult outputs removes the observed mechanism that converted the baseline weakness into the final CSI recovery."
+  },
+  "very_strong_signal_test": {
+    "consult_required_found": false,
+    "reason": "CSI as a raw topic existed in baseline/source_index.json and baseline_investigation_notes.md. The observed advantage is direction-changing/reranking, not introduction of an otherwise unreachable topic."
+  }
+}

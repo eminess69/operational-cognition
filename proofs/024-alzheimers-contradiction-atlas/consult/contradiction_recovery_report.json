@@ -1,0 +1,65 @@
+{
+  "assumptions_overturned_after_consult": [
+    "Amyloid clearance implies sufficient clinical disease modification.",
+    "Biomarker positivity identifies the dominant clinical driver.",
+    "Trial-enriched early AD populations generalize cleanly to older mixed-pathology clinical populations.",
+    "Vascular pathology can be treated as background noise in anti-amyloid therapy assessment."
+  ],
+  "contradictions_found_only_after_consult": [
+    "CON-002 anti-amyloid benefit versus CAA/microbleed/ARIA safety",
+    "CON-009 blood biomarker promise versus deployment thresholds/generalizability",
+    "CON-010 LATE/PART/VCID and mixed pathology as clinical mimic/co-driver",
+    "CON-011 single-target disease-modifying model versus multi-factorial stage-dependent models"
+  ],
+  "evidence_clusters_found_only_after_consult": [
+    {
+      "cluster_id": "CCL-ARIA-CAA-SAFETY",
+      "source_ids": [
+        "PMID-31827267",
+        "PMID-35099507",
+        "PMID-34807243",
+        "PMID-40063015",
+        "PMID-39179297"
+      ]
+    },
+    {
+      "cluster_id": "CCL-BLOOD-BIOMARKER-DEPLOYMENT",
+      "source_ids": [
+        "PMID-39068545",
+        "PMID-38866966",
+        "PMID-38252443",
+        "OFF-NIA-BLOOD-BIOMARKERS-2024"
+      ]
+    },
+    {
+      "cluster_id": "CCL-LATE-PART-MIXED",
+      "source_ids": [
+        "PMID-37563264",
+        "PMID-40164861",
+        "PMID-38520489",
+        "PMID-35649653",
+        "PMID-38619853"
+      ]
+    },
+    {
+      "cluster_id": "CCL-DIAD-DOWNSTREAM-BIOMARKER-DISCONNECT",
+      "source_ids": [
+        "PMID-38683602",
+        "PMID-37966285",
+        "PMID-35542991"
+      ]
+    }
+  ],
+  "hypotheses_demoted_after_consult": [
+    "H-AMYLOID-TAU-CASCADE as a near-sufficient explanatory spine",
+    "H-BIOMARKER-DEFINED-AD as etiology-resolving rather than classification-improving",
+    "H-VASCULAR as mere comorbidity"
+  ],
+  "hypotheses_promoted_after_consult": [
+    "H-MIXED-PATHOLOGY as a top bottleneck",
+    "H-VASCULAR as therapy-relevant safety and causal contributor",
+    "H-IMMUNE-INFLAMMATORY and H-GENETIC-APOE as cross-lineage mechanisms",
+    "Blood biomarker deployment uncertainty as a practical contradiction"
+  ],
+  "run_id": "phase-b-consult"
+}

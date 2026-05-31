@@ -1,0 +1,41 @@
+{
+  "proof_id": "023-truth-reconstruction-challenge-002",
+  "title": "Truth Reconstruction Challenge 002 - Lost Architecture Recovery",
+  "status": "complete",
+  "target": "kubernetes/kubernetes",
+  "claim_level": "evidence_backed",
+  "inside_voice_adapter_status": "pond_backed_consult_used",
+  "baseline_required": true,
+  "baseline_consultation_used": false,
+  "consult_count": 5,
+  "consult_endpoint": "http://127.0.0.1:8766/consult",
+  "required_artifacts": [
+    "baseline/source_index.json",
+    "baseline/baseline_truth_map.json",
+    "baseline/baseline_investigation_notes.md",
+    "consult/inside_voice_consults/consult_001_top_three_rerank_request.json",
+    "consult/inside_voice_consults/consult_001_top_three_rerank_response.json",
+    "consult/inside_voice_consults/consult_002_cri_request.json",
+    "consult/inside_voice_consults/consult_002_cri_response.json",
+    "consult/inside_voice_consults/consult_003_crd_request.json",
+    "consult/inside_voice_consults/consult_003_crd_response.json",
+    "consult/inside_voice_consults/consult_004_csi_request.json",
+    "consult/inside_voice_consults/consult_004_csi_response.json",
+    "consult/inside_voice_consults/consult_005_final_contradiction_audit_request.json",
+    "consult/inside_voice_consults/consult_005_final_contradiction_audit_response.json",
+    "consultation_log.jsonl",
+    "architecture_truth_map.json",
+    "lost_context_recovery.json",
+    "memory_dependency_report.json",
+    "architectural_narrative.md"
+  ],
+  "success_condition_met": true,
+  "success_condition_basis": "The consult phase recovered CSI as a top-three architectural decision, replacing the baseline Server-Side Apply selection. The recovered fact is verified by public Kubernetes CSI design, alpha, GA, and migration sources.",
+  "disallowed_claims": [
+    "consultation_as_authoritative_historical_source",
+    "hidden_chain_of_thought",
+    "inside_voice_internals",
+    "belief_ledger_internals",
+    "global_cognition_capability"
+  ]
+}

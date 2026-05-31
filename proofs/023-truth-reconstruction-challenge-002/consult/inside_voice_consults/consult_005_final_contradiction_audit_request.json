@@ -1,0 +1,37 @@
+{
+  "request_id": "proof-023-truth-reconstruction-002-consult-005-final-audit",
+  "task": "Final consultation before writing the architecture truth map and narrative. Proposed final top three for Kubernetes: CRI, CRDs/API extensibility, and CSI. Server-Side Apply is demoted to important but not top-three. Request related architectural motifs, historical lineage, prior decision traces, contradiction candidates, and recurring themes. Audit overclaim risk, false paths, and whether consultation actually changed the search trajectory.",
+  "context": {
+    "summary": "Consult phase recovered CSI as a baseline-missed decision under a recurring out-of-tree integration motif. Need final contradiction pressure and claim boundary before publishing required artifacts.",
+    "files": [
+      "proofs/023-truth-reconstruction-challenge-002/baseline/baseline_truth_map.json",
+      "proofs/023-truth-reconstruction-challenge-002/consult/inside_voice_consults/consult_001_top_three_rerank_response.json",
+      "proofs/023-truth-reconstruction-challenge-002/consult/inside_voice_consults/consult_002_cri_response.json",
+      "proofs/023-truth-reconstruction-challenge-002/consult/inside_voice_consults/consult_003_crd_response.json",
+      "proofs/023-truth-reconstruction-challenge-002/consult/inside_voice_consults/consult_004_csi_response.json",
+      "https://kubernetes.io/blog/2016/12/container-runtime-interface-cri-in-kubernetes/",
+      "https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/",
+      "https://kubernetes.io/blog/2022/09/26/storage-in-tree-to-csi-migration-status-update-1.25/"
+    ],
+    "constraints": [
+      "Request related architectural motifs",
+      "Request historical lineage",
+      "Request prior decision traces",
+      "Request contradiction candidates",
+      "Request recurring themes",
+      "Do not overclaim consultation as an authoritative historical source",
+      "Public historical claims must be traceable to public Kubernetes evidence",
+      "Do not expose hidden chain-of-thought, Inside Voice internals, Belief Ledger internals, or private substrate state"
+    ],
+    "desired_artifacts": [
+      "final contradiction audit",
+      "claim boundary warning",
+      "direction-change evidence",
+      "abandoned false paths",
+      "confidence boundary for narrative"
+    ]
+  },
+  "mode": "audit",
+  "max_output_chars": 8000,
+  "require_lineage": true
+}

@@ -1,0 +1,42 @@
+{
+  "target_repository": "kubernetes/kubernetes",
+  "facts_recovered_only_after_consultation": [
+    {
+      "fact": "CSI should be treated as a top-three architectural decision, not merely a storage subsystem feature.",
+      "source": [
+        "https://github.com/kubernetes/design-proposals-archive/blob/main/storage/container-storage-interface.md#background-motivations",
+        "https://kubernetes.io/blog/2018/01/introducing-container-storage-interface/",
+        "https://kubernetes.io/blog/2019/01/15/container-storage-interface-ga/",
+        "https://kubernetes.io/blog/2022/09/26/storage-in-tree-to-csi-migration-status-update-1.25/"
+      ],
+      "consult_lineage": [
+        "consult_001_top_three_rerank_response.json response_hash 5d9550563ce8dc42a929c1f42c5ca560f6a3994572434d8c97543b5144b3aa5a",
+        "consult_004_csi_response.json response_hash 606c3f4d01e8cd8ad3580f7e3eaf08fbba8bae4f4ad13e3a2ec7cea246e3c8db"
+      ],
+      "baseline_missed_reason": "The baseline overweighted API semantics and selected Server-Side Apply as rank 3. It did not generalize from CRI to the broader out-of-tree interface extraction motif."
+    },
+    {
+      "fact": "FlexVolume was a real competing/preceding proposal, but CSI won because FlexVolume did not solve root filesystem access and dependency/deployment problems.",
+      "source": [
+        "https://github.com/kubernetes/design-proposals-archive/blob/main/storage/container-storage-interface.md#background--motivations",
+        "https://kubernetes.io/blog/2018/01/introducing-container-storage-interface/"
+      ],
+      "consult_lineage": [
+        "consult_004_csi_response.json recalled motif inside_voice_runtime:6618eceaa43863e083b2",
+        "consult_004_csi_response.json pressure warnings CONFLICTING_PATHWAY_REINFORCEMENT and TASK_PATHWAY_COLLISION"
+      ],
+      "baseline_missed_reason": "The baseline did not inspect CSI competing proposals and therefore missed FlexVolume as a necessary historical contrast."
+    },
+    {
+      "fact": "CSI migration preserved existing Kubernetes storage APIs while delegating operations to CSI drivers, which explains why the architecture change can be hidden from users.",
+      "source": [
+        "https://kubernetes.io/blog/2022/09/26/storage-in-tree-to-csi-migration-status-update-1.25/"
+      ],
+      "consult_lineage": [
+        "consult_004_csi_response.json response_hash 606c3f4d01e8cd8ad3580f7e3eaf08fbba8bae4f4ad13e3a2ec7cea246e3c8db",
+        "consult_005_final_contradiction_audit_response.json response_hash 1d7740798f96adb7e6c61f11d2717543c6cc7823ae5e8798f8d0fae7f2597933"
+      ],
+      "baseline_missed_reason": "The baseline interpreted importance through visible API machinery changes; CSI migration was less visible because user-facing PV/PVC/StorageClass APIs were intentionally preserved."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "request_id": "proof-023-truth-reconstruction-002-consult-001-top-three-rerank",
+  "task": "Consult before any major architectural conclusion. Baseline selected Kubernetes CRI, CRDs, and Server-Side Apply as the top three decisions. Request related architectural motifs, historical lineage, prior decision traces, contradiction candidates, and recurring themes that could confirm or alter this ranking. Specifically test whether the baseline missed a stronger motif: extracting runtime, storage, cloud, or provider integrations out of core behind stable interfaces.",
+  "context": {
+    "summary": "Truth Reconstruction Challenge 002 consult phase for kubernetes/kubernetes. Baseline was no-consult and selected CRI, CRDs, and Server-Side Apply. Known baseline weakness: CSI was not deeply investigated. Need consultation as a cognitive memory layer to identify motifs and search directions before final architectural conclusions.",
+    "files": [
+      "proofs/023-truth-reconstruction-challenge-002/baseline/source_index.json",
+      "proofs/023-truth-reconstruction-challenge-002/baseline/baseline_truth_map.json",
+      "proofs/023-truth-reconstruction-challenge-002/baseline/baseline_investigation_notes.md",
+      "https://github.com/kubernetes/kubernetes",
+      "https://github.com/kubernetes/enhancements/blob/master/keps/README.md",
+      "https://kubernetes.io/blog/2016/12/container-runtime-interface-cri-in-kubernetes/",
+      "https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/",
+      "https://github.com/kubernetes/enhancements/blob/master/keps/sig-api-machinery/555-server-side-apply/README.md"
+    ],
+    "constraints": [
+      "Request related architectural motifs",
+      "Request historical lineage",
+      "Request prior decision traces",
+      "Request contradiction candidates",
+      "Request recurring themes",
+      "Do not expose hidden chain-of-thought, Inside Voice internals, Belief Ledger internals, or private substrate state",
+      "Use consultation only as bounded guidance; public sources must carry historical claims"
+    ],
+    "desired_artifacts": [
+      "motif-ranked search directions",
+      "lineage references to inspect",
+      "candidate contradiction list",
+      "false path warnings",
+      "whether CSI/out-of-tree extraction should displace Server-Side Apply"
+    ]
+  },
+  "mode": "synthesis",
+  "max_output_chars": 8000,
+  "require_lineage": true
+}

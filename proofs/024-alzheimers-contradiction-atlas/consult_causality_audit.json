@@ -1,0 +1,81 @@
+{
+  "audit_id": "audit-002-phase-7-consult-causality",
+  "audit_mode": "hostile_forensic",
+  "summary": {
+    "consultations_reviewed": 6,
+    "strong_effect": 0,
+    "moderate_effect": 0,
+    "minor_effect": 0,
+    "no_effect": 6,
+    "hostile_finding": "No consultation earns a causal effect classification. The responses are generic, compacted, and not Alzheimer-specific; the claimed actions are better explained by the request prompts and baseline-visible evidence."
+  },
+  "consultations": [
+    {
+      "consult_id": "consult_001",
+      "question": "What contradiction am I underweighting?",
+      "claimed_action": "PIVOT",
+      "classification": "NO_EFFECT",
+      "evidence_against_causality": [
+        "Returned motifs are generic pressure IDs, not Alzheimer-specific contradictions.",
+        "Returned lineages point to internal pond/proof artifacts, not Alzheimer source IDs.",
+        "The request itself already instructed checking vascular amyloid, CAA, microbleeds, ARIA, and anti-amyloid safety.",
+        "Baseline PCR-003 already listed the vascular therapy-relevance sources."
+      ]
+    },
+    {
+      "consult_id": "consult_002",
+      "question": "What evidence cluster is disconnected from my current leading hypothesis?",
+      "claimed_action": "EXPAND",
+      "classification": "NO_EFFECT",
+      "evidence_against_causality": [
+        "The response did not identify blood biomarker deployment uncertainty in domain terms.",
+        "The request already named biomarker-clinical disconnects and downstream biomarker effects.",
+        "Baseline PCR-004 and BCL-BIOMARKERS already contained the core evidence."
+      ]
+    },
+    {
+      "consult_id": "consult_003",
+      "question": "What alternative lineage explains this observation?",
+      "claimed_action": "PIVOT",
+      "classification": "NO_EFFECT",
+      "evidence_against_causality": [
+        "The request explicitly instructed testing mixed pathology, LATE, PART, and vascular cognitive impairment.",
+        "The response did not return those Alzheimer-specific lineages.",
+        "Baseline BCL-MIXED-PATHOLOGY and PCR-002 already contained those sources."
+      ]
+    },
+    {
+      "consult_id": "consult_004",
+      "question": "Which low-attention hypothesis has support across multiple sources?",
+      "claimed_action": "EXPAND",
+      "classification": "NO_EFFECT",
+      "evidence_against_causality": [
+        "The response returned generic pressure rankings and boundary warnings.",
+        "The request already named microglia/APOE/vascular/metabolic support.",
+        "Baseline hypothesis_map.json already listed immune, vascular, metabolic, APOE, and mixed-pathology hypotheses."
+      ]
+    },
+    {
+      "consult_id": "consult_005",
+      "question": "What assumption is causing premature convergence?",
+      "claimed_action": "PIVOT",
+      "classification": "NO_EFFECT",
+      "evidence_against_causality": [
+        "The response did not identify biomarker sufficiency or amyloid sufficiency in domain terms.",
+        "The request already instructed attacking biomarker sufficiency, monocausal framing, and trial generalizability.",
+        "Baseline convergence_report.json already named biomarker confidence leaking into etiologic confidence."
+      ]
+    },
+    {
+      "consult_id": "consult_006",
+      "question": "What finding would weaken the current leading explanation?",
+      "claimed_action": "CONFIRM",
+      "classification": "NO_EFFECT",
+      "evidence_against_causality": [
+        "The action was confirmatory, not a recovery.",
+        "The response did not supply Alzheimer-specific weakening findings.",
+        "The final boundary was already present in the baseline uncertainty framing."
+      ]
+    }
+  ]
+}

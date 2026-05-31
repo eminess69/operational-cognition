@@ -1,0 +1,104 @@
+{
+  "audit_requirement": "Attempt to invalidate every preserved pathway.",
+  "eliminated_pathway_audits": [
+    {
+      "attempted_revival": "The 1975 prototype might show Kodak buried the future.",
+      "classification": "FALSE_PATHWAY",
+      "evidence_lineage": [
+        "SRC-KODAK-MILESTONES",
+        "SRC-CAMBRIDGE-BHR-2025",
+        "SRC-HBR-2016"
+      ],
+      "pathway": "P8: Technology blindness or invention suppression",
+      "reason": "The standalone story is contradicted by extensive digital investment, technical leadership, and market participation."
+    }
+  ],
+  "preserved_pathway_audits": [
+    {
+      "attempted_invalidation": "Kodak was digitally capable and had market participation, so disruption may be too generic.",
+      "classification": "VALID_PRESERVATION",
+      "evidence_lineage": [
+        "SRC-KODAK-2011-10K",
+        "SRC-CAMBRIDGE-BHR-2025"
+      ],
+      "pathway": "P1: Digital disruption and ecosystem substitution",
+      "reason": "The pathway is not technology ignorance; it is market and ecosystem substitution documented by segment decline, camera exit, and smartphone/printing effects.",
+      "residual_risk": "Can over-dominate if treated as the whole answer."
+    },
+    {
+      "attempted_invalidation": "Kodak made digital investments, so the business model was not fully rigid.",
+      "classification": "VALID_PRESERVATION",
+      "evidence_lineage": [
+        "SRC-KODAK-2011-10K",
+        "SRC-CAMBRIDGE-BHR-2025",
+        "SRC-FORBES-2000"
+      ],
+      "pathway": "P2: Business model rigidity and film-profit lock-in",
+      "reason": "The preserved claim is not total rigidity; it is failure to replace film/print economics with a viable recurring-margin model.",
+      "residual_risk": "Overlaps with incentives and timing."
+    },
+    {
+      "attempted_invalidation": "Management failure is a vague blame bucket and is weakened by evidence of serious renewal attempts.",
+      "classification": "VALID_PRESERVATION",
+      "evidence_lineage": [
+        "SRC-CAMBRIDGE-BHR-2025",
+        "SRC-KODAK-2011-10K"
+      ],
+      "pathway": "P3: Strategic management and execution failure",
+      "reason": "Preserved only as sequencing, separation, funding, and scaling failure across attempted renewal paths; not as simple ignorance.",
+      "residual_risk": "Must remain narrowly framed."
+    },
+    {
+      "attempted_invalidation": "The corpus lacks direct compensation-plan evidence.",
+      "classification": "VALID_PRESERVATION",
+      "evidence_lineage": [
+        "SRC-CAMBRIDGE-BHR-2025",
+        "SRC-JSIS-2009",
+        "SRC-FORBES-2000"
+      ],
+      "pathway": "P4: Incentive and resource-allocation structures",
+      "reason": "Direct bonus evidence is absent, but resource-allocation incentives are supported by film-profit comparison, investment losses, analyst pressure, and budgeting/value-process evidence.",
+      "residual_risk": "Evidence is partly inferential rather than a direct internal-pay record."
+    },
+    {
+      "attempted_invalidation": "Kodak's digital R&D and products contradict a culture-resistance story.",
+      "classification": "VALID_PRESERVATION",
+      "evidence_lineage": [
+        "SRC-JSIS-2009",
+        "SRC-CAMBRIDGE-BHR-2025"
+      ],
+      "pathway": "P5: Organizational culture and middle-management cognition",
+      "reason": "The preserved claim is bounded: culture shaped interpretation and speed; it did not block all digital action.",
+      "residual_risk": "Weakened; should not be promoted above market and business-model pathways without more internal evidence."
+    },
+    {
+      "attempted_invalidation": "Timing can become an excuse that removes agency.",
+      "classification": "VALID_PRESERVATION",
+      "evidence_lineage": [
+        "SRC-CAMBRIDGE-BHR-2025",
+        "SRC-MACWORLD-2006"
+      ],
+      "pathway": "P6: Timing failures and market-uncertainty trap",
+      "reason": "Timing remains causal because early investment losses, delayed demand, late price competition, and smartphone substitution changed which strategies could pay off.",
+      "residual_risk": "Needs to be paired with management and capital paths."
+    },
+    {
+      "attempted_invalidation": "Liquidity problems may be downstream symptoms.",
+      "classification": "VALID_PRESERVATION",
+      "evidence_lineage": [
+        "SRC-CAMBRIDGE-BHR-2025",
+        "SRC-KODAK-2011-10K"
+      ],
+      "pathway": "P7: Capital allocation and liquidity constraint",
+      "reason": "The pathway survives because capital pressure also narrowed later options: debt, divestitures, cash shortfalls, patent monetization, and Chapter 11 processes changed feasible moves.",
+      "residual_risk": "Causal direction is mixed and should remain secondary."
+    }
+  ],
+  "proof_id": "027-pathway-intelligence-challenge",
+  "summary_counts": {
+    "FALSE_PATHWAY": 1,
+    "UNNECESSARY_PRESERVATION": 0,
+    "VALID_PRESERVATION": 7
+  },
+  "verdict": "VERY_STRONG_SIGNAL_BOUNDED"
+}

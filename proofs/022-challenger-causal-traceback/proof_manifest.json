@@ -1,0 +1,45 @@
+{
+  "proof_id": "022-challenger-causal-traceback",
+  "title": "Truth Reconstruction Challenge 001 - Challenger Disaster Causal Traceback",
+  "status": "complete",
+  "targets": [
+    "Space Shuttle Challenger STS-51-L disaster",
+    "Rogers Commission public corpus",
+    "NASA and Morton Thiokol public evidence lineage"
+  ],
+  "claim_level": "evidence_backed",
+  "inside_voice_adapter_status": "pond_backed_audit_consult_used",
+  "public_private_boundary": "public source lineage and evidence summaries only; no hidden chain-of-thought, Inside Voice internals, Belief Ledger internals, proprietary routing, or private substrate state",
+  "required_artifacts": [
+    "README.md",
+    "source_corpus.json",
+    "evidence_graph.json",
+    "causal_chain.json",
+    "contradiction_map.json",
+    "harmonic_traceback_report.json",
+    "final_verdict.md",
+    "public_lineage_summary.md",
+    "inside_voice_consults/traceback_audit_request.json",
+    "inside_voice_consults/traceback_audit_response.json",
+    "inside_voice_consults/mcp_consultation_record.json",
+    "proof_manifest.json"
+  ],
+  "disallowed_claims": [
+    "AGI",
+    "consciousness",
+    "black_box_solved",
+    "substrate_disclosure",
+    "hidden_chain_of_thought",
+    "belief_ledger_internals",
+    "inside_voice_internals",
+    "unsupported_major_causal_link"
+  ],
+  "lineage": {
+    "mcp_endpoint": "http://127.0.0.1:8766/consult",
+    "contract_version": "inside_voice.mcp.consultation.v1",
+    "request_hash": "dc8e05bbae34df1dfb52905d1515a134863b7d92e8e358b1641ab429f918be12",
+    "response_hash": "aacc4f8fed80fa23f4965bc419bf455abeb047a3fff16cb054a951d4132e32fd",
+    "derived_from": "proofs/022-challenger-causal-traceback/inside_voice_consults/traceback_audit_request.json",
+    "validates": "bounded claim-boundary audit; not a historical source replacement"
+  }
+}

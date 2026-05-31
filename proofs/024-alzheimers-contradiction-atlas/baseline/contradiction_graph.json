@@ -1,0 +1,561 @@
+{
+  "consult_used": false,
+  "contradiction_count": 8,
+  "contradictions": [
+    {
+      "baseline_read": "Central but insufficient.",
+      "confidence": 0.78,
+      "contradicting_evidence": [
+        "PMID-35542991",
+        "PMID-37966285",
+        "PMID-38683602",
+        "PMID-35696185"
+      ],
+      "contradiction_id": "BASE-C01",
+      "hypotheses_in_conflict": [
+        "H-AMYLOID-TAU-CASCADE",
+        "H-MIXED-PATHOLOGY",
+        "H-CHOLINERGIC-SYNAPTIC"
+      ],
+      "supporting_evidence": [
+        "PMID-35177833",
+        "PMID-36449413",
+        "PMID-37459141",
+        "OFF-FDA-LEQEMBI-2023",
+        "OFF-FDA-KISUNLA-2024"
+      ],
+      "title": "Amyloid/tau centrality versus modest or inconsistent clinical gains from target removal"
+    },
+    {
+      "baseline_read": "Tau/synapse may mediate symptoms while amyloid may remain upstream in some lineages.",
+      "confidence": 0.72,
+      "contradicting_evidence": [
+        "PMID-37875627",
+        "PMID-35696185",
+        "PMID-36513730"
+      ],
+      "contradiction_id": "BASE-C02",
+      "hypotheses_in_conflict": [
+        "H-AMYLOID-TAU-CASCADE",
+        "H-CHOLINERGIC-SYNAPTIC"
+      ],
+      "supporting_evidence": [
+        "PMID-34815562",
+        "PMID-39014245",
+        "PMID-36508198",
+        "PMID-37443334"
+      ],
+      "title": "Amyloid-first ordering versus tau/synaptic correlation with symptoms"
+    },
+    {
+      "baseline_read": "Biomarkers strengthen biological classification but do not remove phenotype/copathology uncertainty.",
+      "confidence": 0.75,
+      "contradicting_evidence": [
+        "PMID-32047067",
+        "PMID-33429401",
+        "PMID-38520489"
+      ],
+      "contradiction_id": "BASE-C03",
+      "hypotheses_in_conflict": [
+        "H-BIOMARKER-DEFINED-AD",
+        "H-MIXED-PATHOLOGY"
+      ],
+      "supporting_evidence": [
+        "PMID-38429551",
+        "PMID-39068545",
+        "PMID-38866966"
+      ],
+      "title": "Biomarker-defined AD versus clinical heterogeneity"
+    },
+    {
+      "baseline_read": "Stage and cell-state dependence remains unresolved.",
+      "confidence": 0.68,
+      "contradicting_evidence": [
+        "PMID-38769824",
+        "PMID-33176118",
+        "PMID-38906999"
+      ],
+      "contradiction_id": "BASE-C04",
+      "hypotheses_in_conflict": [
+        "H-IMMUNE-INFLAMMATORY",
+        "H-AMYLOID-TAU-CASCADE"
+      ],
+      "supporting_evidence": [
+        "PMID-33318676",
+        "PMID-38424470",
+        "PMID-41315874"
+      ],
+      "title": "Inflammation as injury versus inflammation as clearance or repair"
+    },
+    {
+      "baseline_read": "Vascular contribution is recognized but not yet ranked as a main bottleneck.",
+      "confidence": 0.66,
+      "contradicting_evidence": [
+        "PMID-31827267",
+        "PMID-39288341",
+        "PMID-41052375"
+      ],
+      "contradiction_id": "BASE-C05",
+      "hypotheses_in_conflict": [
+        "H-VASCULAR",
+        "H-AMYLOID-TAU-CASCADE",
+        "H-MIXED-PATHOLOGY"
+      ],
+      "supporting_evidence": [
+        "PMID-36129176",
+        "PMID-39620840",
+        "OFF-NINDS-VCID"
+      ],
+      "title": "Vascular pathology as co-cause versus comorbidity"
+    },
+    {
+      "baseline_read": "Strong association; weak human causal ordering.",
+      "confidence": 0.61,
+      "contradicting_evidence": [
+        "PMID-32568367",
+        "PMID-39363202"
+      ],
+      "contradiction_id": "BASE-C06",
+      "hypotheses_in_conflict": [
+        "H-METABOLIC-MITOCHONDRIAL",
+        "H-AMYLOID-TAU-CASCADE"
+      ],
+      "supporting_evidence": [
+        "PMID-40023293",
+        "PMID-34416829",
+        "PMID-39444005"
+      ],
+      "title": "Metabolic/mitochondrial dysfunction as driver versus downstream stress response"
+    },
+    {
+      "baseline_read": "Genetic evidence points across lineages, not only amyloid.",
+      "confidence": 0.64,
+      "contradicting_evidence": [
+        "PMID-38504517",
+        "PMID-36394841"
+      ],
+      "contradiction_id": "BASE-C07",
+      "hypotheses_in_conflict": [
+        "H-GENETIC-APOE",
+        "H-IMMUNE-INFLAMMATORY",
+        "H-VASCULAR"
+      ],
+      "supporting_evidence": [
+        "PMID-38906999",
+        "PMID-33176118",
+        "PMID-36922879"
+      ],
+      "title": "APOE as amyloid-risk allele versus pleiotropic immune/lipid/vascular regulator"
+    },
+    {
+      "baseline_read": "Clinical symptom relief and disease modification remain separate evidentiary categories.",
+      "confidence": 0.6,
+      "contradicting_evidence": [
+        "PMID-36449413",
+        "PMID-37459141",
+        "PMID-32568367"
+      ],
+      "contradiction_id": "BASE-C08",
+      "hypotheses_in_conflict": [
+        "H-CHOLINERGIC-SYNAPTIC",
+        "H-AMYLOID-TAU-CASCADE"
+      ],
+      "supporting_evidence": [
+        "PMID-36513730",
+        "PMID-39620846",
+        "PMID-35034755"
+      ],
+      "title": "Symptomatic cholinergic/synaptic treatment axis versus disease-modifying target axis"
+    }
+  ],
+  "edges": [
+    {
+      "from": "BASE-C01",
+      "relation": "pressures",
+      "to": "H-AMYLOID-TAU-CASCADE"
+    },
+    {
+      "from": "BASE-C01",
+      "relation": "pressures",
+      "to": "H-MIXED-PATHOLOGY"
+    },
+    {
+      "from": "BASE-C01",
+      "relation": "pressures",
+      "to": "H-CHOLINERGIC-SYNAPTIC"
+    },
+    {
+      "from": "PMID-35177833",
+      "relation": "supports_one_side",
+      "to": "BASE-C01"
+    },
+    {
+      "from": "PMID-36449413",
+      "relation": "supports_one_side",
+      "to": "BASE-C01"
+    },
+    {
+      "from": "PMID-37459141",
+      "relation": "supports_one_side",
+      "to": "BASE-C01"
+    },
+    {
+      "from": "OFF-FDA-LEQEMBI-2023",
+      "relation": "supports_one_side",
+      "to": "BASE-C01"
+    },
+    {
+      "from": "OFF-FDA-KISUNLA-2024",
+      "relation": "supports_one_side",
+      "to": "BASE-C01"
+    },
+    {
+      "from": "PMID-35542991",
+      "relation": "supports_conflicting_side",
+      "to": "BASE-C01"
+    },
+    {
+      "from": "PMID-37966285",
+      "relation": "supports_conflicting_side",
+      "to": "BASE-C01"
+    },
+    {
+      "from": "PMID-38683602",
+      "relation": "supports_conflicting_side",
+      "to": "BASE-C01"
+    },
+    {
+      "from": "PMID-35696185",
+      "relation": "supports_conflicting_side",
+      "to": "BASE-C01"
+    },
+    {
+      "from": "BASE-C02",
+      "relation": "pressures",
+      "to": "H-AMYLOID-TAU-CASCADE"
+    },
+    {
+      "from": "BASE-C02",
+      "relation": "pressures",
+      "to": "H-CHOLINERGIC-SYNAPTIC"
+    },
+    {
+      "from": "PMID-34815562",
+      "relation": "supports_one_side",
+      "to": "BASE-C02"
+    },
+    {
+      "from": "PMID-39014245",
+      "relation": "supports_one_side",
+      "to": "BASE-C02"
+    },
+    {
+      "from": "PMID-36508198",
+      "relation": "supports_one_side",
+      "to": "BASE-C02"
+    },
+    {
+      "from": "PMID-37443334",
+      "relation": "supports_one_side",
+      "to": "BASE-C02"
+    },
+    {
+      "from": "PMID-37875627",
+      "relation": "supports_conflicting_side",
+      "to": "BASE-C02"
+    },
+    {
+      "from": "PMID-35696185",
+      "relation": "supports_conflicting_side",
+      "to": "BASE-C02"
+    },
+    {
+      "from": "PMID-36513730",
+      "relation": "supports_conflicting_side",
+      "to": "BASE-C02"
+    },
+    {
+      "from": "BASE-C03",
+      "relation": "pressures",
+      "to": "H-BIOMARKER-DEFINED-AD"
+    },
+    {
+      "from": "BASE-C03",
+      "relation": "pressures",
+      "to": "H-MIXED-PATHOLOGY"
+    },
+    {
+      "from": "PMID-38429551",
+      "relation": "supports_one_side",
+      "to": "BASE-C03"
+    },
+    {
+      "from": "PMID-39068545",
+      "relation": "supports_one_side",
+      "to": "BASE-C03"
+    },
+    {
+      "from": "PMID-38866966",
+      "relation": "supports_one_side",
+      "to": "BASE-C03"
+    },
+    {
+      "from": "PMID-32047067",
+      "relation": "supports_conflicting_side",
+      "to": "BASE-C03"
+    },
+    {
+      "from": "PMID-33429401",
+      "relation": "supports_conflicting_side",
+      "to": "BASE-C03"
+    },
+    {
+      "from": "PMID-38520489",
+      "relation": "supports_conflicting_side",
+      "to": "BASE-C03"
+    },
+    {
+      "from": "BASE-C04",
+      "relation": "pressures",
+      "to": "H-IMMUNE-INFLAMMATORY"
+    },
+    {
+      "from": "BASE-C04",
+      "relation": "pressures",
+      "to": "H-AMYLOID-TAU-CASCADE"
+    },
+    {
+      "from": "PMID-33318676",
+      "relation": "supports_one_side",
+      "to": "BASE-C04"
+    },
+    {
+      "from": "PMID-38424470",
+      "relation": "supports_one_side",
+      "to": "BASE-C04"
+    },
+    {
+      "from": "PMID-41315874",
+      "relation": "supports_one_side",
+      "to": "BASE-C04"
+    },
+    {
+      "from": "PMID-38769824",
+      "relation": "supports_conflicting_side",
+      "to": "BASE-C04"
+    },
+    {
+      "from": "PMID-33176118",
+      "relation": "supports_conflicting_side",
+      "to": "BASE-C04"
+    },
+    {
+      "from": "PMID-38906999",
+      "relation": "supports_conflicting_side",
+      "to": "BASE-C04"
+    },
+    {
+      "from": "BASE-C05",
+      "relation": "pressures",
+      "to": "H-VASCULAR"
+    },
+    {
+      "from": "BASE-C05",
+      "relation": "pressures",
+      "to": "H-AMYLOID-TAU-CASCADE"
+    },
+    {
+      "from": "BASE-C05",
+      "relation": "pressures",
+      "to": "H-MIXED-PATHOLOGY"
+    },
+    {
+      "from": "PMID-36129176",
+      "relation": "supports_one_side",
+      "to": "BASE-C05"
+    },
+    {
+      "from": "PMID-39620840",
+      "relation": "supports_one_side",
+      "to": "BASE-C05"
+    },
+    {
+      "from": "OFF-NINDS-VCID",
+      "relation": "supports_one_side",
+      "to": "BASE-C05"
+    },
+    {
+      "from": "PMID-31827267",
+      "relation": "supports_conflicting_side",
+      "to": "BASE-C05"
+    },
+    {
+      "from": "PMID-39288341",
+      "relation": "supports_conflicting_side",
+      "to": "BASE-C05"
+    },
+    {
+      "from": "PMID-41052375",
+      "relation": "supports_conflicting_side",
+      "to": "BASE-C05"
+    },
+    {
+      "from": "BASE-C06",
+      "relation": "pressures",
+      "to": "H-METABOLIC-MITOCHONDRIAL"
+    },
+    {
+      "from": "BASE-C06",
+      "relation": "pressures",
+      "to": "H-AMYLOID-TAU-CASCADE"
+    },
+    {
+      "from": "PMID-40023293",
+      "relation": "supports_one_side",
+      "to": "BASE-C06"
+    },
+    {
+      "from": "PMID-34416829",
+      "relation": "supports_one_side",
+      "to": "BASE-C06"
+    },
+    {
+      "from": "PMID-39444005",
+      "relation": "supports_one_side",
+      "to": "BASE-C06"
+    },
+    {
+      "from": "PMID-32568367",
+      "relation": "supports_conflicting_side",
+      "to": "BASE-C06"
+    },
+    {
+      "from": "PMID-39363202",
+      "relation": "supports_conflicting_side",
+      "to": "BASE-C06"
+    },
+    {
+      "from": "BASE-C07",
+      "relation": "pressures",
+      "to": "H-GENETIC-APOE"
+    },
+    {
+      "from": "BASE-C07",
+      "relation": "pressures",
+      "to": "H-IMMUNE-INFLAMMATORY"
+    },
+    {
+      "from": "BASE-C07",
+      "relation": "pressures",
+      "to": "H-VASCULAR"
+    },
+    {
+      "from": "PMID-38906999",
+      "relation": "supports_one_side",
+      "to": "BASE-C07"
+    },
+    {
+      "from": "PMID-33176118",
+      "relation": "supports_one_side",
+      "to": "BASE-C07"
+    },
+    {
+      "from": "PMID-36922879",
+      "relation": "supports_one_side",
+      "to": "BASE-C07"
+    },
+    {
+      "from": "PMID-38504517",
+      "relation": "supports_conflicting_side",
+      "to": "BASE-C07"
+    },
+    {
+      "from": "PMID-36394841",
+      "relation": "supports_conflicting_side",
+      "to": "BASE-C07"
+    },
+    {
+      "from": "BASE-C08",
+      "relation": "pressures",
+      "to": "H-CHOLINERGIC-SYNAPTIC"
+    },
+    {
+      "from": "BASE-C08",
+      "relation": "pressures",
+      "to": "H-AMYLOID-TAU-CASCADE"
+    },
+    {
+      "from": "PMID-36513730",
+      "relation": "supports_one_side",
+      "to": "BASE-C08"
+    },
+    {
+      "from": "PMID-39620846",
+      "relation": "supports_one_side",
+      "to": "BASE-C08"
+    },
+    {
+      "from": "PMID-35034755",
+      "relation": "supports_one_side",
+      "to": "BASE-C08"
+    },
+    {
+      "from": "PMID-36449413",
+      "relation": "supports_conflicting_side",
+      "to": "BASE-C08"
+    },
+    {
+      "from": "PMID-37459141",
+      "relation": "supports_conflicting_side",
+      "to": "BASE-C08"
+    },
+    {
+      "from": "PMID-32568367",
+      "relation": "supports_conflicting_side",
+      "to": "BASE-C08"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "BASE-C01",
+      "kind": "contradiction",
+      "title": "Amyloid/tau centrality versus modest or inconsistent clinical gains from target removal"
+    },
+    {
+      "id": "BASE-C02",
+      "kind": "contradiction",
+      "title": "Amyloid-first ordering versus tau/synaptic correlation with symptoms"
+    },
+    {
+      "id": "BASE-C03",
+      "kind": "contradiction",
+      "title": "Biomarker-defined AD versus clinical heterogeneity"
+    },
+    {
+      "id": "BASE-C04",
+      "kind": "contradiction",
+      "title": "Inflammation as injury versus inflammation as clearance or repair"
+    },
+    {
+      "id": "BASE-C05",
+      "kind": "contradiction",
+      "title": "Vascular pathology as co-cause versus comorbidity"
+    },
+    {
+      "id": "BASE-C06",
+      "kind": "contradiction",
+      "title": "Metabolic/mitochondrial dysfunction as driver versus downstream stress response"
+    },
+    {
+      "id": "BASE-C07",
+      "kind": "contradiction",
+      "title": "APOE as amyloid-risk allele versus pleiotropic immune/lipid/vascular regulator"
+    },
+    {
+      "id": "BASE-C08",
+      "kind": "contradiction",
+      "title": "Symptomatic cholinergic/synaptic treatment axis versus disease-modifying target axis"
+    }
+  ],
+  "run_id": "phase-a-baseline-no-consult"
+}

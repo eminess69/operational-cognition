@@ -1,0 +1,207 @@
+{
+  "adapter_status": "pond_backed",
+  "bounded_synthesis": "Observed: pond/proof recall returned 5 motifs and 10 lineage refs; 6 contradiction warnings and 5 unresolved tensions remain visible. Inferred: the safe next...",
+  "claim_boundary_audit": [
+    {
+      "boundary_risk": "low",
+      "evidence_refs": [
+        "request_visible_ref:proofs/023-truth-reconstruction-challenge-002/baseline/baseline_truth_map.json",
+        "request_visible_ref:proofs/023-truth-reconstruction-challenge-002/consult/inside_voice_consults/consult_001_top_three_rerank_response.json"
+      ],
+      "id": "audit.public_private_boundary",
+      "message": "Only public-safe summaries, scores, refs, warnings, and hashes are exposed.",
+      "reason_codes": [
+        "PUBLIC_PRIVATE_BOUNDARY",
+        "NO_HIDDEN_REASONING_EXPOSED"
+      ],
+      "status": "pass"
+    }
+  ],
+  "claim_pressure": [
+    {
+      "boundary_risk": "medium",
+      "evidence_refs": [
+        "artifacts/pond/high_grade_seasoning_corpus.jsonl#75"
+      ],
+      "id": "contradiction:c3328bb2ea1b",
+      "pressure_score": 0.552,
+      "warning": "seasoning_00076"
+    }
+  ],
+  "confidence": "medium",
+  "contribution_grade": "bounded",
+  "contribution_grade_details": {
+    "contribution_grade": "bounded",
+    "grade_reasons": [
+      "refs_motifs_tensions_and_pressure_present"
+    ],
+    "minimum_gate_passed": true
+  },
+  "findings": [
+    {
+      "claim": "Consultation is bounded to the supplied request envelope and local contract schema.",
+      "confidence": "high",
+      "evidence": [
+        "mode:audit",
+        "files:8",
+        "constraints:8",
+        "desired_artifacts:5"
+      ],
+      "id": "mcp.contract.bounds",
+      "lineage_refs": [
+        "a6df233e2677e4ed006718adbeb9a2ae8b88f43307582599e0869b4f0bd039f6"
+      ],
+      "risk": "low"
+    }
+  ],
+  "gate_failures": [],
+  "lineage": {
+    "request_hash": "a6df233e2677e4ed006718adbeb9a2ae8b88f43307582599e0869b4f0bd039f6",
+    "response_hash": "1d7740798f96adb7e6c61f11d2717543c6cc7823ae5e8798f8d0fae7f2597933",
+    "runtime": {
+      "corpus_hash": "9dc990b92a07a9c77beafae5036894225983ce47f5fd2c6650266d29afc81b15",
+      "runtime_request_hash": "a6df233e2677e4ed006718adbeb9a2ae8b88f43307582599e0869b4f0bd039f6",
+      "runtime_response_hash": "ff5eb44ade7b71a88eb8c2e7dfd3c41ca42c9cc55e48b9cf71f56b25f634caa4",
+      "schema_version": "belief_ledger.inside_voice_runtime.v1"
+    },
+    "source_refs": [
+      "request_id:sha256:f08ee8c801b879b6",
+      "task:sha256:54a13118e137bbdc"
+    ]
+  },
+  "lineage_refs": [
+    "request_visible_ref:proofs/023-truth-reconstruction-challenge-002/baseline/baseline_truth_map.json",
+    "request_visible_ref:proofs/023-truth-reconstruction-challenge-002/consult/inside_voice_consults/consult_001_top_three_rerank_response.json",
+    "request_visible_ref:proofs/023-truth-reconstruction-challenge-002/consult/inside_voice_consults/consult_002_cri_response.json"
+  ],
+  "mode": "audit",
+  "operational_boundaries": [],
+  "pressure_rankings": [
+    {
+      "boundary_risk": "medium",
+      "claim_level": "unresolved",
+      "id": "pressure:44eeb320a80c1c5f",
+      "kind": "unresolved",
+      "pressure_reasons": [
+        "DIRECT_REQUEST_MATCH",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE"
+      ],
+      "pressure_score": 0.747,
+      "reason_codes": [
+        "CONTRADICTION_CLUSTER",
+        "CONFLICTING_PATHWAY_REINFORCEMENT",
+        "DIRECT_REQUEST_MATCH",
+        "CONTRADICTION_RELEVANCE"
+      ],
+      "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+      "supporting_refs": [
+        "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+      ],
+      "title": "CONFLICTING_PATHWAY_REINFORCEMENT"
+    },
+    {
+      "boundary_risk": "medium",
+      "claim_level": "unresolved",
+      "id": "pressure:cf4e82e380cf1a94",
+      "kind": "unresolved",
+      "pressure_reasons": [
+        "DIRECT_REQUEST_MATCH",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE"
+      ],
+      "pressure_score": 0.741,
+      "reason_codes": [
+        "TASK_PATHWAY_COLLISION",
+        "DIRECT_REQUEST_MATCH",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE"
+      ],
+      "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+      "supporting_refs": [
+        "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+        "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee"
+      ],
+      "title": "arbitration:28663be18db91b7d"
+    },
+    {
+      "boundary_risk": "medium",
+      "claim_level": "unresolved",
+      "id": "pressure:def77fbff3865287",
+      "kind": "unresolved",
+      "pressure_reasons": [
+        "DIRECT_REQUEST_MATCH",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE"
+      ],
+      "pressure_score": 0.724,
+      "reason_codes": [
+        "BLOCKED_LOW_REUSE_POTENTIAL",
+        "BLOCKED_DUPLICATE",
+        "BLOCKED_SYNTHETIC_INFLATION",
+        "DIRECT_REQUEST_MATCH"
+      ],
+      "source_ref": "artifacts/pond/high_grade_seasoning_corpus.jsonl#75",
+      "supporting_refs": [
+        "artifacts/pond/high_grade_seasoning_corpus.jsonl#75",
+        "artifacts/pond/reusable_lineage_pool.jsonl"
+      ],
+      "title": "seasoning_00076"
+    }
+  ],
+  "recalled_motifs": [
+    {
+      "boundary_risk": "medium",
+      "motif": "fp_lineage_candidate_0046",
+      "motif_id": "inside_voice_runtime:5a24027a6bc08931af27",
+      "pressure_score": 0.495
+    }
+  ],
+  "recommendations": [
+    {
+      "action": "Retry with a larger max_output_chars value.",
+      "blocking": false,
+      "id": "mcp.rec.raise_output_limit",
+      "reason": "Full pond-backed response exceeded the requested output bound."
+    }
+  ],
+  "recommended_next_pressure": [
+    "Inspect the cited proof and claim-boundary artifacts before using the synthesis as task evidence.",
+    "Preserve observed/inferred/hypothesis/unresolved labels in any downstream response."
+  ],
+  "recommended_validation": [
+    "Inspect the cited proof and claim-boundary artifacts before using the synthesis as task evidence.",
+    "Preserve observed/inferred/hypothesis/unresolved labels in any downstream response."
+  ],
+  "relevant_lineage_refs": [
+    "request_visible_ref:proofs/023-truth-reconstruction-challenge-002/baseline/baseline_truth_map.json",
+    "request_visible_ref:proofs/023-truth-reconstruction-challenge-002/consult/inside_voice_consults/consult_001_top_three_rerank_response.json",
+    "request_visible_ref:proofs/023-truth-reconstruction-challenge-002/consult/inside_voice_consults/consult_002_cri_response.json"
+  ],
+  "request_id": "proof-023-truth-reconstruction-002-consult-005-final-audit",
+  "retrieved_artifact_refs": [
+    "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#45",
+    "artifacts/pond/mcp_seasoned_reusable_lineage_candidates.jsonl#45",
+    "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#21"
+  ],
+  "runtime_stage_report_ref": "artifacts/integrations/inside_voice_runtime/runtime_stage_report.json",
+  "summary": "Consultation output was compacted to honor max_output_chars.",
+  "uncertainty": [
+    "OUTPUT_COMPACTED_TO_MAX_OUTPUT_CHARS",
+    "Recall is bounded to indexed local pond/proof artifacts and may miss evidence outside the declared corpus.",
+    "Recalled reports remain evidence, not implementation capability."
+  ],
+  "unresolved_tensions": [
+    {
+      "boundary_risk": "medium",
+      "evidence_refs": [
+        "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+      ],
+      "id": "inside_voice_runtime:090c5db589c51515dfae",
+      "pressure_score": 0.547,
+      "status": "unresolved",
+      "tension": "CONFLICTING_PATHWAY_REINFORCEMENT"
+    }
+  ],
+  "verdict": "ok"
+}

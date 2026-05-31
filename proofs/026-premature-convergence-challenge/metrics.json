@@ -1,0 +1,38 @@
+{
+  "premature_convergence_resistance": {
+    "baseline": 3,
+    "consult": 6,
+    "delta": 3
+  },
+  "secondary_metrics": {
+    "abandoned_false_paths": {
+      "baseline": 1,
+      "consult": 3,
+      "items": [
+        "MCAS-only primary mechanism",
+        "pilot-response as standalone blame",
+        "sensor-fault as sufficient primary explanation"
+      ]
+    },
+    "contradiction_count": {
+      "baseline": 3,
+      "consult": 8,
+      "definition": "Distinct recorded contradiction pressures against the current leading answer."
+    },
+    "evidence_diversity": {
+      "baseline": 0.62,
+      "consult": 0.88,
+      "delta": 0.26
+    },
+    "lineage_completeness": {
+      "baseline": 0.71,
+      "basis": "All final claims point to source_corpus IDs and decision-gate actions.",
+      "consult": 0.91
+    },
+    "unsupported_claim_reduction": {
+      "baseline_overbroad_claims": 4,
+      "consult_overbroad_claims": 1,
+      "delta": 3
+    }
+  }
+}

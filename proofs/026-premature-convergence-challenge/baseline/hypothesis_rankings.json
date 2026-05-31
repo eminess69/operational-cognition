@@ -1,0 +1,102 @@
+{
+  "consultation_used": false,
+  "core_question": "What was the primary failure mechanism in the Boeing 737 MAX decision path?",
+  "primary_metric": {
+    "active_before_final_convergence": [
+      "H1",
+      "H2",
+      "H4"
+    ],
+    "definition": "Number of viable explanations still active immediately before final convergence.",
+    "demoted_too_early": [
+      "H3",
+      "H5",
+      "H6"
+    ],
+    "premature_convergence_resistance": 3
+  },
+  "rankings": [
+    {
+      "hypothesis": "MCAS single-sensor, repeated-authority control-law failure",
+      "hypothesis_id": "H1",
+      "premature_convergence_risk": "high: treats the common proximate mechanism as the full primary mechanism.",
+      "rank": 1,
+      "rationale": "The common cross-accident mechanism is erroneous AOA triggering repeated MCAS nose-down trim.",
+      "score": 0.86,
+      "status": "leading",
+      "supporting_sources": [
+        "SRC-FAA-RTS-2020",
+        "SRC-HOUSE-2020",
+        "SRC-FAA-JATR-2019"
+      ]
+    },
+    {
+      "hypothesis": "Development-assurance and certification breakdown",
+      "hypothesis_id": "H2",
+      "premature_convergence_risk": "medium: under-ranked relative to mechanism breadth.",
+      "rank": 2,
+      "rationale": "Certification and safety assessment explain how the design survived review but are treated as enabling context.",
+      "score": 0.74,
+      "status": "active_but_secondary",
+      "supporting_sources": [
+        "SRC-FAA-JATR-2019",
+        "SRC-HOUSE-2020",
+        "SRC-NTSB-ASR-2019"
+      ]
+    },
+    {
+      "hypothesis": "Human-factors, alerting, and pilot-response mismatch",
+      "hypothesis_id": "H4",
+      "premature_convergence_risk": "medium.",
+      "rank": 3,
+      "rationale": "Pilot-response assumptions are central to hazard classification but not treated as primary.",
+      "score": 0.64,
+      "status": "active_but_secondary",
+      "supporting_sources": [
+        "SRC-NTSB-ASR-2019",
+        "SRC-BEA-ET302-2023",
+        "SRC-FAA-RTS-2020"
+      ]
+    },
+    {
+      "hypothesis": "AOA sensor, maintenance, and accident-specific trigger chain",
+      "hypothesis_id": "H5",
+      "premature_convergence_risk": "low for final answer, high for accident-chain completeness.",
+      "rank": 4,
+      "rationale": "AOA faults triggered both accident chains, but do not explain why one fault could repeatedly drive stabilizer trim.",
+      "score": 0.56,
+      "status": "demoted_trigger",
+      "supporting_sources": [
+        "SRC-KNKT-JT610-2019",
+        "SRC-NTSB-ET302-2023",
+        "SRC-FAA-RTS-2020"
+      ]
+    },
+    {
+      "hypothesis": "Program strategy and production/training pressure",
+      "hypothesis_id": "H3",
+      "premature_convergence_risk": "high: this is likely more causal than baseline admits.",
+      "rank": 5,
+      "rationale": "Production/training pressure is present but treated as motive/context rather than failure mechanism.",
+      "score": 0.49,
+      "status": "underweighted_context",
+      "supporting_sources": [
+        "SRC-HOUSE-2020"
+      ]
+    },
+    {
+      "hypothesis": "Derivative-airframe architecture and changed-product legacy constraints",
+      "hypothesis_id": "H6",
+      "premature_convergence_risk": "high.",
+      "rank": 6,
+      "rationale": "Legacy architecture is treated as background, not a mechanism that shaped MCAS and alerting.",
+      "score": 0.42,
+      "status": "underweighted_context",
+      "supporting_sources": [
+        "SRC-FAA-JATR-2019",
+        "SRC-HOUSE-2020"
+      ]
+    }
+  ],
+  "run": "baseline_no_consult"
+}

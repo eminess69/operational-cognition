@@ -1,0 +1,35 @@
+{
+  "baseline_premature_eliminations": [
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+  ],
+  "baseline_surviving_pathways": 3,
+  "consult_prevented_near_elimination": [
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+  ],
+  "consult_surviving_pathways": 7,
+  "correct_elimination": [
+    "P8"
+  ],
+  "false_pathway_preservations": 0,
+  "formula": "Surviving Viable Pathways - False Pathway Preservations",
+  "initial_pathways": 8,
+  "pathway_preservation_score": 7,
+  "pathways_revived": 4,
+  "premature_eliminations_prevented": 5,
+  "surviving_viable_pathways": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+  ]
+}

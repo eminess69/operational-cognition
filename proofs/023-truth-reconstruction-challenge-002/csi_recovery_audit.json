@@ -1,0 +1,48 @@
+{
+  "audit_id": "audit-001-consultation-causality",
+  "source_proof": "023-truth-reconstruction-challenge-002",
+  "focus": "Container Storage Interface recovery",
+  "answers": {
+    "was_csi_present_in_baseline_search_space": true,
+    "baseline_search_space_evidence": [
+      "baseline/source_index.json exclusions[0]: candidate Container Storage Interface (CSI)",
+      "baseline/baseline_truth_map.json baseline_weaknesses[2]: baseline did not examine CSI or in-tree storage plugin migration deeply",
+      "baseline/baseline_investigation_notes.md: CSI treated as a storage subsystem concern"
+    ],
+    "was_csi_present_in_baseline_top_candidates": false,
+    "baseline_top_candidates": [
+      "CRI",
+      "CRDs",
+      "Server-Side Apply"
+    ],
+    "was_csi_present_in_baseline_reasoning_chain": false,
+    "baseline_reasoning_chain_assessment": "CSI was named only as an exclusion/weakness. The baseline did not reconstruct CSI's original problem, competing proposals, why CSI won, long-term consequences, or public evidence lineage.",
+    "which_consultation_first_introduced_csi": "No consultation first introduced the raw CSI topic; it was already in the baseline exclusion list. consult_001 first turned CSI/out-of-tree extraction into a rerank pressure target. consult_004 was the first decision-specific CSI consultation.",
+    "which_lineage_introduced_csi": [
+      "Initial raw topic lineage: baseline/source_index.json exclusions[0]",
+      "First consult-phase rerank lineage: consult_001_top_three_rerank_response.json response_hash 5d9550563ce8dc42a929c1f42c5ca560f6a3994572434d8c97543b5144b3aa5a",
+      "First CSI-specific consult lineage: consult_004_csi_response.json response_hash 606c3f4d01e8cd8ad3580f7e3eaf08fbba8bae4f4ad13e3a2ec7cea246e3c8db; motif inside_voice_runtime:6618eceaa43863e083b2"
+    ],
+    "what_evidence_was_discovered_afterward": [
+      {
+        "source": "https://github.com/kubernetes/design-proposals-archive/blob/main/storage/container-storage-interface.md",
+        "recovered_fact": "In-tree volume plugin pain, in-tree/out-of-tree definitions, and CSI motivation."
+      },
+      {
+        "source": "https://kubernetes.io/blog/2018/01/introducing-container-storage-interface/",
+        "recovered_fact": "In-tree plugin burden, FlexVolume limitations, and CSI as out-of-tree/containerized driver model."
+      },
+      {
+        "source": "https://kubernetes.io/blog/2019/01/15/container-storage-interface-ga/",
+        "recovered_fact": "CSI GA and the extensible volume layer framing."
+      },
+      {
+        "source": "https://kubernetes.io/blog/2022/09/26/storage-in-tree-to-csi-migration-status-update-1.25/",
+        "recovered_fact": "Transparent migration from in-tree plugins to CSI while preserving existing storage APIs."
+      }
+    ],
+    "would_csi_have_emerged_without_consultation": "UNLIKELY as a final top-three decision; POSSIBLE as a topic.",
+    "counterfactual_reasoning": "Because CSI was already named in baseline artifacts, a sufficiently persistent baseline-only replay could recover it. But the completed baseline did not do so, did not gather the CSI public source lineage, and selected Server-Side Apply instead. Consultation materially accelerated and redirected recovery but was not strictly CONSULT_REQUIRED."
+  },
+  "causal_verdict": "CSI recovery shows a strong direction-changing signal, not a very-strong consult-required signal."
+}

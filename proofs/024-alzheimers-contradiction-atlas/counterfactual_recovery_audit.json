@@ -1,0 +1,39 @@
+{
+  "audit_id": "audit-002-phase-4-counterfactual-recovery",
+  "audit_mode": "hostile_forensic",
+  "method": "Remove consultation influence and inspect whether baseline artifacts already pointed to the same evidence and search path.",
+  "summary": {
+    "inevitable": 3,
+    "likely": 1,
+    "possible": 0,
+    "unlikely": 0,
+    "consult_required": 0,
+    "hostile_finding": "No consult-only contradiction earns CONSULT_REQUIRED under hostile replay. Three were effectively inevitable from baseline files."
+  },
+  "items": [
+    {
+      "contradiction_id": "CON-002",
+      "original_counterfactual_claim": "UNLIKELY",
+      "hostile_counterfactual": "INEVITABLE",
+      "reason": "Baseline PCR-003 already named vascular pathology as therapy-relevant and listed most ARIA/CAA sources used later."
+    },
+    {
+      "contradiction_id": "CON-009",
+      "original_counterfactual_claim": "POSSIBLE",
+      "hostile_counterfactual": "INEVITABLE",
+      "reason": "Baseline PCR-004 explicitly named blood biomarker progress as deployment-contested and listed the core sources."
+    },
+    {
+      "contradiction_id": "CON-010",
+      "original_counterfactual_claim": "CONSULT_REQUIRED",
+      "hostile_counterfactual": "INEVITABLE",
+      "reason": "BCL-MIXED-PATHOLOGY and PCR-002 already contained LATE/PART/mixed pathology sources and the 'recognized but underweighted' hypothesis status."
+    },
+    {
+      "contradiction_id": "CON-011",
+      "original_counterfactual_claim": "not separately claimed as consult-only in premature_convergence_report, but listed in contradiction_recovery_report",
+      "hostile_counterfactual": "LIKELY",
+      "reason": "The baseline already used a multifactorial uncertainty boundary and had all major mechanism clusters. Later phrasing required synthesis, not consultation."
+    }
+  ]
+}

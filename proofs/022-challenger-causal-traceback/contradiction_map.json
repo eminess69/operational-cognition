@@ -1,0 +1,199 @@
+{
+  "proof_id": "022-challenger-causal-traceback",
+  "map_type": "conflicting_claims_recommendations_and_risk_assessments",
+  "contradictions": [
+    {
+      "id": "CT-001",
+      "category": "conflicting_recommendations",
+      "conflict": "Thiokol engineering recommended no launch below 53 F O-ring temperature, but Thiokol management ultimately recommended launch.",
+      "side_a": {
+        "claim": "Do not launch below the prior O-ring temperature experience base.",
+        "evidence": ["EV-007"],
+        "source_lineage": ["SRC-003:L830-L834", "SRC-016:L224-L238"]
+      },
+      "side_b": {
+        "claim": "After caucus and reassessment, launch was recommended.",
+        "evidence": ["EV-008", "EV-016"],
+        "source_lineage": ["SRC-003:L859-L864", "SRC-016:L79-L93"]
+      },
+      "resolution": "Preserve as a decision conflict. The final launch recommendation was management-generated and did not erase the engineering objection.",
+      "impact_on_verdict": "high"
+    },
+    {
+      "id": "CT-002",
+      "category": "conflicting_risk_assessment",
+      "conflict": "Incomplete temperature data was treated as a reason to delay by engineers and as a reason to proceed by managers.",
+      "side_a": {
+        "claim": "The data were outside the prior experience base; absence of proof of failure did not prove safety.",
+        "evidence": ["EV-006", "EV-007", "EV-016"],
+        "source_lineage": ["SRC-004:L1556-L1562", "SRC-017:L2052-L2074"]
+      },
+      "side_b": {
+        "claim": "Temperature influence was considered inconclusive, so the launch recommendation changed.",
+        "evidence": ["EV-016"],
+        "source_lineage": ["SRC-016:L79-L93"]
+      },
+      "resolution": "The stronger evidentiary posture is that unverified safety under colder-than-experience conditions should not have been promoted to launch confidence.",
+      "impact_on_verdict": "high"
+    },
+    {
+      "id": "CT-003",
+      "category": "conflicting_risk_assessment",
+      "conflict": "The field joint was non-redundant under critical conditions, but paperwork and rationale often treated the joint as if secondary seal redundancy were available.",
+      "side_a": {
+        "claim": "The field joint was Criticality 1 and not redundant under worst-case conditions.",
+        "evidence": ["EV-012"],
+        "source_lineage": ["SRC-005:L108-L142", "SRC-016:L269-L277"]
+      },
+      "side_b": {
+        "claim": "Launch rationale relied on the secondary seal being available if the primary did not seal.",
+        "evidence": ["EV-008", "EV-012"],
+        "source_lineage": ["SRC-003:L863-L864", "SRC-016:L235-L262"]
+      },
+      "resolution": "The contradiction materially weakens the launch rationale because the secondary O-ring could not be assumed independent under the same cold/joint-rotation conditions.",
+      "impact_on_verdict": "high"
+    },
+    {
+      "id": "CT-004",
+      "category": "conflicting_process_state",
+      "conflict": "Launch constraints should require resolution or explicit waiver, but the O-ring constraint history was waived, omitted, or treated as closed.",
+      "side_a": {
+        "claim": "A launch constraint is significant and must be addressed before flight.",
+        "evidence": ["EV-013"],
+        "source_lineage": ["SRC-004:L1316-L1345"]
+      },
+      "side_b": {
+        "claim": "The O-ring constraint was waived repeatedly, omitted from briefings, or affected by erroneous closure entries.",
+        "evidence": ["EV-013"],
+        "source_lineage": ["SRC-004:L1357-L1358", "SRC-004:L1603-L1608", "SRC-004:L1621-L1624"]
+      },
+      "resolution": "The contradiction supports the organizational-failure conclusion: the tracking system failed to preserve the safety significance of the anomaly.",
+      "impact_on_verdict": "high"
+    },
+    {
+      "id": "CT-005",
+      "category": "conflicting_interpretation_of_prior_anomalies",
+      "conflict": "Prior O-ring erosion and blow-by were warning signs, but they were repeatedly accepted as within experience or allowable limits.",
+      "side_a": {
+        "claim": "Erosion and blow-by were signs that the equipment was not operating as designed.",
+        "evidence": ["EV-018", "EV-019"],
+        "source_lineage": ["SRC-008:L25-L35", "SRC-004:L1611-L1624"]
+      },
+      "side_b": {
+        "claim": "Prior successful flights with erosion were used to justify continued acceptance.",
+        "evidence": ["EV-010", "EV-019"],
+        "source_lineage": ["SRC-004:L1606-L1608", "SRC-004:L1617-L1621"]
+      },
+      "resolution": "The warning interpretation is stronger because the design did not intend O-ring erosion; prior survival is not evidence of understood margin.",
+      "impact_on_verdict": "high"
+    },
+    {
+      "id": "CT-006",
+      "category": "conflicting_analysis_method",
+      "conflict": "The temperature-risk pattern was visible when all flights were considered, but obscured when only distressed flights were plotted.",
+      "side_a": {
+        "claim": "Full flight history showed a strong low-temperature distress pattern.",
+        "evidence": ["EV-006"],
+        "source_lineage": ["SRC-004:L1556-L1562"]
+      },
+      "side_b": {
+        "claim": "Managers compared only distressed O-ring cases across temperatures, making the distribution appear less irregular.",
+        "evidence": ["EV-006"],
+        "source_lineage": ["SRC-004:L1556-L1558"]
+      },
+      "resolution": "The full-history denominator is the stronger risk analysis because it includes both success and distress cases.",
+      "impact_on_verdict": "high"
+    },
+    {
+      "id": "CT-007",
+      "category": "conflicting_process_expectation",
+      "conflict": "NASA had formal safety and review structures, but critical O-ring objections and trend data were not surfaced through them.",
+      "side_a": {
+        "claim": "Flight readiness and safety programs were intended to surface problems, constraints, trends, and risk.",
+        "evidence": ["EV-009", "EV-011"],
+        "source_lineage": ["SRC-003:L13-L20", "SRC-005:L15-L24"]
+      },
+      "side_b": {
+        "claim": "Safety representatives were absent from the critical teleconference and Mission Management Team, and key O-ring concerns bypassed Levels I and II.",
+        "evidence": ["EV-009", "EV-011"],
+        "source_lineage": ["SRC-005:L6-L13", "SRC-004:L1606-L1608"]
+      },
+      "resolution": "This supports an organizational-cause conclusion rather than a purely technical-failure explanation.",
+      "impact_on_verdict": "high"
+    },
+    {
+      "id": "CT-008",
+      "category": "conflicting_operational_priority",
+      "conflict": "The Shuttle was treated as an operational system with schedule commitments, while evidence showed the system and safety processes remained developmentally fragile.",
+      "side_a": {
+        "claim": "NASA attempted an accelerated operational flight rate with customer commitments.",
+        "evidence": ["EV-014"],
+        "source_lineage": ["SRC-006:L6-L23"]
+      },
+      "side_b": {
+        "claim": "Resources, personnel, simulator capacity, and safety tracking were strained and not matched to the schedule.",
+        "evidence": ["EV-014", "EV-011"],
+        "source_lineage": ["SRC-006:L125-L148", "SRC-005:L144-L150"]
+      },
+      "resolution": "Schedule pressure is a contributing organizational condition, but not sufficient alone to explain the disaster without the O-ring and decision evidence.",
+      "impact_on_verdict": "medium"
+    },
+    {
+      "id": "CT-009",
+      "category": "conflicting_launch_concern",
+      "conflict": "Rockwell pad-ice concerns were part of the flawed launch decision context, but the physical-cause evidence points to the right SRM field joint.",
+      "side_a": {
+        "claim": "Decision makers did not clearly understand Rockwell's concern about pad ice.",
+        "evidence": ["EV-017"],
+        "source_lineage": ["SRC-003:L7-L8"]
+      },
+      "side_b": {
+        "claim": "No other Shuttle element was found to have contributed to the right SRM joint failure.",
+        "evidence": ["EV-003", "EV-017"],
+        "source_lineage": ["SRC-002:L7-L8"]
+      },
+      "resolution": "Pad ice remains a decision-context failure, not the strongest physical causal pathway.",
+      "impact_on_verdict": "medium"
+    },
+    {
+      "id": "CT-010",
+      "category": "conflicting_specification_interpretation",
+      "conflict": "Qualification or bulk-temperature arguments were invoked against the 53 F no-launch recommendation, but witnesses disputed whether the relevant joint and O-rings were qualified for the actual local cold conditions.",
+      "side_a": {
+        "claim": "NASA personnel challenged the 53 F criterion using perceived qualification or propellant bulk-temperature arguments.",
+        "evidence": ["EV-008", "EV-016"],
+        "source_lineage": ["SRC-003:L836-L836", "SRC-017:L2593-L2605"]
+      },
+      "side_b": {
+        "claim": "The engineering concern was local O-ring/seal behavior outside flight experience, not merely propellant mean bulk temperature.",
+        "evidence": ["EV-004", "EV-005", "EV-007", "EV-015"],
+        "source_lineage": ["SRC-016:L224-L238", "SRC-017:L2600-L2617", "SRC-014:L1926-L1930"]
+      },
+      "resolution": "The local O-ring/joint condition is the more causally relevant risk frame for this failure.",
+      "impact_on_verdict": "high"
+    },
+    {
+      "id": "CT-011",
+      "category": "conflicting_reliability_estimate",
+      "conflict": "NASA management reliability confidence diverged sharply from engineering estimates and empirical solid-rocket experience.",
+      "side_a": {
+        "claim": "Working engineers and empirical analysis suggested much higher risk than management estimates.",
+        "evidence": ["EV-019"],
+        "source_lineage": ["SRC-008:L10-L24"]
+      },
+      "side_b": {
+        "claim": "Management estimates were much more optimistic.",
+        "evidence": ["EV-019"],
+        "source_lineage": ["SRC-008:L10-L24"]
+      },
+      "resolution": "This contradiction supports the broader risk-normalization diagnosis but is not needed to establish the immediate accident chain.",
+      "impact_on_verdict": "medium"
+    }
+  ],
+  "summary": {
+    "conflicting_claims": 4,
+    "conflicting_recommendations": 1,
+    "conflicting_risk_assessments": 6,
+    "highest_impact_contradictions": ["CT-001", "CT-002", "CT-003", "CT-004", "CT-006", "CT-010"]
+  }
+}

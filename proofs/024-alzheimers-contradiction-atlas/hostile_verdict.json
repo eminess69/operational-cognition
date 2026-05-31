@@ -1,0 +1,16 @@
+{
+  "audit_id": "audit-002-phase-8-hostile-verdict",
+  "original_score": 0.72,
+  "hostile_score": 0.08,
+  "score_delta": -0.64,
+  "surviving_recoveries": 0,
+  "invalidated_recoveries": 4,
+  "verdict": "FAIL",
+  "rationale": [
+    "All four claimed consult-only contradictions are baseline-present or baseline-weak.",
+    "No consultation response contains Alzheimer-specific recovered contradictions or public Alzheimer source IDs.",
+    "The consult prompts themselves name the alleged recovery directions, creating request-side leakage.",
+    "The contradiction count is inflated by uncertainty, semantic relabeling, duplicate clusters, and contradiction splitting.",
+    "The atlas remains a useful second-pass uncertainty map, but it does not survive as evidence of consultation-caused contradiction recovery."
+  ]
+}

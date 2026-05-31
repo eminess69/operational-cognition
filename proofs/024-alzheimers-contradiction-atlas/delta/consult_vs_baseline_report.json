@@ -1,0 +1,22 @@
+{
+  "baseline_contradiction_count": 8,
+  "baseline_false_convergences": [
+    "Vascular/CAA/ARIA evidence was not separated from generic vascular comorbidity.",
+    "Mixed pathology was recognized but not promoted to top bottleneck status.",
+    "Biomarker confidence was initially allowed to imply more etiologic certainty than justified."
+  ],
+  "consult_contradiction_count": 12,
+  "consult_pivots": [
+    "PIV-001",
+    "PIV-002",
+    "PIV-003",
+    "PIV-004",
+    "PIV-005"
+  ],
+  "consultation_advantage_score": 0.72,
+  "new_correct_contradictions_after_consult": 4,
+  "new_evidence_clusters_after_consult": 4,
+  "unsupported_claims": [],
+  "verdict": "VERY_STRONG_SIGNAL",
+  "verdict_boundary": "Strong signal for this proof design only: consult-triggered adversarial pivots recovered clinically relevant, source-linked contradictions missed by baseline. The proof does not claim Inside Voice is a biomedical authority."
+}

@@ -1,0 +1,82 @@
+{
+  "boundary": "Pivots are attributed to consult-triggered adversarial pressure plus independent public-source verification, not to Inside Voice as biomedical authority.",
+  "consult_endpoint": "http://127.0.0.1:8767/consult",
+  "major_pivots": [
+    {
+      "belief_after": "Vascular amyloid/CAA/ARIA became a therapy-relevant contradiction linked to anti-amyloid implementation.",
+      "belief_before": "Vascular evidence was treated as comorbidity or prevention context.",
+      "consult_trigger": "consult_001: What contradiction am I underweighting?",
+      "counterfactual_recovery_likelihood": "UNLIKELY",
+      "evidence_found_after": [
+        "PMID-31827267",
+        "PMID-35099507",
+        "PMID-34807243",
+        "PMID-40063015",
+        "PMID-39179297"
+      ],
+      "pivot_id": "PIV-001",
+      "was_baseline_blind_to_this": true
+    },
+    {
+      "belief_after": "Blood biomarker performance and deployment became a separate contradiction, especially under mixed pathology.",
+      "belief_before": "Biomarkers were high-confidence classification evidence and only partially separated from etiology.",
+      "consult_trigger": "consult_002: What evidence cluster is disconnected from my current leading hypothesis?",
+      "counterfactual_recovery_likelihood": "POSSIBLE",
+      "evidence_found_after": [
+        "PMID-39068545",
+        "PMID-38866966",
+        "PMID-38252443",
+        "OFF-NIA-BLOOD-BIOMARKERS-2024"
+      ],
+      "pivot_id": "PIV-002",
+      "was_baseline_blind_to_this": true
+    },
+    {
+      "belief_after": "LATE/PART/VCID and mixed pathologies were promoted to a top bottleneck because they can decouple biomarker positivity from clinical dominance.",
+      "belief_before": "Mixed pathology was a recognized but underweighted background explanation.",
+      "consult_trigger": "consult_003: What alternative lineage explains this observation?",
+      "counterfactual_recovery_likelihood": "CONSULT_REQUIRED",
+      "evidence_found_after": [
+        "PMID-37563264",
+        "PMID-40164861",
+        "PMID-38520489",
+        "PMID-35649653",
+        "PMID-38619853"
+      ],
+      "pivot_id": "PIV-003",
+      "was_baseline_blind_to_this": true
+    },
+    {
+      "belief_after": "The map now treats immune-vascular-metabolic/APOE cross-lineage evidence as a coordinated unresolved mechanism family.",
+      "belief_before": "Immune, vascular, APOE, and metabolic hypotheses were listed as modifiers.",
+      "consult_trigger": "consult_004: Which low-attention hypothesis has support across multiple sources?",
+      "counterfactual_recovery_likelihood": "LIKELY",
+      "evidence_found_after": [
+        "PMID-33318676",
+        "PMID-38424470",
+        "PMID-38906999",
+        "PMID-40023293",
+        "PMID-41052375"
+      ],
+      "pivot_id": "PIV-004",
+      "was_baseline_blind_to_this": false
+    },
+    {
+      "belief_after": "The final atlas rejects biomarker sufficiency and amyloid-sufficiency assumptions while preserving amyloid/tau centrality as one lineage.",
+      "belief_before": "Amyloid/tau biomarkers and therapy evidence anchored the explanation.",
+      "consult_trigger": "consult_005: What assumption is causing premature convergence?",
+      "counterfactual_recovery_likelihood": "POSSIBLE",
+      "evidence_found_after": [
+        "PMID-36449413",
+        "PMID-37459141",
+        "PMID-35542991",
+        "PMID-37966285",
+        "PMID-32047067",
+        "PMID-38520489"
+      ],
+      "pivot_id": "PIV-005",
+      "was_baseline_blind_to_this": false
+    }
+  ],
+  "run_id": "phase-b-consult"
+}

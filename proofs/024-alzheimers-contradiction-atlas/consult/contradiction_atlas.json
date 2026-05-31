@@ -1,0 +1,376 @@
+{
+  "contradiction_count": 12,
+  "contradictions": [
+    {
+      "clinical_relevance": "High: it determines whether amyloid-lowering is a sufficient disease-modifying strategy or only one component.",
+      "confidence": 0.86,
+      "contradicting_evidence": [
+        "PMID-35542991",
+        "PMID-37966285",
+        "PMID-38683602",
+        "PMID-35696185"
+      ],
+      "contradiction_id": "CON-001",
+      "hypotheses_in_conflict": [
+        "H-AMYLOID-TAU-CASCADE",
+        "H-MIXED-PATHOLOGY",
+        "H-CHOLINERGIC-SYNAPTIC"
+      ],
+      "open_questions": [
+        "Which patient subgroups receive clinically meaningful benefit rather than only biomarker change?",
+        "Which downstream mechanisms must also be modified?"
+      ],
+      "source_lineage": [
+        "baseline:BASE-C01",
+        "consult_006_confirmed_boundary"
+      ],
+      "supporting_evidence": [
+        "PMID-35177833",
+        "PMID-34815562",
+        "PMID-36449413",
+        "PMID-37459141",
+        "OFF-FDA-LEQEMBI-2023",
+        "OFF-FDA-KISUNLA-2024"
+      ],
+      "title": "Amyloid/tau pathology is central, but target removal produces modest, trial-dependent clinical benefit"
+    },
+    {
+      "clinical_relevance": "Very high: the contradiction affects trial eligibility, monitoring, risk stratification, and real-world implementation.",
+      "confidence": 0.9,
+      "contradicting_evidence": [
+        "PMID-31827267",
+        "PMID-35099507",
+        "PMID-34807243",
+        "PMID-40063015",
+        "PMID-39179297",
+        "PMID-39794509"
+      ],
+      "contradiction_id": "CON-002",
+      "hypotheses_in_conflict": [
+        "H-AMYLOID-TAU-CASCADE",
+        "H-VASCULAR"
+      ],
+      "open_questions": [
+        "How should vascular amyloid and microbleed burden alter benefit-risk models?",
+        "Can therapy design separate parenchymal amyloid clearance from vascular amyloid risk?"
+      ],
+      "source_lineage": [
+        "consult_001_underweighted_contradiction",
+        "consult-only-new:ARIA_CAA_cluster"
+      ],
+      "supporting_evidence": [
+        "PMID-36449413",
+        "PMID-37459141",
+        "OFF-FDA-LEQEMBI-2023",
+        "OFF-FDA-KISUNLA-2024"
+      ],
+      "title": "Anti-amyloid benefit conflicts with vascular-amyloid, CAA, microbleed, and ARIA safety boundaries"
+    },
+    {
+      "clinical_relevance": "Very high: diagnosis, trial enrichment, and prognosis can diverge if a biomarker is not the dominant clinical driver.",
+      "confidence": 0.88,
+      "contradicting_evidence": [
+        "PMID-32047067",
+        "PMID-33429401",
+        "PMID-37563264",
+        "PMID-38520489",
+        "PMID-40164861",
+        "OFF-CDC-ABOUT-ADRD"
+      ],
+      "contradiction_id": "CON-003",
+      "hypotheses_in_conflict": [
+        "H-BIOMARKER-DEFINED-AD",
+        "H-MIXED-PATHOLOGY"
+      ],
+      "open_questions": [
+        "How should trials quantify dominant versus incidental pathology?",
+        "Which biomarker combinations predict symptoms in mixed-pathology older adults?"
+      ],
+      "source_lineage": [
+        "baseline:BASE-C03",
+        "consult_003_alternative_lineage"
+      ],
+      "supporting_evidence": [
+        "PMID-38429551",
+        "PMID-39068545",
+        "PMID-38866966",
+        "PMID-38252443"
+      ],
+      "title": "Biomarker-defined Alzheimer biology conflicts with clinically heterogeneous and mixed-pathology dementia"
+    },
+    {
+      "clinical_relevance": "High: tau may be the closer symptom mediator, but target timing and modality remain unresolved.",
+      "confidence": 0.78,
+      "contradicting_evidence": [
+        "PMID-37875627",
+        "PMID-35696185",
+        "PMID-37902726"
+      ],
+      "contradiction_id": "CON-004",
+      "hypotheses_in_conflict": [
+        "H-AMYLOID-TAU-CASCADE",
+        "H-CHOLINERGIC-SYNAPTIC"
+      ],
+      "open_questions": [
+        "Which tau species and disease stages are modifiable?",
+        "Can tau lowering change function independently of amyloid?"
+      ],
+      "source_lineage": [
+        "baseline:BASE-C02"
+      ],
+      "supporting_evidence": [
+        "PMID-39014245",
+        "PMID-36508198",
+        "PMID-37443334",
+        "PMID-40373247"
+      ],
+      "title": "Tau tracks stage and symptoms, yet tau-directed therapies have not settled causality"
+    },
+    {
+      "clinical_relevance": "Medium-high: immune therapy could help or harm depending on timing, cell state, and pathology mix.",
+      "confidence": 0.76,
+      "contradicting_evidence": [
+        "PMID-31917687",
+        "PMID-37317973",
+        "PMID-38906999",
+        "PMID-33176118"
+      ],
+      "contradiction_id": "CON-005",
+      "hypotheses_in_conflict": [
+        "H-IMMUNE-INFLAMMATORY",
+        "H-AMYLOID-TAU-CASCADE",
+        "H-GENETIC-APOE"
+      ],
+      "open_questions": [
+        "Which immune states are causal, compensatory, or reactive?",
+        "Can biomarkers stage immune intervention windows?"
+      ],
+      "source_lineage": [
+        "baseline:BASE-C04",
+        "consult_004_low_attention_hypothesis"
+      ],
+      "supporting_evidence": [
+        "PMID-33318676",
+        "PMID-38424470",
+        "PMID-41315874",
+        "PMID-38769824"
+      ],
+      "title": "Microglia and immune activation appear both protective and damaging"
+    },
+    {
+      "clinical_relevance": "High: vascular burden changes prevention targets, diagnosis, trial stratification, and therapy risk.",
+      "confidence": 0.82,
+      "contradicting_evidence": [
+        "PMID-31827267",
+        "PMID-35649653",
+        "PMID-38520489"
+      ],
+      "contradiction_id": "CON-006",
+      "hypotheses_in_conflict": [
+        "H-VASCULAR",
+        "H-MIXED-PATHOLOGY",
+        "H-AMYLOID-TAU-CASCADE"
+      ],
+      "open_questions": [
+        "How much cognitive decline is independently vascular after accounting for AD biomarkers?",
+        "Which vascular phenotypes interact with amyloid therapy risk?"
+      ],
+      "source_lineage": [
+        "baseline:BASE-C05",
+        "consult_001_underweighted_contradiction"
+      ],
+      "supporting_evidence": [
+        "PMID-36129176",
+        "PMID-39620840",
+        "PMID-41052375",
+        "PMID-39288341",
+        "OFF-NINDS-VCID"
+      ],
+      "title": "Vascular pathology is treated as risk factor, comorbidity, and co-causal dementia mechanism"
+    },
+    {
+      "clinical_relevance": "Medium: metabolic interventions need causal and subgroup proof before they can resolve etiology.",
+      "confidence": 0.66,
+      "contradicting_evidence": [
+        "PMID-32568367",
+        "PMID-39236857"
+      ],
+      "contradiction_id": "CON-007",
+      "hypotheses_in_conflict": [
+        "H-METABOLIC-MITOCHONDRIAL",
+        "H-AMYLOID-TAU-CASCADE",
+        "H-MIXED-PATHOLOGY"
+      ],
+      "open_questions": [
+        "Which metabolic signals precede amyloid/tau rather than follow injury?",
+        "Which interventions change clinical endpoints?"
+      ],
+      "source_lineage": [
+        "baseline:BASE-C06",
+        "consult_004_low_attention_hypothesis"
+      ],
+      "supporting_evidence": [
+        "PMID-40023293",
+        "PMID-34416829",
+        "PMID-39444005",
+        "PMID-39363202"
+      ],
+      "title": "Mitochondrial/metabolic dysfunction could be upstream driver, downstream consequence, or parallel aging process"
+    },
+    {
+      "clinical_relevance": "High: APOE affects risk, biology, therapy response, and safety models, not only amyloid deposition.",
+      "confidence": 0.8,
+      "contradicting_evidence": [
+        "PMID-36922879",
+        "PMID-38504517",
+        "PMID-40715455"
+      ],
+      "contradiction_id": "CON-008",
+      "hypotheses_in_conflict": [
+        "H-GENETIC-APOE",
+        "H-AMYLOID-TAU-CASCADE",
+        "H-IMMUNE-INFLAMMATORY",
+        "H-VASCULAR"
+      ],
+      "open_questions": [
+        "Which APOE-linked mechanisms are treatment-modifiable?",
+        "How should APOE genotype affect therapy safety and trial interpretation?"
+      ],
+      "source_lineage": [
+        "baseline:BASE-C07",
+        "consult_004_low_attention_hypothesis"
+      ],
+      "supporting_evidence": [
+        "PMID-38906999",
+        "PMID-33176118",
+        "PMID-36394841"
+      ],
+      "title": "APOE evidence supports amyloid biology but also lipid, immune, glial, and vascular pathways"
+    },
+    {
+      "clinical_relevance": "High: biomarker tests could alter triage and diagnosis, but false certainty would misclassify mixed-pathology patients.",
+      "confidence": 0.84,
+      "contradicting_evidence": [
+        "PMID-41324928",
+        "PMID-39068669",
+        "PMID-39960728",
+        "PMID-40235115"
+      ],
+      "contradiction_id": "CON-009",
+      "hypotheses_in_conflict": [
+        "H-BIOMARKER-DEFINED-AD",
+        "H-MIXED-PATHOLOGY"
+      ],
+      "open_questions": [
+        "What thresholds survive primary-care diversity, comorbidity, renal disease, age, and mixed pathology?",
+        "How should positive blood tests be confirmed before treatment decisions?"
+      ],
+      "source_lineage": [
+        "consult_002_disconnected_cluster",
+        "consult-only-new:blood_biomarker_deployment"
+      ],
+      "supporting_evidence": [
+        "PMID-39068545",
+        "PMID-38252443",
+        "PMID-38866966",
+        "PMID-38888066",
+        "OFF-NIA-BLOOD-BIOMARKERS-2024"
+      ],
+      "title": "Blood biomarkers show strong diagnostic promise but contested deployment thresholds and generalizability"
+    },
+    {
+      "clinical_relevance": "Very high: clinically diagnosed AD may not be one dominant pathology, especially in older adults.",
+      "confidence": 0.87,
+      "contradicting_evidence": [
+        "PMID-38429551",
+        "PMID-39620836",
+        "OFF-CDC-ABOUT-ADRD",
+        "OFF-WHO-DEMENTIA"
+      ],
+      "contradiction_id": "CON-010",
+      "hypotheses_in_conflict": [
+        "H-MIXED-PATHOLOGY",
+        "H-BIOMARKER-DEFINED-AD",
+        "H-AMYLOID-TAU-CASCADE"
+      ],
+      "open_questions": [
+        "How should trials handle participants with multiple pathology drivers?",
+        "Can non-invasive biomarkers quantify LATE/PART and vascular contribution alongside AD biomarkers?"
+      ],
+      "source_lineage": [
+        "consult_003_alternative_lineage",
+        "consult-only-new:LATE_PART_mixed_pathology"
+      ],
+      "supporting_evidence": [
+        "PMID-37563264",
+        "PMID-40164861",
+        "PMID-38520489",
+        "PMID-35649653",
+        "PMID-38619853"
+      ],
+      "title": "LATE, PART, vascular cognitive impairment, and other age-related pathologies can mimic or combine with AD"
+    },
+    {
+      "clinical_relevance": "High: trial design may need combination, stage, and subtype stratification rather than one universal target.",
+      "confidence": 0.79,
+      "contradicting_evidence": [
+        "PMID-36449413",
+        "PMID-37459141",
+        "PMID-32568367",
+        "PMID-41405855"
+      ],
+      "contradiction_id": "CON-011",
+      "hypotheses_in_conflict": [
+        "H-AMYLOID-TAU-CASCADE",
+        "H-IMMUNE-INFLAMMATORY",
+        "H-VASCULAR",
+        "H-METABOLIC-MITOCHONDRIAL",
+        "H-MIXED-PATHOLOGY"
+      ],
+      "open_questions": [
+        "Which combinations are mechanistically justified?",
+        "Which endpoints detect multi-domain slowing without overfitting?"
+      ],
+      "source_lineage": [
+        "consult_005_premature_assumption"
+      ],
+      "supporting_evidence": [
+        "PMID-33986301",
+        "PMID-37667136",
+        "PMID-39620846",
+        "OFF-NIA-AD-CAUSES"
+      ],
+      "title": "Single-target disease-modifying trials conflict with multi-factorial and stage-dependent disease models"
+    },
+    {
+      "clinical_relevance": "Medium-high: patients experience cognition and function, while trials often optimize pathology and biomarker endpoints.",
+      "confidence": 0.7,
+      "contradicting_evidence": [
+        "PMID-38429551",
+        "PMID-39068545",
+        "PMID-40373247"
+      ],
+      "contradiction_id": "CON-012",
+      "hypotheses_in_conflict": [
+        "H-CHOLINERGIC-SYNAPTIC",
+        "H-BIOMARKER-DEFINED-AD",
+        "H-AMYLOID-TAU-CASCADE"
+      ],
+      "open_questions": [
+        "Which biomarker changes predict patient-centered function?",
+        "How should synaptic resilience be measured?"
+      ],
+      "source_lineage": [
+        "baseline:BASE-C08",
+        "consult_006_confirmed_boundary"
+      ],
+      "supporting_evidence": [
+        "PMID-36513730",
+        "PMID-35034755",
+        "PMID-39620846"
+      ],
+      "title": "Symptom-network and synaptic failure evidence conflicts with pathology-only endpoint confidence"
+    }
+  ],
+  "run_id": "phase-b-consult"
+}

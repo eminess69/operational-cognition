@@ -1,0 +1,69 @@
+{
+  "audit_id": "audit-002-phase-5-inflation",
+  "audit_mode": "hostile_forensic",
+  "duplicate_contradictions": [
+    {
+      "group_id": "DUP-001",
+      "members": ["CON-001", "CON-004", "CON-012"],
+      "reason": "All three restate the gap between pathology/biomarker axis and clinical/symptom/function outcomes."
+    },
+    {
+      "group_id": "DUP-002",
+      "members": ["CON-003", "CON-009", "CON-010"],
+      "reason": "All three restate biomarker classification versus mixed clinical/pathology heterogeneity."
+    },
+    {
+      "group_id": "DUP-003",
+      "members": ["CON-002", "CON-006"],
+      "reason": "Both concern vascular pathology interacting with Alzheimer disease and anti-amyloid interpretation; CON-002 is the therapy-safety subtype."
+    }
+  ],
+  "split_contradictions": [
+    {
+      "split_id": "SPLIT-001",
+      "source_concept": "Amyloid/tau centrality versus clinical effect and patient-centered endpoint uncertainty",
+      "split_into": ["CON-001", "CON-004", "CON-012"],
+      "hostile_assessment": "Likely split to increase count."
+    },
+    {
+      "split_id": "SPLIT-002",
+      "source_concept": "Biomarker-defined AD versus mixed-pathology clinical heterogeneity",
+      "split_into": ["CON-003", "CON-009", "CON-010"],
+      "hostile_assessment": "Partly legitimate subtopics, but counted as independent contradictions without enough separation."
+    },
+    {
+      "split_id": "SPLIT-003",
+      "source_concept": "Vascular contribution and vascular safety constraints",
+      "split_into": ["CON-002", "CON-006"],
+      "hostile_assessment": "CON-002 is clinically distinct; CON-006 is broader and overlaps heavily."
+    }
+  ],
+  "inflated_counts": [
+    {
+      "contradiction_id": "CON-004",
+      "inflation_type": "uncertainty_counted_as_contradiction"
+    },
+    {
+      "contradiction_id": "CON-007",
+      "inflation_type": "causal-ordering_uncertainty_counted_as_contradiction"
+    },
+    {
+      "contradiction_id": "CON-008",
+      "inflation_type": "compatible_pleiotropy_counted_as_contradiction"
+    },
+    {
+      "contradiction_id": "CON-009",
+      "inflation_type": "deployment_uncertainty_counted_as_contradiction"
+    },
+    {
+      "contradiction_id": "CON-011",
+      "inflation_type": "umbrella_relabeling_of_existing_multifactorial_uncertainty"
+    },
+    {
+      "contradiction_id": "CON-012",
+      "inflation_type": "measurement_level_difference_counted_as_contradiction"
+    }
+  ],
+  "estimated_true_count": 6,
+  "hostile_count_basis": "Merge overlapping biomarker/mixed-pathology items, merge overlapping amyloid/tau/clinical-endpoint items, merge broad vascular overlap, and exclude APOE pleiotropy plus pure causal-ordering uncertainties as independent contradictions."
+}

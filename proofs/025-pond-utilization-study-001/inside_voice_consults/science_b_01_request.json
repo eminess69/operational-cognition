@@ -1,0 +1,33 @@
+{
+  "context": {
+    "constraints": [
+      "Use /consult as advisory pressure only; public proof-pack artifacts carry evidence.",
+      "Return only bounded public-safe summaries, hashes, source refs, and claim pressure.",
+      "No hidden chain-of-thought, Inside Voice internals, Belief Ledger internals, or private substrate details.",
+      "A consult earns value only if it causes a valid direction change, contradiction recovery, evidence-cluster recovery, unsupported-claim reduction, lineage improvement, premature-convergence avoidance, or false-path abandonment.",
+      "Do not treat biomedical claims, historical claims, or software history claims as true unless they are verified in the supplied public artifacts."
+    ],
+    "desired_artifacts": [
+      "protocol_trials.jsonl",
+      "consult_effectiveness_matrix.json",
+      "consult_failure_taxonomy.json",
+      "best_practice_protocol.md",
+      "consult_prompt_patterns.md",
+      "pond_utilization_scorecard.json"
+    ],
+    "files": [
+      "proofs/024-alzheimers-contradiction-atlas/baseline/evidence_clusters.json",
+      "proofs/024-alzheimers-contradiction-atlas/baseline/convergence_report.json",
+      "proofs/024-alzheimers-contradiction-atlas/baseline_leakage_audit.json",
+      "proofs/024-alzheimers-contradiction-atlas/consult_causality_audit.json",
+      "proofs/024-alzheimers-contradiction-atlas/contradiction_legitimacy_audit.json",
+      "proofs/024-alzheimers-contradiction-atlas/hostile_verdict.json"
+    ],
+    "summary": "Source pack: proofs/024-alzheimers-contradiction-atlas. Starting question: Which Alzheimer contradiction-map improvements are real consult-caused recoveries, and which are baseline-visible tension relabels or overclaimed contradictions? Current controlled belief state: Baseline already contained vascular/CAA/ARIA, biomarkers, LATE/PART/mixed pathology, and multifactorial uncertainty clusters. Hostile audits later found no consult-only biomedical contradiction recovery. Hostile scoring rule: do not credit generic advice, repeated baseline facts, confidence without evidence, unsourced motifs, or post-hoc validation."
+  },
+  "max_output_chars": 8000,
+  "mode": "audit",
+  "request_id": "025-pond-utilization-study-001-science-b-01",
+  "require_lineage": true,
+  "task": "025-pond-utilization-study-001 Scientific contradiction mapping Protocol B - Late Audit Consult: Audit my completed result for claim-boundary violations, lineage gaps, unsupported claims, and overclaim risk."
+}

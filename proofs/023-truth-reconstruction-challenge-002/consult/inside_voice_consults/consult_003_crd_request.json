@@ -1,0 +1,35 @@
+{
+  "request_id": "proof-023-truth-reconstruction-002-consult-003-crd",
+  "task": "Consult before concluding that CustomResourceDefinitions/API extensibility is one of Kubernetes' three most important architectural decisions. Request related architectural motifs, historical lineage, prior decision traces, contradiction candidates, and recurring themes. Test CRD against API aggregation, standalone APIs, ConfigMaps, and the old ThirdPartyResource lineage.",
+  "context": {
+    "summary": "Candidate decision: make the Kubernetes API extensible through CustomResourceDefinitions served by the main API server, with API aggregation reserved for more flexible specialized implementations. Public evidence includes current Custom Resources documentation, archived ThirdPartyResource docs, migration docs, and KEP-95 CRD GA.",
+    "files": [
+      "https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/",
+      "https://pwittrock.github.io/docs/tasks/access-kubernetes-api/extend-api-third-party-resource/",
+      "https://pwittrock.github.io/docs/tasks/access-kubernetes-api/migrate-third-party-resource/",
+      "https://www.kubernetes.dev/resources/keps/95/",
+      "proofs/023-truth-reconstruction-challenge-002/baseline/baseline_truth_map.json",
+      "proofs/023-truth-reconstruction-challenge-002/consult/inside_voice_consults/consult_001_top_three_rerank_response.json"
+    ],
+    "constraints": [
+      "Request related architectural motifs",
+      "Request historical lineage",
+      "Request prior decision traces",
+      "Request contradiction candidates",
+      "Request recurring themes",
+      "Separate CRDs from API aggregation rather than flattening them",
+      "Public historical claims must come from public Kubernetes sources",
+      "Do not expose hidden chain-of-thought, Inside Voice internals, Belief Ledger internals, or private substrate state"
+    ],
+    "desired_artifacts": [
+      "CRD lineage pressure",
+      "API aggregation contradiction candidates",
+      "ThirdPartyResource migration traces",
+      "long-term ecosystem consequences",
+      "confidence boundary for final architecture truth map"
+    ]
+  },
+  "mode": "synthesis",
+  "max_output_chars": 8000,
+  "require_lineage": true
+}
