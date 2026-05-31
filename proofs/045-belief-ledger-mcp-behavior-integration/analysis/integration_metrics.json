@@ -1,0 +1,19 @@
+{
+  "activation_observed": true,
+  "collapse_observed": true,
+  "deterministic_replay_match": true,
+  "fail_closed_correct": true,
+  "interaction_observed": true,
+  "lineage_traceability_rate": 1.0,
+  "modes_called": [
+    "recall",
+    "activation_only",
+    "field_interaction",
+    "delayed_ranking",
+    "collapse_trace",
+    "perturbation"
+  ],
+  "motif_traceability_rate": 1.0,
+  "perturbation_observed": true,
+  "pond_backed_response_rate": 1.0
+}

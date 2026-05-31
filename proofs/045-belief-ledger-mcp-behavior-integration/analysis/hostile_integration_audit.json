@@ -1,0 +1,50 @@
+{
+  "attack_results": [
+    {
+      "accepted": false,
+      "attack": "placeholder response accepted"
+    },
+    {
+      "accepted": false,
+      "attack": "mock response accepted"
+    },
+    {
+      "accepted": false,
+      "attack": "missing lineage accepted"
+    },
+    {
+      "accepted": false,
+      "attack": "missing motifs accepted"
+    },
+    {
+      "accepted": false,
+      "attack": "endpoint unavailable but proof still passes"
+    },
+    {
+      "accepted": false,
+      "attack": "behavior protocol output treated as cognition proof"
+    },
+    {
+      "accepted": false,
+      "attack": "Belief Ledger mutated core state unexpectedly"
+    },
+    {
+      "accepted": false,
+      "attack": "Operational Cognition overclaimed the result"
+    }
+  ],
+  "external_instrument_valid": true,
+  "hostile_verdict": "VERY_STRONG_SIGNAL",
+  "invalidated_claims": [
+    "Proof 045 proves cognition, AGI, consciousness, or independent understanding.",
+    "Behavior protocol artifacts alone are a cognition proof.",
+    "Operational Cognition may accept opaque Belief Ledger output without motif and lineage validation.",
+    "Belief Ledger core state was mutated by this probe."
+  ],
+  "overclaim_detected": false,
+  "pond_backed_boundary_preserved": true,
+  "surviving_claims": [
+    "Operational Cognition can now call the Belief Ledger Inside Voice behavior protocol as a validated external instrument and record pond-backed activation, interaction, collapse, and perturbation artifacts."
+  ],
+  "traceability_preserved": true
+}

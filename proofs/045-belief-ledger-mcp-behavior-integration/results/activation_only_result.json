@@ -1,0 +1,189 @@
+{
+  "activated_mechanisms": [
+    {
+      "activation_weight": 0.498811,
+      "mechanism": "THRESHOLD_GATE",
+      "pathway_id": "pathway:8cfb6e97dd200250",
+      "supporting_lineage_hashes": [
+        "ab2672eeef1a3df6b4aacbe1855c7a33bd7d5403c7273e74d88b1f5a50c481aa",
+        "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363"
+      ],
+      "supporting_lineages": [
+        "lineage:proof045:shared_operational_case",
+        "lineage:proof045:threshold",
+        "trace-proof045-threshold"
+      ],
+      "supporting_motifs": [
+        "motif:2430caccbf15c518"
+      ]
+    },
+    {
+      "activation_weight": 0.49625,
+      "mechanism": "FEEDBACK_AMPLIFICATION",
+      "pathway_id": "pathway:45ca5f3b6a51448b",
+      "supporting_lineage_hashes": [
+        "4672474d1d808c29900e8329307b514242962adb43c40622c374b4cfe8152320",
+        "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363"
+      ],
+      "supporting_lineages": [
+        "lineage:proof045:feedback",
+        "lineage:proof045:shared_operational_case",
+        "trace-proof045-feedback"
+      ],
+      "supporting_motifs": [
+        "motif:2430caccbf15c518"
+      ]
+    },
+    {
+      "activation_weight": 0.495203,
+      "mechanism": "BUFFERING_DELAY",
+      "pathway_id": "pathway:dd6482a2dbe555c8",
+      "supporting_lineage_hashes": [
+        "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+        "b4f217dbdd357e3f70657926247f0077a3235b7bcb32697f8b84f6adff192204"
+      ],
+      "supporting_lineages": [
+        "lineage:proof045:buffer",
+        "lineage:proof045:shared_operational_case",
+        "trace-proof045-buffer"
+      ],
+      "supporting_motifs": [
+        "motif:2430caccbf15c518"
+      ]
+    },
+    {
+      "activation_weight": 0.492957,
+      "mechanism": "RESOURCE_DEPLETION",
+      "pathway_id": "pathway:f7124969b8b72446",
+      "supporting_lineage_hashes": [
+        "36758d142f9f6e8a369e13b05c866bf017c552859a36fc6e369913db4bc436b4",
+        "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363"
+      ],
+      "supporting_lineages": [
+        "lineage:proof045:resource",
+        "lineage:proof045:shared_operational_case",
+        "trace-proof045-resource"
+      ],
+      "supporting_motifs": [
+        "motif:2430caccbf15c518"
+      ]
+    },
+    {
+      "activation_weight": 0.458,
+      "mechanism": "DIFFUSION_SPREAD",
+      "pathway_id": "pathway:a6ce185f1a049bd0",
+      "supporting_lineage_hashes": [
+        "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+        "d1d85ea890034a1e11985ff0490442c953fee934cdbb1658b79601ed8bf26f8e"
+      ],
+      "supporting_lineages": [
+        "lineage:proof045:diffusion",
+        "lineage:proof045:shared_operational_case",
+        "trace-proof045-diffusion"
+      ],
+      "supporting_motifs": [
+        "motif:2430caccbf15c518"
+      ]
+    }
+  ],
+  "adapter_status": "pond_backed",
+  "collapse_trace": {},
+  "field_interactions": [],
+  "hash_spine": [
+    {
+      "advisory_only": true,
+      "artifact_hash": "4608d48d956b7eb76f5bd0393ec325e1e9ad8a37169fcfe2603578cec1bd2045",
+      "artifact_id": "activation_field:a9f5e0c18d2a405b",
+      "artifact_type": "ActivationField",
+      "lineage_hashes": [
+        "36758d142f9f6e8a369e13b05c866bf017c552859a36fc6e369913db4bc436b4",
+        "4672474d1d808c29900e8329307b514242962adb43c40622c374b4cfe8152320",
+        "ab2672eeef1a3df6b4aacbe1855c7a33bd7d5403c7273e74d88b1f5a50c481aa",
+        "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+        "b4f217dbdd357e3f70657926247f0077a3235b7bcb32697f8b84f6adff192204",
+        "d1d85ea890034a1e11985ff0490442c953fee934cdbb1658b79601ed8bf26f8e"
+      ]
+    },
+    {
+      "advisory_only": true,
+      "artifact_hash": "4c481444d36c94161d3478684d310ab9d36841f21a4f272ad4f493b54b9083e4",
+      "artifact_id": "oc-proof-045-42b6ed4139c5ec95",
+      "artifact_type": "BehaviorProtocolTelemetry",
+      "lineage_hashes": []
+    }
+  ],
+  "lineage": {
+    "instrument_request_hash": "e7667a79ecfd91fcd7929055e2ce7ceed68ae198b46c348e0fcd94bceb99f557",
+    "instrument_response_hash": "b6e649fe5947e1eb8e5a6553f53ad9d26dac935bdf893075872157b7b93cf261",
+    "request_hash": "8051ed5ac52668e0ae4107dc8c5ccc902d9668c3da4bb743780fa6e041986183",
+    "response_hash": "460f4a5e3b16a971c2a2a659882b5d8dcd8ab440d5cd378748ce298ae27ea638",
+    "source_refs": [
+      "lineage:proof045:buffer",
+      "lineage:proof045:diffusion",
+      "lineage:proof045:feedback",
+      "lineage:proof045:resource",
+      "lineage:proof045:shared_operational_case",
+      "lineage:proof045:threshold",
+      "query-proof-045-operational-collapse",
+      "trace-proof045-buffer",
+      "trace-proof045-diffusion",
+      "trace-proof045-feedback",
+      "trace-proof045-resource",
+      "trace-proof045-threshold"
+    ]
+  },
+  "lineage_hashes": [
+    "36758d142f9f6e8a369e13b05c866bf017c552859a36fc6e369913db4bc436b4",
+    "4672474d1d808c29900e8329307b514242962adb43c40622c374b4cfe8152320",
+    "ab2672eeef1a3df6b4aacbe1855c7a33bd7d5403c7273e74d88b1f5a50c481aa",
+    "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+    "b4f217dbdd357e3f70657926247f0077a3235b7bcb32697f8b84f6adff192204",
+    "d1d85ea890034a1e11985ff0490442c953fee934cdbb1658b79601ed8bf26f8e"
+  ],
+  "mode": "activation_only",
+  "perturbations": [],
+  "ranked_pathways": [],
+  "request_id": "oc-proof-045-42b6ed4139c5ec95",
+  "response_source": "belief_ledger_inside_voice_behavior_protocol",
+  "returned_lineages": [
+    "lineage:proof045:buffer",
+    "lineage:proof045:diffusion",
+    "lineage:proof045:feedback",
+    "lineage:proof045:resource",
+    "lineage:proof045:shared_operational_case",
+    "lineage:proof045:threshold",
+    "query-proof-045-operational-collapse",
+    "trace-proof045-buffer",
+    "trace-proof045-diffusion",
+    "trace-proof045-feedback",
+    "trace-proof045-resource",
+    "trace-proof045-threshold"
+  ],
+  "returned_motifs": [
+    "motif:2430caccbf15c518",
+    "operational_collapse"
+  ],
+  "surviving_pathways": [],
+  "telemetry": {
+    "activation_field_hash": "4608d48d956b7eb76f5bd0393ec325e1e9ad8a37169fcfe2603578cec1bd2045",
+    "advisory_only": true,
+    "average_activation_entropy": 0.999693,
+    "collapse_hash": "",
+    "combination_depth": 0.0,
+    "core_mutation_count": 0,
+    "input_trace_hash": "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+    "interaction_hash": "",
+    "lineage_traceability": 1.0,
+    "mode": "activation_only",
+    "motif_count": 1,
+    "pathway_count": 5,
+    "run_id": "oc-proof-045-42b6ed4139c5ec95",
+    "schema_version": "behavior_protocol_telemetry.v1",
+    "ttl": "PT45M"
+  },
+  "validator": {
+    "classification": "POND_BACKED",
+    "error": null,
+    "valid": true
+  }
+}
