@@ -1,0 +1,64 @@
+{
+  "checks": [
+    {
+      "attack": "regex_matching",
+      "finding": "The CLI extension uses deterministic regular-expression templates. That explains much of the success and blocks a broad robustness claim.",
+      "status": "invalidates_broad_structure_claim"
+    },
+    {
+      "attack": "direct_keyword_lookup",
+      "finding": "Several passes still depend on words such as add, take away, groups, together, and count by.",
+      "status": "partially_invalidates"
+    },
+    {
+      "attack": "answer_leakage",
+      "finding": "Expected answers are present only in proof test files. The CLI receives only pond path and question text.",
+      "status": "survives"
+    },
+    {
+      "attack": "test_contamination",
+      "finding": "The questions are new relative to Proof 028 tests, but the CLI was extended by the harness builder before evaluation.",
+      "status": "survives_with_boundary"
+    },
+    {
+      "attack": "arithmetic_hardcoding",
+      "finding": "No per-question answers are hardcoded; arithmetic is computed from parsed quantities. Parser templates are still narrow.",
+      "status": "survives_with_boundary"
+    },
+    {
+      "attack": "hidden_llm_generation",
+      "finding": "The builder invokes python3 -m operational_cognition.cli.math_pond as a subprocess; no LLM API or natural-language answer synthesis path is used.",
+      "status": "survives"
+    },
+    {
+      "attack": "shallow_parser_behavior",
+      "finding": "Confirmed. The result demonstrates bounded deterministic structural parsing, not general wording robustness.",
+      "status": "invalidates_very_strong_claim"
+    }
+  ],
+  "hostile_verdict": "WEAK_SIGNAL",
+  "invalidated_claims": [
+    "The pond learned robust natural-language math independent of parser templates.",
+    "Success cannot be explained by regex or keyword-triggered parsing.",
+    "The result establishes general structure reuse beyond the curated Grade 1/Grade 2 forms."
+  ],
+  "original_verdict": "VERY_STRONG_SIGNAL",
+  "parser_fragility_snapshot": {
+    "ambiguous_items": 1,
+    "distractor_failure": false,
+    "exact_phrase_dependence": "partial",
+    "multi_step_failure": false,
+    "number_position_dependence": "partially_survived",
+    "operation_keyword_dependence": "high",
+    "parser_match_items": 3,
+    "reversed_phrasing_failure": false,
+    "structure_reuse_items": 16
+  },
+  "proof_id": "029-developmental-learning-surface-robustness",
+  "surviving_claims": [
+    "Surface variation in the curated suites did not break deterministic CLI answering.",
+    "Distractor, reversed, and multi-step items carried source tracebacks and motif lineage.",
+    "Out-of-scope items failed closed instead of guessing.",
+    "No LLM generated final test answers."
+  ]
+}

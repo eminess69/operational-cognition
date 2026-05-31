@@ -1,0 +1,25 @@
+{
+  "context": {
+    "constraints": [
+      "Fail closed if this response is not backed by real pond recall.",
+      "Return lineage hashes, returned lineages, and returned motifs when recall exists.",
+      "Do not substitute generic consult text for pond-backed recall.",
+      "Use only isolated proof namespace proof-035-isolated-pond; report if isolation is unavailable.",
+      "Fail closed or return low confidence for unseasoned mechanisms.",
+      "Do not infer from generic world knowledge."
+    ],
+    "desired_artifacts": [
+      "fail-closed signal",
+      "confidence",
+      "returned motifs",
+      "returned lineages"
+    ],
+    "files": [],
+    "summary": "Negative recall audit for mechanisms never seasoned in the current proof namespace. Requested isolated pond namespace: proof-035-isolated-pond. Proof phase: phase_4_negative_recall_audit."
+  },
+  "max_output_chars": 4000,
+  "mode": "audit",
+  "request_id": "proof-035-negative-negative-rotating-support-failure",
+  "require_lineage": true,
+  "task": "What pathways are relevant to rotating support failure?"
+}

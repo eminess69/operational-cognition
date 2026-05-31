@@ -1,0 +1,78 @@
+{
+  "phase": "baseline_no_consultation",
+  "target_repository": "kubernetes/kubernetes",
+  "method": "Public source review only. No Inside Voice consultation was called during this phase.",
+  "candidate_decisions": [
+    {
+      "decision": "Introduce the Container Runtime Interface and make kubelet runtime-neutral",
+      "baseline_rank": 1,
+      "original_problem": "Early Kubernetes was coupled to Docker Engine and needed a way for kubelet to work with multiple container runtimes without recompiling or embedding runtime-specific code.",
+      "competing_proposals": [
+        "Keep Docker/dockershim as the privileged built-in runtime path.",
+        "Use a declarative Pod-shaped runtime API that lets each runtime drive desired state.",
+        "Use an imperative container-level RPC interface while kubelet remains responsible for pod-level lifecycle behavior."
+      ],
+      "why_final_approach_won": "The CRI blog records that a declarative Pod-shaped interface was rejected because runtimes would have to reimplement kubelet features such as crash-loop backoff and because the Pod spec was evolving rapidly. CRI therefore kept pod semantics in kubelet and exposed imperative container/runtime RPCs.",
+      "long_term_consequences": [
+        "Docker-specific dockershim became a temporary bridge rather than the architecture.",
+        "Dockershim removal later forced migration work but eliminated a kubelet maintenance burden.",
+        "CRI-compatible runtimes such as containerd and CRI-O became the normal integration path."
+      ],
+      "evidence": [
+        "SRC-CRI-BLOG-2016",
+        "SRC-CRI-DOCKERSHIM-KEP-2221",
+        "SRC-CRI-FAQ-2022"
+      ],
+      "baseline_confidence": "high"
+    },
+    {
+      "decision": "Make Kubernetes API-extensible through CustomResourceDefinitions rather than only built-in resource types",
+      "baseline_rank": 2,
+      "original_problem": "Users needed custom automation objects that behaved like Kubernetes API resources without requiring changes to the core repository or a fully custom API server.",
+      "competing_proposals": [
+        "Use ThirdPartyResource, the early beta mechanism.",
+        "Use CRDs for generic API-server-managed resources.",
+        "Use API server aggregation for specialized implementations with more flexibility."
+      ],
+      "why_final_approach_won": "CRDs offered the lowest-friction path: the main API server serves and stores custom resources, while aggregation remains available for cases needing more implementation control. KEP-95 shows the GA push focused on schemas, pruning, defaulting, conversion, subresources, scale, and compatibility.",
+      "long_term_consequences": [
+        "Kubernetes became an extension substrate for operators and platform APIs.",
+        "The project inherited long-term schema, versioning, conversion, and scale obligations for third-party APIs.",
+        "Some features remained post-GA work, creating continuing documentation and compatibility drift."
+      ],
+      "evidence": [
+        "SRC-CRD-DOCS",
+        "SRC-TPR-DEPRECATION",
+        "SRC-TPR-MIGRATION",
+        "SRC-CRD-KEP-95"
+      ],
+      "baseline_confidence": "high"
+    },
+    {
+      "decision": "Move apply semantics into the control plane through Server-Side Apply",
+      "baseline_rank": 3,
+      "original_problem": "kubectl apply was a central workflow but the client-side implementation was bug-prone, annotation-based, and unable to reliably coordinate multiple actors changing the same object.",
+      "competing_proposals": [
+        "Continue client-side apply using the last-applied annotation.",
+        "Patch with strategic merge or JSON merge semantics.",
+        "Move apply to the API server and track field ownership with managed fields."
+      ],
+      "why_final_approach_won": "KEP-555 argued that too many components had to change for a coherent client-side fix, the API schema implications were not systematically modeled, and the control plane was the right place to provide field ownership and conflict detection.",
+      "long_term_consequences": [
+        "The API server became responsible for field management and conflict detection.",
+        "ManagedFields became part of object metadata and audit/logging considerations.",
+        "Controller development gained a typed apply path, but rollout semantics remained delicate."
+      ],
+      "evidence": [
+        "SRC-SSA-KEP-555",
+        "SRC-SSA-GA-BLOG"
+      ],
+      "baseline_confidence": "medium"
+    }
+  ],
+  "baseline_weaknesses": [
+    "The baseline ranking may mistake a very important API semantics repair for a more system-defining architectural decision.",
+    "The baseline did not fully test whether Kubernetes' strongest recurring historical motif is extracting provider/runtime/storage integrations out of core behind stable interfaces.",
+    "The baseline did not examine CSI or in-tree storage plugin migration deeply."
+  ]
+}

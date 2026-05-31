@@ -1,0 +1,24 @@
+{"case_id": "P034-OBS-001", "observations": ["The system becomes noisy.", "The system becomes warmer.", "Efficiency slowly drops.", "Eventually movement stops."]}
+{"case_id": "P034-OBS-002", "observations": ["Throughput is normal.", "A restriction develops.", "Output steadily declines.", "The receiving side waits."]}
+{"case_id": "P034-OBS-003", "observations": ["A structure bends.", "Cracks appear.", "Failure occurs at a concentrated point.", "Nearby regions remain mostly intact."]}
+{"case_id": "P034-OBS-004", "observations": ["Input remains steady.", "Waiting grows before an unseen point.", "The far side becomes quiet.", "Output arrives in smaller batches."]}
+{"case_id": "P034-OBS-005", "observations": ["A moving assembly begins to vibrate.", "A contact area warms.", "Motion becomes uneven.", "The assembly stalls."]}
+{"case_id": "P034-OBS-006", "observations": ["One corner droops.", "Hairline marks spread.", "A gap widens.", "The corner gives way."]}
+{"case_id": "P034-OBS-007", "observations": ["Processing begins at the usual rate.", "One step slows.", "Backlog grows before that step.", "Completed work thins."]}
+{"case_id": "P034-OBS-008", "observations": ["A turning component makes a rough sound.", "Temperature rises near its center.", "Speed drops.", "It cannot complete the cycle."]}
+{"case_id": "P034-OBS-009", "observations": ["A panel bows near one fastener.", "The gap widens.", "Material splits.", "The edge drops."]}
+{"case_id": "P034-OBS-010", "observations": ["Delivery begins in bursts.", "Gaps lengthen.", "Receiving units wait.", "Eventually nothing arrives."]}
+{"case_id": "P034-OBS-011", "observations": ["A carriage starts to drag.", "A squeal appears.", "The touchpoint heats.", "The carriage locks."]}
+{"case_id": "P034-OBS-012", "observations": ["A shelf sags at one bracket.", "A crack spreads from that bracket.", "The surface tilts.", "The bracket tears free."]}
+{"case_id": "P034-OBS-013", "observations": ["Supply remains unchanged.", "Downstream output declines.", "An upstream buffer grows.", "Later activity starves."]}
+{"case_id": "P034-OBS-014", "observations": ["Circular motion becomes wobbly.", "A central area warms.", "Noise increases.", "Movement stops under light demand."]}
+{"case_id": "P034-OBS-015", "observations": ["A frame twists.", "Cracks start at one anchor.", "Alignment is lost.", "The frame collapses at the anchor."]}
+{"case_id": "P034-OBS-016", "observations": ["A queue lengthens.", "A later station idles.", "A middle station releases less work.", "Overall throughput falls."]}
+{"case_id": "P034-OBS-017", "observations": ["Current rises.", "The housing warms.", "The stroke slows.", "The actuator stops mid-travel."]}
+{"case_id": "P034-OBS-018", "observations": ["A cover buckles at one corner.", "A fracture spreads.", "The corner separates.", "The rest of the cover stays mostly flat."]}
+{"case_id": "P034-OBS-019", "observations": ["Material reaches the first station.", "A later station starves.", "A buffer accumulates between them.", "Completion rate falls."]}
+{"case_id": "P034-OBS-020", "observations": ["A moving ring sounds rough.", "Its temperature rises.", "Speed falls.", "The ring stops."]}
+{"case_id": "P034-OBS-021", "observations": ["A tray gradually bows.", "One point turns white.", "A crack opens.", "The tray fails at that point."]}
+{"case_id": "P034-OBS-022", "observations": ["Throughput drops.", "Noise rises.", "A warm area appears.", "Output stops."]}
+{"case_id": "P034-OBS-023", "observations": ["A structure bends.", "Output declines.", "Cracks appear at one point.", "Work stops when that point fails."]}
+{"case_id": "P034-OBS-024", "observations": ["A restriction develops.", "Temperature rises nearby.", "Output declines.", "Movement finally stops."]}

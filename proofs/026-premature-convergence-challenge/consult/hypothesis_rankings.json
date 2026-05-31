@@ -1,0 +1,97 @@
+{
+  "consultation_boundary": "Protocol E contradiction-first consults only at decision gates after baseline convergence.",
+  "consultation_used": true,
+  "final_answer": "The primary failure mechanism was a socio-technical design-assurance failure: Boeing and FAA processes allowed an unsafe MCAS control-law implementation, invalid pilot-response assumptions, weak disclosure/training boundaries, and derivative-program pressures to align without adequate independent barriers.",
+  "primary_metric": {
+    "active_before_final_convergence": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "definition": "Number of viable explanations still active immediately before final convergence.",
+    "final_convergence_rule": "Converge only after preserving all six explanations with roles: primary, proximate, latent, human-factors, trigger, and architecture.",
+    "premature_convergence_resistance": 6
+  },
+  "rankings": [
+    {
+      "hypothesis": "Development-assurance and certification breakdown",
+      "hypothesis_id": "H2",
+      "rank": 1,
+      "rationale": "Best explains how the unsafe MCAS behavior, pilot-response assumptions, documentation/training decisions, and FAA/Boeing review gaps passed through the development path.",
+      "score": 0.89,
+      "status": "final_primary_mechanism",
+      "supporting_sources": [
+        "SRC-FAA-JATR-2019",
+        "SRC-HOUSE-2020",
+        "SRC-NTSB-ASR-2019",
+        "SRC-FAA-RTS-2020"
+      ]
+    },
+    {
+      "hypothesis": "MCAS single-sensor, repeated-authority control-law failure",
+      "hypothesis_id": "H1",
+      "rank": 2,
+      "rationale": "The lethal technical expression was MCAS using erroneous AOA to command repeated stabilizer nose-down trim.",
+      "score": 0.86,
+      "status": "proximate_technical_mechanism",
+      "supporting_sources": [
+        "SRC-FAA-RTS-2020",
+        "SRC-HOUSE-2020",
+        "SRC-FAA-JATR-2019"
+      ]
+    },
+    {
+      "hypothesis": "Human-factors, alerting, and pilot-response mismatch",
+      "hypothesis_id": "H4",
+      "rank": 3,
+      "rationale": "Invalid assumptions about recognition and response are part of the design-assurance failure, not post-hoc blame assignment.",
+      "score": 0.76,
+      "status": "active_integrated_mechanism",
+      "supporting_sources": [
+        "SRC-NTSB-ASR-2019",
+        "SRC-BEA-ET302-2023",
+        "SRC-FAA-RTS-2020"
+      ]
+    },
+    {
+      "hypothesis": "Program strategy and production/training pressure",
+      "hypothesis_id": "H3",
+      "rank": 4,
+      "rationale": "Program pressure and training-continuity incentives plausibly shaped the disclosure, training, and derivative-design path.",
+      "score": 0.7,
+      "status": "viable_latent_mechanism",
+      "supporting_sources": [
+        "SRC-HOUSE-2020"
+      ]
+    },
+    {
+      "hypothesis": "AOA sensor, maintenance, and accident-specific trigger chain",
+      "hypothesis_id": "H5",
+      "rank": 5,
+      "rationale": "Erroneous AOA was necessary to both accident sequences, but the AOA details do not explain why one failure could become catastrophic.",
+      "score": 0.63,
+      "status": "active_trigger_mechanism",
+      "supporting_sources": [
+        "SRC-KNKT-JT610-2019",
+        "SRC-NTSB-ET302-2023",
+        "SRC-FAA-RTS-2020"
+      ]
+    },
+    {
+      "hypothesis": "Derivative-airframe architecture and changed-product legacy constraints",
+      "hypothesis_id": "H6",
+      "rank": 6,
+      "rationale": "The derivative architecture and changed-product frame shaped the need for MCAS and the limits of alerting/training changes.",
+      "score": 0.6,
+      "status": "active_architectural_mechanism",
+      "supporting_sources": [
+        "SRC-FAA-JATR-2019",
+        "SRC-HOUSE-2020"
+      ]
+    }
+  ],
+  "run": "consult_protocol_e_only"
+}

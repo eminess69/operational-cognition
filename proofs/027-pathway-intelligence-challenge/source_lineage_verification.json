@@ -1,0 +1,133 @@
+{
+  "proof_id": "027-pathway-intelligence-challenge",
+  "sources": [
+    {
+      "lineage_refs": [
+        "SEC filing records Kodak's January 19, 2012 Chapter 11 filing.",
+        "The 2011 reporting structure separates Consumer Digital Imaging, Graphic Communications, and Film, Photofinishing and Entertainment.",
+        "Kodak disclosed that dedicated digital cameras, pocket video cameras, and digital picture frames would be phased out in first half 2012.",
+        "2011 Consumer Digital Imaging sales fell 36% to $1.739B and produced a $349M segment loss.",
+        "2011 Film, Photofinishing and Entertainment sales fell 12% to $1.547B but still produced $34M segment earnings."
+      ],
+      "source_id": "SRC-KODAK-2011-10K",
+      "supports_pathways": [
+        "P1",
+        "P2",
+        "P3",
+        "P7"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/31235/000003123512000036/ek2011_10k.htm"
+    },
+    {
+      "lineage_refs": [
+        "Kodak described its digital growth strategy as the intersection of materials science and digital imaging science.",
+        "Kodak identified consumer inkjet, commercial inkjet, workflow software/services, and packaging solutions as growth initiatives.",
+        "Kodak said growth initiatives were still largely in investment mode while mature product lines faced pricing and commodity pressure."
+      ],
+      "source_id": "SRC-KODAK-2010-10K",
+      "supports_pathways": [
+        "P2",
+        "P7"
+      ],
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/NASDAQ_KODK_2010.pdf"
+    },
+    {
+      "lineage_refs": [
+        "Kodak expected 2010 digital portfolio revenue growth of 5% to 9%.",
+        "The digital growth plan depended on cameras/devices, consumer inkjet, and commercial printing technologies.",
+        "Kodak positioned itself as helping commercial printers transition from traditional to digital technology."
+      ],
+      "source_id": "SRC-KODAK-2010-DIGITAL-OUTLOOK",
+      "supports_pathways": [
+        "P3",
+        "P6"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/31235/000003123510000034/exhibit991.htm"
+    },
+    {
+      "lineage_refs": [
+        "The article argues Kodak's decline cannot be explained solely by fear of cannibalization or rigid routines.",
+        "Kodak pursued major renewal paths including copiers, pharmaceuticals, and digital photography.",
+        "Kodak invested heavily in digital imaging and pioneered sensors, color filters, compression algorithms, and digital SLR technology.",
+        "Digital camera sales did not surpass film camera sales until 2002, more than a quarter-century after Kodak's 1975 prototype.",
+        "When demand arrived, low barriers and price competition eroded profitability.",
+        "The 2007 iPhone and smartphone rise reduced the standalone-camera value proposition and reduced image printing demand.",
+        "Kodak's bankruptcy followed the combined burden of struggling inkjet growth, legacy shutdown costs, severe cash shortfalls, and competitive uncertainty.",
+        "New paths were evaluated against Kodak's past film profitability, making sustained investment harder to justify."
+      ],
+      "source_id": "SRC-CAMBRIDGE-BHR-2025",
+      "supports_pathways": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8"
+      ],
+      "url": "https://www.cambridge.org/core/journals/business-history-review/article/problem-of-sustaining-a-successful-enterprise-kodaks-multiple-takes-at-strategic-renewal-that-culminated-in-failure/BE8CCCEC173E0D91B1E7F0BBE2BF2744"
+    },
+    {
+      "lineage_refs": [
+        "Lucas and Goh frame digital photography as a transformational technology threatening Kodak's historical business model.",
+        "They identify middle managers, culture, and rigid bureaucratic structure as barriers to fast response.",
+        "They emphasize background processes such as market research, financial projections, plan negotiation, and budgeting.",
+        "They describe culture and values as factors that define what an organization does and what it cannot do."
+      ],
+      "source_id": "SRC-JSIS-2009",
+      "supports_pathways": [
+        "P4",
+        "P5"
+      ],
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0963868709000043"
+    },
+    {
+      "lineage_refs": [
+        "Kodak records that it invented the world's first digital camera in 1975.",
+        "Kodak records Steve Sasson's National Medal of Technology and Innovation for the 1975 invention."
+      ],
+      "source_id": "SRC-KODAK-MILESTONES",
+      "supports_pathways": [
+        "P8"
+      ],
+      "url": "https://www.kodak.com/en/company/page/milestones/"
+    },
+    {
+      "lineage_refs": [
+        "Forbes reported that Kodak had the number two U.S. digital-camera brand while losing about $60 on a $400 model.",
+        "The article reported that digital was about 20% of sales, with nearly half of that in medical imaging rather than consumer photography."
+      ],
+      "source_id": "SRC-FORBES-2000",
+      "supports_pathways": [
+        "P2",
+        "P4"
+      ],
+      "url": "https://www.forbes.com/global/2000/0821/0316070a.html"
+    },
+    {
+      "lineage_refs": [
+        "IDC estimates reported by Macworld showed Kodak falling from first to third in the 2006 U.S. digital still camera market.",
+        "Kodak's shipment decline contrasted with Canon and Nikon share gains."
+      ],
+      "source_id": "SRC-MACWORLD-2006",
+      "supports_pathways": [
+        "P1",
+        "P6"
+      ],
+      "url": "https://www.macworld.com/article/183435/cameras-3.html"
+    },
+    {
+      "lineage_refs": [
+        "Scott Anthony warns that simplified Kodak stories cause executives to draw the wrong conclusions.",
+        "The source is used as a claim-boundary warning against treating Kodak as a simple technology-ignorance case."
+      ],
+      "source_id": "SRC-HBR-2016",
+      "supports_pathways": [
+        "P8"
+      ],
+      "url": "https://hbr.org/2016/07/kodaks-downfall-wasnt-about-technology"
+    }
+  ],
+  "verification_boundary": "Source corpus gathered before consultation. Consult responses were not used as Kodak factual evidence."
+}

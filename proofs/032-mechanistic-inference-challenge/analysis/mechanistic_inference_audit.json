@@ -1,0 +1,732 @@
+{
+  "classification_counts": {
+    "CONSEQUENCE_INFERENCE": 18,
+    "RELATIONAL_INFERENCE": 10,
+    "UNSUPPORTED": 5
+  },
+  "classification_policy": {
+    "CONSEQUENCE_INFERENCE": "The prompt hides source roles and is answered from outcome signatures.",
+    "RELATIONAL_INFERENCE": "The prompt hides source entities but preserves relations among partial consequences or competing causes.",
+    "ROLE_MATCH": "The prompt names enough source roles or role entities for the role parser to explain success.",
+    "TEMPLATE_MATCH": "The prompt preserves a direct source template or canonical mechanism wording.",
+    "UNSUPPORTED": "The item failed, failed closed correctly, or lacked enough evidence for a mechanism claim."
+  },
+  "items": [
+    {
+      "candidate_mechanisms": [
+        "supported_rotation"
+      ],
+      "classification": "CONSEQUENCE_INFERENCE",
+      "correct": true,
+      "expected_mechanism": "supported_rotation",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "supported_rotation",
+      "matched_consequences": [
+        "audible_roughness",
+        "heat_rise",
+        "speed_decline",
+        "final_lockup"
+      ],
+      "matched_roles": [
+        "friction",
+        "failure"
+      ],
+      "question_id": "CO-001",
+      "status": "ANSWERED",
+      "suite": "consequence_only"
+    },
+    {
+      "candidate_mechanisms": [
+        "flow"
+      ],
+      "classification": "CONSEQUENCE_INFERENCE",
+      "correct": true,
+      "expected_mechanism": "flow",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "flow",
+      "matched_consequences": [
+        "rate_drop",
+        "backlog_growth",
+        "downstream_starvation",
+        "passage_ceases"
+      ],
+      "matched_roles": [
+        "flow"
+      ],
+      "question_id": "CO-002",
+      "status": "ANSWERED",
+      "suite": "consequence_only"
+    },
+    {
+      "candidate_mechanisms": [
+        "load_transfer"
+      ],
+      "classification": "CONSEQUENCE_INFERENCE",
+      "correct": true,
+      "expected_mechanism": "load_transfer",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "load_transfer",
+      "matched_consequences": [
+        "deformation",
+        "fracture_growth",
+        "localized_damage",
+        "alignment_loss",
+        "gave_way"
+      ],
+      "matched_roles": [
+        "failure"
+      ],
+      "question_id": "CO-003",
+      "status": "ANSWERED",
+      "suite": "consequence_only"
+    },
+    {
+      "candidate_mechanisms": [
+        "supported_rotation",
+        "flow"
+      ],
+      "classification": "CONSEQUENCE_INFERENCE",
+      "correct": true,
+      "expected_mechanism": "supported_rotation",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "supported_rotation",
+      "matched_consequences": [
+        "audible_roughness",
+        "heat_rise",
+        "rising_drag",
+        "final_lockup"
+      ],
+      "matched_roles": [
+        "friction"
+      ],
+      "question_id": "CO-004",
+      "status": "ANSWERED",
+      "suite": "consequence_only"
+    },
+    {
+      "candidate_mechanisms": [
+        "flow",
+        "supported_rotation"
+      ],
+      "classification": "CONSEQUENCE_INFERENCE",
+      "correct": true,
+      "expected_mechanism": "flow",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "flow",
+      "matched_consequences": [
+        "rate_drop",
+        "backlog_growth",
+        "downstream_starvation",
+        "passage_ceases"
+      ],
+      "matched_roles": [
+        "path"
+      ],
+      "question_id": "CO-005",
+      "status": "ANSWERED",
+      "suite": "consequence_only"
+    },
+    {
+      "candidate_mechanisms": [
+        "load_transfer"
+      ],
+      "classification": "CONSEQUENCE_INFERENCE",
+      "correct": true,
+      "expected_mechanism": "load_transfer",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "load_transfer",
+      "matched_consequences": [
+        "deformation",
+        "fracture_growth",
+        "localized_damage",
+        "alignment_loss",
+        "gave_way"
+      ],
+      "matched_roles": [
+        "distribution"
+      ],
+      "question_id": "CO-006",
+      "status": "ANSWERED",
+      "suite": "consequence_only"
+    },
+    {
+      "candidate_mechanisms": [
+        "supported_rotation"
+      ],
+      "classification": "CONSEQUENCE_INFERENCE",
+      "correct": true,
+      "expected_mechanism": "supported_rotation",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "supported_rotation",
+      "matched_consequences": [
+        "audible_roughness",
+        "heat_rise",
+        "speed_decline",
+        "final_lockup"
+      ],
+      "matched_roles": [
+        "friction",
+        "failure"
+      ],
+      "question_id": "RE-001",
+      "status": "ANSWERED",
+      "suite": "reordered_evidence"
+    },
+    {
+      "candidate_mechanisms": [
+        "flow"
+      ],
+      "classification": "CONSEQUENCE_INFERENCE",
+      "correct": true,
+      "expected_mechanism": "flow",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "flow",
+      "matched_consequences": [
+        "rate_drop",
+        "backlog_growth",
+        "downstream_starvation",
+        "passage_ceases"
+      ],
+      "matched_roles": [
+        "flow"
+      ],
+      "question_id": "RE-002",
+      "status": "ANSWERED",
+      "suite": "reordered_evidence"
+    },
+    {
+      "candidate_mechanisms": [
+        "load_transfer"
+      ],
+      "classification": "CONSEQUENCE_INFERENCE",
+      "correct": true,
+      "expected_mechanism": "load_transfer",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "load_transfer",
+      "matched_consequences": [
+        "deformation",
+        "fracture_growth",
+        "localized_damage",
+        "alignment_loss",
+        "gave_way"
+      ],
+      "matched_roles": [
+        "failure"
+      ],
+      "question_id": "RE-003",
+      "status": "ANSWERED",
+      "suite": "reordered_evidence"
+    },
+    {
+      "candidate_mechanisms": [
+        "supported_rotation",
+        "flow"
+      ],
+      "classification": "CONSEQUENCE_INFERENCE",
+      "correct": true,
+      "expected_mechanism": "supported_rotation",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "supported_rotation",
+      "matched_consequences": [
+        "audible_roughness",
+        "heat_rise",
+        "speed_decline",
+        "final_lockup"
+      ],
+      "matched_roles": [],
+      "question_id": "RE-004",
+      "status": "ANSWERED",
+      "suite": "reordered_evidence"
+    },
+    {
+      "candidate_mechanisms": [
+        "flow"
+      ],
+      "classification": "CONSEQUENCE_INFERENCE",
+      "correct": true,
+      "expected_mechanism": "flow",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "flow",
+      "matched_consequences": [
+        "rate_drop",
+        "backlog_growth",
+        "downstream_starvation",
+        "uneven_delivery"
+      ],
+      "matched_roles": [
+        "flow"
+      ],
+      "question_id": "RE-005",
+      "status": "ANSWERED",
+      "suite": "reordered_evidence"
+    },
+    {
+      "candidate_mechanisms": [
+        "load_transfer"
+      ],
+      "classification": "CONSEQUENCE_INFERENCE",
+      "correct": true,
+      "expected_mechanism": "load_transfer",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "load_transfer",
+      "matched_consequences": [
+        "deformation",
+        "fracture_growth",
+        "localized_damage",
+        "alignment_loss",
+        "gave_way"
+      ],
+      "matched_roles": [
+        "concentration",
+        "failure"
+      ],
+      "question_id": "RE-006",
+      "status": "ANSWERED",
+      "suite": "reordered_evidence"
+    },
+    {
+      "candidate_mechanisms": [
+        "supported_rotation",
+        "flow"
+      ],
+      "classification": "RELATIONAL_INFERENCE",
+      "correct": true,
+      "expected_mechanism": "supported_rotation",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "supported_rotation",
+      "matched_consequences": [
+        "audible_roughness",
+        "heat_rise",
+        "rising_drag",
+        "final_lockup"
+      ],
+      "matched_roles": [
+        "friction"
+      ],
+      "question_id": "MR-001",
+      "status": "ANSWERED",
+      "suite": "missing_roles"
+    },
+    {
+      "candidate_mechanisms": [
+        "flow"
+      ],
+      "classification": "RELATIONAL_INFERENCE",
+      "correct": true,
+      "expected_mechanism": "flow",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "flow",
+      "matched_consequences": [
+        "backlog_growth",
+        "downstream_starvation",
+        "passage_ceases"
+      ],
+      "matched_roles": [
+        "flow"
+      ],
+      "question_id": "MR-002",
+      "status": "ANSWERED",
+      "suite": "missing_roles"
+    },
+    {
+      "candidate_mechanisms": [
+        "load_transfer"
+      ],
+      "classification": "RELATIONAL_INFERENCE",
+      "correct": true,
+      "expected_mechanism": "load_transfer",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "load_transfer",
+      "matched_consequences": [
+        "fracture_growth",
+        "localized_damage",
+        "gave_way"
+      ],
+      "matched_roles": [
+        "failure"
+      ],
+      "question_id": "MR-003",
+      "status": "ANSWERED",
+      "suite": "missing_roles"
+    },
+    {
+      "candidate_mechanisms": [
+        "supported_rotation",
+        "flow"
+      ],
+      "classification": "RELATIONAL_INFERENCE",
+      "correct": true,
+      "expected_mechanism": "supported_rotation",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "supported_rotation",
+      "matched_consequences": [
+        "audible_roughness",
+        "heat_rise",
+        "final_lockup"
+      ],
+      "matched_roles": [
+        "friction",
+        "failure"
+      ],
+      "question_id": "MR-004",
+      "status": "ANSWERED",
+      "suite": "missing_roles"
+    },
+    {
+      "candidate_mechanisms": [
+        "flow",
+        "supported_rotation"
+      ],
+      "classification": "RELATIONAL_INFERENCE",
+      "correct": true,
+      "expected_mechanism": "flow",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "flow",
+      "matched_consequences": [
+        "rate_drop",
+        "backlog_growth",
+        "downstream_starvation"
+      ],
+      "matched_roles": [
+        "flow"
+      ],
+      "question_id": "MR-005",
+      "status": "ANSWERED",
+      "suite": "missing_roles"
+    },
+    {
+      "candidate_mechanisms": [
+        "load_transfer"
+      ],
+      "classification": "RELATIONAL_INFERENCE",
+      "correct": true,
+      "expected_mechanism": "load_transfer",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "load_transfer",
+      "matched_consequences": [
+        "deformation",
+        "fracture_growth",
+        "localized_damage",
+        "alignment_loss"
+      ],
+      "matched_roles": [
+        "distribution"
+      ],
+      "question_id": "MR-006",
+      "status": "ANSWERED",
+      "suite": "missing_roles"
+    },
+    {
+      "candidate_mechanisms": [
+        "supported_rotation",
+        "flow"
+      ],
+      "classification": "RELATIONAL_INFERENCE",
+      "correct": true,
+      "expected_mechanism": "supported_rotation",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "supported_rotation",
+      "matched_consequences": [
+        "audible_roughness",
+        "heat_rise"
+      ],
+      "matched_roles": [
+        "friction"
+      ],
+      "question_id": "MC-001",
+      "status": "ANSWERED",
+      "suite": "multicause"
+    },
+    {
+      "candidate_mechanisms": [
+        "load_transfer",
+        "flow",
+        "supported_rotation"
+      ],
+      "classification": "RELATIONAL_INFERENCE",
+      "correct": true,
+      "expected_mechanism": "load_transfer",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "load_transfer",
+      "matched_consequences": [
+        "deformation",
+        "localized_damage"
+      ],
+      "matched_roles": [],
+      "question_id": "MC-002",
+      "status": "ANSWERED",
+      "suite": "multicause"
+    },
+    {
+      "candidate_mechanisms": [
+        "supported_rotation",
+        "flow"
+      ],
+      "classification": "RELATIONAL_INFERENCE",
+      "correct": true,
+      "expected_mechanism": "supported_rotation",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "supported_rotation",
+      "matched_consequences": [
+        "audible_roughness",
+        "speed_decline"
+      ],
+      "matched_roles": [
+        "friction"
+      ],
+      "question_id": "MC-003",
+      "status": "ANSWERED",
+      "suite": "multicause"
+    },
+    {
+      "candidate_mechanisms": [
+        "load_transfer",
+        "flow",
+        "supported_rotation"
+      ],
+      "classification": "RELATIONAL_INFERENCE",
+      "correct": true,
+      "expected_mechanism": "load_transfer",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "load_transfer",
+      "matched_consequences": [
+        "deformation",
+        "localized_damage",
+        "alignment_loss",
+        "gave_way"
+      ],
+      "matched_roles": [
+        "concentration",
+        "failure"
+      ],
+      "question_id": "MC-004",
+      "status": "ANSWERED",
+      "suite": "multicause"
+    },
+    {
+      "candidate_mechanisms": [
+        "supported_rotation"
+      ],
+      "classification": "CONSEQUENCE_INFERENCE",
+      "correct": true,
+      "expected_mechanism": "supported_rotation",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "supported_rotation",
+      "matched_consequences": [
+        "audible_roughness",
+        "heat_rise",
+        "rising_drag",
+        "final_lockup"
+      ],
+      "matched_roles": [],
+      "question_id": "NS-001",
+      "status": "ANSWERED",
+      "suite": "novel_surface"
+    },
+    {
+      "candidate_mechanisms": [
+        "flow",
+        "supported_rotation"
+      ],
+      "classification": "CONSEQUENCE_INFERENCE",
+      "correct": true,
+      "expected_mechanism": "flow",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "flow",
+      "matched_consequences": [
+        "rate_drop",
+        "backlog_growth",
+        "downstream_starvation",
+        "passage_ceases"
+      ],
+      "matched_roles": [],
+      "question_id": "NS-002",
+      "status": "ANSWERED",
+      "suite": "novel_surface"
+    },
+    {
+      "candidate_mechanisms": [
+        "load_transfer"
+      ],
+      "classification": "CONSEQUENCE_INFERENCE",
+      "correct": true,
+      "expected_mechanism": "load_transfer",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "load_transfer",
+      "matched_consequences": [
+        "fracture_growth",
+        "localized_damage",
+        "alignment_loss",
+        "gave_way"
+      ],
+      "matched_roles": [],
+      "question_id": "NS-003",
+      "status": "ANSWERED",
+      "suite": "novel_surface"
+    },
+    {
+      "candidate_mechanisms": [
+        "supported_rotation"
+      ],
+      "classification": "CONSEQUENCE_INFERENCE",
+      "correct": true,
+      "expected_mechanism": "supported_rotation",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "supported_rotation",
+      "matched_consequences": [
+        "audible_roughness",
+        "heat_rise",
+        "speed_decline",
+        "final_lockup"
+      ],
+      "matched_roles": [
+        "friction"
+      ],
+      "question_id": "NS-004",
+      "status": "ANSWERED",
+      "suite": "novel_surface"
+    },
+    {
+      "candidate_mechanisms": [
+        "flow"
+      ],
+      "classification": "CONSEQUENCE_INFERENCE",
+      "correct": true,
+      "expected_mechanism": "flow",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "flow",
+      "matched_consequences": [
+        "backlog_growth",
+        "downstream_starvation",
+        "passage_ceases",
+        "uneven_delivery"
+      ],
+      "matched_roles": [],
+      "question_id": "NS-005",
+      "status": "ANSWERED",
+      "suite": "novel_surface"
+    },
+    {
+      "candidate_mechanisms": [
+        "load_transfer",
+        "supported_rotation"
+      ],
+      "classification": "CONSEQUENCE_INFERENCE",
+      "correct": true,
+      "expected_mechanism": "load_transfer",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "load_transfer",
+      "matched_consequences": [
+        "fracture_growth",
+        "localized_damage",
+        "alignment_loss",
+        "gave_way"
+      ],
+      "matched_roles": [
+        "failure"
+      ],
+      "question_id": "NS-006",
+      "status": "ANSWERED",
+      "suite": "novel_surface"
+    },
+    {
+      "candidate_mechanisms": [],
+      "classification": "UNSUPPORTED",
+      "correct": true,
+      "expected_mechanism": "",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "",
+      "matched_consequences": [],
+      "matched_roles": [],
+      "question_id": "FC-001",
+      "status": "FAIL_CLOSED",
+      "suite": "fail_closed"
+    },
+    {
+      "candidate_mechanisms": [],
+      "classification": "UNSUPPORTED",
+      "correct": true,
+      "expected_mechanism": "",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "",
+      "matched_consequences": [],
+      "matched_roles": [],
+      "question_id": "FC-002",
+      "status": "FAIL_CLOSED",
+      "suite": "fail_closed"
+    },
+    {
+      "candidate_mechanisms": [],
+      "classification": "UNSUPPORTED",
+      "correct": true,
+      "expected_mechanism": "",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "",
+      "matched_consequences": [],
+      "matched_roles": [],
+      "question_id": "FC-003",
+      "status": "FAIL_CLOSED",
+      "suite": "fail_closed"
+    },
+    {
+      "candidate_mechanisms": [],
+      "classification": "UNSUPPORTED",
+      "correct": true,
+      "expected_mechanism": "",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "",
+      "matched_consequences": [],
+      "matched_roles": [],
+      "question_id": "FC-004",
+      "status": "FAIL_CLOSED",
+      "suite": "fail_closed"
+    },
+    {
+      "candidate_mechanisms": [],
+      "classification": "UNSUPPORTED",
+      "correct": true,
+      "expected_mechanism": "",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "identified_mechanism": "",
+      "matched_consequences": [],
+      "matched_roles": [],
+      "question_id": "FC-005",
+      "status": "FAIL_CLOSED",
+      "suite": "fail_closed"
+    }
+  ],
+  "proof_id": "032-mechanistic-inference-challenge"
+}

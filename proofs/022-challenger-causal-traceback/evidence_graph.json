@@ -1,0 +1,461 @@
+{
+  "proof_id": "022-challenger-causal-traceback",
+  "graph_type": "claim_evidence_graph",
+  "support_strength_scale": {
+    "strong": "directly supported by multiple primary or official public-source line ranges",
+    "moderate": "directly supported by at least one source and reinforced by adjacent evidence",
+    "limited": "plausible but not promoted beyond the available evidence"
+  },
+  "nodes": [
+    {
+      "id": "EV-001",
+      "claim": "The first observable physical anomaly was smoke from the right Solid Rocket Booster aft field joint immediately after liftoff.",
+      "source": [
+        {
+          "source_id": "SRC-001",
+          "line_range": "L12-L18",
+          "evidence_summary": "NASA camera analysis placed early smoke at the right SRB aft field joint; smoke composition indicated joint material and O-rings were being burned or eroded."
+        },
+        {
+          "source_id": "SRC-022",
+          "line_range": "L149-L160",
+          "evidence_summary": "The major-events timeline records confirmed smoke above the right-hand SRM field joint at 0.678 seconds and additional puffs shortly after."
+        }
+      ],
+      "support_strength": "strong",
+      "contradictions": [],
+      "linked_claims": ["EV-002", "EV-003", "EV-005"]
+    },
+    {
+      "id": "EV-002",
+      "claim": "A flame plume from the right SRB aft field joint appeared around 58.8 seconds, grew continuously, and impinged on the External Tank and attachment strut.",
+      "source": [
+        {
+          "source_id": "SRC-001",
+          "line_range": "L24-L29",
+          "evidence_summary": "Image-enhanced film and telemetry showed a flame plume at the right SRB aft field joint, pressure divergence, and plume impingement on the External Tank."
+        },
+        {
+          "source_id": "SRC-022",
+          "line_range": "L243-L296",
+          "evidence_summary": "The mission event table records first evidence of flame, a continuous plume, pressure divergence, and plume attachment to the External Tank ring frame."
+        }
+      ],
+      "support_strength": "strong",
+      "contradictions": [],
+      "linked_claims": ["EV-001", "EV-003", "EV-020"]
+    },
+    {
+      "id": "EV-003",
+      "claim": "The immediate physical cause was failure of the joint between the two lower segments of the right Solid Rocket Motor, specifically destruction of seals intended to prevent hot gas leakage.",
+      "source": [
+        {
+          "source_id": "SRC-002",
+          "line_range": "L6-L8",
+          "evidence_summary": "The Commission consensus located the loss cause in the right Solid Rocket Motor lower segment joint and its failed seals, with no other Shuttle element found to have contributed to that failure."
+        },
+        {
+          "source_id": "SRC-013",
+          "line_range": "L592-L596",
+          "evidence_summary": "The NASA accident analysis team evaluated fault candidates and focused on Solid Rocket Motor pressure integrity violation among the accident-initiating failures."
+        }
+      ],
+      "support_strength": "strong",
+      "contradictions": [],
+      "linked_claims": ["EV-001", "EV-002", "EV-004", "EV-005", "EV-020"]
+    },
+    {
+      "id": "EV-004",
+      "claim": "The launch occurred in substantially colder conditions than prior Shuttle launches, with ground-level ambient temperature 36 F and right aft field-joint O-ring temperature listed as 28 F.",
+      "source": [
+        {
+          "source_id": "SRC-001",
+          "line_range": "L7-L9",
+          "evidence_summary": "The launch temperature was 36 F at ground level, colder than any previous launch by 15 F."
+        },
+        {
+          "source_id": "SRC-002",
+          "line_range": "L729-L740",
+          "evidence_summary": "The O-ring distress table lists 51-L right aft field joint distress at 28 F and categorizes the result as flame."
+        }
+      ],
+      "support_strength": "strong",
+      "contradictions": ["CT-010"],
+      "linked_claims": ["EV-005", "EV-006", "EV-007"]
+    },
+    {
+      "id": "EV-005",
+      "claim": "Low temperature plausibly delayed O-ring recovery and pressure actuation, allowing hot combustion gases to blow by and erode the seals before they could close the joint gap.",
+      "source": [
+        {
+          "source_id": "SRC-002",
+          "line_range": "L469-L551",
+          "evidence_summary": "The cause analysis explains that delayed pressure actuation can permit blow-by and reports test conditions where sealing was marginal or inconsistent at low temperatures."
+        },
+        {
+          "source_id": "SRC-002",
+          "line_range": "L921-L928",
+          "evidence_summary": "The chapter states that cold launch temperature would slow O-ring recovery and likely prevent timely sealing."
+        },
+        {
+          "source_id": "SRC-014",
+          "line_range": "L1741-L1742",
+          "evidence_summary": "The SRM Working Group describes the need for O-rings to follow joint motion during motor pressure rise and the 51-L hypothesis that low temperature, dimensions, and loads prevented sealing."
+        },
+        {
+          "source_id": "SRC-014",
+          "line_range": "L1854-L1862",
+          "evidence_summary": "Technical analysis found low-temperature compression and groove-side contact could prevent pressure actuation; these variables may have been sufficient for 51-L joint failure."
+        }
+      ],
+      "support_strength": "strong",
+      "contradictions": ["CT-002", "CT-010"],
+      "linked_claims": ["EV-003", "EV-004", "EV-015"]
+    },
+    {
+      "id": "EV-006",
+      "claim": "Prior flight history showed O-ring thermal distress concentrated at lower temperatures; all flights at 63 F or below had one or more O-rings showing distress.",
+      "source": [
+        {
+          "source_id": "SRC-004",
+          "line_range": "L1556-L1562",
+          "evidence_summary": "The full launch history showed all four flights at 63 F or below had O-ring thermal distress, while only three of twenty at 66 F or above did."
+        },
+        {
+          "source_id": "SRC-002",
+          "line_range": "L928-L928",
+          "evidence_summary": "The cause chapter records the same pattern: every launch below 61 F showed O-ring thermal distress."
+        }
+      ],
+      "support_strength": "strong",
+      "contradictions": ["CT-002", "CT-006"],
+      "linked_claims": ["EV-004", "EV-007", "EV-016"]
+    },
+    {
+      "id": "EV-007",
+      "claim": "Thiokol engineering initially recommended against launching 51-L until the O-ring reached at least 53 F, the lowest previous O-ring temperature flight experience.",
+      "source": [
+        {
+          "source_id": "SRC-003",
+          "line_range": "L830-L834",
+          "evidence_summary": "The teleconference chronology records Thiokol's recommendation not to fly until the O-ring reached 53 F and Kilminster's initial inability to recommend launch."
+        },
+        {
+          "source_id": "SRC-016",
+          "line_range": "L224-L238",
+          "evidence_summary": "Hearing testimony states the engineering recommendation was not to move outside the prior O-ring temperature experience base."
+        }
+      ],
+      "support_strength": "strong",
+      "contradictions": ["CT-001", "CT-002"],
+      "linked_claims": ["EV-004", "EV-006", "EV-008"]
+    },
+    {
+      "id": "EV-008",
+      "claim": "After NASA challenged the initial no-launch recommendation, Thiokol entered an internal caucus, conducted a management review, and reversed to a launch recommendation despite continuing engineer opposition.",
+      "source": [
+        {
+          "source_id": "SRC-003",
+          "line_range": "L835-L864",
+          "evidence_summary": "The chronology records NASA challenge, a Thiokol caucus, engineer objections, a final management review, and a changed rationale supporting launch."
+        },
+        {
+          "source_id": "SRC-017",
+          "line_range": "L2026-L2054",
+          "evidence_summary": "Boisjoly testified that engineers continued to oppose launch, were not polled for the final chart, and viewed the final recommendation as a management decision."
+        },
+        {
+          "source_id": "SRC-017",
+          "line_range": "L1634-L1658",
+          "evidence_summary": "Mason was questioned about telling Lund to use a management rather than engineering frame; he acknowledged it could be interpreted as pressure."
+        }
+      ],
+      "support_strength": "strong",
+      "contradictions": ["CT-001", "CT-002", "CT-008"],
+      "linked_claims": ["EV-007", "EV-009", "EV-016"]
+    },
+    {
+      "id": "EV-009",
+      "claim": "The launch decision process failed because senior launch decision makers did not receive complete or clearly framed information about O-ring history, the initial no-launch recommendation, and continuing engineer opposition.",
+      "source": [
+        {
+          "source_id": "SRC-003",
+          "line_range": "L6-L12",
+          "evidence_summary": "The contributing-cause chapter states the launch decision was flawed and based on incomplete and sometimes misleading information."
+        },
+        {
+          "source_id": "SRC-003",
+          "line_range": "L30-L32",
+          "evidence_summary": "The chapter identifies uncommunicated objections to launch and insufficient communication of O-ring erosion history."
+        },
+        {
+          "source_id": "SRC-004",
+          "line_range": "L1606-L1608",
+          "evidence_summary": "The chapter says NASA Levels I and II were not informed when temperature became a major concern and when launch constraints were applied."
+        }
+      ],
+      "support_strength": "strong",
+      "contradictions": ["CT-007"],
+      "linked_claims": ["EV-008", "EV-011", "EV-013"]
+    },
+    {
+      "id": "EV-010",
+      "claim": "The SRM joint problem was rooted in design and certification choices: the joint relied on O-rings as pressure barriers, was not fully understood, and was not redesigned after repeated distress.",
+      "source": [
+        {
+          "source_id": "SRC-004",
+          "line_range": "L8-L29",
+          "evidence_summary": "The chapter traces the faulty joint design, differences from Titan, and the role of O-rings and putty in the Shuttle SRM joint."
+        },
+        {
+          "source_id": "SRC-004",
+          "line_range": "L1611-L1617",
+          "evidence_summary": "The findings state that neither NASA nor Thiokol responded adequately to internal warnings or developed a timely verified new seal."
+        },
+        {
+          "source_id": "SRC-007",
+          "line_range": "L13-L29",
+          "evidence_summary": "The first recommendation requires changing the faulty joint and seal and testing over the full operating range including temperature."
+        }
+      ],
+      "support_strength": "strong",
+      "contradictions": ["CT-005"],
+      "linked_claims": ["EV-005", "EV-012", "EV-018"]
+    },
+    {
+      "id": "EV-011",
+      "claim": "NASA's safety, reliability, and quality assurance functions did not independently surface the O-ring trend or participate in the critical launch discussions.",
+      "source": [
+        {
+          "source_id": "SRC-005",
+          "line_range": "L6-L13",
+          "evidence_summary": "The safety chapter records that no safety or reliability representative was invited to the January 27 teleconference or the January 28 Mission Management Team."
+        },
+        {
+          "source_id": "SRC-005",
+          "line_range": "L83-L104",
+          "evidence_summary": "The chapter says the increasing field-joint O-ring blow-by/erosion trend should have been recognized and analyzed by safety and quality functions."
+        }
+      ],
+      "support_strength": "strong",
+      "contradictions": ["CT-007"],
+      "linked_claims": ["EV-009", "EV-012", "EV-013"]
+    },
+    {
+      "id": "EV-012",
+      "claim": "The field joint's criticality was misrepresented or misunderstood: it was effectively non-redundant, but problem paperwork and decision rationale often treated redundancy as available.",
+      "source": [
+        {
+          "source_id": "SRC-005",
+          "line_range": "L108-L142",
+          "evidence_summary": "The safety chapter identifies Criticality 1R paperwork for a Criticality 1 field joint and says this misrepresentation made informed decision making impossible."
+        },
+        {
+          "source_id": "SRC-016",
+          "line_range": "L259-L277",
+          "evidence_summary": "Hearing testimony explains recognition in late 1982 that the joint did not provide redundancy under worst-case conditions."
+        }
+      ],
+      "support_strength": "strong",
+      "contradictions": ["CT-003"],
+      "linked_claims": ["EV-008", "EV-010", "EV-013"]
+    },
+    {
+      "id": "EV-013",
+      "claim": "Launch constraints and anomaly tracking failed: after serious O-ring erosion, constraints were waived, omitted from key briefings, or erroneously closed.",
+      "source": [
+        {
+          "source_id": "SRC-004",
+          "line_range": "L1316-L1321",
+          "evidence_summary": "After STS 51-B, Marshall placed a launch constraint on subsequent flights, including 51-L, but then waived it for later flights."
+        },
+        {
+          "source_id": "SRC-004",
+          "line_range": "L1357-L1358",
+          "evidence_summary": "The chapter records erroneous entries suggesting the O-ring problem had been resolved or closed."
+        },
+        {
+          "source_id": "SRC-004",
+          "line_range": "L1603-L1608",
+          "evidence_summary": "The launch constraint was not specifically listed in later Level I reviews, and no mention of the July 1985 constraint or waivers was found in FRR briefing documents."
+        },
+        {
+          "source_id": "SRC-004",
+          "line_range": "L1621-L1624",
+          "evidence_summary": "The Commission found six consecutive launch constraint waivers before 51-L and a tracking system that lost major recurring problems."
+        }
+      ],
+      "support_strength": "strong",
+      "contradictions": ["CT-004"],
+      "linked_claims": ["EV-009", "EV-011", "EV-018"]
+    },
+    {
+      "id": "EV-014",
+      "claim": "Schedule, customer, and operational-pressure conditions strained NASA's Shuttle system and may have obscured engineering concerns.",
+      "source": [
+        {
+          "source_id": "SRC-006",
+          "line_range": "L6-L23",
+          "evidence_summary": "The schedule-pressure chapter describes planned acceleration, inadequate resources, and concern that commitments may have obscured engineering issues."
+        },
+        {
+          "source_id": "SRC-006",
+          "line_range": "L125-L148",
+          "evidence_summary": "The chapter describes facilities and personnel performing at roughly twice the budgeted flight rate, work-force strain, overtime, and training system saturation."
+        },
+        {
+          "source_id": "SRC-006",
+          "line_range": "L149-L151",
+          "evidence_summary": "The chapter identifies can-do culture as an obstacle when challenges drained resources from necessary program work."
+        }
+      ],
+      "support_strength": "moderate",
+      "contradictions": ["CT-008"],
+      "linked_claims": ["EV-008", "EV-009", "EV-011"]
+    },
+    {
+      "id": "EV-015",
+      "claim": "The technical failure pathway involved interacting variables: joint rotation, gap opening, low-temperature O-ring resiliency, O-ring squeeze/tolerance, and putty pressure-delay behavior.",
+      "source": [
+        {
+          "source_id": "SRC-014",
+          "line_range": "L1332-L1336",
+          "evidence_summary": "The SRM Working Group describes primary O-ring blow-by or low-temperature effects as the common element across hot-gas-leak branches."
+        },
+        {
+          "source_id": "SRC-014",
+          "line_range": "L1887-L1897",
+          "evidence_summary": "The putty-delay scenario describes putty holding pressure off the primary O-ring until the gap opens, followed by hot gas erosion."
+        },
+        {
+          "source_id": "SRC-014",
+          "line_range": "L1926-L1930",
+          "evidence_summary": "Technical tests estimate ignition-transient gap opening and show low-temperature O-ring tracking was too small relative to the joint rotation."
+        },
+        {
+          "source_id": "SRC-014",
+          "line_range": "L2121-L2125",
+          "evidence_summary": "Subscale tests showed sealing performance depended on temperature, putty rupture timing, and initial O-ring squeeze."
+        }
+      ],
+      "support_strength": "strong",
+      "contradictions": ["CT-010"],
+      "linked_claims": ["EV-003", "EV-005", "EV-010"]
+    },
+    {
+      "id": "EV-016",
+      "claim": "A central decision-making contradiction was that engineering evidence outside the prior experience base was treated by managers as inconclusive enough to launch rather than inconclusive enough to delay.",
+      "source": [
+        {
+          "source_id": "SRC-016",
+          "line_range": "L60-L95",
+          "evidence_summary": "McDonald described the data as indicating movement in the wrong direction but later judged inconclusive before the launch recommendation was changed."
+        },
+        {
+          "source_id": "SRC-017",
+          "line_range": "L2052-L2074",
+          "evidence_summary": "Boisjoly testified the burden had been reversed: engineers were asked to prove failure, not prove enough data existed to launch."
+        }
+      ],
+      "support_strength": "strong",
+      "contradictions": ["CT-001", "CT-002"],
+      "linked_claims": ["EV-006", "EV-007", "EV-008"]
+    },
+    {
+      "id": "EV-017",
+      "claim": "Pad ice and Rockwell safety concerns were additional launch-decision information failures, but they are not the strongest supported physical cause chain for the disaster.",
+      "source": [
+        {
+          "source_id": "SRC-003",
+          "line_range": "L7-L8",
+          "evidence_summary": "The contributing-cause chapter says decision makers lacked a clear understanding of Rockwell's concern that pad ice made launch unsafe."
+        },
+        {
+          "source_id": "SRC-002",
+          "line_range": "L7-L8",
+          "evidence_summary": "The cause chapter states no other Shuttle system element contributed to the right SRM seal failure."
+        }
+      ],
+      "support_strength": "moderate",
+      "contradictions": ["CT-009"],
+      "linked_claims": ["EV-003", "EV-009"]
+    },
+    {
+      "id": "EV-018",
+      "claim": "The earliest observable warning signals include design/test concerns before flight and the first documented O-ring erosion cases, with the evidence becoming stronger after STS 41-B, STS 51-C, and STS 51-B.",
+      "source": [
+        {
+          "source_id": "SRC-004",
+          "line_range": "L8-L12",
+          "evidence_summary": "The history chapter says the SRB joint problem began with faulty design and grew as NASA and contractor management failed to recognize, fix, and stop treating it as acceptable."
+        },
+        {
+          "source_id": "SRC-004",
+          "line_range": "L1585-L1604",
+          "evidence_summary": "The chapter traces treatment of erosion from STS-2 and STS 41-C through 51-C and 51-B."
+        },
+        {
+          "source_id": "SRC-004",
+          "line_range": "L1626-L1732",
+          "evidence_summary": "The references list NASA and Thiokol leakage, tang/clevis, Critical Items List, O-ring resiliency, and internal action documents from 1977 through 1985."
+        }
+      ],
+      "support_strength": "strong",
+      "contradictions": ["CT-005", "CT-006"],
+      "linked_claims": ["EV-010", "EV-013", "EV-019"]
+    },
+    {
+      "id": "EV-019",
+      "claim": "Normalization of deviance contributed: prior survival with O-ring erosion and blow-by was repeatedly treated as evidence that continued flight was acceptable.",
+      "source": [
+        {
+          "source_id": "SRC-008",
+          "line_range": "L25-L35",
+          "evidence_summary": "Feynman's appendix argues that erosion and blow-by were warnings, not safety margins, and that prior survival did not establish safety."
+        },
+        {
+          "source_id": "SRC-004",
+          "line_range": "L1617-L1621",
+          "evidence_summary": "The Commission records Feynman's Russian-roulette analogy and finds that NASA and Thiokol accepted escalating risk after prior flights succeeded."
+        }
+      ],
+      "support_strength": "strong",
+      "contradictions": ["CT-005", "CT-011"],
+      "linked_claims": ["EV-010", "EV-013", "EV-018"]
+    },
+    {
+      "id": "EV-020",
+      "claim": "The strongest causal pathway is: known vulnerable SRM field-joint seal design plus cold-induced sealing delay, filtered through flawed communication and management reversal, produced launch approval in out-of-experience conditions and a right SRB hot-gas leak that destroyed the vehicle.",
+      "source": [
+        {
+          "source_id": "SRC-001",
+          "line_range": "L12-L36",
+          "evidence_summary": "Flight evidence traces smoke, flame, External Tank breach, and breakup."
+        },
+        {
+          "source_id": "SRC-002",
+          "line_range": "L6-L8",
+          "evidence_summary": "The physical cause is identified as the right Solid Rocket Motor joint seal failure."
+        },
+        {
+          "source_id": "SRC-003",
+          "line_range": "L6-L12",
+          "evidence_summary": "The decision process is identified as flawed by incomplete information, engineering-management conflict, and bypassed safety information."
+        },
+        {
+          "source_id": "SRC-004",
+          "line_range": "L1606-L1624",
+          "evidence_summary": "Historical evidence traces erosion normalization, failure to inform higher levels, inadequate redesign, tracking failure, and missed temperature analysis."
+        },
+        {
+          "source_id": "SRC-014",
+          "line_range": "L1741-L1742",
+          "evidence_summary": "Technical analysis links low temperature, dimensions, and loads to potential failure of both O-rings to seal."
+        }
+      ],
+      "support_strength": "strong",
+      "contradictions": ["CT-001", "CT-002", "CT-003", "CT-004", "CT-005", "CT-006", "CT-007", "CT-008", "CT-010"],
+      "linked_claims": ["EV-001", "EV-002", "EV-003", "EV-005", "EV-008", "EV-009", "EV-010", "EV-013", "EV-015"]
+    }
+  ]
+}

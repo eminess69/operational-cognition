@@ -1,0 +1,154 @@
+[
+  {
+    "date": "2019-10-11",
+    "evidence_signals": [
+      "MCAS was not evaluated as a complete integrated function in certification documents.",
+      "Design changes during certification were not fully reflected in certification deliverables.",
+      "Operational design assumptions about crew response influenced MCAS certification and should have been integrated with certification work.",
+      "Some 737 design/certification elements remained rooted in the original 1967 type certificate."
+    ],
+    "lineage_refs": [
+      "JATR executive summary: MCAS certification, training, and operational suitability were in scope.",
+      "JATR R4/R6/R8/R9: design changes, integrated aircraft-level assessment, development assurance, and crew-response assumptions required review."
+    ],
+    "source_id": "SRC-FAA-JATR-2019",
+    "source_type": "official_technical_review",
+    "supports_hypotheses": [
+      "H1",
+      "H2",
+      "H4",
+      "H6"
+    ],
+    "title": "Boeing 737 MAX Flight Control System - Joint Authorities Technical Review",
+    "url": "https://www.faa.gov/sites/faa.gov/files/2022-08/Final_JATR_Submittal_to_FAA_Oct_2019.pdf"
+  },
+  {
+    "date": "2020-09-16",
+    "evidence_signals": [
+      "Boeing and FAA failures both played causative roles, so an MCAS-only account is incomplete.",
+      "Production, cost, and schedule pressures are treated as safety-relevant rather than background context.",
+      "References to MCAS were removed from flight crew materials during development.",
+      "The single-AOA design and lack of cross-checking were repeatedly criticized."
+    ],
+    "lineage_refs": [
+      "House report themes: FAA oversight, Boeing production pressures, MCAS, AOA Disagree alert, pilot training, post-accident responses.",
+      "House report notes flawed technical design criteria, faulty assumptions about pilot response, and production pressures."
+    ],
+    "source_id": "SRC-HOUSE-2020",
+    "source_type": "congressional_investigation",
+    "supports_hypotheses": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H6"
+    ],
+    "title": "Final Committee Report: The Design, Development & Certification of the Boeing 737 MAX",
+    "url": "https://democrats-transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf"
+  },
+  {
+    "date": "2019-09-26",
+    "evidence_signals": [
+      "Pilot response assumptions were a certification mechanism, not merely post-accident commentary.",
+      "Multiple flight-deck alerts can change recognition and response, weakening simple pilot-error narratives.",
+      "Human factors and alerting design directly affect the validity of the MCAS hazard classification."
+    ],
+    "lineage_refs": [
+      "NTSB ASR-19/01: uncommanded MCAS was classified as major based on timely pilot-response assumptions.",
+      "NTSB recommended stronger methods to validate assumptions about pilot recognition and response under multiple alerts."
+    ],
+    "source_id": "SRC-NTSB-ASR-2019",
+    "source_type": "safety_recommendation_report",
+    "supports_hypotheses": [
+      "H2",
+      "H4"
+    ],
+    "title": "Assumptions Used in the Safety Assessment Process and the Effects of Multiple Alerts and Indications on Pilot Performance",
+    "url": "https://www.flighttestsafety.org/images/U.S._NTSB_Safety_Recommendation_Report_ASR-19-01_September_26_2019_re_737_MAX_8.pdf"
+  },
+  {
+    "date": "2020-11-18",
+    "evidence_signals": [
+      "The fixes map to multiple failure channels, not only one bad sensor or one software bug.",
+      "The original design allowed repeated MCAS activation from one erroneous AOA input.",
+      "Multiple MCAS commands could create a stabilizer mistrim condition beyond elevator-only countercontrol.",
+      "Maintenance and AOA calibration issues remained in scope for return-to-service controls."
+    ],
+    "lineage_refs": [
+      "FAA identified safety items: single AOA sensor, repeated MCAS commands, trim authority, flightcrew recognition, AOA Disagree, maintenance procedures.",
+      "FAA required revised flight-control laws, use of both AOA sensors, one MCAS activation per high-AOA event, training/procedure changes, and system monitoring."
+    ],
+    "source_id": "SRC-FAA-RTS-2020",
+    "source_type": "regulatory_return_to_service_review",
+    "supports_hypotheses": [
+      "H1",
+      "H2",
+      "H4",
+      "H5"
+    ],
+    "title": "Summary of the FAA's Review of the Boeing 737 MAX",
+    "url": "https://www.faa.gov/sites/faa.gov/files/2022-08/737_RTS_Summary.pdf"
+  },
+  {
+    "date": "2019-10-25",
+    "evidence_signals": [
+      "JT610 required both the MCAS design path and accident-specific AOA maintenance path.",
+      "A sensor/maintenance-only explanation is viable for triggering the event but does not explain the system-level vulnerability.",
+      "A pilot-only explanation is weakened by the repeated trim/alert environment and missing MCAS-specific information."
+    ],
+    "lineage_refs": [
+      "KNKT final report is cited by the FAA return-to-service summary for AOA sensor maintenance and calibration findings.",
+      "FAA summary records that the replacement AOA sensor installed on the accident aircraft had been mis-calibrated during an earlier repair and the mis-calibration was not detected."
+    ],
+    "source_id": "SRC-KNKT-JT610-2019",
+    "source_type": "accident_investigation_final_report",
+    "supports_hypotheses": [
+      "H1",
+      "H4",
+      "H5"
+    ],
+    "title": "Aircraft Accident Investigation Report: Lion Air Flight JT610, Boeing 737-8 MAX PK-LQP",
+    "url": "https://knkt.go.id/Repo/Files/Laporan/Penerbangan/2018/KNKT.18.10.33.04-Final-Report.pdf"
+  },
+  {
+    "date": "2023-01-03",
+    "evidence_signals": [
+      "ET302 had erroneous left AOA data followed by stick shaker, data disagreement, and MCAS nose-down trim.",
+      "Crew performance remains an active explanatory cluster, but BEA frames it as a safety-learning need, not a standalone cause."
+    ],
+    "lineage_refs": [
+      "BEA shares the EAIB analysis regarding the contribution of MCAS.",
+      "BEA states operational and crew-performance aspects were insufficiently addressed in the EAIB final report."
+    ],
+    "source_id": "SRC-BEA-ET302-2023",
+    "source_type": "accredited_representative_comments",
+    "supports_hypotheses": [
+      "H1",
+      "H4",
+      "H5"
+    ],
+    "title": "BEA page for Ethiopian Airlines ET302 investigation and comments",
+    "url": "https://bea.aero/en/investigation-reports/notified-events/detail/accident-to-the-boeing-737-registered-et-avj-and-operated-by-ethiopian-airlines-on-10-03-2019-near-bishoftu-investigation-led-by-eaib-ethiopia/"
+  },
+  {
+    "date": "2023-01-13",
+    "evidence_signals": [
+      "The AOA-trigger explanation remains accident-specific and contested in details.",
+      "NTSB disagreement prevents premature convergence on production-electrical-fault explanations for ET302.",
+      "MCAS contribution survives despite disagreement over the exact AOA failure mechanism."
+    ],
+    "lineage_refs": [
+      "NTSB concurs with the EAIB investigation of MCAS and related systems and their roles in the accident.",
+      "NTSB disputes unsupported electrical-anomaly findings and argues the erroneous AOA was most likely foreign-object impact/bird-strike vane separation."
+    ],
+    "source_id": "SRC-NTSB-ET302-2023",
+    "source_type": "accredited_representative_comments",
+    "supports_hypotheses": [
+      "H1",
+      "H4",
+      "H5"
+    ],
+    "title": "NTSB response to EAIB final report on Ethiopian Airlines Flight 302",
+    "url": "https://www.ntsb.gov/investigations/Documents/Response%20to%20EAIB%20final%20report.pdf"
+  }
+]

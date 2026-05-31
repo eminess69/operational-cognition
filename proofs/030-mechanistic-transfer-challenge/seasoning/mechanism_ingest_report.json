@@ -1,0 +1,19 @@
+{
+  "formed_mechanisms": [
+    "flow",
+    "load_transfer",
+    "supported_rotation"
+  ],
+  "ingested_lessons": [
+    "MEC-L001",
+    "MEC-L002",
+    "MEC-L003"
+  ],
+  "lesson_count": 3,
+  "mechanism_count": 3,
+  "rejected_lessons": [],
+  "seasoning_mode": "deterministic_mechanism_jsonl_ingest",
+  "state_hash": "e708447ebb35c0b68e011e5b725afe1f0e7332db909f99d040d8c607a25172e3",
+  "state_id": "mechanism_seasoned",
+  "traceback_policy": "Every identified mechanism must include observed_system, identified_mechanism, supporting_motifs, source_mechanism, and transfer_confidence."
+}

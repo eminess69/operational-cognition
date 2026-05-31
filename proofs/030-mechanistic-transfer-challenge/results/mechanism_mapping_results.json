@@ -1,0 +1,276 @@
+{
+  "execution_mode": "deterministic_cli_no_llm",
+  "mappings": [
+    {
+      "correct": true,
+      "identified_mechanism": "flow",
+      "observed_system": "Water moves from a tank through a pipe. A restriction narrows the path and movement drops.",
+      "question_id": "ID-001",
+      "source_domain": "water_system",
+      "source_mechanism": "FLOW",
+      "status": "IDENTIFIED",
+      "suite": "in_domain",
+      "supporting_motifs": [
+        "Source",
+        "Path",
+        "Resistance",
+        "Flow"
+      ],
+      "target_domain": "water_system",
+      "transfer_confidence": 0.95
+    },
+    {
+      "correct": true,
+      "identified_mechanism": "supported_rotation",
+      "observed_system": "A wheel turns on a bearing. Friction increases, noise appears, and rotation slows.",
+      "question_id": "ID-002",
+      "source_domain": "wheel_assembly",
+      "source_mechanism": "SUPPORTED_ROTATION",
+      "status": "IDENTIFIED",
+      "suite": "in_domain",
+      "supporting_motifs": [
+        "Rotation",
+        "Support",
+        "Friction",
+        "Failure"
+      ],
+      "target_domain": "wheel_assembly",
+      "transfer_confidence": 0.95
+    },
+    {
+      "correct": true,
+      "identified_mechanism": "load_transfer",
+      "observed_system": "A bridge carries heavy load through a truss. One joint takes concentrated stress and starts to crack.",
+      "question_id": "ID-003",
+      "source_domain": "bridge",
+      "source_mechanism": "LOAD_TRANSFER",
+      "status": "IDENTIFIED",
+      "suite": "in_domain",
+      "supporting_motifs": [
+        "Load",
+        "Distribution",
+        "Concentration",
+        "Failure"
+      ],
+      "target_domain": "bridge",
+      "transfer_confidence": 0.95
+    },
+    {
+      "correct": true,
+      "identified_mechanism": "flow",
+      "observed_system": "delivery carts move along a corridor; a bottleneck narrows the route and progress drops.",
+      "question_id": "CD-001",
+      "source_domain": "water_system",
+      "source_mechanism": "FLOW",
+      "status": "IDENTIFIED",
+      "suite": "cross_domain_transfer",
+      "supporting_motifs": [
+        "Path",
+        "Resistance",
+        "Flow"
+      ],
+      "target_domain": "delivery_corridor",
+      "transfer_confidence": 0.83
+    },
+    {
+      "correct": true,
+      "identified_mechanism": "supported_rotation",
+      "observed_system": "a computer fan spins on a shaft; wear creates noise and it eventually slows.",
+      "question_id": "CD-002",
+      "source_domain": "wheel_assembly",
+      "source_mechanism": "SUPPORTED_ROTATION",
+      "status": "IDENTIFIED",
+      "suite": "cross_domain_transfer",
+      "supporting_motifs": [
+        "Rotation",
+        "Support",
+        "Friction",
+        "Failure"
+      ],
+      "target_domain": "computer_fan",
+      "transfer_confidence": 0.95
+    },
+    {
+      "correct": true,
+      "identified_mechanism": "load_transfer",
+      "observed_system": "a warehouse shelf carries heavy boxes through uprights; one overloaded corner sags at a bracket.",
+      "question_id": "CD-003",
+      "source_domain": "bridge",
+      "source_mechanism": "LOAD_TRANSFER",
+      "status": "IDENTIFIED",
+      "suite": "cross_domain_transfer",
+      "supporting_motifs": [
+        "Load",
+        "Distribution",
+        "Concentration",
+        "Failure"
+      ],
+      "target_domain": "warehouse_shelf",
+      "transfer_confidence": 0.95
+    },
+    {
+      "correct": true,
+      "identified_mechanism": "flow",
+      "observed_system": "Requests pass through a service gateway. One rate-limited step creates a bottleneck, queues build, and throughput drops.",
+      "question_id": "CD-004",
+      "source_domain": "water_system",
+      "source_mechanism": "FLOW",
+      "status": "IDENTIFIED",
+      "suite": "cross_domain_transfer",
+      "supporting_motifs": [
+        "Path",
+        "Resistance",
+        "Flow"
+      ],
+      "target_domain": "service_gateway",
+      "transfer_confidence": 0.88
+    },
+    {
+      "correct": true,
+      "identified_mechanism": "supported_rotation",
+      "observed_system": "A lab turntable spins around a spindle. The support mount wears, squeals, and the rotation becomes uneven.",
+      "question_id": "CD-005",
+      "source_domain": "wheel_assembly",
+      "source_mechanism": "SUPPORTED_ROTATION",
+      "status": "IDENTIFIED",
+      "suite": "cross_domain_transfer",
+      "supporting_motifs": [
+        "Rotation",
+        "Support",
+        "Friction",
+        "Failure"
+      ],
+      "target_domain": "lab_turntable",
+      "transfer_confidence": 0.95
+    },
+    {
+      "correct": true,
+      "identified_mechanism": "load_transfer",
+      "observed_system": "A hanging sign carries weight through two cables. One anchor takes most force, bends, and the sign sags.",
+      "question_id": "CD-006",
+      "source_domain": "bridge",
+      "source_mechanism": "LOAD_TRANSFER",
+      "status": "IDENTIFIED",
+      "suite": "cross_domain_transfer",
+      "supporting_motifs": [
+        "Load",
+        "Distribution",
+        "Concentration",
+        "Failure"
+      ],
+      "target_domain": "hanging_sign",
+      "transfer_confidence": 0.95
+    },
+    {
+      "correct": true,
+      "identified_mechanism": "supported_rotation",
+      "observed_system": "The room fan slows down over time, becomes noisy, and eventually stops.",
+      "question_id": "HM-001",
+      "source_domain": "wheel_assembly",
+      "source_mechanism": "SUPPORTED_ROTATION",
+      "status": "IDENTIFIED",
+      "suite": "hidden_mechanism",
+      "supporting_motifs": [
+        "Rotation",
+        "Friction",
+        "Failure"
+      ],
+      "target_domain": "room_fan",
+      "transfer_confidence": 0.8
+    },
+    {
+      "correct": true,
+      "identified_mechanism": "flow",
+      "observed_system": "People move along a hallway toward an exit. Near the exit the hallway gets narrower, people bunch up, and progress drops.",
+      "question_id": "HM-002",
+      "source_domain": "water_system",
+      "source_mechanism": "FLOW",
+      "status": "IDENTIFIED",
+      "suite": "hidden_mechanism",
+      "supporting_motifs": [
+        "Path",
+        "Resistance",
+        "Flow"
+      ],
+      "target_domain": "crowd_exit",
+      "transfer_confidence": 0.78
+    },
+    {
+      "correct": true,
+      "identified_mechanism": "load_transfer",
+      "observed_system": "A shelf bows after heavy boxes are moved to one corner, and cracks appear at a bracket.",
+      "question_id": "HM-003",
+      "source_domain": "bridge",
+      "source_mechanism": "LOAD_TRANSFER",
+      "status": "IDENTIFIED",
+      "suite": "hidden_mechanism",
+      "supporting_motifs": [
+        "Load",
+        "Concentration",
+        "Failure"
+      ],
+      "target_domain": "storage_shelf",
+      "transfer_confidence": 0.88
+    },
+    {
+      "correct": true,
+      "identified_mechanism": "supported_rotation",
+      "observed_system": "A motorized turntable starts squealing, rotation becomes uneven, then stalls.",
+      "question_id": "HM-004",
+      "source_domain": "wheel_assembly",
+      "source_mechanism": "SUPPORTED_ROTATION",
+      "status": "IDENTIFIED",
+      "suite": "hidden_mechanism",
+      "supporting_motifs": [
+        "Rotation",
+        "Friction",
+        "Failure"
+      ],
+      "target_domain": "motorized_turntable",
+      "transfer_confidence": 0.83
+    },
+    {
+      "correct": true,
+      "identified_mechanism": "flow",
+      "observed_system": "Requests pass through a gateway; one rate-limited step causes queues and lower throughput.",
+      "question_id": "HM-005",
+      "source_domain": "water_system",
+      "source_mechanism": "FLOW",
+      "status": "IDENTIFIED",
+      "suite": "hidden_mechanism",
+      "supporting_motifs": [
+        "Path",
+        "Resistance",
+        "Flow"
+      ],
+      "target_domain": "software_gateway",
+      "transfer_confidence": 0.88
+    },
+    {
+      "correct": true,
+      "identified_mechanism": "load_transfer",
+      "observed_system": "A suspended sign pulls through two cables; one anchor takes most force and bends.",
+      "question_id": "HM-006",
+      "source_domain": "bridge",
+      "source_mechanism": "LOAD_TRANSFER",
+      "status": "IDENTIFIED",
+      "suite": "hidden_mechanism",
+      "supporting_motifs": [
+        "Load",
+        "Distribution",
+        "Concentration",
+        "Failure"
+      ],
+      "target_domain": "suspended_sign",
+      "transfer_confidence": 0.95
+    }
+  ],
+  "proof_id": "030-mechanistic-transfer-challenge",
+  "required_output_schema": {
+    "identified_mechanism": "string",
+    "observed_system": "string",
+    "source_mechanism": "string",
+    "supporting_motifs": "array",
+    "transfer_confidence": "number"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "claim_level": "evidence_backed",
+  "disallowed_claims": [
+    "the pond independently learned the mechanism taxonomy",
+    "success independent of parser behavior",
+    "success independent of Codex mentor extraction",
+    "general mechanism cognition",
+    "mechanisms beyond FLOW, SUPPORTED_ROTATION, and LOAD_TRANSFER",
+    "hidden chain-of-thought exposure"
+  ],
+  "inside_voice_adapter_status": "pond_backed_consult_used_before_final_mechanism_inference",
+  "lineage": {
+    "contract_version": "inside_voice.mcp.consultation.v1",
+    "derived_from": "proofs/030-mechanistic-transfer-challenge; proofs/031-mechanistic-transfer-cue-invariance; proofs/032-mechanistic-inference-challenge; live /consult responses",
+    "mcp_endpoint": "http://127.0.0.1:8766/consult",
+    "request_hash": "ddf374e5ca9c1810a6359c1ebb38a8479bc5e737827e254fcd08b6a70142fbad",
+    "response_hash": "410536c99de95bbe793dc2f7007f5041193303b2e7fa5a8b16e47b7853ee583c",
+    "validates": "bounded_codex_mentored_mechanism_recall_with_pond_backed_lineage_and_fail_closed_cli"
+  },
+  "proof_id": "033-mechanism-seasoning-pond-recall",
+  "public_private_boundary": "Artifacts expose public-safe curriculum, request/response hashes, bounded recall logs, deterministic CLI outputs, and audits. No hidden chain-of-thought or private substrate internals are exposed.",
+  "required_artifacts": [
+    "README.md",
+    "proof_manifest.json",
+    "curriculum/mechanism_seasoning_examples.jsonl",
+    "mcp/seasoning_log.jsonl",
+    "mcp/recall_log.jsonl",
+    "mcp/generic_consult_log.jsonl",
+    "tests/held_out_mechanism_cases.jsonl",
+    "pond_states/mechanism_recall/pond_state.json",
+    "results/pond_recall_results.json",
+    "baseline/no_pond_recall_results.json",
+    "baseline/generic_consult_results.json",
+    "analysis/pond_recall_advantage.json",
+    "analysis/recall_quality_audit.json",
+    "analysis/hostile_pond_recall_audit.json",
+    "analysis/pond_recall_metrics.json"
+  ],
+  "status": "complete",
+  "targets": [
+    "MechanismSeasoning",
+    "PondBackedConsult",
+    "MechanismRecall",
+    "DeterministicRecallGatedCLI",
+    "HostileRecallAudit"
+  ],
+  "title": "Proof 033 - Mechanism Seasoning and Pond Recall Challenge"
+}

@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-05-29T19:36:56Z",
+  "is_isolated": true,
+  "mechanisms_seeded": [
+    "ACCUMULATION",
+    "AMPLIFICATION",
+    "BUFFERING",
+    "COMPENSATION",
+    "DIFFUSION",
+    "FEEDBACK",
+    "FLOW",
+    "LOAD_TRANSFER",
+    "OSCILLATION",
+    "RESOURCE_DEPLETION",
+    "SUPPORTED_ROTATION",
+    "THRESHOLD"
+  ],
+  "pond_state_id": "proof-044-behavior-protocol-2d69e59f855b",
+  "prior_contents": [],
+  "source": "fresh isolated pond state built by proofs/044-inside-voice-mcp-behavior-protocol/build_proof.py"
+}

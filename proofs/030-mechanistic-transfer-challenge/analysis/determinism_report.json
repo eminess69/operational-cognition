@@ -1,0 +1,163 @@
+{
+  "all_replays_match": true,
+  "checked_items": 31,
+  "entries": [
+    {
+      "deterministic_replay_match": true,
+      "phase": "no_seasoning_baseline",
+      "question_id": "CD-001"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "no_seasoning_baseline",
+      "question_id": "CD-002"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "no_seasoning_baseline",
+      "question_id": "CD-003"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "no_seasoning_baseline",
+      "question_id": "CD-004"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "no_seasoning_baseline",
+      "question_id": "CD-005"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "no_seasoning_baseline",
+      "question_id": "CD-006"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "no_seasoning_baseline",
+      "question_id": "HM-001"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "no_seasoning_baseline",
+      "question_id": "HM-002"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "no_seasoning_baseline",
+      "question_id": "HM-003"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "no_seasoning_baseline",
+      "question_id": "HM-004"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "no_seasoning_baseline",
+      "question_id": "HM-005"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "no_seasoning_baseline",
+      "question_id": "HM-006"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "in_domain_test",
+      "question_id": "ID-001"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "in_domain_test",
+      "question_id": "ID-002"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "in_domain_test",
+      "question_id": "ID-003"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "cross_domain_transfer_test",
+      "question_id": "CD-001"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "cross_domain_transfer_test",
+      "question_id": "CD-002"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "cross_domain_transfer_test",
+      "question_id": "CD-003"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "cross_domain_transfer_test",
+      "question_id": "CD-004"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "cross_domain_transfer_test",
+      "question_id": "CD-005"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "cross_domain_transfer_test",
+      "question_id": "CD-006"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "hidden_mechanism_test",
+      "question_id": "HM-001"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "hidden_mechanism_test",
+      "question_id": "HM-002"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "hidden_mechanism_test",
+      "question_id": "HM-003"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "hidden_mechanism_test",
+      "question_id": "HM-004"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "hidden_mechanism_test",
+      "question_id": "HM-005"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "hidden_mechanism_test",
+      "question_id": "HM-006"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "fail_closed_test",
+      "question_id": "FC-001"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "fail_closed_test",
+      "question_id": "FC-002"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "fail_closed_test",
+      "question_id": "FC-003"
+    },
+    {
+      "deterministic_replay_match": true,
+      "phase": "fail_closed_test",
+      "question_id": "FC-004"
+    }
+  ],
+  "method": "Each prompt was mapped twice by a fresh CLI subprocess; canonical JSON outputs were compared.",
+  "proof_id": "030-mechanistic-transfer-challenge"
+}

@@ -1,0 +1,22 @@
+{
+  "audit_notes": {
+    "collapse_cases": 5,
+    "irrelevant_injection_false_pathways": 0
+  },
+  "behavior_observable": true,
+  "hostile_verdict": "STRONG_SIGNAL",
+  "invalidated_claims": [
+    "Proof 044 proves cognition.",
+    "The protocol eliminates all hardcoding or deterministic-cue explanations.",
+    "Perturbation effects prove external causal validity."
+  ],
+  "protocol_usable": true,
+  "remaining_hardcoding_explanation": true,
+  "remaining_static_fixture_explanation": false,
+  "surviving_claims": [
+    "Six explicit Inside Voice behavior modes are routed without placeholder fallback.",
+    "The behavior consult corpus returned pond-backed motifs, lineages, and lineage hashes for every valid case.",
+    "Collapse traces expose eliminated pathways after delayed ranking.",
+    "Perturbation mode changes observable field size or pathway support."
+  ]
+}

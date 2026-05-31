@@ -1,0 +1,699 @@
+{
+  "correct_items": 6,
+  "deterministic_replay_match": true,
+  "execution_mode": "deterministic_cli_no_llm",
+  "expected_identified_items": 6,
+  "fail_closed_items": 0,
+  "fail_closed_rate": 0.0,
+  "identified_items": 6,
+  "items": [
+    {
+      "answer": "rotational support interface",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 5,
+          "matched_role_count": 3,
+          "matched_roles": [
+            "rotation",
+            "friction",
+            "failure"
+          ],
+          "mechanism_id": "supported_rotation",
+          "score": 3.25
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        }
+      ],
+      "component_category": "rotational support interface",
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_component_category": "rotational support interface",
+      "expected_mechanism": "supported_rotation",
+      "expected_status": "IDENTIFIED",
+      "fail_closed_reason": "",
+      "hidden_mechanism_name": true,
+      "identified_mechanism": "supported_rotation",
+      "inspection_priority": "Inspect the rotational support interface: bearing, bushing, axle, shaft, mount, or hub.",
+      "mapping_output": {
+        "identified_mechanism": "supported_rotation",
+        "observed_system": "The room fan slows down over time, becomes noisy, and eventually stops.",
+        "source_mechanism": "SUPPORTED_ROTATION",
+        "supporting_motifs": [
+          "Rotation",
+          "Friction",
+          "Failure"
+        ],
+        "transfer_confidence": 0.8
+      },
+      "matched_roles": [
+        {
+          "matched_cues": [
+            "fan"
+          ],
+          "motif": "Rotation",
+          "role_id": "rotation",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "noisy"
+          ],
+          "motif": "Friction",
+          "role_id": "friction",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "stops",
+            "slows",
+            "slow"
+          ],
+          "motif": "Failure",
+          "role_id": "failure",
+          "weight": 1.0
+        }
+      ],
+      "mechanism_explanation": "The observed system has a rotating part whose support interface shows friction, wear, noise, or stoppage.",
+      "motif_support_count": 3,
+      "observed_system": "The room fan slows down over time, becomes noisy, and eventually stops.",
+      "question": "Observed system: The room fan slows down over time, becomes noisy, and eventually stops. Question: What component category is most likely involved? Explain why.",
+      "question_id": "HM-001",
+      "requires_transfer": true,
+      "source_domain": "wheel_assembly",
+      "source_mechanism": "SUPPORTED_ROTATION",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Rotation",
+            "Support",
+            "Friction",
+            "Failure"
+          ],
+          "lesson_id": "MEC-L002",
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "trace_expectation": "A mapped SUPPORTED_ROTATION answer must cite at least three of Rotation, Support, Friction, and Failure."
+        }
+      ],
+      "status": "IDENTIFIED",
+      "suite": "hidden_mechanism",
+      "supporting_motifs": [
+        "Rotation",
+        "Friction",
+        "Failure"
+      ],
+      "target_domain": "room_fan",
+      "transfer_confidence": 0.8
+    },
+    {
+      "answer": "path/resistance interface",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 4,
+          "matched_role_count": 3,
+          "matched_roles": [
+            "path",
+            "resistance",
+            "flow"
+          ],
+          "mechanism_id": "flow",
+          "score": 3.2
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "component_category": "path/resistance interface",
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_component_category": "path/resistance interface",
+      "expected_mechanism": "flow",
+      "expected_status": "IDENTIFIED",
+      "fail_closed_reason": "",
+      "hidden_mechanism_name": true,
+      "identified_mechanism": "flow",
+      "inspection_priority": "Inspect the highest-resistance segment of the path.",
+      "mapping_output": {
+        "identified_mechanism": "flow",
+        "observed_system": "People move along a hallway toward an exit. Near the exit the hallway gets narrower, people bunch up, and progress drops.",
+        "source_mechanism": "FLOW",
+        "supporting_motifs": [
+          "Path",
+          "Resistance",
+          "Flow"
+        ],
+        "transfer_confidence": 0.78
+      },
+      "matched_roles": [
+        {
+          "matched_cues": [
+            "hallway",
+            "along"
+          ],
+          "motif": "Path",
+          "role_id": "path",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "narrower"
+          ],
+          "motif": "Resistance",
+          "role_id": "resistance",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "progress"
+          ],
+          "motif": "Flow",
+          "role_id": "flow",
+          "weight": 1.0
+        }
+      ],
+      "mechanism_explanation": "The observed system has movement through a path plus a restriction that reduces movement.",
+      "motif_support_count": 3,
+      "observed_system": "People move along a hallway toward an exit. Near the exit the hallway gets narrower, people bunch up, and progress drops.",
+      "question": "Observed system: People move along a hallway toward an exit. Near the exit the hallway gets narrower, people bunch up, and progress drops. Question: What component category is most likely involved? Explain why.",
+      "question_id": "HM-002",
+      "requires_transfer": true,
+      "source_domain": "water_system",
+      "source_mechanism": "FLOW",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Source",
+            "Path",
+            "Resistance",
+            "Flow"
+          ],
+          "lesson_id": "MEC-L001",
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "trace_expectation": "A mapped FLOW answer must cite at least three of Source, Path, Resistance, and Flow."
+        }
+      ],
+      "status": "IDENTIFIED",
+      "suite": "hidden_mechanism",
+      "supporting_motifs": [
+        "Path",
+        "Resistance",
+        "Flow"
+      ],
+      "target_domain": "crowd_exit",
+      "transfer_confidence": 0.78
+    },
+    {
+      "answer": "load path distribution element",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 8,
+          "matched_role_count": 3,
+          "matched_roles": [
+            "load",
+            "concentration",
+            "failure"
+          ],
+          "mechanism_id": "load_transfer",
+          "score": 3.4
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "component_category": "load path distribution element",
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_component_category": "load path distribution element",
+      "expected_mechanism": "load_transfer",
+      "expected_status": "IDENTIFIED",
+      "fail_closed_reason": "",
+      "hidden_mechanism_name": true,
+      "identified_mechanism": "load_transfer",
+      "inspection_priority": "Inspect the load path and high-stress concentration points such as joints, anchors, brackets, supports, and overloaded members.",
+      "mapping_output": {
+        "identified_mechanism": "load_transfer",
+        "observed_system": "A shelf bows after heavy boxes are moved to one corner, and cracks appear at a bracket.",
+        "source_mechanism": "LOAD_TRANSFER",
+        "supporting_motifs": [
+          "Load",
+          "Concentration",
+          "Failure"
+        ],
+        "transfer_confidence": 0.88
+      },
+      "matched_roles": [
+        {
+          "matched_cues": [
+            "heavy",
+            "boxes"
+          ],
+          "motif": "Load",
+          "role_id": "load",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "one corner",
+            "bracket"
+          ],
+          "motif": "Concentration",
+          "role_id": "concentration",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "cracks",
+            "crack",
+            "bow",
+            "bows"
+          ],
+          "motif": "Failure",
+          "role_id": "failure",
+          "weight": 1.0
+        }
+      ],
+      "mechanism_explanation": "The observed system carries load through supports, then fails where stress concentrates.",
+      "motif_support_count": 3,
+      "observed_system": "A shelf bows after heavy boxes are moved to one corner, and cracks appear at a bracket.",
+      "question": "Observed system: A shelf bows after heavy boxes are moved to one corner, and cracks appear at a bracket. Question: What component category is most likely involved? Explain why.",
+      "question_id": "HM-003",
+      "requires_transfer": true,
+      "source_domain": "bridge",
+      "source_mechanism": "LOAD_TRANSFER",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Load",
+            "Distribution",
+            "Concentration",
+            "Failure"
+          ],
+          "lesson_id": "MEC-L003",
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "trace_expectation": "A mapped LOAD_TRANSFER answer must cite at least three of Load, Distribution, Concentration, and Failure."
+        }
+      ],
+      "status": "IDENTIFIED",
+      "suite": "hidden_mechanism",
+      "supporting_motifs": [
+        "Load",
+        "Concentration",
+        "Failure"
+      ],
+      "target_domain": "storage_shelf",
+      "transfer_confidence": 0.88
+    },
+    {
+      "answer": "rotational support interface",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 6,
+          "matched_role_count": 3,
+          "matched_roles": [
+            "rotation",
+            "friction",
+            "failure"
+          ],
+          "mechanism_id": "supported_rotation",
+          "score": 3.3
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        }
+      ],
+      "component_category": "rotational support interface",
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_component_category": "rotational support interface",
+      "expected_mechanism": "supported_rotation",
+      "expected_status": "IDENTIFIED",
+      "fail_closed_reason": "",
+      "hidden_mechanism_name": true,
+      "identified_mechanism": "supported_rotation",
+      "inspection_priority": "Inspect the rotational support interface: bearing, bushing, axle, shaft, mount, or hub.",
+      "mapping_output": {
+        "identified_mechanism": "supported_rotation",
+        "observed_system": "A motorized turntable starts squealing, rotation becomes uneven, then stalls.",
+        "source_mechanism": "SUPPORTED_ROTATION",
+        "supporting_motifs": [
+          "Rotation",
+          "Friction",
+          "Failure"
+        ],
+        "transfer_confidence": 0.83
+      },
+      "matched_roles": [
+        {
+          "matched_cues": [
+            "rotation",
+            "turntable"
+          ],
+          "motif": "Rotation",
+          "role_id": "rotation",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "squeal",
+            "squealing"
+          ],
+          "motif": "Friction",
+          "role_id": "friction",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "stalls",
+            "uneven"
+          ],
+          "motif": "Failure",
+          "role_id": "failure",
+          "weight": 1.0
+        }
+      ],
+      "mechanism_explanation": "The observed system has a rotating part whose support interface shows friction, wear, noise, or stoppage.",
+      "motif_support_count": 3,
+      "observed_system": "A motorized turntable starts squealing, rotation becomes uneven, then stalls.",
+      "question": "Observed system: A motorized turntable starts squealing, rotation becomes uneven, then stalls. Question: What component category is most likely involved? Explain why.",
+      "question_id": "HM-004",
+      "requires_transfer": true,
+      "source_domain": "wheel_assembly",
+      "source_mechanism": "SUPPORTED_ROTATION",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Rotation",
+            "Support",
+            "Friction",
+            "Failure"
+          ],
+          "lesson_id": "MEC-L002",
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "trace_expectation": "A mapped SUPPORTED_ROTATION answer must cite at least three of Rotation, Support, Friction, and Failure."
+        }
+      ],
+      "status": "IDENTIFIED",
+      "suite": "hidden_mechanism",
+      "supporting_motifs": [
+        "Rotation",
+        "Friction",
+        "Failure"
+      ],
+      "target_domain": "motorized_turntable",
+      "transfer_confidence": 0.83
+    },
+    {
+      "answer": "path/resistance interface",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 8,
+          "matched_role_count": 3,
+          "matched_roles": [
+            "path",
+            "resistance",
+            "flow"
+          ],
+          "mechanism_id": "flow",
+          "score": 3.4
+        },
+        {
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "distribution"
+          ],
+          "mechanism_id": "load_transfer",
+          "score": 1.05
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "component_category": "path/resistance interface",
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_component_category": "path/resistance interface",
+      "expected_mechanism": "flow",
+      "expected_status": "IDENTIFIED",
+      "fail_closed_reason": "",
+      "hidden_mechanism_name": true,
+      "identified_mechanism": "flow",
+      "inspection_priority": "Inspect the highest-resistance segment of the path.",
+      "mapping_output": {
+        "identified_mechanism": "flow",
+        "observed_system": "Requests pass through a gateway; one rate-limited step causes queues and lower throughput.",
+        "source_mechanism": "FLOW",
+        "supporting_motifs": [
+          "Path",
+          "Resistance",
+          "Flow"
+        ],
+        "transfer_confidence": 0.88
+      },
+      "matched_roles": [
+        {
+          "matched_cues": [
+            "gateway",
+            "through"
+          ],
+          "motif": "Path",
+          "role_id": "path",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "rate limited",
+            "rate limit"
+          ],
+          "motif": "Resistance",
+          "role_id": "resistance",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "throughput",
+            "pass",
+            "queue",
+            "queues"
+          ],
+          "motif": "Flow",
+          "role_id": "flow",
+          "weight": 1.0
+        }
+      ],
+      "mechanism_explanation": "The observed system has movement through a path plus a restriction that reduces movement.",
+      "motif_support_count": 3,
+      "observed_system": "Requests pass through a gateway; one rate-limited step causes queues and lower throughput.",
+      "question": "Observed system: Requests pass through a gateway; one rate-limited step causes queues and lower throughput. Question: What component category is most likely involved? Explain why.",
+      "question_id": "HM-005",
+      "requires_transfer": true,
+      "source_domain": "water_system",
+      "source_mechanism": "FLOW",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Source",
+            "Path",
+            "Resistance",
+            "Flow"
+          ],
+          "lesson_id": "MEC-L001",
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "trace_expectation": "A mapped FLOW answer must cite at least three of Source, Path, Resistance, and Flow."
+        }
+      ],
+      "status": "IDENTIFIED",
+      "suite": "hidden_mechanism",
+      "supporting_motifs": [
+        "Path",
+        "Resistance",
+        "Flow"
+      ],
+      "target_domain": "software_gateway",
+      "transfer_confidence": 0.88
+    },
+    {
+      "answer": "load path distribution element",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 8,
+          "matched_role_count": 4,
+          "matched_roles": [
+            "load",
+            "distribution",
+            "concentration",
+            "failure"
+          ],
+          "mechanism_id": "load_transfer",
+          "score": 4.4
+        },
+        {
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "path"
+          ],
+          "mechanism_id": "flow",
+          "score": 1.05
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "component_category": "load path distribution element",
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_component_category": "load path distribution element",
+      "expected_mechanism": "load_transfer",
+      "expected_status": "IDENTIFIED",
+      "fail_closed_reason": "",
+      "hidden_mechanism_name": true,
+      "identified_mechanism": "load_transfer",
+      "inspection_priority": "Inspect the load path and high-stress concentration points such as joints, anchors, brackets, supports, and overloaded members.",
+      "mapping_output": {
+        "identified_mechanism": "load_transfer",
+        "observed_system": "A suspended sign pulls through two cables; one anchor takes most force and bends.",
+        "source_mechanism": "LOAD_TRANSFER",
+        "supporting_motifs": [
+          "Load",
+          "Distribution",
+          "Concentration",
+          "Failure"
+        ],
+        "transfer_confidence": 0.95
+      },
+      "matched_roles": [
+        {
+          "matched_cues": [
+            "force",
+            "pull",
+            "pulls",
+            "suspended"
+          ],
+          "motif": "Load",
+          "role_id": "load",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "through",
+            "cables"
+          ],
+          "motif": "Distribution",
+          "role_id": "distribution",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "one anchor"
+          ],
+          "motif": "Concentration",
+          "role_id": "concentration",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "bends"
+          ],
+          "motif": "Failure",
+          "role_id": "failure",
+          "weight": 1.0
+        }
+      ],
+      "mechanism_explanation": "The observed system carries load through supports, then fails where stress concentrates.",
+      "motif_support_count": 4,
+      "observed_system": "A suspended sign pulls through two cables; one anchor takes most force and bends.",
+      "question": "Observed system: A suspended sign pulls through two cables; one anchor takes most force and bends. Question: What component category is most likely involved? Explain why.",
+      "question_id": "HM-006",
+      "requires_transfer": true,
+      "source_domain": "bridge",
+      "source_mechanism": "LOAD_TRANSFER",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Load",
+            "Distribution",
+            "Concentration",
+            "Failure"
+          ],
+          "lesson_id": "MEC-L003",
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "trace_expectation": "A mapped LOAD_TRANSFER answer must cite at least three of Load, Distribution, Concentration, and Failure."
+        }
+      ],
+      "status": "IDENTIFIED",
+      "suite": "hidden_mechanism",
+      "supporting_motifs": [
+        "Load",
+        "Distribution",
+        "Concentration",
+        "Failure"
+      ],
+      "target_domain": "suspended_sign",
+      "transfer_confidence": 0.95
+    }
+  ],
+  "mechanism_transfer_rate": 1.0,
+  "phase": "hidden_mechanism_test",
+  "pond_state": "mechanism_seasoned",
+  "proof_id": "030-mechanistic-transfer-challenge",
+  "total_items": 6
+}

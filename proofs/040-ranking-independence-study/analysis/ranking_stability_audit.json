@@ -1,0 +1,763 @@
+{
+  "per_case": [
+    {
+      "arm_a_top": [
+        "BUFFERING",
+        "FEEDBACK",
+        "RESOURCE_DEPLETION"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "BUFFERING",
+        "FEEDBACK",
+        "RESOURCE_DEPLETION"
+      ],
+      "arm_c_top": [
+        "BUFFERING",
+        "FEEDBACK",
+        "RESOURCE_DEPLETION"
+      ],
+      "arm_d_top": [
+        "BUFFERING",
+        "FEEDBACK"
+      ],
+      "case_id": "P037-RC-001"
+    },
+    {
+      "arm_a_top": [
+        "COMPENSATION",
+        "OSCILLATION",
+        "THRESHOLD"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 0.5,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "COMPENSATION",
+        "OSCILLATION",
+        "THRESHOLD"
+      ],
+      "arm_c_top": [
+        "FEEDBACK",
+        "OSCILLATION",
+        "THRESHOLD"
+      ],
+      "arm_d_top": [
+        "OSCILLATION",
+        "THRESHOLD"
+      ],
+      "case_id": "P037-RC-002"
+    },
+    {
+      "arm_a_top": [
+        "AMPLIFICATION",
+        "DIFFUSION",
+        "FEEDBACK"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "AMPLIFICATION",
+        "DIFFUSION",
+        "FEEDBACK"
+      ],
+      "arm_c_top": [
+        "AMPLIFICATION",
+        "DIFFUSION",
+        "FEEDBACK"
+      ],
+      "arm_d_top": [
+        "DIFFUSION",
+        "FEEDBACK"
+      ],
+      "case_id": "P037-RC-003"
+    },
+    {
+      "arm_a_top": [
+        "ACCUMULATION",
+        "BUFFERING",
+        "RESOURCE_DEPLETION"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "ACCUMULATION",
+        "BUFFERING",
+        "RESOURCE_DEPLETION"
+      ],
+      "arm_c_top": [
+        "ACCUMULATION",
+        "BUFFERING",
+        "RESOURCE_DEPLETION"
+      ],
+      "arm_d_top": [
+        "BUFFERING",
+        "RESOURCE_DEPLETION"
+      ],
+      "case_id": "P037-RC-004"
+    },
+    {
+      "arm_a_top": [
+        "BUFFERING",
+        "FLOW"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 1.0,
+      "arm_b_top": [
+        "BUFFERING",
+        "FLOW"
+      ],
+      "arm_c_top": [
+        "BUFFERING",
+        "FLOW"
+      ],
+      "arm_d_top": [
+        "BUFFERING",
+        "FLOW"
+      ],
+      "case_id": "P037-RC-005"
+    },
+    {
+      "arm_a_top": [
+        "LOAD_TRANSFER",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "LOAD_TRANSFER",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "arm_c_top": [
+        "LOAD_TRANSFER",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "arm_d_top": [
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "case_id": "P037-RC-006"
+    },
+    {
+      "arm_a_top": [
+        "ACCUMULATION",
+        "LOAD_TRANSFER",
+        "THRESHOLD"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "ACCUMULATION",
+        "LOAD_TRANSFER",
+        "THRESHOLD"
+      ],
+      "arm_c_top": [
+        "ACCUMULATION",
+        "LOAD_TRANSFER",
+        "THRESHOLD"
+      ],
+      "arm_d_top": [
+        "LOAD_TRANSFER",
+        "THRESHOLD"
+      ],
+      "case_id": "P037-RC-007"
+    },
+    {
+      "arm_a_top": [
+        "AMPLIFICATION",
+        "FEEDBACK",
+        "RESOURCE_DEPLETION"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "AMPLIFICATION",
+        "FEEDBACK",
+        "RESOURCE_DEPLETION"
+      ],
+      "arm_c_top": [
+        "AMPLIFICATION",
+        "FEEDBACK",
+        "RESOURCE_DEPLETION"
+      ],
+      "arm_d_top": [
+        "FEEDBACK",
+        "RESOURCE_DEPLETION"
+      ],
+      "case_id": "P037-RC-008"
+    },
+    {
+      "arm_a_top": [
+        "BUFFERING",
+        "FEEDBACK",
+        "OSCILLATION"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "BUFFERING",
+        "FEEDBACK",
+        "OSCILLATION"
+      ],
+      "arm_c_top": [
+        "BUFFERING",
+        "FEEDBACK",
+        "OSCILLATION"
+      ],
+      "arm_d_top": [
+        "FEEDBACK",
+        "OSCILLATION"
+      ],
+      "case_id": "P037-RC-009"
+    },
+    {
+      "arm_a_top": [
+        "BUFFERING",
+        "DIFFUSION",
+        "RESOURCE_DEPLETION"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "BUFFERING",
+        "DIFFUSION",
+        "RESOURCE_DEPLETION"
+      ],
+      "arm_c_top": [
+        "BUFFERING",
+        "DIFFUSION",
+        "RESOURCE_DEPLETION"
+      ],
+      "arm_d_top": [
+        "DIFFUSION",
+        "RESOURCE_DEPLETION"
+      ],
+      "case_id": "P037-RC-010"
+    },
+    {
+      "arm_a_top": [
+        "BUFFERING",
+        "FLOW",
+        "OSCILLATION"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "BUFFERING",
+        "FLOW",
+        "OSCILLATION"
+      ],
+      "arm_c_top": [
+        "BUFFERING",
+        "FLOW",
+        "OSCILLATION"
+      ],
+      "arm_d_top": [
+        "BUFFERING",
+        "FLOW"
+      ],
+      "case_id": "P037-RC-011"
+    },
+    {
+      "arm_a_top": [
+        "DIFFUSION",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "DIFFUSION",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "arm_c_top": [
+        "DIFFUSION",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "arm_d_top": [
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "case_id": "P037-RC-012"
+    },
+    {
+      "arm_a_top": [
+        "LOAD_TRANSFER",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "LOAD_TRANSFER",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "arm_c_top": [
+        "LOAD_TRANSFER",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "arm_d_top": [
+        "LOAD_TRANSFER",
+        "THRESHOLD"
+      ],
+      "case_id": "P037-RC-013"
+    },
+    {
+      "arm_a_top": [
+        "AMPLIFICATION",
+        "FEEDBACK",
+        "THRESHOLD"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "AMPLIFICATION",
+        "FEEDBACK",
+        "THRESHOLD"
+      ],
+      "arm_c_top": [
+        "AMPLIFICATION",
+        "FEEDBACK",
+        "THRESHOLD"
+      ],
+      "arm_d_top": [
+        "AMPLIFICATION",
+        "FEEDBACK"
+      ],
+      "case_id": "P037-RC-014"
+    },
+    {
+      "arm_a_top": [
+        "ACCUMULATION",
+        "BUFFERING",
+        "OSCILLATION"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "ACCUMULATION",
+        "BUFFERING",
+        "OSCILLATION"
+      ],
+      "arm_c_top": [
+        "ACCUMULATION",
+        "BUFFERING",
+        "OSCILLATION"
+      ],
+      "arm_d_top": [
+        "BUFFERING",
+        "OSCILLATION"
+      ],
+      "case_id": "P037-RC-015"
+    },
+    {
+      "arm_a_top": [
+        "AMPLIFICATION",
+        "DIFFUSION",
+        "FLOW"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "AMPLIFICATION",
+        "DIFFUSION",
+        "FLOW"
+      ],
+      "arm_c_top": [
+        "AMPLIFICATION",
+        "DIFFUSION",
+        "FLOW"
+      ],
+      "arm_d_top": [
+        "DIFFUSION",
+        "FLOW"
+      ],
+      "case_id": "P037-RC-016"
+    },
+    {
+      "arm_a_top": [
+        "BUFFERING",
+        "FLOW",
+        "RESOURCE_DEPLETION"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "BUFFERING",
+        "FLOW",
+        "RESOURCE_DEPLETION"
+      ],
+      "arm_c_top": [
+        "BUFFERING",
+        "FLOW",
+        "RESOURCE_DEPLETION"
+      ],
+      "arm_d_top": [
+        "FLOW",
+        "RESOURCE_DEPLETION"
+      ],
+      "case_id": "P037-RC-017"
+    },
+    {
+      "arm_a_top": [
+        "FEEDBACK",
+        "OSCILLATION",
+        "SUPPORTED_ROTATION"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "FEEDBACK",
+        "OSCILLATION",
+        "SUPPORTED_ROTATION"
+      ],
+      "arm_c_top": [
+        "FEEDBACK",
+        "OSCILLATION",
+        "SUPPORTED_ROTATION"
+      ],
+      "arm_d_top": [
+        "FEEDBACK",
+        "OSCILLATION"
+      ],
+      "case_id": "P037-RC-018"
+    },
+    {
+      "arm_a_top": [
+        "BUFFERING",
+        "DIFFUSION",
+        "LOAD_TRANSFER"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "BUFFERING",
+        "DIFFUSION",
+        "LOAD_TRANSFER"
+      ],
+      "arm_c_top": [
+        "BUFFERING",
+        "DIFFUSION",
+        "LOAD_TRANSFER"
+      ],
+      "arm_d_top": [
+        "BUFFERING",
+        "LOAD_TRANSFER"
+      ],
+      "case_id": "P037-RC-019"
+    },
+    {
+      "arm_a_top": [
+        "FEEDBACK",
+        "FLOW",
+        "THRESHOLD"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "FEEDBACK",
+        "FLOW",
+        "THRESHOLD"
+      ],
+      "arm_c_top": [
+        "FEEDBACK",
+        "FLOW",
+        "THRESHOLD"
+      ],
+      "arm_d_top": [
+        "FEEDBACK",
+        "THRESHOLD"
+      ],
+      "case_id": "P037-RC-020"
+    },
+    {
+      "arm_a_top": [
+        "AMPLIFICATION",
+        "BUFFERING",
+        "RESOURCE_DEPLETION"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "AMPLIFICATION",
+        "BUFFERING",
+        "RESOURCE_DEPLETION"
+      ],
+      "arm_c_top": [
+        "AMPLIFICATION",
+        "BUFFERING",
+        "RESOURCE_DEPLETION"
+      ],
+      "arm_d_top": [
+        "AMPLIFICATION",
+        "RESOURCE_DEPLETION"
+      ],
+      "case_id": "P037-RC-021"
+    },
+    {
+      "arm_a_top": [
+        "FEEDBACK",
+        "OSCILLATION",
+        "THRESHOLD"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "FEEDBACK",
+        "OSCILLATION",
+        "THRESHOLD"
+      ],
+      "arm_c_top": [
+        "FEEDBACK",
+        "OSCILLATION",
+        "THRESHOLD"
+      ],
+      "arm_d_top": [
+        "OSCILLATION",
+        "THRESHOLD"
+      ],
+      "case_id": "P037-RC-022"
+    },
+    {
+      "arm_a_top": [
+        "ACCUMULATION",
+        "DIFFUSION",
+        "FLOW"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "ACCUMULATION",
+        "DIFFUSION",
+        "FLOW"
+      ],
+      "arm_c_top": [
+        "ACCUMULATION",
+        "DIFFUSION",
+        "FLOW"
+      ],
+      "arm_d_top": [
+        "ACCUMULATION",
+        "FLOW"
+      ],
+      "case_id": "P037-RC-023"
+    },
+    {
+      "arm_a_top": [
+        "LOAD_TRANSFER",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "LOAD_TRANSFER",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "arm_c_top": [
+        "LOAD_TRANSFER",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "arm_d_top": [
+        "LOAD_TRANSFER",
+        "SUPPORTED_ROTATION"
+      ],
+      "case_id": "P037-RC-024"
+    },
+    {
+      "arm_a_top": [
+        "DIFFUSION",
+        "RESOURCE_DEPLETION",
+        "SUPPORTED_ROTATION"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "DIFFUSION",
+        "RESOURCE_DEPLETION",
+        "SUPPORTED_ROTATION"
+      ],
+      "arm_c_top": [
+        "DIFFUSION",
+        "RESOURCE_DEPLETION",
+        "SUPPORTED_ROTATION"
+      ],
+      "arm_d_top": [
+        "RESOURCE_DEPLETION",
+        "SUPPORTED_ROTATION"
+      ],
+      "case_id": "P037-RC-025"
+    },
+    {
+      "arm_a_top": [
+        "ACCUMULATION",
+        "BUFFERING",
+        "OSCILLATION"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "ACCUMULATION",
+        "BUFFERING",
+        "OSCILLATION"
+      ],
+      "arm_c_top": [
+        "ACCUMULATION",
+        "BUFFERING",
+        "OSCILLATION"
+      ],
+      "arm_d_top": [
+        "BUFFERING",
+        "OSCILLATION"
+      ],
+      "case_id": "P037-RC-026"
+    },
+    {
+      "arm_a_top": [
+        "COMPENSATION",
+        "DIFFUSION",
+        "LOAD_TRANSFER"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "COMPENSATION",
+        "DIFFUSION",
+        "LOAD_TRANSFER"
+      ],
+      "arm_c_top": [
+        "COMPENSATION",
+        "DIFFUSION",
+        "LOAD_TRANSFER"
+      ],
+      "arm_d_top": [
+        "DIFFUSION",
+        "LOAD_TRANSFER"
+      ],
+      "case_id": "P037-RC-027"
+    },
+    {
+      "arm_a_top": [
+        "COMPENSATION",
+        "FEEDBACK",
+        "THRESHOLD"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "COMPENSATION",
+        "FEEDBACK",
+        "THRESHOLD"
+      ],
+      "arm_c_top": [
+        "COMPENSATION",
+        "FEEDBACK",
+        "THRESHOLD"
+      ],
+      "arm_d_top": [
+        "COMPENSATION",
+        "FEEDBACK"
+      ],
+      "case_id": "P037-RC-028"
+    },
+    {
+      "arm_a_top": [
+        "BUFFERING",
+        "DIFFUSION",
+        "RESOURCE_DEPLETION"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "BUFFERING",
+        "DIFFUSION",
+        "RESOURCE_DEPLETION"
+      ],
+      "arm_c_top": [
+        "BUFFERING",
+        "DIFFUSION",
+        "RESOURCE_DEPLETION"
+      ],
+      "arm_d_top": [
+        "BUFFERING",
+        "RESOURCE_DEPLETION"
+      ],
+      "case_id": "P037-RC-029"
+    },
+    {
+      "arm_a_top": [
+        "FLOW",
+        "OSCILLATION",
+        "THRESHOLD"
+      ],
+      "arm_a_vs_b_jaccard": 1.0,
+      "arm_a_vs_c_jaccard": 1.0,
+      "arm_a_vs_d_jaccard": 0.6667,
+      "arm_b_top": [
+        "FLOW",
+        "OSCILLATION",
+        "THRESHOLD"
+      ],
+      "arm_c_top": [
+        "FLOW",
+        "OSCILLATION",
+        "THRESHOLD"
+      ],
+      "arm_d_top": [
+        "OSCILLATION",
+        "THRESHOLD"
+      ],
+      "case_id": "P037-RC-030"
+    }
+  ],
+  "summary": {
+    "arm_a_vs_arm_b_same_top_rate": 1.0,
+    "arm_a_vs_arm_b_top_mechanism_jaccard": 1.0,
+    "arm_a_vs_arm_c_same_top_rate": 0.9667,
+    "arm_a_vs_arm_c_top_mechanism_jaccard": 0.9833,
+    "arm_a_vs_arm_d_same_top_rate": 0.0333,
+    "arm_a_vs_arm_d_top_mechanism_jaccard": 0.6778,
+    "average_field_candidates_before_ranking": 10.4333,
+    "candidate_similarity_preserved": true,
+    "interaction_still_occurs": true,
+    "multi_candidate_field_rate": 0.9667
+  }
+}

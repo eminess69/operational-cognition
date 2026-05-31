@@ -1,0 +1,39 @@
+{
+  "activation_field_exists": true,
+  "attacks": [
+    {
+      "attack": "fake activation",
+      "finding": "Rejected if activation consult logs validate as pond-backed and include lineages."
+    },
+    {
+      "attack": "duplicated mechanisms",
+      "finding": "Controlled by de-duplicating activated mechanism names before metric calculation."
+    },
+    {
+      "attack": "inflated overlap",
+      "finding": "Partially survives because shared motifs can arise from explicit deterministic mechanism definitions."
+    },
+    {
+      "attack": "post-hoc weighting",
+      "finding": "Rejected: activation weights are emitted by activation_only consults and recorded before ranking_transition."
+    },
+    {
+      "attack": "prompt artifacts",
+      "finding": "Partially controlled: activation_only scoring extracts the Observation segment before Required text."
+    }
+  ],
+  "hostile_verdict": "STRONG_SIGNAL",
+  "invalidated_claims": [
+    "Proof 038 proves cognition.",
+    "Activation weights are independent of deterministic cue scoring.",
+    "Shared motif overlap proves shared lineage overlap."
+  ],
+  "multi_mechanism_activation_exists": true,
+  "remaining_single_winner_explanation": false,
+  "shared_motif_rate": 0.6333,
+  "surviving_claims": [
+    "Activation-only MCP consults returned more than one mechanism before delayed ranking.",
+    "Winner-take-all recall remains a separate delayed-ranking baseline.",
+    "Shared motifs appear across activated mechanisms."
+  ]
+}

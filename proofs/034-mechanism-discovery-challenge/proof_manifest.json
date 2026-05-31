@@ -1,0 +1,48 @@
+{
+  "final_verdict": {
+    "candidate_diversity_improved": true,
+    "hostile_verdict": "WEAK_SIGNAL: diversity and single-candidate convergence improved inside the deterministic harness, but evidence-top preservation and ranking did not improve; the live adapter was not pond-backed in this run and local motif rules remain a full explanation.",
+    "premature_convergence_reduced": true,
+    "remaining_codex_explanation": true,
+    "remaining_pond_explanation": true
+  },
+  "inside_voice_adapter_statuses": [
+    "placeholder"
+  ],
+  "phase_order": [
+    "write observation-only cases",
+    "record mandatory consult rows",
+    "generate candidate pathway rows",
+    "gather additional evidence",
+    "update weights",
+    "audit"
+  ],
+  "proof_id": "034-mechanism-discovery-challenge",
+  "required_artifacts": [
+    "README.md",
+    "proof_manifest.json",
+    "tests/observation_only_cases.jsonl",
+    "mcp/discovery_consults.jsonl",
+    "baseline/no_pond_candidates.json",
+    "baseline/generic_consult_candidates.json",
+    "results/initial_candidates.json",
+    "results/pathway_evolution.json",
+    "analysis/discovery_audit.json",
+    "analysis/hostile_discovery_audit.json",
+    "analysis/discovery_metrics.json"
+  ],
+  "source_infrastructure": {
+    "mcp_endpoint": "http://127.0.0.1:8766/consult",
+    "proof_033_recall_log": "proofs/033-mechanism-seasoning-pond-recall/mcp/recall_log.jsonl",
+    "proof_033_state_hash": "a6004b119c98c9328197e7714895b4bee7399c45a8e444f86d334a6c41927b4f"
+  },
+  "status": "complete",
+  "targets": [
+    "ObservationOnlyStart",
+    "MandatoryConsultBeforeCandidates",
+    "CandidatePathwayGeneration",
+    "EvidenceWeightUpdate",
+    "HostileDiscoveryAudit"
+  ],
+  "title": "Proof 034 - Mechanism Discovery Challenge"
+}

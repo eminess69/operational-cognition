@@ -1,0 +1,13 @@
+{
+  "adapter_status": "placeholder",
+  "local_only_default": true,
+  "max_output_chars_cap": 8000,
+  "modes": [
+    "audit",
+    "synthesis",
+    "review",
+    "proof_planning"
+  ],
+  "protocol_version": "inside_voice_mcp_contract/0.1",
+  "service": "inside_voice_mcp"
+}

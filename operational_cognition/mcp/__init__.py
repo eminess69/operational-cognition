@@ -1,0 +1,2 @@
+"""MCP consultation boundary utilities."""
+

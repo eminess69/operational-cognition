@@ -1,0 +1,9 @@
+{
+  "average_combination_depth": 3.2308,
+  "composite_pathway_valid_rate": 0.8667,
+  "false_composite_rate": 0.0429,
+  "preservation_only_valid_rate": 0.0,
+  "single_mechanism_valid_rate": 0.0,
+  "true_composite_rate": 0.8667,
+  "unsupported_pathway_count": 0
+}

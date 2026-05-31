@@ -1,0 +1,35 @@
+{
+  "fail_closed_correct_rate": 1.0,
+  "probes": [
+    {
+      "adapter_status": "error",
+      "classification": "ERROR",
+      "expected_reason": "unknown_mode",
+      "fail_closed_reason": "unknown_mode",
+      "passed": true,
+      "probe": "unknown_mode",
+      "status_code": 200,
+      "verdict": "fail_closed"
+    },
+    {
+      "adapter_status": "error",
+      "classification": "ERROR",
+      "expected_reason": "pond_unavailable",
+      "fail_closed_reason": "pond_unavailable",
+      "passed": true,
+      "probe": "missing_pond",
+      "status_code": 200,
+      "verdict": "fail_closed"
+    },
+    {
+      "adapter_status": "pond_backed",
+      "classification": "ERROR",
+      "expected_reason": "no_relevant_pond_recall",
+      "fail_closed_reason": "no_relevant_pond_recall",
+      "passed": true,
+      "probe": "irrelevant_observation",
+      "status_code": 200,
+      "verdict": "fail_closed"
+    }
+  ]
+}

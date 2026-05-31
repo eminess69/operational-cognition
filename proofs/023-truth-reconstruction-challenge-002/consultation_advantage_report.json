@@ -1,0 +1,49 @@
+{
+  "audit_id": "audit-001-consultation-causality",
+  "source_proof": "023-truth-reconstruction-challenge-002",
+  "formula": "consultation_advantage_score = recovered_correct_findings / (recovered_correct_findings + recovered_incorrect_findings + redundant_recoveries)",
+  "counts": {
+    "recovered_correct_findings": 3,
+    "recovered_incorrect_findings": 0,
+    "redundant_recoveries": 2
+  },
+  "consultation_advantage_score": 0.6,
+  "recovered_correct_findings": [
+    {
+      "finding": "CSI should be treated as a top-three architectural decision rather than merely a storage subsystem detail.",
+      "verification": "CSI design proposal, CSI alpha blog, CSI GA blog, CSI migration status update.",
+      "status": "correct"
+    },
+    {
+      "finding": "FlexVolume was a real predecessor/competitor, but CSI better solved deployment and dependency problems.",
+      "verification": "CSI design proposal and CSI alpha blog.",
+      "status": "correct"
+    },
+    {
+      "finding": "CSI migration preserved familiar Kubernetes storage APIs while moving implementation out of core.",
+      "verification": "Kubernetes 1.25 CSI migration status update.",
+      "status": "correct"
+    }
+  ],
+  "recovered_incorrect_findings": [],
+  "redundant_recoveries": [
+    {
+      "finding": "CRI is top-three.",
+      "reason": "Already present as baseline rank 1."
+    },
+    {
+      "finding": "CRDs are top-three.",
+      "reason": "Already present as baseline rank 2."
+    }
+  ],
+  "success_criteria_classification": "STRONG_SIGNAL",
+  "not_very_strong_reason": "The raw CSI topic was already present in baseline exclusions and baseline notes. Counterfactual analysis classifies full CSI top-three recovery without consultation as UNLIKELY, not CONSULT_REQUIRED.",
+  "role_assessment": {
+    "auditor": "yes",
+    "retrieval_helper": "yes",
+    "search_accelerator": "primary observed role",
+    "cognitive_continuity_layer": "bounded support: consultation preserved pressure/motif continuity across rerank, CSI recovery, and final claim-boundary audit",
+    "not_observed": "Consultation did not introduce an otherwise absent raw topic or serve as an authoritative historical source."
+  },
+  "rationale": "Consultation materially changed the path from Server-Side Apply to CSI and produced three historically correct recovered findings with no incorrect recovered findings. The score is capped by two redundant recoveries and by the fact that CSI existed in the baseline search space before consultation."
+}

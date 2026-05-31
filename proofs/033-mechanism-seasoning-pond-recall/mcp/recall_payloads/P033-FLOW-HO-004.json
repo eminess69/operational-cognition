@@ -1,0 +1,47 @@
+{
+  "adapter_status": "pond_backed",
+  "belief_state_before": "local_state=mechanism_recall; mechanisms=FLOW,SUPPORTED_ROTATION,LOAD_TRANSFER",
+  "case_id": "P033-FLOW-HO-004",
+  "consult_question": "Proof 033 targeted mechanism recall. Use the seasoned pond as recall substrate. Allowed mechanisms: FLOW, SUPPORTED_ROTATION, LOAD_TRANSFER. Return mechanism candidates, motifs, and lineage hashes before any answer. Held-out case: Observed system: Meal trays leave a prep origin, follow a side passage, then cluster at a single throat while the dining side gets late arrivals. Question: Which learned mechanism structure should be applied?",
+  "lineage_hashes": [
+    "6163183c0b01aff8864c7fb4a62771faa118ccfde1d57785b36529186aa7f57d",
+    "9b6c1a12df69efa95f0a231a1e11fcaaa78efd11061ea4d884f3c283ae1c9670",
+    "b7245dad9d4a3a479502f9848de13996a530c484f3da83bf75a6f7e1c4f742ea",
+    "9dc990b92a07a9c77beafae5036894225983ce47f5fd2c6650266d29afc81b15",
+    "19970b72023d5042fd5dabca376098a5062be2fac9065c0ade0aaa4fa534b0f4",
+    "9a235970da2ce0889cf3fe800094cb3de969f57d53fd282a0a16534e2fe0e910",
+    "0f7d83c4dcf179c3e5311b2b26a3a1a29b0170c32679d731a61fa90a40572712",
+    "660095f4aaee581f8b405a4a4aa481d1b06c6a97d1d272caad3a8b7e0f79863f"
+  ],
+  "mcp_status": "pond_backed",
+  "pond_state_path": "/Users/mattdewing/Desktop/Operational Cognition/proofs/033-mechanism-seasoning-pond-recall/pond_states/mechanism_recall",
+  "reason": "Pond-backed /consult supplied traceable recall lineages. Candidate and mechanism motifs are deterministic Codex mentor extraction over the held-out text and allowed seasoned mechanisms; hostile audit treats this as a surviving parser/Codex-synthesis explanation.",
+  "recall_used_by_cli": true,
+  "returned_lineages": [
+    "pressure:44eeb320a80c1c5f",
+    "authority:63405000ebba",
+    "inside_voice_runtime:94829dcb8d1759469ce6",
+    "pressure:8b0869ed1f7a4e46",
+    "contradiction:9d85edad8192",
+    "inside_voice_runtime:d43e2e09c028b98314e8",
+    "inside_voice_runtime:8c7a0ef664098db91e88",
+    "authority:c3328bb2ea1b",
+    "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+    "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+    "artifacts/pond/mcp_seasoned_reusable_lineage_candidates.jsonl#19",
+    "artifacts/pond/first_principles_seasoning_corpus.jsonl#fp_0020",
+    "artifacts/pond/first_principles_seasoning_scorecard.json",
+    "artifacts/pond/first_principles_admitted.jsonl",
+    "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#19",
+    "artifacts/pond/high_grade_seasoning_corpus.jsonl#76"
+  ],
+  "returned_mechanism_candidates": [
+    "flow"
+  ],
+  "returned_motifs": [
+    "Source",
+    "Path",
+    "Resistance",
+    "Flow"
+  ]
+}

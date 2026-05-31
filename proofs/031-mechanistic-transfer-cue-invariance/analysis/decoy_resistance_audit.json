@@ -1,0 +1,73 @@
+{
+  "decoy_cases": 12,
+  "decoy_failures": 0,
+  "decoy_resistance_rate": 1.0,
+  "examples": [
+    {
+      "decoy_words_present": [
+        "flow",
+        "path",
+        "blockage"
+      ],
+      "expected_mechanism": "supported_rotation",
+      "identified_mechanism": "supported_rotation",
+      "question_id": "CS-001",
+      "status": "ANSWERED"
+    },
+    {
+      "decoy_words_present": [
+        "bearing",
+        "shaft",
+        "noisy"
+      ],
+      "expected_mechanism": "flow",
+      "identified_mechanism": "flow",
+      "question_id": "CS-002",
+      "status": "ANSWERED"
+    },
+    {
+      "decoy_words_present": [
+        "spins",
+        "flow"
+      ],
+      "expected_mechanism": "load_transfer",
+      "identified_mechanism": "load_transfer",
+      "question_id": "CS-003",
+      "status": "ANSWERED"
+    },
+    {
+      "decoy_words_present": [
+        "load",
+        "transfer",
+        "overloaded",
+        "bracket"
+      ],
+      "expected_mechanism": "flow",
+      "identified_mechanism": "flow",
+      "question_id": "CS-004",
+      "status": "ANSWERED"
+    },
+    {
+      "decoy_words_present": [
+        "heavy",
+        "cargo",
+        "high stress"
+      ],
+      "expected_mechanism": "supported_rotation",
+      "identified_mechanism": "supported_rotation",
+      "question_id": "CS-005",
+      "status": "ANSWERED"
+    },
+    {
+      "decoy_words_present": [
+        "fan",
+        "flow"
+      ],
+      "expected_mechanism": "load_transfer",
+      "identified_mechanism": "load_transfer",
+      "question_id": "CS-006",
+      "status": "ANSWERED"
+    }
+  ],
+  "proof_id": "031-mechanistic-transfer-cue-invariance"
+}

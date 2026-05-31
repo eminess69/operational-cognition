@@ -1,0 +1,7 @@
+{"concept": "counting", "expected_answer": "7", "question": "What number comes after 6?", "question_id": "G1-T001", "requires_transfer": true}
+{"concept": "one_digit_addition", "expected_answer": "9", "question": "What is 4 + 5?", "question_id": "G1-T002", "requires_transfer": true}
+{"concept": "one_digit_subtraction", "expected_answer": "6", "question": "What is 9 - 3?", "question_id": "G1-T003", "requires_transfer": true}
+{"concept": "equality", "expected_answer": "true", "question": "Does 4 + 2 = 6?", "question_id": "G1-T004", "requires_transfer": true}
+{"concept": "number_comparison", "expected_answer": "8", "question": "Which is larger: 8 or 5?", "question_id": "G1-T005", "requires_transfer": true}
+{"concept": "simple_word_problems", "expected_answer": "7", "question": "Lena has 3 crayons and finds 4 more. How many crayons now?", "question_id": "G1-T006", "requires_transfer": true}
+{"concept": "simple_word_problems", "expected_answer": "5", "question": "Tom has 7 marbles and gives away 2. How many marbles remain?", "question_id": "G1-T007", "requires_transfer": true}

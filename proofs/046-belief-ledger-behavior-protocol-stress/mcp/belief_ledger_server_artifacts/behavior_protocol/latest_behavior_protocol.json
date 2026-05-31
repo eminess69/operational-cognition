@@ -1,0 +1,1144 @@
+{
+  "advisory_only": true,
+  "advisory_pathway_candidates": [
+    {
+      "base_activation_weight": 0.498811,
+      "interaction_support": 1.0,
+      "lineage_hashes": [
+        "ab2672eeef1a3df6b4aacbe1855c7a33bd7d5403c7273e74d88b1f5a50c481aa",
+        "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363"
+      ],
+      "pathway": "THRESHOLD_GATE",
+      "pathway_id": "pathway:8cfb6e97dd200250",
+      "ranking_score": 0.618811,
+      "reason_codes": [
+        "DELAYED_COLLAPSE_SURVIVOR",
+        "DOMAIN_MATCH",
+        "MOTIF_MATCH",
+        "PROVENANCE_VALID"
+      ],
+      "source_lineage_refs": [
+        "lineage:proof045:shared_operational_case",
+        "lineage:proof045:threshold"
+      ],
+      "supporting_motif_ids": [
+        "motif:2430caccbf15c518"
+      ],
+      "supporting_trace_ids": [
+        "trace-proof045-threshold"
+      ],
+      "survival_rank": 1
+    }
+  ],
+  "artifacts": {
+    "activation_field": {
+      "activated_motifs": [
+        {
+          "activation_weight": 0.498811,
+          "lineage_hashes": [
+            "36758d142f9f6e8a369e13b05c866bf017c552859a36fc6e369913db4bc436b4",
+            "4672474d1d808c29900e8329307b514242962adb43c40622c374b4cfe8152320",
+            "ab2672eeef1a3df6b4aacbe1855c7a33bd7d5403c7273e74d88b1f5a50c481aa",
+            "b4f217dbdd357e3f70657926247f0077a3235b7bcb32697f8b84f6adff192204",
+            "d1d85ea890034a1e11985ff0490442c953fee934cdbb1658b79601ed8bf26f8e"
+          ],
+          "motif": "operational_collapse",
+          "motif_id": "motif:2430caccbf15c518",
+          "reason_codes": [
+            "DOMAIN_MATCH",
+            "MOTIF_MATCH",
+            "PROVENANCE_VALID"
+          ],
+          "source_lineage_refs": [
+            "lineage:proof045:buffer",
+            "lineage:proof045:diffusion",
+            "lineage:proof045:feedback",
+            "lineage:proof045:resource",
+            "lineage:proof045:shared_operational_case",
+            "lineage:proof045:threshold"
+          ],
+          "source_trace_ids": [
+            "trace-proof045-buffer",
+            "trace-proof045-diffusion",
+            "trace-proof045-feedback",
+            "trace-proof045-resource",
+            "trace-proof045-threshold"
+          ],
+          "traceback": [
+            {
+              "source_lineage": [
+                "lineage:proof045:shared_operational_case",
+                "lineage:proof045:threshold"
+              ],
+              "source_ref": "proof045:threshold_case",
+              "trace_hash": "ab2672eeef1a3df6b4aacbe1855c7a33bd7d5403c7273e74d88b1f5a50c481aa",
+              "trace_id": "trace-proof045-threshold"
+            },
+            {
+              "source_lineage": [
+                "lineage:proof045:shared_operational_case",
+                "lineage:proof045:feedback"
+              ],
+              "source_ref": "proof045:feedback_case",
+              "trace_hash": "4672474d1d808c29900e8329307b514242962adb43c40622c374b4cfe8152320",
+              "trace_id": "trace-proof045-feedback"
+            },
+            {
+              "source_lineage": [
+                "lineage:proof045:shared_operational_case",
+                "lineage:proof045:buffer"
+              ],
+              "source_ref": "proof045:buffer_case",
+              "trace_hash": "b4f217dbdd357e3f70657926247f0077a3235b7bcb32697f8b84f6adff192204",
+              "trace_id": "trace-proof045-buffer"
+            },
+            {
+              "source_lineage": [
+                "lineage:proof045:shared_operational_case",
+                "lineage:proof045:resource"
+              ],
+              "source_ref": "proof045:resource_case",
+              "trace_hash": "36758d142f9f6e8a369e13b05c866bf017c552859a36fc6e369913db4bc436b4",
+              "trace_id": "trace-proof045-resource"
+            },
+            {
+              "source_lineage": [
+                "lineage:proof045:shared_operational_case",
+                "lineage:proof045:diffusion"
+              ],
+              "source_ref": "proof045:diffusion_case",
+              "trace_hash": "d1d85ea890034a1e11985ff0490442c953fee934cdbb1658b79601ed8bf26f8e",
+              "trace_id": "trace-proof045-diffusion"
+            }
+          ]
+        }
+      ],
+      "activated_pathways": [
+        {
+          "activation_weight": 0.498811,
+          "decodable": true,
+          "lineage_hashes": [
+            "ab2672eeef1a3df6b4aacbe1855c7a33bd7d5403c7273e74d88b1f5a50c481aa",
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363"
+          ],
+          "pathway": "THRESHOLD_GATE",
+          "pathway_id": "pathway:8cfb6e97dd200250",
+          "reason_codes": [
+            "DOMAIN_MATCH",
+            "MOTIF_MATCH",
+            "PROVENANCE_VALID"
+          ],
+          "source_lineage_refs": [
+            "lineage:proof045:shared_operational_case",
+            "lineage:proof045:threshold"
+          ],
+          "supporting_motif_ids": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-threshold"
+          ]
+        },
+        {
+          "activation_weight": 0.49625,
+          "decodable": true,
+          "lineage_hashes": [
+            "4672474d1d808c29900e8329307b514242962adb43c40622c374b4cfe8152320",
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363"
+          ],
+          "pathway": "FEEDBACK_AMPLIFICATION",
+          "pathway_id": "pathway:45ca5f3b6a51448b",
+          "reason_codes": [
+            "DOMAIN_MATCH",
+            "MOTIF_MATCH",
+            "PROVENANCE_VALID"
+          ],
+          "source_lineage_refs": [
+            "lineage:proof045:feedback",
+            "lineage:proof045:shared_operational_case"
+          ],
+          "supporting_motif_ids": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-feedback"
+          ]
+        },
+        {
+          "activation_weight": 0.495203,
+          "decodable": true,
+          "lineage_hashes": [
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+            "b4f217dbdd357e3f70657926247f0077a3235b7bcb32697f8b84f6adff192204"
+          ],
+          "pathway": "BUFFERING_DELAY",
+          "pathway_id": "pathway:dd6482a2dbe555c8",
+          "reason_codes": [
+            "DOMAIN_MATCH",
+            "MOTIF_MATCH",
+            "PROVENANCE_VALID"
+          ],
+          "source_lineage_refs": [
+            "lineage:proof045:buffer",
+            "lineage:proof045:shared_operational_case"
+          ],
+          "supporting_motif_ids": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-buffer"
+          ]
+        },
+        {
+          "activation_weight": 0.492957,
+          "decodable": true,
+          "lineage_hashes": [
+            "36758d142f9f6e8a369e13b05c866bf017c552859a36fc6e369913db4bc436b4",
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363"
+          ],
+          "pathway": "RESOURCE_DEPLETION",
+          "pathway_id": "pathway:f7124969b8b72446",
+          "reason_codes": [
+            "DOMAIN_MATCH",
+            "MOTIF_MATCH",
+            "PROVENANCE_VALID"
+          ],
+          "source_lineage_refs": [
+            "lineage:proof045:resource",
+            "lineage:proof045:shared_operational_case"
+          ],
+          "supporting_motif_ids": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-resource"
+          ]
+        },
+        {
+          "activation_weight": 0.458,
+          "decodable": true,
+          "lineage_hashes": [
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+            "d1d85ea890034a1e11985ff0490442c953fee934cdbb1658b79601ed8bf26f8e"
+          ],
+          "pathway": "DIFFUSION_SPREAD",
+          "pathway_id": "pathway:a6ce185f1a049bd0",
+          "reason_codes": [
+            "DOMAIN_MATCH",
+            "MOTIF_MATCH",
+            "PROVENANCE_VALID"
+          ],
+          "source_lineage_refs": [
+            "lineage:proof045:diffusion",
+            "lineage:proof045:shared_operational_case"
+          ],
+          "supporting_motif_ids": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-diffusion"
+          ]
+        }
+      ],
+      "activation_weights": {
+        "motifs": {
+          "motif:2430caccbf15c518": 0.498811
+        },
+        "pathways": {
+          "pathway:45ca5f3b6a51448b": 0.49625,
+          "pathway:8cfb6e97dd200250": 0.498811,
+          "pathway:a6ce185f1a049bd0": 0.458,
+          "pathway:dd6482a2dbe555c8": 0.495203,
+          "pathway:f7124969b8b72446": 0.492957
+        },
+        "traces": {
+          "trace-proof045-buffer": 0.495203,
+          "trace-proof045-diffusion": 0.458,
+          "trace-proof045-feedback": 0.49625,
+          "trace-proof045-resource": 0.492957,
+          "trace-proof045-threshold": 0.498811
+        }
+      },
+      "advisory_only": true,
+      "core_mutation_count": 0,
+      "deterministic_ordering": "activation_weight_desc_id_asc",
+      "field_id": "activation_field:a9f5e0c18d2a405b",
+      "lineage_hashes": [
+        "36758d142f9f6e8a369e13b05c866bf017c552859a36fc6e369913db4bc436b4",
+        "4672474d1d808c29900e8329307b514242962adb43c40622c374b4cfe8152320",
+        "ab2672eeef1a3df6b4aacbe1855c7a33bd7d5403c7273e74d88b1f5a50c481aa",
+        "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+        "b4f217dbdd357e3f70657926247f0077a3235b7bcb32697f8b84f6adff192204",
+        "d1d85ea890034a1e11985ff0490442c953fee934cdbb1658b79601ed8bf26f8e"
+      ],
+      "lineage_refs": [
+        "lineage:proof045:buffer",
+        "lineage:proof045:diffusion",
+        "lineage:proof045:feedback",
+        "lineage:proof045:resource",
+        "lineage:proof045:shared_operational_case",
+        "lineage:proof045:threshold",
+        "query-proof-045-operational-collapse"
+      ],
+      "query_trace_hash": "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+      "query_trace_id": "query-proof-045-operational-collapse",
+      "schema_version": "activation_field.v1",
+      "source_trace_ids": [
+        "query-proof-045-operational-collapse",
+        "trace-proof045-buffer",
+        "trace-proof045-diffusion",
+        "trace-proof045-feedback",
+        "trace-proof045-resource",
+        "trace-proof045-threshold"
+      ],
+      "ttl": "PT45M"
+    },
+    "delayed_collapse_trace": {
+      "advisory_only": true,
+      "collapse_id": "delayed_collapse:362f32b4e0ffbe02",
+      "collapse_reasons": [
+        {
+          "decision": "SURVIVED",
+          "pathway_id": "pathway:8cfb6e97dd200250",
+          "reason_codes": [
+            "DELAYED_COLLAPSE_SURVIVOR"
+          ]
+        },
+        {
+          "decision": "ELIMINATED",
+          "pathway_id": "pathway:45ca5f3b6a51448b",
+          "reason_codes": [
+            "MAX_SURVIVOR_BOUND"
+          ]
+        },
+        {
+          "decision": "ELIMINATED",
+          "pathway_id": "pathway:dd6482a2dbe555c8",
+          "reason_codes": [
+            "MAX_SURVIVOR_BOUND"
+          ]
+        },
+        {
+          "decision": "ELIMINATED",
+          "pathway_id": "pathway:f7124969b8b72446",
+          "reason_codes": [
+            "MAX_SURVIVOR_BOUND"
+          ]
+        },
+        {
+          "decision": "ELIMINATED",
+          "pathway_id": "pathway:a6ce185f1a049bd0",
+          "reason_codes": [
+            "MAX_SURVIVOR_BOUND"
+          ]
+        }
+      ],
+      "core_mutation_count": 0,
+      "deterministic_ordering": "ranking_score_desc_pathway_id_asc",
+      "eliminated_pathways": [
+        {
+          "base_activation_weight": 0.49625,
+          "elimination_rank": 2,
+          "interaction_support": 1.0,
+          "lineage_hashes": [
+            "4672474d1d808c29900e8329307b514242962adb43c40622c374b4cfe8152320",
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363"
+          ],
+          "pathway": "FEEDBACK_AMPLIFICATION",
+          "pathway_id": "pathway:45ca5f3b6a51448b",
+          "ranking_score": 0.61625,
+          "reason_codes": [
+            "MAX_SURVIVOR_BOUND"
+          ],
+          "source_lineage_refs": [
+            "lineage:proof045:feedback",
+            "lineage:proof045:shared_operational_case"
+          ],
+          "supporting_motif_ids": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-feedback"
+          ]
+        },
+        {
+          "base_activation_weight": 0.495203,
+          "elimination_rank": 3,
+          "interaction_support": 1.0,
+          "lineage_hashes": [
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+            "b4f217dbdd357e3f70657926247f0077a3235b7bcb32697f8b84f6adff192204"
+          ],
+          "pathway": "BUFFERING_DELAY",
+          "pathway_id": "pathway:dd6482a2dbe555c8",
+          "ranking_score": 0.615203,
+          "reason_codes": [
+            "MAX_SURVIVOR_BOUND"
+          ],
+          "source_lineage_refs": [
+            "lineage:proof045:buffer",
+            "lineage:proof045:shared_operational_case"
+          ],
+          "supporting_motif_ids": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-buffer"
+          ]
+        },
+        {
+          "base_activation_weight": 0.492957,
+          "elimination_rank": 4,
+          "interaction_support": 1.0,
+          "lineage_hashes": [
+            "36758d142f9f6e8a369e13b05c866bf017c552859a36fc6e369913db4bc436b4",
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363"
+          ],
+          "pathway": "RESOURCE_DEPLETION",
+          "pathway_id": "pathway:f7124969b8b72446",
+          "ranking_score": 0.612957,
+          "reason_codes": [
+            "MAX_SURVIVOR_BOUND"
+          ],
+          "source_lineage_refs": [
+            "lineage:proof045:resource",
+            "lineage:proof045:shared_operational_case"
+          ],
+          "supporting_motif_ids": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-resource"
+          ]
+        },
+        {
+          "base_activation_weight": 0.458,
+          "elimination_rank": 5,
+          "interaction_support": 1.0,
+          "lineage_hashes": [
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+            "d1d85ea890034a1e11985ff0490442c953fee934cdbb1658b79601ed8bf26f8e"
+          ],
+          "pathway": "DIFFUSION_SPREAD",
+          "pathway_id": "pathway:a6ce185f1a049bd0",
+          "ranking_score": 0.578,
+          "reason_codes": [
+            "MAX_SURVIVOR_BOUND"
+          ],
+          "source_lineage_refs": [
+            "lineage:proof045:diffusion",
+            "lineage:proof045:shared_operational_case"
+          ],
+          "supporting_motif_ids": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-diffusion"
+          ]
+        }
+      ],
+      "field_id": "activation_field:a9f5e0c18d2a405b",
+      "interaction_id": "field_interaction:b325e2910c49c570",
+      "premature_collapse_risk": false,
+      "schema_version": "delayed_collapse_trace.v1",
+      "surviving_pathways": [
+        {
+          "base_activation_weight": 0.498811,
+          "interaction_support": 1.0,
+          "lineage_hashes": [
+            "ab2672eeef1a3df6b4aacbe1855c7a33bd7d5403c7273e74d88b1f5a50c481aa",
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363"
+          ],
+          "pathway": "THRESHOLD_GATE",
+          "pathway_id": "pathway:8cfb6e97dd200250",
+          "ranking_score": 0.618811,
+          "reason_codes": [
+            "DELAYED_COLLAPSE_SURVIVOR",
+            "DOMAIN_MATCH",
+            "MOTIF_MATCH",
+            "PROVENANCE_VALID"
+          ],
+          "source_lineage_refs": [
+            "lineage:proof045:shared_operational_case",
+            "lineage:proof045:threshold"
+          ],
+          "supporting_motif_ids": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-threshold"
+          ],
+          "survival_rank": 1
+        }
+      ]
+    },
+    "field_interaction": {
+      "advisory_only": true,
+      "candidate_interactions": [
+        {
+          "candidate_id": "field_candidate:5a39030d952d6d78",
+          "combination_depth": 2,
+          "deterministic_ordering_key": [
+            -0.557531,
+            "pathway:8cfb6e97dd200250|pathway:45ca5f3b6a51448b"
+          ],
+          "interaction_weight": 0.557531,
+          "lineage_hashes": [
+            "4672474d1d808c29900e8329307b514242962adb43c40622c374b4cfe8152320",
+            "ab2672eeef1a3df6b4aacbe1855c7a33bd7d5403c7273e74d88b1f5a50c481aa",
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363"
+          ],
+          "pathway_ids": [
+            "pathway:8cfb6e97dd200250",
+            "pathway:45ca5f3b6a51448b"
+          ],
+          "shared_lineages": [
+            "lineage:proof045:shared_operational_case"
+          ],
+          "shared_motifs": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-feedback",
+            "trace-proof045-threshold"
+          ]
+        },
+        {
+          "candidate_id": "field_candidate:cb128061d477fec8",
+          "combination_depth": 2,
+          "deterministic_ordering_key": [
+            -0.557007,
+            "pathway:8cfb6e97dd200250|pathway:dd6482a2dbe555c8"
+          ],
+          "interaction_weight": 0.557007,
+          "lineage_hashes": [
+            "ab2672eeef1a3df6b4aacbe1855c7a33bd7d5403c7273e74d88b1f5a50c481aa",
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+            "b4f217dbdd357e3f70657926247f0077a3235b7bcb32697f8b84f6adff192204"
+          ],
+          "pathway_ids": [
+            "pathway:8cfb6e97dd200250",
+            "pathway:dd6482a2dbe555c8"
+          ],
+          "shared_lineages": [
+            "lineage:proof045:shared_operational_case"
+          ],
+          "shared_motifs": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-buffer",
+            "trace-proof045-threshold"
+          ]
+        },
+        {
+          "candidate_id": "field_candidate:c17ee599eaf1d352",
+          "combination_depth": 3,
+          "deterministic_ordering_key": [
+            -0.556755,
+            "pathway:8cfb6e97dd200250|pathway:45ca5f3b6a51448b|pathway:dd6482a2dbe555c8"
+          ],
+          "interaction_weight": 0.556755,
+          "lineage_hashes": [
+            "4672474d1d808c29900e8329307b514242962adb43c40622c374b4cfe8152320",
+            "ab2672eeef1a3df6b4aacbe1855c7a33bd7d5403c7273e74d88b1f5a50c481aa",
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+            "b4f217dbdd357e3f70657926247f0077a3235b7bcb32697f8b84f6adff192204"
+          ],
+          "pathway_ids": [
+            "pathway:8cfb6e97dd200250",
+            "pathway:45ca5f3b6a51448b",
+            "pathway:dd6482a2dbe555c8"
+          ],
+          "shared_lineages": [
+            "lineage:proof045:shared_operational_case"
+          ],
+          "shared_motifs": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-buffer",
+            "trace-proof045-feedback",
+            "trace-proof045-threshold"
+          ]
+        },
+        {
+          "candidate_id": "field_candidate:78c139921f8e7849",
+          "combination_depth": 3,
+          "deterministic_ordering_key": [
+            -0.556006,
+            "pathway:8cfb6e97dd200250|pathway:45ca5f3b6a51448b|pathway:f7124969b8b72446"
+          ],
+          "interaction_weight": 0.556006,
+          "lineage_hashes": [
+            "36758d142f9f6e8a369e13b05c866bf017c552859a36fc6e369913db4bc436b4",
+            "4672474d1d808c29900e8329307b514242962adb43c40622c374b4cfe8152320",
+            "ab2672eeef1a3df6b4aacbe1855c7a33bd7d5403c7273e74d88b1f5a50c481aa",
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363"
+          ],
+          "pathway_ids": [
+            "pathway:8cfb6e97dd200250",
+            "pathway:45ca5f3b6a51448b",
+            "pathway:f7124969b8b72446"
+          ],
+          "shared_lineages": [
+            "lineage:proof045:shared_operational_case"
+          ],
+          "shared_motifs": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-feedback",
+            "trace-proof045-resource",
+            "trace-proof045-threshold"
+          ]
+        },
+        {
+          "candidate_id": "field_candidate:e56aaa85e3bccc34",
+          "combination_depth": 2,
+          "deterministic_ordering_key": [
+            -0.555884,
+            "pathway:8cfb6e97dd200250|pathway:f7124969b8b72446"
+          ],
+          "interaction_weight": 0.555884,
+          "lineage_hashes": [
+            "36758d142f9f6e8a369e13b05c866bf017c552859a36fc6e369913db4bc436b4",
+            "ab2672eeef1a3df6b4aacbe1855c7a33bd7d5403c7273e74d88b1f5a50c481aa",
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363"
+          ],
+          "pathway_ids": [
+            "pathway:8cfb6e97dd200250",
+            "pathway:f7124969b8b72446"
+          ],
+          "shared_lineages": [
+            "lineage:proof045:shared_operational_case"
+          ],
+          "shared_motifs": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-resource",
+            "trace-proof045-threshold"
+          ]
+        },
+        {
+          "candidate_id": "field_candidate:7246ae4cffa8d78c",
+          "combination_depth": 2,
+          "deterministic_ordering_key": [
+            -0.555727,
+            "pathway:45ca5f3b6a51448b|pathway:dd6482a2dbe555c8"
+          ],
+          "interaction_weight": 0.555727,
+          "lineage_hashes": [
+            "4672474d1d808c29900e8329307b514242962adb43c40622c374b4cfe8152320",
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+            "b4f217dbdd357e3f70657926247f0077a3235b7bcb32697f8b84f6adff192204"
+          ],
+          "pathway_ids": [
+            "pathway:45ca5f3b6a51448b",
+            "pathway:dd6482a2dbe555c8"
+          ],
+          "shared_lineages": [
+            "lineage:proof045:shared_operational_case"
+          ],
+          "shared_motifs": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-buffer",
+            "trace-proof045-feedback"
+          ]
+        },
+        {
+          "candidate_id": "field_candidate:94b6852d8ef3a718",
+          "combination_depth": 3,
+          "deterministic_ordering_key": [
+            -0.555657,
+            "pathway:8cfb6e97dd200250|pathway:dd6482a2dbe555c8|pathway:f7124969b8b72446"
+          ],
+          "interaction_weight": 0.555657,
+          "lineage_hashes": [
+            "36758d142f9f6e8a369e13b05c866bf017c552859a36fc6e369913db4bc436b4",
+            "ab2672eeef1a3df6b4aacbe1855c7a33bd7d5403c7273e74d88b1f5a50c481aa",
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+            "b4f217dbdd357e3f70657926247f0077a3235b7bcb32697f8b84f6adff192204"
+          ],
+          "pathway_ids": [
+            "pathway:8cfb6e97dd200250",
+            "pathway:dd6482a2dbe555c8",
+            "pathway:f7124969b8b72446"
+          ],
+          "shared_lineages": [
+            "lineage:proof045:shared_operational_case"
+          ],
+          "shared_motifs": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-buffer",
+            "trace-proof045-resource",
+            "trace-proof045-threshold"
+          ]
+        },
+        {
+          "candidate_id": "field_candidate:a0d87ebc3a2c7ebe",
+          "combination_depth": 3,
+          "deterministic_ordering_key": [
+            -0.554803,
+            "pathway:45ca5f3b6a51448b|pathway:dd6482a2dbe555c8|pathway:f7124969b8b72446"
+          ],
+          "interaction_weight": 0.554803,
+          "lineage_hashes": [
+            "36758d142f9f6e8a369e13b05c866bf017c552859a36fc6e369913db4bc436b4",
+            "4672474d1d808c29900e8329307b514242962adb43c40622c374b4cfe8152320",
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+            "b4f217dbdd357e3f70657926247f0077a3235b7bcb32697f8b84f6adff192204"
+          ],
+          "pathway_ids": [
+            "pathway:45ca5f3b6a51448b",
+            "pathway:dd6482a2dbe555c8",
+            "pathway:f7124969b8b72446"
+          ],
+          "shared_lineages": [
+            "lineage:proof045:shared_operational_case"
+          ],
+          "shared_motifs": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-buffer",
+            "trace-proof045-feedback",
+            "trace-proof045-resource"
+          ]
+        },
+        {
+          "candidate_id": "field_candidate:99919f6b74cd6156",
+          "combination_depth": 2,
+          "deterministic_ordering_key": [
+            -0.554604,
+            "pathway:45ca5f3b6a51448b|pathway:f7124969b8b72446"
+          ],
+          "interaction_weight": 0.554604,
+          "lineage_hashes": [
+            "36758d142f9f6e8a369e13b05c866bf017c552859a36fc6e369913db4bc436b4",
+            "4672474d1d808c29900e8329307b514242962adb43c40622c374b4cfe8152320",
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363"
+          ],
+          "pathway_ids": [
+            "pathway:45ca5f3b6a51448b",
+            "pathway:f7124969b8b72446"
+          ],
+          "shared_lineages": [
+            "lineage:proof045:shared_operational_case"
+          ],
+          "shared_motifs": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-feedback",
+            "trace-proof045-resource"
+          ]
+        },
+        {
+          "candidate_id": "field_candidate:7d022c1731da1217",
+          "combination_depth": 2,
+          "deterministic_ordering_key": [
+            -0.55408,
+            "pathway:dd6482a2dbe555c8|pathway:f7124969b8b72446"
+          ],
+          "interaction_weight": 0.55408,
+          "lineage_hashes": [
+            "36758d142f9f6e8a369e13b05c866bf017c552859a36fc6e369913db4bc436b4",
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+            "b4f217dbdd357e3f70657926247f0077a3235b7bcb32697f8b84f6adff192204"
+          ],
+          "pathway_ids": [
+            "pathway:dd6482a2dbe555c8",
+            "pathway:f7124969b8b72446"
+          ],
+          "shared_lineages": [
+            "lineage:proof045:shared_operational_case"
+          ],
+          "shared_motifs": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-buffer",
+            "trace-proof045-resource"
+          ]
+        },
+        {
+          "candidate_id": "field_candidate:1a78d55b229d7d51",
+          "combination_depth": 3,
+          "deterministic_ordering_key": [
+            -0.544354,
+            "pathway:8cfb6e97dd200250|pathway:45ca5f3b6a51448b|pathway:a6ce185f1a049bd0"
+          ],
+          "interaction_weight": 0.544354,
+          "lineage_hashes": [
+            "4672474d1d808c29900e8329307b514242962adb43c40622c374b4cfe8152320",
+            "ab2672eeef1a3df6b4aacbe1855c7a33bd7d5403c7273e74d88b1f5a50c481aa",
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+            "d1d85ea890034a1e11985ff0490442c953fee934cdbb1658b79601ed8bf26f8e"
+          ],
+          "pathway_ids": [
+            "pathway:8cfb6e97dd200250",
+            "pathway:45ca5f3b6a51448b",
+            "pathway:a6ce185f1a049bd0"
+          ],
+          "shared_lineages": [
+            "lineage:proof045:shared_operational_case"
+          ],
+          "shared_motifs": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-diffusion",
+            "trace-proof045-feedback",
+            "trace-proof045-threshold"
+          ]
+        },
+        {
+          "candidate_id": "field_candidate:630b0caa1c9d9c8b",
+          "combination_depth": 3,
+          "deterministic_ordering_key": [
+            -0.544005,
+            "pathway:8cfb6e97dd200250|pathway:dd6482a2dbe555c8|pathway:a6ce185f1a049bd0"
+          ],
+          "interaction_weight": 0.544005,
+          "lineage_hashes": [
+            "ab2672eeef1a3df6b4aacbe1855c7a33bd7d5403c7273e74d88b1f5a50c481aa",
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+            "b4f217dbdd357e3f70657926247f0077a3235b7bcb32697f8b84f6adff192204",
+            "d1d85ea890034a1e11985ff0490442c953fee934cdbb1658b79601ed8bf26f8e"
+          ],
+          "pathway_ids": [
+            "pathway:8cfb6e97dd200250",
+            "pathway:dd6482a2dbe555c8",
+            "pathway:a6ce185f1a049bd0"
+          ],
+          "shared_lineages": [
+            "lineage:proof045:shared_operational_case"
+          ],
+          "shared_motifs": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-buffer",
+            "trace-proof045-diffusion",
+            "trace-proof045-threshold"
+          ]
+        },
+        {
+          "candidate_id": "field_candidate:6c120ef21d9be2b2",
+          "combination_depth": 3,
+          "deterministic_ordering_key": [
+            -0.543256,
+            "pathway:8cfb6e97dd200250|pathway:f7124969b8b72446|pathway:a6ce185f1a049bd0"
+          ],
+          "interaction_weight": 0.543256,
+          "lineage_hashes": [
+            "36758d142f9f6e8a369e13b05c866bf017c552859a36fc6e369913db4bc436b4",
+            "ab2672eeef1a3df6b4aacbe1855c7a33bd7d5403c7273e74d88b1f5a50c481aa",
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+            "d1d85ea890034a1e11985ff0490442c953fee934cdbb1658b79601ed8bf26f8e"
+          ],
+          "pathway_ids": [
+            "pathway:8cfb6e97dd200250",
+            "pathway:f7124969b8b72446",
+            "pathway:a6ce185f1a049bd0"
+          ],
+          "shared_lineages": [
+            "lineage:proof045:shared_operational_case"
+          ],
+          "shared_motifs": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-diffusion",
+            "trace-proof045-resource",
+            "trace-proof045-threshold"
+          ]
+        },
+        {
+          "candidate_id": "field_candidate:e659682cab9d96c9",
+          "combination_depth": 3,
+          "deterministic_ordering_key": [
+            -0.543151,
+            "pathway:45ca5f3b6a51448b|pathway:dd6482a2dbe555c8|pathway:a6ce185f1a049bd0"
+          ],
+          "interaction_weight": 0.543151,
+          "lineage_hashes": [
+            "4672474d1d808c29900e8329307b514242962adb43c40622c374b4cfe8152320",
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+            "b4f217dbdd357e3f70657926247f0077a3235b7bcb32697f8b84f6adff192204",
+            "d1d85ea890034a1e11985ff0490442c953fee934cdbb1658b79601ed8bf26f8e"
+          ],
+          "pathway_ids": [
+            "pathway:45ca5f3b6a51448b",
+            "pathway:dd6482a2dbe555c8",
+            "pathway:a6ce185f1a049bd0"
+          ],
+          "shared_lineages": [
+            "lineage:proof045:shared_operational_case"
+          ],
+          "shared_motifs": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-buffer",
+            "trace-proof045-diffusion",
+            "trace-proof045-feedback"
+          ]
+        },
+        {
+          "candidate_id": "field_candidate:6e7efbbb66f37ce8",
+          "combination_depth": 3,
+          "deterministic_ordering_key": [
+            -0.542402,
+            "pathway:45ca5f3b6a51448b|pathway:f7124969b8b72446|pathway:a6ce185f1a049bd0"
+          ],
+          "interaction_weight": 0.542402,
+          "lineage_hashes": [
+            "36758d142f9f6e8a369e13b05c866bf017c552859a36fc6e369913db4bc436b4",
+            "4672474d1d808c29900e8329307b514242962adb43c40622c374b4cfe8152320",
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+            "d1d85ea890034a1e11985ff0490442c953fee934cdbb1658b79601ed8bf26f8e"
+          ],
+          "pathway_ids": [
+            "pathway:45ca5f3b6a51448b",
+            "pathway:f7124969b8b72446",
+            "pathway:a6ce185f1a049bd0"
+          ],
+          "shared_lineages": [
+            "lineage:proof045:shared_operational_case"
+          ],
+          "shared_motifs": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-diffusion",
+            "trace-proof045-feedback",
+            "trace-proof045-resource"
+          ]
+        },
+        {
+          "candidate_id": "field_candidate:1e3eede8a7c29b0d",
+          "combination_depth": 3,
+          "deterministic_ordering_key": [
+            -0.542053,
+            "pathway:dd6482a2dbe555c8|pathway:f7124969b8b72446|pathway:a6ce185f1a049bd0"
+          ],
+          "interaction_weight": 0.542053,
+          "lineage_hashes": [
+            "36758d142f9f6e8a369e13b05c866bf017c552859a36fc6e369913db4bc436b4",
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+            "b4f217dbdd357e3f70657926247f0077a3235b7bcb32697f8b84f6adff192204",
+            "d1d85ea890034a1e11985ff0490442c953fee934cdbb1658b79601ed8bf26f8e"
+          ],
+          "pathway_ids": [
+            "pathway:dd6482a2dbe555c8",
+            "pathway:f7124969b8b72446",
+            "pathway:a6ce185f1a049bd0"
+          ],
+          "shared_lineages": [
+            "lineage:proof045:shared_operational_case"
+          ],
+          "shared_motifs": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-buffer",
+            "trace-proof045-diffusion",
+            "trace-proof045-resource"
+          ]
+        },
+        {
+          "candidate_id": "field_candidate:a5591c8c8d8d651a",
+          "combination_depth": 2,
+          "deterministic_ordering_key": [
+            -0.538406,
+            "pathway:8cfb6e97dd200250|pathway:a6ce185f1a049bd0"
+          ],
+          "interaction_weight": 0.538406,
+          "lineage_hashes": [
+            "ab2672eeef1a3df6b4aacbe1855c7a33bd7d5403c7273e74d88b1f5a50c481aa",
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+            "d1d85ea890034a1e11985ff0490442c953fee934cdbb1658b79601ed8bf26f8e"
+          ],
+          "pathway_ids": [
+            "pathway:8cfb6e97dd200250",
+            "pathway:a6ce185f1a049bd0"
+          ],
+          "shared_lineages": [
+            "lineage:proof045:shared_operational_case"
+          ],
+          "shared_motifs": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-diffusion",
+            "trace-proof045-threshold"
+          ]
+        },
+        {
+          "candidate_id": "field_candidate:ae22294f2dceff94",
+          "combination_depth": 2,
+          "deterministic_ordering_key": [
+            -0.537125,
+            "pathway:45ca5f3b6a51448b|pathway:a6ce185f1a049bd0"
+          ],
+          "interaction_weight": 0.537125,
+          "lineage_hashes": [
+            "4672474d1d808c29900e8329307b514242962adb43c40622c374b4cfe8152320",
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+            "d1d85ea890034a1e11985ff0490442c953fee934cdbb1658b79601ed8bf26f8e"
+          ],
+          "pathway_ids": [
+            "pathway:45ca5f3b6a51448b",
+            "pathway:a6ce185f1a049bd0"
+          ],
+          "shared_lineages": [
+            "lineage:proof045:shared_operational_case"
+          ],
+          "shared_motifs": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-diffusion",
+            "trace-proof045-feedback"
+          ]
+        },
+        {
+          "candidate_id": "field_candidate:6395566d4846688f",
+          "combination_depth": 2,
+          "deterministic_ordering_key": [
+            -0.536602,
+            "pathway:dd6482a2dbe555c8|pathway:a6ce185f1a049bd0"
+          ],
+          "interaction_weight": 0.536602,
+          "lineage_hashes": [
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+            "b4f217dbdd357e3f70657926247f0077a3235b7bcb32697f8b84f6adff192204",
+            "d1d85ea890034a1e11985ff0490442c953fee934cdbb1658b79601ed8bf26f8e"
+          ],
+          "pathway_ids": [
+            "pathway:dd6482a2dbe555c8",
+            "pathway:a6ce185f1a049bd0"
+          ],
+          "shared_lineages": [
+            "lineage:proof045:shared_operational_case"
+          ],
+          "shared_motifs": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-buffer",
+            "trace-proof045-diffusion"
+          ]
+        },
+        {
+          "candidate_id": "field_candidate:2b7d30f87d7cea81",
+          "combination_depth": 2,
+          "deterministic_ordering_key": [
+            -0.535479,
+            "pathway:f7124969b8b72446|pathway:a6ce185f1a049bd0"
+          ],
+          "interaction_weight": 0.535479,
+          "lineage_hashes": [
+            "36758d142f9f6e8a369e13b05c866bf017c552859a36fc6e369913db4bc436b4",
+            "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+            "d1d85ea890034a1e11985ff0490442c953fee934cdbb1658b79601ed8bf26f8e"
+          ],
+          "pathway_ids": [
+            "pathway:f7124969b8b72446",
+            "pathway:a6ce185f1a049bd0"
+          ],
+          "shared_lineages": [
+            "lineage:proof045:shared_operational_case"
+          ],
+          "shared_motifs": [
+            "motif:2430caccbf15c518"
+          ],
+          "supporting_trace_ids": [
+            "trace-proof045-diffusion",
+            "trace-proof045-resource"
+          ]
+        }
+      ],
+      "combination_depth": 3,
+      "core_mutation_count": 0,
+      "deterministic_ordering": "interaction_weight_desc_depth_asc_pathway_ids_asc",
+      "field_id": "activation_field:a9f5e0c18d2a405b",
+      "interaction_id": "field_interaction:b325e2910c49c570",
+      "schema_version": "field_interaction.v1",
+      "shared_lineages": [
+        "lineage:proof045:shared_operational_case"
+      ],
+      "shared_motifs": [
+        "motif:2430caccbf15c518"
+      ]
+    },
+    "perturbation_result": null
+  },
+  "core_mutation_count": 0,
+  "hash_spine": [
+    {
+      "advisory_only": true,
+      "artifact_hash": "4608d48d956b7eb76f5bd0393ec325e1e9ad8a37169fcfe2603578cec1bd2045",
+      "artifact_id": "activation_field:a9f5e0c18d2a405b",
+      "artifact_type": "ActivationField",
+      "lineage_hashes": [
+        "36758d142f9f6e8a369e13b05c866bf017c552859a36fc6e369913db4bc436b4",
+        "4672474d1d808c29900e8329307b514242962adb43c40622c374b4cfe8152320",
+        "ab2672eeef1a3df6b4aacbe1855c7a33bd7d5403c7273e74d88b1f5a50c481aa",
+        "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+        "b4f217dbdd357e3f70657926247f0077a3235b7bcb32697f8b84f6adff192204",
+        "d1d85ea890034a1e11985ff0490442c953fee934cdbb1658b79601ed8bf26f8e"
+      ]
+    },
+    {
+      "advisory_only": true,
+      "artifact_hash": "614426aba68c2573d38d26d23f2e548d263c3f5d9746ee1eef654c5cd8ebb459",
+      "artifact_id": "field_interaction:b325e2910c49c570",
+      "artifact_type": "FieldInteraction",
+      "lineage_hashes": []
+    },
+    {
+      "advisory_only": true,
+      "artifact_hash": "211efedd0ffe29ae243a3938cb7f68f8d2beac0e6ca06baa23a3f239410edba1",
+      "artifact_id": "delayed_collapse:362f32b4e0ffbe02",
+      "artifact_type": "DelayedCollapseTrace",
+      "lineage_hashes": []
+    },
+    {
+      "advisory_only": true,
+      "artifact_hash": "e8e607bee176f9108569574d7fa9c4a36ecee0657a5fbcf74f784011c9b0003a",
+      "artifact_id": "oc-proof-045-6db67ed5b908665d",
+      "artifact_type": "BehaviorProtocolTelemetry",
+      "lineage_hashes": []
+    }
+  ],
+  "mode": "delayed_ranking",
+  "request_hash": "ab92f69ad250c00c38f394b2a04cea0c320c1b0eb1d18d5ed907c04fee6689e1",
+  "response_hash": "2a8876142e9f1331d64c32772f7e283443557ac25142f94c3a89d930fbc4e01f",
+  "run_id": "oc-proof-045-6db67ed5b908665d",
+  "schema_version": "inside_voice.behavior_protocol.v1",
+  "telemetry": {
+    "activation_field_hash": "4608d48d956b7eb76f5bd0393ec325e1e9ad8a37169fcfe2603578cec1bd2045",
+    "advisory_only": true,
+    "average_activation_entropy": 0.999693,
+    "collapse_hash": "211efedd0ffe29ae243a3938cb7f68f8d2beac0e6ca06baa23a3f239410edba1",
+    "combination_depth": 3.0,
+    "core_mutation_count": 0,
+    "input_trace_hash": "ae91d84d2a6e47e8c0cd8ffe4d8bf3b2e747fb4ab7b6b1aad35162e0baf81363",
+    "interaction_hash": "614426aba68c2573d38d26d23f2e548d263c3f5d9746ee1eef654c5cd8ebb459",
+    "lineage_traceability": 1.0,
+    "mode": "delayed_ranking",
+    "motif_count": 1,
+    "pathway_count": 5,
+    "run_id": "oc-proof-045-6db67ed5b908665d",
+    "schema_version": "behavior_protocol_telemetry.v1",
+    "ttl": "PT45M"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "levels": [
+    {
+      "created_at": "2026-05-29T15:16:36Z",
+      "is_isolated": true,
+      "level": 1,
+      "pond_state_id": "proof-036-level-1-isolated-pond",
+      "seasoning_examples": 36,
+      "state_path": "mcp/level_1_pond_state.json"
+    },
+    {
+      "created_at": "2026-05-29T15:16:36Z",
+      "is_isolated": true,
+      "level": 2,
+      "pond_state_id": "proof-036-level-2-isolated-pond",
+      "seasoning_examples": 72,
+      "state_path": "mcp/level_2_pond_state.json"
+    },
+    {
+      "created_at": "2026-05-29T15:16:36Z",
+      "is_isolated": true,
+      "level": 3,
+      "pond_state_id": "proof-036-level-3-isolated-pond",
+      "seasoning_examples": 144,
+      "state_path": "mcp/level_3_pond_state.json"
+    },
+    {
+      "created_at": "2026-05-29T15:16:36Z",
+      "is_isolated": true,
+      "level": 4,
+      "pond_state_id": "proof-036-level-4-isolated-pond",
+      "seasoning_examples": 288,
+      "state_path": "mcp/level_4_pond_state.json"
+    }
+  ],
+  "notes": "Each level starts from empty_pond_state(); higher-density levels are replayed fresh, not incrementally reused.",
+  "prior_contents": [],
+  "source": "fresh local pond state per saturation level"
+}

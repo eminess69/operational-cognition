@@ -1,0 +1,52 @@
+{
+  "audit_id": "audit-002-phase-3-baseline-leakage",
+  "audit_mode": "hostile_forensic",
+  "consult_only_claims_tested": ["CON-002", "CON-009", "CON-010", "CON-011"],
+  "summary": {
+    "baseline_present": 3,
+    "baseline_weak": 1,
+    "baseline_absent": 0,
+    "hostile_finding": "The asserted consult-only recoveries were not actually absent from the baseline. The baseline files already contained the relevant clusters, source IDs, or pressure tests."
+  },
+  "items": [
+    {
+      "contradiction_id": "CON-002",
+      "classification": "BASELINE_PRESENT",
+      "baseline_evidence": [
+        "baseline/convergence_report.json PCR-003 explicitly lists PMID-31827267, PMID-35099507, PMID-40063015, and PMID-39179297 under vascular pathology as therapy-relevant contradiction.",
+        "baseline/evidence_clusters.json BCL-VASCULAR includes CAA/BBB/cerebrovascular pathology.",
+        "baseline/contradiction_graph.json BASE-C05 already frames vascular pathology as co-cause versus comorbidity."
+      ],
+      "hostile_note": "Only the exact ARIA-safety label was sharpened after consult; the evidence and search path were already visible."
+    },
+    {
+      "contradiction_id": "CON-009",
+      "classification": "BASELINE_PRESENT",
+      "baseline_evidence": [
+        "baseline/evidence_clusters.json BCL-BIOMARKERS includes PMID-39068545, PMID-38866966, PMID-39068669, PMID-41324928, and OFF-NIA-BLOOD-BIOMARKERS-2024.",
+        "baseline/convergence_report.json PCR-004 explicitly warns against treating blood biomarker progress as settled."
+      ],
+      "hostile_note": "The deployment-threshold contradiction was already named as a baseline pressure test."
+    },
+    {
+      "contradiction_id": "CON-010",
+      "classification": "BASELINE_PRESENT",
+      "baseline_evidence": [
+        "baseline/evidence_clusters.json BCL-MIXED-PATHOLOGY includes LATE/PART/mixed pathology sources PMID-37563264, PMID-38520489, PMID-40164861, PMID-38619853, and PMID-35649653.",
+        "baseline/convergence_report.json PCR-002 lists PMID-37563264, PMID-38520489, and PMID-40164861 as missed-or-underweighted sources.",
+        "baseline/hypothesis_map.json marks H-MIXED-PATHOLOGY as recognized_but_underweighted."
+      ],
+      "hostile_note": "The claim that LATE/PART/mixed pathology required consult is not supported by the baseline artifacts."
+    },
+    {
+      "contradiction_id": "CON-011",
+      "classification": "BASELINE_WEAK",
+      "baseline_evidence": [
+        "baseline/hypothesis_map.json starting uncertainty boundary already states unclear and multi-factorial etiology.",
+        "baseline/top_10_bottlenecks.md item 10 asks for tests separating cause, marker, response, and treatment-modifiable driver.",
+        "baseline/evidence_clusters.json already contains amyloid therapy, metabolic, immune, vascular, and mixed pathology clusters."
+      ],
+      "hostile_note": "The exact single-target-versus-multifactorial wording was synthesized later, but its ingredients were baseline-visible."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "records": [
+    {
+      "cues": [
+        "arrival",
+        "backlog",
+        "bottleneck",
+        "channel",
+        "choke",
+        "decline",
+        "flow",
+        "input",
+        "lane",
+        "narrow",
+        "origin",
+        "output",
+        "passage",
+        "path",
+        "pipe",
+        "queue",
+        "resistance",
+        "restriction",
+        "route",
+        "source",
+        "supply",
+        "throat",
+        "throughput",
+        "upstream",
+        "water"
+      ],
+      "lesson_text": "ACTION: SEASON. Mechanism label: FLOW. A source sends water through a path; a narrowed throat adds resistance, downstream throughput declines, and upstream backlog grows. Proof 035b starts from a fresh pond and seasons only FLOW.",
+      "lineage_hash": "39a4968393d2807eac9399ba2ce2d0c1699627f6a66d7c5768997896c92689a8",
+      "lineage_payload": {
+        "cues": [
+          "backlog",
+          "decline",
+          "flow",
+          "narrow",
+          "path",
+          "resistance",
+          "source",
+          "throat",
+          "throughput",
+          "upstream",
+          "water"
+        ],
+        "lesson_text": "ACTION: SEASON. Mechanism label: FLOW. A source sends water through a path; a narrowed throat adds resistance, downstream throughput declines, and upstream backlog grows. Proof 035b starts from a fresh pond and seasons only FLOW.",
+        "mechanism": "FLOW",
+        "motifs": [
+          "Source",
+          "Path",
+          "Resistance",
+          "Flow"
+        ],
+        "payload_hash": "9c3d4eb752446a4bc4709c50083aed6fb7340f11124460d2a80f4eb0d4119b67",
+        "request_id": "proof-035b-season-flow-001",
+        "source_refs": [
+          "request",
+          "context.summary"
+        ]
+      },
+      "mechanism": "FLOW",
+      "motifs": [
+        "Source",
+        "Path",
+        "Resistance",
+        "Flow"
+      ],
+      "record_id": "pond:flow:39a4968393d2807e"
+    }
+  ],
+  "schema_version": "inside_voice_mcp_pond_state.v1",
+  "state_id": "inside_voice_mcp_local_pond",
+  "updated_by_request_id": "proof-035b-season-flow-001"
+}

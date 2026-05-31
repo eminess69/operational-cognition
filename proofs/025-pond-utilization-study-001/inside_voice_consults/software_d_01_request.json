@@ -1,0 +1,33 @@
+{
+  "context": {
+    "constraints": [
+      "Use /consult as advisory pressure only; public proof-pack artifacts carry evidence.",
+      "Return only bounded public-safe summaries, hashes, source refs, and claim pressure.",
+      "No hidden chain-of-thought, Inside Voice internals, Belief Ledger internals, or private substrate details.",
+      "A consult earns value only if it causes a valid direction change, contradiction recovery, evidence-cluster recovery, unsupported-claim reduction, lineage improvement, premature-convergence avoidance, or false-path abandonment.",
+      "Do not treat biomedical claims, historical claims, or software history claims as true unless they are verified in the supplied public artifacts."
+    ],
+    "desired_artifacts": [
+      "protocol_trials.jsonl",
+      "consult_effectiveness_matrix.json",
+      "consult_failure_taxonomy.json",
+      "best_practice_protocol.md",
+      "consult_prompt_patterns.md",
+      "pond_utilization_scorecard.json"
+    ],
+    "files": [
+      "proofs/023-truth-reconstruction-challenge-002/baseline/baseline_truth_map.json",
+      "proofs/023-truth-reconstruction-challenge-002/direction_change_audit.json",
+      "proofs/023-truth-reconstruction-challenge-002/consultation_advantage_report.json",
+      "proofs/023-truth-reconstruction-challenge-002/architecture_truth_map.json",
+      "proofs/023-truth-reconstruction-challenge-002/lost_context_recovery.json",
+      "proofs/023-truth-reconstruction-challenge-002/consult/inside_voice_consults/consult_004_csi_response.json"
+    ],
+    "summary": "Source pack: proofs/023-truth-reconstruction-challenge-002. Starting question: Should Kubernetes' third top architectural decision remain Server-Side Apply, or should a missed extraction motif such as CSI displace it? Current controlled belief state: No-consult baseline selected CRI, CRDs, and Server-Side Apply. Existing audit records show later consult-guided work recovered CSI/in-tree storage migration as stronger than SSA for the third system-boundary decision. Hostile scoring rule: do not credit generic advice, repeated baseline facts, confidence without evidence, unsourced motifs, or post-hoc validation."
+  },
+  "max_output_chars": 8000,
+  "mode": "review",
+  "request_id": "025-pond-utilization-study-001-software-d-01",
+  "require_lineage": true,
+  "task": "025-pond-utilization-study-001 Software architecture reconstruction Protocol D - Periodic Pressure Consult: Phase 1 pressure: what am I prematurely converging on, and which alternative pathway is underweighted?"
+}

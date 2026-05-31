@@ -1,0 +1,26 @@
+{
+  "content": "A service remains stable while buffering hides pressure, then a threshold is crossed, feedback amplifies load, resources deplete, and collapse propagates through the operating pathway.",
+  "domain": "operational_systems",
+  "metadata": {
+    "fixture": "proof_045",
+    "role": "query"
+  },
+  "motif": "operational_collapse",
+  "pathway": "multi_mechanism_operational_failure",
+  "provenance": {
+    "authoritative": true,
+    "origin": "operational_cognition_probe_fixture"
+  },
+  "source_lineage": [
+    "lineage:proof045:query"
+  ],
+  "source_ref": "proof_045_query_trace",
+  "structure": [
+    "buffer",
+    "threshold",
+    "feedback",
+    "resource_depletion",
+    "collapse"
+  ],
+  "trace_id": "query-proof-045-operational-collapse"
+}

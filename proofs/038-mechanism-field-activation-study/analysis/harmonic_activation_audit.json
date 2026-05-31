@@ -1,0 +1,422 @@
+[
+  {
+    "activated_mechanisms": [
+      "ACCUMULATION",
+      "AMPLIFICATION",
+      "BUFFERING",
+      "COMPENSATION",
+      "FEEDBACK",
+      "FLOW",
+      "RESOURCE_DEPLETION",
+      "THRESHOLD"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-001",
+    "shared_lineages": [],
+    "shared_motifs": [
+      "Input"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      "ACCUMULATION",
+      "COMPENSATION",
+      "FEEDBACK",
+      "OSCILLATION",
+      "THRESHOLD"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-002",
+    "shared_lineages": [],
+    "shared_motifs": []
+  },
+  {
+    "activated_mechanisms": [
+      "AMPLIFICATION",
+      "DIFFUSION",
+      "FEEDBACK"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-003",
+    "shared_lineages": [],
+    "shared_motifs": []
+  },
+  {
+    "activated_mechanisms": [
+      "ACCUMULATION",
+      "AMPLIFICATION",
+      "BUFFERING",
+      "COMPENSATION",
+      "FLOW",
+      "RESOURCE_DEPLETION"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-004",
+    "shared_lineages": [],
+    "shared_motifs": [
+      "Input"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      "BUFFERING",
+      "FLOW"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-005",
+    "shared_lineages": [],
+    "shared_motifs": []
+  },
+  {
+    "activated_mechanisms": [
+      "COMPENSATION",
+      "LOAD_TRANSFER",
+      "SUPPORTED_ROTATION",
+      "THRESHOLD"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-006",
+    "shared_lineages": [],
+    "shared_motifs": [
+      "Failure"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      "ACCUMULATION",
+      "LOAD_TRANSFER",
+      "THRESHOLD"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-007",
+    "shared_lineages": [],
+    "shared_motifs": []
+  },
+  {
+    "activated_mechanisms": [
+      "ACCUMULATION",
+      "AMPLIFICATION",
+      "BUFFERING",
+      "FEEDBACK",
+      "FLOW",
+      "RESOURCE_DEPLETION"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-008",
+    "shared_lineages": [],
+    "shared_motifs": [
+      "Input"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      "BUFFERING",
+      "COMPENSATION",
+      "FEEDBACK",
+      "OSCILLATION"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-009",
+    "shared_lineages": [],
+    "shared_motifs": [
+      "Delay"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      "ACCUMULATION",
+      "BUFFERING",
+      "DIFFUSION",
+      "FLOW",
+      "RESOURCE_DEPLETION"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-010",
+    "shared_lineages": [],
+    "shared_motifs": [
+      "Input",
+      "Source"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      "AMPLIFICATION",
+      "BUFFERING",
+      "FEEDBACK",
+      "FLOW",
+      "OSCILLATION"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-011",
+    "shared_lineages": [],
+    "shared_motifs": [
+      "Delay",
+      "Input"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      "DIFFUSION",
+      "LOAD_TRANSFER",
+      "SUPPORTED_ROTATION",
+      "THRESHOLD"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-012",
+    "shared_lineages": [],
+    "shared_motifs": [
+      "Failure"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      "ACCUMULATION",
+      "COMPENSATION",
+      "LOAD_TRANSFER",
+      "SUPPORTED_ROTATION",
+      "THRESHOLD"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-013",
+    "shared_lineages": [],
+    "shared_motifs": [
+      "Failure"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      "AMPLIFICATION",
+      "FEEDBACK",
+      "THRESHOLD"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-014",
+    "shared_lineages": [],
+    "shared_motifs": []
+  },
+  {
+    "activated_mechanisms": [
+      "ACCUMULATION",
+      "BUFFERING",
+      "OSCILLATION"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-015",
+    "shared_lineages": [],
+    "shared_motifs": [
+      "Delay",
+      "Input"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      "AMPLIFICATION",
+      "DIFFUSION",
+      "FLOW",
+      "RESOURCE_DEPLETION"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-016",
+    "shared_lineages": [],
+    "shared_motifs": [
+      "Source"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      "BUFFERING",
+      "FLOW",
+      "RESOURCE_DEPLETION"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-017",
+    "shared_lineages": [],
+    "shared_motifs": []
+  },
+  {
+    "activated_mechanisms": [
+      "ACCUMULATION",
+      "FEEDBACK",
+      "OSCILLATION",
+      "SUPPORTED_ROTATION"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-018",
+    "shared_lineages": [],
+    "shared_motifs": []
+  },
+  {
+    "activated_mechanisms": [
+      "BUFFERING",
+      "DIFFUSION",
+      "LOAD_TRANSFER",
+      "RESOURCE_DEPLETION",
+      "THRESHOLD"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-019",
+    "shared_lineages": [],
+    "shared_motifs": []
+  },
+  {
+    "activated_mechanisms": [
+      "AMPLIFICATION",
+      "BUFFERING",
+      "FEEDBACK",
+      "FLOW",
+      "OSCILLATION",
+      "THRESHOLD"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-020",
+    "shared_lineages": [],
+    "shared_motifs": [
+      "Delay",
+      "Input"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      "ACCUMULATION",
+      "AMPLIFICATION",
+      "BUFFERING",
+      "FLOW",
+      "RESOURCE_DEPLETION"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-021",
+    "shared_lineages": [],
+    "shared_motifs": [
+      "Input"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      "AMPLIFICATION",
+      "BUFFERING",
+      "COMPENSATION",
+      "FEEDBACK",
+      "OSCILLATION",
+      "THRESHOLD"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-022",
+    "shared_lineages": [],
+    "shared_motifs": [
+      "Delay",
+      "Input"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      "ACCUMULATION",
+      "DIFFUSION",
+      "FLOW"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-023",
+    "shared_lineages": [],
+    "shared_motifs": [
+      "Source"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      "LOAD_TRANSFER",
+      "SUPPORTED_ROTATION",
+      "THRESHOLD"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-024",
+    "shared_lineages": [],
+    "shared_motifs": [
+      "Failure"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      "BUFFERING",
+      "COMPENSATION",
+      "DIFFUSION",
+      "RESOURCE_DEPLETION",
+      "SUPPORTED_ROTATION"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-025",
+    "shared_lineages": [],
+    "shared_motifs": []
+  },
+  {
+    "activated_mechanisms": [
+      "ACCUMULATION",
+      "BUFFERING",
+      "OSCILLATION",
+      "RESOURCE_DEPLETION"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-026",
+    "shared_lineages": [],
+    "shared_motifs": [
+      "Delay",
+      "Input"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      "COMPENSATION",
+      "DIFFUSION",
+      "LOAD_TRANSFER",
+      "SUPPORTED_ROTATION",
+      "THRESHOLD"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-027",
+    "shared_lineages": [],
+    "shared_motifs": [
+      "Failure"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      "BUFFERING",
+      "COMPENSATION",
+      "FEEDBACK",
+      "FLOW",
+      "THRESHOLD"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-028",
+    "shared_lineages": [],
+    "shared_motifs": []
+  },
+  {
+    "activated_mechanisms": [
+      "ACCUMULATION",
+      "BUFFERING",
+      "DIFFUSION",
+      "FEEDBACK",
+      "OSCILLATION",
+      "RESOURCE_DEPLETION"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-029",
+    "shared_lineages": [],
+    "shared_motifs": [
+      "Delay",
+      "Input"
+    ]
+  },
+  {
+    "activated_mechanisms": [
+      "ACCUMULATION",
+      "FLOW",
+      "OSCILLATION",
+      "SUPPORTED_ROTATION",
+      "THRESHOLD"
+    ],
+    "activation_overlap_exists": true,
+    "case_id": "P037-RC-030",
+    "shared_lineages": [],
+    "shared_motifs": []
+  }
+]

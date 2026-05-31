@@ -1,0 +1,20 @@
+{
+  "claim_boundary": "No consult response is treated as a Boeing 737 MAX authority.",
+  "consult_response_hashes": {
+    "gate_001_weaken_leader": "7e732cdb222e7b7a6b53839a2f4d2ef1d2a5419943bd50c5f981dccc24fd61f1",
+    "gate_002_competing_explanation": "d112fe539729974e174469656a8a6b245990813a6ec775263c8fa751a4c8fca3",
+    "gate_003_underweighted_cluster": "836f4faf1d44388c9155ed8368a242caaafdcec367e2496a0d5115bdc3442fd0",
+    "gate_004_convergence_assumption": "62ea3bfee0fcf6b00a44b258d7e7235a1255073a9c474dde1e37bab441f00dd3",
+    "gate_005_falsifier": "1c0764948b18b4d0d93e31fadfec2255325611d0d943b0fe7afe484ea1405b44"
+  },
+  "official_or_primary_sources": [
+    "SRC-FAA-JATR-2019",
+    "SRC-HOUSE-2020",
+    "SRC-NTSB-ASR-2019",
+    "SRC-FAA-RTS-2020",
+    "SRC-KNKT-JT610-2019",
+    "SRC-BEA-ET302-2023",
+    "SRC-NTSB-ET302-2023"
+  ],
+  "source_count": 7
+}

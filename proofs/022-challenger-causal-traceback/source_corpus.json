@@ -1,0 +1,301 @@
+{
+  "proof_id": "022-challenger-causal-traceback",
+  "challenge": "Truth Reconstruction Challenge 001 - Challenger Disaster Causal Traceback",
+  "corpus_status": "assembled_from_public_traceable_sources",
+  "source_count": 36,
+  "source_policy": {
+    "claim_rule": "Major claims cite direct public source line ranges or a corpus item explicitly embedded in a cited public report.",
+    "embedded_source_rule": "NASA, Thiokol, hearing, and testimony documents listed as embedded sources are used only through the public Rogers Commission pages that reproduce, quote, summarize, or reference them.",
+    "official_conclusion_handling": "The Rogers Commission report is included as a corpus source because the challenge requires it; conclusions are still represented as evidence-linked causal claims rather than unsupported assertions."
+  },
+  "sources": [
+    {
+      "source_id": "SRC-001",
+      "title": "Rogers Commission Report, Volume I, Chapter III: The Accident",
+      "url": "https://www.nasa.gov/history/rogersrep/v1ch3.htm",
+      "source_type": "public_report_timeline_and_accident_sequence",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L7-L18", "L24-L36", "L89-L330"]
+    },
+    {
+      "source_id": "SRC-002",
+      "title": "Rogers Commission Report, Volume I, Chapter IV: The Cause of the Accident",
+      "url": "https://www.nasa.gov/history/rogersrep/v1ch4.htm",
+      "source_type": "public_report_physical_cause_analysis",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L6-L18", "L469-L551", "L597-L740", "L921-L928"]
+    },
+    {
+      "source_id": "SRC-003",
+      "title": "Rogers Commission Report, Volume I, Chapter V: The Contributing Cause of the Accident",
+      "url": "https://www.nasa.gov/history/rogersrep/v1ch5.htm",
+      "source_type": "public_report_decision_process_and_timeline",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L6-L32", "L630-L632", "L646-L792", "L830-L879"]
+    },
+    {
+      "source_id": "SRC-004",
+      "title": "Rogers Commission Report, Volume I, Chapter VI: An Accident Rooted in History",
+      "url": "https://www.nasa.gov/history/rogersrep/v1ch6.htm",
+      "source_type": "public_report_historical_engineering_and_management_traceback",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L8-L29", "L1301-L1321", "L1556-L1624", "L1626-L1732"]
+    },
+    {
+      "source_id": "SRC-005",
+      "title": "Rogers Commission Report, Volume I, Chapter VII: The Silent Safety Program",
+      "url": "https://www.nasa.gov/history/rogersrep/v1ch7.htm",
+      "source_type": "public_report_safety_program_analysis",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L6-L24", "L83-L104", "L108-L150"]
+    },
+    {
+      "source_id": "SRC-006",
+      "title": "Rogers Commission Report, Volume I, Chapter VIII: Pressures on the System",
+      "url": "https://www.nasa.gov/history/rogersrep/v1ch8.htm",
+      "source_type": "public_report_schedule_and_operational_pressure_analysis",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L6-L23", "L34-L57", "L119-L151"]
+    },
+    {
+      "source_id": "SRC-007",
+      "title": "Rogers Commission Report, Volume I: Recommendations",
+      "url": "https://www.nasa.gov/history/rogersrep/v1recomm.htm",
+      "source_type": "public_report_corrective_action_recommendations",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L13-L29", "L37-L45", "L53-L67"]
+    },
+    {
+      "source_id": "SRC-008",
+      "title": "Rogers Commission Report, Volume II, Appendix F: Personal Observations on Reliability of Shuttle",
+      "url": "https://www.nasa.gov/history/rogersrep/v2appf.htm",
+      "source_type": "commission_appendix_reliability_observations",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L10-L35", "L87-L88"]
+    },
+    {
+      "source_id": "SRC-009",
+      "title": "Rogers Commission Report, Volume II, Appendix H: Flight Readiness Review Treatment of O-ring Problems",
+      "url": "https://www.nasa.gov/history/rogersrep/v2apph.htm",
+      "source_type": "commission_appendix_flight_readiness_review_records",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L71-L71"]
+    },
+    {
+      "source_id": "SRC-010",
+      "title": "Rogers Commission Report, Volume II, Appendix I: NASA Pre-Launch Activities Team Report",
+      "url": "https://www.nasa.gov/history/rogersrep/v2appi.htm",
+      "source_type": "nasa_team_report_prelaunch_processing",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["index_and_available_public_report"]
+    },
+    {
+      "source_id": "SRC-011",
+      "title": "Rogers Commission Report, Volume II, Appendix J: NASA Mission Planning and Operations Team Report",
+      "url": "https://www.nasa.gov/history/rogersrep/v2appj.htm",
+      "source_type": "nasa_team_report_mission_planning_operations",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["index_and_available_public_report"]
+    },
+    {
+      "source_id": "SRC-012",
+      "title": "Rogers Commission Report, Volume II, Appendix K: NASA Development and Production Team Report",
+      "url": "https://www.nasa.gov/history/rogersrep/v2index.htm",
+      "source_type": "nasa_team_report_development_and_production_index",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L89-L120"]
+    },
+    {
+      "source_id": "SRC-013",
+      "title": "Rogers Commission Report, Volume II, Appendix L: NASA Accident Analysis Team Report",
+      "url": "https://www.nasa.gov/history/rogersrep/v2appl.htm",
+      "source_type": "nasa_technical_accident_analysis",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L592-L596", "L712-L738"]
+    },
+    {
+      "source_id": "SRC-014",
+      "title": "Rogers Commission Report, Volume II, Appendix L Part 2: Solid Rocket Motor Working Group",
+      "url": "https://www.nasa.gov/history/rogersrep/v2appl2.htm",
+      "source_type": "nasa_technical_analysis_srm_failure_modes",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L661-L677", "L1332-L1336", "L1720-L1724", "L1735-L1738", "L1741-L1742", "L1854-L1862", "L1887-L1897", "L1926-L1930", "L2121-L2125"]
+    },
+    {
+      "source_id": "SRC-015",
+      "title": "Rogers Commission Report, Volume II, Appendix M: Comments by Morton Thiokol on NASA Report",
+      "url": "https://www.nasa.gov/history/rogersrep/v2appm.htm",
+      "source_type": "contractor_commentary",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["available_public_appendix"]
+    },
+    {
+      "source_id": "SRC-016",
+      "title": "Rogers Commission Hearings, Volume IV, February 14, 1986 Session",
+      "url": "https://www.nasa.gov/history/rogersrep/v4part6.htm",
+      "source_type": "engineering_and_management_testimony",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L60-L95", "L125-L238", "L259-L277", "L383-L411", "L2593-L2617"]
+    },
+    {
+      "source_id": "SRC-017",
+      "title": "Rogers Commission Hearings, Volume IV, February 25, 1986 Session",
+      "url": "https://www.nasa.gov/history/rogersrep/v4part7.htm",
+      "source_type": "engineering_and_management_testimony",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L1598-L1658", "L1668-L1679", "L1692-L1770", "L2026-L2074"]
+    },
+    {
+      "source_id": "SRC-018",
+      "title": "Rogers Commission Hearings, Volume V, May 2, 1986 Session",
+      "url": "https://www.nasa.gov/history/rogersrep/v5part6a.htm",
+      "source_type": "engineering_and_management_testimony",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L361-L380", "L614-L615", "L625-L629", "L2583-L2588"]
+    },
+    {
+      "source_id": "SRC-019",
+      "title": "Rogers Commission Report General Index",
+      "url": "https://www.nasa.gov/history/rogersrep/genindex.htm",
+      "source_type": "corpus_index",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L85-L186"]
+    },
+    {
+      "source_id": "SRC-020",
+      "title": "NASA Technical Reports Server: Rogers Commission Report Volume I PDF",
+      "url": "https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19860015255.pdf",
+      "source_type": "official_pdf_public_report",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["search_result_metadata_only"]
+    },
+    {
+      "source_id": "SRC-021",
+      "title": "NASA Safety and Mission Assurance Significant Incidents: Rogers Commission Report PDF",
+      "url": "https://sma.nasa.gov/SignificantIncidents/assets/rogers_commission_report.pdf",
+      "source_type": "official_pdf_public_report",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["search_result_metadata_only"]
+    },
+    {
+      "source_id": "SRC-022",
+      "title": "STS 51-L Sequence of Major Events",
+      "url": "https://www.nasa.gov/history/rogersrep/v1ch3.htm",
+      "source_type": "timeline_document_embedded_in_rogers_chapter_iii",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L89-L330"]
+    },
+    {
+      "source_id": "SRC-023",
+      "title": "Morton Thiokol January 27, 1986 Recommendation and Teleconference Data",
+      "url": "https://www.nasa.gov/history/rogersrep/v1ch5.htm",
+      "source_type": "thiokol_communication_reproduced_or_summarized_in_public_report",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L830-L864"]
+    },
+    {
+      "source_id": "SRC-024",
+      "title": "January 27, 1986 Morton Thiokol Chronology",
+      "url": "https://www.nasa.gov/history/rogersrep/v4part7.htm",
+      "source_type": "thiokol_timeline_reference_in_hearing_record",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L1668-L1679"]
+    },
+    {
+      "source_id": "SRC-025",
+      "title": "SRB Critical Items List, December 17, 1982",
+      "url": "https://www.nasa.gov/history/rogersrep/v1ch7.htm",
+      "source_type": "nasa_internal_document_reproduced_or_referenced_in_public_report",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L108-L142", "L115-L120"]
+    },
+    {
+      "source_id": "SRC-026",
+      "title": "STS 41-C Flight Readiness Review Treatment of O-ring Erosion",
+      "url": "https://www.nasa.gov/history/rogersrep/v1ch6.htm",
+      "source_type": "flight_readiness_review_record_reproduced_in_public_report",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L1585-L1599"]
+    },
+    {
+      "source_id": "SRC-027",
+      "title": "STS 51-E Flight Readiness Review Treatment of 51-C O-ring Damage",
+      "url": "https://www.nasa.gov/history/rogersrep/v1ch6.htm",
+      "source_type": "flight_readiness_review_record_reproduced_in_public_report",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L1600-L1602"]
+    },
+    {
+      "source_id": "SRC-028",
+      "title": "STS 51-F Flight Readiness Review and Launch Constraint Record",
+      "url": "https://www.nasa.gov/history/rogersrep/v1ch6.htm",
+      "source_type": "flight_readiness_review_record_reproduced_in_public_report",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L1301-L1321", "L1603-L1605"]
+    },
+    {
+      "source_id": "SRC-029",
+      "title": "O-Ring Resiliency Testing, Thiokol, June 3, 1985",
+      "url": "https://www.nasa.gov/history/rogersrep/v1ch6.htm",
+      "source_type": "thiokol_technical_test_report_cited_in_public_report",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L1731-L1732"]
+    },
+    {
+      "source_id": "SRC-030",
+      "title": "Actions Pertaining to Field Joint Secondary Seal, Brian Russell, August 9, 1985",
+      "url": "https://www.nasa.gov/history/rogersrep/v1ch6.htm",
+      "source_type": "thiokol_internal_communication_cited_in_public_report",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L1731-L1732"]
+    },
+    {
+      "source_id": "SRC-031",
+      "title": "Erosion of SRM Pressure Seals, Thiokol, August 19, 1985",
+      "url": "https://www.nasa.gov/history/rogersrep/v1ch6.htm",
+      "source_type": "thiokol_technical_presentation_cited_in_public_report",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L1600-L1601", "L1674-L1675", "L1713-L1714"]
+    },
+    {
+      "source_id": "SRC-032",
+      "title": "NASA Mission Management Team January 27, 1986 Launch Timeline",
+      "url": "https://www.nasa.gov/history/rogersrep/v1ch5.htm",
+      "source_type": "timeline_document_reproduced_in_public_report",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L646-L792"]
+    },
+    {
+      "source_id": "SRC-033",
+      "title": "NASA Accident Analysis Team Solid Rocket Motor Working Group",
+      "url": "https://www.nasa.gov/history/rogersrep/v2appl2.htm",
+      "source_type": "technical_analysis_report",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L661-L677", "L1332-L1336", "L1741-L1742", "L1854-L1862", "L1887-L1897", "L1926-L1930"]
+    },
+    {
+      "source_id": "SRC-034",
+      "title": "May 2, 1986 Testimony: Russell, Ebeling, McDonald, Kilminster, and Boisjoly",
+      "url": "https://www.nasa.gov/history/rogersrep/v5part6a.htm",
+      "source_type": "engineering_testimony",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L361-L380", "L614-L615"]
+    },
+    {
+      "source_id": "SRC-035",
+      "title": "February 25, 1986 Testimony: Roger Boisjoly and Arnold Thompson",
+      "url": "https://www.nasa.gov/history/rogersrep/v4part7.htm",
+      "source_type": "engineering_testimony",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L1692-L1770", "L2026-L2074"]
+    },
+    {
+      "source_id": "SRC-036",
+      "title": "Feynman Appendix Reliability Observations",
+      "url": "https://www.nasa.gov/history/rogersrep/v2appf.htm",
+      "source_type": "engineering_analysis_and_risk_assessment",
+      "accessed_date": "2026-05-28",
+      "used_line_ranges": ["L10-L35"]
+    }
+  ]
+}

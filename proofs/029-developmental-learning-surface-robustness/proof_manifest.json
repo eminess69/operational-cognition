@@ -1,0 +1,50 @@
+{
+  "claim_level": "evidence_backed",
+  "disallowed_claims": [
+    "LLM generated final answers",
+    "general mathematical cognition",
+    "algebra competence",
+    "fraction competence",
+    "arithmetic with carrying or borrowing",
+    "unbounded natural-language robustness",
+    "hidden chain-of-thought"
+  ],
+  "inside_voice_adapter_status": "not_used_final_answers_generated_by_deterministic_cli",
+  "lineage": {
+    "contract_version": "math_pond.cli.v1.surface_robustness",
+    "derived_from": "proofs/028-developmental-learning-grade-ladder/pond_states/grade_2/pond_state.json; operational_cognition.cli.math_pond",
+    "mcp_endpoint": "none:deterministic_cli_no_llm",
+    "request_hash": "352344df2ae90e822a8c9996be0f05dd4205a37c8de3cc5dd74610a9c376d9eb",
+    "response_hash": "b274f60eb0b8c8d9d401e655b1708ccc08654d821e1c2f684ab0396bb6dab15f",
+    "validates": "surface_form_robustness_with_frozen_grade_1_grade_2_math_motifs"
+  },
+  "proof_id": "029-developmental-learning-surface-robustness",
+  "public_private_boundary": "All artifacts are deterministic tests, CLI outputs, audits, and public Proof 028 pond-state references.",
+  "required_artifacts": [
+    "README.md",
+    "proof_manifest.json",
+    "frozen_concept_inventory.json",
+    "tests/reworded_questions.jsonl",
+    "tests/distractor_questions.jsonl",
+    "tests/reversed_phrasing.jsonl",
+    "tests/multistep_composition.jsonl",
+    "tests/out_of_scope_fail_closed.jsonl",
+    "results/reworded_results.json",
+    "results/distractor_results.json",
+    "results/reversed_results.json",
+    "results/multistep_results.json",
+    "results/out_of_scope_results.json",
+    "analysis/parser_fragility_audit.json",
+    "analysis/structure_reuse_audit.json",
+    "analysis/hostile_surface_audit.json",
+    "analysis/robustness_metrics.json"
+  ],
+  "status": "complete",
+  "targets": [
+    "SurfaceFormRobustness",
+    "StructureReuse",
+    "ParserFragility",
+    "DeterministicNoLLMAnswering"
+  ],
+  "title": "Proof 029 - Developmental Learning Challenge 002 - Surface-Form Robustness and Structure Reuse"
+}

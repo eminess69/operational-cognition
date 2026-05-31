@@ -1,0 +1,134 @@
+{
+  "adapter_status": "placeholder",
+  "findings": [
+    {
+      "claim": "Request classified as proof_planning for bounded local consultation.",
+      "confidence": "medium",
+      "evidence": [
+        "task",
+        "mode"
+      ],
+      "id": "task-class",
+      "lineage_refs": [
+        "request"
+      ],
+      "risk": "low"
+    },
+    {
+      "claim": "Constraint preserved: Observation-only case text.",
+      "confidence": "high",
+      "evidence": [
+        "context.constraints[0]"
+      ],
+      "id": "constraint-001",
+      "lineage_refs": [
+        "constraint:0"
+      ],
+      "risk": "low"
+    },
+    {
+      "claim": "Constraint preserved: No final answer.",
+      "confidence": "high",
+      "evidence": [
+        "context.constraints[1]"
+      ],
+      "id": "constraint-002",
+      "lineage_refs": [
+        "constraint:1"
+      ],
+      "risk": "low"
+    },
+    {
+      "claim": "Constraint preserved: No reserved labels from earlier proofs.",
+      "confidence": "high",
+      "evidence": [
+        "context.constraints[2]"
+      ],
+      "id": "constraint-003",
+      "lineage_refs": [
+        "constraint:2"
+      ],
+      "risk": "low"
+    },
+    {
+      "claim": "Constraint preserved: No ranked candidate list in the consult request.",
+      "confidence": "high",
+      "evidence": [
+        "context.constraints[3]"
+      ],
+      "id": "constraint-004",
+      "lineage_refs": [
+        "constraint:3"
+      ],
+      "risk": "low"
+    },
+    {
+      "claim": "Constraint preserved: Return lineage and motif pressure before candidate generation.",
+      "confidence": "high",
+      "evidence": [
+        "context.constraints[4]"
+      ],
+      "id": "constraint-005",
+      "lineage_refs": [
+        "constraint:4"
+      ],
+      "risk": "low"
+    },
+    {
+      "claim": "Source reference supplied by request: proofs/034-mechanism-discovery-challenge/tests/observation_only_cases.jsonl",
+      "confidence": "high",
+      "evidence": [
+        "context.files[0]"
+      ],
+      "id": "file-ref-001",
+      "lineage_refs": [
+        "file:0"
+      ],
+      "risk": "low"
+    },
+    {
+      "claim": "Source reference supplied by request: ",
+      "confidence": "high",
+      "evidence": [
+        "context.files[1]"
+      ],
+      "id": "file-ref-002",
+      "lineage_refs": [
+        "file:1"
+      ],
+      "risk": "low"
+    }
+  ],
+  "lineage": {
+    "request_hash": "64d82bd648c4c3ccf2ba7403c36b5aacc6a68472be01bc49522755f64fa12593",
+    "response_hash": "6a979be5790739917eb3d3a006cae63494009ef2fd27b637158fddc3d39d6792",
+    "source_refs": [
+      "request",
+      "context.summary",
+      "proofs/034-mechanism-discovery-challenge/tests/observation_only_cases.jsonl",
+      ""
+    ]
+  },
+  "mode": "audit",
+  "recommendations": [
+    {
+      "action": "Use only the documented response fields when consuming Inside Voice guidance.",
+      "blocking": true,
+      "id": "preserve-contract",
+      "reason": "The bridge intentionally exposes bounded structured consultation output only."
+    },
+    {
+      "action": "Record requested artifacts as local lineage references after deterministic verification.",
+      "blocking": false,
+      "id": "record-artifacts",
+      "reason": "Requested artifacts must remain traceable to the consultation request and response hashes."
+    }
+  ],
+  "request_id": "proof-034-generic-p034-obs-010",
+  "summary": "Placeholder Inside Voice adapter completed a bounded local consultation for task_class=proof_planning.",
+  "uncertainty": [
+    "adapter_status=placeholder; no private substrate cognition was invoked.",
+    "Findings are derived only from explicit request fields."
+  ],
+  "verdict": "ok"
+}

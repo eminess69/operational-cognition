@@ -1,0 +1,47 @@
+{
+  "attacks": [
+    {
+      "attack": "hidden mechanism assumptions",
+      "finding": "Survives. The builder contains a pathway vocabulary and motif rules.",
+      "status": "survives"
+    },
+    {
+      "attack": "predefined mechanism classes",
+      "finding": "Partially controlled by avoiding reserved labels in observation cases and candidate outputs; broad pathway templates still exist.",
+      "status": "survives_bounded"
+    },
+    {
+      "attack": "Codex pre-identification",
+      "finding": "Controlled at artifact level: tests are observation-only and consult records precede candidate files.",
+      "status": "controlled_by_phase_order"
+    },
+    {
+      "attack": "answer leakage",
+      "finding": "No final answer field is emitted. Evidence-compatible pathways are used only for audit metrics after candidate generation.",
+      "status": "mostly_controlled"
+    },
+    {
+      "attack": "post-hoc candidate generation",
+      "finding": "Partially controlled by phase hashes and consult logs, but deterministic generation is replayable from local code.",
+      "status": "survives_partially"
+    },
+    {
+      "attack": "pathway inflation",
+      "finding": "Bounded to five candidates per experimental case and penalized in ranking metrics.",
+      "status": "bounded"
+    },
+    {
+      "attack": "placeholder consult",
+      "finding": "Live adapter statuses were ['placeholder']; any semantic improvement cannot be credited to a live private substrate.",
+      "status": "survives"
+    }
+  ],
+  "final_verdict": {
+    "candidate_diversity_improved": true,
+    "hostile_verdict": "WEAK_SIGNAL: diversity and single-candidate convergence improved inside the deterministic harness, but evidence-top preservation and ranking did not improve; the live adapter was not pond-backed in this run and local motif rules remain a full explanation.",
+    "premature_convergence_reduced": true,
+    "remaining_codex_explanation": true,
+    "remaining_pond_explanation": true
+  },
+  "proof_id": "034-mechanism-discovery-challenge"
+}

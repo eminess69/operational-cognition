@@ -1,0 +1,47 @@
+{
+  "adapter_status": "pond_backed",
+  "belief_state_before": "local_state=mechanism_recall; mechanisms=FLOW,SUPPORTED_ROTATION,LOAD_TRANSFER",
+  "case_id": "P033-FLOW-HO-005",
+  "consult_question": "Proof 033 targeted mechanism recall. Use the seasoned pond as recall substrate. Allowed mechanisms: FLOW, SUPPORTED_ROTATION, LOAD_TRANSFER. Return mechanism candidates, motifs, and lineage hashes before any answer. Held-out case: Observed system: Output became sparse, items piled up before an unnamed point, and the far side sat idle. Question: Which learned mechanism structure should be applied?",
+  "lineage_hashes": [
+    "84293d43d00ac9bf94f538d51af6b0b57553524404a1e070dcdd0bf00b319b02",
+    "73b65d00912f82bfc5818fc7b61d19032fa16f9dcc15db0554c380094afba3ac",
+    "423b44070840de1bbd407f11801c0381f8148885e46180540146ed041b225d63",
+    "9dc990b92a07a9c77beafae5036894225983ce47f5fd2c6650266d29afc81b15",
+    "19970b72023d5042fd5dabca376098a5062be2fac9065c0ade0aaa4fa534b0f4",
+    "9a235970da2ce0889cf3fe800094cb3de969f57d53fd282a0a16534e2fe0e910",
+    "2c39dcded5661e4afc8249a84bc54d80cf5d33397f009ccff164c5674eb4213b",
+    "b2ebc3546396d6d7a7ce9e621ee37dc512f026b6a73f85bd2f922ecb930387f3"
+  ],
+  "mcp_status": "pond_backed",
+  "pond_state_path": "/Users/mattdewing/Desktop/Operational Cognition/proofs/033-mechanism-seasoning-pond-recall/pond_states/mechanism_recall",
+  "reason": "Pond-backed /consult supplied traceable recall lineages. Candidate and mechanism motifs are deterministic Codex mentor extraction over the held-out text and allowed seasoned mechanisms; hostile audit treats this as a surviving parser/Codex-synthesis explanation.",
+  "recall_used_by_cli": true,
+  "returned_lineages": [
+    "pressure:44eeb320a80c1c5f",
+    "authority:63405000ebba",
+    "contradiction:9d85edad8192",
+    "inside_voice_runtime:d43e2e09c028b98314e8",
+    "inside_voice_runtime:8c7a0ef664098db91e88",
+    "authority:c3328bb2ea1b",
+    "authority:7e4919d7f9e0",
+    "lineage_ref:906488c0f8bc9948",
+    "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+    "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+    "artifacts/pond/high_grade_seasoning_corpus.jsonl#76",
+    "artifacts/pond/pattern_overlap_clusters.jsonl",
+    "artifacts/pond/pattern_overlap_clusters.jsonl#0",
+    "trace.falsification.hostile_ext_001",
+    "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0",
+    "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee"
+  ],
+  "returned_mechanism_candidates": [
+    "flow"
+  ],
+  "returned_motifs": [
+    "Source",
+    "Path",
+    "Resistance",
+    "Flow"
+  ]
+}

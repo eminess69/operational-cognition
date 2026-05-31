@@ -1,0 +1,27 @@
+{
+  "context": {
+    "constraints": [
+      "Observation-only case text.",
+      "No final answer.",
+      "No reserved labels from earlier proofs.",
+      "No ranked candidate list in the consult request.",
+      "Return lineage and motif pressure before candidate generation."
+    ],
+    "desired_artifacts": [
+      "viable pathways",
+      "activated motifs",
+      "partial lineage matches",
+      "candidate structures to keep alive"
+    ],
+    "files": [
+      "proofs/034-mechanism-discovery-challenge/tests/observation_only_cases.jsonl",
+      ""
+    ],
+    "summary": "Proof 034 case P034-OBS-004 begins only with observations."
+  },
+  "max_output_chars": 4000,
+  "mode": "audit",
+  "request_id": "proof-034-generic-p034-obs-004",
+  "require_lineage": true,
+  "task": "Observation-only discovery consult using generic boundary consult. Observations: Input remains steady. Waiting grows before an unseen point. The far side becomes quiet. Output arrives in smaller batches. Do not identify a final answer. Do not emit reserved labels from earlier proofs. Answer only these questions: What pathways remain viable? What motifs are activated? What known lineages partially match? What candidate structures should remain alive?"
+}

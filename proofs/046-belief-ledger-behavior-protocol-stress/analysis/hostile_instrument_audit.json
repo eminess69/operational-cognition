@@ -1,0 +1,65 @@
+{
+  "attack_results": [
+    {
+      "attack": "response_hash_instability",
+      "detected": false,
+      "evidence": []
+    },
+    {
+      "attack": "stale_lineage_reuse",
+      "detected": false,
+      "evidence": "All successful rows carried fresh request/response hashes and traceable lineage refs."
+    },
+    {
+      "attack": "fake_motif_inflation",
+      "detected": false,
+      "evidence": "Injected motif stayed out of returned_motifs."
+    },
+    {
+      "attack": "silent_fallback",
+      "detected": false,
+      "evidence": []
+    },
+    {
+      "attack": "placeholder_leakage",
+      "detected": false,
+      "evidence": 0
+    },
+    {
+      "attack": "mock_leakage",
+      "detected": false,
+      "evidence": 0
+    },
+    {
+      "attack": "perturbation_ignored",
+      "detected": false,
+      "evidence": []
+    },
+    {
+      "attack": "collapse_fabricated_after_ranking",
+      "detected": false,
+      "evidence": []
+    },
+    {
+      "attack": "advisory_only_boundary_violation",
+      "detected": false,
+      "evidence": 0
+    }
+  ],
+  "fail_closed_boundary_preserved": true,
+  "hostile_verdict": "VERY_STRONG_SIGNAL",
+  "invalidated_claims": [
+    "Proof 046 proves cognition, AGI, consciousness, or independent understanding.",
+    "Belief Ledger behavior protocol output may be accepted without pond-backed motif and lineage evidence.",
+    "Operational Cognition may mutate Belief Ledger core state through this stress test.",
+    "Invalid behavior protocol requests may be silently accepted."
+  ],
+  "mock_leakage_detected": false,
+  "overclaim_detected": false,
+  "perturbation_sensitive": true,
+  "placeholder_leakage_detected": false,
+  "replay_stable": true,
+  "surviving_claims": [
+    "Operational Cognition can stress-test the Belief Ledger Inside Voice behavior protocol as an external instrument and verify replay stability, perturbation sensitivity, collapse traceability, and fail-closed boundaries."
+  ]
+}

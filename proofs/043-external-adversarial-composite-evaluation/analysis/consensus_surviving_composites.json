@@ -1,0 +1,4437 @@
+[
+  {
+    "case_id": "P041-CP-001",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "RESOURCE_DEPLETION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-001-0227bd6d4e40",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-001",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-001-3a0befc094ed",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-001",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "FEEDBACK",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-001-48ab3b7b6e8d",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-001",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "FEEDBACK",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-001-79a62c6bf455",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-001",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "FEEDBACK",
+      "RESOURCE_DEPLETION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-001-8530be9be464",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-001",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "FEEDBACK",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-001-8af61037d990",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-001",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "FEEDBACK",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-001-8b1ea10e5883",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-001",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "FEEDBACK"
+    ],
+    "pathway_id": "P041-CP-001-984a0de00b8f",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-001",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "RESOURCE_DEPLETION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-001-b8f5d6e9a3bb",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-001",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-001-ecd65dfba512",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-001",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "FEEDBACK",
+      "RESOURCE_DEPLETION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-001-f89cab7ed68a",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-004",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "COMPENSATION"
+    ],
+    "pathway_id": "P041-CP-004-002498b667cc",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-004",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-004-0f86bf865d10",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-004",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-004-2c3d0184f747",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-004",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "BUFFERING",
+      "COMPENSATION",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-004-38ff201501f4",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-004",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "COMPENSATION",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-004-3d72436ee0ae",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-004",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "BUFFERING"
+    ],
+    "pathway_id": "P041-CP-004-7664623720a6",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-004",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "BUFFERING",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-004-8102782680e2",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-004",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-004-9556c70444e9",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-004",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "COMPENSATION",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-004-c9318a61bcf5",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-004",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "BUFFERING",
+      "COMPENSATION"
+    ],
+    "pathway_id": "P041-CP-004-cf55e7799a16",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-004",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "COMPENSATION"
+    ],
+    "pathway_id": "P041-CP-004-d3eba22e1955",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-005",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "BUFFERING"
+    ],
+    "pathway_id": "P041-CP-005-072beaafe5b3",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-005",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "BUFFERING",
+      "FLOW"
+    ],
+    "pathway_id": "P041-CP-005-664b8f3a49c3",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-005",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "FLOW"
+    ],
+    "pathway_id": "P041-CP-005-7526fca85bc2",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-005",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "FLOW"
+    ],
+    "pathway_id": "P041-CP-005-c1532d22cf9a",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-006",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "SUPPORTED_ROTATION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-006-1317a7a5c978",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-006",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "SUPPORTED_ROTATION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-006-316eca5d9830",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-006",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-006-48c8a35c9891",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-006",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-006-dc50c7efbc20",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-008",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "AMPLIFICATION",
+      "BUFFERING",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-008-0fa09eb4853c",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-008",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "AMPLIFICATION",
+      "BUFFERING",
+      "FEEDBACK",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-008-2be320b1d049",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-008",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "FEEDBACK",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-008-4252ffb95444",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-008",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "AMPLIFICATION",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-008-5c3f7bb260d2",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-008",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-008-676641d7b218",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-008",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "AMPLIFICATION",
+      "BUFFERING",
+      "FEEDBACK"
+    ],
+    "pathway_id": "P041-CP-008-98aa1374f03e",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-008",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "FEEDBACK"
+    ],
+    "pathway_id": "P041-CP-008-ba16d523de36",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-008",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "FEEDBACK",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-008-c68a2022d5f7",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-008",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "AMPLIFICATION",
+      "FEEDBACK",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-008-d2b5be1eeca7",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-008",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "AMPLIFICATION",
+      "FEEDBACK"
+    ],
+    "pathway_id": "P041-CP-008-d9569622a51e",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-008",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "AMPLIFICATION",
+      "BUFFERING"
+    ],
+    "pathway_id": "P041-CP-008-f3e294d2b4c9",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-010",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-010-46e73a830b9a",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-010",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "DIFFUSION",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-010-721e6b0e8c5c",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-010",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "DIFFUSION",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-010-c9905c137959",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-010",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "DIFFUSION"
+    ],
+    "pathway_id": "P041-CP-010-dd19c83500f4",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-011",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "FLOW"
+    ],
+    "pathway_id": "P041-CP-011-2acbddb3e940",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-011",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "FEEDBACK",
+      "FLOW"
+    ],
+    "pathway_id": "P041-CP-011-2d7fe327309d",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-011",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "FEEDBACK"
+    ],
+    "pathway_id": "P041-CP-011-bf032b5375f8",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-011",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "FEEDBACK",
+      "FLOW"
+    ],
+    "pathway_id": "P041-CP-011-d314980a55c3",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-012",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "SUPPORTED_ROTATION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-012-73655ad7e12c",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-012",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "DIFFUSION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-012-870c770a9a60",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-012",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "DIFFUSION",
+      "SUPPORTED_ROTATION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-012-9bc737692be6",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-012",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "DIFFUSION",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-012-baf90a470320",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-013",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "LOAD_TRANSFER"
+    ],
+    "pathway_id": "P041-CP-013-2a2105a2684c",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-013",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "COMPENSATION"
+    ],
+    "pathway_id": "P041-CP-013-345f5b7e4218",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-013",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "COMPENSATION",
+      "LOAD_TRANSFER",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-013-3a24c94768aa",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-013",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "LOAD_TRANSFER"
+    ],
+    "pathway_id": "P041-CP-013-4c1479e828fd",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-013",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "LOAD_TRANSFER",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-013-4f6a662d87ce",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-013",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-013-580127338632",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-013",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "LOAD_TRANSFER",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-013-5aa9d28c0ea4",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-013",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "COMPENSATION",
+      "LOAD_TRANSFER"
+    ],
+    "pathway_id": "P041-CP-013-89fdd5c8c823",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-013",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-013-a7c4eb322998",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-013",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "COMPENSATION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-013-c10c93aefbea",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-013",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "LOAD_TRANSFER",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-013-c34c107f6211",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-014",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "AMPLIFICATION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-014-0897cb26dd68",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-014",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "AMPLIFICATION",
+      "FEEDBACK",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-014-0f0e36a495c0",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-014",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "AMPLIFICATION",
+      "FEEDBACK"
+    ],
+    "pathway_id": "P041-CP-014-84b508e6ce34",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-014",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "FEEDBACK",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-014-df94268b9d2a",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-015",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "BUFFERING"
+    ],
+    "pathway_id": "P041-CP-015-2277e0d9fc94",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-015",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "OSCILLATION"
+    ],
+    "pathway_id": "P041-CP-015-4f8061103720",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-015",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "BUFFERING",
+      "OSCILLATION"
+    ],
+    "pathway_id": "P041-CP-015-677d38164f64",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-015",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "OSCILLATION"
+    ],
+    "pathway_id": "P041-CP-015-91ed56421f8c",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-016",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "DIFFUSION",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-016-495f0858ad50",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-016",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "AMPLIFICATION",
+      "DIFFUSION",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-016-cf72af247d8a",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-016",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "AMPLIFICATION",
+      "DIFFUSION"
+    ],
+    "pathway_id": "P041-CP-016-e3442c71fc2b",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-016",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "AMPLIFICATION",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-016-f637b04f0db5",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-017",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "FLOW",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-017-5226bdf1d365",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-018",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "FEEDBACK",
+      "OSCILLATION"
+    ],
+    "pathway_id": "P041-CP-018-057a394934c3",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-018",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "OSCILLATION",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-018-1065a011f57b",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-018",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-018-27613d1defe7",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-018",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "FEEDBACK",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-018-2b0346d02a4d",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-018",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "FEEDBACK",
+      "OSCILLATION",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-018-4f52fc6eafd2",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-018",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "FEEDBACK",
+      "OSCILLATION",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-018-633545968821",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-018",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "FEEDBACK",
+      "OSCILLATION"
+    ],
+    "pathway_id": "P041-CP-018-638ca220ae4a",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-018",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "FEEDBACK"
+    ],
+    "pathway_id": "P041-CP-018-713e83341679",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-018",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "OSCILLATION",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-018-7be171d888a4",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-018",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "OSCILLATION"
+    ],
+    "pathway_id": "P041-CP-018-7f39c2039e4a",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-018",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "FEEDBACK",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-018-94bd561c79e5",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-021",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "AMPLIFICATION",
+      "BUFFERING"
+    ],
+    "pathway_id": "P041-CP-021-3181f8c5ba82",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-021",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "AMPLIFICATION",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-021-569a61080db6",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-021",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "AMPLIFICATION",
+      "BUFFERING",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-021-926a572fe2d6",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-021",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-021-a0b63f7899a4",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-022",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "FEEDBACK",
+      "OSCILLATION"
+    ],
+    "pathway_id": "P041-CP-022-070c8e3cd6e2",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-022",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "FEEDBACK",
+      "OSCILLATION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-022-160a9c136e6e",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-022",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "FEEDBACK",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-022-2161fc7a46db",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-022",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "FEEDBACK",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-022-36b7c26156cb",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-022",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "OSCILLATION"
+    ],
+    "pathway_id": "P041-CP-022-37768d22fdc4",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-022",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "FEEDBACK",
+      "OSCILLATION"
+    ],
+    "pathway_id": "P041-CP-022-9afcad8c38ce",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-022",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "FEEDBACK",
+      "OSCILLATION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-022-a92b815c9d60",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-022",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-022-b77740c8ff10",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-022",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "OSCILLATION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-022-c1b5d75b534a",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-022",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "FEEDBACK"
+    ],
+    "pathway_id": "P041-CP-022-e5b6511c50f1",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-022",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "OSCILLATION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-022-f3acda3cf845",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-023",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "DIFFUSION"
+    ],
+    "pathway_id": "P041-CP-023-3a135e171c46",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-023",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "FLOW"
+    ],
+    "pathway_id": "P041-CP-023-5c8822f28859",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-023",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "DIFFUSION",
+      "FLOW"
+    ],
+    "pathway_id": "P041-CP-023-720c0ff24204",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-023",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "DIFFUSION",
+      "FLOW"
+    ],
+    "pathway_id": "P041-CP-023-e6e4065d986c",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-024",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "LOAD_TRANSFER",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-024-41d8e8cb8228",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-025",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-025-24aac706addd",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-025",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "DIFFUSION",
+      "RESOURCE_DEPLETION",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-025-625f3eb1eecc",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-025",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "DIFFUSION",
+      "RESOURCE_DEPLETION",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-025-641607da9660",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-025",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "RESOURCE_DEPLETION",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-025-78d657720ea0",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-025",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "RESOURCE_DEPLETION",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-025-8af243ab427b",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-025",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "DIFFUSION",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-025-934dac8d3a15",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-025",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "DIFFUSION"
+    ],
+    "pathway_id": "P041-CP-025-9d9c43a56baa",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-025",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "DIFFUSION",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-025-a3a13a752c8a",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-025",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "DIFFUSION",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-025-a68486bc8c75",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-025",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "DIFFUSION",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-025-ab06394ebe5f",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-025",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-025-e4a4f69163d6",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-026",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "OSCILLATION"
+    ],
+    "pathway_id": "P041-CP-026-051ebb150fda",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-026",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "BUFFERING",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-026-3d30f9b27b2a",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-026",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "OSCILLATION",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-026-4f7f7b9d6bb8",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-026",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "BUFFERING",
+      "OSCILLATION"
+    ],
+    "pathway_id": "P041-CP-026-618058fb225b",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-026",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "BUFFERING"
+    ],
+    "pathway_id": "P041-CP-026-76267ccf44a4",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-026",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-026-84ef956747d0",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-026",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "BUFFERING",
+      "OSCILLATION",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-026-ccdffd7213a3",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-026",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-026-d542ee55d083",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-026",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "OSCILLATION",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-026-da03dbca6f2e",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-026",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "OSCILLATION",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-026-ddef4fb0e5d9",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-026",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "OSCILLATION"
+    ],
+    "pathway_id": "P041-CP-026-f8ffd0637b91",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-027",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "DIFFUSION"
+    ],
+    "pathway_id": "P041-CP-027-0354357c4382",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-027",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "DIFFUSION",
+      "LOAD_TRANSFER",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-027-0eb0909f4518",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-027",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "LOAD_TRANSFER"
+    ],
+    "pathway_id": "P041-CP-027-1031f2bff505",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-027",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "DIFFUSION",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-027-688c78d2b107",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-027",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-027-7af719878b52",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-027",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "DIFFUSION",
+      "LOAD_TRANSFER"
+    ],
+    "pathway_id": "P041-CP-027-a4f46eb99060",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-027",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "LOAD_TRANSFER",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-027-b71ba404ae24",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-027",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "DIFFUSION",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-027-c1395ccafd92",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-027",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "DIFFUSION",
+      "LOAD_TRANSFER"
+    ],
+    "pathway_id": "P041-CP-027-c747f3ca3e91",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-027",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "DIFFUSION",
+      "LOAD_TRANSFER",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-027-d66eb703872d",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-027",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "LOAD_TRANSFER",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-027-ea3f7d9c17df",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-028",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "FEEDBACK"
+    ],
+    "pathway_id": "P041-CP-028-1b7c3c2bb2ba",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-028",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "FEEDBACK",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-028-a8e8413313ff",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-028",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "COMPENSATION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-028-bb1997581a7f",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-028",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "FEEDBACK",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-028-e5d9be6198fe",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-029",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-029-04801abfb304",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-029",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "DIFFUSION",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-029-2a276a5939db",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-029",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "DIFFUSION",
+      "FEEDBACK"
+    ],
+    "pathway_id": "P041-CP-029-750885d79694",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-029",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "DIFFUSION",
+      "FEEDBACK",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-029-7a705d7ea24b",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-029",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "FEEDBACK"
+    ],
+    "pathway_id": "P041-CP-029-904d594ecbd7",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-029",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "DIFFUSION",
+      "FEEDBACK",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-029-b0e77b813728",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-029",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "DIFFUSION"
+    ],
+    "pathway_id": "P041-CP-029-dce0bd0c4bf2",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-029",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "FEEDBACK",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-029-e0cad76b04de",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-029",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "DIFFUSION",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-029-e1c5fcd69f95",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-029",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "DIFFUSION",
+      "FEEDBACK"
+    ],
+    "pathway_id": "P041-CP-029-e7835331b7cf",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-029",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "BUFFERING",
+      "FEEDBACK",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway_id": "P041-CP-029-fffcc1721011",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-030",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-030-056266598ca0",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-030",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "OSCILLATION"
+    ],
+    "pathway_id": "P041-CP-030-0a5be10abe95",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-030",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "OSCILLATION",
+      "SUPPORTED_ROTATION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-030-0acd6eaf4133",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-030",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "FLOW",
+      "OSCILLATION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-030-1932e7ec477e",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-030",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "FLOW",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-030-276c01b1d087",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-030",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "OSCILLATION",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-030-2c09be447fdc",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-030",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "FLOW",
+      "OSCILLATION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-030-349d823fb5ff",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-030",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "OSCILLATION",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-030-36b49559c4a3",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-030",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "FLOW",
+      "OSCILLATION",
+      "SUPPORTED_ROTATION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-030-383de2aafbf9",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-030",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "FLOW",
+      "SUPPORTED_ROTATION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-030-3e873be4c3d1",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-030",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "FLOW",
+      "OSCILLATION"
+    ],
+    "pathway_id": "P041-CP-030-407d24ab2957",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-030",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "FLOW"
+    ],
+    "pathway_id": "P041-CP-030-52be5efbb22c",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-030",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "OSCILLATION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-030-5b442c8a295f",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-030",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "FLOW",
+      "OSCILLATION",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-030-5c0d217c8108",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-030",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "FLOW",
+      "SUPPORTED_ROTATION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-030-5d5ad750ecdc",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-030",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "FLOW",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-030-6e02c2512547",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-030",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "FLOW",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-030-760203d9f8a6",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-030",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "FLOW",
+      "OSCILLATION"
+    ],
+    "pathway_id": "P041-CP-030-79f54471e6e6",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-030",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-030-a9d5c09794ef",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-030",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "SUPPORTED_ROTATION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-030-b25b8c1b106f",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-030",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "SUPPORTED_ROTATION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-030-b48de55f90bf",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-030",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "OSCILLATION",
+      "SUPPORTED_ROTATION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-030-b62ff8f03a00",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-030",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "FLOW",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-030-bbdc06c2b7e8",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-030",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "OSCILLATION",
+      "THRESHOLD"
+    ],
+    "pathway_id": "P041-CP-030-cb0eb66ea763",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  },
+  {
+    "case_id": "P041-CP-030",
+    "evaluator_votes": [
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_a"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_b"
+      },
+      {
+        "classification": "VALID_COMPOSITE",
+        "mode": "mode_c"
+      }
+    ],
+    "mechanisms": [
+      "ACCUMULATION",
+      "FLOW",
+      "OSCILLATION",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway_id": "P041-CP-030-cd00f2171f0c",
+    "survives_external_review": true,
+    "why_composite": "At least two adversarial modes judged the pathway to require interacting mechanisms rather than a single mechanism rewrite."
+  }
+]

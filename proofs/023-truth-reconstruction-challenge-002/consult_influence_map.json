@@ -1,0 +1,94 @@
+{
+  "audit_id": "audit-001-consultation-causality",
+  "source_proof": "023-truth-reconstruction-challenge-002",
+  "entries": [
+    {
+      "conclusion": "CRI is one of Kubernetes' three most important architectural decisions.",
+      "status_before_consult": true,
+      "status_after_consult": true,
+      "strengthened_after_consult": true,
+      "discovered_after_consult": false,
+      "publicly_verified_afterward": true,
+      "consult_dependency": "WEAK",
+      "verification_source": "baseline/baseline_truth_map.json rank 1; architecture_truth_map.json CRI-E1 through CRI-E3; consult_002_cri_response.json.",
+      "reasoning": "The baseline already had CRI as rank 1 with high confidence. Consultation added contradiction pressure around dockershim and lineage hashes, but did not cause the original recovery."
+    },
+    {
+      "conclusion": "CRDs/API extensibility is one of Kubernetes' three most important architectural decisions.",
+      "status_before_consult": true,
+      "status_after_consult": true,
+      "strengthened_after_consult": true,
+      "discovered_after_consult": false,
+      "publicly_verified_afterward": true,
+      "consult_dependency": "WEAK",
+      "verification_source": "baseline/baseline_truth_map.json rank 2; architecture_truth_map.json CRD-E1 through CRD-E4; consult_003_crd_response.json.",
+      "reasoning": "The baseline already selected CRDs. Consultation mainly reinforced contradiction handling: CRDs versus API aggregation and ThirdPartyResource migration."
+    },
+    {
+      "conclusion": "CSI should replace Server-Side Apply as the third top architectural decision.",
+      "status_before_consult": false,
+      "status_after_consult": true,
+      "strengthened_after_consult": true,
+      "discovered_after_consult": true,
+      "publicly_verified_afterward": true,
+      "consult_dependency": "STRONG",
+      "verification_source": "architecture_truth_map.json CSI-E1 through CSI-E4; lost_context_recovery.json fact 1; memory_dependency_report.json direction_changes item 1.",
+      "reasoning": "The raw CSI topic was visible in baseline/source_index.json as an exclusion, but the conclusion that CSI outranks Server-Side Apply was absent. Consult 001 forced a rerank audit and consult 004 focused the CSI recovery; afterward, four public CSI sources verified the change."
+    },
+    {
+      "conclusion": "The dominant recovered motif is out-of-tree ecosystem integration behind stable Kubernetes APIs.",
+      "status_before_consult": false,
+      "status_after_consult": true,
+      "strengthened_after_consult": true,
+      "discovered_after_consult": true,
+      "publicly_verified_afterward": true,
+      "consult_dependency": "MODERATE",
+      "verification_source": "baseline/baseline_truth_map.json baseline_weaknesses; architectural_narrative.md; architecture_truth_map.json CRI and CSI decisions.",
+      "reasoning": "The baseline mentioned this motif as an untested weakness but did not use it as the organizing explanation. Consultation turned the motif into the controlling investigation frame."
+    },
+    {
+      "conclusion": "FlexVolume was a real competing or preceding storage-extension path, but CSI won because FlexVolume did not solve deployment and dependency problems well enough.",
+      "status_before_consult": false,
+      "status_after_consult": true,
+      "strengthened_after_consult": true,
+      "discovered_after_consult": true,
+      "publicly_verified_afterward": true,
+      "consult_dependency": "MODERATE",
+      "verification_source": "lost_context_recovery.json fact 2; architecture_truth_map.json CSI competing_proposals and CSI-E1/CSI-E2.",
+      "reasoning": "Baseline did not inspect CSI competing proposals. The CSI-focused consult pushed the audit to recover FlexVolume as a necessary contradiction candidate, later verified from public CSI design/blog evidence."
+    },
+    {
+      "conclusion": "CSI migration preserved existing Kubernetes storage APIs while moving implementation to CSI drivers.",
+      "status_before_consult": false,
+      "status_after_consult": true,
+      "strengthened_after_consult": true,
+      "discovered_after_consult": true,
+      "publicly_verified_afterward": true,
+      "consult_dependency": "MODERATE",
+      "verification_source": "lost_context_recovery.json fact 3; architecture_truth_map.json CSI-E4; Kubernetes 1.25 CSI migration status update.",
+      "reasoning": "The baseline did not examine in-tree-to-CSI migration. Consultation shifted the search to hidden architecture change behind stable user-facing APIs."
+    },
+    {
+      "conclusion": "Server-Side Apply is important but not top-three in this reconstruction.",
+      "status_before_consult": false,
+      "status_after_consult": true,
+      "strengthened_after_consult": true,
+      "discovered_after_consult": true,
+      "publicly_verified_afterward": true,
+      "consult_dependency": "MODERATE",
+      "verification_source": "architecture_truth_map.json not_selected; memory_dependency_report.json abandoned_false_paths item 1.",
+      "reasoning": "The baseline ranked Server-Side Apply third. Consultation did not falsify SSA's importance; it changed the comparison frame, after which public CSI evidence made SSA a lower-ranked architectural repair."
+    },
+    {
+      "conclusion": "Consultation must be treated as advisory search-direction evidence, not as a historical source.",
+      "status_before_consult": true,
+      "status_after_consult": true,
+      "strengthened_after_consult": true,
+      "discovered_after_consult": false,
+      "publicly_verified_afterward": true,
+      "consult_dependency": "NONE",
+      "verification_source": "architecture_truth_map.json method.claim_boundary; consultation_log.jsonl; consult_005_final_contradiction_audit_response.json.",
+      "reasoning": "The proof already used public sources for historical claims. The final audit reinforced this boundary but did not originate it."
+    }
+  ]
+}

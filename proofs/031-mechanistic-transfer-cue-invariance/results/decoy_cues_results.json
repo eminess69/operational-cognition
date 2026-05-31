@@ -1,0 +1,1377 @@
+{
+  "accuracy": 1.0,
+  "answered_items": 6,
+  "correct_items": 6,
+  "deterministic_replay_match": true,
+  "execution_mode": "deterministic_cli_no_llm",
+  "fail_closed_items": 0,
+  "items": [
+    {
+      "answer": "The similar mechanism is SUPPORTED_ROTATION: rotation depends on a support interface that can fail through friction or wear.",
+      "basis": "SURFACE_NOUN",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 6,
+          "matched_role_count": 4,
+          "matched_roles": [
+            "rotation",
+            "support",
+            "friction",
+            "failure"
+          ],
+          "mechanism_id": "supported_rotation",
+          "score": 4.3
+        },
+        {
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "path"
+          ],
+          "mechanism_id": "flow",
+          "score": 1.05
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        }
+      ],
+      "component_category": "rotational support interface",
+      "confidence": 0.95,
+      "correct": true,
+      "decoy_words_present": [
+        "water",
+        "pipes",
+        "traffic"
+      ],
+      "designed_structure_features": [
+        "turning part",
+        "pivot",
+        "squeal",
+        "slowdown"
+      ],
+      "deterministic_replay_match": true,
+      "evidence_features": [
+        {
+          "matched_cues": [
+            "turns",
+            "fan"
+          ],
+          "motif": "Rotation",
+          "role_id": "rotation"
+        },
+        {
+          "matched_cues": [
+            "pivot"
+          ],
+          "motif": "Support",
+          "role_id": "support"
+        },
+        {
+          "matched_cues": [
+            "squeal"
+          ],
+          "motif": "Friction",
+          "role_id": "friction"
+        },
+        {
+          "matched_cues": [
+            "slows",
+            "slow"
+          ],
+          "motif": "Failure",
+          "role_id": "failure"
+        }
+      ],
+      "expected_mechanism": "supported_rotation",
+      "expected_status": "ANSWERED",
+      "fail_closed_reason": "",
+      "identified_mechanism": "supported_rotation",
+      "inspection_priority": "Inspect the rotational support interface: bearing, bushing, axle, shaft, mount, or hub.",
+      "matched_roles": [
+        {
+          "matched_cues": [
+            "turns",
+            "fan"
+          ],
+          "motif": "Rotation",
+          "role_id": "rotation",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "pivot"
+          ],
+          "motif": "Support",
+          "role_id": "support",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "squeal"
+          ],
+          "motif": "Friction",
+          "role_id": "friction",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "slows",
+            "slow"
+          ],
+          "motif": "Failure",
+          "role_id": "failure",
+          "weight": 1.0
+        }
+      ],
+      "mechanism_explanation": "The observed system has a rotating part whose support interface shows friction, wear, noise, or stoppage.",
+      "motif_lineage": [
+        {
+          "lesson_id": "MEC-L002",
+          "matched_cues": [
+            "turns",
+            "fan"
+          ],
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "motif": "Rotation",
+          "role_id": "rotation"
+        },
+        {
+          "lesson_id": "MEC-L002",
+          "matched_cues": [
+            "pivot"
+          ],
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "motif": "Support",
+          "role_id": "support"
+        },
+        {
+          "lesson_id": "MEC-L002",
+          "matched_cues": [
+            "squeal"
+          ],
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "motif": "Friction",
+          "role_id": "friction"
+        },
+        {
+          "lesson_id": "MEC-L002",
+          "matched_cues": [
+            "slows",
+            "slow"
+          ],
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "motif": "Failure",
+          "role_id": "failure"
+        }
+      ],
+      "observed_system": "The fan is in a room with water pipes and traffic nearby, but the fan itself turns at a pivot, slows down, and squeals.",
+      "question": "Observed system: The fan is in a room with water pipes and traffic nearby, but the fan itself turns at a pivot, slows down, and squeals. Question: What mechanism is similar?",
+      "question_id": "DC-001",
+      "rejected_mechanisms": [
+        {
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "path"
+          ],
+          "mechanism_id": "flow",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 1.05
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "SUPPORTED_ROTATION",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Rotation",
+            "Support",
+            "Friction",
+            "Failure"
+          ],
+          "lesson_id": "MEC-L002",
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "trace_expectation": "A mapped SUPPORTED_ROTATION answer must cite at least three of Rotation, Support, Friction, and Failure."
+        }
+      ],
+      "status": "ANSWERED",
+      "suite": "decoy_cues",
+      "supporting_motifs": [
+        "Rotation",
+        "Support",
+        "Friction",
+        "Failure"
+      ],
+      "transfer_confidence": 0.95
+    },
+    {
+      "answer": "The similar mechanism is FLOW: movement through a path is reduced by resistance.",
+      "basis": "RELATIONAL_STRUCTURE",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 8,
+          "matched_role_count": 4,
+          "matched_roles": [
+            "source",
+            "path",
+            "resistance",
+            "flow"
+          ],
+          "mechanism_id": "flow",
+          "score": 4.4
+        },
+        {
+          "matched_cue_count": 2,
+          "matched_role_count": 2,
+          "matched_roles": [
+            "load",
+            "distribution"
+          ],
+          "mechanism_id": "load_transfer",
+          "score": 2.1
+        },
+        {
+          "matched_cue_count": 2,
+          "matched_role_count": 2,
+          "matched_roles": [
+            "rotation",
+            "support"
+          ],
+          "mechanism_id": "supported_rotation",
+          "score": 2.1
+        }
+      ],
+      "component_category": "path/resistance interface",
+      "confidence": 0.95,
+      "correct": true,
+      "decoy_words_present": [
+        "wheels",
+        "bearings",
+        "bridge",
+        "loads"
+      ],
+      "designed_structure_features": [
+        "inlet",
+        "corridor",
+        "narrow exit",
+        "queues and progress drop"
+      ],
+      "deterministic_replay_match": true,
+      "evidence_features": [
+        {
+          "matched_cues": [
+            "inlet"
+          ],
+          "motif": "Source",
+          "role_id": "source"
+        },
+        {
+          "matched_cues": [
+            "corridor",
+            "hallway",
+            "through"
+          ],
+          "motif": "Path",
+          "role_id": "path"
+        },
+        {
+          "matched_cues": [
+            "narrow"
+          ],
+          "motif": "Resistance",
+          "role_id": "resistance"
+        },
+        {
+          "matched_cues": [
+            "progress",
+            "queue",
+            "queues"
+          ],
+          "motif": "Flow",
+          "role_id": "flow"
+        }
+      ],
+      "expected_mechanism": "flow",
+      "expected_status": "ANSWERED",
+      "fail_closed_reason": "",
+      "identified_mechanism": "flow",
+      "inspection_priority": "Inspect the highest-resistance segment of the path.",
+      "matched_roles": [
+        {
+          "matched_cues": [
+            "inlet"
+          ],
+          "motif": "Source",
+          "role_id": "source",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "corridor",
+            "hallway",
+            "through"
+          ],
+          "motif": "Path",
+          "role_id": "path",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "narrow"
+          ],
+          "motif": "Resistance",
+          "role_id": "resistance",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "progress",
+            "queue",
+            "queues"
+          ],
+          "motif": "Flow",
+          "role_id": "flow",
+          "weight": 1.0
+        }
+      ],
+      "mechanism_explanation": "The observed system has movement through a path plus a restriction that reduces movement.",
+      "motif_lineage": [
+        {
+          "lesson_id": "MEC-L001",
+          "matched_cues": [
+            "inlet"
+          ],
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "motif": "Source",
+          "role_id": "source"
+        },
+        {
+          "lesson_id": "MEC-L001",
+          "matched_cues": [
+            "corridor",
+            "hallway",
+            "through"
+          ],
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "motif": "Path",
+          "role_id": "path"
+        },
+        {
+          "lesson_id": "MEC-L001",
+          "matched_cues": [
+            "narrow"
+          ],
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "motif": "Resistance",
+          "role_id": "resistance"
+        },
+        {
+          "lesson_id": "MEC-L001",
+          "matched_cues": [
+            "progress",
+            "queue",
+            "queues"
+          ],
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "motif": "Flow",
+          "role_id": "flow"
+        }
+      ],
+      "observed_system": "The hallway has a display about wheels, bearings, and bridge loads, but people move from an inlet through the corridor; a narrow exit creates queues and progress drops.",
+      "question": "Observed system: The hallway has a display about wheels, bearings, and bridge loads, but people move from an inlet through the corridor; a narrow exit creates queues and progress drops. Question: What mechanism is similar?",
+      "question_id": "DC-002",
+      "rejected_mechanisms": [
+        {
+          "matched_cue_count": 2,
+          "matched_role_count": 2,
+          "matched_roles": [
+            "load",
+            "distribution"
+          ],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 2.1
+        },
+        {
+          "matched_cue_count": 2,
+          "matched_role_count": 2,
+          "matched_roles": [
+            "rotation",
+            "support"
+          ],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 2.1
+        }
+      ],
+      "source_mechanism": "FLOW",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Source",
+            "Path",
+            "Resistance",
+            "Flow"
+          ],
+          "lesson_id": "MEC-L001",
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "trace_expectation": "A mapped FLOW answer must cite at least three of Source, Path, Resistance, and Flow."
+        }
+      ],
+      "status": "ANSWERED",
+      "suite": "decoy_cues",
+      "supporting_motifs": [
+        "Source",
+        "Path",
+        "Resistance",
+        "Flow"
+      ],
+      "transfer_confidence": 0.95
+    },
+    {
+      "answer": "The similar mechanism is LOAD_TRANSFER: load must distribute through a path, and concentration creates failure risk.",
+      "basis": "SURFACE_NOUN",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 10,
+          "matched_role_count": 4,
+          "matched_roles": [
+            "load",
+            "distribution",
+            "concentration",
+            "failure"
+          ],
+          "mechanism_id": "load_transfer",
+          "score": 4.4
+        },
+        {
+          "matched_cue_count": 3,
+          "matched_role_count": 2,
+          "matched_roles": [
+            "path",
+            "flow"
+          ],
+          "mechanism_id": "flow",
+          "score": 2.15
+        },
+        {
+          "matched_cue_count": 2,
+          "matched_role_count": 2,
+          "matched_roles": [
+            "rotation",
+            "support"
+          ],
+          "mechanism_id": "supported_rotation",
+          "score": 2.1
+        }
+      ],
+      "component_category": "load path distribution element",
+      "confidence": 0.95,
+      "correct": true,
+      "decoy_words_present": [
+        "flow",
+        "path",
+        "pipe",
+        "fan",
+        "shaft"
+      ],
+      "designed_structure_features": [
+        "weight carried",
+        "posts",
+        "force concentration",
+        "bending and sagging"
+      ],
+      "deterministic_replay_match": true,
+      "evidence_features": [
+        {
+          "matched_cues": [
+            "heavy",
+            "force",
+            "carries",
+            "boxes"
+          ],
+          "motif": "Load",
+          "role_id": "load"
+        },
+        {
+          "matched_cues": [
+            "across",
+            "posts"
+          ],
+          "motif": "Distribution",
+          "role_id": "distribution"
+        },
+        {
+          "matched_cues": [
+            "bracket"
+          ],
+          "motif": "Concentration",
+          "role_id": "concentration"
+        },
+        {
+          "matched_cues": [
+            "bends",
+            "sag",
+            "sags"
+          ],
+          "motif": "Failure",
+          "role_id": "failure"
+        }
+      ],
+      "expected_mechanism": "load_transfer",
+      "expected_status": "ANSWERED",
+      "fail_closed_reason": "",
+      "identified_mechanism": "load_transfer",
+      "inspection_priority": "Inspect the load path and high-stress concentration points such as joints, anchors, brackets, supports, and overloaded members.",
+      "matched_roles": [
+        {
+          "matched_cues": [
+            "heavy",
+            "force",
+            "carries",
+            "boxes"
+          ],
+          "motif": "Load",
+          "role_id": "load",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "across",
+            "posts"
+          ],
+          "motif": "Distribution",
+          "role_id": "distribution",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "bracket"
+          ],
+          "motif": "Concentration",
+          "role_id": "concentration",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "bends",
+            "sag",
+            "sags"
+          ],
+          "motif": "Failure",
+          "role_id": "failure",
+          "weight": 1.0
+        }
+      ],
+      "mechanism_explanation": "The observed system carries load through supports, then fails where stress concentrates.",
+      "motif_lineage": [
+        {
+          "lesson_id": "MEC-L003",
+          "matched_cues": [
+            "heavy",
+            "force",
+            "carries",
+            "boxes"
+          ],
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "motif": "Load",
+          "role_id": "load"
+        },
+        {
+          "lesson_id": "MEC-L003",
+          "matched_cues": [
+            "across",
+            "posts"
+          ],
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "motif": "Distribution",
+          "role_id": "distribution"
+        },
+        {
+          "lesson_id": "MEC-L003",
+          "matched_cues": [
+            "bracket"
+          ],
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "motif": "Concentration",
+          "role_id": "concentration"
+        },
+        {
+          "lesson_id": "MEC-L003",
+          "matched_cues": [
+            "bends",
+            "sag",
+            "sags"
+          ],
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "motif": "Failure",
+          "role_id": "failure"
+        }
+      ],
+      "observed_system": "A poster nearby says flow path, pipe, fan, and shaft, but the shelf carries heavy boxes across posts; one bracket takes most force, bends, and sags.",
+      "question": "Observed system: A poster nearby says flow path, pipe, fan, and shaft, but the shelf carries heavy boxes across posts; one bracket takes most force, bends, and sags. Question: What mechanism is similar?",
+      "question_id": "DC-003",
+      "rejected_mechanisms": [
+        {
+          "matched_cue_count": 3,
+          "matched_role_count": 2,
+          "matched_roles": [
+            "path",
+            "flow"
+          ],
+          "mechanism_id": "flow",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 2.15
+        },
+        {
+          "matched_cue_count": 2,
+          "matched_role_count": 2,
+          "matched_roles": [
+            "rotation",
+            "support"
+          ],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 2.1
+        }
+      ],
+      "source_mechanism": "LOAD_TRANSFER",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Load",
+            "Distribution",
+            "Concentration",
+            "Failure"
+          ],
+          "lesson_id": "MEC-L003",
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "trace_expectation": "A mapped LOAD_TRANSFER answer must cite at least three of Load, Distribution, Concentration, and Failure."
+        }
+      ],
+      "status": "ANSWERED",
+      "suite": "decoy_cues",
+      "supporting_motifs": [
+        "Load",
+        "Distribution",
+        "Concentration",
+        "Failure"
+      ],
+      "transfer_confidence": 0.95
+    },
+    {
+      "answer": "The similar mechanism is SUPPORTED_ROTATION: rotation depends on a support interface that can fail through friction or wear.",
+      "basis": "SURFACE_NOUN",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 7,
+          "matched_role_count": 4,
+          "matched_roles": [
+            "rotation",
+            "support",
+            "friction",
+            "failure"
+          ],
+          "mechanism_id": "supported_rotation",
+          "score": 4.35
+        },
+        {
+          "matched_cue_count": 2,
+          "matched_role_count": 2,
+          "matched_roles": [
+            "path",
+            "resistance"
+          ],
+          "mechanism_id": "flow",
+          "score": 2.1
+        },
+        {
+          "matched_cue_count": 2,
+          "matched_role_count": 2,
+          "matched_roles": [
+            "load",
+            "concentration"
+          ],
+          "mechanism_id": "load_transfer",
+          "score": 2.1
+        }
+      ],
+      "component_category": "rotational support interface",
+      "confidence": 0.95,
+      "correct": true,
+      "decoy_words_present": [
+        "pipe",
+        "bottleneck",
+        "heavy",
+        "bracket"
+      ],
+      "designed_structure_features": [
+        "spinning part",
+        "mount",
+        "vibration and heat",
+        "stuck"
+      ],
+      "deterministic_replay_match": true,
+      "evidence_features": [
+        {
+          "matched_cues": [
+            "spins",
+            "spin",
+            "disk"
+          ],
+          "motif": "Rotation",
+          "role_id": "rotation"
+        },
+        {
+          "matched_cues": [
+            "mount"
+          ],
+          "motif": "Support",
+          "role_id": "support"
+        },
+        {
+          "matched_cues": [
+            "vibration",
+            "heat"
+          ],
+          "motif": "Friction",
+          "role_id": "friction"
+        },
+        {
+          "matched_cues": [
+            "stuck"
+          ],
+          "motif": "Failure",
+          "role_id": "failure"
+        }
+      ],
+      "expected_mechanism": "supported_rotation",
+      "expected_status": "ANSWERED",
+      "fail_closed_reason": "",
+      "identified_mechanism": "supported_rotation",
+      "inspection_priority": "Inspect the rotational support interface: bearing, bushing, axle, shaft, mount, or hub.",
+      "matched_roles": [
+        {
+          "matched_cues": [
+            "spins",
+            "spin",
+            "disk"
+          ],
+          "motif": "Rotation",
+          "role_id": "rotation",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "mount"
+          ],
+          "motif": "Support",
+          "role_id": "support",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "vibration",
+            "heat"
+          ],
+          "motif": "Friction",
+          "role_id": "friction",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "stuck"
+          ],
+          "motif": "Failure",
+          "role_id": "failure",
+          "weight": 1.0
+        }
+      ],
+      "mechanism_explanation": "The observed system has a rotating part whose support interface shows friction, wear, noise, or stoppage.",
+      "motif_lineage": [
+        {
+          "lesson_id": "MEC-L002",
+          "matched_cues": [
+            "spins",
+            "spin",
+            "disk"
+          ],
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "motif": "Rotation",
+          "role_id": "rotation"
+        },
+        {
+          "lesson_id": "MEC-L002",
+          "matched_cues": [
+            "mount"
+          ],
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "motif": "Support",
+          "role_id": "support"
+        },
+        {
+          "lesson_id": "MEC-L002",
+          "matched_cues": [
+            "vibration",
+            "heat"
+          ],
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "motif": "Friction",
+          "role_id": "friction"
+        },
+        {
+          "lesson_id": "MEC-L002",
+          "matched_cues": [
+            "stuck"
+          ],
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "motif": "Failure",
+          "role_id": "failure"
+        }
+      ],
+      "observed_system": "The assembly sits beside a pipe with a bottleneck and a heavy bracket, but the actual disk spins on a mount; vibration and heat appear, then it gets stuck.",
+      "question": "Observed system: The assembly sits beside a pipe with a bottleneck and a heavy bracket, but the actual disk spins on a mount; vibration and heat appear, then it gets stuck. Question: What mechanism is similar?",
+      "question_id": "DC-004",
+      "rejected_mechanisms": [
+        {
+          "matched_cue_count": 2,
+          "matched_role_count": 2,
+          "matched_roles": [
+            "path",
+            "resistance"
+          ],
+          "mechanism_id": "flow",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 2.1
+        },
+        {
+          "matched_cue_count": 2,
+          "matched_role_count": 2,
+          "matched_roles": [
+            "load",
+            "concentration"
+          ],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 2.1
+        }
+      ],
+      "source_mechanism": "SUPPORTED_ROTATION",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Rotation",
+            "Support",
+            "Friction",
+            "Failure"
+          ],
+          "lesson_id": "MEC-L002",
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "trace_expectation": "A mapped SUPPORTED_ROTATION answer must cite at least three of Rotation, Support, Friction, and Failure."
+        }
+      ],
+      "status": "ANSWERED",
+      "suite": "decoy_cues",
+      "supporting_motifs": [
+        "Rotation",
+        "Support",
+        "Friction",
+        "Failure"
+      ],
+      "transfer_confidence": 0.95
+    },
+    {
+      "answer": "The similar mechanism is FLOW: movement through a path is reduced by resistance.",
+      "basis": "RELATIONAL_STRUCTURE",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 8,
+          "matched_role_count": 4,
+          "matched_roles": [
+            "source",
+            "path",
+            "resistance",
+            "flow"
+          ],
+          "mechanism_id": "flow",
+          "score": 4.4
+        },
+        {
+          "matched_cue_count": 4,
+          "matched_role_count": 3,
+          "matched_roles": [
+            "rotation",
+            "support",
+            "friction"
+          ],
+          "mechanism_id": "supported_rotation",
+          "score": 3.2
+        },
+        {
+          "matched_cue_count": 3,
+          "matched_role_count": 2,
+          "matched_roles": [
+            "distribution",
+            "failure"
+          ],
+          "mechanism_id": "load_transfer",
+          "score": 2.15
+        }
+      ],
+      "component_category": "path/resistance interface",
+      "confidence": 0.95,
+      "correct": true,
+      "decoy_words_present": [
+        "squealing",
+        "fan",
+        "shaft",
+        "cracked",
+        "truss"
+      ],
+      "designed_structure_features": [
+        "sender",
+        "gateway",
+        "rate-limited step",
+        "queues and throughput drop"
+      ],
+      "deterministic_replay_match": true,
+      "evidence_features": [
+        {
+          "matched_cues": [
+            "sender"
+          ],
+          "motif": "Source",
+          "role_id": "source"
+        },
+        {
+          "matched_cues": [
+            "gateway",
+            "through"
+          ],
+          "motif": "Path",
+          "role_id": "path"
+        },
+        {
+          "matched_cues": [
+            "rate limited",
+            "rate limit"
+          ],
+          "motif": "Resistance",
+          "role_id": "resistance"
+        },
+        {
+          "matched_cues": [
+            "throughput",
+            "queue",
+            "queues"
+          ],
+          "motif": "Flow",
+          "role_id": "flow"
+        }
+      ],
+      "expected_mechanism": "flow",
+      "expected_status": "ANSWERED",
+      "fail_closed_reason": "",
+      "identified_mechanism": "flow",
+      "inspection_priority": "Inspect the highest-resistance segment of the path.",
+      "matched_roles": [
+        {
+          "matched_cues": [
+            "sender"
+          ],
+          "motif": "Source",
+          "role_id": "source",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "gateway",
+            "through"
+          ],
+          "motif": "Path",
+          "role_id": "path",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "rate limited",
+            "rate limit"
+          ],
+          "motif": "Resistance",
+          "role_id": "resistance",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "throughput",
+            "queue",
+            "queues"
+          ],
+          "motif": "Flow",
+          "role_id": "flow",
+          "weight": 1.0
+        }
+      ],
+      "mechanism_explanation": "The observed system has movement through a path plus a restriction that reduces movement.",
+      "motif_lineage": [
+        {
+          "lesson_id": "MEC-L001",
+          "matched_cues": [
+            "sender"
+          ],
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "motif": "Source",
+          "role_id": "source"
+        },
+        {
+          "lesson_id": "MEC-L001",
+          "matched_cues": [
+            "gateway",
+            "through"
+          ],
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "motif": "Path",
+          "role_id": "path"
+        },
+        {
+          "lesson_id": "MEC-L001",
+          "matched_cues": [
+            "rate limited",
+            "rate limit"
+          ],
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "motif": "Resistance",
+          "role_id": "resistance"
+        },
+        {
+          "lesson_id": "MEC-L001",
+          "matched_cues": [
+            "throughput",
+            "queue",
+            "queues"
+          ],
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "motif": "Flow",
+          "role_id": "flow"
+        }
+      ],
+      "observed_system": "The log mentions a squealing fan shaft and a cracked truss, but requests move from a sender through a gateway; one rate-limited step makes queues and lowers throughput.",
+      "question": "Observed system: The log mentions a squealing fan shaft and a cracked truss, but requests move from a sender through a gateway; one rate-limited step makes queues and lowers throughput. Question: What mechanism is similar?",
+      "question_id": "DC-005",
+      "rejected_mechanisms": [
+        {
+          "matched_cue_count": 4,
+          "matched_role_count": 3,
+          "matched_roles": [
+            "rotation",
+            "support",
+            "friction"
+          ],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 3.2
+        },
+        {
+          "matched_cue_count": 3,
+          "matched_role_count": 2,
+          "matched_roles": [
+            "distribution",
+            "failure"
+          ],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 2.15
+        }
+      ],
+      "source_mechanism": "FLOW",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Source",
+            "Path",
+            "Resistance",
+            "Flow"
+          ],
+          "lesson_id": "MEC-L001",
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "trace_expectation": "A mapped FLOW answer must cite at least three of Source, Path, Resistance, and Flow."
+        }
+      ],
+      "status": "ANSWERED",
+      "suite": "decoy_cues",
+      "supporting_motifs": [
+        "Source",
+        "Path",
+        "Resistance",
+        "Flow"
+      ],
+      "transfer_confidence": 0.95
+    },
+    {
+      "answer": "The similar mechanism is LOAD_TRANSFER: load must distribute through a path, and concentration creates failure risk.",
+      "basis": "RELATIONAL_STRUCTURE",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 7,
+          "matched_role_count": 4,
+          "matched_roles": [
+            "load",
+            "distribution",
+            "concentration",
+            "failure"
+          ],
+          "mechanism_id": "load_transfer",
+          "score": 4.35
+        },
+        {
+          "matched_cue_count": 3,
+          "matched_role_count": 3,
+          "matched_roles": [
+            "source",
+            "path",
+            "flow"
+          ],
+          "mechanism_id": "flow",
+          "score": 3.15
+        },
+        {
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "rotation"
+          ],
+          "mechanism_id": "supported_rotation",
+          "score": 1.05
+        }
+      ],
+      "component_category": "load path distribution element",
+      "confidence": 0.95,
+      "correct": true,
+      "decoy_words_present": [
+        "battery",
+        "current",
+        "spinning",
+        "rotor"
+      ],
+      "designed_structure_features": [
+        "pulling force",
+        "cables",
+        "force concentration at anchor",
+        "bending"
+      ],
+      "deterministic_replay_match": true,
+      "evidence_features": [
+        {
+          "matched_cues": [
+            "force",
+            "pull",
+            "pulls"
+          ],
+          "motif": "Load",
+          "role_id": "load"
+        },
+        {
+          "matched_cues": [
+            "through",
+            "cables"
+          ],
+          "motif": "Distribution",
+          "role_id": "distribution"
+        },
+        {
+          "matched_cues": [
+            "one anchor"
+          ],
+          "motif": "Concentration",
+          "role_id": "concentration"
+        },
+        {
+          "matched_cues": [
+            "bends"
+          ],
+          "motif": "Failure",
+          "role_id": "failure"
+        }
+      ],
+      "expected_mechanism": "load_transfer",
+      "expected_status": "ANSWERED",
+      "fail_closed_reason": "",
+      "identified_mechanism": "load_transfer",
+      "inspection_priority": "Inspect the load path and high-stress concentration points such as joints, anchors, brackets, supports, and overloaded members.",
+      "matched_roles": [
+        {
+          "matched_cues": [
+            "force",
+            "pull",
+            "pulls"
+          ],
+          "motif": "Load",
+          "role_id": "load",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "through",
+            "cables"
+          ],
+          "motif": "Distribution",
+          "role_id": "distribution",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "one anchor"
+          ],
+          "motif": "Concentration",
+          "role_id": "concentration",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "bends"
+          ],
+          "motif": "Failure",
+          "role_id": "failure",
+          "weight": 1.0
+        }
+      ],
+      "mechanism_explanation": "The observed system carries load through supports, then fails where stress concentrates.",
+      "motif_lineage": [
+        {
+          "lesson_id": "MEC-L003",
+          "matched_cues": [
+            "force",
+            "pull",
+            "pulls"
+          ],
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "motif": "Load",
+          "role_id": "load"
+        },
+        {
+          "lesson_id": "MEC-L003",
+          "matched_cues": [
+            "through",
+            "cables"
+          ],
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "motif": "Distribution",
+          "role_id": "distribution"
+        },
+        {
+          "lesson_id": "MEC-L003",
+          "matched_cues": [
+            "one anchor"
+          ],
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "motif": "Concentration",
+          "role_id": "concentration"
+        },
+        {
+          "lesson_id": "MEC-L003",
+          "matched_cues": [
+            "bends"
+          ],
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "motif": "Failure",
+          "role_id": "failure"
+        }
+      ],
+      "observed_system": "The note includes battery current and a spinning rotor, but the hanging panel pulls through cables; one anchor takes most force and the panel bends.",
+      "question": "Observed system: The note includes battery current and a spinning rotor, but the hanging panel pulls through cables; one anchor takes most force and the panel bends. Question: What mechanism is similar?",
+      "question_id": "DC-006",
+      "rejected_mechanisms": [
+        {
+          "matched_cue_count": 3,
+          "matched_role_count": 3,
+          "matched_roles": [
+            "source",
+            "path",
+            "flow"
+          ],
+          "mechanism_id": "flow",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 3.15
+        },
+        {
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "rotation"
+          ],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 1.05
+        }
+      ],
+      "source_mechanism": "LOAD_TRANSFER",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Load",
+            "Distribution",
+            "Concentration",
+            "Failure"
+          ],
+          "lesson_id": "MEC-L003",
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "trace_expectation": "A mapped LOAD_TRANSFER answer must cite at least three of Load, Distribution, Concentration, and Failure."
+        }
+      ],
+      "status": "ANSWERED",
+      "suite": "decoy_cues",
+      "supporting_motifs": [
+        "Load",
+        "Distribution",
+        "Concentration",
+        "Failure"
+      ],
+      "transfer_confidence": 0.95
+    }
+  ],
+  "pond_state": "proofs/031-mechanistic-transfer-cue-invariance/pond_states/mechanism_seasoned",
+  "proof_id": "031-mechanistic-transfer-cue-invariance",
+  "suite": "decoy_cues",
+  "total_items": 6
+}

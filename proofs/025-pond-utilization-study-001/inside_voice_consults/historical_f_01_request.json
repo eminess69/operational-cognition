@@ -1,0 +1,33 @@
+{
+  "context": {
+    "constraints": [
+      "Use /consult as advisory pressure only; public proof-pack artifacts carry evidence.",
+      "Return only bounded public-safe summaries, hashes, source refs, and claim pressure.",
+      "No hidden chain-of-thought, Inside Voice internals, Belief Ledger internals, or private substrate details.",
+      "A consult earns value only if it causes a valid direction change, contradiction recovery, evidence-cluster recovery, unsupported-claim reduction, lineage improvement, premature-convergence avoidance, or false-path abandonment.",
+      "Do not treat biomedical claims, historical claims, or software history claims as true unless they are verified in the supplied public artifacts."
+    ],
+    "desired_artifacts": [
+      "protocol_trials.jsonl",
+      "consult_effectiveness_matrix.json",
+      "consult_failure_taxonomy.json",
+      "best_practice_protocol.md",
+      "consult_prompt_patterns.md",
+      "pond_utilization_scorecard.json"
+    ],
+    "files": [
+      "proofs/022-challenger-causal-traceback/source_corpus.json",
+      "proofs/022-challenger-causal-traceback/evidence_graph.json",
+      "proofs/022-challenger-causal-traceback/causal_chain.json",
+      "proofs/022-challenger-causal-traceback/contradiction_map.json",
+      "proofs/022-challenger-causal-traceback/harmonic_traceback_report.json",
+      "proofs/022-challenger-causal-traceback/inside_voice_consults/mcp_consultation_record.json"
+    ],
+    "summary": "Source pack: proofs/022-challenger-causal-traceback. Starting question: Which Challenger causal traceback is source-backed, which weak signals must be preserved, and where are overclaim boundaries? Current controlled belief state: Evidence graph already supports right SRM aft field joint seal failure, cold O-ring risk, normalized anomalies, management reversal, and incomplete escalation. Risk is overclaiming cold weather or schedule pressure as standalone causes. Hostile scoring rule: do not credit generic advice, repeated baseline facts, confidence without evidence, unsourced motifs, or post-hoc validation."
+  },
+  "max_output_chars": 8000,
+  "mode": "synthesis",
+  "request_id": "025-pond-utilization-study-001-historical-f-01",
+  "require_lineage": true,
+  "task": "025-pond-utilization-study-001 Historical causal traceback Protocol F - Recovery Consult: I am stuck or have followed a failed path. What path should be recovered, what motif did I drop, what lineage is missing, and what should I revisit?"
+}

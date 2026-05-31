@@ -1,0 +1,510 @@
+{
+  "accuracy": 1.0,
+  "answered_items": 5,
+  "deterministic_replay_match": true,
+  "execution_mode": "deterministic_cli_no_llm",
+  "fail_closed_rate": 0.0,
+  "items": [
+    {
+      "answer": "7",
+      "concept": "simple_word_problems",
+      "concept_pathway": [
+        "counting",
+        "one_digit_addition",
+        "simple_word_problems"
+      ],
+      "confidence": 0.79,
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_answer": "7",
+      "expected_composition_depth": 1,
+      "expected_status": "ANSWERED",
+      "fragility_classification": "STRUCTURE_REUSE",
+      "motif_lineage": [
+        {
+          "concept": "counting",
+          "grade": 1,
+          "lesson_id": "G1-L001",
+          "motif_id": "g1_counting_sequence"
+        },
+        {
+          "concept": "one_digit_addition",
+          "grade": 1,
+          "lesson_id": "G1-L002",
+          "motif_id": "g1_count_forward_addition"
+        },
+        {
+          "concept": "simple_word_problems",
+          "grade": 1,
+          "lesson_id": "G1-L006",
+          "motif_id": "g1_word_problem_operation_mapping"
+        }
+      ],
+      "question": "There are 4 red apples, 3 green apples, and 2 empty baskets. How many apples are there?",
+      "question_id": "DQ-001",
+      "requires_transfer": true,
+      "source_lessons": [
+        "G1-L001",
+        "G1-L002",
+        "G1-L006"
+      ],
+      "source_tracebacks": [
+        {
+          "concept": "counting",
+          "expected_motif": "g1_counting_sequence",
+          "lesson_id": "G1-L001",
+          "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+          "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+        },
+        {
+          "concept": "one_digit_addition",
+          "expected_motif": "g1_count_forward_addition",
+          "lesson_id": "G1-L002",
+          "rule": "One-digit addition combines two one-digit quantities by counting forward the second amount.",
+          "trace_expectation": "An addition answer must cite a one-digit addition motif and any counting dependency."
+        },
+        {
+          "concept": "simple_word_problems",
+          "expected_motif": "g1_word_problem_operation_mapping",
+          "lesson_id": "G1-L006",
+          "rule": "Simple word problems map 'more' language to addition and 'give away' or 'fly away' language to subtraction.",
+          "trace_expectation": "A word-problem answer must cite the language-to-operation motif plus the arithmetic motif used."
+        }
+      ],
+      "status": "ANSWERED",
+      "suite": "distractor",
+      "surface_variation": "irrelevant_empty_baskets",
+      "traceback_complete": true,
+      "used_motifs": [
+        "g1_count_forward_addition",
+        "g1_counting_sequence",
+        "g1_word_problem_operation_mapping"
+      ],
+      "used_pathways": [
+        "pathway:counting->one_digit_addition->simple_word_problems",
+        "pathway:g1_counting->g1_one_digit_addition",
+        "pathway:g1_counting_sequence",
+        "pathway:g1_language_to_operation"
+      ]
+    },
+    {
+      "answer": "17",
+      "concept": "two_digit_addition_without_carrying",
+      "concept_pathway": [
+        "counting",
+        "one_digit_addition",
+        "place_value",
+        "two_digit_addition_without_carrying",
+        "simple_word_problems"
+      ],
+      "confidence": 0.95,
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_answer": "17",
+      "expected_composition_depth": 1,
+      "expected_status": "ANSWERED",
+      "fragility_classification": "STRUCTURE_REUSE",
+      "motif_lineage": [
+        {
+          "concept": "counting",
+          "grade": 1,
+          "lesson_id": "G1-L001",
+          "motif_id": "g1_counting_sequence"
+        },
+        {
+          "concept": "one_digit_addition",
+          "grade": 1,
+          "lesson_id": "G1-L002",
+          "motif_id": "g1_count_forward_addition"
+        },
+        {
+          "concept": "place_value",
+          "grade": 2,
+          "lesson_id": "G2-L003",
+          "motif_id": "g2_tens_ones_place_value"
+        },
+        {
+          "concept": "two_digit_addition_without_carrying",
+          "grade": 2,
+          "lesson_id": "G2-L001",
+          "motif_id": "g2_no_carry_column_addition"
+        },
+        {
+          "concept": "simple_word_problems",
+          "grade": 1,
+          "lesson_id": "G1-L006",
+          "motif_id": "g1_word_problem_operation_mapping"
+        }
+      ],
+      "question": "A class has 12 pencils, 5 erasers, and 3 rulers. How many pencils and erasers together?",
+      "question_id": "DQ-002",
+      "requires_transfer": true,
+      "source_lessons": [
+        "G1-L001",
+        "G1-L002",
+        "G1-L006",
+        "G2-L001",
+        "G2-L003"
+      ],
+      "source_tracebacks": [
+        {
+          "concept": "counting",
+          "expected_motif": "g1_counting_sequence",
+          "lesson_id": "G1-L001",
+          "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+          "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+        },
+        {
+          "concept": "one_digit_addition",
+          "expected_motif": "g1_count_forward_addition",
+          "lesson_id": "G1-L002",
+          "rule": "One-digit addition combines two one-digit quantities by counting forward the second amount.",
+          "trace_expectation": "An addition answer must cite a one-digit addition motif and any counting dependency."
+        },
+        {
+          "concept": "place_value",
+          "expected_motif": "g2_tens_ones_place_value",
+          "lesson_id": "G2-L003",
+          "rule": "In a two-digit number, the left digit counts tens and the right digit counts ones.",
+          "trace_expectation": "A place-value answer must cite the tens-and-ones motif and counting sequence motif."
+        },
+        {
+          "concept": "two_digit_addition_without_carrying",
+          "expected_motif": "g2_no_carry_column_addition",
+          "lesson_id": "G2-L001",
+          "rule": "Add ones to ones and tens to tens when the ones sum stays below ten.",
+          "trace_expectation": "A two-digit addition answer must cite place value, one-digit addition, and this no-carry motif."
+        },
+        {
+          "concept": "simple_word_problems",
+          "expected_motif": "g1_word_problem_operation_mapping",
+          "lesson_id": "G1-L006",
+          "rule": "Simple word problems map 'more' language to addition and 'give away' or 'fly away' language to subtraction.",
+          "trace_expectation": "A word-problem answer must cite the language-to-operation motif plus the arithmetic motif used."
+        }
+      ],
+      "status": "ANSWERED",
+      "suite": "distractor",
+      "surface_variation": "select_two_named_quantities",
+      "traceback_complete": true,
+      "used_motifs": [
+        "g1_count_forward_addition",
+        "g1_counting_sequence",
+        "g1_word_problem_operation_mapping",
+        "g2_no_carry_column_addition",
+        "g2_tens_ones_place_value"
+      ],
+      "used_pathways": [
+        "pathway:counting->one_digit_addition->place_value->two_digit_addition_without_carrying->simple_word_problems",
+        "pathway:g1_addition->g2_place_value->g2_no_carry_addition",
+        "pathway:g1_counting->g1_one_digit_addition",
+        "pathway:g1_counting->g2_tens_ones_place_value",
+        "pathway:g1_counting_sequence",
+        "pathway:g1_language_to_operation"
+      ]
+    },
+    {
+      "answer": "8",
+      "concept": "simple_word_problems",
+      "concept_pathway": [
+        "counting",
+        "one_digit_addition",
+        "simple_word_problems"
+      ],
+      "confidence": 0.79,
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_answer": "8",
+      "expected_composition_depth": 1,
+      "expected_status": "ANSWERED",
+      "fragility_classification": "STRUCTURE_REUSE",
+      "motif_lineage": [
+        {
+          "concept": "counting",
+          "grade": 1,
+          "lesson_id": "G1-L001",
+          "motif_id": "g1_counting_sequence"
+        },
+        {
+          "concept": "one_digit_addition",
+          "grade": 1,
+          "lesson_id": "G1-L002",
+          "motif_id": "g1_count_forward_addition"
+        },
+        {
+          "concept": "simple_word_problems",
+          "grade": 1,
+          "lesson_id": "G1-L006",
+          "motif_id": "g1_word_problem_operation_mapping"
+        }
+      ],
+      "question": "There are 6 blue cars, 2 red cars, and 5 bikes. How many cars are there?",
+      "question_id": "DQ-003",
+      "requires_transfer": true,
+      "source_lessons": [
+        "G1-L001",
+        "G1-L002",
+        "G1-L006"
+      ],
+      "source_tracebacks": [
+        {
+          "concept": "counting",
+          "expected_motif": "g1_counting_sequence",
+          "lesson_id": "G1-L001",
+          "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+          "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+        },
+        {
+          "concept": "one_digit_addition",
+          "expected_motif": "g1_count_forward_addition",
+          "lesson_id": "G1-L002",
+          "rule": "One-digit addition combines two one-digit quantities by counting forward the second amount.",
+          "trace_expectation": "An addition answer must cite a one-digit addition motif and any counting dependency."
+        },
+        {
+          "concept": "simple_word_problems",
+          "expected_motif": "g1_word_problem_operation_mapping",
+          "lesson_id": "G1-L006",
+          "rule": "Simple word problems map 'more' language to addition and 'give away' or 'fly away' language to subtraction.",
+          "trace_expectation": "A word-problem answer must cite the language-to-operation motif plus the arithmetic motif used."
+        }
+      ],
+      "status": "ANSWERED",
+      "suite": "distractor",
+      "surface_variation": "category_filtering",
+      "traceback_complete": true,
+      "used_motifs": [
+        "g1_count_forward_addition",
+        "g1_counting_sequence",
+        "g1_word_problem_operation_mapping"
+      ],
+      "used_pathways": [
+        "pathway:counting->one_digit_addition->simple_word_problems",
+        "pathway:g1_counting->g1_one_digit_addition",
+        "pathway:g1_counting_sequence",
+        "pathway:g1_language_to_operation"
+      ]
+    },
+    {
+      "answer": "15",
+      "concept": "two_digit_subtraction_without_borrowing",
+      "concept_pathway": [
+        "counting",
+        "one_digit_subtraction",
+        "place_value",
+        "two_digit_subtraction_without_borrowing",
+        "simple_word_problems"
+      ],
+      "confidence": 0.95,
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_answer": "15",
+      "expected_composition_depth": 1,
+      "expected_status": "ANSWERED",
+      "fragility_classification": "STRUCTURE_REUSE",
+      "motif_lineage": [
+        {
+          "concept": "counting",
+          "grade": 1,
+          "lesson_id": "G1-L001",
+          "motif_id": "g1_counting_sequence"
+        },
+        {
+          "concept": "one_digit_subtraction",
+          "grade": 1,
+          "lesson_id": "G1-L003",
+          "motif_id": "g1_take_away_subtraction"
+        },
+        {
+          "concept": "place_value",
+          "grade": 2,
+          "lesson_id": "G2-L003",
+          "motif_id": "g2_tens_ones_place_value"
+        },
+        {
+          "concept": "two_digit_subtraction_without_borrowing",
+          "grade": 2,
+          "lesson_id": "G2-L002",
+          "motif_id": "g2_no_borrow_column_subtraction"
+        },
+        {
+          "concept": "simple_word_problems",
+          "grade": 1,
+          "lesson_id": "G1-L006",
+          "motif_id": "g1_word_problem_operation_mapping"
+        }
+      ],
+      "question": "Mia has 18 stickers, gives 3 stickers to Lee, and sees 4 stamps. How many stickers does Mia have now?",
+      "question_id": "DQ-004",
+      "requires_transfer": true,
+      "source_lessons": [
+        "G1-L001",
+        "G1-L003",
+        "G1-L006",
+        "G2-L002",
+        "G2-L003"
+      ],
+      "source_tracebacks": [
+        {
+          "concept": "counting",
+          "expected_motif": "g1_counting_sequence",
+          "lesson_id": "G1-L001",
+          "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+          "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+        },
+        {
+          "concept": "one_digit_subtraction",
+          "expected_motif": "g1_take_away_subtraction",
+          "lesson_id": "G1-L003",
+          "rule": "One-digit subtraction removes the second one-digit quantity from the first and counts what remains.",
+          "trace_expectation": "A subtraction answer must cite a take-away motif and any counting dependency."
+        },
+        {
+          "concept": "place_value",
+          "expected_motif": "g2_tens_ones_place_value",
+          "lesson_id": "G2-L003",
+          "rule": "In a two-digit number, the left digit counts tens and the right digit counts ones.",
+          "trace_expectation": "A place-value answer must cite the tens-and-ones motif and counting sequence motif."
+        },
+        {
+          "concept": "two_digit_subtraction_without_borrowing",
+          "expected_motif": "g2_no_borrow_column_subtraction",
+          "lesson_id": "G2-L002",
+          "rule": "Subtract ones from ones and tens from tens when each top digit is at least the matching bottom digit.",
+          "trace_expectation": "A two-digit subtraction answer must cite place value, one-digit subtraction, and this no-borrow motif."
+        },
+        {
+          "concept": "simple_word_problems",
+          "expected_motif": "g1_word_problem_operation_mapping",
+          "lesson_id": "G1-L006",
+          "rule": "Simple word problems map 'more' language to addition and 'give away' or 'fly away' language to subtraction.",
+          "trace_expectation": "A word-problem answer must cite the language-to-operation motif plus the arithmetic motif used."
+        }
+      ],
+      "status": "ANSWERED",
+      "suite": "distractor",
+      "surface_variation": "ignore_unrelated_stamp_quantity",
+      "traceback_complete": true,
+      "used_motifs": [
+        "g1_counting_sequence",
+        "g1_take_away_subtraction",
+        "g1_word_problem_operation_mapping",
+        "g2_no_borrow_column_subtraction",
+        "g2_tens_ones_place_value"
+      ],
+      "used_pathways": [
+        "pathway:counting->one_digit_subtraction->place_value->two_digit_subtraction_without_borrowing->simple_word_problems",
+        "pathway:g1_counting->g1_one_digit_subtraction",
+        "pathway:g1_counting->g2_tens_ones_place_value",
+        "pathway:g1_counting_sequence",
+        "pathway:g1_language_to_operation",
+        "pathway:g1_subtraction->g2_place_value->g2_no_borrow_subtraction"
+      ]
+    },
+    {
+      "answer": "12",
+      "concept": "multiplication_as_repeated_addition",
+      "concept_pathway": [
+        "counting",
+        "one_digit_addition",
+        "multiplication_as_repeated_addition",
+        "simple_word_problems"
+      ],
+      "confidence": 0.87,
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_answer": "12",
+      "expected_composition_depth": 1,
+      "expected_status": "ANSWERED",
+      "fragility_classification": "STRUCTURE_REUSE",
+      "motif_lineage": [
+        {
+          "concept": "counting",
+          "grade": 1,
+          "lesson_id": "G1-L001",
+          "motif_id": "g1_counting_sequence"
+        },
+        {
+          "concept": "one_digit_addition",
+          "grade": 1,
+          "lesson_id": "G1-L002",
+          "motif_id": "g1_count_forward_addition"
+        },
+        {
+          "concept": "multiplication_as_repeated_addition",
+          "grade": 2,
+          "lesson_id": "G2-L005",
+          "motif_id": "g2_equal_groups_repeated_addition"
+        },
+        {
+          "concept": "simple_word_problems",
+          "grade": 1,
+          "lesson_id": "G1-L006",
+          "motif_id": "g1_word_problem_operation_mapping"
+        }
+      ],
+      "question": "A shelf has 3 boxes with 4 books each and 2 empty boxes. How many books are on the shelf?",
+      "question_id": "DQ-005",
+      "requires_transfer": true,
+      "source_lessons": [
+        "G1-L001",
+        "G1-L002",
+        "G1-L006",
+        "G2-L005"
+      ],
+      "source_tracebacks": [
+        {
+          "concept": "counting",
+          "expected_motif": "g1_counting_sequence",
+          "lesson_id": "G1-L001",
+          "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+          "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+        },
+        {
+          "concept": "one_digit_addition",
+          "expected_motif": "g1_count_forward_addition",
+          "lesson_id": "G1-L002",
+          "rule": "One-digit addition combines two one-digit quantities by counting forward the second amount.",
+          "trace_expectation": "An addition answer must cite a one-digit addition motif and any counting dependency."
+        },
+        {
+          "concept": "multiplication_as_repeated_addition",
+          "expected_motif": "g2_equal_groups_repeated_addition",
+          "lesson_id": "G2-L005",
+          "rule": "Multiplication with whole-number groups is repeated addition of equal group sizes.",
+          "trace_expectation": "A multiplication answer must cite repeated addition plus Grade 1 addition and counting motifs."
+        },
+        {
+          "concept": "simple_word_problems",
+          "expected_motif": "g1_word_problem_operation_mapping",
+          "lesson_id": "G1-L006",
+          "rule": "Simple word problems map 'more' language to addition and 'give away' or 'fly away' language to subtraction.",
+          "trace_expectation": "A word-problem answer must cite the language-to-operation motif plus the arithmetic motif used."
+        }
+      ],
+      "status": "ANSWERED",
+      "suite": "distractor",
+      "surface_variation": "ignore_empty_equal_groups",
+      "traceback_complete": true,
+      "used_motifs": [
+        "g1_count_forward_addition",
+        "g1_counting_sequence",
+        "g1_word_problem_operation_mapping",
+        "g2_equal_groups_repeated_addition"
+      ],
+      "used_pathways": [
+        "pathway:counting->one_digit_addition->multiplication_as_repeated_addition->simple_word_problems",
+        "pathway:g1_addition->g2_equal_groups_repeated_addition",
+        "pathway:g1_counting->g1_one_digit_addition",
+        "pathway:g1_counting_sequence",
+        "pathway:g1_language_to_operation"
+      ]
+    }
+  ],
+  "pond_state": "proofs/028-developmental-learning-grade-ladder/pond_states/grade_2",
+  "proof_id": "029-developmental-learning-surface-robustness",
+  "suite": "distractor",
+  "total_items": 5,
+  "traceback_completeness": 1.0,
+  "unsupported_answers": 0
+}

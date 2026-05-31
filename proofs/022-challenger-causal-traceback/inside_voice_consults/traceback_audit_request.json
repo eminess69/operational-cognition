@@ -1,0 +1,83 @@
+{
+  "request_id": "proof-022-challenger-traceback-audit-001",
+  "task": "Audit the Challenger causal traceback proof pack for unsupported major causal links, missing contradiction handling, weak source lineage, and overclaim risk. Do not restate the full report. Return only public-safe audit findings, required corrections if any, confidence cautions, and claim-boundary warnings.",
+  "context": {
+    "summary": "Truth Reconstruction Challenge 001 asks for evidence-preserving reconstruction of the Challenger disaster causal chain. The current proof pack derives a chain from NASA Rogers Commission public report chapters, appendices, hearing testimony, and embedded NASA/Thiokol records. Major conclusion: known SRM field-joint seal vulnerability plus cold-weather O-ring sealing risk, normalized through repeated prior anomalies, then converted into launch approval by flawed communication and management reversal, caused a right SRB aft field-joint hot-gas leak, External Tank breach, and vehicle breakup.",
+    "files": [
+      "proofs/022-challenger-causal-traceback/source_corpus.json",
+      "proofs/022-challenger-causal-traceback/evidence_graph.json",
+      "proofs/022-challenger-causal-traceback/causal_chain.json",
+      "proofs/022-challenger-causal-traceback/contradiction_map.json",
+      "proofs/022-challenger-causal-traceback/harmonic_traceback_report.json",
+      "proofs/022-challenger-causal-traceback/final_verdict.md",
+      "proofs/022-challenger-causal-traceback/public_lineage_summary.md",
+      "proofs/022-challenger-causal-traceback/proof_manifest.json"
+    ],
+    "major_conclusion_ids": [
+      "MC-001 immediate physical cause",
+      "MC-002 contributing engineering causes",
+      "MC-003 contributing organizational causes",
+      "MC-004 contributing decision-making failures",
+      "MC-005 earliest observable warning signals",
+      "MC-006 most important causal pathway"
+    ],
+    "evidence_ids": [
+      "EV-001 smoke from right SRB aft field joint",
+      "EV-002 flame plume and External Tank impingement",
+      "EV-003 right SRM joint seal failure",
+      "EV-004 record-cold launch and low O-ring temperature",
+      "EV-005 delayed O-ring recovery and blow-by",
+      "EV-006 prior temperature/distress pattern",
+      "EV-007 Thiokol engineering no-launch recommendation",
+      "EV-008 NASA challenge and Thiokol management reversal",
+      "EV-009 incomplete launch-decision information",
+      "EV-010 faulty/poorly understood SRM joint design",
+      "EV-011 silent safety program",
+      "EV-012 criticality/redundancy misunderstanding",
+      "EV-013 launch-constraint/anomaly tracking failure",
+      "EV-014 schedule and operational pressure",
+      "EV-015 interacting technical variables",
+      "EV-016 burden-of-proof reversal",
+      "EV-017 pad ice as context but not physical cause",
+      "EV-018 earliest warning progression",
+      "EV-019 normalization of prior anomalies",
+      "EV-020 strongest integrated causal pathway"
+    ],
+    "contradiction_ids": [
+      "CT-001 conflicting launch recommendations",
+      "CT-002 uncertainty treated as launch-permissive vs delay-permissive",
+      "CT-003 secondary seal redundancy conflict",
+      "CT-004 launch constraint process conflict",
+      "CT-005 prior anomalies as warnings vs acceptable experience",
+      "CT-006 denominator/temperature analysis conflict",
+      "CT-007 formal safety structure vs absent safety participation",
+      "CT-008 operational schedule posture vs strained developmental reality",
+      "CT-009 pad ice concern vs SRM physical cause",
+      "CT-010 qualification/bulk-temperature vs local O-ring condition",
+      "CT-011 reliability estimate divergence"
+    ],
+    "constraints": [
+      "public-safe audit only",
+      "do not disclose hidden chain-of-thought",
+      "do not disclose Inside Voice internals",
+      "do not claim AGI, consciousness, black-box solving, or global cognition capability",
+      "do not promote unsupported causal links",
+      "preserve contradictions rather than flattening them",
+      "separate physical cause from decision-context factors",
+      "treat schedule pressure as contributing context unless evidence supports stronger wording",
+      "treat exact micro-mechanical variables as partly unresolved where source evidence is not conclusive"
+    ],
+    "desired_artifacts": [
+      "audit verdict",
+      "unsupported-link findings",
+      "missing-lineage findings",
+      "contradiction-handling findings",
+      "confidence cautions",
+      "public claim-boundary warnings",
+      "required corrections before publishing"
+    ]
+  },
+  "mode": "audit",
+  "max_output_chars": 8000,
+  "require_lineage": true
+}

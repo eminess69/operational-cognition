@@ -1,0 +1,252 @@
+{
+  "correct_items": 4,
+  "deterministic_replay_match": true,
+  "execution_mode": "deterministic_cli_no_llm",
+  "expected_identified_items": 0,
+  "fail_closed_items": 4,
+  "fail_closed_rate": 1.0,
+  "identified_items": 0,
+  "items": [
+    {
+      "answer": "",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "failure"
+          ],
+          "mechanism_id": "supported_rotation",
+          "score": 1.05
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        }
+      ],
+      "component_category": "",
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_component_category": "",
+      "expected_mechanism": "",
+      "expected_status": "FAIL_CLOSED",
+      "fail_closed_reason": "insufficient_motif_support",
+      "hidden_mechanism_name": true,
+      "identified_mechanism": "",
+      "inspection_priority": "",
+      "mapping_output": {
+        "identified_mechanism": "",
+        "observed_system": "A password is forgotten and the login fails.",
+        "source_mechanism": "",
+        "supporting_motifs": [],
+        "transfer_confidence": 0.0
+      },
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_support_count": 0,
+      "observed_system": "A password is forgotten and the login fails.",
+      "question": "Observed system: A password is forgotten and the login fails. Question: What mechanism is similar?",
+      "question_id": "FC-001",
+      "requires_transfer": false,
+      "source_domain": "",
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "suite": "fail_closed",
+      "supporting_motifs": [],
+      "target_domain": "login",
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "component_category": "",
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_component_category": "",
+      "expected_mechanism": "",
+      "expected_status": "FAIL_CLOSED",
+      "fail_closed_reason": "insufficient_motif_support",
+      "hidden_mechanism_name": true,
+      "identified_mechanism": "",
+      "inspection_priority": "",
+      "mapping_output": {
+        "identified_mechanism": "",
+        "observed_system": "A plant leans toward a window after several days.",
+        "source_mechanism": "",
+        "supporting_motifs": [],
+        "transfer_confidence": 0.0
+      },
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_support_count": 0,
+      "observed_system": "A plant leans toward a window after several days.",
+      "question": "Observed system: A plant leans toward a window after several days. Question: What component category is involved?",
+      "question_id": "FC-002",
+      "requires_transfer": false,
+      "source_domain": "",
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "suite": "fail_closed",
+      "supporting_motifs": [],
+      "target_domain": "plant_growth",
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "component_category": "",
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_component_category": "",
+      "expected_mechanism": "",
+      "expected_status": "FAIL_CLOSED",
+      "fail_closed_reason": "insufficient_motif_support",
+      "hidden_mechanism_name": true,
+      "identified_mechanism": "",
+      "inspection_priority": "",
+      "mapping_output": {
+        "identified_mechanism": "",
+        "observed_system": "A recipe tastes too salty after extra seasoning.",
+        "source_mechanism": "",
+        "supporting_motifs": [],
+        "transfer_confidence": 0.0
+      },
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_support_count": 0,
+      "observed_system": "A recipe tastes too salty after extra seasoning.",
+      "question": "Observed system: A recipe tastes too salty after extra seasoning. Question: What mechanism is similar?",
+      "question_id": "FC-003",
+      "requires_transfer": false,
+      "source_domain": "",
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "suite": "fail_closed",
+      "supporting_motifs": [],
+      "target_domain": "recipe",
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "failure"
+          ],
+          "mechanism_id": "supported_rotation",
+          "score": 1.05
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        }
+      ],
+      "component_category": "",
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_component_category": "",
+      "expected_mechanism": "",
+      "expected_status": "FAIL_CLOSED",
+      "fail_closed_reason": "insufficient_motif_support",
+      "hidden_mechanism_name": true,
+      "identified_mechanism": "",
+      "inspection_priority": "",
+      "mapping_output": {
+        "identified_mechanism": "",
+        "observed_system": "The device is slow.",
+        "source_mechanism": "",
+        "supporting_motifs": [],
+        "transfer_confidence": 0.0
+      },
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_support_count": 0,
+      "observed_system": "The device is slow.",
+      "question": "Observed system: The device is slow. Question: What mechanism is similar?",
+      "question_id": "FC-004",
+      "requires_transfer": false,
+      "source_domain": "",
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "suite": "fail_closed",
+      "supporting_motifs": [],
+      "target_domain": "underspecified_device",
+      "transfer_confidence": 0.0
+    }
+  ],
+  "mechanism_transfer_rate": null,
+  "phase": "fail_closed_test",
+  "pond_state": "mechanism_seasoned",
+  "proof_id": "030-mechanistic-transfer-challenge",
+  "total_items": 4
+}

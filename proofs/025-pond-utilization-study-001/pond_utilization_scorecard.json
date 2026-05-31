@@ -1,0 +1,11 @@
+{
+  "best_protocol": "Protocol E - Contradiction-First Consult",
+  "highest_value_consult_question": "What would make my leading conclusion wrong, which evidence cluster conflicts with it, and what source lineage would falsify it?",
+  "lowest_value_consult_question": "What blind spots should I avoid?",
+  "overall_verdict": "USEFUL_WITH_LIMITS",
+  "recommended_default": "Use Protocol E at decision gates, Protocol F only when a concrete failed path appears, and Protocol B as a final audit.",
+  "recommended_for_audit_tasks": "Protocol B late audit, scored only as unsupported-claim reduction or lineage validation.",
+  "recommended_for_science_tasks": "Protocol E for contradiction legitimacy and claim-boundary pressure; do not credit domain recovery without public source IDs.",
+  "recommended_for_software_tasks": "Protocol F recovery or Protocol E contradiction-first when a ranking or architecture motif feels under-tested.",
+  "worst_protocol": "Protocol C - Early Planning Consult"
+}

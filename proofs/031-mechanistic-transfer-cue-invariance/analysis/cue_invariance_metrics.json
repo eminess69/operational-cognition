@@ -1,0 +1,13 @@
+{
+  "ambiguous_fail_closed_rate": 1.0,
+  "cue_match_rate": 0.125,
+  "cue_removed_accuracy": 1.0,
+  "cue_swapped_accuracy": 1.0,
+  "decoy_cue_accuracy": 1.0,
+  "decoy_failure_rate": 0.0,
+  "deterministic_replay_match": true,
+  "neutral_physics_accuracy": 1.0,
+  "proof_id": "031-mechanistic-transfer-cue-invariance",
+  "structure_match_rate": 0.875,
+  "unsupported_answer_count": 0
+}

@@ -1,0 +1,52 @@
+{
+  "attacks": [
+    {
+      "attack": "placeholders",
+      "evidence": "classification_counts={'PLACEHOLDER': 68}; metadata_adapter_status=placeholder",
+      "survives": true
+    },
+    {
+      "attack": "scaffolding",
+      "evidence": "No row passed the pond-backed proof gate.",
+      "survives": true
+    },
+    {
+      "attack": "local fallback",
+      "evidence": "No transport-error fallback rows observed.",
+      "survives": false
+    },
+    {
+      "attack": "pass-through behavior",
+      "evidence": "Consults returned no independent motif/lineage recall artifacts.",
+      "survives": true
+    },
+    {
+      "attack": "hardcoded mechanism IDs",
+      "evidence": "Blind inputs did not classify seasoned mechanisms above chance.",
+      "survives": true
+    },
+    {
+      "attack": "generic consult text",
+      "evidence": "Returned summaries are insufficient without pond-backed lineage and motifs.",
+      "survives": true
+    }
+  ],
+  "final_verdict": {
+    "hostile_verdict": "FAIL: current MCP responses did not produce stable pond-backed mechanism recall; placeholder or non-pond-backed behavior remains the sufficient explanation.",
+    "pond_backed_recall_exists": false,
+    "remaining_placeholder_explanation": true,
+    "remaining_scaffold_explanation": true,
+    "stable_motif_recall_exists": false,
+    "traceable_lineage_exists": false
+  },
+  "phase": "phase_8_hostile_audit",
+  "proof_id": "035-mcp-pond-reality-audit",
+  "supporting_audits": {
+    "blind_evaluation": "Blind artifacts did not identify seasoned mechanisms above chance.",
+    "empty_pond": "No pond-backed mechanism structure was observed in the empty-pond phase.",
+    "flow_recall": "INVALID_AS_POND_BACKED",
+    "incremental_growth": "No incremental pond growth was observed.",
+    "negative_recall": true,
+    "stability": "Responses were byte-stable only at the placeholder transport layer; no pond motif or lineage stability exists."
+  }
+}

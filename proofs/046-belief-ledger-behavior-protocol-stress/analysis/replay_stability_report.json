@@ -1,0 +1,116 @@
+[
+  {
+    "all_hashes_match": true,
+    "lineage_hashes_match": true,
+    "mode": "recall",
+    "motif_sets_match": true,
+    "response_hashes": [
+      "5d6ca3840e543c29a9879aea744ed088930267ed8959655e0829c2aad96bbe03",
+      "5d6ca3840e543c29a9879aea744ed088930267ed8959655e0829c2aad96bbe03",
+      "5d6ca3840e543c29a9879aea744ed088930267ed8959655e0829c2aad96bbe03",
+      "5d6ca3840e543c29a9879aea744ed088930267ed8959655e0829c2aad96bbe03",
+      "5d6ca3840e543c29a9879aea744ed088930267ed8959655e0829c2aad96bbe03",
+      "5d6ca3840e543c29a9879aea744ed088930267ed8959655e0829c2aad96bbe03",
+      "5d6ca3840e543c29a9879aea744ed088930267ed8959655e0829c2aad96bbe03",
+      "5d6ca3840e543c29a9879aea744ed088930267ed8959655e0829c2aad96bbe03",
+      "5d6ca3840e543c29a9879aea744ed088930267ed8959655e0829c2aad96bbe03",
+      "5d6ca3840e543c29a9879aea744ed088930267ed8959655e0829c2aad96bbe03"
+    ],
+    "runs": 10
+  },
+  {
+    "all_hashes_match": true,
+    "lineage_hashes_match": true,
+    "mode": "activation_only",
+    "motif_sets_match": true,
+    "response_hashes": [
+      "b6e649fe5947e1eb8e5a6553f53ad9d26dac935bdf893075872157b7b93cf261",
+      "b6e649fe5947e1eb8e5a6553f53ad9d26dac935bdf893075872157b7b93cf261",
+      "b6e649fe5947e1eb8e5a6553f53ad9d26dac935bdf893075872157b7b93cf261",
+      "b6e649fe5947e1eb8e5a6553f53ad9d26dac935bdf893075872157b7b93cf261",
+      "b6e649fe5947e1eb8e5a6553f53ad9d26dac935bdf893075872157b7b93cf261",
+      "b6e649fe5947e1eb8e5a6553f53ad9d26dac935bdf893075872157b7b93cf261",
+      "b6e649fe5947e1eb8e5a6553f53ad9d26dac935bdf893075872157b7b93cf261",
+      "b6e649fe5947e1eb8e5a6553f53ad9d26dac935bdf893075872157b7b93cf261",
+      "b6e649fe5947e1eb8e5a6553f53ad9d26dac935bdf893075872157b7b93cf261",
+      "b6e649fe5947e1eb8e5a6553f53ad9d26dac935bdf893075872157b7b93cf261"
+    ],
+    "runs": 10
+  },
+  {
+    "all_hashes_match": true,
+    "lineage_hashes_match": true,
+    "mode": "field_interaction",
+    "motif_sets_match": true,
+    "response_hashes": [
+      "fff4c7332e45a19487e4995f7634536a18b4d7a0d483e67a5c39d350e468f3fa",
+      "fff4c7332e45a19487e4995f7634536a18b4d7a0d483e67a5c39d350e468f3fa",
+      "fff4c7332e45a19487e4995f7634536a18b4d7a0d483e67a5c39d350e468f3fa",
+      "fff4c7332e45a19487e4995f7634536a18b4d7a0d483e67a5c39d350e468f3fa",
+      "fff4c7332e45a19487e4995f7634536a18b4d7a0d483e67a5c39d350e468f3fa",
+      "fff4c7332e45a19487e4995f7634536a18b4d7a0d483e67a5c39d350e468f3fa",
+      "fff4c7332e45a19487e4995f7634536a18b4d7a0d483e67a5c39d350e468f3fa",
+      "fff4c7332e45a19487e4995f7634536a18b4d7a0d483e67a5c39d350e468f3fa",
+      "fff4c7332e45a19487e4995f7634536a18b4d7a0d483e67a5c39d350e468f3fa",
+      "fff4c7332e45a19487e4995f7634536a18b4d7a0d483e67a5c39d350e468f3fa"
+    ],
+    "runs": 10
+  },
+  {
+    "all_hashes_match": true,
+    "lineage_hashes_match": true,
+    "mode": "delayed_ranking",
+    "motif_sets_match": true,
+    "response_hashes": [
+      "b61bd988dd1d6d9d89e7aa6ce83dbb03d2a444bfb00323fc432f5c25c6b68fbc",
+      "b61bd988dd1d6d9d89e7aa6ce83dbb03d2a444bfb00323fc432f5c25c6b68fbc",
+      "b61bd988dd1d6d9d89e7aa6ce83dbb03d2a444bfb00323fc432f5c25c6b68fbc",
+      "b61bd988dd1d6d9d89e7aa6ce83dbb03d2a444bfb00323fc432f5c25c6b68fbc",
+      "b61bd988dd1d6d9d89e7aa6ce83dbb03d2a444bfb00323fc432f5c25c6b68fbc",
+      "b61bd988dd1d6d9d89e7aa6ce83dbb03d2a444bfb00323fc432f5c25c6b68fbc",
+      "b61bd988dd1d6d9d89e7aa6ce83dbb03d2a444bfb00323fc432f5c25c6b68fbc",
+      "b61bd988dd1d6d9d89e7aa6ce83dbb03d2a444bfb00323fc432f5c25c6b68fbc",
+      "b61bd988dd1d6d9d89e7aa6ce83dbb03d2a444bfb00323fc432f5c25c6b68fbc",
+      "b61bd988dd1d6d9d89e7aa6ce83dbb03d2a444bfb00323fc432f5c25c6b68fbc"
+    ],
+    "runs": 10
+  },
+  {
+    "all_hashes_match": true,
+    "lineage_hashes_match": true,
+    "mode": "collapse_trace",
+    "motif_sets_match": true,
+    "response_hashes": [
+      "cefe1428a580d7bc283a7d8d74e8022995e5fb3b0614614020cf6b859c7fbac5",
+      "cefe1428a580d7bc283a7d8d74e8022995e5fb3b0614614020cf6b859c7fbac5",
+      "cefe1428a580d7bc283a7d8d74e8022995e5fb3b0614614020cf6b859c7fbac5",
+      "cefe1428a580d7bc283a7d8d74e8022995e5fb3b0614614020cf6b859c7fbac5",
+      "cefe1428a580d7bc283a7d8d74e8022995e5fb3b0614614020cf6b859c7fbac5",
+      "cefe1428a580d7bc283a7d8d74e8022995e5fb3b0614614020cf6b859c7fbac5",
+      "cefe1428a580d7bc283a7d8d74e8022995e5fb3b0614614020cf6b859c7fbac5",
+      "cefe1428a580d7bc283a7d8d74e8022995e5fb3b0614614020cf6b859c7fbac5",
+      "cefe1428a580d7bc283a7d8d74e8022995e5fb3b0614614020cf6b859c7fbac5",
+      "cefe1428a580d7bc283a7d8d74e8022995e5fb3b0614614020cf6b859c7fbac5"
+    ],
+    "runs": 10
+  },
+  {
+    "all_hashes_match": true,
+    "lineage_hashes_match": true,
+    "mode": "perturbation",
+    "motif_sets_match": true,
+    "response_hashes": [
+      "4d6c13caa17260b1e965fb6858d1e6693215af57d3b4b121da9a421e0ee0c903",
+      "4d6c13caa17260b1e965fb6858d1e6693215af57d3b4b121da9a421e0ee0c903",
+      "4d6c13caa17260b1e965fb6858d1e6693215af57d3b4b121da9a421e0ee0c903",
+      "4d6c13caa17260b1e965fb6858d1e6693215af57d3b4b121da9a421e0ee0c903",
+      "4d6c13caa17260b1e965fb6858d1e6693215af57d3b4b121da9a421e0ee0c903",
+      "4d6c13caa17260b1e965fb6858d1e6693215af57d3b4b121da9a421e0ee0c903",
+      "4d6c13caa17260b1e965fb6858d1e6693215af57d3b4b121da9a421e0ee0c903",
+      "4d6c13caa17260b1e965fb6858d1e6693215af57d3b4b121da9a421e0ee0c903",
+      "4d6c13caa17260b1e965fb6858d1e6693215af57d3b4b121da9a421e0ee0c903",
+      "4d6c13caa17260b1e965fb6858d1e6693215af57d3b4b121da9a421e0ee0c903"
+    ],
+    "runs": 10
+  }
+]

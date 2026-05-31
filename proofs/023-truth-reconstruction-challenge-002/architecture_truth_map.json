@@ -1,0 +1,193 @@
+{
+  "target_repository": {
+    "name": "kubernetes/kubernetes",
+    "url": "https://github.com/kubernetes/kubernetes",
+    "qualification": {
+      "external": true,
+      "history_over_2_years": true,
+      "commits_observed": "138190 commits on GitHub repository page during baseline pass",
+      "issues_and_prs_observed": "GitHub repository page showed open issues and pull requests; Kubernetes enhancement repo also showed active issues and pull requests.",
+      "documentation_drift_observed": [
+        "Current docs coexist with archived design proposals and old ThirdPartyResource docs.",
+        "The design-proposals archive is read-only, while KEP and website docs now carry later architecture state."
+      ]
+    }
+  },
+  "method": {
+    "baseline": "No-consult baseline selected CRI, CRDs, and Server-Side Apply.",
+    "consult": "Five /consult calls were made before final conclusions. Consult pressure and public CSI evidence replaced Server-Side Apply with CSI in the final top three.",
+    "claim_boundary": "Inside Voice responses are advisory lineage and search-direction evidence only. Public Kubernetes sources carry the historical claims."
+  },
+  "decisions": [
+    {
+      "decision": "Container Runtime Interface made kubelet runtime-neutral",
+      "original_problem": "Kubernetes originally depended on Docker integration and runtime-specific kubelet code. New runtimes such as rkt required deep kubelet knowledge and imposed maintenance cost on the project.",
+      "competing_proposals": [
+        "Keep Docker/dockershim as a privileged built-in kubelet path.",
+        "Continue runtime-specific direct integrations inside kubelet.",
+        "Expose a declarative Pod-shaped runtime interface.",
+        "Expose an imperative CRI gRPC/protobuf interface while kubelet retains pod lifecycle logic."
+      ],
+      "why_final_approach_won": "CRI won because it removed kubelet recompilation and runtime-specific internal integrations while preserving kubelet as the owner of Kubernetes pod semantics. Later dockershim removal confirms the intended architecture: Docker became just another CRI implementation path, not a special built-in dependency.",
+      "long_term_consequences": [
+        "containerd and CRI-O became first-class runtime paths.",
+        "dockershim removal in Kubernetes v1.24 created user migration pain but eliminated a kubelet maintenance burden.",
+        "Runtime innovation moved outside core Kubernetes while kubelet kept a stable integration boundary."
+      ],
+      "evidence": [
+        {
+          "id": "CRI-E1",
+          "source": "https://kubernetes.io/blog/2016/12/container-runtime-interface-cri-in-kubernetes/",
+          "lineage": "Lines 795-801 describe the extensibility problem, Docker/rkt direct integration, and CRI as a plugin interface."
+        },
+        {
+          "id": "CRI-E2",
+          "source": "https://github.com/kubernetes/enhancements/blob/master/keps/sig-node/2221-remove-dockershim/README.md",
+          "lineage": "Lines 287-300 describe dockershim as built-in kubelet code, the lifecycle coupling, and removal benefits."
+        },
+        {
+          "id": "CRI-E3",
+          "source": "https://kubernetes.io/blog/2022/02/17/dockershim-faq/",
+          "lineage": "Lines 806-809 explain that Docker Engine lacked CRI, dockershim was temporary, and removal enabled newer runtime work."
+        },
+        {
+          "id": "CRI-CONSULT",
+          "source": "consult/inside_voice_consults/consult_002_cri_response.json",
+          "lineage": "request_hash fbe17b89e06e19a5abed32d425be6fcb6352368377a4c187999c4d66dae97e5d; response_hash ade49d73d54e62fa1889d6e3b683992bc74ab61ee447897c477199f7906e71e8; motif inside_voice_runtime:fe3cc1e42b0c62fc272a."
+        }
+      ],
+      "lineage": [
+        "2016 CRI alpha announcement",
+        "KEP-2221 dockershim removal",
+        "2022 dockershim FAQ after v1.24 removal",
+        "consult_002_cri_response.json"
+      ],
+      "contradictions": [
+        "CRI simplified the architecture but the Docker migration affected many users.",
+        "dockershim was temporary in architecture but durable in operational practice.",
+        "Removing built-in Docker integration reduced maintenance burden while increasing distribution/admin migration work."
+      ],
+      "confidence": "high"
+    },
+    {
+      "decision": "CustomResourceDefinitions made Kubernetes an extensible API platform",
+      "original_problem": "Users needed custom resources that behaved like native Kubernetes resources without changing core Kubernetes or operating a full custom API server for every extension.",
+      "competing_proposals": [
+        "Use ConfigMaps or annotations as weak ad hoc extension storage.",
+        "Use the beta ThirdPartyResource mechanism.",
+        "Use CRDs served generically by the primary API server.",
+        "Use API aggregation with a specialized API server for advanced behavior."
+      ],
+      "why_final_approach_won": "CRDs won as the default extension path because they were much easier to create and operate than aggregated APIs while preserving Kubernetes API conventions. API aggregation remained the more flexible but heavier path for specialized implementations.",
+      "long_term_consequences": [
+        "The operator ecosystem became possible at large scale.",
+        "Kubernetes became a platform API substrate rather than only a built-in workload orchestrator.",
+        "API machinery inherited long-term schema, conversion, pruning, defaulting, versioning, validation, and scale obligations for third-party APIs."
+      ],
+      "evidence": [
+        {
+          "id": "CRD-E1",
+          "source": "https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/",
+          "lineage": "Lines 983-1003 compare CRDs and aggregated APIs and state the ease/flexibility tradeoff."
+        },
+        {
+          "id": "CRD-E2",
+          "source": "https://www.kubernetes.dev/resources/keps/95/",
+          "lineage": "Lines 90-101 state widespread CRD use, GA motivation, and ecosystem-preserving principles."
+        },
+        {
+          "id": "CRD-E3",
+          "source": "https://www.kubernetes.dev/resources/keps/95/",
+          "lineage": "Lines 107-114 list GA requirements: pruning/defaulting, schema restrictions, generator, conversion, and subresources."
+        },
+        {
+          "id": "CRD-E4",
+          "source": "https://pwittrock.github.io/docs/tasks/access-kubernetes-api/extend-api-third-party-resource/",
+          "lineage": "Archived ThirdPartyResource docs provide the pre-CRD lineage and documentation drift."
+        },
+        {
+          "id": "CRD-CONSULT",
+          "source": "consult/inside_voice_consults/consult_003_crd_response.json",
+          "lineage": "request_hash 2ace6e4b605b9074e300641d906de7e6eee6c54f57f757cfe6f3a97a0192b8f6; response_hash e4feb88e868a85abfa132d2419f757c0808c1e5d40decfd758c8c9d1fa1fdd1e; motif inside_voice_runtime:a484bc01e0711d640e91."
+        }
+      ],
+      "lineage": [
+        "ThirdPartyResource beta lineage",
+        "CRD documentation and API aggregation comparison",
+        "KEP-95 CRD GA",
+        "consult_003_crd_response.json"
+      ],
+      "contradictions": [
+        "CRDs are easier than aggregated APIs but less flexible.",
+        "CRDs made extension accessible while forcing API machinery to support third-party API quality at Kubernetes scale.",
+        "Full parity with native resource types was explicitly not a GA goal, so CRDs remained powerful but bounded."
+      ],
+      "confidence": "high"
+    },
+    {
+      "decision": "Container Storage Interface moved storage integration out of core Kubernetes",
+      "original_problem": "Volume plugins were in-tree: linked into core Kubernetes binaries, tied to Kubernetes releases, hard for vendors to ship, risky for core component stability, and difficult for maintainers to test.",
+      "competing_proposals": [
+        "Keep vendor-specific storage plugins in the core repository.",
+        "Use FlexVolume as the exec-based out-of-tree mechanism.",
+        "Adopt CSI as a cross-orchestrator standard with containerized out-of-tree drivers.",
+        "Preserve existing in-tree API compatibility while translating operations to CSI drivers through migration."
+      ],
+      "why_final_approach_won": "CSI won because it solved both Kubernetes-specific and ecosystem-wide storage integration pressure: drivers could move out of tree, be containerized, ship on their own lifecycle, and remain consumable through familiar Kubernetes storage APIs. CSI migration then preserved existing user-facing APIs while delegating implementation to CSI drivers.",
+      "long_term_consequences": [
+        "Storage vendors gained an external driver model and independent release cadence.",
+        "Kubernetes maintainers reduced in-tree vendor code and associated reliability/security burden.",
+        "CSI migration became a multi-release compatibility project that hid architecture change behind stable PersistentVolume, PersistentVolumeClaim, and StorageClass APIs."
+      ],
+      "evidence": [
+        {
+          "id": "CSI-E1",
+          "source": "https://github.com/kubernetes/design-proposals-archive/blob/main/storage/container-storage-interface.md",
+          "lineage": "Lines 250-268 define CSI, in-tree/out-of-tree terms, list in-tree plugin problems, and state the out-of-tree/containerized motivation."
+        },
+        {
+          "id": "CSI-E2",
+          "source": "https://kubernetes.io/blog/2018/01/introducing-container-storage-interface/",
+          "lineage": "Lines 798-805 explain the in-tree plugin problem, FlexVolume limitations, and CSI's out-of-tree/containerized solution."
+        },
+        {
+          "id": "CSI-E3",
+          "source": "https://kubernetes.io/blog/2019/01/15/container-storage-interface-ga/",
+          "lineage": "Lines 796-802 describe GA, backwards compatibility, in-tree burden, and a truly extensible volume layer."
+        },
+        {
+          "id": "CSI-E4",
+          "source": "https://kubernetes.io/blog/2022/09/26/storage-in-tree-to-csi-migration-status-update-1.25/",
+          "lineage": "Lines 798-804 explain replacing in-tree mechanisms, API compatibility constraints, transparent migration, and eventual core-code removal."
+        },
+        {
+          "id": "CSI-CONSULT",
+          "source": "consult/inside_voice_consults/consult_004_csi_response.json",
+          "lineage": "request_hash 884434a297131ceea0c253ce65fbe971c4e5b5acc46f4df97cbfb65f2eda98a5; response_hash 606c3f4d01e8cd8ad3580f7e3eaf08fbba8bae4f4ad13e3a2ec7cea246e3c8db; motif inside_voice_runtime:6618eceaa43863e083b2."
+        }
+      ],
+      "lineage": [
+        "Archived CSI design proposal",
+        "Kubernetes 1.9 CSI alpha blog",
+        "Kubernetes 1.13 CSI GA blog",
+        "Kubernetes 1.25 CSI migration GA/status update",
+        "consult_001_top_three_rerank_response.json",
+        "consult_004_csi_response.json"
+      ],
+      "contradictions": [
+        "FlexVolume already existed as an out-of-tree mechanism, but it did not solve deployment and dependency problems well enough.",
+        "CSI reduced in-tree vendor code but required a long compatibility migration for existing API objects.",
+        "The architecture changed behind stable APIs, so the decision is easy to miss if only user-facing docs are reviewed."
+      ],
+      "confidence": "high"
+    }
+  ],
+  "not_selected": [
+    {
+      "decision": "Server-Side Apply",
+      "reason": "Important API machinery evolution, but final consult and public source review ranked it below CRI/CRD/CSI because it repaired object management semantics rather than changing Kubernetes' system boundary with external ecosystems.",
+      "baseline_status": "baseline rank 3",
+      "final_status": "demoted after consult"
+    }
+  ]
+}

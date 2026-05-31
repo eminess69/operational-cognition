@@ -1,0 +1,87 @@
+{
+  "collapse_audits": [
+    {
+      "accepted_influence": "Narrowed P3 to sequencing and execution failure; did not revive a simple ignorance account.",
+      "assumption_causing_elimination": "If management recognized digital, then management failure is not a distinct pathway.",
+      "consult_challenge": "adapter_status=pond_backed | classification=BUDGET_LIMITED | contribution_grade=bounded | summary=Consultation output was compacted to honor max_output_chars. | limitations=Recall is bounded to indexed local pond/proof artifacts and may miss evidence outside the declared corpus.; Recalled reports remain evidence, not implementation capability.; Direct source inspection is still required before using any claim operationally. | pressure_rankings=pressure:92605474c9a9fc18@artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0, pressure:44eeb320a80c1c5f@artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json, pressure:3c9aec52d74bf738@artifacts/proof/recursive_stability_proof_rollup/recursive_stability_claim_boundary.json | domain_specific_findings=0",
+      "elimination_reason": "About to eliminate management failure as a vague blame label because Kodak demonstrably saw digital and invested in it.",
+      "eventual_outcome": "ACTIVE",
+      "pathway": "P3: Strategic management and execution failure",
+      "public_evidence_lineage": [
+        "SRC-CAMBRIDGE-BHR-2025",
+        "SRC-KODAK-2011-10K",
+        "SRC-KODAK-2010-DIGITAL-OUTLOOK"
+      ],
+      "survived_after_challenge": true
+    },
+    {
+      "accepted_influence": "Preserved incentives as resource-allocation pressure with distinct evidence from budget, values, and analyst-scrutiny lineage.",
+      "assumption_causing_elimination": "Incentives are only a description of the business model, not a causal mechanism.",
+      "consult_challenge": "adapter_status=pond_backed | classification=BUDGET_LIMITED | contribution_grade=bounded | summary=Consultation output was compacted to honor max_output_chars. | limitations=Recall is bounded to indexed local pond/proof artifacts and may miss evidence outside the declared corpus.; Recalled reports remain evidence, not implementation capability.; Direct source inspection is still required before using any claim operationally. | pressure_rankings=pressure:ad17bb887cd35c49@docs/proofs/RECURSIVE_INTELLIGENCE_FAILURE_GAUNTLET.md, pressure:92605474c9a9fc18@artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0, pressure:44eeb320a80c1c5f@artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json | domain_specific_findings=0",
+      "elimination_reason": "About to fold incentive structures into business-model rigidity and stop tracking them separately.",
+      "eventual_outcome": "REVIVED",
+      "pathway": "P4: Incentive and resource-allocation structures",
+      "public_evidence_lineage": [
+        "SRC-CAMBRIDGE-BHR-2025",
+        "SRC-JSIS-2009",
+        "SRC-FORBES-2000"
+      ],
+      "survived_after_challenge": true
+    },
+    {
+      "accepted_influence": "Preserved culture in a bounded form: not a total blocker, but a cognition and translation mechanism.",
+      "assumption_causing_elimination": "If a company built digital products, culture cannot have slowed adaptation.",
+      "consult_challenge": "adapter_status=pond_backed | classification=BUDGET_LIMITED | contribution_grade=bounded | summary=Consultation output was compacted to honor max_output_chars. | limitations=Recall is bounded to indexed local pond/proof artifacts and may miss evidence outside the declared corpus.; Recalled reports remain evidence, not implementation capability.; Direct source inspection is still required before using any claim operationally. | pressure_rankings=pressure:92605474c9a9fc18@artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0, pressure:44eeb320a80c1c5f@artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json, pressure:3c9aec52d74bf738@artifacts/proof/recursive_stability_proof_rollup/recursive_stability_claim_boundary.json | domain_specific_findings=0",
+      "elimination_reason": "About to eliminate culture because Kodak's digital R&D and products appear to falsify cultural resistance.",
+      "eventual_outcome": "REVIVED",
+      "pathway": "P5: Organizational culture and middle-management cognition",
+      "public_evidence_lineage": [
+        "SRC-JSIS-2009",
+        "SRC-CAMBRIDGE-BHR-2025"
+      ],
+      "survived_after_challenge": true
+    },
+    {
+      "accepted_influence": "Preserved timing as a mechanism connecting early investment losses, late mass adoption, price erosion, and smartphone displacement.",
+      "assumption_causing_elimination": "A later market shift explains the collapse, so timing details are secondary.",
+      "consult_challenge": "adapter_status=pond_backed | classification=BUDGET_LIMITED | contribution_grade=bounded | summary=Consultation output was compacted to honor max_output_chars. | limitations=Recall is bounded to indexed local pond/proof artifacts and may miss evidence outside the declared corpus.; Recalled reports remain evidence, not implementation capability.; Direct source inspection is still required before using any claim operationally. | pressure_rankings=pressure:92605474c9a9fc18@artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0, pressure:44eeb320a80c1c5f@artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json, pressure:3c9aec52d74bf738@artifacts/proof/recursive_stability_proof_rollup/recursive_stability_claim_boundary.json | domain_specific_findings=0",
+      "elimination_reason": "About to treat timing as chronology, not causality.",
+      "eventual_outcome": "REVIVED",
+      "pathway": "P6: Timing failures and market-uncertainty trap",
+      "public_evidence_lineage": [
+        "SRC-CAMBRIDGE-BHR-2025",
+        "SRC-MACWORLD-2006"
+      ],
+      "survived_after_challenge": true
+    },
+    {
+      "accepted_influence": "Preserved capital constraints as an option-narrowing mechanism across debt, divestitures, cash shortfalls, and bankruptcy asset sales.",
+      "assumption_causing_elimination": "Capital problems only followed strategic failure and did not affect pathway survival.",
+      "consult_challenge": "adapter_status=pond_backed | classification=BUDGET_LIMITED | contribution_grade=bounded | summary=Consultation output was compacted to honor max_output_chars. | limitations=Recall is bounded to indexed local pond/proof artifacts and may miss evidence outside the declared corpus.; Recalled reports remain evidence, not implementation capability.; Direct source inspection is still required before using any claim operationally. | pressure_rankings=pressure:92605474c9a9fc18@artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0, pressure:44eeb320a80c1c5f@artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json, pressure:3c9aec52d74bf738@artifacts/proof/recursive_stability_proof_rollup/recursive_stability_claim_boundary.json | domain_specific_findings=0",
+      "elimination_reason": "About to treat capital allocation and liquidity as downstream symptoms rather than a live causal path.",
+      "eventual_outcome": "REVIVED",
+      "pathway": "P7: Capital allocation and liquidity constraint",
+      "public_evidence_lineage": [
+        "SRC-CAMBRIDGE-BHR-2025",
+        "SRC-KODAK-2011-10K"
+      ],
+      "survived_after_challenge": true
+    },
+    {
+      "accepted_influence": "No revival: the corpus supports awareness, investment, and technical leadership; P8 remains a false simplification.",
+      "assumption_causing_elimination": "The 1975 prototype plus delayed mass-market product means Kodak suppressed the technology.",
+      "consult_challenge": "adapter_status=pond_backed | classification=BUDGET_LIMITED | contribution_grade=bounded | summary=Consultation output was compacted to honor max_output_chars. | limitations=Recall is bounded to indexed local pond/proof artifacts and may miss evidence outside the declared corpus.; Recalled reports remain evidence, not implementation capability.; Direct source inspection is still required before using any claim operationally. | pressure_rankings=pressure:92605474c9a9fc18@artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0, pressure:3c9aec52d74bf738@artifacts/proof/recursive_stability_proof_rollup/recursive_stability_claim_boundary.json, pressure:7ba41d8ba5ef3698@artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json | domain_specific_findings=0",
+      "elimination_reason": "About to eliminate the claim that Kodak mainly failed because it ignored or suppressed digital technology.",
+      "eventual_outcome": "ELIMINATED",
+      "pathway": "P8: Technology blindness or invention suppression",
+      "public_evidence_lineage": [
+        "SRC-KODAK-MILESTONES",
+        "SRC-CAMBRIDGE-BHR-2025",
+        "SRC-HBR-2016"
+      ],
+      "survived_after_challenge": false
+    }
+  ],
+  "proof_id": "027-pathway-intelligence-challenge",
+  "scope": "consult run pathway-elimination gates"
+}

@@ -1,0 +1,1258 @@
+{
+  "claim_nodes": [
+    {
+      "claim": "Amyloid and tau are central Alzheimer disease biology signals, but target removal has not resolved clinical causality.",
+      "claim_id": "CLAIM-001",
+      "source_ids": [
+        "PMID-35177833",
+        "PMID-34815562",
+        "PMID-36449413",
+        "PMID-37459141",
+        "PMID-35542991",
+        "PMID-37966285"
+      ],
+      "supports_contradictions": [
+        "CON-001",
+        "CON-004",
+        "CON-011"
+      ],
+      "unsupported": false
+    },
+    {
+      "claim": "Anti-amyloid therapies create a benefit-risk contradiction around CAA, microbleeds, and ARIA.",
+      "claim_id": "CLAIM-002",
+      "source_ids": [
+        "PMID-31827267",
+        "PMID-35099507",
+        "PMID-34807243",
+        "PMID-40063015",
+        "PMID-39179297"
+      ],
+      "supports_contradictions": [
+        "CON-002",
+        "CON-006"
+      ],
+      "unsupported": false
+    },
+    {
+      "claim": "Biomarkers strengthen classification while leaving mixed-pathology clinical dominance unresolved.",
+      "claim_id": "CLAIM-003",
+      "source_ids": [
+        "PMID-38429551",
+        "PMID-39068545",
+        "PMID-38866966",
+        "PMID-37563264",
+        "PMID-38520489"
+      ],
+      "supports_contradictions": [
+        "CON-003",
+        "CON-009",
+        "CON-010"
+      ],
+      "unsupported": false
+    },
+    {
+      "claim": "Immune, APOE, vascular, and metabolic mechanisms cross-cut amyloid/tau rather than forming one settled alternative.",
+      "claim_id": "CLAIM-004",
+      "source_ids": [
+        "PMID-33318676",
+        "PMID-38424470",
+        "PMID-38906999",
+        "PMID-40023293",
+        "PMID-41052375"
+      ],
+      "supports_contradictions": [
+        "CON-005",
+        "CON-006",
+        "CON-007",
+        "CON-008"
+      ],
+      "unsupported": false
+    },
+    {
+      "claim": "No artifact in this proof makes a medical diagnosis, cure claim, or treatment recommendation.",
+      "claim_id": "CLAIM-005",
+      "source_ids": [
+        "proof_manifest.json",
+        "README.md",
+        "consult/final_atlas.md"
+      ],
+      "supports_contradictions": [],
+      "unsupported": false
+    }
+  ],
+  "contradiction_nodes": [
+    {
+      "contradiction_id": "CON-001",
+      "title": "Amyloid/tau pathology is central, but target removal produces modest, trial-dependent clinical benefit"
+    },
+    {
+      "contradiction_id": "CON-002",
+      "title": "Anti-amyloid benefit conflicts with vascular-amyloid, CAA, microbleed, and ARIA safety boundaries"
+    },
+    {
+      "contradiction_id": "CON-003",
+      "title": "Biomarker-defined Alzheimer biology conflicts with clinically heterogeneous and mixed-pathology dementia"
+    },
+    {
+      "contradiction_id": "CON-004",
+      "title": "Tau tracks stage and symptoms, yet tau-directed therapies have not settled causality"
+    },
+    {
+      "contradiction_id": "CON-005",
+      "title": "Microglia and immune activation appear both protective and damaging"
+    },
+    {
+      "contradiction_id": "CON-006",
+      "title": "Vascular pathology is treated as risk factor, comorbidity, and co-causal dementia mechanism"
+    },
+    {
+      "contradiction_id": "CON-007",
+      "title": "Mitochondrial/metabolic dysfunction could be upstream driver, downstream consequence, or parallel aging process"
+    },
+    {
+      "contradiction_id": "CON-008",
+      "title": "APOE evidence supports amyloid biology but also lipid, immune, glial, and vascular pathways"
+    },
+    {
+      "contradiction_id": "CON-009",
+      "title": "Blood biomarkers show strong diagnostic promise but contested deployment thresholds and generalizability"
+    },
+    {
+      "contradiction_id": "CON-010",
+      "title": "LATE, PART, vascular cognitive impairment, and other age-related pathologies can mimic or combine with AD"
+    },
+    {
+      "contradiction_id": "CON-011",
+      "title": "Single-target disease-modifying trials conflict with multi-factorial and stage-dependent disease models"
+    },
+    {
+      "contradiction_id": "CON-012",
+      "title": "Symptom-network and synaptic failure evidence conflicts with pathology-only endpoint confidence"
+    }
+  ],
+  "edges": [
+    {
+      "from": "PMID-35177833",
+      "relation": "source_supports_claim",
+      "to": "CLAIM-001"
+    },
+    {
+      "from": "PMID-34815562",
+      "relation": "source_supports_claim",
+      "to": "CLAIM-001"
+    },
+    {
+      "from": "PMID-36449413",
+      "relation": "source_supports_claim",
+      "to": "CLAIM-001"
+    },
+    {
+      "from": "PMID-37459141",
+      "relation": "source_supports_claim",
+      "to": "CLAIM-001"
+    },
+    {
+      "from": "PMID-35542991",
+      "relation": "source_supports_claim",
+      "to": "CLAIM-001"
+    },
+    {
+      "from": "PMID-37966285",
+      "relation": "source_supports_claim",
+      "to": "CLAIM-001"
+    },
+    {
+      "from": "CLAIM-001",
+      "relation": "claim_supports_contradiction",
+      "to": "CON-001"
+    },
+    {
+      "from": "CLAIM-001",
+      "relation": "claim_supports_contradiction",
+      "to": "CON-004"
+    },
+    {
+      "from": "CLAIM-001",
+      "relation": "claim_supports_contradiction",
+      "to": "CON-011"
+    },
+    {
+      "from": "PMID-31827267",
+      "relation": "source_supports_claim",
+      "to": "CLAIM-002"
+    },
+    {
+      "from": "PMID-35099507",
+      "relation": "source_supports_claim",
+      "to": "CLAIM-002"
+    },
+    {
+      "from": "PMID-34807243",
+      "relation": "source_supports_claim",
+      "to": "CLAIM-002"
+    },
+    {
+      "from": "PMID-40063015",
+      "relation": "source_supports_claim",
+      "to": "CLAIM-002"
+    },
+    {
+      "from": "PMID-39179297",
+      "relation": "source_supports_claim",
+      "to": "CLAIM-002"
+    },
+    {
+      "from": "CLAIM-002",
+      "relation": "claim_supports_contradiction",
+      "to": "CON-002"
+    },
+    {
+      "from": "CLAIM-002",
+      "relation": "claim_supports_contradiction",
+      "to": "CON-006"
+    },
+    {
+      "from": "PMID-38429551",
+      "relation": "source_supports_claim",
+      "to": "CLAIM-003"
+    },
+    {
+      "from": "PMID-39068545",
+      "relation": "source_supports_claim",
+      "to": "CLAIM-003"
+    },
+    {
+      "from": "PMID-38866966",
+      "relation": "source_supports_claim",
+      "to": "CLAIM-003"
+    },
+    {
+      "from": "PMID-37563264",
+      "relation": "source_supports_claim",
+      "to": "CLAIM-003"
+    },
+    {
+      "from": "PMID-38520489",
+      "relation": "source_supports_claim",
+      "to": "CLAIM-003"
+    },
+    {
+      "from": "CLAIM-003",
+      "relation": "claim_supports_contradiction",
+      "to": "CON-003"
+    },
+    {
+      "from": "CLAIM-003",
+      "relation": "claim_supports_contradiction",
+      "to": "CON-009"
+    },
+    {
+      "from": "CLAIM-003",
+      "relation": "claim_supports_contradiction",
+      "to": "CON-010"
+    },
+    {
+      "from": "PMID-33318676",
+      "relation": "source_supports_claim",
+      "to": "CLAIM-004"
+    },
+    {
+      "from": "PMID-38424470",
+      "relation": "source_supports_claim",
+      "to": "CLAIM-004"
+    },
+    {
+      "from": "PMID-38906999",
+      "relation": "source_supports_claim",
+      "to": "CLAIM-004"
+    },
+    {
+      "from": "PMID-40023293",
+      "relation": "source_supports_claim",
+      "to": "CLAIM-004"
+    },
+    {
+      "from": "PMID-41052375",
+      "relation": "source_supports_claim",
+      "to": "CLAIM-004"
+    },
+    {
+      "from": "CLAIM-004",
+      "relation": "claim_supports_contradiction",
+      "to": "CON-005"
+    },
+    {
+      "from": "CLAIM-004",
+      "relation": "claim_supports_contradiction",
+      "to": "CON-006"
+    },
+    {
+      "from": "CLAIM-004",
+      "relation": "claim_supports_contradiction",
+      "to": "CON-007"
+    },
+    {
+      "from": "CLAIM-004",
+      "relation": "claim_supports_contradiction",
+      "to": "CON-008"
+    },
+    {
+      "from": "proof_manifest.json",
+      "relation": "source_supports_claim",
+      "to": "CLAIM-005"
+    },
+    {
+      "from": "README.md",
+      "relation": "source_supports_claim",
+      "to": "CLAIM-005"
+    },
+    {
+      "from": "consult/final_atlas.md",
+      "relation": "source_supports_claim",
+      "to": "CLAIM-005"
+    }
+  ],
+  "lineage_boundary": "Every biomedical claim in final_atlas.md maps to a claim node and source_ids here; consult output is lineage pressure only.",
+  "run_id": "phase-b-consult",
+  "source_nodes": [
+    {
+      "source_id": "OFF-CDC-ABOUT-ADRD",
+      "tags": [
+        "mixed_pathology",
+        "vascular",
+        "genetic"
+      ],
+      "title": "About Alzheimer's Disease and Related Dementias",
+      "url": "https://www.cdc.gov/alzheimers-dementia/about/index.html",
+      "year": "2024"
+    },
+    {
+      "source_id": "OFF-FDA-KISUNLA-2024",
+      "tags": [
+        "amyloid",
+        "clinical_trial_or_therapy",
+        "biomarker"
+      ],
+      "title": "FDA approves treatment for adults with Alzheimer's disease",
+      "url": "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-treatment-adults-alzheimers-disease",
+      "year": "2024"
+    },
+    {
+      "source_id": "OFF-FDA-LEQEMBI-2023",
+      "tags": [
+        "amyloid",
+        "clinical_trial_or_therapy",
+        "biomarker"
+      ],
+      "title": "FDA Converts Novel Alzheimer's Disease Treatment to Traditional Approval",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-converts-novel-alzheimers-disease-treatment-traditional-approval",
+      "year": "2023"
+    },
+    {
+      "source_id": "OFF-NIA-AD-CAUSES",
+      "tags": [
+        "amyloid",
+        "tau",
+        "inflammation_immune",
+        "vascular",
+        "metabolic_mitochondrial",
+        "genetic"
+      ],
+      "title": "What Causes Alzheimer's Disease?",
+      "url": "https://www.nia.nih.gov/health/alzheimers-causes-and-risk-factors/what-causes-alzheimers-disease",
+      "year": "2024"
+    },
+    {
+      "source_id": "OFF-NIA-BLOOD-BIOMARKERS-2024",
+      "tags": [
+        "biomarker",
+        "amyloid",
+        "tau"
+      ],
+      "title": "Blood tests could improve diagnosis of Alzheimer's disease in primary care",
+      "url": "https://www.nih.gov/news-events/nih-research-matters/blood-tests-could-improve-diagnosis-alzheimers-disease-primary-care",
+      "year": "2024"
+    },
+    {
+      "source_id": "OFF-NINDS-VCID",
+      "tags": [
+        "vascular",
+        "mixed_pathology"
+      ],
+      "title": "Vascular Contributions to Cognitive Impairment and Dementia",
+      "url": "https://www.ninds.nih.gov/health-information/disorders/vascular-contributions-cognitive-impairment-and-dementia",
+      "year": "2024"
+    },
+    {
+      "source_id": "OFF-WHO-DEMENTIA",
+      "tags": [
+        "mixed_pathology",
+        "vascular",
+        "metabolic_mitochondrial"
+      ],
+      "title": "Dementia",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/dementia",
+      "year": "2025"
+    },
+    {
+      "source_id": "PMID-31827267",
+      "tags": [
+        "amyloid",
+        "clinical_trial_or_therapy",
+        "mixed_pathology",
+        "review",
+        "vascular"
+      ],
+      "title": "Cerebral amyloid angiopathy and Alzheimer disease - one peptide, two pathways.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31827267/",
+      "year": "2020"
+    },
+    {
+      "source_id": "PMID-31917687",
+      "tags": [
+        "amyloid",
+        "cholinergic_synaptic",
+        "inflammation_immune",
+        "mixed_pathology"
+      ],
+      "title": "Type I interferon response drives neuroinflammation and synapse loss in Alzheimer disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31917687/",
+      "year": "2020"
+    },
+    {
+      "source_id": "PMID-32047067",
+      "tags": [
+        "biomarker",
+        "genetic",
+        "mixed_pathology",
+        "review",
+        "tau"
+      ],
+      "title": "Biological subtypes of Alzheimer disease: A systematic review and meta-analysis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32047067/",
+      "year": "2020"
+    },
+    {
+      "source_id": "PMID-32568367",
+      "tags": [
+        "clinical_trial_or_therapy",
+        "metabolic_mitochondrial",
+        "mixed_pathology"
+      ],
+      "title": "Safety, Efficacy, and Feasibility of Intranasal Insulin for the Treatment of Mild Cognitive Impairment and Alzheimer Disease Dementia: A Randomized Clinical Trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32568367/",
+      "year": "2020"
+    },
+    {
+      "source_id": "PMID-33176118",
+      "tags": [
+        "amyloid",
+        "genetic",
+        "review"
+      ],
+      "title": "Apolipoprotein E: Structural Insights and Links to Alzheimer Disease Pathogenesis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33176118/",
+      "year": "2021"
+    },
+    {
+      "source_id": "PMID-33318676",
+      "tags": [
+        "amyloid",
+        "inflammation_immune",
+        "mixed_pathology",
+        "review",
+        "tau",
+        "vascular"
+      ],
+      "title": "Neuroinflammation and microglial activation in Alzheimer disease: where do we go from here?",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33318676/",
+      "year": "2021"
+    },
+    {
+      "source_id": "PMID-33429401",
+      "tags": [
+        "biomarker",
+        "genetic",
+        "mixed_pathology",
+        "review",
+        "tau",
+        "vascular"
+      ],
+      "title": "Pathobiological Subtypes of Alzheimer Disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33429401/",
+      "year": "2020"
+    },
+    {
+      "source_id": "PMID-33986301",
+      "tags": [
+        "amyloid",
+        "cholinergic_synaptic",
+        "genetic",
+        "mixed_pathology",
+        "review",
+        "tau",
+        "vascular"
+      ],
+      "title": "Alzheimer disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33986301/",
+      "year": "2021"
+    },
+    {
+      "source_id": "PMID-34416829",
+      "tags": [
+        "metabolic_mitochondrial",
+        "mixed_pathology",
+        "review"
+      ],
+      "title": "Altered Metabolism in Alzheimer Disease Brain: Role of Oxidative Stress.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34416829/",
+      "year": "2022"
+    },
+    {
+      "source_id": "PMID-34807243",
+      "tags": [
+        "amyloid",
+        "clinical_trial_or_therapy",
+        "mixed_pathology",
+        "vascular"
+      ],
+      "title": "Amyloid-Related Imaging Abnormalities in 2 Phase 3 Studies Evaluating Aducanumab in Patients With Early Alzheimer Disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34807243/",
+      "year": "2022"
+    },
+    {
+      "source_id": "PMID-34815562",
+      "tags": [
+        "amyloid",
+        "genetic",
+        "mixed_pathology",
+        "review",
+        "tau",
+        "vascular"
+      ],
+      "title": "The probabilistic model of Alzheimer disease: the amyloid hypothesis revised.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34815562/",
+      "year": "2022"
+    },
+    {
+      "source_id": "PMID-35034755",
+      "tags": [
+        "cholinergic_synaptic",
+        "clinical_trial_or_therapy",
+        "mixed_pathology",
+        "review"
+      ],
+      "title": "Alzheimer disease and neuroplasticity.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35034755/",
+      "year": "2022"
+    },
+    {
+      "source_id": "PMID-35099507",
+      "tags": [
+        "amyloid",
+        "clinical_trial_or_therapy",
+        "genetic",
+        "mixed_pathology",
+        "review",
+        "vascular"
+      ],
+      "title": "Amyloid-Related Imaging Abnormalities and \u03b2-Amyloid-Targeting Antibodies: A Systematic Review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35099507/",
+      "year": "2022"
+    },
+    {
+      "source_id": "PMID-35177833",
+      "tags": [
+        "amyloid",
+        "clinical_trial_or_therapy",
+        "review",
+        "tau"
+      ],
+      "title": "The amyloid hypothesis in Alzheimer disease: new insights from new therapeutics.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35177833/",
+      "year": "2022"
+    },
+    {
+      "source_id": "PMID-35542991",
+      "tags": [
+        "amyloid",
+        "biomarker",
+        "clinical_trial_or_therapy",
+        "mixed_pathology"
+      ],
+      "title": "Two Randomized Phase 3 Studies of Aducanumab in Early Alzheimer's Disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35542991/",
+      "year": "2022"
+    },
+    {
+      "source_id": "PMID-35649653",
+      "tags": [
+        "biomarker",
+        "inflammation_immune",
+        "metabolic_mitochondrial",
+        "mixed_pathology",
+        "tau",
+        "vascular"
+      ],
+      "title": "18F-FDG PET Imaging in Neurodegenerative Dementing Disorders: Insights into Subtype Classification, Emerging Disease Categories, and Mixed Dementia with Copathologies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35649653/",
+      "year": "2022"
+    },
+    {
+      "source_id": "PMID-35696185",
+      "tags": [
+        "amyloid",
+        "clinical_trial_or_therapy",
+        "mixed_pathology",
+        "tau"
+      ],
+      "title": "Safety and Efficacy of Semorinemab in Individuals With Prodromal to Mild Alzheimer Disease: A Randomized Clinical Trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35696185/",
+      "year": "2022"
+    },
+    {
+      "source_id": "PMID-36129176",
+      "tags": [
+        "amyloid",
+        "biomarker",
+        "clinical_trial_or_therapy",
+        "inflammation_immune",
+        "mixed_pathology",
+        "review",
+        "vascular"
+      ],
+      "title": "Hypertension, Neurovascular Dysfunction, and Cognitive Impairment.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36129176/",
+      "year": "2023"
+    },
+    {
+      "source_id": "PMID-36394841",
+      "tags": [
+        "biomarker",
+        "genetic",
+        "mixed_pathology",
+        "vascular"
+      ],
+      "title": "Associations of Alzheimer Disease-Protective APOE Variants With Age-Related Macular Degeneration.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36394841/",
+      "year": "2023"
+    },
+    {
+      "source_id": "PMID-36449413",
+      "tags": [
+        "amyloid",
+        "biomarker",
+        "clinical_trial_or_therapy",
+        "mixed_pathology"
+      ],
+      "title": "Lecanemab in Early Alzheimer's Disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36449413/",
+      "year": "2023"
+    },
+    {
+      "source_id": "PMID-36508198",
+      "tags": [
+        "amyloid",
+        "biomarker",
+        "mixed_pathology",
+        "tau"
+      ],
+      "title": "Association of Phosphorylated Tau Biomarkers With Amyloid Positron Emission Tomography vs Tau Positron Emission Tomography.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36508198/",
+      "year": "2023"
+    },
+    {
+      "source_id": "PMID-36513730",
+      "tags": [
+        "amyloid",
+        "cholinergic_synaptic",
+        "clinical_trial_or_therapy",
+        "mixed_pathology",
+        "review",
+        "tau"
+      ],
+      "title": "Synaptic degeneration in Alzheimer disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36513730/",
+      "year": "2023"
+    },
+    {
+      "source_id": "PMID-36922879",
+      "tags": [
+        "amyloid",
+        "genetic",
+        "inflammation_immune",
+        "vascular"
+      ],
+      "title": "Astrocytic APOE4 removal confers cerebrovascular protection despite increased cerebral amyloid angiopathy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36922879/",
+      "year": "2023"
+    },
+    {
+      "source_id": "PMID-37317973",
+      "tags": [
+        "amyloid",
+        "cholinergic_synaptic",
+        "inflammation_immune",
+        "metabolic_mitochondrial",
+        "mixed_pathology"
+      ],
+      "title": "Complement C3aR depletion reverses HIF-1\u03b1-induced metabolic impairment and enhances microglial response to A\u03b2 pathology.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37317973/",
+      "year": "2023"
+    },
+    {
+      "source_id": "PMID-37443334",
+      "tags": [
+        "amyloid",
+        "biomarker",
+        "clinical_trial_or_therapy",
+        "mixed_pathology",
+        "tau",
+        "vascular"
+      ],
+      "title": "CSF MTBR-tau243 is a specific biomarker of tau tangle pathology in Alzheimer's disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37443334/",
+      "year": "2023"
+    },
+    {
+      "source_id": "PMID-37459141",
+      "tags": [
+        "amyloid",
+        "clinical_trial_or_therapy",
+        "mixed_pathology",
+        "tau"
+      ],
+      "title": "Donanemab in Early Symptomatic Alzheimer Disease: The TRAILBLAZER-ALZ 2 Randomized Clinical Trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37459141/",
+      "year": "2023"
+    },
+    {
+      "source_id": "PMID-37563264",
+      "tags": [
+        "biomarker",
+        "genetic",
+        "mixed_pathology",
+        "review"
+      ],
+      "title": "Limbic-predominant age-related TDP43 encephalopathy (LATE) neuropathological change in neurodegenerative diseases.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37563264/",
+      "year": "2023"
+    },
+    {
+      "source_id": "PMID-37667136",
+      "tags": [
+        "amyloid",
+        "biomarker",
+        "clinical_trial_or_therapy",
+        "inflammation_immune",
+        "mixed_pathology",
+        "review",
+        "tau"
+      ],
+      "title": "Emerging diagnostics and therapeutics for Alzheimer disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37667136/",
+      "year": "2023"
+    },
+    {
+      "source_id": "PMID-37875627",
+      "tags": [
+        "amyloid",
+        "cholinergic_synaptic",
+        "clinical_trial_or_therapy",
+        "review",
+        "tau"
+      ],
+      "title": "Tau-targeting therapies for Alzheimer disease: current status and future directions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37875627/",
+      "year": "2023"
+    },
+    {
+      "source_id": "PMID-37902726",
+      "tags": [
+        "amyloid",
+        "biomarker",
+        "clinical_trial_or_therapy",
+        "mixed_pathology",
+        "tau"
+      ],
+      "title": "Exploratory Tau Biomarker Results From a Multiple Ascending-Dose Study of BIIB080 in Alzheimer Disease: A Randomized Clinical Trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37902726/",
+      "year": "2023"
+    },
+    {
+      "source_id": "PMID-37966285",
+      "tags": [
+        "amyloid",
+        "biomarker",
+        "clinical_trial_or_therapy",
+        "mixed_pathology",
+        "tau",
+        "vascular"
+      ],
+      "title": "Two Phase 3 Trials of Gantenerumab in Early Alzheimer's Disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37966285/",
+      "year": "2023"
+    },
+    {
+      "source_id": "PMID-38252443",
+      "tags": [
+        "amyloid",
+        "biomarker",
+        "mixed_pathology",
+        "tau"
+      ],
+      "title": "Diagnostic Accuracy of a Plasma Phosphorylated Tau 217 Immunoassay for Alzheimer Disease Pathology.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38252443/",
+      "year": "2024"
+    },
+    {
+      "source_id": "PMID-38424470",
+      "tags": [
+        "amyloid",
+        "clinical_trial_or_therapy",
+        "inflammation_immune",
+        "mixed_pathology",
+        "review",
+        "tau"
+      ],
+      "title": "Immune Activation in Alzheimer Disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38424470/",
+      "year": "2024"
+    },
+    {
+      "source_id": "PMID-38429551",
+      "tags": [
+        "amyloid",
+        "biomarker",
+        "clinical_trial_or_therapy",
+        "mixed_pathology",
+        "review",
+        "tau"
+      ],
+      "title": "Biomarker-based staging of Alzheimer disease: rationale and clinical applications.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38429551/",
+      "year": "2024"
+    },
+    {
+      "source_id": "PMID-38504517",
+      "tags": [
+        "amyloid",
+        "cholinergic_synaptic",
+        "clinical_trial_or_therapy",
+        "genetic",
+        "inflammation_immune",
+        "mixed_pathology"
+      ],
+      "title": "APOE2 gene therapy reduces amyloid deposition and improves markers of neuroinflammation and neurodegeneration in a mouse model of Alzheimer disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38504517/",
+      "year": "2024"
+    },
+    {
+      "source_id": "PMID-38520489",
+      "tags": [
+        "biomarker",
+        "genetic",
+        "mixed_pathology",
+        "vascular"
+      ],
+      "title": "Disentangling and quantifying the relative cognitive impact of concurrent mixed neurodegenerative pathologies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38520489/",
+      "year": "2024"
+    },
+    {
+      "source_id": "PMID-38619853",
+      "tags": [
+        "biomarker",
+        "clinical_trial_or_therapy",
+        "inflammation_immune",
+        "mixed_pathology",
+        "tau"
+      ],
+      "title": "Clinicopathologic Heterogeneity and Glial Activation Patterns in Alzheimer Disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38619853/",
+      "year": "2024"
+    },
+    {
+      "source_id": "PMID-38683602",
+      "tags": [
+        "amyloid",
+        "biomarker",
+        "cholinergic_synaptic",
+        "clinical_trial_or_therapy",
+        "genetic",
+        "inflammation_immune",
+        "mixed_pathology",
+        "vascular"
+      ],
+      "title": "Downstream Biomarker Effects of Gantenerumab or Solanezumab in Dominantly Inherited Alzheimer Disease: The DIAN-TU-001 Randomized Clinical Trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38683602/",
+      "year": "2024"
+    },
+    {
+      "source_id": "PMID-38769824",
+      "tags": [
+        "amyloid",
+        "clinical_trial_or_therapy",
+        "genetic",
+        "inflammation_immune",
+        "mixed_pathology",
+        "review"
+      ],
+      "title": "Microglia, Trem2, and Neurodegeneration.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38769824/",
+      "year": "2025"
+    },
+    {
+      "source_id": "PMID-38866966",
+      "tags": [
+        "amyloid",
+        "biomarker",
+        "clinical_trial_or_therapy",
+        "review",
+        "vascular"
+      ],
+      "title": "Acceptable performance of blood biomarker tests of amyloid pathology - recommendations from the Global CEO Initiative on Alzheimer's Disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38866966/",
+      "year": "2024"
+    },
+    {
+      "source_id": "PMID-38888066",
+      "tags": [
+        "amyloid",
+        "biomarker",
+        "clinical_trial_or_therapy",
+        "mixed_pathology",
+        "review",
+        "tau"
+      ],
+      "title": "Advances in blood biomarkers for Alzheimer disease (AD): A review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38888066/",
+      "year": "2024"
+    },
+    {
+      "source_id": "PMID-38906999",
+      "tags": [
+        "amyloid",
+        "biomarker",
+        "genetic",
+        "inflammation_immune",
+        "mixed_pathology",
+        "review",
+        "vascular"
+      ],
+      "title": "Multifaceted roles of APOE in Alzheimer disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38906999/",
+      "year": "2024"
+    },
+    {
+      "source_id": "PMID-39014245",
+      "tags": [
+        "inflammation_immune",
+        "metabolic_mitochondrial",
+        "mixed_pathology",
+        "review",
+        "tau"
+      ],
+      "title": "Cellular and pathological functions of tau.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39014245/",
+      "year": "2024"
+    },
+    {
+      "source_id": "PMID-39068545",
+      "tags": [
+        "amyloid",
+        "biomarker",
+        "clinical_trial_or_therapy",
+        "mixed_pathology",
+        "tau"
+      ],
+      "title": "Blood Biomarkers to Detect Alzheimer Disease in Primary Care and Secondary Care.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39068545/",
+      "year": "2024"
+    },
+    {
+      "source_id": "PMID-39068669",
+      "tags": [
+        "amyloid",
+        "biomarker",
+        "clinical_trial_or_therapy",
+        "mixed_pathology",
+        "tau"
+      ],
+      "title": "Plasma Phosphorylated Tau 217 and A\u03b242/40 to Predict Early Brain A\u03b2 Accumulation in People Without Cognitive Impairment.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39068669/",
+      "year": "2024"
+    },
+    {
+      "source_id": "PMID-39179297",
+      "tags": [
+        "amyloid",
+        "clinical_trial_or_therapy",
+        "mixed_pathology",
+        "review",
+        "vascular"
+      ],
+      "title": "Alzheimer Disease Anti-Amyloid Immunotherapies: Imaging Recommendations and Practice Considerations for Monitoring of Amyloid-Related Imaging Abnormalities.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39179297/",
+      "year": "2025"
+    },
+    {
+      "source_id": "PMID-39236857",
+      "tags": [
+        "clinical_trial_or_therapy",
+        "metabolic_mitochondrial",
+        "mixed_pathology",
+        "review"
+      ],
+      "title": "Dysfunctional mitochondria in age-related neurodegeneration: Utility of melatonin as an antioxidant treatment.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39236857/",
+      "year": "2024"
+    },
+    {
+      "source_id": "PMID-39288341",
+      "tags": [
+        "amyloid",
+        "biomarker",
+        "clinical_trial_or_therapy",
+        "mixed_pathology",
+        "tau",
+        "vascular"
+      ],
+      "title": "Association of Vascular Risk Factors and Cerebrovascular Pathology With Alzheimer Disease Pathologic Changes in Individuals Without Dementia.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39288341/",
+      "year": "2024"
+    },
+    {
+      "source_id": "PMID-39363202",
+      "tags": [
+        "biomarker",
+        "genetic",
+        "inflammation_immune",
+        "metabolic_mitochondrial",
+        "mixed_pathology"
+      ],
+      "title": "Mitochondrial dysfunction gene expression, DNA methylation, and inflammatory cytokines interaction activate Alzheimer's disease: a multi-omics Mendelian randomization study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39363202/",
+      "year": "2024"
+    },
+    {
+      "source_id": "PMID-39444005",
+      "tags": [
+        "amyloid",
+        "biomarker",
+        "clinical_trial_or_therapy",
+        "inflammation_immune",
+        "metabolic_mitochondrial",
+        "mixed_pathology",
+        "tau"
+      ],
+      "title": "Blood-derived mitochondrial DNA copy number is associated with Alzheimer disease, Alzheimer-related biomarkers and serum metabolites.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39444005/",
+      "year": "2024"
+    },
+    {
+      "source_id": "PMID-39620836",
+      "tags": [
+        "amyloid",
+        "cholinergic_synaptic",
+        "review",
+        "tau"
+      ],
+      "title": "Diagnosing Alzheimer Disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39620836/",
+      "year": "2024"
+    },
+    {
+      "source_id": "PMID-39620840",
+      "tags": [
+        "amyloid",
+        "clinical_trial_or_therapy",
+        "mixed_pathology",
+        "review",
+        "vascular"
+      ],
+      "title": "Vascular Cognitive Impairment.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39620840/",
+      "year": "2024"
+    },
+    {
+      "source_id": "PMID-39620846",
+      "tags": [
+        "amyloid",
+        "cholinergic_synaptic",
+        "clinical_trial_or_therapy",
+        "mixed_pathology",
+        "review"
+      ],
+      "title": "Treatment of Alzheimer Disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39620846/",
+      "year": "2024"
+    },
+    {
+      "source_id": "PMID-39794509",
+      "tags": [
+        "amyloid",
+        "clinical_trial_or_therapy",
+        "inflammation_immune",
+        "mixed_pathology",
+        "review",
+        "vascular"
+      ],
+      "title": "Amyloid-related imaging abnormalities: manifestations, metrics and mechanisms.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39794509/",
+      "year": "2025"
+    },
+    {
+      "source_id": "PMID-39960728",
+      "tags": [
+        "amyloid",
+        "biomarker",
+        "mixed_pathology",
+        "tau",
+        "vascular"
+      ],
+      "title": "Temporal Dynamics and Biological Variability of Alzheimer Biomarkers.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39960728/",
+      "year": "2025"
+    },
+    {
+      "source_id": "PMID-40023293",
+      "tags": [
+        "amyloid",
+        "biomarker",
+        "metabolic_mitochondrial",
+        "review",
+        "tau"
+      ],
+      "title": "Mitochondrial dysfunction in Alzheimer's disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40023293/",
+      "year": "2025"
+    },
+    {
+      "source_id": "PMID-40063015",
+      "tags": [
+        "amyloid",
+        "clinical_trial_or_therapy",
+        "genetic",
+        "mixed_pathology",
+        "tau",
+        "vascular"
+      ],
+      "title": "Amyloid-Related Imaging Abnormalities With Donanemab in Early Symptomatic Alzheimer Disease: Secondary Analysis of the TRAILBLAZER-ALZ and ALZ 2 Randomized Clinical Trials.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40063015/",
+      "year": "2025"
+    },
+    {
+      "source_id": "PMID-40164861",
+      "tags": [
+        "amyloid",
+        "biomarker",
+        "clinical_trial_or_therapy",
+        "genetic",
+        "mixed_pathology",
+        "review",
+        "tau"
+      ],
+      "title": "Alzheimer mimicry: LATE and PART.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40164861/",
+      "year": "2025"
+    },
+    {
+      "source_id": "PMID-40235115",
+      "tags": [
+        "amyloid",
+        "biomarker",
+        "mixed_pathology",
+        "tau",
+        "vascular"
+      ],
+      "title": "Analyzing heterogeneity in Alzheimer disease using multimodal normative modeling on imaging-based ATN biomarkers.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40235115/",
+      "year": "2025"
+    },
+    {
+      "source_id": "PMID-40373247",
+      "tags": [
+        "amyloid",
+        "biomarker",
+        "clinical_trial_or_therapy",
+        "mixed_pathology",
+        "tau"
+      ],
+      "title": "Associations Between Changes in Levels of Phosphorylated Tau and Severity of Cognitive Impairment in Early Alzheimer Disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40373247/",
+      "year": "2025"
+    },
+    {
+      "source_id": "PMID-40715455",
+      "tags": [
+        "genetic",
+        "mixed_pathology",
+        "vascular"
+      ],
+      "title": "Single-cell polygenic risk scores dissect cellular and molecular heterogeneity of complex human diseases.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40715455/",
+      "year": "2026"
+    },
+    {
+      "source_id": "PMID-41052375",
+      "tags": [
+        "amyloid",
+        "biomarker",
+        "inflammation_immune",
+        "mixed_pathology",
+        "tau",
+        "vascular"
+      ],
+      "title": "Alzheimer Disease, Vascular Disease, and Blood-Brain Barrier Permeability Biomarkers in Middle-Aged Adults.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41052375/",
+      "year": "2025"
+    },
+    {
+      "source_id": "PMID-41315874",
+      "tags": [
+        "amyloid",
+        "genetic",
+        "inflammation_immune",
+        "metabolic_mitochondrial",
+        "mixed_pathology",
+        "review",
+        "tau",
+        "vascular"
+      ],
+      "title": "Immune dysfunction in Alzheimer disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41315874/",
+      "year": "2026"
+    },
+    {
+      "source_id": "PMID-41324928",
+      "tags": [
+        "amyloid",
+        "biomarker",
+        "clinical_trial_or_therapy",
+        "mixed_pathology",
+        "review",
+        "tau",
+        "vascular"
+      ],
+      "title": "Plasma Phosphorylated Tau 217 and Amyloid Burden in Older Adults Without Cognitive Impairment: A Meta-Analysis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41324928/",
+      "year": "2026"
+    },
+    {
+      "source_id": "PMID-41405855",
+      "tags": [
+        "amyloid",
+        "biomarker",
+        "clinical_trial_or_therapy",
+        "mixed_pathology",
+        "tau"
+      ],
+      "title": "Valacyclovir Treatment of Early Symptomatic Alzheimer Disease: The VALAD Randomized Clinical Trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41405855/",
+      "year": "2026"
+    }
+  ],
+  "unsupported_claims": []
+}

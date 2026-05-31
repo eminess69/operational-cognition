@@ -1,0 +1,16 @@
+{
+  "endpoints": [
+    "/health",
+    "/schema",
+    "/consult",
+    "/version",
+    "/capabilities"
+  ],
+  "host": "127.0.0.1",
+  "local_only": true,
+  "ok": true,
+  "port": 8766,
+  "protocol_version": "inside_voice_mcp_contract/0.1",
+  "service": "inside_voice_mcp",
+  "verdict": "INSIDE_VOICE_MCP_HEALTHY"
+}

@@ -1,0 +1,403 @@
+{
+  "copied_from": "proofs/034b-pond-backed-mechanism-discovery/baseline/no_pond_candidates.json",
+  "generated_after_discovery_consults": false,
+  "items": [
+    {
+      "candidate_pathways": [
+        {
+          "local_matched_cues": [
+            "decline",
+            "output",
+            "queue",
+            "wait"
+          ],
+          "pathway": "FLOW",
+          "reason": "Observation preserves passage, restriction, output, backlog, or downstream starvation structure.",
+          "supporting_lineage_hashes": [],
+          "supporting_motifs": [
+            "Flow",
+            "Path",
+            "Resistance",
+            "Source"
+          ],
+          "weight": 1.0
+        }
+      ],
+      "case_id": "P034B-FLOW-001",
+      "status": "CANDIDATES_GENERATED"
+    },
+    {
+      "candidate_pathways": [],
+      "case_id": "P034B-FLOW-002",
+      "status": "FAIL_CLOSED"
+    },
+    {
+      "candidate_pathways": [
+        {
+          "local_matched_cues": [
+            "narrowed",
+            "output",
+            "passage",
+            "wait"
+          ],
+          "pathway": "FLOW",
+          "reason": "Observation preserves passage, restriction, output, backlog, or downstream starvation structure.",
+          "supporting_lineage_hashes": [],
+          "supporting_motifs": [
+            "Flow",
+            "Path",
+            "Resistance",
+            "Source"
+          ],
+          "weight": 1.0
+        }
+      ],
+      "case_id": "P034B-FLOW-003",
+      "status": "CANDIDATES_GENERATED"
+    },
+    {
+      "candidate_pathways": [
+        {
+          "local_matched_cues": [
+            "backlog",
+            "channel",
+            "decline",
+            "downstream",
+            "output",
+            "restriction",
+            "throughput",
+            "upstream"
+          ],
+          "pathway": "FLOW",
+          "reason": "Observation preserves passage, restriction, output, backlog, or downstream starvation structure.",
+          "supporting_lineage_hashes": [],
+          "supporting_motifs": [
+            "Flow",
+            "Path",
+            "Resistance",
+            "Source"
+          ],
+          "weight": 1.0
+        }
+      ],
+      "case_id": "P034B-FLOW-004",
+      "status": "CANDIDATES_GENERATED"
+    },
+    {
+      "candidate_pathways": [],
+      "case_id": "P034B-FLOW-005",
+      "status": "FAIL_CLOSED"
+    },
+    {
+      "candidate_pathways": [],
+      "case_id": "P034B-FLOW-006",
+      "status": "FAIL_CLOSED"
+    },
+    {
+      "candidate_pathways": [],
+      "case_id": "P034B-FLOW-007",
+      "status": "FAIL_CLOSED"
+    },
+    {
+      "candidate_pathways": [
+        {
+          "local_matched_cues": [
+            "arrival",
+            "gaps",
+            "wait"
+          ],
+          "pathway": "FLOW",
+          "reason": "Observation preserves passage, restriction, output, backlog, or downstream starvation structure.",
+          "supporting_lineage_hashes": [],
+          "supporting_motifs": [
+            "Flow",
+            "Path",
+            "Resistance",
+            "Source"
+          ],
+          "weight": 1.0
+        }
+      ],
+      "case_id": "P034B-FLOW-008",
+      "status": "CANDIDATES_GENERATED"
+    },
+    {
+      "candidate_pathways": [
+        {
+          "local_matched_cues": [
+            "lock",
+            "rough",
+            "socket",
+            "turning",
+            "warm",
+            "wobble"
+          ],
+          "pathway": "SUPPORTED_ROTATION",
+          "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+          "supporting_lineage_hashes": [],
+          "supporting_motifs": [
+            "Failure",
+            "Friction",
+            "Rotation",
+            "Support"
+          ],
+          "weight": 1.0
+        }
+      ],
+      "case_id": "P034B-ROT-001",
+      "status": "CANDIDATES_GENERATED"
+    },
+    {
+      "candidate_pathways": [
+        {
+          "local_matched_cues": [
+            "circular",
+            "drag",
+            "pivot"
+          ],
+          "pathway": "SUPPORTED_ROTATION",
+          "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+          "supporting_lineage_hashes": [],
+          "supporting_motifs": [
+            "Failure",
+            "Friction",
+            "Rotation",
+            "Support"
+          ],
+          "weight": 1.0
+        }
+      ],
+      "case_id": "P034B-ROT-002",
+      "status": "CANDIDATES_GENERATED"
+    },
+    {
+      "candidate_pathways": [
+        {
+          "local_matched_cues": [
+            "journal",
+            "rough",
+            "seizure",
+            "support"
+          ],
+          "pathway": "SUPPORTED_ROTATION",
+          "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+          "supporting_lineage_hashes": [],
+          "supporting_motifs": [
+            "Failure",
+            "Friction",
+            "Rotation",
+            "Support"
+          ],
+          "weight": 0.5714
+        },
+        {
+          "local_matched_cues": [
+            "downstream",
+            "output",
+            "queue"
+          ],
+          "pathway": "FLOW",
+          "reason": "Observation preserves passage, restriction, output, backlog, or downstream starvation structure.",
+          "supporting_lineage_hashes": [],
+          "supporting_motifs": [
+            "Flow",
+            "Path",
+            "Resistance",
+            "Source"
+          ],
+          "weight": 0.4286
+        }
+      ],
+      "case_id": "P034B-ROT-003",
+      "status": "AMBIGUOUS"
+    },
+    {
+      "candidate_pathways": [],
+      "case_id": "P034B-ROT-004",
+      "status": "FAIL_CLOSED"
+    },
+    {
+      "candidate_pathways": [],
+      "case_id": "P034B-ROT-005",
+      "status": "FAIL_CLOSED"
+    },
+    {
+      "candidate_pathways": [],
+      "case_id": "P034B-ROT-006",
+      "status": "FAIL_CLOSED"
+    },
+    {
+      "candidate_pathways": [],
+      "case_id": "P034B-ROT-007",
+      "status": "FAIL_CLOSED"
+    },
+    {
+      "candidate_pathways": [],
+      "case_id": "P034B-ROT-008",
+      "status": "FAIL_CLOSED"
+    },
+    {
+      "candidate_pathways": [
+        {
+          "local_matched_cues": [
+            "bend",
+            "bracket",
+            "crack",
+            "structure"
+          ],
+          "pathway": "LOAD_TRANSFER",
+          "reason": "Observation preserves burden, distribution, concentration, deformation, or localized failure structure.",
+          "supporting_lineage_hashes": [],
+          "supporting_motifs": [
+            "Concentration",
+            "Distribution",
+            "Failure",
+            "Load"
+          ],
+          "weight": 1.0
+        }
+      ],
+      "case_id": "P034B-LOAD-001",
+      "status": "CANDIDATES_GENERATED"
+    },
+    {
+      "candidate_pathways": [
+        {
+          "local_matched_cues": [
+            "droops",
+            "fastener",
+            "tear"
+          ],
+          "pathway": "LOAD_TRANSFER",
+          "reason": "Observation preserves burden, distribution, concentration, deformation, or localized failure structure.",
+          "supporting_lineage_hashes": [],
+          "supporting_motifs": [
+            "Concentration",
+            "Distribution",
+            "Failure",
+            "Load"
+          ],
+          "weight": 1.0
+        }
+      ],
+      "case_id": "P034B-LOAD-002",
+      "status": "CANDIDATES_GENERATED"
+    },
+    {
+      "candidate_pathways": [],
+      "case_id": "P034B-LOAD-003",
+      "status": "FAIL_CLOSED"
+    },
+    {
+      "candidate_pathways": [],
+      "case_id": "P034B-LOAD-004",
+      "status": "FAIL_CLOSED"
+    },
+    {
+      "candidate_pathways": [],
+      "case_id": "P034B-LOAD-005",
+      "status": "FAIL_CLOSED"
+    },
+    {
+      "candidate_pathways": [],
+      "case_id": "P034B-LOAD-006",
+      "status": "FAIL_CLOSED"
+    },
+    {
+      "candidate_pathways": [],
+      "case_id": "P034B-LOAD-007",
+      "status": "FAIL_CLOSED"
+    },
+    {
+      "candidate_pathways": [],
+      "case_id": "P034B-LOAD-008",
+      "status": "FAIL_CLOSED"
+    },
+    {
+      "candidate_pathways": [
+        {
+          "local_matched_cues": [
+            "circular",
+            "rough",
+            "support",
+            "warm"
+          ],
+          "pathway": "SUPPORTED_ROTATION",
+          "reason": "Observation preserves turning motion, support interface, friction, roughness, or seizure structure.",
+          "supporting_lineage_hashes": [],
+          "supporting_motifs": [
+            "Failure",
+            "Friction",
+            "Rotation",
+            "Support"
+          ],
+          "weight": 0.5714
+        },
+        {
+          "local_matched_cues": [
+            "decline",
+            "output",
+            "queue"
+          ],
+          "pathway": "FLOW",
+          "reason": "Observation preserves passage, restriction, output, backlog, or downstream starvation structure.",
+          "supporting_lineage_hashes": [],
+          "supporting_motifs": [
+            "Flow",
+            "Path",
+            "Resistance",
+            "Source"
+          ],
+          "weight": 0.4286
+        }
+      ],
+      "case_id": "P034B-AMB-001",
+      "status": "AMBIGUOUS"
+    },
+    {
+      "candidate_pathways": [],
+      "case_id": "P034B-AMB-002",
+      "status": "FAIL_CLOSED"
+    },
+    {
+      "candidate_pathways": [
+        {
+          "local_matched_cues": [
+            "crack",
+            "fastener",
+            "mass"
+          ],
+          "pathway": "LOAD_TRANSFER",
+          "reason": "Observation preserves burden, distribution, concentration, deformation, or localized failure structure.",
+          "supporting_lineage_hashes": [],
+          "supporting_motifs": [
+            "Concentration",
+            "Distribution",
+            "Failure",
+            "Load"
+          ],
+          "weight": 1.0
+        }
+      ],
+      "case_id": "P034B-AMB-003",
+      "status": "CANDIDATES_GENERATED"
+    },
+    {
+      "candidate_pathways": [],
+      "case_id": "P034B-FAIL-001",
+      "status": "FAIL_CLOSED"
+    },
+    {
+      "candidate_pathways": [],
+      "case_id": "P034B-FAIL-002",
+      "status": "FAIL_CLOSED"
+    },
+    {
+      "candidate_pathways": [],
+      "case_id": "P034B-FAIL-003",
+      "status": "FAIL_CLOSED"
+    }
+  ],
+  "mode": "no_pond",
+  "reuse_reason": "Proof 036 must keep baselines, held-out cases, scoring, and candidate-generation rules unchanged from Proof 034b."
+}

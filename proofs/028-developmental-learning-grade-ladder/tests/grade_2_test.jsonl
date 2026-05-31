@@ -1,0 +1,6 @@
+{"concept": "two_digit_addition_without_carrying", "expected_answer": "59", "question": "What is 34 + 25?", "question_id": "G2-T001", "requires_transfer": true}
+{"concept": "two_digit_subtraction_without_borrowing", "expected_answer": "44", "question": "What is 68 - 24?", "question_id": "G2-T002", "requires_transfer": true}
+{"concept": "place_value", "expected_answer": "4 tens and 7 ones", "question": "How many tens and ones are in 47?", "question_id": "G2-T003", "requires_transfer": true}
+{"concept": "skip_counting", "expected_answer": "25", "question": "Count by 5s: what comes after 20?", "question_id": "G2-T004", "requires_transfer": true}
+{"concept": "multiplication_as_repeated_addition", "expected_answer": "12", "question": "What is 4 groups of 3?", "question_id": "G2-T005", "requires_transfer": true}
+{"concept": "division_as_grouping", "expected_answer": "6", "question": "Share 18 cookies equally into 3 groups. How many in each group?", "question_id": "G2-T006", "requires_transfer": true}

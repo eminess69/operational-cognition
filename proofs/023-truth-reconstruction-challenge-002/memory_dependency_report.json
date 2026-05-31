@@ -1,0 +1,79 @@
+{
+  "consult_count": 5,
+  "direction_changes": {
+    "count": 2,
+    "items": [
+      {
+        "from": "Baseline rank 3 was Server-Side Apply.",
+        "to": "Final rank 3 is CSI/in-tree storage plugin migration.",
+        "triggering_consults": ["consult_001_top_three_rerank_response.json", "consult_004_csi_response.json"],
+        "public_evidence_added_after_consult": [
+          "CSI design proposal",
+          "CSI alpha blog",
+          "CSI GA blog",
+          "CSI migration status update"
+        ]
+      },
+      {
+        "from": "Search framed around isolated major features.",
+        "to": "Search reframed around a recurring Kubernetes motif: move ecosystem integration points out of core behind stable APIs.",
+        "triggering_consults": ["consult_001_top_three_rerank_response.json", "consult_005_final_contradiction_audit_response.json"],
+        "public_evidence_added_after_consult": [
+          "CRI dockershim removal as runtime extraction",
+          "CSI migration as storage extraction",
+          "CRD/API aggregation as API extension boundary"
+        ]
+      }
+    ]
+  },
+  "new_evidence_after_consult": [
+    {
+      "source": "https://github.com/kubernetes/design-proposals-archive/blob/main/storage/container-storage-interface.md",
+      "why_new": "Investigated after consult pressure identified the baseline's missing out-of-tree integration motif."
+    },
+    {
+      "source": "https://kubernetes.io/blog/2018/01/introducing-container-storage-interface/",
+      "why_new": "Added to verify CSI original problem and FlexVolume contrast."
+    },
+    {
+      "source": "https://kubernetes.io/blog/2019/01/15/container-storage-interface-ga/",
+      "why_new": "Added to verify GA consequence and stability claims."
+    },
+    {
+      "source": "https://kubernetes.io/blog/2022/09/26/storage-in-tree-to-csi-migration-status-update-1.25/",
+      "why_new": "Added to verify long-term migration and API-compatibility consequences."
+    }
+  ],
+  "contradictions_after_consult": [
+    {
+      "contradiction": "Server-Side Apply is important but not as system-defining as CSI.",
+      "resolution": "Demoted SSA because CSI changes Kubernetes' external integration boundary and core-code ownership model."
+    },
+    {
+      "contradiction": "FlexVolume existed before CSI, so CSI was not the first out-of-tree storage answer.",
+      "resolution": "Preserved as a competing proposal; CSI won by addressing containerized deployment, dependencies, and broader standardization."
+    },
+    {
+      "contradiction": "dockershim removal was architecturally clean but operationally disruptive.",
+      "resolution": "Preserved as a CRI long-term consequence rather than flattened into a pure success story."
+    },
+    {
+      "contradiction": "CRDs are easy while aggregated APIs are more flexible.",
+      "resolution": "Final narrative treats them as complementary extension paths, with CRDs as the mass-adoption default."
+    }
+  ],
+  "abandoned_false_paths": [
+    {
+      "false_path": "Treat Server-Side Apply as the third most important architectural decision.",
+      "why_abandoned": "Consult reranking and CSI evidence showed SSA was a major API semantics repair, not the same class of architecture-defining boundary change."
+    },
+    {
+      "false_path": "Treat CSI as only a storage subsystem detail.",
+      "why_abandoned": "Public CSI sources show the decision reallocated responsibility between Kubernetes core and an external storage ecosystem."
+    },
+    {
+      "false_path": "Treat consultation output as historical evidence.",
+      "why_abandoned": "Final audit preserved the boundary that consult output is search-direction and lineage pressure only; public Kubernetes sources carry historical truth."
+    }
+  ]
+}

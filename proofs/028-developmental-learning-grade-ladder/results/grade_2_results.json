@@ -1,0 +1,464 @@
+{
+  "accuracy": 1.0,
+  "answered_items": 6,
+  "deterministic_replay_match": true,
+  "execution_mode": "deterministic_cli_no_llm",
+  "grade_1_motif_reuse_rate": 1.0,
+  "grade_1_motifs_reused": [
+    "g1_count_forward_addition",
+    "g1_counting_sequence",
+    "g1_take_away_subtraction"
+  ],
+  "items": [
+    {
+      "answer": "59",
+      "concept": "two_digit_addition_without_carrying",
+      "concept_pathway": [
+        "counting",
+        "one_digit_addition",
+        "place_value",
+        "two_digit_addition_without_carrying"
+      ],
+      "confidence": 0.87,
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_answer": "59",
+      "motif_lineage": [
+        {
+          "concept": "counting",
+          "grade": 1,
+          "lesson_id": "G1-L001",
+          "motif_id": "g1_counting_sequence"
+        },
+        {
+          "concept": "one_digit_addition",
+          "grade": 1,
+          "lesson_id": "G1-L002",
+          "motif_id": "g1_count_forward_addition"
+        },
+        {
+          "concept": "place_value",
+          "grade": 2,
+          "lesson_id": "G2-L003",
+          "motif_id": "g2_tens_ones_place_value"
+        },
+        {
+          "concept": "two_digit_addition_without_carrying",
+          "grade": 2,
+          "lesson_id": "G2-L001",
+          "motif_id": "g2_no_carry_column_addition"
+        }
+      ],
+      "question": "What is 34 + 25?",
+      "question_id": "G2-T001",
+      "requires_transfer": true,
+      "source_tracebacks": [
+        {
+          "concept": "counting",
+          "expected_motif": "g1_counting_sequence",
+          "lesson_id": "G1-L001",
+          "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+          "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+        },
+        {
+          "concept": "one_digit_addition",
+          "expected_motif": "g1_count_forward_addition",
+          "lesson_id": "G1-L002",
+          "rule": "One-digit addition combines two one-digit quantities by counting forward the second amount.",
+          "trace_expectation": "An addition answer must cite a one-digit addition motif and any counting dependency."
+        },
+        {
+          "concept": "place_value",
+          "expected_motif": "g2_tens_ones_place_value",
+          "lesson_id": "G2-L003",
+          "rule": "In a two-digit number, the left digit counts tens and the right digit counts ones.",
+          "trace_expectation": "A place-value answer must cite the tens-and-ones motif and counting sequence motif."
+        },
+        {
+          "concept": "two_digit_addition_without_carrying",
+          "expected_motif": "g2_no_carry_column_addition",
+          "lesson_id": "G2-L001",
+          "rule": "Add ones to ones and tens to tens when the ones sum stays below ten.",
+          "trace_expectation": "A two-digit addition answer must cite place value, one-digit addition, and this no-carry motif."
+        }
+      ],
+      "status": "ANSWERED",
+      "traceback_complete": true,
+      "unsupported": false,
+      "used_grade_1_motifs": [
+        "g1_count_forward_addition",
+        "g1_counting_sequence"
+      ],
+      "used_grade_2_motifs": [
+        "g2_no_carry_column_addition",
+        "g2_tens_ones_place_value"
+      ]
+    },
+    {
+      "answer": "44",
+      "concept": "two_digit_subtraction_without_borrowing",
+      "concept_pathway": [
+        "counting",
+        "one_digit_subtraction",
+        "place_value",
+        "two_digit_subtraction_without_borrowing"
+      ],
+      "confidence": 0.87,
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_answer": "44",
+      "motif_lineage": [
+        {
+          "concept": "counting",
+          "grade": 1,
+          "lesson_id": "G1-L001",
+          "motif_id": "g1_counting_sequence"
+        },
+        {
+          "concept": "one_digit_subtraction",
+          "grade": 1,
+          "lesson_id": "G1-L003",
+          "motif_id": "g1_take_away_subtraction"
+        },
+        {
+          "concept": "place_value",
+          "grade": 2,
+          "lesson_id": "G2-L003",
+          "motif_id": "g2_tens_ones_place_value"
+        },
+        {
+          "concept": "two_digit_subtraction_without_borrowing",
+          "grade": 2,
+          "lesson_id": "G2-L002",
+          "motif_id": "g2_no_borrow_column_subtraction"
+        }
+      ],
+      "question": "What is 68 - 24?",
+      "question_id": "G2-T002",
+      "requires_transfer": true,
+      "source_tracebacks": [
+        {
+          "concept": "counting",
+          "expected_motif": "g1_counting_sequence",
+          "lesson_id": "G1-L001",
+          "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+          "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+        },
+        {
+          "concept": "one_digit_subtraction",
+          "expected_motif": "g1_take_away_subtraction",
+          "lesson_id": "G1-L003",
+          "rule": "One-digit subtraction removes the second one-digit quantity from the first and counts what remains.",
+          "trace_expectation": "A subtraction answer must cite a take-away motif and any counting dependency."
+        },
+        {
+          "concept": "place_value",
+          "expected_motif": "g2_tens_ones_place_value",
+          "lesson_id": "G2-L003",
+          "rule": "In a two-digit number, the left digit counts tens and the right digit counts ones.",
+          "trace_expectation": "A place-value answer must cite the tens-and-ones motif and counting sequence motif."
+        },
+        {
+          "concept": "two_digit_subtraction_without_borrowing",
+          "expected_motif": "g2_no_borrow_column_subtraction",
+          "lesson_id": "G2-L002",
+          "rule": "Subtract ones from ones and tens from tens when each top digit is at least the matching bottom digit.",
+          "trace_expectation": "A two-digit subtraction answer must cite place value, one-digit subtraction, and this no-borrow motif."
+        }
+      ],
+      "status": "ANSWERED",
+      "traceback_complete": true,
+      "unsupported": false,
+      "used_grade_1_motifs": [
+        "g1_counting_sequence",
+        "g1_take_away_subtraction"
+      ],
+      "used_grade_2_motifs": [
+        "g2_no_borrow_column_subtraction",
+        "g2_tens_ones_place_value"
+      ]
+    },
+    {
+      "answer": "4 tens and 7 ones",
+      "concept": "place_value",
+      "concept_pathway": [
+        "counting",
+        "place_value"
+      ],
+      "confidence": 0.71,
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_answer": "4 tens and 7 ones",
+      "motif_lineage": [
+        {
+          "concept": "counting",
+          "grade": 1,
+          "lesson_id": "G1-L001",
+          "motif_id": "g1_counting_sequence"
+        },
+        {
+          "concept": "place_value",
+          "grade": 2,
+          "lesson_id": "G2-L003",
+          "motif_id": "g2_tens_ones_place_value"
+        }
+      ],
+      "question": "How many tens and ones are in 47?",
+      "question_id": "G2-T003",
+      "requires_transfer": true,
+      "source_tracebacks": [
+        {
+          "concept": "counting",
+          "expected_motif": "g1_counting_sequence",
+          "lesson_id": "G1-L001",
+          "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+          "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+        },
+        {
+          "concept": "place_value",
+          "expected_motif": "g2_tens_ones_place_value",
+          "lesson_id": "G2-L003",
+          "rule": "In a two-digit number, the left digit counts tens and the right digit counts ones.",
+          "trace_expectation": "A place-value answer must cite the tens-and-ones motif and counting sequence motif."
+        }
+      ],
+      "status": "ANSWERED",
+      "traceback_complete": true,
+      "unsupported": false,
+      "used_grade_1_motifs": [
+        "g1_counting_sequence"
+      ],
+      "used_grade_2_motifs": [
+        "g2_tens_ones_place_value"
+      ]
+    },
+    {
+      "answer": "25",
+      "concept": "skip_counting",
+      "concept_pathway": [
+        "counting",
+        "one_digit_addition",
+        "skip_counting"
+      ],
+      "confidence": 0.79,
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_answer": "25",
+      "motif_lineage": [
+        {
+          "concept": "counting",
+          "grade": 1,
+          "lesson_id": "G1-L001",
+          "motif_id": "g1_counting_sequence"
+        },
+        {
+          "concept": "one_digit_addition",
+          "grade": 1,
+          "lesson_id": "G1-L002",
+          "motif_id": "g1_count_forward_addition"
+        },
+        {
+          "concept": "skip_counting",
+          "grade": 2,
+          "lesson_id": "G2-L004",
+          "motif_id": "g2_fixed_step_skip_counting"
+        }
+      ],
+      "question": "Count by 5s: what comes after 20?",
+      "question_id": "G2-T004",
+      "requires_transfer": true,
+      "source_tracebacks": [
+        {
+          "concept": "counting",
+          "expected_motif": "g1_counting_sequence",
+          "lesson_id": "G1-L001",
+          "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+          "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+        },
+        {
+          "concept": "one_digit_addition",
+          "expected_motif": "g1_count_forward_addition",
+          "lesson_id": "G1-L002",
+          "rule": "One-digit addition combines two one-digit quantities by counting forward the second amount.",
+          "trace_expectation": "An addition answer must cite a one-digit addition motif and any counting dependency."
+        },
+        {
+          "concept": "skip_counting",
+          "expected_motif": "g2_fixed_step_skip_counting",
+          "lesson_id": "G2-L004",
+          "rule": "Skip counting advances by a repeated fixed step instead of by one.",
+          "trace_expectation": "A skip-counting answer must cite fixed-step counting and addition motifs."
+        }
+      ],
+      "status": "ANSWERED",
+      "traceback_complete": true,
+      "unsupported": false,
+      "used_grade_1_motifs": [
+        "g1_count_forward_addition",
+        "g1_counting_sequence"
+      ],
+      "used_grade_2_motifs": [
+        "g2_fixed_step_skip_counting"
+      ]
+    },
+    {
+      "answer": "12",
+      "concept": "multiplication_as_repeated_addition",
+      "concept_pathway": [
+        "counting",
+        "one_digit_addition",
+        "multiplication_as_repeated_addition"
+      ],
+      "confidence": 0.79,
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_answer": "12",
+      "motif_lineage": [
+        {
+          "concept": "counting",
+          "grade": 1,
+          "lesson_id": "G1-L001",
+          "motif_id": "g1_counting_sequence"
+        },
+        {
+          "concept": "one_digit_addition",
+          "grade": 1,
+          "lesson_id": "G1-L002",
+          "motif_id": "g1_count_forward_addition"
+        },
+        {
+          "concept": "multiplication_as_repeated_addition",
+          "grade": 2,
+          "lesson_id": "G2-L005",
+          "motif_id": "g2_equal_groups_repeated_addition"
+        }
+      ],
+      "question": "What is 4 groups of 3?",
+      "question_id": "G2-T005",
+      "requires_transfer": true,
+      "source_tracebacks": [
+        {
+          "concept": "counting",
+          "expected_motif": "g1_counting_sequence",
+          "lesson_id": "G1-L001",
+          "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+          "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+        },
+        {
+          "concept": "one_digit_addition",
+          "expected_motif": "g1_count_forward_addition",
+          "lesson_id": "G1-L002",
+          "rule": "One-digit addition combines two one-digit quantities by counting forward the second amount.",
+          "trace_expectation": "An addition answer must cite a one-digit addition motif and any counting dependency."
+        },
+        {
+          "concept": "multiplication_as_repeated_addition",
+          "expected_motif": "g2_equal_groups_repeated_addition",
+          "lesson_id": "G2-L005",
+          "rule": "Multiplication with whole-number groups is repeated addition of equal group sizes.",
+          "trace_expectation": "A multiplication answer must cite repeated addition plus Grade 1 addition and counting motifs."
+        }
+      ],
+      "status": "ANSWERED",
+      "traceback_complete": true,
+      "unsupported": false,
+      "used_grade_1_motifs": [
+        "g1_count_forward_addition",
+        "g1_counting_sequence"
+      ],
+      "used_grade_2_motifs": [
+        "g2_equal_groups_repeated_addition"
+      ]
+    },
+    {
+      "answer": "6",
+      "concept": "division_as_grouping",
+      "concept_pathway": [
+        "counting",
+        "one_digit_subtraction",
+        "division_as_grouping"
+      ],
+      "confidence": 0.79,
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_answer": "6",
+      "motif_lineage": [
+        {
+          "concept": "counting",
+          "grade": 1,
+          "lesson_id": "G1-L001",
+          "motif_id": "g1_counting_sequence"
+        },
+        {
+          "concept": "one_digit_subtraction",
+          "grade": 1,
+          "lesson_id": "G1-L003",
+          "motif_id": "g1_take_away_subtraction"
+        },
+        {
+          "concept": "division_as_grouping",
+          "grade": 2,
+          "lesson_id": "G2-L006",
+          "motif_id": "g2_equal_grouping_division"
+        }
+      ],
+      "question": "Share 18 cookies equally into 3 groups. How many in each group?",
+      "question_id": "G2-T006",
+      "requires_transfer": true,
+      "source_tracebacks": [
+        {
+          "concept": "counting",
+          "expected_motif": "g1_counting_sequence",
+          "lesson_id": "G1-L001",
+          "rule": "Counting advances by one step in the integer sequence; the next number after n is n + 1.",
+          "trace_expectation": "A counting answer must cite the counting sequence motif and this lesson."
+        },
+        {
+          "concept": "one_digit_subtraction",
+          "expected_motif": "g1_take_away_subtraction",
+          "lesson_id": "G1-L003",
+          "rule": "One-digit subtraction removes the second one-digit quantity from the first and counts what remains.",
+          "trace_expectation": "A subtraction answer must cite a take-away motif and any counting dependency."
+        },
+        {
+          "concept": "division_as_grouping",
+          "expected_motif": "g2_equal_grouping_division",
+          "lesson_id": "G2-L006",
+          "rule": "Division by grouping partitions a total into equal-size groups with no remainder in this curriculum.",
+          "trace_expectation": "A division answer must cite equal grouping plus counting or subtraction motifs."
+        }
+      ],
+      "status": "ANSWERED",
+      "traceback_complete": true,
+      "unsupported": false,
+      "used_grade_1_motifs": [
+        "g1_counting_sequence",
+        "g1_take_away_subtraction"
+      ],
+      "used_grade_2_motifs": [
+        "g2_equal_grouping_division"
+      ]
+    }
+  ],
+  "new_grade_2_motifs_formed": [
+    "g2_equal_grouping_division",
+    "g2_equal_groups_repeated_addition",
+    "g2_fixed_step_skip_counting",
+    "g2_no_borrow_column_subtraction",
+    "g2_no_carry_column_addition",
+    "g2_tens_ones_place_value"
+  ],
+  "new_grade_2_motifs_used": [
+    "g2_equal_grouping_division",
+    "g2_equal_groups_repeated_addition",
+    "g2_fixed_step_skip_counting",
+    "g2_no_borrow_column_subtraction",
+    "g2_no_carry_column_addition",
+    "g2_tens_ones_place_value"
+  ],
+  "phase": "grade_2_test",
+  "pond_state": "grade_2_seasoned",
+  "total_items": 6,
+  "traceback_completeness": 1.0,
+  "unsupported_answers": 0
+}

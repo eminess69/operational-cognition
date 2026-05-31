@@ -1,0 +1,47 @@
+{
+  "claim_level": "evidence_backed",
+  "disallowed_claims": [
+    "Proof 039 proves cognition.",
+    "Delayed ranking is independent of deterministic scoring.",
+    "Pathway interaction eliminates all false combinations.",
+    "The held-out cases or seasoning volume changed from Proof 037/038."
+  ],
+  "inside_voice_adapter_status": "pond_backed",
+  "lineage": {
+    "candidate_status": "eligible",
+    "contract_version": "inside_voice_mcp_contract/0.2",
+    "derived_from": "Proof 037 recombination cases and Proof 038 activation-only MCP mode.",
+    "mcp_endpoint": "in_process_tools.integrations.inside_voice_mcp_server.process_consult_request",
+    "request_hash": "08aa14ac5fdfb7c4ef13389f976f759d52bfb98e346bc6930d162c7b73d4bc02",
+    "response_hash": "acd633551e3ccc3c7d2f29c45697fc891636a145a547c2255c086dd64a597438",
+    "validates": "VERY_STRONG_SIGNAL"
+  },
+  "proof_id": "039-delayed-ranking-pathway-study",
+  "public_private_boundary": "Public-safe proof artifacts record activation weights, pathway combinations, motifs, lineage refs, hashes, and aggregate ranking metrics.",
+  "required_artifacts": [
+    "README.md",
+    "proof_manifest.json",
+    "tests/recombination_cases.jsonl",
+    "mcp/pond_state_manifest.json",
+    "mcp/seasoning_log.jsonl",
+    "mcp/activation_consults.jsonl",
+    "mcp/current_recall_consults.jsonl",
+    "results/activation_field.json",
+    "results/interaction_candidates.json",
+    "results/delayed_ranking_candidates.json",
+    "baseline/immediate_ranking_candidates.json",
+    "analysis/delayed_ranking_metrics.json",
+    "analysis/interaction_quality_audit.json",
+    "analysis/hostile_delayed_ranking_audit.json"
+  ],
+  "status": "complete",
+  "targets": [
+    "ActivationCapture",
+    "InteractionWindow",
+    "DelayedRanking",
+    "ImmediateRankingBaseline",
+    "InteractionQualityAudit",
+    "HostileDelayedRankingAudit"
+  ],
+  "title": "Proof 039 - Delayed Ranking Pathway Study"
+}

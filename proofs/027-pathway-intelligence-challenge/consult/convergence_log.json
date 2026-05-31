@@ -1,0 +1,61 @@
+{
+  "consultation_boundary": "Protocol E only; each consult occurred at a recorded pathway-elimination gate.",
+  "consultation_used": true,
+  "convergence_events": [
+    {
+      "active_pathways": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8"
+      ],
+      "reason": "Source gathering was complete before any consult request was generated.",
+      "stage": "fixed_source_corpus"
+    },
+    {
+      "gates": [
+        "001_management_failure_elimination",
+        "002_incentive_structures_elimination",
+        "003_organizational_culture_elimination",
+        "004_timing_failure_elimination",
+        "005_capital_allocation_elimination",
+        "006_technology_blindness_elimination"
+      ],
+      "reason": "Consultation was invoked only when a pathway was about to be eliminated.",
+      "stage": "elimination_gates"
+    },
+    {
+      "eliminated_pathways": [
+        "P8"
+      ],
+      "reason": "P3-P7 earned survival through existing public evidence; P8 did not.",
+      "stage": "post_challenge_survival",
+      "surviving_pathways": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ]
+    },
+    {
+      "claim_boundary": "Consult responses challenged elimination only; they supplied no authoritative Kodak evidence.",
+      "dominant_conclusion": "Kodak's collapse remains multi-pathway; consultation preserved five evidence-supported pathways that baseline was collapsing or weakening.",
+      "stage": "final_consult_verdict"
+    }
+  ],
+  "forbidden_uses_observed": {
+    "asked_for_answer": false,
+    "asked_which_pathway_is_correct": false,
+    "consult_during_gathering": false,
+    "consult_during_summarization": false
+  },
+  "proof_id": "027-pathway-intelligence-challenge",
+  "run": "consult"
+}

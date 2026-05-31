@@ -1,0 +1,13 @@
+{
+  "case_count": 30,
+  "classification_counts": {
+    "FALSE_COMPOSITE": 16,
+    "PLAUSIBLE_BUT_UNPROVEN": 537,
+    "VALID_COMPOSITE": 181
+  },
+  "full_structured_response_path": "external_eval/mode_c_results.json",
+  "limitation": "This is a recorded Codex review, not a separately authenticated external service. The hostile audit preserves evaluator-bias and same-code-contamination explanations.",
+  "response": "Several candidates survive because the observation explicitly contains multiple staged cues and the candidate mechanisms map to those stages. Candidates that merely list extra mechanisms without direct observation support are rejected or downgraded.",
+  "reviewer": "Codex LLM adversarial review",
+  "scope": "The review used only the evaluation pack and adversarial rubric. It did not receive expected labels, internal scores, activation weights, confidence, or original validity fields."
+}

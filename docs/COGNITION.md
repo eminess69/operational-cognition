@@ -29,6 +29,14 @@ Operational Cognition treats engineering reasoning artifacts as infrastructure t
 
 The public artifacts are not raw cognition dumps. They are sanitized summaries designed to preserve evidence lineage without revealing private substrate state, hidden chain-of-thought, private scoring, harmonic traceback details, or implementation internals.
 
+## Belief Ledger Instrument Boundary
+
+Operational Cognition is the public lab and proof surface. Belief Ledger is the substrate instrument.
+
+Inside Voice behavior protocol endpoints expose observable pond behavior to the lab boundary. Operational Cognition may call Belief Ledger MCP endpoints, but it must not treat opaque outputs as proof unless they are validated as pond-backed and traceable. Pond-backed consults require motifs, lineages, lineage hashes, deterministic request hashes, and fail-closed behavior when those fields are absent or invalid.
+
+The current research target is not answer generation. The bounded target is activation, interaction, collapse, perturbation, and replay behavior observed through validated external-instrument artifacts.
+
 ## Operational interpretability
 
 Operational interpretability is behavioral and system-level interpretability of long-horizon AI systems.

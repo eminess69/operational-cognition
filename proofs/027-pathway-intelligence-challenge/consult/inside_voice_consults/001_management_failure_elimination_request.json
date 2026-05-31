@@ -1,0 +1,33 @@
+{
+  "context": {
+    "constraints": [
+      "Protocol E only: contradiction-first consultation at pathway elimination points.",
+      "Consultation is forbidden during gathering and summarization.",
+      "Do not ask the pond what the answer is or which pathway is correct.",
+      "Consultation cannot invent support and cannot revive a pathway without public evidence.",
+      "Public Kodak claims must remain tied to source_corpus.json IDs."
+    ],
+    "desired_artifacts": [
+      "pathway_survival_log.jsonl",
+      "pathway_collapse_audit.json",
+      "pathway_diversity_metrics.json",
+      "consult_pathway_influence.json",
+      "final_pathway_map.md",
+      "hostile_pathway_audit.json"
+    ],
+    "files": [
+      "source_corpus.json",
+      "baseline/pathway_graph.json",
+      "baseline/pathway_rankings.json",
+      "baseline/convergence_log.json",
+      "baseline/final_verdict.md",
+      "consult/inside_voice_consults"
+    ],
+    "summary": "Proof 027 asks whether consultation preserves viable investigative pathways longer than baseline reasoning. Gathering is already complete. The source corpus is fixed. The current run is at a pathway-elimination gate."
+  },
+  "max_output_chars": 8000,
+  "mode": "audit",
+  "request_id": "027-pathway-intelligence-challenge-001_management_failure_elimination",
+  "require_lineage": true,
+  "task": "Proof 027 - Pathway Intelligence Challenge Protocol E pathway-elimination gate. Do not answer which Kodak pathway is correct. Only challenge whether the pathway should be eliminated yet. Pathway under elimination: P3 Strategic management and execution failure. Current elimination reason: About to eliminate management failure as a vague blame label because Kodak demonstrably saw digital and invested in it. Preferred pathway before consult: P1/P2 digital disruption plus business model rigidity. Known source lineage for this pathway: SRC-CAMBRIDGE-BHR-2025, SRC-KODAK-2011-10K, SRC-KODAK-2010-DIGITAL-OUTLOOK. Required questions: What evidence keeps this pathway viable? | What contradiction weakens my preferred pathway? | What pathway may be collapsing too early? | What evidence lineage supports reconsideration? | What assumption is causing elimination? Return contradiction-first pressure, evidence-lineage warnings, and assumption checks only. Do not invent Kodak support; usable support must map back to supplied source IDs."
+}

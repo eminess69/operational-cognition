@@ -1,0 +1,11 @@
+{
+  "baseline_all_fail_closed": true,
+  "fail_closed_reasons": [
+    "insufficient_motif_support",
+    "no_mechanisms_loaded"
+  ],
+  "policy": "The CLI returns FAIL_CLOSED with blank mechanism fields when no mechanisms are loaded, role evidence is insufficient, or the top match is ambiguous.",
+  "proof_id": "030-mechanistic-transfer-challenge",
+  "unsupported_suite_fail_closed_rate": 1.0,
+  "unsupported_suite_false_positive_count": 0
+}

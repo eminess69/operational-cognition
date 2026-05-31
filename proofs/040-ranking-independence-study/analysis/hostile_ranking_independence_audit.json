@@ -1,0 +1,39 @@
+{
+  "attacks": [
+    {
+      "attack": "deterministic scoring",
+      "finding": "Weakened if blind, shuffled, voting, and no-ranking arms preserve field quality; still bounded to the fixed interaction window."
+    },
+    {
+      "attack": "ranking leakage",
+      "finding": "Blind ranking hides mechanism labels during scoring and reattaches them only for audit."
+    },
+    {
+      "attack": "ordering artifacts",
+      "finding": "Shuffled ranking randomizes candidate order before scoring with deterministic per-case seeds."
+    },
+    {
+      "attack": "pathway inflation",
+      "finding": "All ranked arms keep the Proof 039 cap of 5 candidates per case."
+    },
+    {
+      "attack": "hidden ranking assumptions",
+      "finding": "Survives in bounded form because all arms still operate over the same precomputed interaction window."
+    }
+  ],
+  "hostile_verdict": "VERY_STRONG_SIGNAL",
+  "invalidated_claims": [
+    "Proof 040 proves cognition.",
+    "All scoring explanations are eliminated.",
+    "Ranking strategy has no effect on final pathway choice.",
+    "The interaction window itself was independently randomized."
+  ],
+  "ranking_dependence_detected": false,
+  "remaining_interaction_explanation": true,
+  "remaining_scoring_explanation": false,
+  "surviving_claims": [
+    "The delayed-ranking advantage is not unique to the exact Proof 039 ranking order.",
+    "The interaction field contains valid pathway combinations before winner selection.",
+    "Ranking strategy changes preserve multi-mechanism candidates."
+  ]
+}

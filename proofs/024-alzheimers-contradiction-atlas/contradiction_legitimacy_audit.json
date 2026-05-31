@@ -1,0 +1,135 @@
+{
+  "audit_id": "audit-002-phase-1-contradiction-legitimacy",
+  "audit_mode": "hostile_forensic",
+  "input_scope": "proofs/024-alzheimers-contradiction-atlas only",
+  "summary": {
+    "consult_contradictions_reviewed": 12,
+    "valid_contradictions": 0,
+    "partial_contradictions": 5,
+    "uncertainty": 5,
+    "not_a_contradiction": 2,
+    "hostile_finding": "The atlas mostly maps tensions, uncertainties, benefit-risk tradeoffs, and classification problems. It overuses 'contradiction' for cases where both propositions can be simultaneously true."
+  },
+  "contradictions": [
+    {
+      "contradiction_id": "CON-001",
+      "title": "Amyloid/tau pathology is central, but target removal produces modest, trial-dependent clinical benefit",
+      "classification": "PARTIAL_CONTRADICTION",
+      "is_true_contradiction": false,
+      "is_merely_uncertainty": false,
+      "is_difference_of_emphasis": true,
+      "is_classification_artifact": false,
+      "hostile_assessment": "This is not a direct contradiction unless the prior claim is 'amyloid/tau removal is sufficient for large clinical benefit.' The current wording already concedes central-but-insufficient biology, so the tension is real but softened into a non-exclusive claim."
+    },
+    {
+      "contradiction_id": "CON-002",
+      "title": "Anti-amyloid benefit conflicts with vascular-amyloid, CAA, microbleed, and ARIA safety boundaries",
+      "classification": "PARTIAL_CONTRADICTION",
+      "is_true_contradiction": false,
+      "is_merely_uncertainty": false,
+      "is_difference_of_emphasis": false,
+      "is_classification_artifact": false,
+      "hostile_assessment": "This is a valid benefit-risk tension, but benefit and safety risk can both be true. It is clinically important, yet it is not a mechanistic contradiction in Alzheimer etiology."
+    },
+    {
+      "contradiction_id": "CON-003",
+      "title": "Biomarker-defined Alzheimer biology conflicts with clinically heterogeneous and mixed-pathology dementia",
+      "classification": "PARTIAL_CONTRADICTION",
+      "is_true_contradiction": false,
+      "is_merely_uncertainty": false,
+      "is_difference_of_emphasis": true,
+      "is_classification_artifact": true,
+      "hostile_assessment": "This is mainly a classification and generalizability problem. Biomarker-defined biology and mixed clinical pathology are compatible; the contradiction exists only if biomarker positivity is overclaimed as the dominant clinical cause."
+    },
+    {
+      "contradiction_id": "CON-004",
+      "title": "Tau tracks stage and symptoms, yet tau-directed therapies have not settled causality",
+      "classification": "UNCERTAINTY",
+      "is_true_contradiction": false,
+      "is_merely_uncertainty": true,
+      "is_difference_of_emphasis": false,
+      "is_classification_artifact": false,
+      "hostile_assessment": "Correlation with symptoms and incomplete therapeutic validation are not contradictory. This is an unresolved causal and translational question."
+    },
+    {
+      "contradiction_id": "CON-005",
+      "title": "Microglia and immune activation appear both protective and damaging",
+      "classification": "PARTIAL_CONTRADICTION",
+      "is_true_contradiction": false,
+      "is_merely_uncertainty": true,
+      "is_difference_of_emphasis": false,
+      "is_classification_artifact": false,
+      "hostile_assessment": "The opposing roles can coexist by disease stage, cell state, and context. It is a real biological tension, but not a strict contradiction."
+    },
+    {
+      "contradiction_id": "CON-006",
+      "title": "Vascular pathology is treated as risk factor, comorbidity, and co-causal dementia mechanism",
+      "classification": "UNCERTAINTY",
+      "is_true_contradiction": false,
+      "is_merely_uncertainty": true,
+      "is_difference_of_emphasis": true,
+      "is_classification_artifact": true,
+      "hostile_assessment": "These categories are not mutually exclusive. A factor can be a risk factor, comorbidity, and contributor. The issue is attribution and weighting."
+    },
+    {
+      "contradiction_id": "CON-007",
+      "title": "Mitochondrial/metabolic dysfunction could be upstream driver, downstream consequence, or parallel aging process",
+      "classification": "UNCERTAINTY",
+      "is_true_contradiction": false,
+      "is_merely_uncertainty": true,
+      "is_difference_of_emphasis": false,
+      "is_classification_artifact": false,
+      "hostile_assessment": "The title explicitly states alternative causal orderings. That is uncertainty, not contradiction."
+    },
+    {
+      "contradiction_id": "CON-008",
+      "title": "APOE evidence supports amyloid biology but also lipid, immune, glial, and vascular pathways",
+      "classification": "NOT_A_CONTRADICTION",
+      "is_true_contradiction": false,
+      "is_merely_uncertainty": false,
+      "is_difference_of_emphasis": true,
+      "is_classification_artifact": false,
+      "hostile_assessment": "Pleiotropy is expected for APOE and does not contradict amyloid involvement. This is pathway broadening, not contradiction."
+    },
+    {
+      "contradiction_id": "CON-009",
+      "title": "Blood biomarkers show strong diagnostic promise but contested deployment thresholds and generalizability",
+      "classification": "UNCERTAINTY",
+      "is_true_contradiction": false,
+      "is_merely_uncertainty": true,
+      "is_difference_of_emphasis": false,
+      "is_classification_artifact": true,
+      "hostile_assessment": "Diagnostic promise and implementation uncertainty are compatible. This is an implementation/threshold uncertainty, not a contradiction."
+    },
+    {
+      "contradiction_id": "CON-010",
+      "title": "LATE, PART, vascular cognitive impairment, and other age-related pathologies can mimic or combine with AD",
+      "classification": "UNCERTAINTY",
+      "is_true_contradiction": false,
+      "is_merely_uncertainty": true,
+      "is_difference_of_emphasis": false,
+      "is_classification_artifact": true,
+      "hostile_assessment": "Mimicry and copathology complicate classification. They do not contradict AD biology unless the atlas assumes pure single-pathology clinical AD."
+    },
+    {
+      "contradiction_id": "CON-011",
+      "title": "Single-target disease-modifying trials conflict with multi-factorial and stage-dependent disease models",
+      "classification": "PARTIAL_CONTRADICTION",
+      "is_true_contradiction": false,
+      "is_merely_uncertainty": false,
+      "is_difference_of_emphasis": true,
+      "is_classification_artifact": false,
+      "hostile_assessment": "This is a trial-design tension. Single-target trials can be valid tests inside a multifactorial model, so the conflict is partial and overgeneralized."
+    },
+    {
+      "contradiction_id": "CON-012",
+      "title": "Symptom-network and synaptic failure evidence conflicts with pathology-only endpoint confidence",
+      "classification": "NOT_A_CONTRADICTION",
+      "is_true_contradiction": false,
+      "is_merely_uncertainty": true,
+      "is_difference_of_emphasis": true,
+      "is_classification_artifact": false,
+      "hostile_assessment": "Clinical symptoms, synaptic loss, and pathology endpoints are different levels of measurement. The atlas does not show an actual contradiction, only a warning against endpoint overconfidence."
+    }
+  ]
+}

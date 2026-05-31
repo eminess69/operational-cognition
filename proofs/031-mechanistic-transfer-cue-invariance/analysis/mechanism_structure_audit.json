@@ -1,0 +1,590 @@
+{
+  "classification_counts": {
+    "PHYSICAL_BEHAVIOR": 8,
+    "RELATIONAL_STRUCTURE": 11,
+    "ROLE_CUE": 2,
+    "SURFACE_NOUN": 3
+  },
+  "classification_policy": {
+    "PHYSICAL_BEHAVIOR": "Correct answer used behavior descriptors such as turns, rough contact, queues, slowdown, or bending.",
+    "RELATIONAL_STRUCTURE": "Correct answer required multiple related roles and resisted contradictory decoy cues.",
+    "ROLE_CUE": "Correct answer removed canonical nouns but still used explicit role cue tokens.",
+    "SURFACE_NOUN": "Correct answer used an expected-domain noun that remains a parser shortcut.",
+    "UNSUPPORTED": "Answer lacked sufficient source traceback or role evidence."
+  },
+  "items": [
+    {
+      "classification": "ROLE_CUE",
+      "cue_words_present": [
+        "channel",
+        "inlet",
+        "movement",
+        "moves",
+        "narrow",
+        "queue",
+        "queues",
+        "through"
+      ],
+      "expected_mechanism": "flow",
+      "identified_mechanism": "flow",
+      "question_id": "CR-001",
+      "source_tracebacks_present": true,
+      "structure_features_used": [
+        "source present",
+        "path present",
+        "restriction appears",
+        "movement drops"
+      ],
+      "suite": "cue_removed"
+    },
+    {
+      "classification": "PHYSICAL_BEHAVIOR",
+      "cue_words_present": [
+        "noise",
+        "pivot",
+        "rough",
+        "slow",
+        "slows",
+        "stops",
+        "turns"
+      ],
+      "expected_mechanism": "supported_rotation",
+      "identified_mechanism": "supported_rotation",
+      "question_id": "CR-002",
+      "source_tracebacks_present": true,
+      "structure_features_used": [
+        "turning part",
+        "support point",
+        "rough contact",
+        "slowdown and stop"
+      ],
+      "suite": "cue_removed"
+    },
+    {
+      "classification": "RELATIONAL_STRUCTURE",
+      "cue_words_present": [
+        "across",
+        "bends",
+        "crack",
+        "cracks",
+        "heavy",
+        "joint",
+        "members",
+        "shared",
+        "stress"
+      ],
+      "expected_mechanism": "load_transfer",
+      "identified_mechanism": "load_transfer",
+      "question_id": "CR-003",
+      "source_tracebacks_present": true,
+      "structure_features_used": [
+        "force carried",
+        "distributed members",
+        "localized stress",
+        "bending and cracking"
+      ],
+      "suite": "cue_removed"
+    },
+    {
+      "classification": "ROLE_CUE",
+      "cue_words_present": [
+        "along",
+        "choke",
+        "corridor",
+        "origin",
+        "progress",
+        "queue"
+      ],
+      "expected_mechanism": "flow",
+      "identified_mechanism": "flow",
+      "question_id": "CR-004",
+      "source_tracebacks_present": true,
+      "structure_features_used": [
+        "origin",
+        "route",
+        "choke point",
+        "progress drop"
+      ],
+      "suite": "cue_removed"
+    },
+    {
+      "classification": "PHYSICAL_BEHAVIOR",
+      "cue_words_present": [
+        "disk",
+        "pivot",
+        "rough",
+        "stuck",
+        "turns",
+        "uneven",
+        "vibration"
+      ],
+      "expected_mechanism": "supported_rotation",
+      "identified_mechanism": "supported_rotation",
+      "question_id": "CR-005",
+      "source_tracebacks_present": true,
+      "structure_features_used": [
+        "turning part",
+        "support point",
+        "rough contact",
+        "uneven stuck motion"
+      ],
+      "suite": "cue_removed"
+    },
+    {
+      "classification": "RELATIONAL_STRUCTURE",
+      "cue_words_present": [
+        "across",
+        "bow",
+        "bows",
+        "breaks",
+        "cargo",
+        "high stress",
+        "localized",
+        "posts",
+        "pull",
+        "pulls",
+        "stress"
+      ],
+      "expected_mechanism": "load_transfer",
+      "identified_mechanism": "load_transfer",
+      "question_id": "CR-006",
+      "source_tracebacks_present": true,
+      "structure_features_used": [
+        "force carried",
+        "distributed posts",
+        "localized stress",
+        "bowing and break"
+      ],
+      "suite": "cue_removed"
+    },
+    {
+      "classification": "RELATIONAL_STRUCTURE",
+      "cue_words_present": [
+        "noisy",
+        "pivot",
+        "rough",
+        "slow",
+        "slows",
+        "stops",
+        "turns"
+      ],
+      "expected_mechanism": "supported_rotation",
+      "identified_mechanism": "supported_rotation",
+      "question_id": "CS-001",
+      "source_tracebacks_present": true,
+      "structure_features_used": [
+        "turning part",
+        "support point",
+        "rough and noisy contact",
+        "slowdown and stop"
+      ],
+      "suite": "cue_swapped"
+    },
+    {
+      "classification": "RELATIONAL_STRUCTURE",
+      "cue_words_present": [
+        "gateway",
+        "moving",
+        "queue",
+        "queues",
+        "rate limit",
+        "sender",
+        "through",
+        "throughput"
+      ],
+      "expected_mechanism": "flow",
+      "identified_mechanism": "flow",
+      "question_id": "CS-002",
+      "source_tracebacks_present": true,
+      "structure_features_used": [
+        "sender",
+        "gateway path",
+        "rate limit",
+        "throughput drop"
+      ],
+      "suite": "cue_swapped"
+    },
+    {
+      "classification": "RELATIONAL_STRUCTURE",
+      "cue_words_present": [
+        "across",
+        "bends",
+        "force",
+        "heavy",
+        "joint",
+        "posts",
+        "stress",
+        "transfers"
+      ],
+      "expected_mechanism": "load_transfer",
+      "identified_mechanism": "load_transfer",
+      "question_id": "CS-003",
+      "source_tracebacks_present": true,
+      "structure_features_used": [
+        "force carried",
+        "distributed posts",
+        "stress concentration",
+        "bending"
+      ],
+      "suite": "cue_swapped"
+    },
+    {
+      "classification": "RELATIONAL_STRUCTURE",
+      "cue_words_present": [
+        "along",
+        "inlet",
+        "jam",
+        "narrow",
+        "progress",
+        "route"
+      ],
+      "expected_mechanism": "flow",
+      "identified_mechanism": "flow",
+      "question_id": "CS-004",
+      "source_tracebacks_present": true,
+      "structure_features_used": [
+        "inlet",
+        "route",
+        "narrow segment",
+        "jam and progress drop"
+      ],
+      "suite": "cue_swapped"
+    },
+    {
+      "classification": "RELATIONAL_STRUCTURE",
+      "cue_words_present": [
+        "heat",
+        "mount",
+        "rotation",
+        "spin",
+        "spins",
+        "squeal",
+        "squealing",
+        "stops",
+        "uneven"
+      ],
+      "expected_mechanism": "supported_rotation",
+      "identified_mechanism": "supported_rotation",
+      "question_id": "CS-005",
+      "source_tracebacks_present": true,
+      "structure_features_used": [
+        "spinning part",
+        "mount",
+        "heat and squealing",
+        "uneven stop"
+      ],
+      "suite": "cue_swapped"
+    },
+    {
+      "classification": "RELATIONAL_STRUCTURE",
+      "cue_words_present": [
+        "bends",
+        "carries",
+        "force",
+        "members",
+        "one anchor",
+        "shared",
+        "through",
+        "weight"
+      ],
+      "expected_mechanism": "load_transfer",
+      "identified_mechanism": "load_transfer",
+      "question_id": "CS-006",
+      "source_tracebacks_present": true,
+      "structure_features_used": [
+        "weight carried",
+        "shared members",
+        "force concentrated at anchor",
+        "bending"
+      ],
+      "suite": "cue_swapped"
+    },
+    {
+      "classification": "SURFACE_NOUN",
+      "cue_words_present": [
+        "fan",
+        "pivot",
+        "slow",
+        "slows",
+        "squeal",
+        "turns"
+      ],
+      "expected_mechanism": "supported_rotation",
+      "identified_mechanism": "supported_rotation",
+      "question_id": "DC-001",
+      "source_tracebacks_present": true,
+      "structure_features_used": [
+        "turning part",
+        "pivot",
+        "squeal",
+        "slowdown"
+      ],
+      "suite": "decoy_cues"
+    },
+    {
+      "classification": "RELATIONAL_STRUCTURE",
+      "cue_words_present": [
+        "corridor",
+        "hallway",
+        "inlet",
+        "narrow",
+        "progress",
+        "queue",
+        "queues",
+        "through"
+      ],
+      "expected_mechanism": "flow",
+      "identified_mechanism": "flow",
+      "question_id": "DC-002",
+      "source_tracebacks_present": true,
+      "structure_features_used": [
+        "inlet",
+        "corridor",
+        "narrow exit",
+        "queues and progress drop"
+      ],
+      "suite": "decoy_cues"
+    },
+    {
+      "classification": "SURFACE_NOUN",
+      "cue_words_present": [
+        "across",
+        "bends",
+        "boxes",
+        "bracket",
+        "carries",
+        "force",
+        "heavy",
+        "posts",
+        "sag",
+        "sags"
+      ],
+      "expected_mechanism": "load_transfer",
+      "identified_mechanism": "load_transfer",
+      "question_id": "DC-003",
+      "source_tracebacks_present": true,
+      "structure_features_used": [
+        "weight carried",
+        "posts",
+        "force concentration",
+        "bending and sagging"
+      ],
+      "suite": "decoy_cues"
+    },
+    {
+      "classification": "SURFACE_NOUN",
+      "cue_words_present": [
+        "disk",
+        "heat",
+        "mount",
+        "spin",
+        "spins",
+        "stuck",
+        "vibration"
+      ],
+      "expected_mechanism": "supported_rotation",
+      "identified_mechanism": "supported_rotation",
+      "question_id": "DC-004",
+      "source_tracebacks_present": true,
+      "structure_features_used": [
+        "spinning part",
+        "mount",
+        "vibration and heat",
+        "stuck"
+      ],
+      "suite": "decoy_cues"
+    },
+    {
+      "classification": "RELATIONAL_STRUCTURE",
+      "cue_words_present": [
+        "gateway",
+        "queue",
+        "queues",
+        "rate limit",
+        "rate limited",
+        "sender",
+        "through",
+        "throughput"
+      ],
+      "expected_mechanism": "flow",
+      "identified_mechanism": "flow",
+      "question_id": "DC-005",
+      "source_tracebacks_present": true,
+      "structure_features_used": [
+        "sender",
+        "gateway",
+        "rate-limited step",
+        "queues and throughput drop"
+      ],
+      "suite": "decoy_cues"
+    },
+    {
+      "classification": "RELATIONAL_STRUCTURE",
+      "cue_words_present": [
+        "bends",
+        "cables",
+        "force",
+        "one anchor",
+        "pull",
+        "pulls",
+        "through"
+      ],
+      "expected_mechanism": "load_transfer",
+      "identified_mechanism": "load_transfer",
+      "question_id": "DC-006",
+      "source_tracebacks_present": true,
+      "structure_features_used": [
+        "pulling force",
+        "cables",
+        "force concentration at anchor",
+        "bending"
+      ],
+      "suite": "decoy_cues"
+    },
+    {
+      "classification": "PHYSICAL_BEHAVIOR",
+      "cue_words_present": [
+        "noisy",
+        "pivot",
+        "rough",
+        "slow",
+        "slows",
+        "stops",
+        "turns"
+      ],
+      "expected_mechanism": "supported_rotation",
+      "identified_mechanism": "supported_rotation",
+      "question_id": "NP-001",
+      "source_tracebacks_present": true,
+      "structure_features_used": [
+        "turning motion",
+        "pivot",
+        "rough contact",
+        "noisy slowdown stop"
+      ],
+      "suite": "neutral_physics"
+    },
+    {
+      "classification": "PHYSICAL_BEHAVIOR",
+      "cue_words_present": [
+        "channel",
+        "movement",
+        "narrow",
+        "origin",
+        "passes",
+        "queue",
+        "queues",
+        "through"
+      ],
+      "expected_mechanism": "flow",
+      "identified_mechanism": "flow",
+      "question_id": "NP-002",
+      "source_tracebacks_present": true,
+      "structure_features_used": [
+        "origin",
+        "channel",
+        "narrow point",
+        "queues"
+      ],
+      "suite": "neutral_physics"
+    },
+    {
+      "classification": "PHYSICAL_BEHAVIOR",
+      "cue_words_present": [
+        "across",
+        "bends",
+        "carries",
+        "force",
+        "members",
+        "stress"
+      ],
+      "expected_mechanism": "load_transfer",
+      "identified_mechanism": "load_transfer",
+      "question_id": "NP-003",
+      "source_tracebacks_present": true,
+      "structure_features_used": [
+        "force carried",
+        "members",
+        "stress concentration",
+        "bending"
+      ],
+      "suite": "neutral_physics"
+    },
+    {
+      "classification": "PHYSICAL_BEHAVIOR",
+      "cue_words_present": [
+        "along",
+        "choke",
+        "conduit",
+        "movement",
+        "passes",
+        "supply",
+        "throughput"
+      ],
+      "expected_mechanism": "flow",
+      "identified_mechanism": "flow",
+      "question_id": "NP-004",
+      "source_tracebacks_present": true,
+      "structure_features_used": [
+        "supply",
+        "conduit",
+        "choke",
+        "throughput drop"
+      ],
+      "suite": "neutral_physics"
+    },
+    {
+      "classification": "PHYSICAL_BEHAVIOR",
+      "cue_words_present": [
+        "pivot",
+        "rotate",
+        "rotates",
+        "rotation",
+        "rough",
+        "stops",
+        "uneven",
+        "vibration"
+      ],
+      "expected_mechanism": "supported_rotation",
+      "identified_mechanism": "supported_rotation",
+      "question_id": "NP-005",
+      "source_tracebacks_present": true,
+      "structure_features_used": [
+        "rotation",
+        "pivot",
+        "rough vibration",
+        "uneven stop"
+      ],
+      "suite": "neutral_physics"
+    },
+    {
+      "classification": "PHYSICAL_BEHAVIOR",
+      "cue_words_present": [
+        "across",
+        "bow",
+        "bows",
+        "crack",
+        "cracks",
+        "high stress",
+        "localized",
+        "posts",
+        "spread",
+        "spreads",
+        "stress",
+        "weight"
+      ],
+      "expected_mechanism": "load_transfer",
+      "identified_mechanism": "load_transfer",
+      "question_id": "NP-006",
+      "source_tracebacks_present": true,
+      "structure_features_used": [
+        "weight",
+        "spread across posts",
+        "localized stress",
+        "bows and cracks"
+      ],
+      "suite": "neutral_physics"
+    }
+  ],
+  "proof_id": "031-mechanistic-transfer-cue-invariance"
+}

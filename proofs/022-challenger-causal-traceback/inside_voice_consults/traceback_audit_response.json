@@ -1,0 +1,240 @@
+{
+  "adapter_status": "pond_backed",
+  "bounded_synthesis": "Observed: pond/proof recall returned 5 motifs and 10 lineage refs; 6 contradiction warnings and 5 unresolved tensions remain visible. Inferred: the safe next...",
+  "claim_boundary_audit": [
+    {
+      "boundary_risk": "low",
+      "evidence_refs": [
+        "request_visible_ref:proofs/022-challenger-causal-traceback/source_corpus.json",
+        "request_visible_ref:proofs/022-challenger-causal-traceback/evidence_graph.json"
+      ],
+      "id": "audit.public_private_boundary",
+      "message": "Only public-safe summaries, scores, refs, warnings, and hashes are exposed.",
+      "reason_codes": [
+        "PUBLIC_PRIVATE_BOUNDARY",
+        "NO_HIDDEN_REASONING_EXPOSED"
+      ],
+      "status": "pass"
+    },
+    {
+      "boundary_risk": "low",
+      "evidence_refs": [
+        "request_context:claim_boundary_language",
+        "request_visible_ref:proofs/022-challenger-causal-traceback/source_corpus.json"
+      ],
+      "id": "audit.safe_negated_claim_boundary",
+      "message": "Negated safety language was treated as a boundary, not a claim escalation.",
+      "reason_codes": [
+        "SAFE_NEGATED_CLAIM_LANGUAGE"
+      ],
+      "status": "pass"
+    },
+    {
+      "boundary_risk": "high",
+      "evidence_refs": [
+        "request_context:claim_boundary_language",
+        "request_visible_ref:proofs/022-challenger-causal-traceback/source_corpus.json"
+      ],
+      "id": "audit.broad_unsupported_claim",
+      "message": "Unsupported broad public claims remain blocked by claim-boundary audit.",
+      "reason_codes": [
+        "BROAD_UNSUPPORTED_CLAIM_BLOCKED",
+        "CLAIM_ESCALATION_BLOCKED"
+      ],
+      "status": "blocked"
+    }
+  ],
+  "claim_pressure": [
+    {
+      "boundary_risk": "medium",
+      "evidence_refs": [
+        "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+      ],
+      "id": "contradiction:400f6de8bc04",
+      "pressure_score": 0.5,
+      "warning": "CONFLICTING_PATHWAY_REINFORCEMENT"
+    }
+  ],
+  "confidence": "medium",
+  "contribution_grade": "minimal",
+  "contribution_grade_details": {
+    "contribution_grade": "minimal",
+    "grade_reasons": [
+      "refs_motifs_tensions_and_pressure_present",
+      "public_claim_boundary_blocked"
+    ],
+    "minimum_gate_passed": false
+  },
+  "findings": [
+    {
+      "claim": "Consultation is bounded to the supplied request envelope and local contract schema.",
+      "confidence": "high",
+      "evidence": [
+        "mode:audit",
+        "files:8",
+        "constraints:9",
+        "desired_artifacts:7"
+      ],
+      "id": "mcp.contract.bounds",
+      "lineage_refs": [
+        "dc8e05bbae34df1dfb52905d1515a134863b7d92e8e358b1641ab429f918be12"
+      ],
+      "risk": "low"
+    }
+  ],
+  "gate_failures": [
+    {
+      "blocking": true,
+      "code": "BROAD_UNSUPPORTED_CLAIM_BLOCKED",
+      "message": "Broad unsupported public claim language was detected and blocked."
+    }
+  ],
+  "lineage": {
+    "request_hash": "dc8e05bbae34df1dfb52905d1515a134863b7d92e8e358b1641ab429f918be12",
+    "response_hash": "aacc4f8fed80fa23f4965bc419bf455abeb047a3fff16cb054a951d4132e32fd",
+    "runtime": {
+      "corpus_hash": "9dc990b92a07a9c77beafae5036894225983ce47f5fd2c6650266d29afc81b15",
+      "runtime_request_hash": "501817a686c0d5d704479aa21ae8903b38afc47232579d6bf814c77c0aded8f5",
+      "runtime_response_hash": "8f74d3b0774704c76e08885b28cc29dbf52a62a5a54cd3589ee2f7ff9a67ed2e",
+      "schema_version": "belief_ledger.inside_voice_runtime.v1"
+    },
+    "source_refs": [
+      "request_id:sha256:6fe8faff884fde1b",
+      "task:sha256:89073ffc23d63614"
+    ]
+  },
+  "lineage_refs": [
+    "request_visible_ref:proofs/022-challenger-causal-traceback/source_corpus.json",
+    "request_visible_ref:proofs/022-challenger-causal-traceback/evidence_graph.json",
+    "request_visible_ref:proofs/022-challenger-causal-traceback/causal_chain.json"
+  ],
+  "mode": "audit",
+  "operational_boundaries": [],
+  "pressure_rankings": [
+    {
+      "boundary_risk": "medium",
+      "claim_level": "unresolved",
+      "id": "pressure:62a978e2d84c9f5a",
+      "kind": "unresolved",
+      "pressure_reasons": [
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE"
+      ],
+      "pressure_score": 0.892,
+      "reason_codes": [
+        "PROOF_CLAIM_BOUNDARY",
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE"
+      ],
+      "source_ref": "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json",
+      "supporting_refs": [
+        "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json"
+      ],
+      "title": "proof claim boundary"
+    },
+    {
+      "boundary_risk": "medium",
+      "claim_level": "unresolved",
+      "id": "pressure:44eeb320a80c1c5f",
+      "kind": "unresolved",
+      "pressure_reasons": [
+        "DIRECT_REQUEST_MATCH",
+        "CONTRADICTION_RELEVANCE",
+        "CLAIM_DISCIPLINE_RELEVANCE"
+      ],
+      "pressure_score": 0.878,
+      "reason_codes": [
+        "CONTRADICTION_CLUSTER",
+        "CONFLICTING_PATHWAY_REINFORCEMENT",
+        "DIRECT_REQUEST_MATCH",
+        "CONTRADICTION_RELEVANCE"
+      ],
+      "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+      "supporting_refs": [
+        "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+      ],
+      "title": "CONFLICTING_PATHWAY_REINFORCEMENT"
+    },
+    {
+      "boundary_risk": "medium",
+      "claim_level": "unresolved",
+      "id": "pressure:cf4e82e380cf1a94",
+      "kind": "unresolved",
+      "pressure_reasons": [
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE"
+      ],
+      "pressure_score": 0.872,
+      "reason_codes": [
+        "TASK_PATHWAY_COLLISION",
+        "DIRECT_REQUEST_MATCH",
+        "PROOF_BOUNDARY_RELEVANCE",
+        "CONTRADICTION_RELEVANCE"
+      ],
+      "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+      "supporting_refs": [
+        "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+        "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee"
+      ],
+      "title": "arbitration:28663be18db91b7d"
+    }
+  ],
+  "recalled_motifs": [
+    {
+      "boundary_risk": "medium",
+      "motif": "fp_lineage_candidate_0006",
+      "motif_id": "inside_voice_runtime:b84c87cbed83f2b3f592",
+      "pressure_score": 0.644
+    }
+  ],
+  "recommendations": [
+    {
+      "action": "Retry with a larger max_output_chars value.",
+      "blocking": false,
+      "id": "mcp.rec.raise_output_limit",
+      "reason": "Full pond-backed response exceeded the requested output bound."
+    }
+  ],
+  "recommended_next_pressure": [
+    "Inspect the cited proof and claim-boundary artifacts before using the synthesis as task evidence.",
+    "Preserve observed/inferred/hypothesis/unresolved labels in any downstream response."
+  ],
+  "recommended_validation": [
+    "Inspect the cited proof and claim-boundary artifacts before using the synthesis as task evidence.",
+    "Preserve observed/inferred/hypothesis/unresolved labels in any downstream response."
+  ],
+  "relevant_lineage_refs": [
+    "request_visible_ref:proofs/022-challenger-causal-traceback/source_corpus.json",
+    "request_visible_ref:proofs/022-challenger-causal-traceback/evidence_graph.json",
+    "request_visible_ref:proofs/022-challenger-causal-traceback/causal_chain.json"
+  ],
+  "request_id": "proof-022-challenger-traceback-audit-001",
+  "retrieved_artifact_refs": [
+    "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#5",
+    "artifacts/pond/mcp_seasoned_reusable_lineage_candidates.jsonl#5",
+    "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#21"
+  ],
+  "runtime_stage_report_ref": "artifacts/integrations/inside_voice_runtime/runtime_stage_report.json",
+  "summary": "Consultation output was compacted to honor max_output_chars.",
+  "uncertainty": [
+    "OUTPUT_COMPACTED_TO_MAX_OUTPUT_CHARS",
+    "Recall is bounded to indexed local pond/proof artifacts and may miss evidence outside the declared corpus.",
+    "Recalled reports remain evidence, not implementation capability."
+  ],
+  "unresolved_tensions": [
+    {
+      "boundary_risk": "medium",
+      "evidence_refs": [
+        "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+      ],
+      "id": "inside_voice_runtime:090c5db589c51515dfae",
+      "pressure_score": 0.5,
+      "status": "unresolved",
+      "tension": "CONFLICTING_PATHWAY_REINFORCEMENT"
+    }
+  ],
+  "verdict": "ok"
+}

@@ -1,0 +1,4070 @@
+[
+  {
+    "case_id": "P037-RC-001",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "FEEDBACK",
+      "BUFFERING",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway": "FEEDBACK + BUFFERING + RESOURCE_DEPLETION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:feedback:025e697cd0540aa5",
+      "pond:feedback:1ce9e53fa76e84ab",
+      "pond:resource_depletion:02ad5ee5193ae3c9",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "Absorption",
+      "Buffer",
+      "Consumption",
+      "Delay",
+      "Exhaustion",
+      "Input",
+      "Loop",
+      "Reinforcement",
+      "Resource",
+      "Response",
+      "Scarcity",
+      "Signal"
+    ]
+  },
+  {
+    "case_id": "P037-RC-001",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "FEEDBACK",
+      "BUFFERING",
+      "THRESHOLD"
+    ],
+    "pathway": "FEEDBACK + BUFFERING + THRESHOLD",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:feedback:025e697cd0540aa5",
+      "pond:feedback:1ce9e53fa76e84ab",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:1dbfe551705dbe5c",
+      "Absorption",
+      "Accumulation",
+      "Buffer",
+      "Delay",
+      "Input",
+      "Limit",
+      "Loop",
+      "Reinforcement",
+      "Response",
+      "Signal",
+      "StateChange",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-001",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "FEEDBACK",
+      "RESOURCE_DEPLETION",
+      "THRESHOLD"
+    ],
+    "pathway": "FEEDBACK + RESOURCE_DEPLETION + THRESHOLD",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:feedback:025e697cd0540aa5",
+      "pond:feedback:1ce9e53fa76e84ab",
+      "pond:resource_depletion:02ad5ee5193ae3c9",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:1dbfe551705dbe5c",
+      "Accumulation",
+      "Consumption",
+      "Exhaustion",
+      "Limit",
+      "Loop",
+      "Reinforcement",
+      "Resource",
+      "Response",
+      "Scarcity",
+      "Signal",
+      "StateChange",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-001",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "BUFFERING",
+      "RESOURCE_DEPLETION",
+      "THRESHOLD"
+    ],
+    "pathway": "BUFFERING + RESOURCE_DEPLETION + THRESHOLD",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:resource_depletion:02ad5ee5193ae3c9",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:1dbfe551705dbe5c",
+      "Absorption",
+      "Accumulation",
+      "Buffer",
+      "Consumption",
+      "Delay",
+      "Exhaustion",
+      "Input",
+      "Limit",
+      "Resource",
+      "Scarcity",
+      "StateChange",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-001",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "FEEDBACK",
+      "BUFFERING",
+      "FLOW"
+    ],
+    "pathway": "FEEDBACK + BUFFERING + FLOW",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:feedback:025e697cd0540aa5",
+      "pond:feedback:1ce9e53fa76e84ab",
+      "pond:flow:3e0228bbea0e6e1c",
+      "pond:flow:5dac9687957be5f0",
+      "Absorption",
+      "Buffer",
+      "Delay",
+      "Flow",
+      "Input",
+      "Loop",
+      "Path",
+      "Reinforcement",
+      "Resistance",
+      "Response",
+      "Signal",
+      "Source"
+    ]
+  },
+  {
+    "case_id": "P037-RC-002",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "THRESHOLD",
+      "OSCILLATION",
+      "COMPENSATION"
+    ],
+    "pathway": "THRESHOLD + OSCILLATION + COMPENSATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:compensation:1b348715597e8587",
+      "pond:compensation:29b7f9f7ae556a3b",
+      "pond:oscillation:019f81b9c8cdc87f",
+      "pond:oscillation:361241c5a28eb54e",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:1dbfe551705dbe5c",
+      "Accumulation",
+      "Counteraction",
+      "Cycle",
+      "Delay",
+      "Deviation",
+      "Limit",
+      "Overshoot",
+      "Stabilization",
+      "State",
+      "StateChange",
+      "Substitution",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-002",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "THRESHOLD",
+      "OSCILLATION",
+      "FEEDBACK"
+    ],
+    "pathway": "THRESHOLD + OSCILLATION + FEEDBACK",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:feedback:29970c37fcd9a815",
+      "pond:feedback:639dd439e706d4f8",
+      "pond:oscillation:019f81b9c8cdc87f",
+      "pond:oscillation:361241c5a28eb54e",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:1dbfe551705dbe5c",
+      "Accumulation",
+      "Cycle",
+      "Delay",
+      "Limit",
+      "Loop",
+      "Overshoot",
+      "Reinforcement",
+      "Response",
+      "Signal",
+      "State",
+      "StateChange",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-002",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "THRESHOLD",
+      "OSCILLATION",
+      "ACCUMULATION"
+    ],
+    "pathway": "THRESHOLD + OSCILLATION + ACCUMULATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:accumulation:0b8b507e57754286",
+      "pond:accumulation:10c2c8ae31c87504",
+      "pond:oscillation:019f81b9c8cdc87f",
+      "pond:oscillation:361241c5a28eb54e",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:1dbfe551705dbe5c",
+      "Accumulation",
+      "BuildUp",
+      "Cycle",
+      "Delay",
+      "Input",
+      "Limit",
+      "Overflow",
+      "Overshoot",
+      "State",
+      "StateChange",
+      "Storage",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-002",
+    "classification": "FALSE_COMBINATION",
+    "mechanisms": [
+      "THRESHOLD",
+      "COMPENSATION",
+      "FEEDBACK"
+    ],
+    "pathway": "THRESHOLD + COMPENSATION + FEEDBACK",
+    "rejection_reason": "Only one expected mechanism is present in a multi-mechanism case.",
+    "supporting_evidence": [
+      "pond:compensation:1b348715597e8587",
+      "pond:compensation:29b7f9f7ae556a3b",
+      "pond:feedback:29970c37fcd9a815",
+      "pond:feedback:639dd439e706d4f8",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:1dbfe551705dbe5c",
+      "Accumulation",
+      "Counteraction",
+      "Deviation",
+      "Limit",
+      "Loop",
+      "Reinforcement",
+      "Response",
+      "Signal",
+      "Stabilization",
+      "StateChange",
+      "Substitution",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-002",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "THRESHOLD",
+      "COMPENSATION",
+      "ACCUMULATION"
+    ],
+    "pathway": "THRESHOLD + COMPENSATION + ACCUMULATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:accumulation:0b8b507e57754286",
+      "pond:accumulation:10c2c8ae31c87504",
+      "pond:compensation:1b348715597e8587",
+      "pond:compensation:29b7f9f7ae556a3b",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:1dbfe551705dbe5c",
+      "Accumulation",
+      "BuildUp",
+      "Counteraction",
+      "Deviation",
+      "Input",
+      "Limit",
+      "Overflow",
+      "Stabilization",
+      "StateChange",
+      "Storage",
+      "Substitution",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-003",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "FEEDBACK",
+      "DIFFUSION",
+      "AMPLIFICATION"
+    ],
+    "pathway": "FEEDBACK + DIFFUSION + AMPLIFICATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:amplification:18f5d2d240960f8d",
+      "pond:amplification:1b5b2323489efb04",
+      "pond:diffusion:0b89588dcc61beff",
+      "pond:diffusion:1295d8896f93fcd8",
+      "pond:feedback:025e697cd0540aa5",
+      "pond:feedback:1ce9e53fa76e84ab",
+      "Dilution",
+      "Escalation",
+      "Gain",
+      "Gradient",
+      "Input",
+      "Loop",
+      "Propagation",
+      "Reinforcement",
+      "Response",
+      "Signal",
+      "Source",
+      "Spread"
+    ]
+  },
+  {
+    "case_id": "P037-RC-003",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "FEEDBACK",
+      "DIFFUSION"
+    ],
+    "pathway": "FEEDBACK + DIFFUSION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:diffusion:0b89588dcc61beff",
+      "pond:diffusion:1295d8896f93fcd8",
+      "pond:feedback:025e697cd0540aa5",
+      "pond:feedback:1ce9e53fa76e84ab",
+      "Dilution",
+      "Gradient",
+      "Loop",
+      "Reinforcement",
+      "Response",
+      "Signal",
+      "Source",
+      "Spread"
+    ]
+  },
+  {
+    "case_id": "P037-RC-003",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "FEEDBACK",
+      "AMPLIFICATION"
+    ],
+    "pathway": "FEEDBACK + AMPLIFICATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:amplification:18f5d2d240960f8d",
+      "pond:amplification:1b5b2323489efb04",
+      "pond:feedback:025e697cd0540aa5",
+      "pond:feedback:1ce9e53fa76e84ab",
+      "Escalation",
+      "Gain",
+      "Input",
+      "Loop",
+      "Propagation",
+      "Reinforcement",
+      "Response",
+      "Signal"
+    ]
+  },
+  {
+    "case_id": "P037-RC-003",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "DIFFUSION",
+      "AMPLIFICATION"
+    ],
+    "pathway": "DIFFUSION + AMPLIFICATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:amplification:18f5d2d240960f8d",
+      "pond:amplification:1b5b2323489efb04",
+      "pond:diffusion:0b89588dcc61beff",
+      "pond:diffusion:1295d8896f93fcd8",
+      "Dilution",
+      "Escalation",
+      "Gain",
+      "Gradient",
+      "Input",
+      "Propagation",
+      "Source",
+      "Spread"
+    ]
+  },
+  {
+    "case_id": "P037-RC-004",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "RESOURCE_DEPLETION",
+      "BUFFERING",
+      "ACCUMULATION"
+    ],
+    "pathway": "RESOURCE_DEPLETION + BUFFERING + ACCUMULATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:accumulation:0b8b507e57754286",
+      "pond:accumulation:2f351cd2b5c75d68",
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:resource_depletion:02ad5ee5193ae3c9",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "Absorption",
+      "Buffer",
+      "BuildUp",
+      "Consumption",
+      "Delay",
+      "Exhaustion",
+      "Input",
+      "Overflow",
+      "Resource",
+      "Scarcity",
+      "Storage"
+    ]
+  },
+  {
+    "case_id": "P037-RC-004",
+    "classification": "FALSE_COMBINATION",
+    "mechanisms": [
+      "RESOURCE_DEPLETION",
+      "BUFFERING",
+      "AMPLIFICATION"
+    ],
+    "pathway": "RESOURCE_DEPLETION + BUFFERING + AMPLIFICATION",
+    "rejection_reason": "Only one expected mechanism is present in a multi-mechanism case.",
+    "supporting_evidence": [
+      "pond:amplification:3206405517eb80fb",
+      "pond:amplification:822274423d90b909",
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:resource_depletion:02ad5ee5193ae3c9",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "Absorption",
+      "Buffer",
+      "Consumption",
+      "Delay",
+      "Escalation",
+      "Exhaustion",
+      "Gain",
+      "Input",
+      "Propagation",
+      "Resource",
+      "Scarcity"
+    ]
+  },
+  {
+    "case_id": "P037-RC-004",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "RESOURCE_DEPLETION",
+      "ACCUMULATION",
+      "AMPLIFICATION"
+    ],
+    "pathway": "RESOURCE_DEPLETION + ACCUMULATION + AMPLIFICATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:accumulation:0b8b507e57754286",
+      "pond:accumulation:2f351cd2b5c75d68",
+      "pond:amplification:3206405517eb80fb",
+      "pond:amplification:822274423d90b909",
+      "pond:resource_depletion:02ad5ee5193ae3c9",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "BuildUp",
+      "Consumption",
+      "Escalation",
+      "Exhaustion",
+      "Gain",
+      "Input",
+      "Overflow",
+      "Propagation",
+      "Resource",
+      "Scarcity",
+      "Storage"
+    ]
+  },
+  {
+    "case_id": "P037-RC-004",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "RESOURCE_DEPLETION",
+      "BUFFERING",
+      "COMPENSATION"
+    ],
+    "pathway": "RESOURCE_DEPLETION + BUFFERING + COMPENSATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:compensation:0293b4c027834565",
+      "pond:compensation:0f554fa27f3ebc01",
+      "pond:resource_depletion:02ad5ee5193ae3c9",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "Absorption",
+      "Buffer",
+      "Consumption",
+      "Counteraction",
+      "Delay",
+      "Deviation",
+      "Exhaustion",
+      "Input",
+      "Resource",
+      "Scarcity",
+      "Stabilization",
+      "Substitution"
+    ]
+  },
+  {
+    "case_id": "P037-RC-004",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "RESOURCE_DEPLETION",
+      "ACCUMULATION",
+      "COMPENSATION"
+    ],
+    "pathway": "RESOURCE_DEPLETION + ACCUMULATION + COMPENSATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:accumulation:0b8b507e57754286",
+      "pond:accumulation:2f351cd2b5c75d68",
+      "pond:compensation:0293b4c027834565",
+      "pond:compensation:0f554fa27f3ebc01",
+      "pond:resource_depletion:02ad5ee5193ae3c9",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "BuildUp",
+      "Consumption",
+      "Counteraction",
+      "Deviation",
+      "Exhaustion",
+      "Input",
+      "Overflow",
+      "Resource",
+      "Scarcity",
+      "Stabilization",
+      "Storage",
+      "Substitution"
+    ]
+  },
+  {
+    "case_id": "P037-RC-005",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "FLOW",
+      "BUFFERING"
+    ],
+    "pathway": "FLOW + BUFFERING",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:flow:174e933edaa55697",
+      "pond:flow:1b188635f25f4a13",
+      "Absorption",
+      "Buffer",
+      "Delay",
+      "Flow",
+      "Input",
+      "Path",
+      "Resistance",
+      "Source"
+    ]
+  },
+  {
+    "case_id": "P037-RC-006",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "SUPPORTED_ROTATION",
+      "THRESHOLD",
+      "LOAD_TRANSFER"
+    ],
+    "pathway": "SUPPORTED_ROTATION + THRESHOLD + LOAD_TRANSFER",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:load_transfer:093852f103902af0",
+      "pond:load_transfer:100b958307e05044",
+      "pond:supported_rotation:1de1ef328a4b75af",
+      "pond:supported_rotation:51bcd0fd18de7e6a",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:1dbfe551705dbe5c",
+      "Accumulation",
+      "Concentration",
+      "Distribution",
+      "Failure",
+      "Friction",
+      "Limit",
+      "Load",
+      "Rotation",
+      "StateChange",
+      "Support",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-006",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "SUPPORTED_ROTATION",
+      "THRESHOLD",
+      "COMPENSATION"
+    ],
+    "pathway": "SUPPORTED_ROTATION + THRESHOLD + COMPENSATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:compensation:24c5ab58cde4cf93",
+      "pond:compensation:32d910a73e42a8d1",
+      "pond:supported_rotation:1de1ef328a4b75af",
+      "pond:supported_rotation:51bcd0fd18de7e6a",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:1dbfe551705dbe5c",
+      "Accumulation",
+      "Counteraction",
+      "Deviation",
+      "Failure",
+      "Friction",
+      "Limit",
+      "Rotation",
+      "Stabilization",
+      "StateChange",
+      "Substitution",
+      "Support",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-006",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "SUPPORTED_ROTATION",
+      "COMPENSATION",
+      "LOAD_TRANSFER"
+    ],
+    "pathway": "SUPPORTED_ROTATION + COMPENSATION + LOAD_TRANSFER",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:compensation:24c5ab58cde4cf93",
+      "pond:compensation:32d910a73e42a8d1",
+      "pond:load_transfer:093852f103902af0",
+      "pond:load_transfer:100b958307e05044",
+      "pond:supported_rotation:1de1ef328a4b75af",
+      "pond:supported_rotation:51bcd0fd18de7e6a",
+      "Concentration",
+      "Counteraction",
+      "Deviation",
+      "Distribution",
+      "Failure",
+      "Friction",
+      "Load",
+      "Rotation",
+      "Stabilization",
+      "Substitution",
+      "Support"
+    ]
+  },
+  {
+    "case_id": "P037-RC-006",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "SUPPORTED_ROTATION",
+      "THRESHOLD"
+    ],
+    "pathway": "SUPPORTED_ROTATION + THRESHOLD",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:supported_rotation:1de1ef328a4b75af",
+      "pond:supported_rotation:51bcd0fd18de7e6a",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:1dbfe551705dbe5c",
+      "Accumulation",
+      "Failure",
+      "Friction",
+      "Limit",
+      "Rotation",
+      "StateChange",
+      "Support",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-006",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "THRESHOLD",
+      "COMPENSATION",
+      "LOAD_TRANSFER"
+    ],
+    "pathway": "THRESHOLD + COMPENSATION + LOAD_TRANSFER",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:compensation:24c5ab58cde4cf93",
+      "pond:compensation:32d910a73e42a8d1",
+      "pond:load_transfer:093852f103902af0",
+      "pond:load_transfer:100b958307e05044",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:1dbfe551705dbe5c",
+      "Accumulation",
+      "Concentration",
+      "Counteraction",
+      "Deviation",
+      "Distribution",
+      "Failure",
+      "Limit",
+      "Load",
+      "Stabilization",
+      "StateChange",
+      "Substitution",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-007",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "LOAD_TRANSFER",
+      "THRESHOLD",
+      "ACCUMULATION"
+    ],
+    "pathway": "LOAD_TRANSFER + THRESHOLD + ACCUMULATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:accumulation:0b8b507e57754286",
+      "pond:accumulation:10c2c8ae31c87504",
+      "pond:load_transfer:093852f103902af0",
+      "pond:load_transfer:100b958307e05044",
+      "pond:threshold:4805330b0343ed45",
+      "pond:threshold:7bb27a243a3a432e",
+      "Accumulation",
+      "BuildUp",
+      "Concentration",
+      "Distribution",
+      "Failure",
+      "Input",
+      "Limit",
+      "Load",
+      "Overflow",
+      "StateChange",
+      "Storage",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-007",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "LOAD_TRANSFER",
+      "THRESHOLD"
+    ],
+    "pathway": "LOAD_TRANSFER + THRESHOLD",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:load_transfer:093852f103902af0",
+      "pond:load_transfer:100b958307e05044",
+      "pond:threshold:4805330b0343ed45",
+      "pond:threshold:7bb27a243a3a432e",
+      "Accumulation",
+      "Concentration",
+      "Distribution",
+      "Failure",
+      "Limit",
+      "Load",
+      "StateChange",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-007",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "LOAD_TRANSFER",
+      "ACCUMULATION"
+    ],
+    "pathway": "LOAD_TRANSFER + ACCUMULATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:accumulation:0b8b507e57754286",
+      "pond:accumulation:10c2c8ae31c87504",
+      "pond:load_transfer:093852f103902af0",
+      "pond:load_transfer:100b958307e05044",
+      "BuildUp",
+      "Concentration",
+      "Distribution",
+      "Failure",
+      "Input",
+      "Load",
+      "Overflow",
+      "Storage"
+    ]
+  },
+  {
+    "case_id": "P037-RC-007",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "THRESHOLD",
+      "ACCUMULATION"
+    ],
+    "pathway": "THRESHOLD + ACCUMULATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:accumulation:0b8b507e57754286",
+      "pond:accumulation:10c2c8ae31c87504",
+      "pond:threshold:4805330b0343ed45",
+      "pond:threshold:7bb27a243a3a432e",
+      "Accumulation",
+      "BuildUp",
+      "Input",
+      "Limit",
+      "Overflow",
+      "StateChange",
+      "Storage",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-008",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "RESOURCE_DEPLETION",
+      "FEEDBACK",
+      "AMPLIFICATION"
+    ],
+    "pathway": "RESOURCE_DEPLETION + FEEDBACK + AMPLIFICATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:amplification:18f5d2d240960f8d",
+      "pond:amplification:1b5b2323489efb04",
+      "pond:feedback:025e697cd0540aa5",
+      "pond:feedback:1ce9e53fa76e84ab",
+      "pond:resource_depletion:02ad5ee5193ae3c9",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "Consumption",
+      "Escalation",
+      "Exhaustion",
+      "Gain",
+      "Input",
+      "Loop",
+      "Propagation",
+      "Reinforcement",
+      "Resource",
+      "Response",
+      "Scarcity",
+      "Signal"
+    ]
+  },
+  {
+    "case_id": "P037-RC-008",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "RESOURCE_DEPLETION",
+      "FEEDBACK",
+      "BUFFERING"
+    ],
+    "pathway": "RESOURCE_DEPLETION + FEEDBACK + BUFFERING",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:feedback:025e697cd0540aa5",
+      "pond:feedback:1ce9e53fa76e84ab",
+      "pond:resource_depletion:02ad5ee5193ae3c9",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "Absorption",
+      "Buffer",
+      "Consumption",
+      "Delay",
+      "Exhaustion",
+      "Input",
+      "Loop",
+      "Reinforcement",
+      "Resource",
+      "Response",
+      "Scarcity",
+      "Signal"
+    ]
+  },
+  {
+    "case_id": "P037-RC-008",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "RESOURCE_DEPLETION",
+      "AMPLIFICATION",
+      "BUFFERING"
+    ],
+    "pathway": "RESOURCE_DEPLETION + AMPLIFICATION + BUFFERING",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:amplification:18f5d2d240960f8d",
+      "pond:amplification:1b5b2323489efb04",
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:resource_depletion:02ad5ee5193ae3c9",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "Absorption",
+      "Buffer",
+      "Consumption",
+      "Delay",
+      "Escalation",
+      "Exhaustion",
+      "Gain",
+      "Input",
+      "Propagation",
+      "Resource",
+      "Scarcity"
+    ]
+  },
+  {
+    "case_id": "P037-RC-008",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "RESOURCE_DEPLETION",
+      "FEEDBACK",
+      "FLOW"
+    ],
+    "pathway": "RESOURCE_DEPLETION + FEEDBACK + FLOW",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:feedback:025e697cd0540aa5",
+      "pond:feedback:1ce9e53fa76e84ab",
+      "pond:flow:174e933edaa55697",
+      "pond:flow:1b188635f25f4a13",
+      "pond:resource_depletion:02ad5ee5193ae3c9",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "Consumption",
+      "Exhaustion",
+      "Flow",
+      "Loop",
+      "Path",
+      "Reinforcement",
+      "Resistance",
+      "Resource",
+      "Response",
+      "Scarcity",
+      "Signal",
+      "Source"
+    ]
+  },
+  {
+    "case_id": "P037-RC-008",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "RESOURCE_DEPLETION",
+      "FEEDBACK",
+      "ACCUMULATION"
+    ],
+    "pathway": "RESOURCE_DEPLETION + FEEDBACK + ACCUMULATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:accumulation:16eb311b61f8f6b2",
+      "pond:accumulation:42a3759a8f240fdf",
+      "pond:feedback:025e697cd0540aa5",
+      "pond:feedback:1ce9e53fa76e84ab",
+      "pond:resource_depletion:02ad5ee5193ae3c9",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "BuildUp",
+      "Consumption",
+      "Exhaustion",
+      "Input",
+      "Loop",
+      "Overflow",
+      "Reinforcement",
+      "Resource",
+      "Response",
+      "Scarcity",
+      "Signal",
+      "Storage"
+    ]
+  },
+  {
+    "case_id": "P037-RC-009",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "OSCILLATION",
+      "FEEDBACK",
+      "BUFFERING"
+    ],
+    "pathway": "OSCILLATION + FEEDBACK + BUFFERING",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:feedback:29970c37fcd9a815",
+      "pond:feedback:639dd439e706d4f8",
+      "pond:oscillation:019f81b9c8cdc87f",
+      "pond:oscillation:361241c5a28eb54e",
+      "Absorption",
+      "Buffer",
+      "Cycle",
+      "Delay",
+      "Input",
+      "Loop",
+      "Overshoot",
+      "Reinforcement",
+      "Response",
+      "Signal",
+      "State"
+    ]
+  },
+  {
+    "case_id": "P037-RC-009",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "OSCILLATION",
+      "FEEDBACK",
+      "COMPENSATION"
+    ],
+    "pathway": "OSCILLATION + FEEDBACK + COMPENSATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:compensation:1b348715597e8587",
+      "pond:compensation:29b7f9f7ae556a3b",
+      "pond:feedback:29970c37fcd9a815",
+      "pond:feedback:639dd439e706d4f8",
+      "pond:oscillation:019f81b9c8cdc87f",
+      "pond:oscillation:361241c5a28eb54e",
+      "Counteraction",
+      "Cycle",
+      "Delay",
+      "Deviation",
+      "Loop",
+      "Overshoot",
+      "Reinforcement",
+      "Response",
+      "Signal",
+      "Stabilization",
+      "State",
+      "Substitution"
+    ]
+  },
+  {
+    "case_id": "P037-RC-009",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "OSCILLATION",
+      "BUFFERING",
+      "COMPENSATION"
+    ],
+    "pathway": "OSCILLATION + BUFFERING + COMPENSATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:compensation:1b348715597e8587",
+      "pond:compensation:29b7f9f7ae556a3b",
+      "pond:oscillation:019f81b9c8cdc87f",
+      "pond:oscillation:361241c5a28eb54e",
+      "Absorption",
+      "Buffer",
+      "Counteraction",
+      "Cycle",
+      "Delay",
+      "Deviation",
+      "Input",
+      "Overshoot",
+      "Stabilization",
+      "State",
+      "Substitution"
+    ]
+  },
+  {
+    "case_id": "P037-RC-009",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "OSCILLATION",
+      "FEEDBACK"
+    ],
+    "pathway": "OSCILLATION + FEEDBACK",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:feedback:29970c37fcd9a815",
+      "pond:feedback:639dd439e706d4f8",
+      "pond:oscillation:019f81b9c8cdc87f",
+      "pond:oscillation:361241c5a28eb54e",
+      "Cycle",
+      "Delay",
+      "Loop",
+      "Overshoot",
+      "Reinforcement",
+      "Response",
+      "Signal",
+      "State"
+    ]
+  },
+  {
+    "case_id": "P037-RC-009",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "FEEDBACK",
+      "BUFFERING",
+      "COMPENSATION"
+    ],
+    "pathway": "FEEDBACK + BUFFERING + COMPENSATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:compensation:1b348715597e8587",
+      "pond:compensation:29b7f9f7ae556a3b",
+      "pond:feedback:29970c37fcd9a815",
+      "pond:feedback:639dd439e706d4f8",
+      "Absorption",
+      "Buffer",
+      "Counteraction",
+      "Delay",
+      "Deviation",
+      "Input",
+      "Loop",
+      "Reinforcement",
+      "Response",
+      "Signal",
+      "Stabilization",
+      "Substitution"
+    ]
+  },
+  {
+    "case_id": "P037-RC-010",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "DIFFUSION",
+      "RESOURCE_DEPLETION",
+      "BUFFERING"
+    ],
+    "pathway": "DIFFUSION + RESOURCE_DEPLETION + BUFFERING",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:diffusion:1e1929a4abb9bd0d",
+      "pond:diffusion:5fceeaf81812122f",
+      "pond:resource_depletion:55d78a46424150c9",
+      "pond:resource_depletion:772a8746b40af786",
+      "Absorption",
+      "Buffer",
+      "Consumption",
+      "Delay",
+      "Dilution",
+      "Exhaustion",
+      "Gradient",
+      "Input",
+      "Resource",
+      "Scarcity",
+      "Source",
+      "Spread"
+    ]
+  },
+  {
+    "case_id": "P037-RC-010",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "DIFFUSION",
+      "RESOURCE_DEPLETION",
+      "FLOW"
+    ],
+    "pathway": "DIFFUSION + RESOURCE_DEPLETION + FLOW",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:diffusion:1e1929a4abb9bd0d",
+      "pond:diffusion:5fceeaf81812122f",
+      "pond:flow:174e933edaa55697",
+      "pond:flow:1b188635f25f4a13",
+      "pond:resource_depletion:55d78a46424150c9",
+      "pond:resource_depletion:772a8746b40af786",
+      "Consumption",
+      "Dilution",
+      "Exhaustion",
+      "Flow",
+      "Gradient",
+      "Path",
+      "Resistance",
+      "Resource",
+      "Scarcity",
+      "Source",
+      "Spread"
+    ]
+  },
+  {
+    "case_id": "P037-RC-010",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "DIFFUSION",
+      "BUFFERING",
+      "FLOW"
+    ],
+    "pathway": "DIFFUSION + BUFFERING + FLOW",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:diffusion:1e1929a4abb9bd0d",
+      "pond:diffusion:5fceeaf81812122f",
+      "pond:flow:174e933edaa55697",
+      "pond:flow:1b188635f25f4a13",
+      "Absorption",
+      "Buffer",
+      "Delay",
+      "Dilution",
+      "Flow",
+      "Gradient",
+      "Input",
+      "Path",
+      "Resistance",
+      "Source",
+      "Spread"
+    ]
+  },
+  {
+    "case_id": "P037-RC-010",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "DIFFUSION",
+      "BUFFERING",
+      "ACCUMULATION"
+    ],
+    "pathway": "DIFFUSION + BUFFERING + ACCUMULATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:accumulation:16eb311b61f8f6b2",
+      "pond:accumulation:42a3759a8f240fdf",
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:diffusion:1e1929a4abb9bd0d",
+      "pond:diffusion:5fceeaf81812122f",
+      "Absorption",
+      "Buffer",
+      "BuildUp",
+      "Delay",
+      "Dilution",
+      "Gradient",
+      "Input",
+      "Overflow",
+      "Source",
+      "Spread",
+      "Storage"
+    ]
+  },
+  {
+    "case_id": "P037-RC-010",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "DIFFUSION",
+      "RESOURCE_DEPLETION",
+      "ACCUMULATION"
+    ],
+    "pathway": "DIFFUSION + RESOURCE_DEPLETION + ACCUMULATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:accumulation:16eb311b61f8f6b2",
+      "pond:accumulation:42a3759a8f240fdf",
+      "pond:diffusion:1e1929a4abb9bd0d",
+      "pond:diffusion:5fceeaf81812122f",
+      "pond:resource_depletion:55d78a46424150c9",
+      "pond:resource_depletion:772a8746b40af786",
+      "BuildUp",
+      "Consumption",
+      "Dilution",
+      "Exhaustion",
+      "Gradient",
+      "Input",
+      "Overflow",
+      "Resource",
+      "Scarcity",
+      "Source",
+      "Spread",
+      "Storage"
+    ]
+  },
+  {
+    "case_id": "P037-RC-011",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "FLOW",
+      "BUFFERING",
+      "OSCILLATION"
+    ],
+    "pathway": "FLOW + BUFFERING + OSCILLATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:2ddfeb5b0f9baf86",
+      "pond:flow:8725e050fc43ca48",
+      "pond:flow:8fb2c710a8e84550",
+      "pond:oscillation:019f81b9c8cdc87f",
+      "pond:oscillation:361241c5a28eb54e",
+      "Absorption",
+      "Buffer",
+      "Cycle",
+      "Delay",
+      "Flow",
+      "Input",
+      "Overshoot",
+      "Path",
+      "Resistance",
+      "Source",
+      "State"
+    ]
+  },
+  {
+    "case_id": "P037-RC-011",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "FLOW",
+      "BUFFERING",
+      "AMPLIFICATION"
+    ],
+    "pathway": "FLOW + BUFFERING + AMPLIFICATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:amplification:49a80c094f40fa16",
+      "pond:amplification:669bc533991b7e59",
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:2ddfeb5b0f9baf86",
+      "pond:flow:8725e050fc43ca48",
+      "pond:flow:8fb2c710a8e84550",
+      "Absorption",
+      "Buffer",
+      "Delay",
+      "Escalation",
+      "Flow",
+      "Gain",
+      "Input",
+      "Path",
+      "Propagation",
+      "Resistance",
+      "Source"
+    ]
+  },
+  {
+    "case_id": "P037-RC-011",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "FLOW",
+      "BUFFERING",
+      "FEEDBACK"
+    ],
+    "pathway": "FLOW + BUFFERING + FEEDBACK",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:2ddfeb5b0f9baf86",
+      "pond:feedback:025e697cd0540aa5",
+      "pond:feedback:1ce9e53fa76e84ab",
+      "pond:flow:8725e050fc43ca48",
+      "pond:flow:8fb2c710a8e84550",
+      "Absorption",
+      "Buffer",
+      "Delay",
+      "Flow",
+      "Input",
+      "Loop",
+      "Path",
+      "Reinforcement",
+      "Resistance",
+      "Response",
+      "Signal",
+      "Source"
+    ]
+  },
+  {
+    "case_id": "P037-RC-011",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "FLOW",
+      "OSCILLATION",
+      "FEEDBACK"
+    ],
+    "pathway": "FLOW + OSCILLATION + FEEDBACK",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:feedback:025e697cd0540aa5",
+      "pond:feedback:1ce9e53fa76e84ab",
+      "pond:flow:8725e050fc43ca48",
+      "pond:flow:8fb2c710a8e84550",
+      "pond:oscillation:019f81b9c8cdc87f",
+      "pond:oscillation:361241c5a28eb54e",
+      "Cycle",
+      "Delay",
+      "Flow",
+      "Loop",
+      "Overshoot",
+      "Path",
+      "Reinforcement",
+      "Resistance",
+      "Response",
+      "Signal",
+      "Source",
+      "State"
+    ]
+  },
+  {
+    "case_id": "P037-RC-011",
+    "classification": "FALSE_COMBINATION",
+    "mechanisms": [
+      "FLOW",
+      "OSCILLATION",
+      "AMPLIFICATION"
+    ],
+    "pathway": "FLOW + OSCILLATION + AMPLIFICATION",
+    "rejection_reason": "Only one expected mechanism is present in a multi-mechanism case.",
+    "supporting_evidence": [
+      "pond:amplification:49a80c094f40fa16",
+      "pond:amplification:669bc533991b7e59",
+      "pond:flow:8725e050fc43ca48",
+      "pond:flow:8fb2c710a8e84550",
+      "pond:oscillation:019f81b9c8cdc87f",
+      "pond:oscillation:361241c5a28eb54e",
+      "Cycle",
+      "Delay",
+      "Escalation",
+      "Flow",
+      "Gain",
+      "Input",
+      "Overshoot",
+      "Path",
+      "Propagation",
+      "Resistance",
+      "Source",
+      "State"
+    ]
+  },
+  {
+    "case_id": "P037-RC-012",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "SUPPORTED_ROTATION",
+      "THRESHOLD",
+      "DIFFUSION"
+    ],
+    "pathway": "SUPPORTED_ROTATION + THRESHOLD + DIFFUSION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:diffusion:1295d8896f93fcd8",
+      "pond:diffusion:558b4378784d5a7f",
+      "pond:supported_rotation:18f72fc932ab6180",
+      "pond:supported_rotation:1de1ef328a4b75af",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:1dbfe551705dbe5c",
+      "Accumulation",
+      "Dilution",
+      "Failure",
+      "Friction",
+      "Gradient",
+      "Limit",
+      "Rotation",
+      "Source",
+      "Spread",
+      "StateChange",
+      "Support",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-012",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "SUPPORTED_ROTATION",
+      "THRESHOLD",
+      "LOAD_TRANSFER"
+    ],
+    "pathway": "SUPPORTED_ROTATION + THRESHOLD + LOAD_TRANSFER",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:load_transfer:093852f103902af0",
+      "pond:load_transfer:100b958307e05044",
+      "pond:supported_rotation:18f72fc932ab6180",
+      "pond:supported_rotation:1de1ef328a4b75af",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:1dbfe551705dbe5c",
+      "Accumulation",
+      "Concentration",
+      "Distribution",
+      "Failure",
+      "Friction",
+      "Limit",
+      "Load",
+      "Rotation",
+      "StateChange",
+      "Support",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-012",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "SUPPORTED_ROTATION",
+      "DIFFUSION",
+      "LOAD_TRANSFER"
+    ],
+    "pathway": "SUPPORTED_ROTATION + DIFFUSION + LOAD_TRANSFER",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:diffusion:1295d8896f93fcd8",
+      "pond:diffusion:558b4378784d5a7f",
+      "pond:load_transfer:093852f103902af0",
+      "pond:load_transfer:100b958307e05044",
+      "pond:supported_rotation:18f72fc932ab6180",
+      "pond:supported_rotation:1de1ef328a4b75af",
+      "Concentration",
+      "Dilution",
+      "Distribution",
+      "Failure",
+      "Friction",
+      "Gradient",
+      "Load",
+      "Rotation",
+      "Source",
+      "Spread",
+      "Support"
+    ]
+  },
+  {
+    "case_id": "P037-RC-012",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "SUPPORTED_ROTATION",
+      "THRESHOLD"
+    ],
+    "pathway": "SUPPORTED_ROTATION + THRESHOLD",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:supported_rotation:18f72fc932ab6180",
+      "pond:supported_rotation:1de1ef328a4b75af",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:1dbfe551705dbe5c",
+      "Accumulation",
+      "Failure",
+      "Friction",
+      "Limit",
+      "Rotation",
+      "StateChange",
+      "Support",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-012",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "THRESHOLD",
+      "DIFFUSION",
+      "LOAD_TRANSFER"
+    ],
+    "pathway": "THRESHOLD + DIFFUSION + LOAD_TRANSFER",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:diffusion:1295d8896f93fcd8",
+      "pond:diffusion:558b4378784d5a7f",
+      "pond:load_transfer:093852f103902af0",
+      "pond:load_transfer:100b958307e05044",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:1dbfe551705dbe5c",
+      "Accumulation",
+      "Concentration",
+      "Dilution",
+      "Distribution",
+      "Failure",
+      "Gradient",
+      "Limit",
+      "Load",
+      "Source",
+      "Spread",
+      "StateChange",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-013",
+    "classification": "FALSE_COMBINATION",
+    "mechanisms": [
+      "LOAD_TRANSFER",
+      "THRESHOLD",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway": "LOAD_TRANSFER + THRESHOLD + SUPPORTED_ROTATION",
+    "rejection_reason": "Only one expected mechanism is present in a multi-mechanism case.",
+    "supporting_evidence": [
+      "pond:load_transfer:100c18cc1d1c2bf9",
+      "pond:load_transfer:38ae4961e6268ecd",
+      "pond:supported_rotation:18f72fc932ab6180",
+      "pond:supported_rotation:1de1ef328a4b75af",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:1dbfe551705dbe5c",
+      "Accumulation",
+      "Concentration",
+      "Distribution",
+      "Failure",
+      "Friction",
+      "Limit",
+      "Load",
+      "Rotation",
+      "StateChange",
+      "Support",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-013",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "LOAD_TRANSFER",
+      "THRESHOLD",
+      "COMPENSATION"
+    ],
+    "pathway": "LOAD_TRANSFER + THRESHOLD + COMPENSATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:compensation:0293b4c027834565",
+      "pond:compensation:0f554fa27f3ebc01",
+      "pond:load_transfer:100c18cc1d1c2bf9",
+      "pond:load_transfer:38ae4961e6268ecd",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:1dbfe551705dbe5c",
+      "Accumulation",
+      "Concentration",
+      "Counteraction",
+      "Deviation",
+      "Distribution",
+      "Failure",
+      "Limit",
+      "Load",
+      "Stabilization",
+      "StateChange",
+      "Substitution",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-013",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "LOAD_TRANSFER",
+      "SUPPORTED_ROTATION",
+      "COMPENSATION"
+    ],
+    "pathway": "LOAD_TRANSFER + SUPPORTED_ROTATION + COMPENSATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:compensation:0293b4c027834565",
+      "pond:compensation:0f554fa27f3ebc01",
+      "pond:load_transfer:100c18cc1d1c2bf9",
+      "pond:load_transfer:38ae4961e6268ecd",
+      "pond:supported_rotation:18f72fc932ab6180",
+      "pond:supported_rotation:1de1ef328a4b75af",
+      "Concentration",
+      "Counteraction",
+      "Deviation",
+      "Distribution",
+      "Failure",
+      "Friction",
+      "Load",
+      "Rotation",
+      "Stabilization",
+      "Substitution",
+      "Support"
+    ]
+  },
+  {
+    "case_id": "P037-RC-013",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "LOAD_TRANSFER",
+      "THRESHOLD",
+      "ACCUMULATION"
+    ],
+    "pathway": "LOAD_TRANSFER + THRESHOLD + ACCUMULATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:accumulation:0b8b507e57754286",
+      "pond:accumulation:10c2c8ae31c87504",
+      "pond:load_transfer:100c18cc1d1c2bf9",
+      "pond:load_transfer:38ae4961e6268ecd",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:1dbfe551705dbe5c",
+      "Accumulation",
+      "BuildUp",
+      "Concentration",
+      "Distribution",
+      "Failure",
+      "Input",
+      "Limit",
+      "Load",
+      "Overflow",
+      "StateChange",
+      "Storage",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-013",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "LOAD_TRANSFER",
+      "SUPPORTED_ROTATION",
+      "ACCUMULATION"
+    ],
+    "pathway": "LOAD_TRANSFER + SUPPORTED_ROTATION + ACCUMULATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:accumulation:0b8b507e57754286",
+      "pond:accumulation:10c2c8ae31c87504",
+      "pond:load_transfer:100c18cc1d1c2bf9",
+      "pond:load_transfer:38ae4961e6268ecd",
+      "pond:supported_rotation:18f72fc932ab6180",
+      "pond:supported_rotation:1de1ef328a4b75af",
+      "BuildUp",
+      "Concentration",
+      "Distribution",
+      "Failure",
+      "Friction",
+      "Input",
+      "Load",
+      "Overflow",
+      "Rotation",
+      "Storage",
+      "Support"
+    ]
+  },
+  {
+    "case_id": "P037-RC-014",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "FEEDBACK",
+      "AMPLIFICATION",
+      "THRESHOLD"
+    ],
+    "pathway": "FEEDBACK + AMPLIFICATION + THRESHOLD",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:amplification:4f7102b33900c26a",
+      "pond:amplification:7a741fe9eb0dd270",
+      "pond:feedback:025e697cd0540aa5",
+      "pond:feedback:1ce9e53fa76e84ab",
+      "pond:threshold:4805330b0343ed45",
+      "pond:threshold:7bb27a243a3a432e",
+      "Accumulation",
+      "Escalation",
+      "Gain",
+      "Input",
+      "Limit",
+      "Loop",
+      "Propagation",
+      "Reinforcement",
+      "Response",
+      "Signal",
+      "StateChange",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-014",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "FEEDBACK",
+      "AMPLIFICATION"
+    ],
+    "pathway": "FEEDBACK + AMPLIFICATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:amplification:4f7102b33900c26a",
+      "pond:amplification:7a741fe9eb0dd270",
+      "pond:feedback:025e697cd0540aa5",
+      "pond:feedback:1ce9e53fa76e84ab",
+      "Escalation",
+      "Gain",
+      "Input",
+      "Loop",
+      "Propagation",
+      "Reinforcement",
+      "Response",
+      "Signal"
+    ]
+  },
+  {
+    "case_id": "P037-RC-014",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "FEEDBACK",
+      "THRESHOLD"
+    ],
+    "pathway": "FEEDBACK + THRESHOLD",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:feedback:025e697cd0540aa5",
+      "pond:feedback:1ce9e53fa76e84ab",
+      "pond:threshold:4805330b0343ed45",
+      "pond:threshold:7bb27a243a3a432e",
+      "Accumulation",
+      "Limit",
+      "Loop",
+      "Reinforcement",
+      "Response",
+      "Signal",
+      "StateChange",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-014",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "AMPLIFICATION",
+      "THRESHOLD"
+    ],
+    "pathway": "AMPLIFICATION + THRESHOLD",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:amplification:4f7102b33900c26a",
+      "pond:amplification:7a741fe9eb0dd270",
+      "pond:threshold:4805330b0343ed45",
+      "pond:threshold:7bb27a243a3a432e",
+      "Accumulation",
+      "Escalation",
+      "Gain",
+      "Input",
+      "Limit",
+      "Propagation",
+      "StateChange",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-015",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "OSCILLATION",
+      "BUFFERING",
+      "ACCUMULATION"
+    ],
+    "pathway": "OSCILLATION + BUFFERING + ACCUMULATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:accumulation:0b8b507e57754286",
+      "pond:accumulation:10c2c8ae31c87504",
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:oscillation:019f81b9c8cdc87f",
+      "pond:oscillation:361241c5a28eb54e",
+      "Absorption",
+      "Buffer",
+      "BuildUp",
+      "Cycle",
+      "Delay",
+      "Input",
+      "Overflow",
+      "Overshoot",
+      "State",
+      "Storage"
+    ]
+  },
+  {
+    "case_id": "P037-RC-015",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "OSCILLATION",
+      "BUFFERING"
+    ],
+    "pathway": "OSCILLATION + BUFFERING",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:oscillation:019f81b9c8cdc87f",
+      "pond:oscillation:361241c5a28eb54e",
+      "Absorption",
+      "Buffer",
+      "Cycle",
+      "Delay",
+      "Input",
+      "Overshoot",
+      "State"
+    ]
+  },
+  {
+    "case_id": "P037-RC-015",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "OSCILLATION",
+      "ACCUMULATION"
+    ],
+    "pathway": "OSCILLATION + ACCUMULATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:accumulation:0b8b507e57754286",
+      "pond:accumulation:10c2c8ae31c87504",
+      "pond:oscillation:019f81b9c8cdc87f",
+      "pond:oscillation:361241c5a28eb54e",
+      "BuildUp",
+      "Cycle",
+      "Delay",
+      "Input",
+      "Overflow",
+      "Overshoot",
+      "State",
+      "Storage"
+    ]
+  },
+  {
+    "case_id": "P037-RC-015",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "BUFFERING",
+      "ACCUMULATION"
+    ],
+    "pathway": "BUFFERING + ACCUMULATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:accumulation:0b8b507e57754286",
+      "pond:accumulation:10c2c8ae31c87504",
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "Absorption",
+      "Buffer",
+      "BuildUp",
+      "Delay",
+      "Input",
+      "Overflow",
+      "Storage"
+    ]
+  },
+  {
+    "case_id": "P037-RC-016",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "DIFFUSION",
+      "FLOW",
+      "AMPLIFICATION"
+    ],
+    "pathway": "DIFFUSION + FLOW + AMPLIFICATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:amplification:18f5d2d240960f8d",
+      "pond:amplification:1b5b2323489efb04",
+      "pond:diffusion:1e1929a4abb9bd0d",
+      "pond:diffusion:5fceeaf81812122f",
+      "pond:flow:174e933edaa55697",
+      "pond:flow:1b188635f25f4a13",
+      "Dilution",
+      "Escalation",
+      "Flow",
+      "Gain",
+      "Gradient",
+      "Input",
+      "Path",
+      "Propagation",
+      "Resistance",
+      "Source",
+      "Spread"
+    ]
+  },
+  {
+    "case_id": "P037-RC-016",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "DIFFUSION",
+      "FLOW",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway": "DIFFUSION + FLOW + RESOURCE_DEPLETION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:diffusion:1e1929a4abb9bd0d",
+      "pond:diffusion:5fceeaf81812122f",
+      "pond:flow:174e933edaa55697",
+      "pond:flow:1b188635f25f4a13",
+      "pond:resource_depletion:55d78a46424150c9",
+      "pond:resource_depletion:772a8746b40af786",
+      "Consumption",
+      "Dilution",
+      "Exhaustion",
+      "Flow",
+      "Gradient",
+      "Path",
+      "Resistance",
+      "Resource",
+      "Scarcity",
+      "Source",
+      "Spread"
+    ]
+  },
+  {
+    "case_id": "P037-RC-016",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "DIFFUSION",
+      "AMPLIFICATION",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway": "DIFFUSION + AMPLIFICATION + RESOURCE_DEPLETION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:amplification:18f5d2d240960f8d",
+      "pond:amplification:1b5b2323489efb04",
+      "pond:diffusion:1e1929a4abb9bd0d",
+      "pond:diffusion:5fceeaf81812122f",
+      "pond:resource_depletion:55d78a46424150c9",
+      "pond:resource_depletion:772a8746b40af786",
+      "Consumption",
+      "Dilution",
+      "Escalation",
+      "Exhaustion",
+      "Gain",
+      "Gradient",
+      "Input",
+      "Propagation",
+      "Resource",
+      "Scarcity",
+      "Source",
+      "Spread"
+    ]
+  },
+  {
+    "case_id": "P037-RC-016",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "FLOW",
+      "AMPLIFICATION",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway": "FLOW + AMPLIFICATION + RESOURCE_DEPLETION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:amplification:18f5d2d240960f8d",
+      "pond:amplification:1b5b2323489efb04",
+      "pond:flow:174e933edaa55697",
+      "pond:flow:1b188635f25f4a13",
+      "pond:resource_depletion:55d78a46424150c9",
+      "pond:resource_depletion:772a8746b40af786",
+      "Consumption",
+      "Escalation",
+      "Exhaustion",
+      "Flow",
+      "Gain",
+      "Input",
+      "Path",
+      "Propagation",
+      "Resistance",
+      "Resource",
+      "Scarcity",
+      "Source"
+    ]
+  },
+  {
+    "case_id": "P037-RC-016",
+    "classification": "FALSE_COMBINATION",
+    "mechanisms": [
+      "DIFFUSION",
+      "FLOW"
+    ],
+    "pathway": "DIFFUSION + FLOW",
+    "rejection_reason": "Only one expected mechanism is present in a multi-mechanism case.",
+    "supporting_evidence": [
+      "pond:diffusion:1e1929a4abb9bd0d",
+      "pond:diffusion:5fceeaf81812122f",
+      "pond:flow:174e933edaa55697",
+      "pond:flow:1b188635f25f4a13",
+      "Dilution",
+      "Flow",
+      "Gradient",
+      "Path",
+      "Resistance",
+      "Source",
+      "Spread"
+    ]
+  },
+  {
+    "case_id": "P037-RC-017",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "FLOW",
+      "RESOURCE_DEPLETION",
+      "BUFFERING"
+    ],
+    "pathway": "FLOW + RESOURCE_DEPLETION + BUFFERING",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:2ddfeb5b0f9baf86",
+      "pond:flow:8725e050fc43ca48",
+      "pond:flow:8fb2c710a8e84550",
+      "pond:resource_depletion:02ad5ee5193ae3c9",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "Absorption",
+      "Buffer",
+      "Consumption",
+      "Delay",
+      "Exhaustion",
+      "Flow",
+      "Input",
+      "Path",
+      "Resistance",
+      "Resource",
+      "Scarcity",
+      "Source"
+    ]
+  },
+  {
+    "case_id": "P037-RC-017",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "FLOW",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway": "FLOW + RESOURCE_DEPLETION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:flow:8725e050fc43ca48",
+      "pond:flow:8fb2c710a8e84550",
+      "pond:resource_depletion:02ad5ee5193ae3c9",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "Consumption",
+      "Exhaustion",
+      "Flow",
+      "Path",
+      "Resistance",
+      "Resource",
+      "Scarcity",
+      "Source"
+    ]
+  },
+  {
+    "case_id": "P037-RC-017",
+    "classification": "FALSE_COMBINATION",
+    "mechanisms": [
+      "FLOW",
+      "BUFFERING"
+    ],
+    "pathway": "FLOW + BUFFERING",
+    "rejection_reason": "Only one expected mechanism is present in a multi-mechanism case.",
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:2ddfeb5b0f9baf86",
+      "pond:flow:8725e050fc43ca48",
+      "pond:flow:8fb2c710a8e84550",
+      "Absorption",
+      "Buffer",
+      "Delay",
+      "Flow",
+      "Input",
+      "Path",
+      "Resistance",
+      "Source"
+    ]
+  },
+  {
+    "case_id": "P037-RC-017",
+    "classification": "FALSE_COMBINATION",
+    "mechanisms": [
+      "RESOURCE_DEPLETION",
+      "BUFFERING"
+    ],
+    "pathway": "RESOURCE_DEPLETION + BUFFERING",
+    "rejection_reason": "Only one expected mechanism is present in a multi-mechanism case.",
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:2ddfeb5b0f9baf86",
+      "pond:resource_depletion:02ad5ee5193ae3c9",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "Absorption",
+      "Buffer",
+      "Consumption",
+      "Delay",
+      "Exhaustion",
+      "Input",
+      "Resource",
+      "Scarcity"
+    ]
+  },
+  {
+    "case_id": "P037-RC-018",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "OSCILLATION",
+      "FEEDBACK",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway": "OSCILLATION + FEEDBACK + SUPPORTED_ROTATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:feedback:025e697cd0540aa5",
+      "pond:feedback:1ce9e53fa76e84ab",
+      "pond:oscillation:375bfcf0455750c7",
+      "pond:oscillation:4fbec22bb8891daa",
+      "pond:supported_rotation:385591267b223a4e",
+      "pond:supported_rotation:436ca1cfecfb4530",
+      "Cycle",
+      "Delay",
+      "Failure",
+      "Friction",
+      "Loop",
+      "Overshoot",
+      "Reinforcement",
+      "Response",
+      "Rotation",
+      "Signal",
+      "State",
+      "Support"
+    ]
+  },
+  {
+    "case_id": "P037-RC-018",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "OSCILLATION",
+      "FEEDBACK",
+      "ACCUMULATION"
+    ],
+    "pathway": "OSCILLATION + FEEDBACK + ACCUMULATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:accumulation:0b8b507e57754286",
+      "pond:accumulation:10c2c8ae31c87504",
+      "pond:feedback:025e697cd0540aa5",
+      "pond:feedback:1ce9e53fa76e84ab",
+      "pond:oscillation:375bfcf0455750c7",
+      "pond:oscillation:4fbec22bb8891daa",
+      "BuildUp",
+      "Cycle",
+      "Delay",
+      "Input",
+      "Loop",
+      "Overflow",
+      "Overshoot",
+      "Reinforcement",
+      "Response",
+      "Signal",
+      "State",
+      "Storage"
+    ]
+  },
+  {
+    "case_id": "P037-RC-018",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "OSCILLATION",
+      "SUPPORTED_ROTATION",
+      "ACCUMULATION"
+    ],
+    "pathway": "OSCILLATION + SUPPORTED_ROTATION + ACCUMULATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:accumulation:0b8b507e57754286",
+      "pond:accumulation:10c2c8ae31c87504",
+      "pond:oscillation:375bfcf0455750c7",
+      "pond:oscillation:4fbec22bb8891daa",
+      "pond:supported_rotation:385591267b223a4e",
+      "pond:supported_rotation:436ca1cfecfb4530",
+      "BuildUp",
+      "Cycle",
+      "Delay",
+      "Failure",
+      "Friction",
+      "Input",
+      "Overflow",
+      "Overshoot",
+      "Rotation",
+      "State",
+      "Storage",
+      "Support"
+    ]
+  },
+  {
+    "case_id": "P037-RC-018",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "FEEDBACK",
+      "SUPPORTED_ROTATION",
+      "ACCUMULATION"
+    ],
+    "pathway": "FEEDBACK + SUPPORTED_ROTATION + ACCUMULATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:accumulation:0b8b507e57754286",
+      "pond:accumulation:10c2c8ae31c87504",
+      "pond:feedback:025e697cd0540aa5",
+      "pond:feedback:1ce9e53fa76e84ab",
+      "pond:supported_rotation:385591267b223a4e",
+      "pond:supported_rotation:436ca1cfecfb4530",
+      "BuildUp",
+      "Failure",
+      "Friction",
+      "Input",
+      "Loop",
+      "Overflow",
+      "Reinforcement",
+      "Response",
+      "Rotation",
+      "Signal",
+      "Storage",
+      "Support"
+    ]
+  },
+  {
+    "case_id": "P037-RC-018",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "OSCILLATION",
+      "FEEDBACK"
+    ],
+    "pathway": "OSCILLATION + FEEDBACK",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:feedback:025e697cd0540aa5",
+      "pond:feedback:1ce9e53fa76e84ab",
+      "pond:oscillation:375bfcf0455750c7",
+      "pond:oscillation:4fbec22bb8891daa",
+      "Cycle",
+      "Delay",
+      "Loop",
+      "Overshoot",
+      "Reinforcement",
+      "Response",
+      "Signal",
+      "State"
+    ]
+  },
+  {
+    "case_id": "P037-RC-019",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "LOAD_TRANSFER",
+      "BUFFERING",
+      "DIFFUSION"
+    ],
+    "pathway": "LOAD_TRANSFER + BUFFERING + DIFFUSION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:diffusion:4e680c9bfa373666",
+      "pond:diffusion:68b87dcfd90b79d8",
+      "pond:load_transfer:093852f103902af0",
+      "pond:load_transfer:100b958307e05044",
+      "Absorption",
+      "Buffer",
+      "Concentration",
+      "Delay",
+      "Dilution",
+      "Distribution",
+      "Failure",
+      "Gradient",
+      "Input",
+      "Load",
+      "Source",
+      "Spread"
+    ]
+  },
+  {
+    "case_id": "P037-RC-019",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "LOAD_TRANSFER",
+      "BUFFERING",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway": "LOAD_TRANSFER + BUFFERING + RESOURCE_DEPLETION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:load_transfer:093852f103902af0",
+      "pond:load_transfer:100b958307e05044",
+      "pond:resource_depletion:02ad5ee5193ae3c9",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "Absorption",
+      "Buffer",
+      "Concentration",
+      "Consumption",
+      "Delay",
+      "Distribution",
+      "Exhaustion",
+      "Failure",
+      "Input",
+      "Load",
+      "Resource",
+      "Scarcity"
+    ]
+  },
+  {
+    "case_id": "P037-RC-019",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "LOAD_TRANSFER",
+      "BUFFERING",
+      "THRESHOLD"
+    ],
+    "pathway": "LOAD_TRANSFER + BUFFERING + THRESHOLD",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:load_transfer:093852f103902af0",
+      "pond:load_transfer:100b958307e05044",
+      "pond:threshold:4805330b0343ed45",
+      "pond:threshold:7bb27a243a3a432e",
+      "Absorption",
+      "Accumulation",
+      "Buffer",
+      "Concentration",
+      "Delay",
+      "Distribution",
+      "Failure",
+      "Input",
+      "Limit",
+      "Load",
+      "StateChange",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-019",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "LOAD_TRANSFER",
+      "DIFFUSION",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway": "LOAD_TRANSFER + DIFFUSION + RESOURCE_DEPLETION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:diffusion:4e680c9bfa373666",
+      "pond:diffusion:68b87dcfd90b79d8",
+      "pond:load_transfer:093852f103902af0",
+      "pond:load_transfer:100b958307e05044",
+      "pond:resource_depletion:02ad5ee5193ae3c9",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "Concentration",
+      "Consumption",
+      "Dilution",
+      "Distribution",
+      "Exhaustion",
+      "Failure",
+      "Gradient",
+      "Load",
+      "Resource",
+      "Scarcity",
+      "Source",
+      "Spread"
+    ]
+  },
+  {
+    "case_id": "P037-RC-019",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "LOAD_TRANSFER",
+      "DIFFUSION",
+      "THRESHOLD"
+    ],
+    "pathway": "LOAD_TRANSFER + DIFFUSION + THRESHOLD",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:diffusion:4e680c9bfa373666",
+      "pond:diffusion:68b87dcfd90b79d8",
+      "pond:load_transfer:093852f103902af0",
+      "pond:load_transfer:100b958307e05044",
+      "pond:threshold:4805330b0343ed45",
+      "pond:threshold:7bb27a243a3a432e",
+      "Accumulation",
+      "Concentration",
+      "Dilution",
+      "Distribution",
+      "Failure",
+      "Gradient",
+      "Limit",
+      "Load",
+      "Source",
+      "Spread",
+      "StateChange",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-020",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "THRESHOLD",
+      "FEEDBACK",
+      "FLOW"
+    ],
+    "pathway": "THRESHOLD + FEEDBACK + FLOW",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:feedback:025e697cd0540aa5",
+      "pond:feedback:1ce9e53fa76e84ab",
+      "pond:flow:8725e050fc43ca48",
+      "pond:flow:8fb2c710a8e84550",
+      "pond:threshold:4805330b0343ed45",
+      "pond:threshold:7bb27a243a3a432e",
+      "Accumulation",
+      "Flow",
+      "Limit",
+      "Loop",
+      "Path",
+      "Reinforcement",
+      "Resistance",
+      "Response",
+      "Signal",
+      "Source",
+      "StateChange",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-020",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "THRESHOLD",
+      "FEEDBACK",
+      "BUFFERING"
+    ],
+    "pathway": "THRESHOLD + FEEDBACK + BUFFERING",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:2ddfeb5b0f9baf86",
+      "pond:feedback:025e697cd0540aa5",
+      "pond:feedback:1ce9e53fa76e84ab",
+      "pond:threshold:4805330b0343ed45",
+      "pond:threshold:7bb27a243a3a432e",
+      "Absorption",
+      "Accumulation",
+      "Buffer",
+      "Delay",
+      "Input",
+      "Limit",
+      "Loop",
+      "Reinforcement",
+      "Response",
+      "Signal",
+      "StateChange",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-020",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "THRESHOLD",
+      "FEEDBACK",
+      "OSCILLATION"
+    ],
+    "pathway": "THRESHOLD + FEEDBACK + OSCILLATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:feedback:025e697cd0540aa5",
+      "pond:feedback:1ce9e53fa76e84ab",
+      "pond:oscillation:019f81b9c8cdc87f",
+      "pond:oscillation:361241c5a28eb54e",
+      "pond:threshold:4805330b0343ed45",
+      "pond:threshold:7bb27a243a3a432e",
+      "Accumulation",
+      "Cycle",
+      "Delay",
+      "Limit",
+      "Loop",
+      "Overshoot",
+      "Reinforcement",
+      "Response",
+      "Signal",
+      "State",
+      "StateChange",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-020",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "THRESHOLD",
+      "FLOW",
+      "BUFFERING"
+    ],
+    "pathway": "THRESHOLD + FLOW + BUFFERING",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:2ddfeb5b0f9baf86",
+      "pond:flow:8725e050fc43ca48",
+      "pond:flow:8fb2c710a8e84550",
+      "pond:threshold:4805330b0343ed45",
+      "pond:threshold:7bb27a243a3a432e",
+      "Absorption",
+      "Accumulation",
+      "Buffer",
+      "Delay",
+      "Flow",
+      "Input",
+      "Limit",
+      "Path",
+      "Resistance",
+      "Source",
+      "StateChange",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-020",
+    "classification": "FALSE_COMBINATION",
+    "mechanisms": [
+      "THRESHOLD",
+      "BUFFERING",
+      "OSCILLATION"
+    ],
+    "pathway": "THRESHOLD + BUFFERING + OSCILLATION",
+    "rejection_reason": "Only one expected mechanism is present in a multi-mechanism case.",
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:2ddfeb5b0f9baf86",
+      "pond:oscillation:019f81b9c8cdc87f",
+      "pond:oscillation:361241c5a28eb54e",
+      "pond:threshold:4805330b0343ed45",
+      "pond:threshold:7bb27a243a3a432e",
+      "Absorption",
+      "Accumulation",
+      "Buffer",
+      "Cycle",
+      "Delay",
+      "Input",
+      "Limit",
+      "Overshoot",
+      "State",
+      "StateChange",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-021",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "RESOURCE_DEPLETION",
+      "AMPLIFICATION",
+      "BUFFERING"
+    ],
+    "pathway": "RESOURCE_DEPLETION + AMPLIFICATION + BUFFERING",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:amplification:18f5d2d240960f8d",
+      "pond:amplification:1b5b2323489efb04",
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "pond:resource_depletion:19867c05f793337d",
+      "Absorption",
+      "Buffer",
+      "Consumption",
+      "Delay",
+      "Escalation",
+      "Exhaustion",
+      "Gain",
+      "Input",
+      "Propagation",
+      "Resource",
+      "Scarcity"
+    ]
+  },
+  {
+    "case_id": "P037-RC-021",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "RESOURCE_DEPLETION",
+      "AMPLIFICATION",
+      "ACCUMULATION"
+    ],
+    "pathway": "RESOURCE_DEPLETION + AMPLIFICATION + ACCUMULATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:accumulation:16eb311b61f8f6b2",
+      "pond:accumulation:42a3759a8f240fdf",
+      "pond:amplification:18f5d2d240960f8d",
+      "pond:amplification:1b5b2323489efb04",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "pond:resource_depletion:19867c05f793337d",
+      "BuildUp",
+      "Consumption",
+      "Escalation",
+      "Exhaustion",
+      "Gain",
+      "Input",
+      "Overflow",
+      "Propagation",
+      "Resource",
+      "Scarcity",
+      "Storage"
+    ]
+  },
+  {
+    "case_id": "P037-RC-021",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "RESOURCE_DEPLETION",
+      "BUFFERING",
+      "ACCUMULATION"
+    ],
+    "pathway": "RESOURCE_DEPLETION + BUFFERING + ACCUMULATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:accumulation:16eb311b61f8f6b2",
+      "pond:accumulation:42a3759a8f240fdf",
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "pond:resource_depletion:19867c05f793337d",
+      "Absorption",
+      "Buffer",
+      "BuildUp",
+      "Consumption",
+      "Delay",
+      "Exhaustion",
+      "Input",
+      "Overflow",
+      "Resource",
+      "Scarcity",
+      "Storage"
+    ]
+  },
+  {
+    "case_id": "P037-RC-021",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "RESOURCE_DEPLETION",
+      "AMPLIFICATION",
+      "FLOW"
+    ],
+    "pathway": "RESOURCE_DEPLETION + AMPLIFICATION + FLOW",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:amplification:18f5d2d240960f8d",
+      "pond:amplification:1b5b2323489efb04",
+      "pond:flow:3e0228bbea0e6e1c",
+      "pond:flow:5dac9687957be5f0",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "pond:resource_depletion:19867c05f793337d",
+      "Consumption",
+      "Escalation",
+      "Exhaustion",
+      "Flow",
+      "Gain",
+      "Input",
+      "Path",
+      "Propagation",
+      "Resistance",
+      "Resource",
+      "Scarcity",
+      "Source"
+    ]
+  },
+  {
+    "case_id": "P037-RC-021",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "RESOURCE_DEPLETION",
+      "BUFFERING",
+      "FLOW"
+    ],
+    "pathway": "RESOURCE_DEPLETION + BUFFERING + FLOW",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:flow:3e0228bbea0e6e1c",
+      "pond:flow:5dac9687957be5f0",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "pond:resource_depletion:19867c05f793337d",
+      "Absorption",
+      "Buffer",
+      "Consumption",
+      "Delay",
+      "Exhaustion",
+      "Flow",
+      "Input",
+      "Path",
+      "Resistance",
+      "Resource",
+      "Scarcity",
+      "Source"
+    ]
+  },
+  {
+    "case_id": "P037-RC-022",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "THRESHOLD",
+      "OSCILLATION",
+      "FEEDBACK"
+    ],
+    "pathway": "THRESHOLD + OSCILLATION + FEEDBACK",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:feedback:025e697cd0540aa5",
+      "pond:feedback:1ce9e53fa76e84ab",
+      "pond:oscillation:019f81b9c8cdc87f",
+      "pond:oscillation:361241c5a28eb54e",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:27415f742a6cf086",
+      "Accumulation",
+      "Cycle",
+      "Delay",
+      "Limit",
+      "Loop",
+      "Overshoot",
+      "Reinforcement",
+      "Response",
+      "Signal",
+      "State",
+      "StateChange",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-022",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "THRESHOLD",
+      "OSCILLATION",
+      "BUFFERING"
+    ],
+    "pathway": "THRESHOLD + OSCILLATION + BUFFERING",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:oscillation:019f81b9c8cdc87f",
+      "pond:oscillation:361241c5a28eb54e",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:27415f742a6cf086",
+      "Absorption",
+      "Accumulation",
+      "Buffer",
+      "Cycle",
+      "Delay",
+      "Input",
+      "Limit",
+      "Overshoot",
+      "State",
+      "StateChange",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-022",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "THRESHOLD",
+      "OSCILLATION",
+      "COMPENSATION"
+    ],
+    "pathway": "THRESHOLD + OSCILLATION + COMPENSATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:compensation:0293b4c027834565",
+      "pond:compensation:0f554fa27f3ebc01",
+      "pond:oscillation:019f81b9c8cdc87f",
+      "pond:oscillation:361241c5a28eb54e",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:27415f742a6cf086",
+      "Accumulation",
+      "Counteraction",
+      "Cycle",
+      "Delay",
+      "Deviation",
+      "Limit",
+      "Overshoot",
+      "Stabilization",
+      "State",
+      "StateChange",
+      "Substitution",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-022",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "THRESHOLD",
+      "OSCILLATION",
+      "AMPLIFICATION"
+    ],
+    "pathway": "THRESHOLD + OSCILLATION + AMPLIFICATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:amplification:18f5d2d240960f8d",
+      "pond:amplification:1b5b2323489efb04",
+      "pond:oscillation:019f81b9c8cdc87f",
+      "pond:oscillation:361241c5a28eb54e",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:27415f742a6cf086",
+      "Accumulation",
+      "Cycle",
+      "Delay",
+      "Escalation",
+      "Gain",
+      "Input",
+      "Limit",
+      "Overshoot",
+      "Propagation",
+      "State",
+      "StateChange",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-022",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "THRESHOLD",
+      "FEEDBACK",
+      "BUFFERING"
+    ],
+    "pathway": "THRESHOLD + FEEDBACK + BUFFERING",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:feedback:025e697cd0540aa5",
+      "pond:feedback:1ce9e53fa76e84ab",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:27415f742a6cf086",
+      "Absorption",
+      "Accumulation",
+      "Buffer",
+      "Delay",
+      "Input",
+      "Limit",
+      "Loop",
+      "Reinforcement",
+      "Response",
+      "Signal",
+      "StateChange",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-023",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "FLOW",
+      "ACCUMULATION",
+      "DIFFUSION"
+    ],
+    "pathway": "FLOW + ACCUMULATION + DIFFUSION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:accumulation:10c2c8ae31c87504",
+      "pond:accumulation:15625a03373c9075",
+      "pond:diffusion:4e680c9bfa373666",
+      "pond:diffusion:68b87dcfd90b79d8",
+      "pond:flow:174e933edaa55697",
+      "pond:flow:1b188635f25f4a13",
+      "BuildUp",
+      "Dilution",
+      "Flow",
+      "Gradient",
+      "Input",
+      "Overflow",
+      "Path",
+      "Resistance",
+      "Source",
+      "Spread",
+      "Storage"
+    ]
+  },
+  {
+    "case_id": "P037-RC-023",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "FLOW",
+      "ACCUMULATION"
+    ],
+    "pathway": "FLOW + ACCUMULATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:accumulation:10c2c8ae31c87504",
+      "pond:accumulation:15625a03373c9075",
+      "pond:flow:174e933edaa55697",
+      "pond:flow:1b188635f25f4a13",
+      "BuildUp",
+      "Flow",
+      "Input",
+      "Overflow",
+      "Path",
+      "Resistance",
+      "Source",
+      "Storage"
+    ]
+  },
+  {
+    "case_id": "P037-RC-023",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "FLOW",
+      "DIFFUSION"
+    ],
+    "pathway": "FLOW + DIFFUSION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:diffusion:4e680c9bfa373666",
+      "pond:diffusion:68b87dcfd90b79d8",
+      "pond:flow:174e933edaa55697",
+      "pond:flow:1b188635f25f4a13",
+      "Dilution",
+      "Flow",
+      "Gradient",
+      "Path",
+      "Resistance",
+      "Source",
+      "Spread"
+    ]
+  },
+  {
+    "case_id": "P037-RC-023",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "ACCUMULATION",
+      "DIFFUSION"
+    ],
+    "pathway": "ACCUMULATION + DIFFUSION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:accumulation:10c2c8ae31c87504",
+      "pond:accumulation:15625a03373c9075",
+      "pond:diffusion:4e680c9bfa373666",
+      "pond:diffusion:68b87dcfd90b79d8",
+      "BuildUp",
+      "Dilution",
+      "Gradient",
+      "Input",
+      "Overflow",
+      "Source",
+      "Spread",
+      "Storage"
+    ]
+  },
+  {
+    "case_id": "P037-RC-024",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "LOAD_TRANSFER",
+      "THRESHOLD",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway": "LOAD_TRANSFER + THRESHOLD + SUPPORTED_ROTATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:load_transfer:093852f103902af0",
+      "pond:load_transfer:100b958307e05044",
+      "pond:supported_rotation:18f72fc932ab6180",
+      "pond:supported_rotation:1de1ef328a4b75af",
+      "pond:threshold:4805330b0343ed45",
+      "pond:threshold:7bb27a243a3a432e",
+      "Accumulation",
+      "Concentration",
+      "Distribution",
+      "Failure",
+      "Friction",
+      "Limit",
+      "Load",
+      "Rotation",
+      "StateChange",
+      "Support",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-024",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "LOAD_TRANSFER",
+      "THRESHOLD"
+    ],
+    "pathway": "LOAD_TRANSFER + THRESHOLD",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:load_transfer:093852f103902af0",
+      "pond:load_transfer:100b958307e05044",
+      "pond:threshold:4805330b0343ed45",
+      "pond:threshold:7bb27a243a3a432e",
+      "Accumulation",
+      "Concentration",
+      "Distribution",
+      "Failure",
+      "Limit",
+      "Load",
+      "StateChange",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-024",
+    "classification": "FALSE_COMBINATION",
+    "mechanisms": [
+      "LOAD_TRANSFER",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway": "LOAD_TRANSFER + SUPPORTED_ROTATION",
+    "rejection_reason": "Only one expected mechanism is present in a multi-mechanism case.",
+    "supporting_evidence": [
+      "pond:load_transfer:093852f103902af0",
+      "pond:load_transfer:100b958307e05044",
+      "pond:supported_rotation:18f72fc932ab6180",
+      "pond:supported_rotation:1de1ef328a4b75af",
+      "Concentration",
+      "Distribution",
+      "Failure",
+      "Friction",
+      "Load",
+      "Rotation",
+      "Support"
+    ]
+  },
+  {
+    "case_id": "P037-RC-024",
+    "classification": "FALSE_COMBINATION",
+    "mechanisms": [
+      "THRESHOLD",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway": "THRESHOLD + SUPPORTED_ROTATION",
+    "rejection_reason": "Only one expected mechanism is present in a multi-mechanism case.",
+    "supporting_evidence": [
+      "pond:supported_rotation:18f72fc932ab6180",
+      "pond:supported_rotation:1de1ef328a4b75af",
+      "pond:threshold:4805330b0343ed45",
+      "pond:threshold:7bb27a243a3a432e",
+      "Accumulation",
+      "Failure",
+      "Friction",
+      "Limit",
+      "Rotation",
+      "StateChange",
+      "Support",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-025",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "SUPPORTED_ROTATION",
+      "RESOURCE_DEPLETION",
+      "DIFFUSION"
+    ],
+    "pathway": "SUPPORTED_ROTATION + RESOURCE_DEPLETION + DIFFUSION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:diffusion:1295d8896f93fcd8",
+      "pond:diffusion:558b4378784d5a7f",
+      "pond:resource_depletion:02ad5ee5193ae3c9",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "pond:supported_rotation:1de1ef328a4b75af",
+      "pond:supported_rotation:43b7e46d4526aded",
+      "Consumption",
+      "Dilution",
+      "Exhaustion",
+      "Failure",
+      "Friction",
+      "Gradient",
+      "Resource",
+      "Rotation",
+      "Scarcity",
+      "Source",
+      "Spread",
+      "Support"
+    ]
+  },
+  {
+    "case_id": "P037-RC-025",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "SUPPORTED_ROTATION",
+      "RESOURCE_DEPLETION",
+      "BUFFERING"
+    ],
+    "pathway": "SUPPORTED_ROTATION + RESOURCE_DEPLETION + BUFFERING",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:resource_depletion:02ad5ee5193ae3c9",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "pond:supported_rotation:1de1ef328a4b75af",
+      "pond:supported_rotation:43b7e46d4526aded",
+      "Absorption",
+      "Buffer",
+      "Consumption",
+      "Delay",
+      "Exhaustion",
+      "Failure",
+      "Friction",
+      "Input",
+      "Resource",
+      "Rotation",
+      "Scarcity",
+      "Support"
+    ]
+  },
+  {
+    "case_id": "P037-RC-025",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "SUPPORTED_ROTATION",
+      "RESOURCE_DEPLETION",
+      "COMPENSATION"
+    ],
+    "pathway": "SUPPORTED_ROTATION + RESOURCE_DEPLETION + COMPENSATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:compensation:24c5ab58cde4cf93",
+      "pond:compensation:32d910a73e42a8d1",
+      "pond:resource_depletion:02ad5ee5193ae3c9",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "pond:supported_rotation:1de1ef328a4b75af",
+      "pond:supported_rotation:43b7e46d4526aded",
+      "Consumption",
+      "Counteraction",
+      "Deviation",
+      "Exhaustion",
+      "Failure",
+      "Friction",
+      "Resource",
+      "Rotation",
+      "Scarcity",
+      "Stabilization",
+      "Substitution",
+      "Support"
+    ]
+  },
+  {
+    "case_id": "P037-RC-025",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "SUPPORTED_ROTATION",
+      "DIFFUSION",
+      "BUFFERING"
+    ],
+    "pathway": "SUPPORTED_ROTATION + DIFFUSION + BUFFERING",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:diffusion:1295d8896f93fcd8",
+      "pond:diffusion:558b4378784d5a7f",
+      "pond:supported_rotation:1de1ef328a4b75af",
+      "pond:supported_rotation:43b7e46d4526aded",
+      "Absorption",
+      "Buffer",
+      "Delay",
+      "Dilution",
+      "Failure",
+      "Friction",
+      "Gradient",
+      "Input",
+      "Rotation",
+      "Source",
+      "Spread",
+      "Support"
+    ]
+  },
+  {
+    "case_id": "P037-RC-025",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "SUPPORTED_ROTATION",
+      "DIFFUSION",
+      "COMPENSATION"
+    ],
+    "pathway": "SUPPORTED_ROTATION + DIFFUSION + COMPENSATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:compensation:24c5ab58cde4cf93",
+      "pond:compensation:32d910a73e42a8d1",
+      "pond:diffusion:1295d8896f93fcd8",
+      "pond:diffusion:558b4378784d5a7f",
+      "pond:supported_rotation:1de1ef328a4b75af",
+      "pond:supported_rotation:43b7e46d4526aded",
+      "Counteraction",
+      "Deviation",
+      "Dilution",
+      "Failure",
+      "Friction",
+      "Gradient",
+      "Rotation",
+      "Source",
+      "Spread",
+      "Stabilization",
+      "Substitution",
+      "Support"
+    ]
+  },
+  {
+    "case_id": "P037-RC-026",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "OSCILLATION",
+      "BUFFERING",
+      "ACCUMULATION"
+    ],
+    "pathway": "OSCILLATION + BUFFERING + ACCUMULATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:accumulation:0b8b507e57754286",
+      "pond:accumulation:10c2c8ae31c87504",
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:oscillation:375bfcf0455750c7",
+      "pond:oscillation:4fbec22bb8891daa",
+      "Absorption",
+      "Buffer",
+      "BuildUp",
+      "Cycle",
+      "Delay",
+      "Input",
+      "Overflow",
+      "Overshoot",
+      "State",
+      "Storage"
+    ]
+  },
+  {
+    "case_id": "P037-RC-026",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "OSCILLATION",
+      "BUFFERING",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway": "OSCILLATION + BUFFERING + RESOURCE_DEPLETION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:oscillation:375bfcf0455750c7",
+      "pond:oscillation:4fbec22bb8891daa",
+      "pond:resource_depletion:02ad5ee5193ae3c9",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "Absorption",
+      "Buffer",
+      "Consumption",
+      "Cycle",
+      "Delay",
+      "Exhaustion",
+      "Input",
+      "Overshoot",
+      "Resource",
+      "Scarcity",
+      "State"
+    ]
+  },
+  {
+    "case_id": "P037-RC-026",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "OSCILLATION",
+      "BUFFERING"
+    ],
+    "pathway": "OSCILLATION + BUFFERING",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:oscillation:375bfcf0455750c7",
+      "pond:oscillation:4fbec22bb8891daa",
+      "Absorption",
+      "Buffer",
+      "Cycle",
+      "Delay",
+      "Input",
+      "Overshoot",
+      "State"
+    ]
+  },
+  {
+    "case_id": "P037-RC-026",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "OSCILLATION",
+      "ACCUMULATION",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway": "OSCILLATION + ACCUMULATION + RESOURCE_DEPLETION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:accumulation:0b8b507e57754286",
+      "pond:accumulation:10c2c8ae31c87504",
+      "pond:oscillation:375bfcf0455750c7",
+      "pond:oscillation:4fbec22bb8891daa",
+      "pond:resource_depletion:02ad5ee5193ae3c9",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "BuildUp",
+      "Consumption",
+      "Cycle",
+      "Delay",
+      "Exhaustion",
+      "Input",
+      "Overflow",
+      "Overshoot",
+      "Resource",
+      "Scarcity",
+      "State",
+      "Storage"
+    ]
+  },
+  {
+    "case_id": "P037-RC-026",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "BUFFERING",
+      "ACCUMULATION",
+      "RESOURCE_DEPLETION"
+    ],
+    "pathway": "BUFFERING + ACCUMULATION + RESOURCE_DEPLETION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:accumulation:0b8b507e57754286",
+      "pond:accumulation:10c2c8ae31c87504",
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:resource_depletion:02ad5ee5193ae3c9",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "Absorption",
+      "Buffer",
+      "BuildUp",
+      "Consumption",
+      "Delay",
+      "Exhaustion",
+      "Input",
+      "Overflow",
+      "Resource",
+      "Scarcity",
+      "Storage"
+    ]
+  },
+  {
+    "case_id": "P037-RC-027",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "LOAD_TRANSFER",
+      "DIFFUSION",
+      "COMPENSATION"
+    ],
+    "pathway": "LOAD_TRANSFER + DIFFUSION + COMPENSATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:compensation:0293b4c027834565",
+      "pond:compensation:0f554fa27f3ebc01",
+      "pond:diffusion:0b89588dcc61beff",
+      "pond:diffusion:1295d8896f93fcd8",
+      "pond:load_transfer:093852f103902af0",
+      "pond:load_transfer:100b958307e05044",
+      "Concentration",
+      "Counteraction",
+      "Deviation",
+      "Dilution",
+      "Distribution",
+      "Failure",
+      "Gradient",
+      "Load",
+      "Source",
+      "Spread",
+      "Stabilization",
+      "Substitution"
+    ]
+  },
+  {
+    "case_id": "P037-RC-027",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "LOAD_TRANSFER",
+      "DIFFUSION",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway": "LOAD_TRANSFER + DIFFUSION + SUPPORTED_ROTATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:diffusion:0b89588dcc61beff",
+      "pond:diffusion:1295d8896f93fcd8",
+      "pond:load_transfer:093852f103902af0",
+      "pond:load_transfer:100b958307e05044",
+      "pond:supported_rotation:18f72fc932ab6180",
+      "pond:supported_rotation:1de1ef328a4b75af",
+      "Concentration",
+      "Dilution",
+      "Distribution",
+      "Failure",
+      "Friction",
+      "Gradient",
+      "Load",
+      "Rotation",
+      "Source",
+      "Spread",
+      "Support"
+    ]
+  },
+  {
+    "case_id": "P037-RC-027",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "LOAD_TRANSFER",
+      "COMPENSATION",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway": "LOAD_TRANSFER + COMPENSATION + SUPPORTED_ROTATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:compensation:0293b4c027834565",
+      "pond:compensation:0f554fa27f3ebc01",
+      "pond:load_transfer:093852f103902af0",
+      "pond:load_transfer:100b958307e05044",
+      "pond:supported_rotation:18f72fc932ab6180",
+      "pond:supported_rotation:1de1ef328a4b75af",
+      "Concentration",
+      "Counteraction",
+      "Deviation",
+      "Distribution",
+      "Failure",
+      "Friction",
+      "Load",
+      "Rotation",
+      "Stabilization",
+      "Substitution",
+      "Support"
+    ]
+  },
+  {
+    "case_id": "P037-RC-027",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "LOAD_TRANSFER",
+      "DIFFUSION",
+      "THRESHOLD"
+    ],
+    "pathway": "LOAD_TRANSFER + DIFFUSION + THRESHOLD",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:diffusion:0b89588dcc61beff",
+      "pond:diffusion:1295d8896f93fcd8",
+      "pond:load_transfer:093852f103902af0",
+      "pond:load_transfer:100b958307e05044",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:1dbfe551705dbe5c",
+      "Accumulation",
+      "Concentration",
+      "Dilution",
+      "Distribution",
+      "Failure",
+      "Gradient",
+      "Limit",
+      "Load",
+      "Source",
+      "Spread",
+      "StateChange",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-027",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "DIFFUSION",
+      "COMPENSATION",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway": "DIFFUSION + COMPENSATION + SUPPORTED_ROTATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:compensation:0293b4c027834565",
+      "pond:compensation:0f554fa27f3ebc01",
+      "pond:diffusion:0b89588dcc61beff",
+      "pond:diffusion:1295d8896f93fcd8",
+      "pond:supported_rotation:18f72fc932ab6180",
+      "pond:supported_rotation:1de1ef328a4b75af",
+      "Counteraction",
+      "Deviation",
+      "Dilution",
+      "Failure",
+      "Friction",
+      "Gradient",
+      "Rotation",
+      "Source",
+      "Spread",
+      "Stabilization",
+      "Substitution",
+      "Support"
+    ]
+  },
+  {
+    "case_id": "P037-RC-028",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "FEEDBACK",
+      "COMPENSATION",
+      "THRESHOLD"
+    ],
+    "pathway": "FEEDBACK + COMPENSATION + THRESHOLD",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:compensation:1b348715597e8587",
+      "pond:compensation:29b7f9f7ae556a3b",
+      "pond:feedback:29970c37fcd9a815",
+      "pond:feedback:639dd439e706d4f8",
+      "pond:threshold:1dbfe551705dbe5c",
+      "pond:threshold:32701a3d308b3051",
+      "Accumulation",
+      "Counteraction",
+      "Deviation",
+      "Limit",
+      "Loop",
+      "Reinforcement",
+      "Response",
+      "Signal",
+      "Stabilization",
+      "StateChange",
+      "Substitution",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-028",
+    "classification": "FALSE_COMBINATION",
+    "mechanisms": [
+      "FEEDBACK",
+      "COMPENSATION",
+      "BUFFERING"
+    ],
+    "pathway": "FEEDBACK + COMPENSATION + BUFFERING",
+    "rejection_reason": "Only one expected mechanism is present in a multi-mechanism case.",
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:2ddfeb5b0f9baf86",
+      "pond:compensation:1b348715597e8587",
+      "pond:compensation:29b7f9f7ae556a3b",
+      "pond:feedback:29970c37fcd9a815",
+      "pond:feedback:639dd439e706d4f8",
+      "Absorption",
+      "Buffer",
+      "Counteraction",
+      "Delay",
+      "Deviation",
+      "Input",
+      "Loop",
+      "Reinforcement",
+      "Response",
+      "Signal",
+      "Stabilization",
+      "Substitution"
+    ]
+  },
+  {
+    "case_id": "P037-RC-028",
+    "classification": "FALSE_COMBINATION",
+    "mechanisms": [
+      "FEEDBACK",
+      "COMPENSATION",
+      "FLOW"
+    ],
+    "pathway": "FEEDBACK + COMPENSATION + FLOW",
+    "rejection_reason": "Only one expected mechanism is present in a multi-mechanism case.",
+    "supporting_evidence": [
+      "pond:compensation:1b348715597e8587",
+      "pond:compensation:29b7f9f7ae556a3b",
+      "pond:feedback:29970c37fcd9a815",
+      "pond:feedback:639dd439e706d4f8",
+      "pond:flow:174e933edaa55697",
+      "pond:flow:1b188635f25f4a13",
+      "Counteraction",
+      "Deviation",
+      "Flow",
+      "Loop",
+      "Path",
+      "Reinforcement",
+      "Resistance",
+      "Response",
+      "Signal",
+      "Source",
+      "Stabilization",
+      "Substitution"
+    ]
+  },
+  {
+    "case_id": "P037-RC-028",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "FEEDBACK",
+      "THRESHOLD",
+      "BUFFERING"
+    ],
+    "pathway": "FEEDBACK + THRESHOLD + BUFFERING",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:2ddfeb5b0f9baf86",
+      "pond:feedback:29970c37fcd9a815",
+      "pond:feedback:639dd439e706d4f8",
+      "pond:threshold:1dbfe551705dbe5c",
+      "pond:threshold:32701a3d308b3051",
+      "Absorption",
+      "Accumulation",
+      "Buffer",
+      "Delay",
+      "Input",
+      "Limit",
+      "Loop",
+      "Reinforcement",
+      "Response",
+      "Signal",
+      "StateChange",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-028",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "FEEDBACK",
+      "THRESHOLD",
+      "FLOW"
+    ],
+    "pathway": "FEEDBACK + THRESHOLD + FLOW",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:feedback:29970c37fcd9a815",
+      "pond:feedback:639dd439e706d4f8",
+      "pond:flow:174e933edaa55697",
+      "pond:flow:1b188635f25f4a13",
+      "pond:threshold:1dbfe551705dbe5c",
+      "pond:threshold:32701a3d308b3051",
+      "Accumulation",
+      "Flow",
+      "Limit",
+      "Loop",
+      "Path",
+      "Reinforcement",
+      "Resistance",
+      "Response",
+      "Signal",
+      "Source",
+      "StateChange",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-029",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "BUFFERING",
+      "RESOURCE_DEPLETION",
+      "DIFFUSION"
+    ],
+    "pathway": "BUFFERING + RESOURCE_DEPLETION + DIFFUSION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:diffusion:0b89588dcc61beff",
+      "pond:diffusion:1295d8896f93fcd8",
+      "pond:resource_depletion:02ad5ee5193ae3c9",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "Absorption",
+      "Buffer",
+      "Consumption",
+      "Delay",
+      "Dilution",
+      "Exhaustion",
+      "Gradient",
+      "Input",
+      "Resource",
+      "Scarcity",
+      "Source",
+      "Spread"
+    ]
+  },
+  {
+    "case_id": "P037-RC-029",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "BUFFERING",
+      "RESOURCE_DEPLETION",
+      "OSCILLATION"
+    ],
+    "pathway": "BUFFERING + RESOURCE_DEPLETION + OSCILLATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:oscillation:019f81b9c8cdc87f",
+      "pond:oscillation:361241c5a28eb54e",
+      "pond:resource_depletion:02ad5ee5193ae3c9",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "Absorption",
+      "Buffer",
+      "Consumption",
+      "Cycle",
+      "Delay",
+      "Exhaustion",
+      "Input",
+      "Overshoot",
+      "Resource",
+      "Scarcity",
+      "State"
+    ]
+  },
+  {
+    "case_id": "P037-RC-029",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "BUFFERING",
+      "DIFFUSION",
+      "OSCILLATION"
+    ],
+    "pathway": "BUFFERING + DIFFUSION + OSCILLATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:diffusion:0b89588dcc61beff",
+      "pond:diffusion:1295d8896f93fcd8",
+      "pond:oscillation:019f81b9c8cdc87f",
+      "pond:oscillation:361241c5a28eb54e",
+      "Absorption",
+      "Buffer",
+      "Cycle",
+      "Delay",
+      "Dilution",
+      "Gradient",
+      "Input",
+      "Overshoot",
+      "Source",
+      "Spread",
+      "State"
+    ]
+  },
+  {
+    "case_id": "P037-RC-029",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "BUFFERING",
+      "RESOURCE_DEPLETION",
+      "ACCUMULATION"
+    ],
+    "pathway": "BUFFERING + RESOURCE_DEPLETION + ACCUMULATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:accumulation:16eb311b61f8f6b2",
+      "pond:accumulation:42a3759a8f240fdf",
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:resource_depletion:02ad5ee5193ae3c9",
+      "pond:resource_depletion:1470dfb316e6a70c",
+      "Absorption",
+      "Buffer",
+      "BuildUp",
+      "Consumption",
+      "Delay",
+      "Exhaustion",
+      "Input",
+      "Overflow",
+      "Resource",
+      "Scarcity",
+      "Storage"
+    ]
+  },
+  {
+    "case_id": "P037-RC-029",
+    "classification": "PLAUSIBLE_BUT_UNPROVEN",
+    "mechanisms": [
+      "BUFFERING",
+      "DIFFUSION",
+      "ACCUMULATION"
+    ],
+    "pathway": "BUFFERING + DIFFUSION + ACCUMULATION",
+    "rejection_reason": "Contains at least two expected mechanisms but also preserves extra activated mechanisms.",
+    "supporting_evidence": [
+      "pond:accumulation:16eb311b61f8f6b2",
+      "pond:accumulation:42a3759a8f240fdf",
+      "pond:buffering:010a47fc50ece231",
+      "pond:buffering:058131c3d6047bc5",
+      "pond:diffusion:0b89588dcc61beff",
+      "pond:diffusion:1295d8896f93fcd8",
+      "Absorption",
+      "Buffer",
+      "BuildUp",
+      "Delay",
+      "Dilution",
+      "Gradient",
+      "Input",
+      "Overflow",
+      "Source",
+      "Spread",
+      "Storage"
+    ]
+  },
+  {
+    "case_id": "P037-RC-030",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "THRESHOLD",
+      "OSCILLATION",
+      "FLOW"
+    ],
+    "pathway": "THRESHOLD + OSCILLATION + FLOW",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:flow:8725e050fc43ca48",
+      "pond:flow:8fb2c710a8e84550",
+      "pond:oscillation:49eecdfdee1794e8",
+      "pond:oscillation:8ca1805f5f03f852",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:1dbfe551705dbe5c",
+      "Accumulation",
+      "Cycle",
+      "Delay",
+      "Flow",
+      "Limit",
+      "Overshoot",
+      "Path",
+      "Resistance",
+      "Source",
+      "State",
+      "StateChange",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-030",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "THRESHOLD",
+      "OSCILLATION",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway": "THRESHOLD + OSCILLATION + SUPPORTED_ROTATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:oscillation:49eecdfdee1794e8",
+      "pond:oscillation:8ca1805f5f03f852",
+      "pond:supported_rotation:18f72fc932ab6180",
+      "pond:supported_rotation:1de1ef328a4b75af",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:1dbfe551705dbe5c",
+      "Accumulation",
+      "Cycle",
+      "Delay",
+      "Failure",
+      "Friction",
+      "Limit",
+      "Overshoot",
+      "Rotation",
+      "State",
+      "StateChange",
+      "Support",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-030",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "THRESHOLD",
+      "OSCILLATION",
+      "ACCUMULATION"
+    ],
+    "pathway": "THRESHOLD + OSCILLATION + ACCUMULATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:accumulation:0b8b507e57754286",
+      "pond:accumulation:10c2c8ae31c87504",
+      "pond:oscillation:49eecdfdee1794e8",
+      "pond:oscillation:8ca1805f5f03f852",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:1dbfe551705dbe5c",
+      "Accumulation",
+      "BuildUp",
+      "Cycle",
+      "Delay",
+      "Input",
+      "Limit",
+      "Overflow",
+      "Overshoot",
+      "State",
+      "StateChange",
+      "Storage",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-030",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "THRESHOLD",
+      "FLOW",
+      "SUPPORTED_ROTATION"
+    ],
+    "pathway": "THRESHOLD + FLOW + SUPPORTED_ROTATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:flow:8725e050fc43ca48",
+      "pond:flow:8fb2c710a8e84550",
+      "pond:supported_rotation:18f72fc932ab6180",
+      "pond:supported_rotation:1de1ef328a4b75af",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:1dbfe551705dbe5c",
+      "Accumulation",
+      "Failure",
+      "Flow",
+      "Friction",
+      "Limit",
+      "Path",
+      "Resistance",
+      "Rotation",
+      "Source",
+      "StateChange",
+      "Support",
+      "Trigger"
+    ]
+  },
+  {
+    "case_id": "P037-RC-030",
+    "classification": "VALID_COMBINATION",
+    "mechanisms": [
+      "THRESHOLD",
+      "FLOW",
+      "ACCUMULATION"
+    ],
+    "pathway": "THRESHOLD + FLOW + ACCUMULATION",
+    "rejection_reason": null,
+    "supporting_evidence": [
+      "pond:accumulation:0b8b507e57754286",
+      "pond:accumulation:10c2c8ae31c87504",
+      "pond:flow:8725e050fc43ca48",
+      "pond:flow:8fb2c710a8e84550",
+      "pond:threshold:015d065dc2d74199",
+      "pond:threshold:1dbfe551705dbe5c",
+      "Accumulation",
+      "BuildUp",
+      "Flow",
+      "Input",
+      "Limit",
+      "Overflow",
+      "Path",
+      "Resistance",
+      "Source",
+      "StateChange",
+      "Storage",
+      "Trigger"
+    ]
+  }
+]

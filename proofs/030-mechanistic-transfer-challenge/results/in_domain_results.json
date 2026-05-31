@@ -1,0 +1,390 @@
+{
+  "correct_items": 3,
+  "deterministic_replay_match": true,
+  "execution_mode": "deterministic_cli_no_llm",
+  "expected_identified_items": 3,
+  "fail_closed_items": 0,
+  "fail_closed_rate": 0.0,
+  "identified_items": 3,
+  "items": [
+    {
+      "answer": "Greater resistance reduces movement through the path and can create backlog or stalled flow.",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 8,
+          "matched_role_count": 4,
+          "matched_roles": [
+            "source",
+            "path",
+            "resistance",
+            "flow"
+          ],
+          "mechanism_id": "flow",
+          "score": 4.4
+        },
+        {
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "distribution"
+          ],
+          "mechanism_id": "load_transfer",
+          "score": 1.05
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "component_category": "path/resistance interface",
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_component_category": "path/resistance interface",
+      "expected_mechanism": "flow",
+      "expected_status": "IDENTIFIED",
+      "fail_closed_reason": "",
+      "hidden_mechanism_name": false,
+      "identified_mechanism": "flow",
+      "inspection_priority": "Inspect the highest-resistance segment of the path.",
+      "mapping_output": {
+        "identified_mechanism": "flow",
+        "observed_system": "Water moves from a tank through a pipe. A restriction narrows the path and movement drops.",
+        "source_mechanism": "FLOW",
+        "supporting_motifs": [
+          "Source",
+          "Path",
+          "Resistance",
+          "Flow"
+        ],
+        "transfer_confidence": 0.95
+      },
+      "matched_roles": [
+        {
+          "matched_cues": [
+            "tank"
+          ],
+          "motif": "Source",
+          "role_id": "source",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "path",
+            "pipe",
+            "through"
+          ],
+          "motif": "Path",
+          "role_id": "path",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "restriction",
+            "narrow"
+          ],
+          "motif": "Resistance",
+          "role_id": "resistance",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "movement",
+            "moves"
+          ],
+          "motif": "Flow",
+          "role_id": "flow",
+          "weight": 1.0
+        }
+      ],
+      "mechanism_explanation": "The observed system has movement through a path plus a restriction that reduces movement.",
+      "motif_support_count": 4,
+      "observed_system": "Water moves from a tank through a pipe. A restriction narrows the path and movement drops.",
+      "question": "Observed system: Water moves from a tank through a pipe. A restriction narrows the path and movement drops. Question: What happens when resistance increases?",
+      "question_id": "ID-001",
+      "requires_transfer": false,
+      "source_domain": "water_system",
+      "source_mechanism": "FLOW",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Source",
+            "Path",
+            "Resistance",
+            "Flow"
+          ],
+          "lesson_id": "MEC-L001",
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "trace_expectation": "A mapped FLOW answer must cite at least three of Source, Path, Resistance, and Flow."
+        }
+      ],
+      "status": "IDENTIFIED",
+      "suite": "in_domain",
+      "supporting_motifs": [
+        "Source",
+        "Path",
+        "Resistance",
+        "Flow"
+      ],
+      "target_domain": "water_system",
+      "transfer_confidence": 0.95
+    },
+    {
+      "answer": "More friction at the support interface slows rotation, increases noise or wear, and can stop the rotating part.",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 8,
+          "matched_role_count": 4,
+          "matched_roles": [
+            "rotation",
+            "support",
+            "friction",
+            "failure"
+          ],
+          "mechanism_id": "supported_rotation",
+          "score": 4.4
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        }
+      ],
+      "component_category": "rotational support interface",
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_component_category": "rotational support interface",
+      "expected_mechanism": "supported_rotation",
+      "expected_status": "IDENTIFIED",
+      "fail_closed_reason": "",
+      "hidden_mechanism_name": false,
+      "identified_mechanism": "supported_rotation",
+      "inspection_priority": "Inspect the rotational support interface: bearing, bushing, axle, shaft, mount, or hub.",
+      "mapping_output": {
+        "identified_mechanism": "supported_rotation",
+        "observed_system": "A wheel turns on a bearing. Friction increases, noise appears, and rotation slows.",
+        "source_mechanism": "SUPPORTED_ROTATION",
+        "supporting_motifs": [
+          "Rotation",
+          "Support",
+          "Friction",
+          "Failure"
+        ],
+        "transfer_confidence": 0.95
+      },
+      "matched_roles": [
+        {
+          "matched_cues": [
+            "rotation",
+            "turns",
+            "wheel"
+          ],
+          "motif": "Rotation",
+          "role_id": "rotation",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "bearing"
+          ],
+          "motif": "Support",
+          "role_id": "support",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "friction",
+            "noise"
+          ],
+          "motif": "Friction",
+          "role_id": "friction",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "slows",
+            "slow"
+          ],
+          "motif": "Failure",
+          "role_id": "failure",
+          "weight": 1.0
+        }
+      ],
+      "mechanism_explanation": "The observed system has a rotating part whose support interface shows friction, wear, noise, or stoppage.",
+      "motif_support_count": 4,
+      "observed_system": "A wheel turns on a bearing. Friction increases, noise appears, and rotation slows.",
+      "question": "Observed system: A wheel turns on a bearing. Friction increases, noise appears, and rotation slows. Question: What happens when friction increases in the wheel bearing?",
+      "question_id": "ID-002",
+      "requires_transfer": false,
+      "source_domain": "wheel_assembly",
+      "source_mechanism": "SUPPORTED_ROTATION",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Rotation",
+            "Support",
+            "Friction",
+            "Failure"
+          ],
+          "lesson_id": "MEC-L002",
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "trace_expectation": "A mapped SUPPORTED_ROTATION answer must cite at least three of Rotation, Support, Friction, and Failure."
+        }
+      ],
+      "status": "IDENTIFIED",
+      "suite": "in_domain",
+      "supporting_motifs": [
+        "Rotation",
+        "Support",
+        "Friction",
+        "Failure"
+      ],
+      "target_domain": "wheel_assembly",
+      "transfer_confidence": 0.95
+    },
+    {
+      "answer": "Load concentration raises stress where distribution fails and can cause sagging, cracking, bending, or collapse.",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 9,
+          "matched_role_count": 4,
+          "matched_roles": [
+            "load",
+            "distribution",
+            "concentration",
+            "failure"
+          ],
+          "mechanism_id": "load_transfer",
+          "score": 4.4
+        },
+        {
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "path"
+          ],
+          "mechanism_id": "flow",
+          "score": 1.05
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "component_category": "load path distribution element",
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_component_category": "load path distribution element",
+      "expected_mechanism": "load_transfer",
+      "expected_status": "IDENTIFIED",
+      "fail_closed_reason": "",
+      "hidden_mechanism_name": false,
+      "identified_mechanism": "load_transfer",
+      "inspection_priority": "Inspect the load path and high-stress concentration points such as joints, anchors, brackets, supports, and overloaded members.",
+      "mapping_output": {
+        "identified_mechanism": "load_transfer",
+        "observed_system": "A bridge carries heavy load through a truss. One joint takes concentrated stress and starts to crack.",
+        "source_mechanism": "LOAD_TRANSFER",
+        "supporting_motifs": [
+          "Load",
+          "Distribution",
+          "Concentration",
+          "Failure"
+        ],
+        "transfer_confidence": 0.95
+      },
+      "matched_roles": [
+        {
+          "matched_cues": [
+            "load",
+            "heavy",
+            "carries"
+          ],
+          "motif": "Load",
+          "role_id": "load",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "through",
+            "truss"
+          ],
+          "motif": "Distribution",
+          "role_id": "distribution",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "concentrated",
+            "stress",
+            "joint"
+          ],
+          "motif": "Concentration",
+          "role_id": "concentration",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "crack"
+          ],
+          "motif": "Failure",
+          "role_id": "failure",
+          "weight": 1.0
+        }
+      ],
+      "mechanism_explanation": "The observed system carries load through supports, then fails where stress concentrates.",
+      "motif_support_count": 4,
+      "observed_system": "A bridge carries heavy load through a truss. One joint takes concentrated stress and starts to crack.",
+      "question": "Observed system: A bridge carries heavy load through a truss. One joint takes concentrated stress and starts to crack. Question: What happens when load concentrates?",
+      "question_id": "ID-003",
+      "requires_transfer": false,
+      "source_domain": "bridge",
+      "source_mechanism": "LOAD_TRANSFER",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Load",
+            "Distribution",
+            "Concentration",
+            "Failure"
+          ],
+          "lesson_id": "MEC-L003",
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "trace_expectation": "A mapped LOAD_TRANSFER answer must cite at least three of Load, Distribution, Concentration, and Failure."
+        }
+      ],
+      "status": "IDENTIFIED",
+      "suite": "in_domain",
+      "supporting_motifs": [
+        "Load",
+        "Distribution",
+        "Concentration",
+        "Failure"
+      ],
+      "target_domain": "bridge",
+      "transfer_confidence": 0.95
+    }
+  ],
+  "mechanism_transfer_rate": null,
+  "phase": "in_domain_test",
+  "pond_state": "mechanism_seasoned",
+  "proof_id": "030-mechanistic-transfer-challenge",
+  "total_items": 3
+}

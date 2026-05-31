@@ -1,0 +1,31 @@
+{
+  "context": {
+    "constraints": [
+      "No medical advice, diagnosis, treatment recommendation, cure claim, or patient-specific guidance.",
+      "Use /consult as adversarial pressure only; public scientific claims require source IDs from source_corpus.json.",
+      "Do not treat Inside Voice output as a biomedical authority.",
+      "Look for low-attention support spanning microglia/APOE/vascular/metabolic sources."
+    ],
+    "desired_artifacts": [
+      "consult/consultation_log.jsonl",
+      "consult/contradiction_atlas.json",
+      "consult/premature_convergence_report.json",
+      "delta/consult_vs_baseline_report.json"
+    ],
+    "files": [
+      "baseline/hypothesis_map.json",
+      "baseline/contradiction_graph.json",
+      "baseline/evidence_clusters.json",
+      "baseline/convergence_report.json",
+      "source_corpus.json",
+      "consult/inside_voice_consults/consult_004_low_attention_hypothesis_request.json",
+      "consult/consultation_log.jsonl"
+    ],
+    "summary": "Baseline mentions immune, vascular, metabolic, and APOE clusters but does not let them reorder the map."
+  },
+  "max_output_chars": 8000,
+  "mode": "audit",
+  "request_id": "024-alzheimers-contradiction-atlas-004-consult_004_low_attention_hypothesis",
+  "require_lineage": true,
+  "task": "Truth Reconstruction Challenge 003 adversarial consult: Which low-attention hypothesis has support across multiple sources?"
+}

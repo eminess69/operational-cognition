@@ -1,0 +1,54 @@
+{
+  "attacks": [
+    {
+      "attack": "training volume explanations",
+      "finding": "Rejected for total count: both groups use 288 seasoning examples."
+    },
+    {
+      "attack": "prompt volume explanations",
+      "finding": "Mostly rejected by balanced example count and shared request contract."
+    },
+    {
+      "attack": "duplicate examples",
+      "finding": "Partially survives because examples are deterministic variants over repeated surface domains."
+    },
+    {
+      "attack": "scoring artifacts",
+      "finding": "Survives. Candidate generation is deterministic over returned lineage payloads."
+    },
+    {
+      "attack": "hardcoded combinations",
+      "finding": "Partially rejected: expected combinations are used only for metrics, not generation."
+    },
+    {
+      "attack": "non-independent mechanisms",
+      "finding": "Survives. Several mechanisms share motifs such as input, response, delay, and stabilization."
+    },
+    {
+      "attack": "pathway convergence",
+      "finding": "Multiple-mechanism activation did not increase."
+    }
+  ],
+  "hostile_verdict": "FAIL",
+  "invalidated_claims": [
+    "Proof 037 proves cognition.",
+    "The deterministic scoring artifact explanation is eliminated.",
+    "The mechanism catalog is independently learned rather than explicitly seeded."
+  ],
+  "metric_flags": {
+    "candidate_diversity_improved": false,
+    "combination_depth_improved": false,
+    "premature_convergence_reduced": false,
+    "valid_candidate_rate_improved": false
+  },
+  "remaining_diversity_explanation": false,
+  "remaining_hardcoded_combination_explanation": false,
+  "remaining_prompt_volume_explanation": false,
+  "remaining_saturation_explanation": true,
+  "remaining_scoring_artifact_explanation": true,
+  "surviving_claims": [
+    "Group A and Group B used equal total seasoning volume: 288 examples each.",
+    "All seasoning and recombination consult logs were pond-backed and validator-compatible.",
+    "Mechanism diversity produced no measurable recombination improvement under the current recall path."
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "classification": "POND_BACKED",
+    "error": null,
+    "mode": "recall",
+    "valid": true
+  },
+  {
+    "classification": "POND_BACKED",
+    "error": null,
+    "mode": "activation_only",
+    "valid": true
+  },
+  {
+    "classification": "POND_BACKED",
+    "error": null,
+    "mode": "field_interaction",
+    "valid": true
+  },
+  {
+    "classification": "POND_BACKED",
+    "error": null,
+    "mode": "delayed_ranking",
+    "valid": true
+  },
+  {
+    "classification": "POND_BACKED",
+    "error": null,
+    "mode": "collapse_trace",
+    "valid": true
+  },
+  {
+    "classification": "POND_BACKED",
+    "error": null,
+    "mode": "perturbation",
+    "valid": true
+  }
+]

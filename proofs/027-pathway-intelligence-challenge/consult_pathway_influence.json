@@ -1,0 +1,64 @@
+{
+  "consult_boundary": "Protocol E only at pathway-elimination points.",
+  "consult_response_domain_specificity": "low_to_bounded",
+  "credited_to_consult_run": [
+    "Triggering a challenge before eliminating P3-P7.",
+    "Forcing explicit evidence-lineage checks before pathway death.",
+    "Preventing collapse of incentives, culture, timing, and capital into the dominant digital-disruption story.",
+    "Allowing P8 to remain eliminated because no evidence met the revival burden."
+  ],
+  "false_pathway_preservations": [],
+  "not_credited_to_pond": [
+    "Discovery of Kodak historical facts.",
+    "Final ranking of Kodak causal pathways.",
+    "Any source evidence not already present in source_corpus.json."
+  ],
+  "pathway_eliminations_reversed": [
+    "P4: incentive structures",
+    "P5: organizational culture",
+    "P6: timing failures",
+    "P7: capital allocation/liquidity"
+  ],
+  "pathway_preservations": [
+    {
+      "mechanism": "Consult challenge delayed elimination; public source corpus then determined survival.",
+      "pathway": "P3: Strategic management and execution failure"
+    },
+    {
+      "mechanism": "Consult challenge delayed elimination; public source corpus then determined survival.",
+      "pathway": "P4: Incentive and resource-allocation structures"
+    },
+    {
+      "mechanism": "Consult challenge delayed elimination; public source corpus then determined survival.",
+      "pathway": "P5: Organizational culture and middle-management cognition"
+    },
+    {
+      "mechanism": "Consult challenge delayed elimination; public source corpus then determined survival.",
+      "pathway": "P6: Timing failures and market-uncertainty trap"
+    },
+    {
+      "mechanism": "Consult challenge delayed elimination; public source corpus then determined survival.",
+      "pathway": "P7: Capital allocation and liquidity constraint"
+    }
+  ],
+  "pathway_revivals": [
+    {
+      "evidence_lineage": "Consult challenge blocked folding incentives into business model rigidity; source lineage supports a distinct resource-allocation mechanism.",
+      "pathway": "P4: Incentive and resource-allocation structures"
+    },
+    {
+      "evidence_lineage": "Preserved as a bounded culture/cognition pathway, weakened by evidence of extensive digital action.",
+      "pathway": "P5: Organizational culture and middle-management cognition"
+    },
+    {
+      "evidence_lineage": "Consult challenge blocked early dismissal; corpus evidence shows adoption delay, later price competition, and smartphone/printing shock.",
+      "pathway": "P6: Timing failures and market-uncertainty trap"
+    },
+    {
+      "evidence_lineage": "Consult challenge blocked treating capital pressure as merely downstream; source lineage shows it constrained renewal options.",
+      "pathway": "P7: Capital allocation and liquidity constraint"
+    }
+  ],
+  "pond_supplied_new_kodak_evidence": false,
+  "proof_id": "027-pathway-intelligence-challenge"
+}

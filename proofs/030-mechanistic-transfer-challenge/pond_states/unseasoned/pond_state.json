@@ -1,0 +1,9 @@
+{
+  "answer_boundary": "deterministic_cli_no_llm",
+  "lessons": {},
+  "mechanisms": {},
+  "schema_version": "mechanism_pond_state.v1",
+  "seasoned_lesson_ids": [],
+  "state_hash": "f52631a8d5009958052acfe5dcbc3ce62bb5afab0521c5aad5e99dacd4f44188",
+  "state_id": "unseasoned"
+}

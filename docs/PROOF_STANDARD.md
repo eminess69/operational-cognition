@@ -30,6 +30,24 @@ Each proof must include:
 - record investigation steps at public summary level
 - distinguish observed evidence from interpretation
 
+## MCP consult boundary
+
+Any proof claiming pond-backed MCP behavior must fail closed on placeholder, mock, error, unknown, or otherwise non-pond-backed consult responses.
+
+Before a proof may claim pond-backed consultation, run:
+
+```bash
+python3 tools/validate_mcp_consults.py <proof>/mcp/*.jsonl --require-lineage
+```
+
+Mechanism recall or mechanism discovery proofs must also require motifs:
+
+```bash
+python3 tools/validate_mcp_consults.py <proof>/mcp/*.jsonl --require-lineage --require-motifs
+```
+
+Mock consults are allowed only inside explicit mock-mode tests and must not support a proof claim.
+
 ## Claim discipline
 
 Use:

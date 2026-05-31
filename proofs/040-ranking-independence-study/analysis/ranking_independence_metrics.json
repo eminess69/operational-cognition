@@ -1,0 +1,13 @@
+{
+  "arm_a_combination_depth": 2.9667,
+  "arm_a_valid_candidate_rate": 0.6667,
+  "arm_b_combination_depth": 2.9667,
+  "arm_b_valid_candidate_rate": 0.6667,
+  "arm_c_combination_depth": 2.9667,
+  "arm_c_valid_candidate_rate": 0.6667,
+  "arm_d_combination_depth": 2.0,
+  "arm_d_valid_candidate_rate": 0.8333,
+  "arm_e_combination_depth": 2.8667,
+  "arm_e_valid_candidate_rate": 1.0,
+  "ranking_dependence_detected": false
+}

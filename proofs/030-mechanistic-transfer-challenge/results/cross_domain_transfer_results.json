@@ -1,0 +1,745 @@
+{
+  "correct_items": 6,
+  "deterministic_replay_match": true,
+  "execution_mode": "deterministic_cli_no_llm",
+  "expected_identified_items": 6,
+  "fail_closed_items": 0,
+  "fail_closed_rate": 0.0,
+  "identified_items": 6,
+  "items": [
+    {
+      "answer": "The similar mechanism is FLOW: movement through a path is reduced by resistance.",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 6,
+          "matched_role_count": 3,
+          "matched_roles": [
+            "path",
+            "resistance",
+            "flow"
+          ],
+          "mechanism_id": "flow",
+          "score": 3.3
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "component_category": "path/resistance interface",
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_component_category": "path/resistance interface",
+      "expected_mechanism": "flow",
+      "expected_status": "IDENTIFIED",
+      "fail_closed_reason": "",
+      "hidden_mechanism_name": false,
+      "identified_mechanism": "flow",
+      "inspection_priority": "Inspect the highest-resistance segment of the path.",
+      "mapping_output": {
+        "identified_mechanism": "flow",
+        "observed_system": "delivery carts move along a corridor; a bottleneck narrows the route and progress drops.",
+        "source_mechanism": "FLOW",
+        "supporting_motifs": [
+          "Path",
+          "Resistance",
+          "Flow"
+        ],
+        "transfer_confidence": 0.83
+      },
+      "matched_roles": [
+        {
+          "matched_cues": [
+            "route",
+            "corridor",
+            "along"
+          ],
+          "motif": "Path",
+          "role_id": "path",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "bottleneck",
+            "narrow"
+          ],
+          "motif": "Resistance",
+          "role_id": "resistance",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "progress"
+          ],
+          "motif": "Flow",
+          "role_id": "flow",
+          "weight": 1.0
+        }
+      ],
+      "mechanism_explanation": "The observed system has movement through a path plus a restriction that reduces movement.",
+      "motif_support_count": 3,
+      "observed_system": "delivery carts move along a corridor; a bottleneck narrows the route and progress drops.",
+      "question": "Teach: water from a source moves through a pipe and a restriction reduces movement. Test: delivery carts move along a corridor; a bottleneck narrows the route and progress drops. Question: What mechanism is similar?",
+      "question_id": "CD-001",
+      "requires_transfer": true,
+      "source_domain": "water_system",
+      "source_mechanism": "FLOW",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Source",
+            "Path",
+            "Resistance",
+            "Flow"
+          ],
+          "lesson_id": "MEC-L001",
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "trace_expectation": "A mapped FLOW answer must cite at least three of Source, Path, Resistance, and Flow."
+        }
+      ],
+      "status": "IDENTIFIED",
+      "suite": "cross_domain_transfer",
+      "supporting_motifs": [
+        "Path",
+        "Resistance",
+        "Flow"
+      ],
+      "target_domain": "delivery_corridor",
+      "transfer_confidence": 0.83
+    },
+    {
+      "answer": "Inspect the rotational support interface: bearing, bushing, axle, shaft, mount, or hub.",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 8,
+          "matched_role_count": 4,
+          "matched_roles": [
+            "rotation",
+            "support",
+            "friction",
+            "failure"
+          ],
+          "mechanism_id": "supported_rotation",
+          "score": 4.4
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        }
+      ],
+      "component_category": "rotational support interface",
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_component_category": "rotational support interface",
+      "expected_mechanism": "supported_rotation",
+      "expected_status": "IDENTIFIED",
+      "fail_closed_reason": "",
+      "hidden_mechanism_name": false,
+      "identified_mechanism": "supported_rotation",
+      "inspection_priority": "Inspect the rotational support interface: bearing, bushing, axle, shaft, mount, or hub.",
+      "mapping_output": {
+        "identified_mechanism": "supported_rotation",
+        "observed_system": "a computer fan spins on a shaft; wear creates noise and it eventually slows.",
+        "source_mechanism": "SUPPORTED_ROTATION",
+        "supporting_motifs": [
+          "Rotation",
+          "Support",
+          "Friction",
+          "Failure"
+        ],
+        "transfer_confidence": 0.95
+      },
+      "matched_roles": [
+        {
+          "matched_cues": [
+            "spins",
+            "spin",
+            "fan"
+          ],
+          "motif": "Rotation",
+          "role_id": "rotation",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "shaft"
+          ],
+          "motif": "Support",
+          "role_id": "support",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "wear",
+            "noise"
+          ],
+          "motif": "Friction",
+          "role_id": "friction",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "slows",
+            "slow"
+          ],
+          "motif": "Failure",
+          "role_id": "failure",
+          "weight": 1.0
+        }
+      ],
+      "mechanism_explanation": "The observed system has a rotating part whose support interface shows friction, wear, noise, or stoppage.",
+      "motif_support_count": 4,
+      "observed_system": "a computer fan spins on a shaft; wear creates noise and it eventually slows.",
+      "question": "Teach: a wheel turns on a bearing; friction creates noise and slows rotation. Test: a computer fan spins on a shaft; wear creates noise and it eventually slows. Question: What should be inspected first?",
+      "question_id": "CD-002",
+      "requires_transfer": true,
+      "source_domain": "wheel_assembly",
+      "source_mechanism": "SUPPORTED_ROTATION",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Rotation",
+            "Support",
+            "Friction",
+            "Failure"
+          ],
+          "lesson_id": "MEC-L002",
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "trace_expectation": "A mapped SUPPORTED_ROTATION answer must cite at least three of Rotation, Support, Friction, and Failure."
+        }
+      ],
+      "status": "IDENTIFIED",
+      "suite": "cross_domain_transfer",
+      "supporting_motifs": [
+        "Rotation",
+        "Support",
+        "Friction",
+        "Failure"
+      ],
+      "target_domain": "computer_fan",
+      "transfer_confidence": 0.95
+    },
+    {
+      "answer": "The similar mechanism is LOAD_TRANSFER: load must distribute through a path, and concentration creates failure risk.",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 10,
+          "matched_role_count": 4,
+          "matched_roles": [
+            "load",
+            "distribution",
+            "concentration",
+            "failure"
+          ],
+          "mechanism_id": "load_transfer",
+          "score": 4.4
+        },
+        {
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "path"
+          ],
+          "mechanism_id": "flow",
+          "score": 1.05
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "component_category": "load path distribution element",
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_component_category": "load path distribution element",
+      "expected_mechanism": "load_transfer",
+      "expected_status": "IDENTIFIED",
+      "fail_closed_reason": "",
+      "hidden_mechanism_name": false,
+      "identified_mechanism": "load_transfer",
+      "inspection_priority": "Inspect the load path and high-stress concentration points such as joints, anchors, brackets, supports, and overloaded members.",
+      "mapping_output": {
+        "identified_mechanism": "load_transfer",
+        "observed_system": "a warehouse shelf carries heavy boxes through uprights; one overloaded corner sags at a bracket.",
+        "source_mechanism": "LOAD_TRANSFER",
+        "supporting_motifs": [
+          "Load",
+          "Distribution",
+          "Concentration",
+          "Failure"
+        ],
+        "transfer_confidence": 0.95
+      },
+      "matched_roles": [
+        {
+          "matched_cues": [
+            "heavy",
+            "carries",
+            "boxes"
+          ],
+          "motif": "Load",
+          "role_id": "load",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "through",
+            "uprights"
+          ],
+          "motif": "Distribution",
+          "role_id": "distribution",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "overload",
+            "overloaded",
+            "bracket"
+          ],
+          "motif": "Concentration",
+          "role_id": "concentration",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "sag",
+            "sags"
+          ],
+          "motif": "Failure",
+          "role_id": "failure",
+          "weight": 1.0
+        }
+      ],
+      "mechanism_explanation": "The observed system carries load through supports, then fails where stress concentrates.",
+      "motif_support_count": 4,
+      "observed_system": "a warehouse shelf carries heavy boxes through uprights; one overloaded corner sags at a bracket.",
+      "question": "Teach: a bridge spreads weight through truss supports; concentrated load cracks a joint. Test: a warehouse shelf carries heavy boxes through uprights; one overloaded corner sags at a bracket. Question: What mechanism is similar?",
+      "question_id": "CD-003",
+      "requires_transfer": true,
+      "source_domain": "bridge",
+      "source_mechanism": "LOAD_TRANSFER",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Load",
+            "Distribution",
+            "Concentration",
+            "Failure"
+          ],
+          "lesson_id": "MEC-L003",
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "trace_expectation": "A mapped LOAD_TRANSFER answer must cite at least three of Load, Distribution, Concentration, and Failure."
+        }
+      ],
+      "status": "IDENTIFIED",
+      "suite": "cross_domain_transfer",
+      "supporting_motifs": [
+        "Load",
+        "Distribution",
+        "Concentration",
+        "Failure"
+      ],
+      "target_domain": "warehouse_shelf",
+      "transfer_confidence": 0.95
+    },
+    {
+      "answer": "The similar mechanism is FLOW: movement through a path is reduced by resistance.",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 9,
+          "matched_role_count": 3,
+          "matched_roles": [
+            "path",
+            "resistance",
+            "flow"
+          ],
+          "mechanism_id": "flow",
+          "score": 3.4
+        },
+        {
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "distribution"
+          ],
+          "mechanism_id": "load_transfer",
+          "score": 1.05
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "component_category": "path/resistance interface",
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_component_category": "path/resistance interface",
+      "expected_mechanism": "flow",
+      "expected_status": "IDENTIFIED",
+      "fail_closed_reason": "",
+      "hidden_mechanism_name": false,
+      "identified_mechanism": "flow",
+      "inspection_priority": "Inspect the highest-resistance segment of the path.",
+      "mapping_output": {
+        "identified_mechanism": "flow",
+        "observed_system": "Requests pass through a service gateway. One rate-limited step creates a bottleneck, queues build, and throughput drops.",
+        "source_mechanism": "FLOW",
+        "supporting_motifs": [
+          "Path",
+          "Resistance",
+          "Flow"
+        ],
+        "transfer_confidence": 0.88
+      },
+      "matched_roles": [
+        {
+          "matched_cues": [
+            "gateway",
+            "through"
+          ],
+          "motif": "Path",
+          "role_id": "path",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "bottleneck",
+            "rate limited",
+            "rate limit"
+          ],
+          "motif": "Resistance",
+          "role_id": "resistance",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "throughput",
+            "pass",
+            "queue",
+            "queues"
+          ],
+          "motif": "Flow",
+          "role_id": "flow",
+          "weight": 1.0
+        }
+      ],
+      "mechanism_explanation": "The observed system has movement through a path plus a restriction that reduces movement.",
+      "motif_support_count": 3,
+      "observed_system": "Requests pass through a service gateway. One rate-limited step creates a bottleneck, queues build, and throughput drops.",
+      "question": "Observed system: Requests pass through a service gateway. One rate-limited step creates a bottleneck, queues build, and throughput drops. Question: What mechanism is similar?",
+      "question_id": "CD-004",
+      "requires_transfer": true,
+      "source_domain": "water_system",
+      "source_mechanism": "FLOW",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Source",
+            "Path",
+            "Resistance",
+            "Flow"
+          ],
+          "lesson_id": "MEC-L001",
+          "mechanism_id": "flow",
+          "mechanism_name": "FLOW",
+          "trace_expectation": "A mapped FLOW answer must cite at least three of Source, Path, Resistance, and Flow."
+        }
+      ],
+      "status": "IDENTIFIED",
+      "suite": "cross_domain_transfer",
+      "supporting_motifs": [
+        "Path",
+        "Resistance",
+        "Flow"
+      ],
+      "target_domain": "service_gateway",
+      "transfer_confidence": 0.88
+    },
+    {
+      "answer": "Inspect the rotational support interface: bearing, bushing, axle, shaft, mount, or hub.",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 11,
+          "matched_role_count": 4,
+          "matched_roles": [
+            "rotation",
+            "support",
+            "friction",
+            "failure"
+          ],
+          "mechanism_id": "supported_rotation",
+          "score": 4.4
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        }
+      ],
+      "component_category": "rotational support interface",
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_component_category": "rotational support interface",
+      "expected_mechanism": "supported_rotation",
+      "expected_status": "IDENTIFIED",
+      "fail_closed_reason": "",
+      "hidden_mechanism_name": false,
+      "identified_mechanism": "supported_rotation",
+      "inspection_priority": "Inspect the rotational support interface: bearing, bushing, axle, shaft, mount, or hub.",
+      "mapping_output": {
+        "identified_mechanism": "supported_rotation",
+        "observed_system": "A lab turntable spins around a spindle. The support mount wears, squeals, and the rotation becomes uneven.",
+        "source_mechanism": "SUPPORTED_ROTATION",
+        "supporting_motifs": [
+          "Rotation",
+          "Support",
+          "Friction",
+          "Failure"
+        ],
+        "transfer_confidence": 0.95
+      },
+      "matched_roles": [
+        {
+          "matched_cues": [
+            "rotation",
+            "spins",
+            "spin",
+            "turntable",
+            "spindle"
+          ],
+          "motif": "Rotation",
+          "role_id": "rotation",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "support",
+            "spindle",
+            "mount"
+          ],
+          "motif": "Support",
+          "role_id": "support",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "wear",
+            "squeal"
+          ],
+          "motif": "Friction",
+          "role_id": "friction",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "uneven"
+          ],
+          "motif": "Failure",
+          "role_id": "failure",
+          "weight": 1.0
+        }
+      ],
+      "mechanism_explanation": "The observed system has a rotating part whose support interface shows friction, wear, noise, or stoppage.",
+      "motif_support_count": 4,
+      "observed_system": "A lab turntable spins around a spindle. The support mount wears, squeals, and the rotation becomes uneven.",
+      "question": "Observed system: A lab turntable spins around a spindle. The support mount wears, squeals, and the rotation becomes uneven. Question: What should be inspected first?",
+      "question_id": "CD-005",
+      "requires_transfer": true,
+      "source_domain": "wheel_assembly",
+      "source_mechanism": "SUPPORTED_ROTATION",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Rotation",
+            "Support",
+            "Friction",
+            "Failure"
+          ],
+          "lesson_id": "MEC-L002",
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "trace_expectation": "A mapped SUPPORTED_ROTATION answer must cite at least three of Rotation, Support, Friction, and Failure."
+        }
+      ],
+      "status": "IDENTIFIED",
+      "suite": "cross_domain_transfer",
+      "supporting_motifs": [
+        "Rotation",
+        "Support",
+        "Friction",
+        "Failure"
+      ],
+      "target_domain": "lab_turntable",
+      "transfer_confidence": 0.95
+    },
+    {
+      "answer": "The similar mechanism is LOAD_TRANSFER: load must distribute through a path, and concentration creates failure risk.",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 9,
+          "matched_role_count": 4,
+          "matched_roles": [
+            "load",
+            "distribution",
+            "concentration",
+            "failure"
+          ],
+          "mechanism_id": "load_transfer",
+          "score": 4.4
+        },
+        {
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "path"
+          ],
+          "mechanism_id": "flow",
+          "score": 1.05
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "component_category": "load path distribution element",
+      "correct": true,
+      "deterministic_replay_match": true,
+      "expected_component_category": "load path distribution element",
+      "expected_mechanism": "load_transfer",
+      "expected_status": "IDENTIFIED",
+      "fail_closed_reason": "",
+      "hidden_mechanism_name": false,
+      "identified_mechanism": "load_transfer",
+      "inspection_priority": "Inspect the load path and high-stress concentration points such as joints, anchors, brackets, supports, and overloaded members.",
+      "mapping_output": {
+        "identified_mechanism": "load_transfer",
+        "observed_system": "A hanging sign carries weight through two cables. One anchor takes most force, bends, and the sign sags.",
+        "source_mechanism": "LOAD_TRANSFER",
+        "supporting_motifs": [
+          "Load",
+          "Distribution",
+          "Concentration",
+          "Failure"
+        ],
+        "transfer_confidence": 0.95
+      },
+      "matched_roles": [
+        {
+          "matched_cues": [
+            "weight",
+            "force",
+            "carries"
+          ],
+          "motif": "Load",
+          "role_id": "load",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "through",
+            "cables"
+          ],
+          "motif": "Distribution",
+          "role_id": "distribution",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "one anchor"
+          ],
+          "motif": "Concentration",
+          "role_id": "concentration",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "bends",
+            "sag",
+            "sags"
+          ],
+          "motif": "Failure",
+          "role_id": "failure",
+          "weight": 1.0
+        }
+      ],
+      "mechanism_explanation": "The observed system carries load through supports, then fails where stress concentrates.",
+      "motif_support_count": 4,
+      "observed_system": "A hanging sign carries weight through two cables. One anchor takes most force, bends, and the sign sags.",
+      "question": "Observed system: A hanging sign carries weight through two cables. One anchor takes most force, bends, and the sign sags. Question: What mechanism is similar?",
+      "question_id": "CD-006",
+      "requires_transfer": true,
+      "source_domain": "bridge",
+      "source_mechanism": "LOAD_TRANSFER",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Load",
+            "Distribution",
+            "Concentration",
+            "Failure"
+          ],
+          "lesson_id": "MEC-L003",
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "trace_expectation": "A mapped LOAD_TRANSFER answer must cite at least three of Load, Distribution, Concentration, and Failure."
+        }
+      ],
+      "status": "IDENTIFIED",
+      "suite": "cross_domain_transfer",
+      "supporting_motifs": [
+        "Load",
+        "Distribution",
+        "Concentration",
+        "Failure"
+      ],
+      "target_domain": "hanging_sign",
+      "transfer_confidence": 0.95
+    }
+  ],
+  "mechanism_transfer_rate": 1.0,
+  "phase": "cross_domain_transfer_test",
+  "pond_state": "mechanism_seasoned",
+  "proof_id": "030-mechanistic-transfer-challenge",
+  "total_items": 6
+}

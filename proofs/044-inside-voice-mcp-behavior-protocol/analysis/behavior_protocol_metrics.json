@@ -1,0 +1,27 @@
+{
+  "activation_field_observed_rate": 1.0,
+  "collapse_trace_observed_rate": 1.0,
+  "fail_closed_correct_rate": 1.0,
+  "interaction_observed_rate": 1.0,
+  "lineage_traceability_rate": 1.0,
+  "modes_implemented": [
+    "recall",
+    "activation_only",
+    "field_interaction",
+    "delayed_ranking",
+    "collapse_trace",
+    "perturbation"
+  ],
+  "modes_validated": [
+    "recall",
+    "activation_only",
+    "field_interaction",
+    "delayed_ranking",
+    "collapse_trace",
+    "perturbation"
+  ],
+  "motif_traceability_rate": 1.0,
+  "perturbation_effect_observed_rate": 1.0,
+  "pond_backed_response_rate": 1.0,
+  "total_cases": 30
+}

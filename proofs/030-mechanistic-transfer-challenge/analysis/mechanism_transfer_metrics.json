@@ -1,0 +1,187 @@
+{
+  "critical_metric": "Mechanism Transfer Rate",
+  "cross_domain_transfer_rate": 1.0,
+  "deterministic_replay_match": true,
+  "fail_closed_rate_on_unsupported_items": 1.0,
+  "hidden_mechanism_transfer_rate": 1.0,
+  "in_domain_identification_rate": 1.0,
+  "mechanism_transfer_rate": 1.0,
+  "metric_definition": "Fraction of cross-domain or hidden-mechanism prompts whose mechanism was correctly identified by deterministic CLI mapping.",
+  "proof_id": "030-mechanistic-transfer-challenge",
+  "transfer_items": [
+    {
+      "correct": true,
+      "expected_mechanism": "flow",
+      "identified_mechanism": "flow",
+      "question_id": "CD-001",
+      "source_domain": "water_system",
+      "supporting_motifs": [
+        "Path",
+        "Resistance",
+        "Flow"
+      ],
+      "target_domain": "delivery_corridor",
+      "transfer_confidence": 0.83
+    },
+    {
+      "correct": true,
+      "expected_mechanism": "supported_rotation",
+      "identified_mechanism": "supported_rotation",
+      "question_id": "CD-002",
+      "source_domain": "wheel_assembly",
+      "supporting_motifs": [
+        "Rotation",
+        "Support",
+        "Friction",
+        "Failure"
+      ],
+      "target_domain": "computer_fan",
+      "transfer_confidence": 0.95
+    },
+    {
+      "correct": true,
+      "expected_mechanism": "load_transfer",
+      "identified_mechanism": "load_transfer",
+      "question_id": "CD-003",
+      "source_domain": "bridge",
+      "supporting_motifs": [
+        "Load",
+        "Distribution",
+        "Concentration",
+        "Failure"
+      ],
+      "target_domain": "warehouse_shelf",
+      "transfer_confidence": 0.95
+    },
+    {
+      "correct": true,
+      "expected_mechanism": "flow",
+      "identified_mechanism": "flow",
+      "question_id": "CD-004",
+      "source_domain": "water_system",
+      "supporting_motifs": [
+        "Path",
+        "Resistance",
+        "Flow"
+      ],
+      "target_domain": "service_gateway",
+      "transfer_confidence": 0.88
+    },
+    {
+      "correct": true,
+      "expected_mechanism": "supported_rotation",
+      "identified_mechanism": "supported_rotation",
+      "question_id": "CD-005",
+      "source_domain": "wheel_assembly",
+      "supporting_motifs": [
+        "Rotation",
+        "Support",
+        "Friction",
+        "Failure"
+      ],
+      "target_domain": "lab_turntable",
+      "transfer_confidence": 0.95
+    },
+    {
+      "correct": true,
+      "expected_mechanism": "load_transfer",
+      "identified_mechanism": "load_transfer",
+      "question_id": "CD-006",
+      "source_domain": "bridge",
+      "supporting_motifs": [
+        "Load",
+        "Distribution",
+        "Concentration",
+        "Failure"
+      ],
+      "target_domain": "hanging_sign",
+      "transfer_confidence": 0.95
+    },
+    {
+      "correct": true,
+      "expected_mechanism": "supported_rotation",
+      "identified_mechanism": "supported_rotation",
+      "question_id": "HM-001",
+      "source_domain": "wheel_assembly",
+      "supporting_motifs": [
+        "Rotation",
+        "Friction",
+        "Failure"
+      ],
+      "target_domain": "room_fan",
+      "transfer_confidence": 0.8
+    },
+    {
+      "correct": true,
+      "expected_mechanism": "flow",
+      "identified_mechanism": "flow",
+      "question_id": "HM-002",
+      "source_domain": "water_system",
+      "supporting_motifs": [
+        "Path",
+        "Resistance",
+        "Flow"
+      ],
+      "target_domain": "crowd_exit",
+      "transfer_confidence": 0.78
+    },
+    {
+      "correct": true,
+      "expected_mechanism": "load_transfer",
+      "identified_mechanism": "load_transfer",
+      "question_id": "HM-003",
+      "source_domain": "bridge",
+      "supporting_motifs": [
+        "Load",
+        "Concentration",
+        "Failure"
+      ],
+      "target_domain": "storage_shelf",
+      "transfer_confidence": 0.88
+    },
+    {
+      "correct": true,
+      "expected_mechanism": "supported_rotation",
+      "identified_mechanism": "supported_rotation",
+      "question_id": "HM-004",
+      "source_domain": "wheel_assembly",
+      "supporting_motifs": [
+        "Rotation",
+        "Friction",
+        "Failure"
+      ],
+      "target_domain": "motorized_turntable",
+      "transfer_confidence": 0.83
+    },
+    {
+      "correct": true,
+      "expected_mechanism": "flow",
+      "identified_mechanism": "flow",
+      "question_id": "HM-005",
+      "source_domain": "water_system",
+      "supporting_motifs": [
+        "Path",
+        "Resistance",
+        "Flow"
+      ],
+      "target_domain": "software_gateway",
+      "transfer_confidence": 0.88
+    },
+    {
+      "correct": true,
+      "expected_mechanism": "load_transfer",
+      "identified_mechanism": "load_transfer",
+      "question_id": "HM-006",
+      "source_domain": "bridge",
+      "supporting_motifs": [
+        "Load",
+        "Distribution",
+        "Concentration",
+        "Failure"
+      ],
+      "target_domain": "suspended_sign",
+      "transfer_confidence": 0.95
+    }
+  ],
+  "unseasoned_baseline_all_fail_closed": true
+}

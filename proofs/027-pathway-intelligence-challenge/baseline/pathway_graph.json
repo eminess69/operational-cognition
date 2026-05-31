@@ -1,0 +1,257 @@
+{
+  "consultation": "none",
+  "domain": "Collapse of Kodak",
+  "edges": [
+    {
+      "from": "P1",
+      "reason": "Digital substitution attacks the film-and-print profit model.",
+      "relation": "pressures",
+      "to": "P2"
+    },
+    {
+      "from": "P2",
+      "reason": "High-margin film economics shape resource-allocation incentives.",
+      "relation": "creates",
+      "to": "P4"
+    },
+    {
+      "from": "P4",
+      "reason": "Incentives influence strategic sequencing and execution choices.",
+      "relation": "constrains",
+      "to": "P3"
+    },
+    {
+      "from": "P5",
+      "reason": "Culture and cognition shape how management interprets renewal paths.",
+      "relation": "constrains",
+      "to": "P3"
+    },
+    {
+      "from": "P6",
+      "reason": "Market timing makes even correct strategic moves costly or mistimed.",
+      "relation": "complicates",
+      "to": "P3"
+    },
+    {
+      "from": "P7",
+      "reason": "Liquidity pressure narrows management's option set.",
+      "relation": "constrains",
+      "to": "P3"
+    },
+    {
+      "from": "P8",
+      "reason": "Technology-blindness is a simpler but weaker substitute for management-execution analysis.",
+      "relation": "competes_with",
+      "to": "P3"
+    },
+    {
+      "from": "P8",
+      "reason": "The fact of invention does not explain the market and ecosystem transition by itself.",
+      "relation": "overclaims",
+      "to": "P1"
+    }
+  ],
+  "nodes": [
+    {
+      "claim": "Kodak collapsed because the image-capture and image-sharing ecosystem moved from film and prints to digital files, online sharing, and smartphones.",
+      "confidence": 0.86,
+      "contradictions": [
+        "Kodak invented and commercialized important digital technologies, so the pathway cannot mean pure ignorance.",
+        "Digital cameras themselves became low-margin, so disruption alone does not explain the failed replacement profit engine."
+      ],
+      "evidence": [
+        "2011 Consumer Digital Imaging sales fell 36% and produced a $349M segment loss.",
+        "Film, Photofinishing and Entertainment sales also declined 12% in 2011.",
+        "Digital camera adoption took off after 2002 and then smartphones undermined standalone cameras and printing.",
+        "Kodak phased out dedicated digital cameras, pocket video cameras, and digital picture frames in 2012."
+      ],
+      "evidence_count": 4,
+      "pathway": "Digital disruption and ecosystem substitution",
+      "pathway_id": "P1",
+      "rank": 1,
+      "reason": "Dominant cross-source signal: film and consumer imaging economics collapsed as capture and sharing moved digital.",
+      "source_lineage": [
+        "SRC-KODAK-2011-10K",
+        "SRC-CAMBRIDGE-BHR-2025",
+        "SRC-MACWORLD-2006"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "claim": "Kodak could not replace a high-margin film and print consumables model with comparably attractive digital-camera and digital-printing economics.",
+      "confidence": 0.74,
+      "contradictions": [
+        "Kodak did invest in digital and adjacent businesses, so rigidity was not total inaction.",
+        "If no profitable replacement market existed, the pathway overlaps with timing and market-structure failure."
+      ],
+      "evidence": [
+        "Film remained profitable in 2011 despite decline while Consumer Digital Imaging lost money.",
+        "Kodak's growth plans repeatedly sought consumables-like economics in inkjet and printing.",
+        "New digital paths were evaluated against the historical profitability of film photography.",
+        "Forbes reported early digital camera units were sold at a material loss."
+      ],
+      "evidence_count": 4,
+      "pathway": "Business model rigidity and film-profit lock-in",
+      "pathway_id": "P2",
+      "rank": 2,
+      "reason": "Explains why digital awareness did not translate into a replacement profit engine.",
+      "source_lineage": [
+        "SRC-KODAK-2011-10K",
+        "SRC-CAMBRIDGE-BHR-2025",
+        "SRC-FORBES-2000",
+        "SRC-KODAK-2010-10K"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "claim": "Kodak managers recognized multiple threats but failed to sequence, separate, fund, and scale a viable replacement business quickly enough.",
+      "confidence": 0.46,
+      "contradictions": [
+        "The pathway is false if framed as managers simply failing to notice digital photography.",
+        "Heavy renewal efforts weaken a simple incompetence narrative."
+      ],
+      "evidence": [
+        "Kodak tried copiers, pharmaceuticals, digital photography, commercial printing, and consumer inkjet across several leadership regimes.",
+        "The company divested copier and pharmaceutical paths and refocused on photography before the consumer imaging model collapsed.",
+        "Kodak planned to phase out dedicated capture devices only after Chapter 11 filing pressure.",
+        "The 2010 digital outlook shows management had a strategy, but the strategy depended on contested assumptions about cameras, inkjet, and printing."
+      ],
+      "evidence_count": 4,
+      "pathway": "Strategic management and execution failure",
+      "pathway_id": "P3",
+      "rank": 3,
+      "reason": "Kept as a secondary execution issue, but demoted because management-awareness evidence contradicts a simple incompetence account.",
+      "source_lineage": [
+        "SRC-CAMBRIDGE-BHR-2025",
+        "SRC-KODAK-2011-10K",
+        "SRC-KODAK-2010-DIGITAL-OUTLOOK"
+      ],
+      "status": "WEAKENED"
+    },
+    {
+      "claim": "Kodak's internal and external incentives favored defending near-term film economics and scrutinizing costly renewal paths before they could mature.",
+      "confidence": 0.32,
+      "contradictions": [
+        "Direct compensation-plan evidence is not in the public corpus used here.",
+        "The pathway can collapse into business model rigidity if incentives are not treated as a distinct mechanism."
+      ],
+      "evidence": [
+        "New paths were judged against Kodak's unusually successful film business.",
+        "Digital photography and copier investments generated large short-term losses that attracted analyst and stakeholder pressure.",
+        "Budgeting, financial projections, and values are named in the academic case as key background processes in disruption response.",
+        "Digital camera losses made it rational for managers to delay or constrain investment even when the technology was strategically important."
+      ],
+      "evidence_count": 4,
+      "pathway": "Incentive and resource-allocation structures",
+      "pathway_id": "P4",
+      "rank": 4,
+      "reason": "Collapsed into business model rigidity; treated as a restatement rather than a distinct causal pathway.",
+      "source_lineage": [
+        "SRC-CAMBRIDGE-BHR-2025",
+        "SRC-JSIS-2009",
+        "SRC-FORBES-2000"
+      ],
+      "status": "ELIMINATED"
+    },
+    {
+      "claim": "Kodak's film, chemistry, and high-resolution photography identity shaped how managers evaluated digital photography and slowed adaptation.",
+      "confidence": 0.28,
+      "contradictions": [
+        "Kodak's extensive digital R&D and technical leadership show culture did not prevent all digital action.",
+        "The 2025 business-history account explicitly rejects culture or inertia as a sufficient sole explanation."
+      ],
+      "evidence": [
+        "Lucas and Goh identify middle managers, culture, and rigid bureaucracy as barriers to a fast response.",
+        "They describe film as a physical, chemical product and say middle managers struggled to think digitally.",
+        "Kodak managers measured digital progress against the quality standard of 35mm film.",
+        "The culture pathway explains why digital was interpreted through print quality and existing photographic values."
+      ],
+      "evidence_count": 4,
+      "pathway": "Organizational culture and middle-management cognition",
+      "pathway_id": "P5",
+      "rank": 5,
+      "reason": "Eliminated as a common stereotype because extensive digital investment seemed to falsify cultural resistance.",
+      "source_lineage": [
+        "SRC-JSIS-2009",
+        "SRC-CAMBRIDGE-BHR-2025"
+      ],
+      "status": "ELIMINATED"
+    },
+    {
+      "claim": "Kodak invested before profitable mass demand arrived, then faced commoditized competition and a smartphone shock just as its replacement model depended on cameras and printing.",
+      "confidence": 0.25,
+      "contradictions": [
+        "Timing risk does not remove managerial responsibility for path selection.",
+        "Other competitors adapted differently, so timing cannot be the whole explanation."
+      ],
+      "evidence": [
+        "Digital camera sales did not surpass film camera sales until 2002, decades after Kodak's first prototype.",
+        "By the time volume demand arrived, many competitors had entered and price competition eroded profitability.",
+        "The iPhone and smartphones reduced demand for standalone cameras and for printing photos.",
+        "Kodak's consumer inkjet and printing bet was hit by the same shift toward screen-based sharing."
+      ],
+      "evidence_count": 4,
+      "pathway": "Timing failures and market-uncertainty trap",
+      "pathway_id": "P6",
+      "rank": 6,
+      "reason": "Treated as background chronology, not a causal mechanism.",
+      "source_lineage": [
+        "SRC-CAMBRIDGE-BHR-2025",
+        "SRC-MACWORLD-2006",
+        "SRC-KODAK-2010-DIGITAL-OUTLOOK"
+      ],
+      "status": "ELIMINATED"
+    },
+    {
+      "claim": "Kodak's renewal options narrowed as debt, divestitures, legacy shutdown costs, digital losses, and bankruptcy constraints reduced room for sustained experimentation.",
+      "confidence": 0.23,
+      "contradictions": [
+        "Capital shortage may be a consequence of weak strategy rather than an independent root cause.",
+        "The pathway is less useful if it does not identify which capital choices narrowed which options."
+      ],
+      "evidence": [
+        "The Sterling Drug acquisition added expensive long-term debt and contributed to later divestiture pressure.",
+        "Large annual losses in digital and adjacent ventures drew scrutiny and limited investment tolerance.",
+        "The 2011 10-K records Chapter 11 proceedings, asset-sale processes, and patent monetization pressure.",
+        "Cambridge links severe cash shortfalls to the combined burden of inkjet growth and legacy shutdown costs."
+      ],
+      "evidence_count": 4,
+      "pathway": "Capital allocation and liquidity constraint",
+      "pathway_id": "P7",
+      "rank": 7,
+      "reason": "Treated as downstream symptom after market failure, not an investigative path.",
+      "source_lineage": [
+        "SRC-CAMBRIDGE-BHR-2025",
+        "SRC-KODAK-2011-10K",
+        "SRC-KODAK-2010-10K"
+      ],
+      "status": "ELIMINATED"
+    },
+    {
+      "claim": "Kodak failed mainly because it invented the digital camera in 1975 and then ignored or suppressed the technology until it was too late.",
+      "confidence": 0.18,
+      "contradictions": [
+        "Kodak invested heavily in digital photography and introduced multiple important digital technologies.",
+        "Kodak had U.S. digital-camera market leadership in 2004 and 2005.",
+        "The pathway confuses failure to monetize with lack of technological awareness."
+      ],
+      "evidence": [
+        "Kodak records that Steve Sasson invented the world's first digital camera in 1975.",
+        "Mass-market digital photography took decades to mature after the 1975 prototype."
+      ],
+      "evidence_count": 2,
+      "pathway": "Technology blindness or invention suppression",
+      "pathway_id": "P8",
+      "rank": 8,
+      "reason": "Contradicted by evidence of long-running digital investment and market participation.",
+      "source_lineage": [
+        "SRC-KODAK-MILESTONES",
+        "SRC-CAMBRIDGE-BHR-2025",
+        "SRC-HBR-2016"
+      ],
+      "status": "ELIMINATED"
+    }
+  ],
+  "proof_id": "027-pathway-intelligence-challenge",
+  "run": "baseline"
+}

@@ -1,0 +1,153 @@
+{
+  "baseline_leading_explanation": "Amyloid/tau cascade with biomarker-defined AD biology and immune/vascular/metabolic modifiers.",
+  "consult_used": false,
+  "created_utc": "2026-05-28T23:42:05Z",
+  "hypotheses": [
+    {
+      "baseline_status": "leading_but_contested",
+      "claim_boundary": "Amyloid and tau are central source-linked disease signals, but not a complete etiology.",
+      "hypothesis_id": "H-AMYLOID-TAU-CASCADE",
+      "supporting_sources": [
+        "PMID-33986301",
+        "PMID-35177833",
+        "PMID-34815562",
+        "PMID-39014245",
+        "PMID-37875627",
+        "PMID-36449413",
+        "PMID-37459141",
+        "PMID-37966285",
+        "PMID-35542991",
+        "PMID-33720637",
+        "PMID-38683602",
+        "PMID-35696185",
+        "PMID-32568367",
+        "PMID-41405855"
+      ],
+      "title": "Amyloid/tau cascade as central disease biology",
+      "weaknesses": [
+        "Clinical benefit from amyloid removal remains modest and trial-dependent.",
+        "Tau and synaptic injury correlate closely with impairment but do not settle upstream causality."
+      ]
+    },
+    {
+      "baseline_status": "major_modifier",
+      "claim_boundary": "Inflammation and glial activation are repeatedly implicated but can be protective, harmful, or stage-dependent.",
+      "hypothesis_id": "H-IMMUNE-INFLAMMATORY",
+      "supporting_sources": [
+        "PMID-33318676",
+        "PMID-38424470",
+        "PMID-41315874",
+        "PMID-31827267",
+        "PMID-36129176",
+        "PMID-39620840",
+        "PMID-40023293",
+        "PMID-34416829"
+      ],
+      "title": "Immune-inflammatory and glial dysfunction",
+      "weaknesses": [
+        "Directionality and timing are unresolved."
+      ]
+    },
+    {
+      "baseline_status": "important_comorbidity",
+      "claim_boundary": "Vascular pathology is source-linked and clinically relevant, but baseline treats it mostly as co-factor.",
+      "hypothesis_id": "H-VASCULAR",
+      "supporting_sources": [
+        "PMID-31827267",
+        "PMID-36129176",
+        "PMID-39620840",
+        "OFF-NINDS-VCID"
+      ],
+      "title": "Vascular and blood-brain barrier contributions",
+      "weaknesses": [
+        "Baseline under-separates vascular amyloid/ARIA safety from generic vascular risk."
+      ]
+    },
+    {
+      "baseline_status": "plausible_modifier",
+      "claim_boundary": "Energy, oxidative, insulin, and mitochondrial signals are supported, but causal ordering is weak.",
+      "hypothesis_id": "H-METABOLIC-MITOCHONDRIAL",
+      "supporting_sources": [
+        "PMID-40023293",
+        "PMID-34416829",
+        "PMID-32568367"
+      ],
+      "title": "Metabolic, mitochondrial, and oxidative stress pathways",
+      "weaknesses": [
+        "Human interventional translation is not settled."
+      ]
+    },
+    {
+      "baseline_status": "risk_architecture",
+      "claim_boundary": "APOE and genetic risk alter disease vulnerability across amyloid, lipid, immune, and vascular axes.",
+      "hypothesis_id": "H-GENETIC-APOE",
+      "supporting_sources": [
+        "PMID-38906999",
+        "PMID-33176118",
+        "PMID-36513730",
+        "PMID-35034755"
+      ],
+      "title": "Genetic/APOE and risk architecture",
+      "weaknesses": [
+        "Genetic association does not identify one sufficient treatment target."
+      ]
+    },
+    {
+      "baseline_status": "high_evidence_diagnostic_axis",
+      "claim_boundary": "PET, CSF, and blood biomarkers strongly identify AD biology but are not equivalent to full clinical causality.",
+      "hypothesis_id": "H-BIOMARKER-DEFINED-AD",
+      "supporting_sources": [
+        "PMID-38429551",
+        "PMID-39068545",
+        "PMID-38866966",
+        "PMID-38252443",
+        "PMID-36508198",
+        "PMID-37443334",
+        "PMID-39068669",
+        "PMID-41324928",
+        "PMID-38888066",
+        "OFF-NIA-BLOOD-BIOMARKERS-2024"
+      ],
+      "title": "Biomarker-defined Alzheimer biology",
+      "weaknesses": [
+        "Baseline overweights biological staging as if it resolves etiology."
+      ]
+    },
+    {
+      "baseline_status": "recognized_but_underweighted",
+      "claim_boundary": "Older-adult dementia often involves overlapping AD, vascular, LATE/PART, and other pathologies.",
+      "hypothesis_id": "H-MIXED-PATHOLOGY",
+      "supporting_sources": [
+        "PMID-32047067",
+        "PMID-33429401",
+        "PMID-37563264",
+        "PMID-38520489",
+        "PMID-40164861",
+        "PMID-38619853",
+        "PMID-35649653",
+        "OFF-CDC-ABOUT-ADRD"
+      ],
+      "title": "Integrated mixed-pathology model",
+      "weaknesses": [
+        "Baseline does not yet make this a top bottleneck."
+      ]
+    },
+    {
+      "baseline_status": "symptomatic_downstream_axis",
+      "claim_boundary": "Synaptic/cholinergic dysfunction is clinically relevant but not enough as a disease-origin explanation.",
+      "hypothesis_id": "H-CHOLINERGIC-SYNAPTIC",
+      "supporting_sources": [
+        "PMID-36513730",
+        "PMID-35034755",
+        "PMID-39620846"
+      ],
+      "title": "Cholinergic and synaptic failure",
+      "weaknesses": [
+        "Symptom response does not prove upstream disease modification."
+      ]
+    }
+  ],
+  "run_id": "phase-a-baseline-no-consult",
+  "source_corpus_ref": "../source_corpus.json",
+  "starting_uncertainty_boundary": "Alzheimer disease etiology remains unclear and multi-factorial; the baseline does not treat any hypothesis as solved."
+}

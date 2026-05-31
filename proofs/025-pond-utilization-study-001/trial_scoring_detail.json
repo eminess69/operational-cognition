@@ -1,0 +1,629 @@
+[
+  {
+    "consult_artifacts": [],
+    "consult_count": 0,
+    "hostile_validation_rationale": "Baseline source lineage was strong; there was no consult influence to score.",
+    "metrics": {
+      "causal_credit": 0.0,
+      "direction_changes": 0,
+      "false_path_abandonment": 0,
+      "false_pivots": 0,
+      "lineage_completeness": 0.95,
+      "lineage_improvement": 0.0,
+      "net_value_score": 0.0,
+      "new_evidence_clusters": 0,
+      "new_valid_contradictions": 0,
+      "premature_convergence_avoidance": 0,
+      "redundant_consults": 0,
+      "unsupported_claim_reduction": 0,
+      "unsupported_claims": 0
+    },
+    "protocol": "Protocol A - No Consult Baseline",
+    "source_pack": "proofs/022-challenger-causal-traceback",
+    "task_type": "Historical causal traceback",
+    "trial_id": "historical-A"
+  },
+  {
+    "consult_artifacts": [
+      {
+        "adapter_status": "pond_backed",
+        "classification": "BUDGET_LIMITED",
+        "contribution_grade": "bounded",
+        "request": "inside_voice_consults/historical_b_01_request.json",
+        "request_hash": "acb2fe1d96a8fb23c8a9e21230c5fe5ac0bfe1cb5f8d240252cb015366d746bb",
+        "response": "inside_voice_consults/historical_b_01_response.json",
+        "response_hash": "6f8f277f075fc32d2ca71ce5ffbb4699132c3cdffbe890c3cad0f94a5859e336",
+        "verdict": "ok"
+      }
+    ],
+    "consult_count": 1,
+    "hostile_validation_rationale": "Proof 022's recorded consult had contribution_grade=minimal yet a blocking broad-claim warning.",
+    "metrics": {
+      "causal_credit": 0.4,
+      "direction_changes": 0,
+      "false_path_abandonment": 0,
+      "false_pivots": 0,
+      "lineage_completeness": 0.97,
+      "lineage_improvement": 0.02,
+      "net_value_score": 0.41,
+      "new_evidence_clusters": 0,
+      "new_valid_contradictions": 0,
+      "premature_convergence_avoidance": 0,
+      "redundant_consults": 0,
+      "unsupported_claim_reduction": 1,
+      "unsupported_claims": 0
+    },
+    "protocol": "Protocol B - Late Audit Consult",
+    "source_pack": "proofs/022-challenger-causal-traceback",
+    "task_type": "Historical causal traceback",
+    "trial_id": "historical-B"
+  },
+  {
+    "consult_artifacts": [
+      {
+        "adapter_status": "pond_backed",
+        "classification": "BUDGET_LIMITED",
+        "contribution_grade": "bounded",
+        "request": "inside_voice_consults/historical_c_01_request.json",
+        "request_hash": "0f9c923b8dabc5c71ae5a74881f4909ed51ed6009f3173ab9c86b16a217544c4",
+        "response": "inside_voice_consults/historical_c_01_response.json",
+        "response_hash": "47b6cb3a781b94fc9e346ecf449200fc104d5805b785de04233b052076a1656b",
+        "verdict": "ok"
+      }
+    ],
+    "consult_count": 1,
+    "hostile_validation_rationale": "No new Challenger-specific source cluster was recovered beyond source_corpus and contradiction_map.",
+    "metrics": {
+      "causal_credit": 0.0,
+      "direction_changes": 0,
+      "false_path_abandonment": 0,
+      "false_pivots": 0,
+      "lineage_completeness": 0.95,
+      "lineage_improvement": 0.0,
+      "net_value_score": -1.0,
+      "new_evidence_clusters": 0,
+      "new_valid_contradictions": 0,
+      "premature_convergence_avoidance": 0,
+      "redundant_consults": 1,
+      "unsupported_claim_reduction": 0,
+      "unsupported_claims": 0
+    },
+    "protocol": "Protocol C - Early Planning Consult",
+    "source_pack": "proofs/022-challenger-causal-traceback",
+    "task_type": "Historical causal traceback",
+    "trial_id": "historical-C"
+  },
+  {
+    "consult_artifacts": [
+      {
+        "adapter_status": "pond_backed",
+        "classification": "BUDGET_LIMITED",
+        "contribution_grade": "bounded",
+        "request": "inside_voice_consults/historical_d_01_request.json",
+        "request_hash": "812ce6ed828f25f667f9c5e11a935d13c15ee75c824e200a7278020d52f98607",
+        "response": "inside_voice_consults/historical_d_01_response.json",
+        "response_hash": "6e8b71184b7f287f0819bea12d60fb76acf67ad58a3722bb43658bce09f99bf1",
+        "verdict": "ok"
+      },
+      {
+        "adapter_status": "pond_backed",
+        "classification": "BUDGET_LIMITED",
+        "contribution_grade": "bounded",
+        "request": "inside_voice_consults/historical_d_02_request.json",
+        "request_hash": "ea5460e807425493f93a9f000e724fdda4730df5159761679edb1b645b1bee94",
+        "response": "inside_voice_consults/historical_d_02_response.json",
+        "response_hash": "3ccbf33deedfa7c5308b8ca222f422f3b88093a9672cb7d11c264105000f03fc",
+        "verdict": "ok"
+      }
+    ],
+    "consult_count": 2,
+    "hostile_validation_rationale": "The historical pack was already mature before consult; repeated pressure was mostly audit noise.",
+    "metrics": {
+      "causal_credit": 0.05,
+      "direction_changes": 0,
+      "false_path_abandonment": 0,
+      "false_pivots": 0,
+      "lineage_completeness": 0.96,
+      "lineage_improvement": 0.01,
+      "net_value_score": -1.0,
+      "new_evidence_clusters": 0,
+      "new_valid_contradictions": 0,
+      "premature_convergence_avoidance": 0,
+      "redundant_consults": 1,
+      "unsupported_claim_reduction": 0,
+      "unsupported_claims": 0
+    },
+    "protocol": "Protocol D - Periodic Pressure Consult",
+    "source_pack": "proofs/022-challenger-causal-traceback",
+    "task_type": "Historical causal traceback",
+    "trial_id": "historical-D"
+  },
+  {
+    "consult_artifacts": [
+      {
+        "adapter_status": "pond_backed",
+        "classification": "BUDGET_LIMITED",
+        "contribution_grade": "bounded",
+        "request": "inside_voice_consults/historical_e_01_request.json",
+        "request_hash": "5e6330fd63b12065c07dab9fd2b6e1bd49e2ac05c738ac859ac79e7c52097153",
+        "response": "inside_voice_consults/historical_e_01_response.json",
+        "response_hash": "5400d0c2d20289ee94e8ceaa8b8c27faf7bf8dfd91a97a25e169f4a670ee31dc",
+        "verdict": "ok"
+      }
+    ],
+    "consult_count": 1,
+    "hostile_validation_rationale": "Value was claim-boundary discipline and contradiction preservation, not discovery.",
+    "metrics": {
+      "causal_credit": 0.35,
+      "direction_changes": 0,
+      "false_path_abandonment": 0,
+      "false_pivots": 0,
+      "lineage_completeness": 0.96,
+      "lineage_improvement": 0.01,
+      "net_value_score": 0.35,
+      "new_evidence_clusters": 0,
+      "new_valid_contradictions": 0,
+      "premature_convergence_avoidance": 0,
+      "redundant_consults": 0,
+      "unsupported_claim_reduction": 1,
+      "unsupported_claims": 0
+    },
+    "protocol": "Protocol E - Contradiction-First Consult",
+    "source_pack": "proofs/022-challenger-causal-traceback",
+    "task_type": "Historical causal traceback",
+    "trial_id": "historical-E"
+  },
+  {
+    "consult_artifacts": [
+      {
+        "adapter_status": "pond_backed",
+        "classification": "BUDGET_LIMITED",
+        "contribution_grade": "bounded",
+        "request": "inside_voice_consults/historical_f_01_request.json",
+        "request_hash": "c6e83634ebfd2db0dc8a49f4d881396023a1b43c00c87fbef2d1444c18bfc57f",
+        "response": "inside_voice_consults/historical_f_01_response.json",
+        "response_hash": "c5730707c3bf4363e6b2c1797de0a93a01cf2d0d3b6e7a125c192bf9a880f57e",
+        "verdict": "ok"
+      }
+    ],
+    "consult_count": 1,
+    "hostile_validation_rationale": "No new historical evidence cluster was recovered.",
+    "metrics": {
+      "causal_credit": 0.0,
+      "direction_changes": 0,
+      "false_path_abandonment": 0,
+      "false_pivots": 0,
+      "lineage_completeness": 0.93,
+      "lineage_improvement": 0.0,
+      "net_value_score": -1.0,
+      "new_evidence_clusters": 0,
+      "new_valid_contradictions": 0,
+      "premature_convergence_avoidance": 0,
+      "redundant_consults": 1,
+      "unsupported_claim_reduction": 0,
+      "unsupported_claims": 0
+    },
+    "protocol": "Protocol F - Recovery Consult",
+    "source_pack": "proofs/022-challenger-causal-traceback",
+    "task_type": "Historical causal traceback",
+    "trial_id": "historical-F"
+  },
+  {
+    "consult_artifacts": [],
+    "consult_count": 0,
+    "hostile_validation_rationale": "Existing proof 023 direction audit verifies that CSI displaced SSA after consult-guided recovery.",
+    "metrics": {
+      "causal_credit": 0.0,
+      "direction_changes": 0,
+      "false_path_abandonment": 0,
+      "false_pivots": 0,
+      "lineage_completeness": 0.65,
+      "lineage_improvement": 0.0,
+      "net_value_score": 0.0,
+      "new_evidence_clusters": 0,
+      "new_valid_contradictions": 0,
+      "premature_convergence_avoidance": 0,
+      "redundant_consults": 0,
+      "unsupported_claim_reduction": 0,
+      "unsupported_claims": 1
+    },
+    "protocol": "Protocol A - No Consult Baseline",
+    "source_pack": "proofs/023-truth-reconstruction-challenge-002",
+    "task_type": "Software architecture reconstruction",
+    "trial_id": "software-A"
+  },
+  {
+    "consult_artifacts": [
+      {
+        "adapter_status": "pond_backed",
+        "classification": "BUDGET_LIMITED",
+        "contribution_grade": "bounded",
+        "request": "inside_voice_consults/software_b_01_request.json",
+        "request_hash": "fbd7893351ef1cc917cfdb09eea4a96e1943d1ab58b2e62fe9bb7fa296107682",
+        "response": "inside_voice_consults/software_b_01_response.json",
+        "response_hash": "4d69685528bc2fd4cf415acac91b5bee34ead6dd75bdc2ef2f43af6cb601c17d",
+        "verdict": "ok"
+      }
+    ],
+    "consult_count": 1,
+    "hostile_validation_rationale": "Proof 023 final audit was non-directional; the material change happened earlier.",
+    "metrics": {
+      "causal_credit": 0.1,
+      "direction_changes": 0,
+      "false_path_abandonment": 0,
+      "false_pivots": 0,
+      "lineage_completeness": 0.72,
+      "lineage_improvement": 0.07,
+      "net_value_score": -1.99,
+      "new_evidence_clusters": 0,
+      "new_valid_contradictions": 0,
+      "premature_convergence_avoidance": 0,
+      "redundant_consults": 1,
+      "unsupported_claim_reduction": 0,
+      "unsupported_claims": 1
+    },
+    "protocol": "Protocol B - Late Audit Consult",
+    "source_pack": "proofs/023-truth-reconstruction-challenge-002",
+    "task_type": "Software architecture reconstruction",
+    "trial_id": "software-B"
+  },
+  {
+    "consult_artifacts": [
+      {
+        "adapter_status": "pond_backed",
+        "classification": "BUDGET_LIMITED",
+        "contribution_grade": "bounded",
+        "request": "inside_voice_consults/software_c_01_request.json",
+        "request_hash": "300de97789bc8729ee2c94b17abbc0fbdf9c033bffb0c409432fe4aac6617cd9",
+        "response": "inside_voice_consults/software_c_01_response.json",
+        "response_hash": "e3628dcc36fb2fc1aedcd032743e1b72c1c388740a32ff772eaebe20889478bf",
+        "verdict": "ok"
+      }
+    ],
+    "consult_count": 1,
+    "hostile_validation_rationale": "Proof 023 records that consult pressure helped displace SSA with public CSI lineage.",
+    "metrics": {
+      "causal_credit": 0.45,
+      "direction_changes": 1,
+      "false_path_abandonment": 1,
+      "false_pivots": 0,
+      "lineage_completeness": 0.9,
+      "lineage_improvement": 0.25,
+      "net_value_score": 2.81,
+      "new_evidence_clusters": 1,
+      "new_valid_contradictions": 1,
+      "premature_convergence_avoidance": 1,
+      "redundant_consults": 0,
+      "unsupported_claim_reduction": 1,
+      "unsupported_claims": 0
+    },
+    "protocol": "Protocol C - Early Planning Consult",
+    "source_pack": "proofs/023-truth-reconstruction-challenge-002",
+    "task_type": "Software architecture reconstruction",
+    "trial_id": "software-C"
+  },
+  {
+    "consult_artifacts": [
+      {
+        "adapter_status": "pond_backed",
+        "classification": "BUDGET_LIMITED",
+        "contribution_grade": "bounded",
+        "request": "inside_voice_consults/software_d_01_request.json",
+        "request_hash": "a9bb9ed020e08f940352c9661a665d72ebf5b0c55a1aab303e42086b53f66e06",
+        "response": "inside_voice_consults/software_d_01_response.json",
+        "response_hash": "6efd5e17d329fe93afbb88136e89ffc53db38dbc4ea1bc207e85a6c4fb015472",
+        "verdict": "ok"
+      },
+      {
+        "adapter_status": "pond_backed",
+        "classification": "BUDGET_LIMITED",
+        "contribution_grade": "bounded",
+        "request": "inside_voice_consults/software_d_02_request.json",
+        "request_hash": "ab3e738506757ebd581a046a233339e3670659718cc877362e4996548ac3f010",
+        "response": "inside_voice_consults/software_d_02_response.json",
+        "response_hash": "9a5f332ccfa50e99ffbcc265761d29bc66885a9b3b01e7b70148a9451ada19c0",
+        "verdict": "ok"
+      }
+    ],
+    "consult_count": 2,
+    "hostile_validation_rationale": "Proof 023 direction_change_audit records two verified direction changes and public CSI evidence.",
+    "metrics": {
+      "causal_credit": 0.5,
+      "direction_changes": 2,
+      "false_path_abandonment": 1,
+      "false_pivots": 0,
+      "lineage_completeness": 0.95,
+      "lineage_improvement": 0.3,
+      "net_value_score": 3.65,
+      "new_evidence_clusters": 2,
+      "new_valid_contradictions": 1,
+      "premature_convergence_avoidance": 1,
+      "redundant_consults": 0.5,
+      "unsupported_claim_reduction": 1,
+      "unsupported_claims": 0
+    },
+    "protocol": "Protocol D - Periodic Pressure Consult",
+    "source_pack": "proofs/023-truth-reconstruction-challenge-002",
+    "task_type": "Software architecture reconstruction",
+    "trial_id": "software-D"
+  },
+  {
+    "consult_artifacts": [
+      {
+        "adapter_status": "pond_backed",
+        "classification": "BUDGET_LIMITED",
+        "contribution_grade": "bounded",
+        "request": "inside_voice_consults/software_e_01_request.json",
+        "request_hash": "eb284493edcec6bcb6a9f99c166c409436f0b2dacbbd3166dc857236db57427f",
+        "response": "inside_voice_consults/software_e_01_response.json",
+        "response_hash": "21ddb4cb28d54a00071730b38b975f09c482db7670c2217cccafdec705ff6335",
+        "verdict": "ok"
+      }
+    ],
+    "consult_count": 1,
+    "hostile_validation_rationale": "CSI/FlexVolume/stable API migration evidence verified the pivot.",
+    "metrics": {
+      "causal_credit": 0.5,
+      "direction_changes": 1,
+      "false_path_abandonment": 1,
+      "false_pivots": 0,
+      "lineage_completeness": 0.92,
+      "lineage_improvement": 0.27,
+      "net_value_score": 3.13,
+      "new_evidence_clusters": 1,
+      "new_valid_contradictions": 1,
+      "premature_convergence_avoidance": 1,
+      "redundant_consults": 0,
+      "unsupported_claim_reduction": 1,
+      "unsupported_claims": 0
+    },
+    "protocol": "Protocol E - Contradiction-First Consult",
+    "source_pack": "proofs/023-truth-reconstruction-challenge-002",
+    "task_type": "Software architecture reconstruction",
+    "trial_id": "software-E"
+  },
+  {
+    "consult_artifacts": [
+      {
+        "adapter_status": "pond_backed",
+        "classification": "BUDGET_LIMITED",
+        "contribution_grade": "bounded",
+        "request": "inside_voice_consults/software_f_01_request.json",
+        "request_hash": "903e5c3c0de11f9347b5237e5717caacf9074cb937d726ae3e1bb45cc663bd06",
+        "response": "inside_voice_consults/software_f_01_response.json",
+        "response_hash": "d61932089155b2663dbc7a91a218db9d9c70d7f7426a700955573793d430d1ae",
+        "verdict": "ok"
+      }
+    ],
+    "consult_count": 1,
+    "hostile_validation_rationale": "Proof 023's consult_004 CSI recovery has public-source verification and low redundancy.",
+    "metrics": {
+      "causal_credit": 0.55,
+      "direction_changes": 1,
+      "false_path_abandonment": 1,
+      "false_pivots": 0,
+      "lineage_completeness": 0.94,
+      "lineage_improvement": 0.29,
+      "net_value_score": 3.46,
+      "new_evidence_clusters": 1,
+      "new_valid_contradictions": 1,
+      "premature_convergence_avoidance": 1,
+      "redundant_consults": 0,
+      "unsupported_claim_reduction": 1,
+      "unsupported_claims": 0
+    },
+    "protocol": "Protocol F - Recovery Consult",
+    "source_pack": "proofs/023-truth-reconstruction-challenge-002",
+    "task_type": "Software architecture reconstruction",
+    "trial_id": "software-F"
+  },
+  {
+    "consult_artifacts": [],
+    "consult_count": 0,
+    "hostile_validation_rationale": "Hostile audits show the baseline already knew the alleged consult-only clusters.",
+    "metrics": {
+      "causal_credit": 0.0,
+      "direction_changes": 0,
+      "false_path_abandonment": 0,
+      "false_pivots": 0,
+      "lineage_completeness": 0.78,
+      "lineage_improvement": 0.0,
+      "net_value_score": 0.0,
+      "new_evidence_clusters": 0,
+      "new_valid_contradictions": 0,
+      "premature_convergence_avoidance": 0,
+      "redundant_consults": 0,
+      "unsupported_claim_reduction": 0,
+      "unsupported_claims": 1
+    },
+    "protocol": "Protocol A - No Consult Baseline",
+    "source_pack": "proofs/024-alzheimers-contradiction-atlas",
+    "task_type": "Scientific contradiction mapping",
+    "trial_id": "science-A"
+  },
+  {
+    "consult_artifacts": [
+      {
+        "adapter_status": "pond_backed",
+        "classification": "BUDGET_LIMITED",
+        "contribution_grade": "bounded",
+        "request": "inside_voice_consults/science_b_01_request.json",
+        "request_hash": "0be1db7ccf544a16e10c3aac462372955e599b48aa8391fc17d98b3f37021b35",
+        "response": "inside_voice_consults/science_b_01_response.json",
+        "response_hash": "4df3a88ae2d6430eafc137ec4806b6745dd412476feec1f7131d3b97fcfce240",
+        "verdict": "ok"
+      }
+    ],
+    "consult_count": 1,
+    "hostile_validation_rationale": "Hostile science audits reclassified several claimed contradictions as tensions or uncertainties.",
+    "metrics": {
+      "causal_credit": 0.4,
+      "direction_changes": 0,
+      "false_path_abandonment": 0,
+      "false_pivots": 0,
+      "lineage_completeness": 0.86,
+      "lineage_improvement": 0.08,
+      "net_value_score": 0.43,
+      "new_evidence_clusters": 0,
+      "new_valid_contradictions": 0,
+      "premature_convergence_avoidance": 0,
+      "redundant_consults": 0,
+      "unsupported_claim_reduction": 1,
+      "unsupported_claims": 0
+    },
+    "protocol": "Protocol B - Late Audit Consult",
+    "source_pack": "proofs/024-alzheimers-contradiction-atlas",
+    "task_type": "Scientific contradiction mapping",
+    "trial_id": "science-B"
+  },
+  {
+    "consult_artifacts": [
+      {
+        "adapter_status": "pond_backed",
+        "classification": "BUDGET_LIMITED",
+        "contribution_grade": "bounded",
+        "request": "inside_voice_consults/science_c_01_request.json",
+        "request_hash": "231e3f0a1787558be68801ac1a04b43382a657f4af198f7280a1bdd06081d4c6",
+        "response": "inside_voice_consults/science_c_01_response.json",
+        "response_hash": "c357fef37232f9b4696f856f2c5718fceb2cabcedeb8ef5d010d7ef40117f0c2",
+        "verdict": "ok"
+      }
+    ],
+    "consult_count": 1,
+    "hostile_validation_rationale": "Proof 024 consult causality audit found no Alzheimer-specific source IDs in the consult responses.",
+    "metrics": {
+      "causal_credit": 0.0,
+      "direction_changes": 0,
+      "false_path_abandonment": 0,
+      "false_pivots": 1,
+      "lineage_completeness": 0.78,
+      "lineage_improvement": 0.0,
+      "net_value_score": -3.0,
+      "new_evidence_clusters": 0,
+      "new_valid_contradictions": 0,
+      "premature_convergence_avoidance": 0,
+      "redundant_consults": 1,
+      "unsupported_claim_reduction": 0,
+      "unsupported_claims": 1
+    },
+    "protocol": "Protocol C - Early Planning Consult",
+    "source_pack": "proofs/024-alzheimers-contradiction-atlas",
+    "task_type": "Scientific contradiction mapping",
+    "trial_id": "science-C"
+  },
+  {
+    "consult_artifacts": [
+      {
+        "adapter_status": "pond_backed",
+        "classification": "BUDGET_LIMITED",
+        "contribution_grade": "bounded",
+        "request": "inside_voice_consults/science_d_01_request.json",
+        "request_hash": "7c0ac1d33830bf0ae938f6edd9a2c0fe6f31d35c411eba60feeabf96f0c335f4",
+        "response": "inside_voice_consults/science_d_01_response.json",
+        "response_hash": "0db533e8c3a9b20386dd6d1956862d7d49b1d6d0f44ab544e9678dcbfaad58e9",
+        "verdict": "ok"
+      },
+      {
+        "adapter_status": "pond_backed",
+        "classification": "BUDGET_LIMITED",
+        "contribution_grade": "bounded",
+        "request": "inside_voice_consults/science_d_02_request.json",
+        "request_hash": "cb4eadcdde6bb665e6ae518abfed4a2d8287a0b5752424f1edc5deca5d316c7a",
+        "response": "inside_voice_consults/science_d_02_response.json",
+        "response_hash": "dcc21280d2a1a30f714ab55f5e1e51300b2f2fb7049c9c869b14d83c737b3cba",
+        "verdict": "ok"
+      }
+    ],
+    "consult_count": 2,
+    "hostile_validation_rationale": "Proof 024 hostile verdict invalidated the claimed consult-only recoveries.",
+    "metrics": {
+      "causal_credit": 0.0,
+      "direction_changes": 0,
+      "false_path_abandonment": 0,
+      "false_pivots": 1,
+      "lineage_completeness": 0.75,
+      "lineage_improvement": 0.0,
+      "net_value_score": -4.0,
+      "new_evidence_clusters": 0,
+      "new_valid_contradictions": 0,
+      "premature_convergence_avoidance": 0,
+      "redundant_consults": 2,
+      "unsupported_claim_reduction": 0,
+      "unsupported_claims": 1
+    },
+    "protocol": "Protocol D - Periodic Pressure Consult",
+    "source_pack": "proofs/024-alzheimers-contradiction-atlas",
+    "task_type": "Scientific contradiction mapping",
+    "trial_id": "science-D"
+  },
+  {
+    "consult_artifacts": [
+      {
+        "adapter_status": "pond_backed",
+        "classification": "BUDGET_LIMITED",
+        "contribution_grade": "bounded",
+        "request": "inside_voice_consults/science_e_01_request.json",
+        "request_hash": "54927107c540cf60c81ede3a1f5dcb1d3ebeb3ca7562eb6c1fc79dad42294c18",
+        "response": "inside_voice_consults/science_e_01_response.json",
+        "response_hash": "63850b154467a4e2507fc3d9058b0fb5d5968c0739b1991ea52a8d62e5c7238a",
+        "verdict": "ok"
+      }
+    ],
+    "consult_count": 1,
+    "hostile_validation_rationale": "It reduced unsupported contradiction labels without treating the pond as biomedical authority.",
+    "metrics": {
+      "causal_credit": 0.35,
+      "direction_changes": 0,
+      "false_path_abandonment": 0,
+      "false_pivots": 0,
+      "lineage_completeness": 0.84,
+      "lineage_improvement": 0.06,
+      "net_value_score": 0.72,
+      "new_evidence_clusters": 0,
+      "new_valid_contradictions": 0,
+      "premature_convergence_avoidance": 1,
+      "redundant_consults": 0,
+      "unsupported_claim_reduction": 1,
+      "unsupported_claims": 0
+    },
+    "protocol": "Protocol E - Contradiction-First Consult",
+    "source_pack": "proofs/024-alzheimers-contradiction-atlas",
+    "task_type": "Scientific contradiction mapping",
+    "trial_id": "science-E"
+  },
+  {
+    "consult_artifacts": [
+      {
+        "adapter_status": "pond_backed",
+        "classification": "BUDGET_LIMITED",
+        "contribution_grade": "bounded",
+        "request": "inside_voice_consults/science_f_01_request.json",
+        "request_hash": "bcc60b42d7ce6f1b8a519f7408bd648484b82b6551423928dc3a246c5e5bde58",
+        "response": "inside_voice_consults/science_f_01_response.json",
+        "response_hash": "b3428a9b37bafda7fd5b7f9ad6a201c24bdf63e3200dd14281795d28b3f3f458",
+        "verdict": "ok"
+      }
+    ],
+    "consult_count": 1,
+    "hostile_validation_rationale": "Proof 024 counterfactual recovery audit found zero consult-required contradictions.",
+    "metrics": {
+      "causal_credit": 0.0,
+      "direction_changes": 0,
+      "false_path_abandonment": 0,
+      "false_pivots": 0,
+      "lineage_completeness": 0.8,
+      "lineage_improvement": 0.02,
+      "net_value_score": -2.0,
+      "new_evidence_clusters": 0,
+      "new_valid_contradictions": 0,
+      "premature_convergence_avoidance": 0,
+      "redundant_consults": 1,
+      "unsupported_claim_reduction": 0,
+      "unsupported_claims": 1
+    },
+    "protocol": "Protocol F - Recovery Consult",
+    "source_pack": "proofs/024-alzheimers-contradiction-atlas",
+    "task_type": "Scientific contradiction mapping",
+    "trial_id": "science-F"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-05-29T18:23:22Z",
+  "is_isolated": true,
+  "mechanisms": [
+    "FLOW",
+    "SUPPORTED_ROTATION",
+    "LOAD_TRANSFER",
+    "FEEDBACK",
+    "THRESHOLD",
+    "ACCUMULATION",
+    "DIFFUSION",
+    "OSCILLATION",
+    "BUFFERING",
+    "RESOURCE_DEPLETION",
+    "AMPLIFICATION",
+    "COMPENSATION"
+  ],
+  "notes": "Activation consults were freshly run for Proof 041 composite cases; no new mechanisms were added.",
+  "pond_state_id": "proof-041-emergent-pathway-formation-pond",
+  "prior_contents": [
+    "Proof 037 group B seasoning, reused without adding mechanisms"
+  ],
+  "source": "copied from Proof 040 ranking-independence pond state"
+}

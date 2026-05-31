@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-05-29T16:55:18Z",
+  "is_isolated": true,
+  "mechanisms": [
+    "ACCUMULATION",
+    "AMPLIFICATION",
+    "BUFFERING",
+    "COMPENSATION",
+    "DIFFUSION",
+    "FEEDBACK",
+    "FLOW",
+    "LOAD_TRANSFER",
+    "OSCILLATION",
+    "RESOURCE_DEPLETION",
+    "SUPPORTED_ROTATION",
+    "THRESHOLD"
+  ],
+  "notes": "Activation cases are copied unchanged from Proof 037 recombination cases.",
+  "pond_state_id": "proof-038-activation-field-isolated-pond",
+  "prior_contents": [],
+  "seasoning_examples": 288,
+  "source": "fresh local pond state seeded from Proof 037 group B curriculum"
+}

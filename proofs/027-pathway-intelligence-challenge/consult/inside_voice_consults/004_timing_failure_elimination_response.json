@@ -1,0 +1,243 @@
+{
+  "adapter_status": "pond_backed",
+  "bounded_synthesis": "",
+  "budget_policy": {
+    "allow_context_dump": false,
+    "dedupe_near_duplicate_lineages": true,
+    "force_compression_above_threshold": true,
+    "hard_candidate_compression_threshold": 32,
+    "max_item_tokens": 180,
+    "max_response_token_estimate": 2500,
+    "max_selected_items": 24,
+    "max_selected_lineages": 8,
+    "soft_candidate_warning_threshold": 24
+  },
+  "budget_warnings": [
+    "SOFT_CANDIDATE_WARNING_THRESHOLD_EXCEEDED",
+    "HARD_CANDIDATE_COMPRESSION_THRESHOLD_REACHED",
+    "COMPRESSION_APPLIED",
+    "BUDGET_BOUNDARY_TRIGGERED",
+    "NEAR_DUPLICATE_LINEAGES_DEDUPED",
+    "BUDGET_EXCLUSIONS_APPLIED",
+    "OUTPUT_COMPACTION_REDUCED_CONTEXT_DETAIL"
+  ],
+  "candidate_item_count": 40,
+  "claim_boundary_audit": [
+    {
+      "boundary_risk": "low",
+      "id": "audit.public_private_boundary",
+      "status": "pass"
+    }
+  ],
+  "classification": "BUDGET_LIMITED",
+  "compression_applied": true,
+  "confidence": "medium",
+  "contribution_grade": "bounded",
+  "contribution_grade_details": {
+    "contribution_grade": "bounded",
+    "grade_reasons": [
+      "refs_motifs_tensions_and_pressure_present"
+    ],
+    "minimum_gate_passed": true
+  },
+  "excluded_context_summary": {
+    "budget_boundary_triggered": true,
+    "excluded_count": 32,
+    "excluded_lineage_ids": [
+      "pressure:92605474c9a9fc18",
+      "pressure:44eeb320a80c1c5f",
+      "pressure:3c9aec52d74bf738",
+      "pressure:7ba41d8ba5ef3698",
+      "pressure:cf4e82e380cf1a94",
+      "authority:632e86fc77ae",
+      "contradiction:c3328bb2ea1b",
+      "pressure:3a15117f05967c61",
+      "pressure:fbcd6fa309a72bb6",
+      "contradiction:0b8ea451d69f",
+      "contradiction:a75c10c1d888",
+      "inside_voice_runtime:5a24027a6bc08931af27",
+      "inside_voice_runtime:7c7a41620fef0dede85d",
+      "authority:7e4919d7f9e0",
+      "authority:9d85edad8192",
+      "authority:a75c10c1d888",
+      "inside_voice_runtime:090c5db589c51515dfae",
+      "lineage_ref:f7bc5dc9c820c97a",
+      "lineage_ref:650f53377889e50c",
+      "lineage_ref:f89e7bbab0ee37cd",
+      "lineage_ref:3260dae83f850b6a",
+      "lineage_ref:3b7cfb8546d1a0c9",
+      "lineage_ref:a1d0ef31101ea929",
+      "lineage_ref:21fb51eaca0273c5",
+      "lineage_ref:054feef8af130e5c",
+      "lineage_ref:698226f4f33fbf7e",
+      "inside_voice_runtime:b7c9676a8513af254ede",
+      "authority:c3328bb2ea1b",
+      "authority:4161d447bc9a",
+      "contradiction:400f6de8bc04",
+      "lineage_ref:c9f3144a00b2210b",
+      "inside_voice_runtime:9c71876fe915eb3ac236"
+    ],
+    "highest_excluded_score": 0.88,
+    "top_excluded_reasons": [
+      {
+        "count": 21,
+        "reason": "NEAR_DUPLICATE_LINEAGE_FAMILY"
+      },
+      {
+        "count": 6,
+        "reason": "DUPLICATE_SOURCE_TRACE_TOPIC"
+      },
+      {
+        "count": 5,
+        "reason": "BUDGET_MAX_SELECTED_LINEAGES"
+      }
+    ]
+  },
+  "excluded_item_count": 32,
+  "findings": [],
+  "gate_failures": [],
+  "limitations": [
+    "Recall is bounded to indexed local pond/proof artifacts and may miss evidence outside the declared corpus.",
+    "Recalled reports remain evidence, not implementation capability.",
+    "Direct source inspection is still required before using any claim operationally.",
+    "Unresolved tensions remain open and block claim escalation."
+  ],
+  "lineage": {
+    "request_hash": "44db84672a31296ce0d8478b28da96d86874782e39432466d6f65cfa134e8183",
+    "response_hash": "846ff85d1a7d10a7043df5703bf2ff8e8ce10607e23f9fef6195093267273f70",
+    "runtime": {
+      "corpus_hash": "9dc990b92a07a9c77beafae5036894225983ce47f5fd2c6650266d29afc81b15",
+      "runtime_request_hash": "44db84672a31296ce0d8478b28da96d86874782e39432466d6f65cfa134e8183",
+      "runtime_response_hash": "e72b69ddfdad43553f01546e19c2314a9e94018fcfc185c35dcbbe8b92592f30"
+    },
+    "source_refs": [
+      "request_id:sha256:0f9656b345a6e328"
+    ]
+  },
+  "mode": "audit",
+  "operational_boundaries": [],
+  "pressure_rankings": [
+    {
+      "boundary_risk": "medium",
+      "id": "pressure:92605474c9a9fc18",
+      "pressure_score": 0.88,
+      "source_ref": "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0"
+    },
+    {
+      "boundary_risk": "medium",
+      "id": "pressure:44eeb320a80c1c5f",
+      "pressure_score": 0.878,
+      "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+    },
+    {
+      "boundary_risk": "medium",
+      "id": "pressure:3c9aec52d74bf738",
+      "pressure_score": 0.876,
+      "source_ref": "artifacts/proof/recursive_stability_proof_rollup/recursive_stability_claim_boundary.json"
+    }
+  ],
+  "ranked_context_items": [
+    {
+      "lineage_id": "inside_voice_runtime:d43e2e09c028b98314e8",
+      "rank": 1,
+      "relevance_score": 0.88,
+      "selected_path_id": "inside_voice_runtime:d43e2e09c028b98314e8",
+      "source_trace_refs": [
+        "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0"
+      ]
+    },
+    {
+      "lineage_id": "inside_voice_runtime:af06912b7bc49de2b350",
+      "rank": 2,
+      "relevance_score": 0.788,
+      "selected_path_id": "inside_voice_runtime:af06912b7bc49de2b350",
+      "source_trace_refs": [
+        "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json"
+      ]
+    },
+    {
+      "lineage_id": "inside_voice_runtime:8c7a0ef664098db91e88",
+      "rank": 3,
+      "relevance_score": 0.738,
+      "selected_path_id": "inside_voice_runtime:8c7a0ef664098db91e88",
+      "source_trace_refs": [
+        "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+      ]
+    },
+    {
+      "lineage_id": "pressure:9fe83d2a134324e5",
+      "rank": 4,
+      "relevance_score": 0.7,
+      "selected_path_id": "pressure:9fe83d2a134324e5",
+      "source_trace_refs": [
+        "docs/integrations/COGNITION.md"
+      ]
+    },
+    {
+      "lineage_id": "inside_voice_runtime:3c5d87a45c4a501549a6",
+      "rank": 5,
+      "relevance_score": 0.66,
+      "selected_path_id": "inside_voice_runtime:3c5d87a45c4a501549a6",
+      "source_trace_refs": [
+        "artifacts/proof/recursive_stability_proof_rollup/recursive_stability_claim_boundary.json"
+      ]
+    },
+    {
+      "lineage_id": "contradiction:9d85edad8192",
+      "rank": 6,
+      "relevance_score": 0.657,
+      "selected_path_id": "contradiction:9d85edad8192",
+      "source_trace_refs": [
+        "artifacts/pond/high_grade_seasoning_corpus.jsonl#76"
+      ]
+    },
+    {
+      "lineage_id": "contradiction:8da54cd1fc82",
+      "rank": 7,
+      "relevance_score": 0.646,
+      "selected_path_id": "contradiction:8da54cd1fc82",
+      "source_trace_refs": [
+        "artifacts/pond/high_grade_seasoning_corpus.jsonl#0"
+      ]
+    },
+    {
+      "lineage_id": "inside_voice_runtime:3da05202c187b36f8e8c",
+      "rank": 8,
+      "relevance_score": 0.628,
+      "selected_path_id": "inside_voice_runtime:3da05202c187b36f8e8c",
+      "source_trace_refs": [
+        "artifacts/pond/mcp_seasoned_reusable_lineage_candidates.jsonl#45"
+      ]
+    }
+  ],
+  "recommendations": [],
+  "request_id": "027-pathway-intelligence-challenge-004_timing_failure_elimination",
+  "response_hash": "846ff85d1a7d10a7043df5703bf2ff8e8ce10607e23f9fef6195093267273f70",
+  "runtime_stage_report_ref": "artifacts/integrations/inside_voice_runtime/runtime_stage_report.json",
+  "selected_item_count": 8,
+  "selected_path_ids": [
+    "inside_voice_runtime:d43e2e09c028b98314e8",
+    "inside_voice_runtime:af06912b7bc49de2b350",
+    "inside_voice_runtime:8c7a0ef664098db91e88",
+    "pressure:9fe83d2a134324e5",
+    "inside_voice_runtime:3c5d87a45c4a501549a6",
+    "contradiction:9d85edad8192",
+    "contradiction:8da54cd1fc82",
+    "inside_voice_runtime:3da05202c187b36f8e8c"
+  ],
+  "source_trace_refs": [
+    "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0",
+    "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+    "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57",
+    "memory:inside_voice:98f0d63ed2873cc3492c",
+    "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+    "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+    "docs/integrations/COGNITION.md",
+    "artifacts/proof/recursive_stability_proof_rollup/recursive_stability_claim_boundary.json"
+  ],
+  "summary": "Consultation output was compacted to honor max_output_chars.",
+  "uncertainty": [
+    "OUTPUT_COMPACTED_TO_MAX_OUTPUT_CHARS"
+  ],
+  "verdict": "ok"
+}

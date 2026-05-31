@@ -1,0 +1,26 @@
+{
+  "context": {
+    "constraints": [
+      "Fail closed if this response is not backed by real pond recall.",
+      "Return lineage hashes, returned lineages, and returned motifs when recall exists.",
+      "Do not substitute generic consult text for pond-backed recall.",
+      "Use only isolated proof namespace proof-035-isolated-pond; report if isolation is unavailable.",
+      "Preserve any existing FLOW recall.",
+      "Add only SUPPORTED_ROTATION.",
+      "Do not add LOAD_TRANSFER.",
+      "Report fail-closed if actual seasoning is unavailable."
+    ],
+    "desired_artifacts": [
+      "seasoning acceptance",
+      "lineage hashes",
+      "returned motifs"
+    ],
+    "files": [],
+    "summary": "Incremental seasoning lesson ROT-001 for SUPPORTED_ROTATION. Requested isolated pond namespace: proof-035-isolated-pond. Proof phase: phase_6_incremental_seasoning."
+  },
+  "max_output_chars": 4000,
+  "mode": "audit",
+  "request_id": "proof-035-season-rotation-001-scanner-carousel",
+  "require_lineage": true,
+  "task": "ACTION: SEASON an additional mechanism into the same isolated proof pond. Mechanism label: SUPPORTED_ROTATION. Lesson ROT-001: A disk turns around a center socket; rising friction at the socket makes the turn rough and eventually stuck."
+}

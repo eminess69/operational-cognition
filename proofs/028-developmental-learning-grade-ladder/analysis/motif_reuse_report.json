@@ -1,0 +1,91 @@
+{
+  "claim_boundary": "Motif reuse is deterministic lineage reuse through the CLI state, not an unobserved neural or hidden chain-of-thought claim.",
+  "foundation_transfer_reused_both_grades": true,
+  "grade_1_motifs_reused": [
+    "g1_count_forward_addition",
+    "g1_counting_sequence",
+    "g1_number_order_comparison",
+    "g1_take_away_subtraction",
+    "g1_word_problem_operation_mapping"
+  ],
+  "grade_2_motifs_used": [
+    "g2_equal_grouping_division",
+    "g2_equal_groups_repeated_addition",
+    "g2_fixed_step_skip_counting",
+    "g2_no_borrow_column_subtraction",
+    "g2_no_carry_column_addition",
+    "g2_tens_ones_place_value"
+  ],
+  "grade_2_results_reused_grade_1_motifs": true,
+  "proof_id": "028-developmental-learning-grade-ladder",
+  "reuse_examples": [
+    {
+      "concept_pathway": [
+        "counting",
+        "one_digit_addition",
+        "simple_word_problems",
+        "multiplication_as_repeated_addition"
+      ],
+      "question_id": "FT-T001",
+      "used_grade_1_motifs": [
+        "g1_count_forward_addition",
+        "g1_counting_sequence",
+        "g1_word_problem_operation_mapping"
+      ],
+      "used_grade_2_motifs": [
+        "g2_equal_groups_repeated_addition"
+      ]
+    },
+    {
+      "concept_pathway": [
+        "counting",
+        "one_digit_addition",
+        "place_value",
+        "two_digit_addition_without_carrying"
+      ],
+      "question_id": "FT-T002",
+      "used_grade_1_motifs": [
+        "g1_count_forward_addition",
+        "g1_counting_sequence"
+      ],
+      "used_grade_2_motifs": [
+        "g2_no_carry_column_addition",
+        "g2_tens_ones_place_value"
+      ]
+    },
+    {
+      "concept_pathway": [
+        "counting",
+        "one_digit_subtraction",
+        "place_value",
+        "two_digit_subtraction_without_borrowing",
+        "simple_word_problems"
+      ],
+      "question_id": "FT-T003",
+      "used_grade_1_motifs": [
+        "g1_counting_sequence",
+        "g1_take_away_subtraction",
+        "g1_word_problem_operation_mapping"
+      ],
+      "used_grade_2_motifs": [
+        "g2_no_borrow_column_subtraction",
+        "g2_tens_ones_place_value"
+      ]
+    },
+    {
+      "concept_pathway": [
+        "counting",
+        "number_comparison",
+        "place_value"
+      ],
+      "question_id": "FT-T004",
+      "used_grade_1_motifs": [
+        "g1_counting_sequence",
+        "g1_number_order_comparison"
+      ],
+      "used_grade_2_motifs": [
+        "g2_tens_ones_place_value"
+      ]
+    }
+  ]
+}

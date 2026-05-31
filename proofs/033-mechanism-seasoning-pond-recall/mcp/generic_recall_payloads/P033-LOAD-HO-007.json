@@ -1,0 +1,45 @@
+{
+  "adapter_status": "pond_backed",
+  "belief_state_before": "generic_consult_no_targeted_mechanism_recall",
+  "case_id": "P033-LOAD-HO-007",
+  "consult_question": "Generic proof audit consult. Provide general boundary, traceability, and fail-closed cautions. Do not classify the mechanism and do not return FLOW, SUPPORTED_ROTATION, or LOAD_TRANSFER as candidates. Case text for context only: Observed system: A rack panel bears a new burden across two side rails; the rear lug receives most demand and the panel face cants. Question: Which learned mechanism structure should be applied?",
+  "lineage_hashes": [
+    "60a657ad688017f4b1ff2ebf9798dfb6360349a905da165ee5cab3f30882fa0d",
+    "c36a2ce10a19b04218e1b728877ffeb949985b3dbe4761cf64bd390f7b3c1e1e",
+    "a616bdf5415aebb73a1bf63532a9f970d585262b531839a25f0331e65de1ddfa",
+    "9dc990b92a07a9c77beafae5036894225983ce47f5fd2c6650266d29afc81b15",
+    "19970b72023d5042fd5dabca376098a5062be2fac9065c0ade0aaa4fa534b0f4",
+    "ab06383b28dc917b5c7b719a515d0d5fa85a1928e22bfb0b14dc91055a755051",
+    "97a00a6907f50204917a90175751a3a89c52cf4bbd772253b62841591a85bf7f",
+    "8d5db0b8dd07b21694c5801ab87b7b714391c490c8dbdcb69cb0ec68c4a02efa"
+  ],
+  "mcp_status": "pond_backed",
+  "pond_state_path": "/Users/mattdewing/Desktop/Operational Cognition/proofs/033-mechanism-seasoning-pond-recall/pond_states/mechanism_recall",
+  "reason": "Generic consult intentionally did not return mechanism candidates.",
+  "recall_used_by_cli": true,
+  "returned_lineages": [
+    "pressure:44eeb320a80c1c5f",
+    "pressure:62a978e2d84c9f5a",
+    "pressure:92605474c9a9fc18",
+    "inside_voice_runtime:8c7a0ef664098db91e88",
+    "authority:63405000ebba",
+    "contradiction:9d85edad8192",
+    "inside_voice_runtime:6618eceaa43863e083b2",
+    "authority:7e4919d7f9e0",
+    "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+    "artifacts/proof/recursive_intelligence_failure_gauntlet/recursive_intelligence_gauntlet_results.json",
+    "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0",
+    "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+    "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57",
+    "memory:inside_voice:98f0d63ed2873cc3492c",
+    "artifacts/proof/frontier_evidence_rollup/frontier_claim_boundary.json",
+    "artifacts/pond/high_grade_seasoning_corpus.jsonl#76"
+  ],
+  "returned_mechanism_candidates": [],
+  "returned_motifs": [
+    "pond_ranked_context:pressure:44eeb320a80c1c5f",
+    "pond_ranked_context:pressure:62a978e2d84c9f5a",
+    "pond_ranked_context:pressure:92605474c9a9fc18",
+    "pond_ranked_context:inside_voice_runtime:8c7a0ef664098db91e88"
+  ]
+}

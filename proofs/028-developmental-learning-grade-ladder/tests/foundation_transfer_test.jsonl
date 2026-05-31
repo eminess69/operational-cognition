@@ -1,0 +1,4 @@
+{"concept": "multiplication_as_repeated_addition", "expected_answer": "12", "question": "If there are 3 bags with 4 apples each, how many apples?", "question_id": "FT-T001", "requires_transfer": true}
+{"concept": "two_digit_addition_without_carrying", "expected_answer": "33", "question": "What number is 10 more than 23?", "question_id": "FT-T002", "requires_transfer": true}
+{"concept": "two_digit_subtraction_without_borrowing", "expected_answer": "20", "question": "If 25 birds are on a tree and 5 fly away, how many remain?", "question_id": "FT-T003", "requires_transfer": true}
+{"concept": "number_comparison", "expected_answer": "37", "question": "Which is larger: 37 or 29?", "question_id": "FT-T004", "requires_transfer": true}

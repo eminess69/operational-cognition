@@ -1,0 +1,115 @@
+{
+  "ledger_state_id": "proof045-deterministic-ledger-state",
+  "traces": [
+    {
+      "content": "The operating boundary stays quiet until accumulated pressure crosses a threshold and triggers a state switch.",
+      "domain": "operational_systems",
+      "motif": "operational_collapse",
+      "pathway": "THRESHOLD_GATE",
+      "provenance": {
+        "authoritative": true,
+        "origin": "deterministic_fixture"
+      },
+      "source_lineage": [
+        "lineage:proof045:shared_operational_case",
+        "lineage:proof045:threshold"
+      ],
+      "source_ref": "proof045:threshold_case",
+      "structure": [
+        "threshold",
+        "pressure",
+        "trigger",
+        "state_switch"
+      ],
+      "trace_id": "trace-proof045-threshold"
+    },
+    {
+      "content": "A feedback loop returns the system response into the next input and reinforces the overload cycle.",
+      "domain": "operational_systems",
+      "motif": "operational_collapse",
+      "pathway": "FEEDBACK_AMPLIFICATION",
+      "provenance": {
+        "authoritative": true,
+        "origin": "deterministic_fixture"
+      },
+      "source_lineage": [
+        "lineage:proof045:shared_operational_case",
+        "lineage:proof045:feedback"
+      ],
+      "source_ref": "proof045:feedback_case",
+      "structure": [
+        "feedback",
+        "loop",
+        "reinforcement",
+        "overload"
+      ],
+      "trace_id": "trace-proof045-feedback"
+    },
+    {
+      "content": "Reserve capacity drains under repeated demand until resource depletion removes the remaining operating margin.",
+      "domain": "operational_systems",
+      "motif": "operational_collapse",
+      "pathway": "RESOURCE_DEPLETION",
+      "provenance": {
+        "authoritative": true,
+        "origin": "deterministic_fixture"
+      },
+      "source_lineage": [
+        "lineage:proof045:shared_operational_case",
+        "lineage:proof045:resource"
+      ],
+      "source_ref": "proof045:resource_case",
+      "structure": [
+        "resource_depletion",
+        "reserve",
+        "demand",
+        "operating_margin"
+      ],
+      "trace_id": "trace-proof045-resource"
+    },
+    {
+      "content": "A buffer absorbs demand spikes and delays visible failure until hidden pressure escapes the buffer.",
+      "domain": "operational_systems",
+      "motif": "operational_collapse",
+      "pathway": "BUFFERING_DELAY",
+      "provenance": {
+        "authoritative": true,
+        "origin": "deterministic_fixture"
+      },
+      "source_lineage": [
+        "lineage:proof045:shared_operational_case",
+        "lineage:proof045:buffer"
+      ],
+      "source_ref": "proof045:buffer_case",
+      "structure": [
+        "buffer",
+        "absorption",
+        "delay",
+        "hidden_pressure"
+      ],
+      "trace_id": "trace-proof045-buffer"
+    },
+    {
+      "content": "After the local pathway saturates, failure pressure spreads across adjacent channels and dilutes local control.",
+      "domain": "operational_systems",
+      "motif": "operational_collapse",
+      "pathway": "DIFFUSION_SPREAD",
+      "provenance": {
+        "authoritative": true,
+        "origin": "deterministic_fixture"
+      },
+      "source_lineage": [
+        "lineage:proof045:shared_operational_case",
+        "lineage:proof045:diffusion"
+      ],
+      "source_ref": "proof045:diffusion_case",
+      "structure": [
+        "spread",
+        "adjacent_channels",
+        "diffusion",
+        "control_loss"
+      ],
+      "trace_id": "trace-proof045-diffusion"
+    }
+  ]
+}

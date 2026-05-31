@@ -1,0 +1,65 @@
+{
+  "events": [
+    {
+      "active_hypotheses": [
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5",
+        "H6"
+      ],
+      "leading_hypothesis": "H1",
+      "note": "All six explanations are initially plausible.",
+      "state": "source_corpus_reviewed",
+      "step": 1
+    },
+    {
+      "abandoned_or_demoted": [
+        "H3",
+        "H6"
+      ],
+      "active_hypotheses": [
+        "H1",
+        "H2",
+        "H4",
+        "H5"
+      ],
+      "leading_hypothesis": "H1",
+      "note": "The cross-accident commonality of erroneous AOA triggering MCAS pulls attention toward a control-law explanation.",
+      "state": "common_mechanism_identified",
+      "step": 2
+    },
+    {
+      "abandoned_or_demoted": [
+        "H3",
+        "H5",
+        "H6"
+      ],
+      "active_hypotheses": [
+        "H1",
+        "H2",
+        "H4"
+      ],
+      "leading_hypothesis": "H1",
+      "note": "Certification and human factors remain active, but production pressure, accident-specific triggers, and derivative architecture are underweighted.",
+      "state": "pre_final_convergence",
+      "step": 3
+    },
+    {
+      "active_hypotheses": [
+        "H1"
+      ],
+      "leading_hypothesis": "H1",
+      "note": "Baseline converges on MCAS implementation as primary mechanism.",
+      "state": "final",
+      "step": 4
+    }
+  ],
+  "premature_convergence_markers": [
+    "Common proximate mechanism treated as primary mechanism.",
+    "Latent organizational and certification evidence moved into background context.",
+    "Accident-specific sensor/maintenance evidence excluded too early from causal completeness."
+  ],
+  "run": "baseline_no_consult"
+}

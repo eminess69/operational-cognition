@@ -1,0 +1,61 @@
+{
+  "claim_level": "evidence_backed",
+  "disallowed_claims": [
+    "medical_advice",
+    "diagnosis",
+    "treatment_recommendation",
+    "cure_claim",
+    "alzheimers_solved",
+    "inside_voice_as_biomedical_authority",
+    "unsupported_scientific_claims",
+    "hidden_chain_of_thought"
+  ],
+  "inside_voice_adapter_status": "pond_backed_consult_used",
+  "lineage": {
+    "contract_version": "inside_voice.mcp.consultation.v1",
+    "derived_from": "consult/inside_voice_consults",
+    "mcp_endpoint": "http://127.0.0.1:8767/consult",
+    "request_hash": "52f2effe8743835503d32c81a4995618418d21bc37c8d54c592692cd8da51c63",
+    "response_hash": "76bd9708a415c5f4e729d6449cd517f994dd9aebe34aac82ec138c80e58b53cd",
+    "validates": "consult_vs_baseline_contradiction_recovery"
+  },
+  "proof_id": "024-alzheimers-contradiction-atlas",
+  "public_private_boundary": "public source IDs, bounded consult response fields, hashes, and uncertainty mapping only; no hidden reasoning or private substrate details",
+  "required_artifacts": [
+    "README.md",
+    "proof_manifest.json",
+    "source_corpus.json",
+    "baseline/hypothesis_map.json",
+    "baseline/contradiction_graph.json",
+    "baseline/evidence_clusters.json",
+    "baseline/top_10_bottlenecks.md",
+    "baseline/convergence_report.json",
+    "consult/consultation_log.jsonl",
+    "consult/contradiction_atlas.json",
+    "consult/premature_convergence_report.json",
+    "consult/contradiction_recovery_report.json",
+    "consult/evidence_lineage_graph.json",
+    "consult/final_atlas.md",
+    "delta/consult_vs_baseline_report.json",
+    "public_lineage_summary.md",
+    "consult/inside_voice_consults/001-consult_001_underweighted_contradiction_request.json",
+    "consult/inside_voice_consults/001-consult_001_underweighted_contradiction_response.json",
+    "consult/inside_voice_consults/002-consult_002_disconnected_cluster_request.json",
+    "consult/inside_voice_consults/002-consult_002_disconnected_cluster_response.json",
+    "consult/inside_voice_consults/003-consult_003_alternative_lineage_request.json",
+    "consult/inside_voice_consults/003-consult_003_alternative_lineage_response.json",
+    "consult/inside_voice_consults/004-consult_004_low_attention_hypothesis_request.json",
+    "consult/inside_voice_consults/004-consult_004_low_attention_hypothesis_response.json",
+    "consult/inside_voice_consults/005-consult_005_premature_assumption_request.json",
+    "consult/inside_voice_consults/005-consult_005_premature_assumption_response.json",
+    "consult/inside_voice_consults/006-consult_006_weakening_finding_request.json",
+    "consult/inside_voice_consults/006-consult_006_weakening_finding_response.json"
+  ],
+  "status": "complete",
+  "targets": [
+    "AlzheimerDiseaseContradictionMapping",
+    "InsideVoiceConsultationAdvantage",
+    "EvidenceLineagePreservingUncertainty"
+  ],
+  "title": "Truth Reconstruction Challenge 003 - Alzheimer's Contradiction Atlas"
+}

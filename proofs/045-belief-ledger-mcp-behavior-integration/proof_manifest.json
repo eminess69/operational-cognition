@@ -1,0 +1,45 @@
+{
+  "claim_level": "validated",
+  "disallowed_claims": [
+    "Proof 045 proves cognition.",
+    "Proof 045 proves AGI, consciousness, or independent understanding.",
+    "Belief Ledger behavior protocol output may be accepted without motif and lineage validation.",
+    "Operational Cognition mutated Belief Ledger core state."
+  ],
+  "inside_voice_adapter_status": "belief_ledger_external_instrument_pond_backed",
+  "lineage": {
+    "candidate_status": "eligible",
+    "contract_version": "inside_voice.behavior_protocol.v1",
+    "derived_from": "Belief Ledger external Inside Voice behavior protocol endpoint and deterministic Proof 045 ledger-state fixture.",
+    "mcp_endpoint": "http://127.0.0.1:8765/protocol/behavior",
+    "request_hash": "98a75d2d89e7bf483a63353cbf48fd379fcc81685a6d1028b2b3c3640d60b0da",
+    "response_hash": "6dd190cbdf292cd4014360262b08ae89e8110048a8cdb2efefd905b25537f59d",
+    "validates": "VERY_STRONG_SIGNAL"
+  },
+  "proof_id": "045-belief-ledger-mcp-behavior-integration",
+  "public_private_boundary": "Operational Cognition stores public-safe request/response hashes, motifs, lineages, lineage hashes, behavior artifacts, validator results, and no Belief Ledger private implementation internals.",
+  "required_artifacts": [
+    "README.md",
+    "proof_manifest.json",
+    "mcp/raw_requests.jsonl",
+    "mcp/raw_responses.jsonl",
+    "mcp/behavior_protocol_calls.jsonl",
+    "results/activation_only_result.json",
+    "results/field_interaction_result.json",
+    "results/delayed_ranking_result.json",
+    "results/collapse_trace_result.json",
+    "results/perturbation_result.json",
+    "analysis/integration_metrics.json",
+    "analysis/hostile_integration_audit.json",
+    "analysis/validator_results.json"
+  ],
+  "status": "complete",
+  "targets": [
+    "BeliefLedgerExternalInstrumentBoundary",
+    "InsideVoiceBehaviorProtocolMCP",
+    "PondBackedBehaviorCalls",
+    "ActivationInteractionCollapsePerturbationArtifacts",
+    "HostileIntegrationAudit"
+  ],
+  "title": "Proof 045 - Belief Ledger MCP Behavior Protocol Integration"
+}

@@ -1,0 +1,1023 @@
+[
+  {
+    "activated_before_collapse": [
+      "RESOURCE_DEPLETION",
+      "THRESHOLD",
+      "AMPLIFICATION",
+      "LOAD_TRANSFER",
+      "FEEDBACK",
+      "FLOW"
+    ],
+    "case_id": "collapse-001",
+    "collapse_reason": "Delayed-ranking collapse selected the highest supported interaction pathway.",
+    "eliminated_pathways": [
+      {
+        "elimination_reason": "Lower delayed-ranking support after interaction window.",
+        "mechanisms": [
+          "RESOURCE_DEPLETION",
+          "THRESHOLD",
+          "LOAD_TRANSFER"
+        ],
+        "pathway": "RESOURCE_DEPLETION + THRESHOLD + LOAD_TRANSFER",
+        "pathway_id": "pathway:6c9d91025e0eb2da",
+        "supporting_lineages": [
+          "pond:resource_depletion:f17b7c54d243a98d",
+          "pond:resource_depletion:ba275e24981d06a8",
+          "pond:threshold:d0349a54f2cd5767",
+          "pond:threshold:ab23ece5c69cf986",
+          "pond:load_transfer:ef9cd271709645fd",
+          "pond:load_transfer:67dcde5c9338cedb"
+        ],
+        "supporting_motifs": [
+          "Resource",
+          "Consumption",
+          "Scarcity",
+          "Exhaustion",
+          "Accumulation",
+          "Limit",
+          "Trigger",
+          "StateChange",
+          "Load",
+          "Distribution",
+          "Concentration",
+          "Failure"
+        ]
+      },
+      {
+        "elimination_reason": "Lower delayed-ranking support after interaction window.",
+        "mechanisms": [
+          "RESOURCE_DEPLETION",
+          "THRESHOLD",
+          "FEEDBACK"
+        ],
+        "pathway": "RESOURCE_DEPLETION + THRESHOLD + FEEDBACK",
+        "pathway_id": "pathway:df944ab201063826",
+        "supporting_lineages": [
+          "pond:resource_depletion:f17b7c54d243a98d",
+          "pond:resource_depletion:ba275e24981d06a8",
+          "pond:threshold:d0349a54f2cd5767",
+          "pond:threshold:ab23ece5c69cf986",
+          "pond:feedback:51d687d18b0ab3f0",
+          "pond:feedback:cd21debcf355ae4b"
+        ],
+        "supporting_motifs": [
+          "Resource",
+          "Consumption",
+          "Scarcity",
+          "Exhaustion",
+          "Accumulation",
+          "Limit",
+          "Trigger",
+          "StateChange",
+          "Signal",
+          "Loop",
+          "Response",
+          "Reinforcement"
+        ]
+      },
+      {
+        "elimination_reason": "Lower delayed-ranking support after interaction window.",
+        "mechanisms": [
+          "RESOURCE_DEPLETION",
+          "THRESHOLD",
+          "FLOW"
+        ],
+        "pathway": "RESOURCE_DEPLETION + THRESHOLD + FLOW",
+        "pathway_id": "pathway:0aa0006e72ab0878",
+        "supporting_lineages": [
+          "pond:resource_depletion:f17b7c54d243a98d",
+          "pond:resource_depletion:ba275e24981d06a8",
+          "pond:threshold:d0349a54f2cd5767",
+          "pond:threshold:ab23ece5c69cf986",
+          "pond:flow:cc02783bc819ddab",
+          "pond:flow:c59ae99394df370b"
+        ],
+        "supporting_motifs": [
+          "Resource",
+          "Consumption",
+          "Scarcity",
+          "Exhaustion",
+          "Accumulation",
+          "Limit",
+          "Trigger",
+          "StateChange",
+          "Source",
+          "Path",
+          "Resistance",
+          "Flow"
+        ]
+      },
+      {
+        "elimination_reason": "Lower delayed-ranking support after interaction window.",
+        "mechanisms": [
+          "RESOURCE_DEPLETION",
+          "AMPLIFICATION",
+          "LOAD_TRANSFER"
+        ],
+        "pathway": "RESOURCE_DEPLETION + AMPLIFICATION + LOAD_TRANSFER",
+        "pathway_id": "pathway:0ddc29534b587c8b",
+        "supporting_lineages": [
+          "pond:resource_depletion:f17b7c54d243a98d",
+          "pond:resource_depletion:ba275e24981d06a8",
+          "pond:amplification:4cbc4f9e39fdd947",
+          "pond:amplification:e75b0b7fe687d674",
+          "pond:load_transfer:ef9cd271709645fd",
+          "pond:load_transfer:67dcde5c9338cedb"
+        ],
+        "supporting_motifs": [
+          "Resource",
+          "Consumption",
+          "Scarcity",
+          "Exhaustion",
+          "Input",
+          "Gain",
+          "Propagation",
+          "Escalation",
+          "Load",
+          "Distribution",
+          "Concentration",
+          "Failure"
+        ]
+      },
+      {
+        "elimination_reason": "Lower delayed-ranking support after interaction window.",
+        "mechanisms": [
+          "THRESHOLD",
+          "AMPLIFICATION",
+          "LOAD_TRANSFER"
+        ],
+        "pathway": "THRESHOLD + AMPLIFICATION + LOAD_TRANSFER",
+        "pathway_id": "pathway:3282a621aab99fcb",
+        "supporting_lineages": [
+          "pond:threshold:d0349a54f2cd5767",
+          "pond:threshold:ab23ece5c69cf986",
+          "pond:amplification:4cbc4f9e39fdd947",
+          "pond:amplification:e75b0b7fe687d674",
+          "pond:load_transfer:ef9cd271709645fd",
+          "pond:load_transfer:67dcde5c9338cedb"
+        ],
+        "supporting_motifs": [
+          "Accumulation",
+          "Limit",
+          "Trigger",
+          "StateChange",
+          "Input",
+          "Gain",
+          "Propagation",
+          "Escalation",
+          "Load",
+          "Distribution",
+          "Concentration",
+          "Failure"
+        ]
+      }
+    ],
+    "premature_collapse_risk": true,
+    "survived_after_collapse": [
+      {
+        "combination_depth": 3,
+        "interaction_weight": 0.6571,
+        "mechanisms": [
+          "RESOURCE_DEPLETION",
+          "THRESHOLD",
+          "AMPLIFICATION"
+        ],
+        "pathway": "RESOURCE_DEPLETION + THRESHOLD + AMPLIFICATION",
+        "pathway_id": "pathway:2682213cc70217f9",
+        "rank": 1,
+        "reason": "Ranked only after the interaction window formed pair/triple pathways.",
+        "shared_motifs": [],
+        "supporting_lineage_hashes": [
+          "f17b7c54d243a98d762f13250d5ea7ab55c80a415d19e9a92b035fcaec282f29",
+          "ba275e24981d06a8f4018e12addaa2a24afadd389d11736d3180d60f77e3b2ab",
+          "d0349a54f2cd5767e025e5eb53a3907d1a4eae9e5305185b08220ef2465a5785",
+          "ab23ece5c69cf986f680a59221e15014d363018f898e92828f4c7f5052289731",
+          "4cbc4f9e39fdd94761a074a1dc62d495469626164fb64d5ef8e975256a5816bf",
+          "e75b0b7fe687d6741c77fc300eb5acd748e7ffae3903967acaa08c51115048d7"
+        ],
+        "supporting_lineages": [
+          "pond:resource_depletion:f17b7c54d243a98d",
+          "pond:resource_depletion:ba275e24981d06a8",
+          "pond:threshold:d0349a54f2cd5767",
+          "pond:threshold:ab23ece5c69cf986",
+          "pond:amplification:4cbc4f9e39fdd947",
+          "pond:amplification:e75b0b7fe687d674"
+        ],
+        "supporting_motifs": [
+          "Resource",
+          "Consumption",
+          "Scarcity",
+          "Exhaustion",
+          "Accumulation",
+          "Limit",
+          "Trigger",
+          "StateChange",
+          "Input",
+          "Gain",
+          "Propagation",
+          "Escalation"
+        ],
+        "weight": 0.6571
+      }
+    ]
+  },
+  {
+    "activated_before_collapse": [
+      "FLOW",
+      "ACCUMULATION",
+      "DIFFUSION",
+      "THRESHOLD"
+    ],
+    "case_id": "collapse-002",
+    "collapse_reason": "Delayed-ranking collapse selected the highest supported interaction pathway.",
+    "eliminated_pathways": [
+      {
+        "elimination_reason": "Lower delayed-ranking support after interaction window.",
+        "mechanisms": [
+          "FLOW",
+          "ACCUMULATION",
+          "THRESHOLD"
+        ],
+        "pathway": "FLOW + ACCUMULATION + THRESHOLD",
+        "pathway_id": "pathway:201b9c02584453c2",
+        "supporting_lineages": [
+          "pond:flow:c59ae99394df370b",
+          "pond:flow:cc02783bc819ddab",
+          "pond:accumulation:eda10fd4cadcb2b4",
+          "pond:accumulation:1582e7ceda037cb1",
+          "pond:threshold:d0349a54f2cd5767"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Path",
+          "Resistance",
+          "Flow",
+          "Input",
+          "Storage",
+          "BuildUp",
+          "Overflow",
+          "Accumulation",
+          "Limit",
+          "Trigger",
+          "StateChange"
+        ]
+      },
+      {
+        "elimination_reason": "Lower delayed-ranking support after interaction window.",
+        "mechanisms": [
+          "FLOW",
+          "ACCUMULATION"
+        ],
+        "pathway": "FLOW + ACCUMULATION",
+        "pathway_id": "pathway:f793f473bddf5abd",
+        "supporting_lineages": [
+          "pond:flow:c59ae99394df370b",
+          "pond:flow:cc02783bc819ddab",
+          "pond:accumulation:eda10fd4cadcb2b4",
+          "pond:accumulation:1582e7ceda037cb1"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Path",
+          "Resistance",
+          "Flow",
+          "Input",
+          "Storage",
+          "BuildUp",
+          "Overflow"
+        ]
+      },
+      {
+        "elimination_reason": "Lower delayed-ranking support after interaction window.",
+        "mechanisms": [
+          "FLOW",
+          "DIFFUSION",
+          "THRESHOLD"
+        ],
+        "pathway": "FLOW + DIFFUSION + THRESHOLD",
+        "pathway_id": "pathway:1bcfa818f00a03d6",
+        "supporting_lineages": [
+          "pond:flow:c59ae99394df370b",
+          "pond:flow:cc02783bc819ddab",
+          "pond:diffusion:703b68fbcc0eda6a",
+          "pond:diffusion:adc83cc783d490ba",
+          "pond:threshold:d0349a54f2cd5767"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Path",
+          "Resistance",
+          "Flow",
+          "Gradient",
+          "Spread",
+          "Dilution",
+          "Accumulation",
+          "Limit",
+          "Trigger",
+          "StateChange"
+        ]
+      },
+      {
+        "elimination_reason": "Lower delayed-ranking support after interaction window.",
+        "mechanisms": [
+          "FLOW",
+          "DIFFUSION"
+        ],
+        "pathway": "FLOW + DIFFUSION",
+        "pathway_id": "pathway:e18902583f3e92da",
+        "supporting_lineages": [
+          "pond:flow:c59ae99394df370b",
+          "pond:flow:cc02783bc819ddab",
+          "pond:diffusion:703b68fbcc0eda6a",
+          "pond:diffusion:adc83cc783d490ba"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Path",
+          "Resistance",
+          "Flow",
+          "Gradient",
+          "Spread",
+          "Dilution"
+        ]
+      },
+      {
+        "elimination_reason": "Lower delayed-ranking support after interaction window.",
+        "mechanisms": [
+          "ACCUMULATION",
+          "DIFFUSION",
+          "THRESHOLD"
+        ],
+        "pathway": "ACCUMULATION + DIFFUSION + THRESHOLD",
+        "pathway_id": "pathway:9dba55e246276b86",
+        "supporting_lineages": [
+          "pond:accumulation:eda10fd4cadcb2b4",
+          "pond:accumulation:1582e7ceda037cb1",
+          "pond:diffusion:703b68fbcc0eda6a",
+          "pond:diffusion:adc83cc783d490ba",
+          "pond:threshold:d0349a54f2cd5767"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Storage",
+          "BuildUp",
+          "Overflow",
+          "Source",
+          "Gradient",
+          "Spread",
+          "Dilution",
+          "Accumulation",
+          "Limit",
+          "Trigger",
+          "StateChange"
+        ]
+      }
+    ],
+    "premature_collapse_risk": true,
+    "survived_after_collapse": [
+      {
+        "combination_depth": 3,
+        "interaction_weight": 0.9785,
+        "mechanisms": [
+          "FLOW",
+          "ACCUMULATION",
+          "DIFFUSION"
+        ],
+        "pathway": "FLOW + ACCUMULATION + DIFFUSION",
+        "pathway_id": "pathway:a3cf271ee16d125d",
+        "rank": 1,
+        "reason": "Ranked only after the interaction window formed pair/triple pathways.",
+        "shared_motifs": [
+          "Source"
+        ],
+        "supporting_lineage_hashes": [
+          "c59ae99394df370b0ba080cc9a440f00d28071cdf83b6d9eba3a55d0b7708e8f",
+          "cc02783bc819ddab8c659ab3b5bb122d908a7ebcc70f01c7427c5cae19c59c79",
+          "eda10fd4cadcb2b4e75423f537ecbaffc933b9e6b2df7d8095ec4af46d7b2067",
+          "1582e7ceda037cb1b1ae8edad9d1fab46bd6acf15bbee38c4dc2b21e7e01e9dd",
+          "703b68fbcc0eda6a3a195ee4486b48c3925f5c50821f94f00c9706cd540b444e",
+          "adc83cc783d490baa3030a3baf0985afbdd5d7fa9608dbadbb854af1f4a6e093"
+        ],
+        "supporting_lineages": [
+          "pond:flow:c59ae99394df370b",
+          "pond:flow:cc02783bc819ddab",
+          "pond:accumulation:eda10fd4cadcb2b4",
+          "pond:accumulation:1582e7ceda037cb1",
+          "pond:diffusion:703b68fbcc0eda6a",
+          "pond:diffusion:adc83cc783d490ba"
+        ],
+        "supporting_motifs": [
+          "Source",
+          "Path",
+          "Resistance",
+          "Flow",
+          "Input",
+          "Storage",
+          "BuildUp",
+          "Overflow",
+          "Gradient",
+          "Spread",
+          "Dilution"
+        ],
+        "weight": 0.9785
+      }
+    ]
+  },
+  {
+    "activated_before_collapse": [
+      "LOAD_TRANSFER",
+      "SUPPORTED_ROTATION",
+      "OSCILLATION",
+      "DIFFUSION"
+    ],
+    "case_id": "collapse-003",
+    "collapse_reason": "Delayed-ranking collapse selected the highest supported interaction pathway.",
+    "eliminated_pathways": [
+      {
+        "elimination_reason": "Lower delayed-ranking support after interaction window.",
+        "mechanisms": [
+          "LOAD_TRANSFER",
+          "SUPPORTED_ROTATION",
+          "DIFFUSION"
+        ],
+        "pathway": "LOAD_TRANSFER + SUPPORTED_ROTATION + DIFFUSION",
+        "pathway_id": "pathway:c43413fa22837a91",
+        "supporting_lineages": [
+          "pond:load_transfer:ef9cd271709645fd",
+          "pond:load_transfer:67dcde5c9338cedb",
+          "pond:supported_rotation:8f86334625ba2fb0",
+          "pond:supported_rotation:dd72cdf7da04ab10",
+          "pond:diffusion:adc83cc783d490ba",
+          "pond:diffusion:703b68fbcc0eda6a"
+        ],
+        "supporting_motifs": [
+          "Load",
+          "Distribution",
+          "Concentration",
+          "Failure",
+          "Rotation",
+          "Support",
+          "Friction",
+          "Source",
+          "Gradient",
+          "Spread",
+          "Dilution"
+        ]
+      },
+      {
+        "elimination_reason": "Lower delayed-ranking support after interaction window.",
+        "mechanisms": [
+          "LOAD_TRANSFER",
+          "SUPPORTED_ROTATION"
+        ],
+        "pathway": "LOAD_TRANSFER + SUPPORTED_ROTATION",
+        "pathway_id": "pathway:d4ca882c777cbeda",
+        "supporting_lineages": [
+          "pond:load_transfer:ef9cd271709645fd",
+          "pond:load_transfer:67dcde5c9338cedb",
+          "pond:supported_rotation:8f86334625ba2fb0",
+          "pond:supported_rotation:dd72cdf7da04ab10"
+        ],
+        "supporting_motifs": [
+          "Load",
+          "Distribution",
+          "Concentration",
+          "Failure",
+          "Rotation",
+          "Support",
+          "Friction"
+        ]
+      },
+      {
+        "elimination_reason": "Lower delayed-ranking support after interaction window.",
+        "mechanisms": [
+          "LOAD_TRANSFER",
+          "OSCILLATION",
+          "DIFFUSION"
+        ],
+        "pathway": "LOAD_TRANSFER + OSCILLATION + DIFFUSION",
+        "pathway_id": "pathway:7de53a7be55b4cf2",
+        "supporting_lineages": [
+          "pond:load_transfer:ef9cd271709645fd",
+          "pond:load_transfer:67dcde5c9338cedb",
+          "pond:oscillation:d31c346386bcd687",
+          "pond:oscillation:36317b5fc9d2b9f7",
+          "pond:diffusion:adc83cc783d490ba",
+          "pond:diffusion:703b68fbcc0eda6a"
+        ],
+        "supporting_motifs": [
+          "Load",
+          "Distribution",
+          "Concentration",
+          "Failure",
+          "State",
+          "Delay",
+          "Overshoot",
+          "Cycle",
+          "Source",
+          "Gradient",
+          "Spread",
+          "Dilution"
+        ]
+      },
+      {
+        "elimination_reason": "Lower delayed-ranking support after interaction window.",
+        "mechanisms": [
+          "LOAD_TRANSFER",
+          "OSCILLATION"
+        ],
+        "pathway": "LOAD_TRANSFER + OSCILLATION",
+        "pathway_id": "pathway:91528353c5720dd6",
+        "supporting_lineages": [
+          "pond:load_transfer:ef9cd271709645fd",
+          "pond:load_transfer:67dcde5c9338cedb",
+          "pond:oscillation:d31c346386bcd687",
+          "pond:oscillation:36317b5fc9d2b9f7"
+        ],
+        "supporting_motifs": [
+          "Load",
+          "Distribution",
+          "Concentration",
+          "Failure",
+          "State",
+          "Delay",
+          "Overshoot",
+          "Cycle"
+        ]
+      },
+      {
+        "elimination_reason": "Lower delayed-ranking support after interaction window.",
+        "mechanisms": [
+          "LOAD_TRANSFER",
+          "DIFFUSION"
+        ],
+        "pathway": "LOAD_TRANSFER + DIFFUSION",
+        "pathway_id": "pathway:9712638c64c4837b",
+        "supporting_lineages": [
+          "pond:load_transfer:ef9cd271709645fd",
+          "pond:load_transfer:67dcde5c9338cedb",
+          "pond:diffusion:adc83cc783d490ba",
+          "pond:diffusion:703b68fbcc0eda6a"
+        ],
+        "supporting_motifs": [
+          "Load",
+          "Distribution",
+          "Concentration",
+          "Failure",
+          "Source",
+          "Gradient",
+          "Spread",
+          "Dilution"
+        ]
+      }
+    ],
+    "premature_collapse_risk": true,
+    "survived_after_collapse": [
+      {
+        "combination_depth": 3,
+        "interaction_weight": 0.9647,
+        "mechanisms": [
+          "LOAD_TRANSFER",
+          "SUPPORTED_ROTATION",
+          "OSCILLATION"
+        ],
+        "pathway": "LOAD_TRANSFER + SUPPORTED_ROTATION + OSCILLATION",
+        "pathway_id": "pathway:089ebf8eb51befa2",
+        "rank": 1,
+        "reason": "Ranked only after the interaction window formed pair/triple pathways.",
+        "shared_motifs": [
+          "Failure"
+        ],
+        "supporting_lineage_hashes": [
+          "ef9cd271709645fd3df296ce2c5705f164bb8c840670ef45d49f052bdd4637ca",
+          "67dcde5c9338cedb5213968113fb33b189b1f53f5d60d253673c43f9a9aa8f39",
+          "8f86334625ba2fb00e57b2d3ebea469448804639c394e865eaeb893569ca3874",
+          "dd72cdf7da04ab1007c38419f87f8c5d7c8b2ce9d01e8505f0b09a4e8950b781",
+          "d31c346386bcd6871e501af1d1d6d44b8d00bd2be749090e9b42846210712c33",
+          "36317b5fc9d2b9f7a98b926fd1c1c48e180cca68ec73ce996092aa80624feed9"
+        ],
+        "supporting_lineages": [
+          "pond:load_transfer:ef9cd271709645fd",
+          "pond:load_transfer:67dcde5c9338cedb",
+          "pond:supported_rotation:8f86334625ba2fb0",
+          "pond:supported_rotation:dd72cdf7da04ab10",
+          "pond:oscillation:d31c346386bcd687",
+          "pond:oscillation:36317b5fc9d2b9f7"
+        ],
+        "supporting_motifs": [
+          "Load",
+          "Distribution",
+          "Concentration",
+          "Failure",
+          "Rotation",
+          "Support",
+          "Friction",
+          "State",
+          "Delay",
+          "Overshoot",
+          "Cycle"
+        ],
+        "weight": 0.9647
+      }
+    ]
+  },
+  {
+    "activated_before_collapse": [
+      "BUFFERING",
+      "RESOURCE_DEPLETION",
+      "COMPENSATION",
+      "ACCUMULATION"
+    ],
+    "case_id": "collapse-004",
+    "collapse_reason": "Delayed-ranking collapse selected the highest supported interaction pathway.",
+    "eliminated_pathways": [
+      {
+        "elimination_reason": "Lower delayed-ranking support after interaction window.",
+        "mechanisms": [
+          "BUFFERING",
+          "RESOURCE_DEPLETION",
+          "ACCUMULATION"
+        ],
+        "pathway": "BUFFERING + RESOURCE_DEPLETION + ACCUMULATION",
+        "pathway_id": "pathway:a92d1896abdfcfb8",
+        "supporting_lineages": [
+          "pond:buffering:42dd7eb4eb768e73",
+          "pond:buffering:1d7582ee0d996c2b",
+          "pond:resource_depletion:f17b7c54d243a98d",
+          "pond:resource_depletion:ba275e24981d06a8",
+          "pond:accumulation:1582e7ceda037cb1",
+          "pond:accumulation:eda10fd4cadcb2b4"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Buffer",
+          "Absorption",
+          "Delay",
+          "Resource",
+          "Consumption",
+          "Scarcity",
+          "Exhaustion",
+          "Storage",
+          "BuildUp",
+          "Overflow"
+        ]
+      },
+      {
+        "elimination_reason": "Lower delayed-ranking support after interaction window.",
+        "mechanisms": [
+          "BUFFERING",
+          "COMPENSATION",
+          "ACCUMULATION"
+        ],
+        "pathway": "BUFFERING + COMPENSATION + ACCUMULATION",
+        "pathway_id": "pathway:d68cde299788eb67",
+        "supporting_lineages": [
+          "pond:buffering:42dd7eb4eb768e73",
+          "pond:buffering:1d7582ee0d996c2b",
+          "pond:compensation:fb62bb4efe4599dc",
+          "pond:compensation:ea642700d677efc3",
+          "pond:accumulation:1582e7ceda037cb1",
+          "pond:accumulation:eda10fd4cadcb2b4"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Buffer",
+          "Absorption",
+          "Delay",
+          "Deviation",
+          "Counteraction",
+          "Substitution",
+          "Stabilization",
+          "Storage",
+          "BuildUp",
+          "Overflow"
+        ]
+      },
+      {
+        "elimination_reason": "Lower delayed-ranking support after interaction window.",
+        "mechanisms": [
+          "BUFFERING",
+          "RESOURCE_DEPLETION"
+        ],
+        "pathway": "BUFFERING + RESOURCE_DEPLETION",
+        "pathway_id": "pathway:eb12a3b2fa16e8b8",
+        "supporting_lineages": [
+          "pond:buffering:42dd7eb4eb768e73",
+          "pond:buffering:1d7582ee0d996c2b",
+          "pond:resource_depletion:f17b7c54d243a98d",
+          "pond:resource_depletion:ba275e24981d06a8"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Buffer",
+          "Absorption",
+          "Delay",
+          "Resource",
+          "Consumption",
+          "Scarcity",
+          "Exhaustion"
+        ]
+      },
+      {
+        "elimination_reason": "Lower delayed-ranking support after interaction window.",
+        "mechanisms": [
+          "BUFFERING",
+          "COMPENSATION"
+        ],
+        "pathway": "BUFFERING + COMPENSATION",
+        "pathway_id": "pathway:98f4244b68785b33",
+        "supporting_lineages": [
+          "pond:buffering:42dd7eb4eb768e73",
+          "pond:buffering:1d7582ee0d996c2b",
+          "pond:compensation:fb62bb4efe4599dc",
+          "pond:compensation:ea642700d677efc3"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Buffer",
+          "Absorption",
+          "Delay",
+          "Deviation",
+          "Counteraction",
+          "Substitution",
+          "Stabilization"
+        ]
+      },
+      {
+        "elimination_reason": "Lower delayed-ranking support after interaction window.",
+        "mechanisms": [
+          "BUFFERING",
+          "ACCUMULATION"
+        ],
+        "pathway": "BUFFERING + ACCUMULATION",
+        "pathway_id": "pathway:41d1efe0b2de2f70",
+        "supporting_lineages": [
+          "pond:buffering:42dd7eb4eb768e73",
+          "pond:buffering:1d7582ee0d996c2b",
+          "pond:accumulation:1582e7ceda037cb1",
+          "pond:accumulation:eda10fd4cadcb2b4"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Buffer",
+          "Absorption",
+          "Delay",
+          "Storage",
+          "BuildUp",
+          "Overflow"
+        ]
+      }
+    ],
+    "premature_collapse_risk": true,
+    "survived_after_collapse": [
+      {
+        "combination_depth": 3,
+        "interaction_weight": 0.9082,
+        "mechanisms": [
+          "BUFFERING",
+          "RESOURCE_DEPLETION",
+          "COMPENSATION"
+        ],
+        "pathway": "BUFFERING + RESOURCE_DEPLETION + COMPENSATION",
+        "pathway_id": "pathway:db2aad17cdba2565",
+        "rank": 1,
+        "reason": "Ranked only after the interaction window formed pair/triple pathways.",
+        "shared_motifs": [],
+        "supporting_lineage_hashes": [
+          "42dd7eb4eb768e73bf3d0122358d7802269a8a4e09dc16c91777b75f76d44f73",
+          "1d7582ee0d996c2bb4ee7fa5d5199de484a56e02f325a7c05069ccdf191a28d8",
+          "f17b7c54d243a98d762f13250d5ea7ab55c80a415d19e9a92b035fcaec282f29",
+          "ba275e24981d06a8f4018e12addaa2a24afadd389d11736d3180d60f77e3b2ab",
+          "fb62bb4efe4599dc489397fe13665a80303abcf5523cfa00c28b1227dcbc5e6a",
+          "ea642700d677efc3882a46a36b2eec1761796502ff03f26a1d4c5443a230d80e"
+        ],
+        "supporting_lineages": [
+          "pond:buffering:42dd7eb4eb768e73",
+          "pond:buffering:1d7582ee0d996c2b",
+          "pond:resource_depletion:f17b7c54d243a98d",
+          "pond:resource_depletion:ba275e24981d06a8",
+          "pond:compensation:fb62bb4efe4599dc",
+          "pond:compensation:ea642700d677efc3"
+        ],
+        "supporting_motifs": [
+          "Input",
+          "Buffer",
+          "Absorption",
+          "Delay",
+          "Resource",
+          "Consumption",
+          "Scarcity",
+          "Exhaustion",
+          "Deviation",
+          "Counteraction",
+          "Substitution",
+          "Stabilization"
+        ],
+        "weight": 0.9082
+      }
+    ]
+  },
+  {
+    "activated_before_collapse": [
+      "OSCILLATION",
+      "FEEDBACK",
+      "AMPLIFICATION",
+      "BUFFERING"
+    ],
+    "case_id": "collapse-005",
+    "collapse_reason": "Delayed-ranking collapse selected the highest supported interaction pathway.",
+    "eliminated_pathways": [
+      {
+        "elimination_reason": "Lower delayed-ranking support after interaction window.",
+        "mechanisms": [
+          "OSCILLATION",
+          "FEEDBACK",
+          "AMPLIFICATION"
+        ],
+        "pathway": "OSCILLATION + FEEDBACK + AMPLIFICATION",
+        "pathway_id": "pathway:b35c4babcbac9cfb",
+        "supporting_lineages": [
+          "pond:oscillation:36317b5fc9d2b9f7",
+          "pond:oscillation:d31c346386bcd687",
+          "pond:feedback:51d687d18b0ab3f0",
+          "pond:feedback:cd21debcf355ae4b",
+          "pond:amplification:e75b0b7fe687d674",
+          "pond:amplification:4cbc4f9e39fdd947"
+        ],
+        "supporting_motifs": [
+          "State",
+          "Delay",
+          "Overshoot",
+          "Cycle",
+          "Signal",
+          "Loop",
+          "Response",
+          "Reinforcement",
+          "Input",
+          "Gain",
+          "Propagation",
+          "Escalation"
+        ]
+      },
+      {
+        "elimination_reason": "Lower delayed-ranking support after interaction window.",
+        "mechanisms": [
+          "OSCILLATION",
+          "AMPLIFICATION",
+          "BUFFERING"
+        ],
+        "pathway": "OSCILLATION + AMPLIFICATION + BUFFERING",
+        "pathway_id": "pathway:2bab375ba13aa25d",
+        "supporting_lineages": [
+          "pond:oscillation:36317b5fc9d2b9f7",
+          "pond:oscillation:d31c346386bcd687",
+          "pond:amplification:e75b0b7fe687d674",
+          "pond:amplification:4cbc4f9e39fdd947",
+          "pond:buffering:42dd7eb4eb768e73",
+          "pond:buffering:1d7582ee0d996c2b"
+        ],
+        "supporting_motifs": [
+          "State",
+          "Delay",
+          "Overshoot",
+          "Cycle",
+          "Input",
+          "Gain",
+          "Propagation",
+          "Escalation",
+          "Buffer",
+          "Absorption"
+        ]
+      },
+      {
+        "elimination_reason": "Lower delayed-ranking support after interaction window.",
+        "mechanisms": [
+          "FEEDBACK",
+          "AMPLIFICATION",
+          "BUFFERING"
+        ],
+        "pathway": "FEEDBACK + AMPLIFICATION + BUFFERING",
+        "pathway_id": "pathway:d1d852dc5f8f741f",
+        "supporting_lineages": [
+          "pond:feedback:51d687d18b0ab3f0",
+          "pond:feedback:cd21debcf355ae4b",
+          "pond:amplification:e75b0b7fe687d674",
+          "pond:amplification:4cbc4f9e39fdd947",
+          "pond:buffering:42dd7eb4eb768e73",
+          "pond:buffering:1d7582ee0d996c2b"
+        ],
+        "supporting_motifs": [
+          "Signal",
+          "Loop",
+          "Response",
+          "Reinforcement",
+          "Input",
+          "Gain",
+          "Propagation",
+          "Escalation",
+          "Buffer",
+          "Absorption",
+          "Delay"
+        ]
+      },
+      {
+        "elimination_reason": "Lower delayed-ranking support after interaction window.",
+        "mechanisms": [
+          "OSCILLATION",
+          "FEEDBACK"
+        ],
+        "pathway": "OSCILLATION + FEEDBACK",
+        "pathway_id": "pathway:9bdfdeadc8452c2c",
+        "supporting_lineages": [
+          "pond:oscillation:36317b5fc9d2b9f7",
+          "pond:oscillation:d31c346386bcd687",
+          "pond:feedback:51d687d18b0ab3f0",
+          "pond:feedback:cd21debcf355ae4b"
+        ],
+        "supporting_motifs": [
+          "State",
+          "Delay",
+          "Overshoot",
+          "Cycle",
+          "Signal",
+          "Loop",
+          "Response",
+          "Reinforcement"
+        ]
+      },
+      {
+        "elimination_reason": "Lower delayed-ranking support after interaction window.",
+        "mechanisms": [
+          "OSCILLATION",
+          "BUFFERING"
+        ],
+        "pathway": "OSCILLATION + BUFFERING",
+        "pathway_id": "pathway:8ba779b0bd3f6cb9",
+        "supporting_lineages": [
+          "pond:oscillation:36317b5fc9d2b9f7",
+          "pond:oscillation:d31c346386bcd687",
+          "pond:buffering:42dd7eb4eb768e73",
+          "pond:buffering:1d7582ee0d996c2b"
+        ],
+        "supporting_motifs": [
+          "State",
+          "Delay",
+          "Overshoot",
+          "Cycle",
+          "Input",
+          "Buffer",
+          "Absorption"
+        ]
+      }
+    ],
+    "premature_collapse_risk": true,
+    "survived_after_collapse": [
+      {
+        "combination_depth": 3,
+        "interaction_weight": 0.857,
+        "mechanisms": [
+          "OSCILLATION",
+          "FEEDBACK",
+          "BUFFERING"
+        ],
+        "pathway": "OSCILLATION + FEEDBACK + BUFFERING",
+        "pathway_id": "pathway:d15f9f68684133d4",
+        "rank": 1,
+        "reason": "Ranked only after the interaction window formed pair/triple pathways.",
+        "shared_motifs": [
+          "Delay"
+        ],
+        "supporting_lineage_hashes": [
+          "36317b5fc9d2b9f7a98b926fd1c1c48e180cca68ec73ce996092aa80624feed9",
+          "d31c346386bcd6871e501af1d1d6d44b8d00bd2be749090e9b42846210712c33",
+          "51d687d18b0ab3f0ddb73914de26d1238a4cd5a9b3cf4e0c910ba1391793af7d",
+          "cd21debcf355ae4bfbd33087b3489c287608f14171732372fc0269a9a36ee704",
+          "42dd7eb4eb768e73bf3d0122358d7802269a8a4e09dc16c91777b75f76d44f73",
+          "1d7582ee0d996c2bb4ee7fa5d5199de484a56e02f325a7c05069ccdf191a28d8"
+        ],
+        "supporting_lineages": [
+          "pond:oscillation:36317b5fc9d2b9f7",
+          "pond:oscillation:d31c346386bcd687",
+          "pond:feedback:51d687d18b0ab3f0",
+          "pond:feedback:cd21debcf355ae4b",
+          "pond:buffering:42dd7eb4eb768e73",
+          "pond:buffering:1d7582ee0d996c2b"
+        ],
+        "supporting_motifs": [
+          "State",
+          "Delay",
+          "Overshoot",
+          "Cycle",
+          "Signal",
+          "Loop",
+          "Response",
+          "Reinforcement",
+          "Input",
+          "Buffer",
+          "Absorption"
+        ],
+        "weight": 0.857
+      }
+    ]
+  }
+]

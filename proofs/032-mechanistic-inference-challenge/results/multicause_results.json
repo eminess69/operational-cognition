@@ -1,0 +1,1076 @@
+{
+  "accuracy": 1.0,
+  "answered_items": 4,
+  "correct_items": 4,
+  "deterministic_replay_match": true,
+  "execution_mode": "deterministic_cli_no_llm",
+  "fail_closed_items": 0,
+  "items": [
+    {
+      "answer": "The similar mechanism is SUPPORTED_ROTATION: rotation depends on a support interface that can fail through friction or wear.",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 2,
+          "matched_consequence_cue_count": 2,
+          "matched_consequences": [
+            "audible_roughness",
+            "heat_rise"
+          ],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "friction"
+          ],
+          "mechanism_id": "supported_rotation",
+          "score": 2.93
+        },
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "rate_drop"
+          ],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "flow"
+          ],
+          "mechanism_id": "flow",
+          "score": 1.99
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [
+        "supported_rotation",
+        "flow"
+      ],
+      "component_category": "rotational support interface",
+      "confidence": 0.61,
+      "confidence_ranking": [
+        {
+          "matched_consequence_count": 2,
+          "matched_consequences": [
+            "audible_roughness",
+            "heat_rise"
+          ],
+          "matched_role_count": 1,
+          "matched_roles": [
+            "friction"
+          ],
+          "mechanism_id": "supported_rotation",
+          "rank": 1,
+          "relative_confidence": 0.95,
+          "score": 2.93
+        },
+        {
+          "matched_consequence_count": 1,
+          "matched_consequences": [
+            "rate_drop"
+          ],
+          "matched_role_count": 1,
+          "matched_roles": [
+            "flow"
+          ],
+          "mechanism_id": "flow",
+          "rank": 2,
+          "relative_confidence": 0.6792,
+          "score": 1.99
+        }
+      ],
+      "consequence_features": [
+        {
+          "feature_id": "audible_roughness",
+          "matched_cues": [
+            "noise increased"
+          ],
+          "motif": "Consequence: rough motion becomes audible"
+        },
+        {
+          "feature_id": "heat_rise",
+          "matched_cues": [
+            "temperature increased"
+          ],
+          "motif": "Consequence: temperature rises during motion"
+        }
+      ],
+      "consequence_lineage": [
+        {
+          "feature_id": "audible_roughness",
+          "lesson_id": "MEC-L002",
+          "matched_cues": [
+            "noise increased"
+          ],
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "motif": "Consequence: rough motion becomes audible"
+        },
+        {
+          "feature_id": "heat_rise",
+          "lesson_id": "MEC-L002",
+          "matched_cues": [
+            "temperature increased"
+          ],
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "motif": "Consequence: temperature rises during motion"
+        }
+      ],
+      "correct": true,
+      "deterministic_replay_match": true,
+      "evidence_features": [
+        {
+          "matched_cues": [
+            "noise"
+          ],
+          "motif": "Friction",
+          "role_id": "friction"
+        }
+      ],
+      "expected_candidate_mechanisms": [
+        "supported_rotation",
+        "flow"
+      ],
+      "expected_classification": "RELATIONAL_INFERENCE",
+      "expected_mechanism": "supported_rotation",
+      "expected_status": "ANSWERED",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "fail_closed_reason": "",
+      "identified_mechanism": "supported_rotation",
+      "inference_mode": "RELATIONAL_INFERENCE",
+      "inspection_priority": "Inspect the rotational support interface: bearing, bushing, axle, shaft, mount, or hub.",
+      "matched_consequence_ids": [
+        "audible_roughness",
+        "heat_rise"
+      ],
+      "matched_consequences": [
+        {
+          "feature_id": "audible_roughness",
+          "matched_cues": [
+            "noise increased"
+          ],
+          "motif": "Consequence: rough motion becomes audible",
+          "weight": 0.9
+        },
+        {
+          "feature_id": "heat_rise",
+          "matched_cues": [
+            "temperature increased"
+          ],
+          "motif": "Consequence: temperature rises during motion",
+          "weight": 0.9
+        }
+      ],
+      "matched_role_ids": [
+        "friction"
+      ],
+      "matched_roles": [
+        {
+          "matched_cues": [
+            "noise"
+          ],
+          "motif": "Friction",
+          "role_id": "friction",
+          "weight": 1.0
+        }
+      ],
+      "mechanism_explanation": "The observed system has a rotating part whose support interface shows friction, wear, noise, or stoppage.",
+      "motif_lineage": [
+        {
+          "lesson_id": "MEC-L002",
+          "matched_cues": [
+            "noise"
+          ],
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "motif": "Friction",
+          "role_id": "friction"
+        }
+      ],
+      "observed_system": "Throughput decreased. Temperature increased. Noise increased.",
+      "question": "Observed system: Throughput decreased. Temperature increased. Noise increased. Question: Rank viable learned mechanisms that could naturally generate these observations.",
+      "question_id": "MC-001",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "rate_drop"
+          ],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "flow"
+          ],
+          "mechanism_id": "flow",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 1.99
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "SUPPORTED_ROTATION",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Rotation",
+            "Support",
+            "Friction",
+            "Failure"
+          ],
+          "lesson_id": "MEC-L002",
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "trace_expectation": "A mapped SUPPORTED_ROTATION answer must cite at least three of Rotation, Support, Friction, and Failure."
+        }
+      ],
+      "status": "ANSWERED",
+      "suite": "multicause",
+      "supporting_motifs": [
+        "Friction",
+        "Consequence: rough motion becomes audible",
+        "Consequence: temperature rises during motion"
+      ],
+      "transfer_confidence": 0.61
+    },
+    {
+      "answer": "The similar mechanism is LOAD_TRANSFER: load must distribute through a path, and concentration creates failure risk.",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 2,
+          "matched_consequence_cue_count": 2,
+          "matched_consequences": [
+            "deformation",
+            "localized_damage"
+          ],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 1.83
+        },
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "rate_drop"
+          ],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.94
+        },
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "heat_rise"
+          ],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.94
+        }
+      ],
+      "candidate_mechanisms": [
+        "load_transfer",
+        "flow",
+        "supported_rotation"
+      ],
+      "component_category": "load path distribution element",
+      "confidence": 0.5,
+      "confidence_ranking": [
+        {
+          "matched_consequence_count": 2,
+          "matched_consequences": [
+            "deformation",
+            "localized_damage"
+          ],
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rank": 1,
+          "relative_confidence": 0.95,
+          "score": 1.83
+        },
+        {
+          "matched_consequence_count": 1,
+          "matched_consequences": [
+            "rate_drop"
+          ],
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rank": 2,
+          "relative_confidence": 0.5137,
+          "score": 0.94
+        },
+        {
+          "matched_consequence_count": 1,
+          "matched_consequences": [
+            "heat_rise"
+          ],
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rank": 3,
+          "relative_confidence": 0.5137,
+          "score": 0.94
+        }
+      ],
+      "consequence_features": [
+        {
+          "feature_id": "deformation",
+          "matched_cues": [
+            "surface dipped"
+          ],
+          "motif": "Consequence: shape deforms under hidden demand"
+        },
+        {
+          "feature_id": "localized_damage",
+          "matched_cues": [
+            "one area"
+          ],
+          "motif": "Consequence: damage localizes"
+        }
+      ],
+      "consequence_lineage": [
+        {
+          "feature_id": "deformation",
+          "lesson_id": "MEC-L003",
+          "matched_cues": [
+            "surface dipped"
+          ],
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "motif": "Consequence: shape deforms under hidden demand"
+        },
+        {
+          "feature_id": "localized_damage",
+          "lesson_id": "MEC-L003",
+          "matched_cues": [
+            "one area"
+          ],
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "motif": "Consequence: damage localizes"
+        }
+      ],
+      "correct": true,
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_candidate_mechanisms": [
+        "load_transfer",
+        "flow",
+        "supported_rotation"
+      ],
+      "expected_classification": "RELATIONAL_INFERENCE",
+      "expected_mechanism": "load_transfer",
+      "expected_status": "ANSWERED",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "fail_closed_reason": "",
+      "identified_mechanism": "load_transfer",
+      "inference_mode": "RELATIONAL_INFERENCE",
+      "inspection_priority": "Inspect the load path and high-stress concentration points such as joints, anchors, brackets, supports, and overloaded members.",
+      "matched_consequence_ids": [
+        "deformation",
+        "localized_damage"
+      ],
+      "matched_consequences": [
+        {
+          "feature_id": "deformation",
+          "matched_cues": [
+            "surface dipped"
+          ],
+          "motif": "Consequence: shape deforms under hidden demand",
+          "weight": 0.9
+        },
+        {
+          "feature_id": "localized_damage",
+          "matched_cues": [
+            "one area"
+          ],
+          "motif": "Consequence: damage localizes",
+          "weight": 0.85
+        }
+      ],
+      "matched_role_ids": [],
+      "matched_roles": [],
+      "mechanism_explanation": "The observed system carries load through supports, then fails where stress concentrates.",
+      "motif_lineage": [],
+      "observed_system": "A surface dipped, output dropped, and one area became hot.",
+      "question": "Observed system: A surface dipped, output dropped, and one area became hot. Question: Rank viable learned mechanisms that could naturally generate these observations.",
+      "question_id": "MC-002",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "rate_drop"
+          ],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 0.94
+        },
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "heat_rise"
+          ],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 0.94
+        }
+      ],
+      "source_mechanism": "LOAD_TRANSFER",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Load",
+            "Distribution",
+            "Concentration",
+            "Failure"
+          ],
+          "lesson_id": "MEC-L003",
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "trace_expectation": "A mapped LOAD_TRANSFER answer must cite at least three of Load, Distribution, Concentration, and Failure."
+        }
+      ],
+      "status": "ANSWERED",
+      "suite": "multicause",
+      "supporting_motifs": [
+        "Consequence: shape deforms under hidden demand",
+        "Consequence: damage localizes"
+      ],
+      "transfer_confidence": 0.5
+    },
+    {
+      "answer": "The similar mechanism is SUPPORTED_ROTATION: rotation depends on a support interface that can fail through friction or wear.",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 2,
+          "matched_consequence_cue_count": 4,
+          "matched_consequences": [
+            "audible_roughness",
+            "speed_decline"
+          ],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "friction"
+          ],
+          "mechanism_id": "supported_rotation",
+          "score": 2.96
+        },
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "backlog_growth"
+          ],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "flow"
+          ],
+          "mechanism_id": "flow",
+          "score": 1.99
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        }
+      ],
+      "candidate_mechanisms": [
+        "supported_rotation",
+        "flow"
+      ],
+      "component_category": "rotational support interface",
+      "confidence": 0.65,
+      "confidence_ranking": [
+        {
+          "matched_consequence_count": 2,
+          "matched_consequences": [
+            "audible_roughness",
+            "speed_decline"
+          ],
+          "matched_role_count": 1,
+          "matched_roles": [
+            "friction"
+          ],
+          "mechanism_id": "supported_rotation",
+          "rank": 1,
+          "relative_confidence": 0.95,
+          "score": 2.96
+        },
+        {
+          "matched_consequence_count": 1,
+          "matched_consequences": [
+            "backlog_growth"
+          ],
+          "matched_role_count": 1,
+          "matched_roles": [
+            "flow"
+          ],
+          "mechanism_id": "flow",
+          "rank": 2,
+          "relative_confidence": 0.6723,
+          "score": 1.99
+        }
+      ],
+      "consequence_features": [
+        {
+          "feature_id": "audible_roughness",
+          "matched_cues": [
+            "vibration",
+            "vibration increased"
+          ],
+          "motif": "Consequence: rough motion becomes audible"
+        },
+        {
+          "feature_id": "speed_decline",
+          "matched_cues": [
+            "slower",
+            "movement became slower"
+          ],
+          "motif": "Consequence: motion speed declines"
+        }
+      ],
+      "consequence_lineage": [
+        {
+          "feature_id": "audible_roughness",
+          "lesson_id": "MEC-L002",
+          "matched_cues": [
+            "vibration",
+            "vibration increased"
+          ],
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "motif": "Consequence: rough motion becomes audible"
+        },
+        {
+          "feature_id": "speed_decline",
+          "lesson_id": "MEC-L002",
+          "matched_cues": [
+            "slower",
+            "movement became slower"
+          ],
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "motif": "Consequence: motion speed declines"
+        }
+      ],
+      "correct": true,
+      "deterministic_replay_match": true,
+      "evidence_features": [
+        {
+          "matched_cues": [
+            "vibration"
+          ],
+          "motif": "Friction",
+          "role_id": "friction"
+        }
+      ],
+      "expected_candidate_mechanisms": [
+        "supported_rotation",
+        "flow"
+      ],
+      "expected_classification": "RELATIONAL_INFERENCE",
+      "expected_mechanism": "supported_rotation",
+      "expected_status": "ANSWERED",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "fail_closed_reason": "",
+      "identified_mechanism": "supported_rotation",
+      "inference_mode": "RELATIONAL_INFERENCE",
+      "inspection_priority": "Inspect the rotational support interface: bearing, bushing, axle, shaft, mount, or hub.",
+      "matched_consequence_ids": [
+        "audible_roughness",
+        "speed_decline"
+      ],
+      "matched_consequences": [
+        {
+          "feature_id": "audible_roughness",
+          "matched_cues": [
+            "vibration",
+            "vibration increased"
+          ],
+          "motif": "Consequence: rough motion becomes audible",
+          "weight": 0.9
+        },
+        {
+          "feature_id": "speed_decline",
+          "matched_cues": [
+            "slower",
+            "movement became slower"
+          ],
+          "motif": "Consequence: motion speed declines",
+          "weight": 0.85
+        }
+      ],
+      "matched_role_ids": [
+        "friction"
+      ],
+      "matched_roles": [
+        {
+          "matched_cues": [
+            "vibration"
+          ],
+          "motif": "Friction",
+          "role_id": "friction",
+          "weight": 1.0
+        }
+      ],
+      "mechanism_explanation": "The observed system has a rotating part whose support interface shows friction, wear, noise, or stoppage.",
+      "motif_lineage": [
+        {
+          "lesson_id": "MEC-L002",
+          "matched_cues": [
+            "vibration"
+          ],
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "motif": "Friction",
+          "role_id": "friction"
+        }
+      ],
+      "observed_system": "Movement became slower, backlog grew, and vibration increased.",
+      "question": "Observed system: Movement became slower, backlog grew, and vibration increased. Question: Rank viable learned mechanisms that could naturally generate these observations.",
+      "question_id": "MC-003",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "backlog_growth"
+          ],
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "flow"
+          ],
+          "mechanism_id": "flow",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 1.99
+        },
+        {
+          "matched_consequence_count": 0,
+          "matched_consequence_cue_count": 0,
+          "matched_consequences": [],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "SUPPORTED_ROTATION",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Rotation",
+            "Support",
+            "Friction",
+            "Failure"
+          ],
+          "lesson_id": "MEC-L002",
+          "mechanism_id": "supported_rotation",
+          "mechanism_name": "SUPPORTED_ROTATION",
+          "trace_expectation": "A mapped SUPPORTED_ROTATION answer must cite at least three of Rotation, Support, Friction, and Failure."
+        }
+      ],
+      "status": "ANSWERED",
+      "suite": "multicause",
+      "supporting_motifs": [
+        "Friction",
+        "Consequence: rough motion becomes audible",
+        "Consequence: motion speed declines"
+      ],
+      "transfer_confidence": 0.65
+    },
+    {
+      "answer": "The similar mechanism is LOAD_TRANSFER: load must distribute through a path, and concentration creates failure risk.",
+      "candidate_evidence": [
+        {
+          "matched_consequence_count": 4,
+          "matched_consequence_cue_count": 4,
+          "matched_consequences": [
+            "deformation",
+            "localized_damage",
+            "alignment_loss",
+            "gave_way"
+          ],
+          "matched_cue_count": 2,
+          "matched_role_count": 2,
+          "matched_roles": [
+            "concentration",
+            "failure"
+          ],
+          "mechanism_id": "load_transfer",
+          "score": 5.61
+        },
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "rate_drop"
+          ],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.94
+        },
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "heat_rise"
+          ],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.94
+        }
+      ],
+      "candidate_mechanisms": [
+        "load_transfer",
+        "flow",
+        "supported_rotation"
+      ],
+      "component_category": "load path distribution element",
+      "confidence": 0.95,
+      "confidence_ranking": [
+        {
+          "matched_consequence_count": 4,
+          "matched_consequences": [
+            "deformation",
+            "localized_damage",
+            "alignment_loss",
+            "gave_way"
+          ],
+          "matched_role_count": 2,
+          "matched_roles": [
+            "concentration",
+            "failure"
+          ],
+          "mechanism_id": "load_transfer",
+          "rank": 1,
+          "relative_confidence": 0.95,
+          "score": 5.61
+        },
+        {
+          "matched_consequence_count": 1,
+          "matched_consequences": [
+            "rate_drop"
+          ],
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rank": 2,
+          "relative_confidence": 0.1676,
+          "score": 0.94
+        },
+        {
+          "matched_consequence_count": 1,
+          "matched_consequences": [
+            "heat_rise"
+          ],
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rank": 3,
+          "relative_confidence": 0.1676,
+          "score": 0.94
+        }
+      ],
+      "consequence_features": [
+        {
+          "feature_id": "deformation",
+          "matched_cues": [
+            "bowed"
+          ],
+          "motif": "Consequence: shape deforms under hidden demand"
+        },
+        {
+          "feature_id": "localized_damage",
+          "matched_cues": [
+            "one corner"
+          ],
+          "motif": "Consequence: damage localizes"
+        },
+        {
+          "feature_id": "alignment_loss",
+          "matched_cues": [
+            "edge dropped"
+          ],
+          "motif": "Consequence: geometry or alignment is lost"
+        },
+        {
+          "feature_id": "gave_way",
+          "matched_cues": [
+            "could not hold"
+          ],
+          "motif": "Consequence: structure gives way"
+        }
+      ],
+      "consequence_lineage": [
+        {
+          "feature_id": "deformation",
+          "lesson_id": "MEC-L003",
+          "matched_cues": [
+            "bowed"
+          ],
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "motif": "Consequence: shape deforms under hidden demand"
+        },
+        {
+          "feature_id": "localized_damage",
+          "lesson_id": "MEC-L003",
+          "matched_cues": [
+            "one corner"
+          ],
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "motif": "Consequence: damage localizes"
+        },
+        {
+          "feature_id": "alignment_loss",
+          "lesson_id": "MEC-L003",
+          "matched_cues": [
+            "edge dropped"
+          ],
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "motif": "Consequence: geometry or alignment is lost"
+        },
+        {
+          "feature_id": "gave_way",
+          "lesson_id": "MEC-L003",
+          "matched_cues": [
+            "could not hold"
+          ],
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "motif": "Consequence: structure gives way"
+        }
+      ],
+      "correct": true,
+      "deterministic_replay_match": true,
+      "evidence_features": [
+        {
+          "matched_cues": [
+            "one corner"
+          ],
+          "motif": "Concentration",
+          "role_id": "concentration"
+        },
+        {
+          "matched_cues": [
+            "bow"
+          ],
+          "motif": "Failure",
+          "role_id": "failure"
+        }
+      ],
+      "expected_candidate_mechanisms": [
+        "load_transfer",
+        "flow",
+        "supported_rotation"
+      ],
+      "expected_classification": "RELATIONAL_INFERENCE",
+      "expected_mechanism": "load_transfer",
+      "expected_status": "ANSWERED",
+      "explicit_role_present": false,
+      "explicit_template_present": false,
+      "fail_closed_reason": "",
+      "identified_mechanism": "load_transfer",
+      "inference_mode": "CONSEQUENCE_INFERENCE",
+      "inspection_priority": "Inspect the load path and high-stress concentration points such as joints, anchors, brackets, supports, and overloaded members.",
+      "matched_consequence_ids": [
+        "deformation",
+        "localized_damage",
+        "alignment_loss",
+        "gave_way"
+      ],
+      "matched_consequences": [
+        {
+          "feature_id": "deformation",
+          "matched_cues": [
+            "bowed"
+          ],
+          "motif": "Consequence: shape deforms under hidden demand",
+          "weight": 0.9
+        },
+        {
+          "feature_id": "localized_damage",
+          "matched_cues": [
+            "one corner"
+          ],
+          "motif": "Consequence: damage localizes",
+          "weight": 0.85
+        },
+        {
+          "feature_id": "alignment_loss",
+          "matched_cues": [
+            "edge dropped"
+          ],
+          "motif": "Consequence: geometry or alignment is lost",
+          "weight": 0.75
+        },
+        {
+          "feature_id": "gave_way",
+          "matched_cues": [
+            "could not hold"
+          ],
+          "motif": "Consequence: structure gives way",
+          "weight": 0.85
+        }
+      ],
+      "matched_role_ids": [
+        "concentration",
+        "failure"
+      ],
+      "matched_roles": [
+        {
+          "matched_cues": [
+            "one corner"
+          ],
+          "motif": "Concentration",
+          "role_id": "concentration",
+          "weight": 1.0
+        },
+        {
+          "matched_cues": [
+            "bow"
+          ],
+          "motif": "Failure",
+          "role_id": "failure",
+          "weight": 1.0
+        }
+      ],
+      "mechanism_explanation": "The observed system carries load through supports, then fails where stress concentrates.",
+      "motif_lineage": [
+        {
+          "lesson_id": "MEC-L003",
+          "matched_cues": [
+            "one corner"
+          ],
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "motif": "Concentration",
+          "role_id": "concentration"
+        },
+        {
+          "lesson_id": "MEC-L003",
+          "matched_cues": [
+            "bow"
+          ],
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "motif": "Failure",
+          "role_id": "failure"
+        }
+      ],
+      "observed_system": "The edge dropped, one corner bowed, arrivals thinned, temperature increased, and it could not hold.",
+      "question": "Observed system: The edge dropped, one corner bowed, arrivals thinned, temperature increased, and it could not hold. Question: Rank viable learned mechanisms that could naturally generate these observations.",
+      "question_id": "MC-004",
+      "rejected_mechanisms": [
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "rate_drop"
+          ],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 0.94
+        },
+        {
+          "matched_consequence_count": 1,
+          "matched_consequence_cue_count": 1,
+          "matched_consequences": [
+            "heat_rise"
+          ],
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "lower_ranked_candidate",
+          "score": 0.94
+        }
+      ],
+      "source_mechanism": "LOAD_TRANSFER",
+      "source_tracebacks": [
+        {
+          "core_motif": [
+            "Load",
+            "Distribution",
+            "Concentration",
+            "Failure"
+          ],
+          "lesson_id": "MEC-L003",
+          "mechanism_id": "load_transfer",
+          "mechanism_name": "LOAD_TRANSFER",
+          "trace_expectation": "A mapped LOAD_TRANSFER answer must cite at least three of Load, Distribution, Concentration, and Failure."
+        }
+      ],
+      "status": "ANSWERED",
+      "suite": "multicause",
+      "supporting_motifs": [
+        "Concentration",
+        "Failure",
+        "Consequence: shape deforms under hidden demand",
+        "Consequence: damage localizes",
+        "Consequence: geometry or alignment is lost",
+        "Consequence: structure gives way"
+      ],
+      "transfer_confidence": 0.95
+    }
+  ],
+  "pond_state": "proofs/032-mechanistic-inference-challenge/pond_states/mechanism_inference",
+  "proof_id": "032-mechanistic-inference-challenge",
+  "suite": "multicause",
+  "total_items": 4
+}

@@ -1,0 +1,9 @@
+{
+  "baseline_valid_pathways": 36,
+  "cases": 5,
+  "irrelevant_injection_false_pathways": 0,
+  "no_ranking_field_size": 36,
+  "shared_motif_suppression_effect": "Average field-size reduction after suppressing shared motif: 4.2.",
+  "top_removed_valid_pathways": 25,
+  "top_two_removed_valid_pathways": 14
+}

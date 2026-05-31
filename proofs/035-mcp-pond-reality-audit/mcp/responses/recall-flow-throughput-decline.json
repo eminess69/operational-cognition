@@ -1,0 +1,108 @@
+{
+  "adapter_status": "placeholder",
+  "findings": [
+    {
+      "claim": "Request classified as audit for bounded local consultation.",
+      "confidence": "medium",
+      "evidence": [
+        "task",
+        "mode"
+      ],
+      "id": "task-class",
+      "lineage_refs": [
+        "request"
+      ],
+      "risk": "low"
+    },
+    {
+      "claim": "Constraint preserved: Fail closed if this response is not backed by real pond recall.",
+      "confidence": "high",
+      "evidence": [
+        "context.constraints[0]"
+      ],
+      "id": "constraint-001",
+      "lineage_refs": [
+        "constraint:0"
+      ],
+      "risk": "medium"
+    },
+    {
+      "claim": "Constraint preserved: Return lineage hashes, returned lineages, and returned motifs when recall exists.",
+      "confidence": "high",
+      "evidence": [
+        "context.constraints[1]"
+      ],
+      "id": "constraint-002",
+      "lineage_refs": [
+        "constraint:1"
+      ],
+      "risk": "low"
+    },
+    {
+      "claim": "Constraint preserved: Do not substitute generic consult text for pond-backed recall.",
+      "confidence": "high",
+      "evidence": [
+        "context.constraints[2]"
+      ],
+      "id": "constraint-003",
+      "lineage_refs": [
+        "constraint:2"
+      ],
+      "risk": "low"
+    },
+    {
+      "claim": "Constraint preserved: Use only isolated proof namespace proof-035-isolated-pond; report if isolation is unavailable.",
+      "confidence": "high",
+      "evidence": [
+        "context.constraints[3]"
+      ],
+      "id": "constraint-004",
+      "lineage_refs": [
+        "constraint:3"
+      ],
+      "risk": "low"
+    },
+    {
+      "claim": "Constraint preserved: Use only the isolated proof pond.",
+      "confidence": "high",
+      "evidence": [
+        "context.constraints[4]"
+      ],
+      "id": "constraint-005",
+      "lineage_refs": [
+        "constraint:4"
+      ],
+      "risk": "low"
+    }
+  ],
+  "lineage": {
+    "request_hash": "528fc5e3c153eef784ddec820aa6da9a3eab315d545c15a911b8c3a95e1a2a3d",
+    "response_hash": "2eea52b865ee2bddc30b5336714eaedee48be24c0530a504f8d82b548ff8bca1",
+    "source_refs": [
+      "request",
+      "context.summary"
+    ]
+  },
+  "mode": "audit",
+  "recommendations": [
+    {
+      "action": "Use only the documented response fields when consuming Inside Voice guidance.",
+      "blocking": true,
+      "id": "preserve-contract",
+      "reason": "The bridge intentionally exposes bounded structured consultation output only."
+    },
+    {
+      "action": "Record requested artifacts as local lineage references after deterministic verification.",
+      "blocking": false,
+      "id": "record-artifacts",
+      "reason": "Requested artifacts must remain traceable to the consultation request and response hashes."
+    }
+  ],
+  "request_id": "proof-035-recall-flow-throughput-decline",
+  "summary": "Placeholder Inside Voice adapter completed a bounded local consultation for task_class=audit.",
+  "uncertainty": [
+    "adapter_status=placeholder; no private substrate cognition was invoked.",
+    "Findings are derived only from explicit request fields."
+  ],
+  "verdict": "ok"
+}

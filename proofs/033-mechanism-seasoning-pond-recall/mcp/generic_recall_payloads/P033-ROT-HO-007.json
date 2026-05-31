@@ -1,0 +1,45 @@
+{
+  "adapter_status": "pond_backed",
+  "belief_state_before": "generic_consult_no_targeted_mechanism_recall",
+  "case_id": "P033-ROT-HO-007",
+  "consult_question": "Generic proof audit consult. Provide general boundary, traceability, and fail-closed cautions. Do not classify the mechanism and do not return FLOW, SUPPORTED_ROTATION, or LOAD_TRANSFER as candidates. Case text for context only: Observed system: A calibration knob revolves on a tiny socket; abrasion makes it grind and the setting motion locks halfway. Question: Which learned mechanism structure should be applied?",
+  "lineage_hashes": [
+    "8bd6ec8c4440291d93e79d232281ec6d85645d5cd8d22e7f8b1ce4c32ae5ca14",
+    "331b15096588270b6125afbabb31bbe3c6c5ac1cb447da7ca263c57df170753f",
+    "863037893faaf3d1935c93ec37728d69bdd761dd79dd42823acfc02881e270e4",
+    "9dc990b92a07a9c77beafae5036894225983ce47f5fd2c6650266d29afc81b15",
+    "19970b72023d5042fd5dabca376098a5062be2fac9065c0ade0aaa4fa534b0f4",
+    "6e61ec39d818d583b94d8fc46710cb0ac653c04126233833fdb133f2dc2c22c2",
+    "8d5db0b8dd07b21694c5801ab87b7b714391c490c8dbdcb69cb0ec68c4a02efa",
+    "b2ebc3546396d6d7a7ce9e621ee37dc512f026b6a73f85bd2f922ecb930387f3"
+  ],
+  "mcp_status": "pond_backed",
+  "pond_state_path": "/Users/mattdewing/Desktop/Operational Cognition/proofs/033-mechanism-seasoning-pond-recall/pond_states/mechanism_recall",
+  "reason": "Generic consult intentionally did not return mechanism candidates.",
+  "recall_used_by_cli": true,
+  "returned_lineages": [
+    "pressure:44eeb320a80c1c5f",
+    "pressure:1fb02e9c60565a25",
+    "inside_voice_runtime:8c7a0ef664098db91e88",
+    "inside_voice_runtime:d43e2e09c028b98314e8",
+    "authority:63405000ebba",
+    "contradiction:9d85edad8192",
+    "authority:7e4919d7f9e0",
+    "authority:632e86fc77ae",
+    "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+    "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#45",
+    "artifacts/pond/first_principles_seasoning_corpus.jsonl#fp_0046",
+    "artifacts/pond/first_principles_seasoning_scorecard.json",
+    "artifacts/pond/first_principles_admitted.jsonl",
+    "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+    "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57",
+    "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0"
+  ],
+  "returned_mechanism_candidates": [],
+  "returned_motifs": [
+    "pond_ranked_context:pressure:44eeb320a80c1c5f",
+    "pond_ranked_context:pressure:1fb02e9c60565a25",
+    "pond_ranked_context:inside_voice_runtime:8c7a0ef664098db91e88",
+    "pond_ranked_context:inside_voice_runtime:d43e2e09c028b98314e8"
+  ]
+}

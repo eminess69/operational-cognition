@@ -1,0 +1,104 @@
+{
+  "clusters": [
+    {
+      "attention_weight": 0.22,
+      "baseline_treatment": "dominant",
+      "cluster_id": "C1",
+      "consult_treatment": "proximate_technical_mechanism_not_standalone_primary",
+      "evidence": [
+        "Original MCAS used one AOA sensor at a time.",
+        "Repeated activation and fixed incremental stabilizer movement created large mistrim risk.",
+        "Return-to-service fixes directly target this cluster."
+      ],
+      "name": "MCAS control-law and stabilizer authority",
+      "sources": [
+        "SRC-FAA-RTS-2020",
+        "SRC-HOUSE-2020"
+      ]
+    },
+    {
+      "attention_weight": 0.24,
+      "baseline_treatment": "secondary_enabler",
+      "cluster_id": "C2",
+      "consult_treatment": "promoted_to_primary_mechanism",
+      "evidence": [
+        "MCAS was not treated as an integrated function across certification documents.",
+        "Pilot-response assumptions affected hazard classification.",
+        "FAA oversight failed to surface design changes and assumptions."
+      ],
+      "name": "Certification, safety assessment, and delegation",
+      "sources": [
+        "SRC-FAA-JATR-2019",
+        "SRC-HOUSE-2020",
+        "SRC-NTSB-ASR-2019"
+      ]
+    },
+    {
+      "attention_weight": 0.18,
+      "baseline_treatment": "secondary_enabler",
+      "cluster_id": "C3",
+      "consult_treatment": "integrated_with_hazard_classification_and_training_boundary",
+      "evidence": [
+        "Multiple alerts and indications affected diagnosis and response.",
+        "MCAS information was absent or limited in pre-accident crew materials.",
+        "Revised procedures and training were part of the return-to-service package."
+      ],
+      "name": "Human factors, alerts, training, and crew response",
+      "sources": [
+        "SRC-NTSB-ASR-2019",
+        "SRC-BEA-ET302-2023",
+        "SRC-FAA-RTS-2020"
+      ]
+    },
+    {
+      "attention_weight": 0.12,
+      "baseline_treatment": "trigger_only",
+      "cluster_id": "C4",
+      "consult_treatment": "kept_active_for_accident_chain_completeness",
+      "evidence": [
+        "JT610 involved a mis-calibrated replacement AOA sensor that went undetected.",
+        "ET302 AOA failure mechanism is disputed between EAIB and NTSB, but erroneous AOA is common.",
+        "FAA required AOA sensor system tests before return to service."
+      ],
+      "name": "AOA sensor, maintenance, and accident-specific initiating events",
+      "sources": [
+        "SRC-KNKT-JT610-2019",
+        "SRC-NTSB-ET302-2023",
+        "SRC-FAA-RTS-2020"
+      ]
+    },
+    {
+      "attention_weight": 0.13,
+      "baseline_treatment": "underweighted",
+      "cluster_id": "C5",
+      "consult_treatment": "recovered_as_viable_latent_mechanism",
+      "evidence": [
+        "House report treats production/cost/schedule pressure as safety-relevant.",
+        "Avoiding greater training differences shaped program incentives."
+      ],
+      "name": "Program economics, schedule, production, and training continuity",
+      "sources": [
+        "SRC-HOUSE-2020"
+      ]
+    },
+    {
+      "attention_weight": 0.11,
+      "baseline_treatment": "underweighted",
+      "cluster_id": "C6",
+      "consult_treatment": "recovered_as_architectural_constraint",
+      "evidence": [
+        "Some certification/design elements remained rooted in the original 737 type certificate.",
+        "The larger LEAP engines and 737 continuity goal shaped the need for handling augmentation."
+      ],
+      "name": "Derivative architecture and changed-product legacy frame",
+      "sources": [
+        "SRC-FAA-JATR-2019",
+        "SRC-HOUSE-2020"
+      ]
+    }
+  ],
+  "diversity_change": "+0.26 vs baseline",
+  "evidence_diversity_score": 0.88,
+  "note": "Weights remain judgmental but lineage-bound to public source IDs; consult output is advisory pressure, not source authority.",
+  "run": "consult_protocol_e_only"
+}

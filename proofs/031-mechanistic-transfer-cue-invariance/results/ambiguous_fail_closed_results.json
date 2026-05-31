@@ -1,0 +1,419 @@
+{
+  "accuracy": 1.0,
+  "answered_items": 0,
+  "correct_items": 5,
+  "deterministic_replay_match": true,
+  "execution_mode": "deterministic_cli_no_llm",
+  "fail_closed_items": 5,
+  "items": [
+    {
+      "answer": "",
+      "basis": "UNSUPPORTED",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "failure"
+          ],
+          "mechanism_id": "supported_rotation",
+          "score": 1.05
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        }
+      ],
+      "component_category": "",
+      "confidence": 0.0,
+      "correct": true,
+      "decoy_words_present": [],
+      "designed_structure_features": [],
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_mechanism": "",
+      "expected_status": "FAIL_CLOSED",
+      "fail_closed_reason": "insufficient_motif_support",
+      "identified_mechanism": "",
+      "inspection_priority": "",
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_lineage": [],
+      "observed_system": "A machine stopped working.",
+      "question": "Observed system: A machine stopped working. Question: What mechanism is similar?",
+      "question_id": "AF-001",
+      "rejected_mechanisms": [
+        {
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "failure"
+          ],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 1.05
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "suite": "ambiguous_fail_closed",
+      "supporting_motifs": [],
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "",
+      "basis": "UNSUPPORTED",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "flow"
+          ],
+          "mechanism_id": "flow",
+          "score": 1.05
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "component_category": "",
+      "confidence": 0.0,
+      "correct": true,
+      "decoy_words_present": [],
+      "designed_structure_features": [],
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_mechanism": "",
+      "expected_status": "FAIL_CLOSED",
+      "fail_closed_reason": "insufficient_motif_support",
+      "identified_mechanism": "",
+      "inspection_priority": "",
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_lineage": [],
+      "observed_system": "Movement got worse.",
+      "question": "Observed system: Movement got worse. Question: What mechanism is similar?",
+      "question_id": "AF-002",
+      "rejected_mechanisms": [
+        {
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "flow"
+          ],
+          "mechanism_id": "flow",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 1.05
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "suite": "ambiguous_fail_closed",
+      "supporting_motifs": [],
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "",
+      "basis": "UNSUPPORTED",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "friction"
+          ],
+          "mechanism_id": "supported_rotation",
+          "score": 1.05
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        }
+      ],
+      "component_category": "",
+      "confidence": 0.0,
+      "correct": true,
+      "decoy_words_present": [],
+      "designed_structure_features": [],
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_mechanism": "",
+      "expected_status": "FAIL_CLOSED",
+      "fail_closed_reason": "insufficient_motif_support",
+      "identified_mechanism": "",
+      "inspection_priority": "",
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_lineage": [],
+      "observed_system": "Something is noisy near a structure.",
+      "question": "Observed system: Something is noisy near a structure. Question: What mechanism is similar?",
+      "question_id": "AF-003",
+      "rejected_mechanisms": [
+        {
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "friction"
+          ],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 1.05
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "suite": "ambiguous_fail_closed",
+      "supporting_motifs": [],
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "",
+      "basis": "UNSUPPORTED",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "score": 0.0
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "score": 0.0
+        }
+      ],
+      "component_category": "",
+      "confidence": 0.0,
+      "correct": true,
+      "decoy_words_present": [],
+      "designed_structure_features": [],
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_mechanism": "",
+      "expected_status": "FAIL_CLOSED",
+      "fail_closed_reason": "insufficient_motif_support",
+      "identified_mechanism": "",
+      "inspection_priority": "",
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_lineage": [],
+      "observed_system": "A part has activity and effort, but the description gives no layout or symptom chain.",
+      "question": "Observed system: A part has activity and effort, but the description gives no layout or symptom chain. Question: What mechanism is similar?",
+      "question_id": "AF-004",
+      "rejected_mechanisms": [
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "suite": "ambiguous_fail_closed",
+      "supporting_motifs": [],
+      "transfer_confidence": 0.0
+    },
+    {
+      "answer": "",
+      "basis": "UNSUPPORTED",
+      "candidate_evidence": [
+        {
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "load"
+          ],
+          "mechanism_id": "load_transfer",
+          "score": 1.05
+        },
+        {
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "failure"
+          ],
+          "mechanism_id": "supported_rotation",
+          "score": 1.05
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "score": 0.0
+        }
+      ],
+      "component_category": "",
+      "confidence": 0.0,
+      "correct": true,
+      "decoy_words_present": [],
+      "designed_structure_features": [],
+      "deterministic_replay_match": true,
+      "evidence_features": [],
+      "expected_mechanism": "",
+      "expected_status": "FAIL_CLOSED",
+      "fail_closed_reason": "insufficient_motif_support",
+      "identified_mechanism": "",
+      "inspection_priority": "",
+      "matched_roles": [],
+      "mechanism_explanation": "",
+      "motif_lineage": [],
+      "observed_system": "A device is slow and heavy.",
+      "question": "Observed system: A device is slow and heavy. Question: What mechanism is similar?",
+      "question_id": "AF-005",
+      "rejected_mechanisms": [
+        {
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "load"
+          ],
+          "mechanism_id": "load_transfer",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 1.05
+        },
+        {
+          "matched_cue_count": 1,
+          "matched_role_count": 1,
+          "matched_roles": [
+            "failure"
+          ],
+          "mechanism_id": "supported_rotation",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 1.05
+        },
+        {
+          "matched_cue_count": 0,
+          "matched_role_count": 0,
+          "matched_roles": [],
+          "mechanism_id": "flow",
+          "rejection_reason": "insufficient_motif_support",
+          "score": 0.0
+        }
+      ],
+      "source_mechanism": "",
+      "source_tracebacks": [],
+      "status": "FAIL_CLOSED",
+      "suite": "ambiguous_fail_closed",
+      "supporting_motifs": [],
+      "transfer_confidence": 0.0
+    }
+  ],
+  "pond_state": "proofs/031-mechanistic-transfer-cue-invariance/pond_states/mechanism_seasoned",
+  "proof_id": "031-mechanistic-transfer-cue-invariance",
+  "suite": "ambiguous_fail_closed",
+  "total_items": 5
+}

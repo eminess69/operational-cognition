@@ -1,0 +1,165 @@
+{
+  "concepts": [
+    {
+      "concept_id": "counting",
+      "motif_ids": [
+        "g1_counting_sequence"
+      ],
+      "pathway_ids": [
+        "pathway:g1_counting_sequence"
+      ],
+      "source_lesson_ids": [
+        "G1-L001"
+      ],
+      "source_proof": "proofs/028-developmental-learning-grade-ladder"
+    },
+    {
+      "concept_id": "division_as_grouping",
+      "motif_ids": [
+        "g2_equal_grouping_division"
+      ],
+      "pathway_ids": [
+        "pathway:g1_subtraction->g2_equal_grouping_division"
+      ],
+      "source_lesson_ids": [
+        "G2-L006"
+      ],
+      "source_proof": "proofs/028-developmental-learning-grade-ladder"
+    },
+    {
+      "concept_id": "equality",
+      "motif_ids": [
+        "g1_same_value_equality"
+      ],
+      "pathway_ids": [
+        "pathway:g1_equality_check"
+      ],
+      "source_lesson_ids": [
+        "G1-L004"
+      ],
+      "source_proof": "proofs/028-developmental-learning-grade-ladder"
+    },
+    {
+      "concept_id": "multiplication_as_repeated_addition",
+      "motif_ids": [
+        "g2_equal_groups_repeated_addition"
+      ],
+      "pathway_ids": [
+        "pathway:g1_addition->g2_equal_groups_repeated_addition"
+      ],
+      "source_lesson_ids": [
+        "G2-L005"
+      ],
+      "source_proof": "proofs/028-developmental-learning-grade-ladder"
+    },
+    {
+      "concept_id": "number_comparison",
+      "motif_ids": [
+        "g1_number_order_comparison"
+      ],
+      "pathway_ids": [
+        "pathway:g1_counting->g1_number_order"
+      ],
+      "source_lesson_ids": [
+        "G1-L005"
+      ],
+      "source_proof": "proofs/028-developmental-learning-grade-ladder"
+    },
+    {
+      "concept_id": "one_digit_addition",
+      "motif_ids": [
+        "g1_count_forward_addition"
+      ],
+      "pathway_ids": [
+        "pathway:g1_counting->g1_one_digit_addition"
+      ],
+      "source_lesson_ids": [
+        "G1-L002"
+      ],
+      "source_proof": "proofs/028-developmental-learning-grade-ladder"
+    },
+    {
+      "concept_id": "one_digit_subtraction",
+      "motif_ids": [
+        "g1_take_away_subtraction"
+      ],
+      "pathway_ids": [
+        "pathway:g1_counting->g1_one_digit_subtraction"
+      ],
+      "source_lesson_ids": [
+        "G1-L003"
+      ],
+      "source_proof": "proofs/028-developmental-learning-grade-ladder"
+    },
+    {
+      "concept_id": "place_value",
+      "motif_ids": [
+        "g2_tens_ones_place_value"
+      ],
+      "pathway_ids": [
+        "pathway:g1_counting->g2_tens_ones_place_value"
+      ],
+      "source_lesson_ids": [
+        "G2-L003"
+      ],
+      "source_proof": "proofs/028-developmental-learning-grade-ladder"
+    },
+    {
+      "concept_id": "simple_word_problems",
+      "motif_ids": [
+        "g1_word_problem_operation_mapping"
+      ],
+      "pathway_ids": [
+        "pathway:g1_language_to_operation"
+      ],
+      "source_lesson_ids": [
+        "G1-L006"
+      ],
+      "source_proof": "proofs/028-developmental-learning-grade-ladder"
+    },
+    {
+      "concept_id": "skip_counting",
+      "motif_ids": [
+        "g2_fixed_step_skip_counting"
+      ],
+      "pathway_ids": [
+        "pathway:g1_addition->g2_fixed_step_skip_counting"
+      ],
+      "source_lesson_ids": [
+        "G2-L004"
+      ],
+      "source_proof": "proofs/028-developmental-learning-grade-ladder"
+    },
+    {
+      "concept_id": "two_digit_addition_without_carrying",
+      "motif_ids": [
+        "g2_no_carry_column_addition"
+      ],
+      "pathway_ids": [
+        "pathway:g1_addition->g2_place_value->g2_no_carry_addition"
+      ],
+      "source_lesson_ids": [
+        "G2-L001"
+      ],
+      "source_proof": "proofs/028-developmental-learning-grade-ladder"
+    },
+    {
+      "concept_id": "two_digit_subtraction_without_borrowing",
+      "motif_ids": [
+        "g2_no_borrow_column_subtraction"
+      ],
+      "pathway_ids": [
+        "pathway:g1_subtraction->g2_place_value->g2_no_borrow_subtraction"
+      ],
+      "source_lesson_ids": [
+        "G2-L002"
+      ],
+      "source_proof": "proofs/028-developmental-learning-grade-ladder"
+    }
+  ],
+  "frozen_concept_count": 12,
+  "new_math_concepts_allowed": false,
+  "proof_id": "029-developmental-learning-surface-robustness",
+  "source_pond": "proofs/028-developmental-learning-grade-ladder/pond_states/grade_2",
+  "source_state_hash": "8a54ef95ad748673289ddf8470417d2bedd9ad2641e26ef99c66b32178980322"
+}

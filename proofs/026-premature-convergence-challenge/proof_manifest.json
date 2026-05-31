@@ -1,0 +1,59 @@
+{
+  "claim_level": "evidence_backed",
+  "disallowed_claims": [
+    "inside_voice_as_boeing_authority",
+    "hidden_chain_of_thought",
+    "single_cause_overclaim",
+    "unsupported_historical_claims",
+    "consult_as_data_gathering",
+    "private_substrate_details"
+  ],
+  "inside_voice_adapter_status": "pond_backed_protocol_e_decision_gate_consult_used",
+  "lineage": {
+    "contract_version": "inside_voice.mcp.consultation.v1",
+    "derived_from": "source_corpus.json; baseline; consult/inside_voice_consults; decision_gate_log.jsonl",
+    "mcp_endpoint": "http://127.0.0.1:8766/consult",
+    "request_hash": "52851ab72e61c9714c479aba794be3752deb012d00569068118f8a442737b6d3",
+    "response_hash": "fa1c0361f1600675a4d034a9bb4ffde09a07d7be8f7197eb7625398d412bedb4",
+    "validates": "premature_convergence_resistance_under_protocol_e_contradiction_pressure"
+  },
+  "proof_id": "026-premature-convergence-challenge",
+  "public_private_boundary": "public source IDs, bounded consult summaries, hashes, metrics, and decision-gate actions only; no hidden reasoning, private substrate details, or consult-as-authority claims",
+  "required_artifacts": [
+    "README.md",
+    "proof_manifest.json",
+    "source_corpus.json",
+    "baseline/hypothesis_rankings.json",
+    "baseline/evidence_clusters.json",
+    "baseline/convergence_log.json",
+    "baseline/final_verdict.md",
+    "decision_gate_log.jsonl",
+    "consult/decision_gate_log.jsonl",
+    "consult/hypothesis_rankings.json",
+    "consult/evidence_clusters.json",
+    "consult/convergence_log.json",
+    "consult/final_verdict.md",
+    "delta/consult_vs_baseline_report.json",
+    "metrics.json",
+    "source_lineage_verification.json",
+    "consult_causality_audit.json",
+    "public_lineage_summary.md",
+    "consult/inside_voice_consults/001_gate_weakens_leader_request.json",
+    "consult/inside_voice_consults/002_gate_viable_competitor_request.json",
+    "consult/inside_voice_consults/003_gate_underweighted_cluster_request.json",
+    "consult/inside_voice_consults/004_gate_convergence_assumption_request.json",
+    "consult/inside_voice_consults/005_gate_falsifier_request.json",
+    "consult/inside_voice_consults/001_gate_weakens_leader_response.json",
+    "consult/inside_voice_consults/002_gate_viable_competitor_response.json",
+    "consult/inside_voice_consults/003_gate_underweighted_cluster_response.json",
+    "consult/inside_voice_consults/004_gate_convergence_assumption_response.json",
+    "consult/inside_voice_consults/005_gate_falsifier_response.json"
+  ],
+  "status": "complete",
+  "targets": [
+    "PrematureConvergenceResistance",
+    "ProtocolEContradictionFirstConsultation",
+    "Boeing737MAXCausalMechanismInvestigation"
+  ],
+  "title": "Proof 026 - Premature Convergence Challenge"
+}

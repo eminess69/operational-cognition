@@ -1,0 +1,33 @@
+{
+  "classification_counts": {
+    "PLACEHOLDER": 3
+  },
+  "consult_count": 3,
+  "fail_closed_or_low_confidence": true,
+  "phase": "phase_4_negative_recall_audit",
+  "proof_id": "035-mcp-pond-reality-audit",
+  "queries": [
+    {
+      "classification": "PLACEHOLDER",
+      "event_id": "negative-negative-rotating-support-failure",
+      "lineage_hash_count": 0,
+      "returned_lineage_count": 0,
+      "returned_motif_count": 0
+    },
+    {
+      "classification": "PLACEHOLDER",
+      "event_id": "negative-negative-bearing-seizure",
+      "lineage_hash_count": 0,
+      "returned_lineage_count": 0,
+      "returned_motif_count": 0
+    },
+    {
+      "classification": "PLACEHOLDER",
+      "event_id": "negative-negative-load-concentration",
+      "lineage_hash_count": 0,
+      "returned_lineage_count": 0,
+      "returned_motif_count": 0
+    }
+  ],
+  "unexpected_strong_responses": []
+}

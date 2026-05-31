@@ -1,0 +1,105 @@
+{
+  "above_chance_on_seasoned_mechanisms": false,
+  "allowed_classes": [
+    "FLOW",
+    "SUPPORTED_ROTATION",
+    "LOAD_TRANSFER",
+    "UNKNOWN"
+  ],
+  "evaluations": [
+    {
+      "blind_input": {
+        "lineage_hashes": [],
+        "returned_lineages": [],
+        "returned_motifs": []
+      },
+      "classification": "UNKNOWN",
+      "correct": false,
+      "expected_for_scoring": "FLOW",
+      "sample_id": "blind-flow-01"
+    },
+    {
+      "blind_input": {
+        "lineage_hashes": [],
+        "returned_lineages": [],
+        "returned_motifs": []
+      },
+      "classification": "UNKNOWN",
+      "correct": false,
+      "expected_for_scoring": "FLOW",
+      "sample_id": "blind-flow-02"
+    },
+    {
+      "blind_input": {
+        "lineage_hashes": [],
+        "returned_lineages": [],
+        "returned_motifs": []
+      },
+      "classification": "UNKNOWN",
+      "correct": false,
+      "expected_for_scoring": "FLOW",
+      "sample_id": "blind-flow-03"
+    },
+    {
+      "blind_input": {
+        "lineage_hashes": [],
+        "returned_lineages": [],
+        "returned_motifs": []
+      },
+      "classification": "UNKNOWN",
+      "correct": false,
+      "expected_for_scoring": "SUPPORTED_ROTATION",
+      "sample_id": "blind-rotation-01"
+    },
+    {
+      "blind_input": {
+        "lineage_hashes": [],
+        "returned_lineages": [],
+        "returned_motifs": []
+      },
+      "classification": "UNKNOWN",
+      "correct": false,
+      "expected_for_scoring": "SUPPORTED_ROTATION",
+      "sample_id": "blind-rotation-02"
+    },
+    {
+      "blind_input": {
+        "lineage_hashes": [],
+        "returned_lineages": [],
+        "returned_motifs": []
+      },
+      "classification": "UNKNOWN",
+      "correct": true,
+      "expected_for_scoring": "UNKNOWN",
+      "sample_id": "blind-negative-01"
+    },
+    {
+      "blind_input": {
+        "lineage_hashes": [],
+        "returned_lineages": [],
+        "returned_motifs": []
+      },
+      "classification": "UNKNOWN",
+      "correct": true,
+      "expected_for_scoring": "UNKNOWN",
+      "sample_id": "blind-negative-02"
+    },
+    {
+      "blind_input": {
+        "lineage_hashes": [],
+        "returned_lineages": [],
+        "returned_motifs": []
+      },
+      "classification": "UNKNOWN",
+      "correct": true,
+      "expected_for_scoring": "UNKNOWN",
+      "sample_id": "blind-negative-03"
+    }
+  ],
+  "interpretation": "Blind artifacts did not identify seasoned mechanisms above chance.",
+  "mechanism_accuracy": 0.0,
+  "mechanism_correct": 0,
+  "mechanism_trial_count": 5,
+  "phase": "phase_7_blind_consult_evaluation",
+  "proof_id": "035-mcp-pond-reality-audit"
+}

@@ -1,0 +1,163 @@
+[
+  {
+    "case_id": "P041-CP-001",
+    "composite_required": true,
+    "reason": "A reserve delays the change, a limit crossing changes state, a return signal reinforces decline, and capacity drains.",
+    "selected_pathway_id": "P041-CP-001-f89cab7ed68a",
+    "single_mechanism_sufficient": false
+  },
+  {
+    "case_id": "P041-CP-003",
+    "composite_required": true,
+    "reason": "Spread, magnification, and a return response form one composite cascade.",
+    "selected_pathway_id": "P041-CP-003-cc36447d7946",
+    "single_mechanism_sufficient": false
+  },
+  {
+    "case_id": "P041-CP-005",
+    "composite_required": true,
+    "reason": "Route restriction, reserve absorption, and growing stored work jointly explain the outcome.",
+    "selected_pathway_id": "P041-CP-005-664b8f3a49c3",
+    "single_mechanism_sufficient": false
+  },
+  {
+    "case_id": "P041-CP-006",
+    "composite_required": true,
+    "reason": "Rough turning, offsetting drive, and final limit crossing all matter.",
+    "selected_pathway_id": "P041-CP-006-1317a7a5c978",
+    "single_mechanism_sufficient": false
+  },
+  {
+    "case_id": "P041-CP-007",
+    "composite_required": true,
+    "reason": "Force redistribution, crack buildup, and final crossing form the composite.",
+    "selected_pathway_id": "P041-CP-007-984c68270e55",
+    "single_mechanism_sufficient": false
+  },
+  {
+    "case_id": "P041-CP-009",
+    "composite_required": true,
+    "reason": "Return correction, overshoot rhythm, and offsetting action are all needed.",
+    "selected_pathway_id": "P041-CP-009-875cf6ddc17a",
+    "single_mechanism_sufficient": false
+  },
+  {
+    "case_id": "P041-CP-010",
+    "composite_required": true,
+    "reason": "Spread, temporary absorption, and exhaustion form the pathway.",
+    "selected_pathway_id": "P041-CP-010-c9905c137959",
+    "single_mechanism_sufficient": false
+  },
+  {
+    "case_id": "P041-CP-011",
+    "composite_required": true,
+    "reason": "Slack absorption, route restriction, and return delay signals interact.",
+    "selected_pathway_id": "P041-CP-011-d314980a55c3",
+    "single_mechanism_sufficient": false
+  },
+  {
+    "case_id": "P041-CP-012",
+    "composite_required": true,
+    "reason": "Spread heat, turning drag, and limit crossing jointly explain lockup.",
+    "selected_pathway_id": "P041-CP-012-9bc737692be6",
+    "single_mechanism_sufficient": false
+  },
+  {
+    "case_id": "P041-CP-014",
+    "composite_required": true,
+    "reason": "Magnification, trip crossing, and return reinforcement form the pathway.",
+    "selected_pathway_id": "P041-CP-014-0f0e36a495c0",
+    "single_mechanism_sufficient": false
+  },
+  {
+    "case_id": "P041-CP-015",
+    "composite_required": true,
+    "reason": "Stored inventory, slack absorption, and repeated overshoot interact.",
+    "selected_pathway_id": "P041-CP-015-677d38164f64",
+    "single_mechanism_sufficient": false
+  },
+  {
+    "case_id": "P041-CP-016",
+    "composite_required": true,
+    "reason": "Spread, relay gain, and attention drain create the composite.",
+    "selected_pathway_id": "P041-CP-016-cf72af247d8a",
+    "single_mechanism_sufficient": false
+  },
+  {
+    "case_id": "P041-CP-017",
+    "composite_required": true,
+    "reason": "Workaround masking, capacity drain, and handoff restriction are required.",
+    "selected_pathway_id": "P041-CP-017-5226bdf1d365",
+    "single_mechanism_sufficient": false
+  },
+  {
+    "case_id": "P041-CP-018",
+    "composite_required": true,
+    "reason": "Turning release, buildup, return correction, and repeated pulses interact.",
+    "selected_pathway_id": "P041-CP-018-4f52fc6eafd2",
+    "single_mechanism_sufficient": false
+  },
+  {
+    "case_id": "P041-CP-019",
+    "composite_required": true,
+    "reason": "Force redistribution, temporary absorption, crack spread, and capacity use form one pathway.",
+    "selected_pathway_id": "P041-CP-019-794e75854459",
+    "single_mechanism_sufficient": false
+  },
+  {
+    "case_id": "P041-CP-020",
+    "composite_required": true,
+    "reason": "Route restriction, magnified delay, limit crossing, and return signal interact.",
+    "selected_pathway_id": "P041-CP-020-c86939ebdf2d",
+    "single_mechanism_sufficient": false
+  },
+  {
+    "case_id": "P041-CP-021",
+    "composite_required": true,
+    "reason": "Reserve masking, fuel drain, return demand, and acceleration form the composite.",
+    "selected_pathway_id": "P041-CP-021-926a572fe2d6",
+    "single_mechanism_sufficient": false
+  },
+  {
+    "case_id": "P041-CP-022",
+    "composite_required": true,
+    "reason": "Late trigger, offsetting correction, repeated reversal, and delayed return signal interact.",
+    "selected_pathway_id": "P041-CP-022-a92b815c9d60",
+    "single_mechanism_sufficient": false
+  },
+  {
+    "case_id": "P041-CP-023",
+    "composite_required": true,
+    "reason": "Buildup, spread, and passage restriction form the pathway.",
+    "selected_pathway_id": "P041-CP-023-720c0ff24204",
+    "single_mechanism_sufficient": false
+  },
+  {
+    "case_id": "P041-CP-024",
+    "composite_required": true,
+    "reason": "Local demand concentration, magnified deformation, and failure crossing interact.",
+    "selected_pathway_id": "P041-CP-024-41d8e8cb8228",
+    "single_mechanism_sufficient": false
+  },
+  {
+    "case_id": "P041-CP-025",
+    "composite_required": true,
+    "reason": "Spread heat, turning drag, offsetting drive, and capacity drain form the composite.",
+    "selected_pathway_id": "P041-CP-025-641607da9660",
+    "single_mechanism_sufficient": false
+  },
+  {
+    "case_id": "P041-CP-029",
+    "composite_required": true,
+    "reason": "Staff reserve, ticket spread, capacity drain, and return delay signals form a composite.",
+    "selected_pathway_id": "P041-CP-029-7a705d7ea24b",
+    "single_mechanism_sufficient": false
+  },
+  {
+    "case_id": "P041-CP-030",
+    "composite_required": true,
+    "reason": "Turning release, repeating waves, queue buildup, route restriction, and limit rule interact.",
+    "selected_pathway_id": "P041-CP-030-383de2aafbf9",
+    "single_mechanism_sufficient": false
+  }
+]

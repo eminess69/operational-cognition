@@ -1,0 +1,45 @@
+{
+  "adapter_status": "pond_backed",
+  "belief_state_before": "generic_consult_no_targeted_mechanism_recall",
+  "case_id": "P033-FLOW-HO-007",
+  "consult_question": "Generic proof audit consult. Provide general boundary, traceability, and fail-closed cautions. Do not classify the mechanism and do not return FLOW, SUPPORTED_ROTATION, or LOAD_TRANSFER as candidates. Case text for context only: Observed system: Badges start at a kiosk origin, advance through a passage, then crowd before a verification throat; the exit side receives few badges. Question: Which learned mechanism structure should be applied?",
+  "lineage_hashes": [
+    "2869716f10ed5d4cfad4bc430250663d731b933b40b270778706ef6ee3523be9",
+    "89f9d29c5d51e2db6a833b6aa8b3eb4a56e3c1c98452b0f95be5f0f6c574a8df",
+    "bd224c0d8b584c7638cb5a3f062c53e8d90a2d5dffaaf6213c659722551676ae",
+    "9dc990b92a07a9c77beafae5036894225983ce47f5fd2c6650266d29afc81b15",
+    "19970b72023d5042fd5dabca376098a5062be2fac9065c0ade0aaa4fa534b0f4",
+    "7216a0edcea2a46e95a731bf902bd16ed336ea5bd090ac1609e021b5f8fb5dc8",
+    "8d5db0b8dd07b21694c5801ab87b7b714391c490c8dbdcb69cb0ec68c4a02efa",
+    "b2ebc3546396d6d7a7ce9e621ee37dc512f026b6a73f85bd2f922ecb930387f3"
+  ],
+  "mcp_status": "pond_backed",
+  "pond_state_path": "/Users/mattdewing/Desktop/Operational Cognition/proofs/033-mechanism-seasoning-pond-recall/pond_states/mechanism_recall",
+  "reason": "Generic consult intentionally did not return mechanism candidates.",
+  "recall_used_by_cli": true,
+  "returned_lineages": [
+    "pressure:44eeb320a80c1c5f",
+    "pressure:d8de60fd8c8f7df9",
+    "inside_voice_runtime:8c7a0ef664098db91e88",
+    "inside_voice_runtime:d43e2e09c028b98314e8",
+    "authority:63405000ebba",
+    "contradiction:9d85edad8192",
+    "authority:7e4919d7f9e0",
+    "authority:632e86fc77ae",
+    "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+    "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#58",
+    "artifacts/pond/first_principles_seasoning_corpus.jsonl#fp_0059",
+    "artifacts/pond/first_principles_seasoning_scorecard.json",
+    "artifacts/pond/first_principles_admitted.jsonl",
+    "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+    "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57",
+    "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0"
+  ],
+  "returned_mechanism_candidates": [],
+  "returned_motifs": [
+    "pond_ranked_context:pressure:44eeb320a80c1c5f",
+    "pond_ranked_context:pressure:d8de60fd8c8f7df9",
+    "pond_ranked_context:inside_voice_runtime:8c7a0ef664098db91e88",
+    "pond_ranked_context:inside_voice_runtime:d43e2e09c028b98314e8"
+  ]
+}

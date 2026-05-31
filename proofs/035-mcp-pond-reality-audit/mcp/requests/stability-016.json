@@ -1,0 +1,25 @@
+{
+  "context": {
+    "constraints": [
+      "Fail closed if this response is not backed by real pond recall.",
+      "Return lineage hashes, returned lineages, and returned motifs when recall exists.",
+      "Do not substitute generic consult text for pond-backed recall.",
+      "Use only isolated proof namespace proof-035-isolated-pond; report if isolation is unavailable.",
+      "This is an exact repeated consult.",
+      "Return the same traceable recall artifacts if the pond recall is deterministic."
+    ],
+    "desired_artifacts": [
+      "candidate pathways",
+      "returned motifs",
+      "returned lineages",
+      "lineage hashes"
+    ],
+    "files": [],
+    "summary": "Repeat the exact same recall consult for stability measurement. Requested isolated pond namespace: proof-035-isolated-pond. Proof phase: phase_5_recall_stability."
+  },
+  "max_output_chars": 4000,
+  "mode": "audit",
+  "request_id": "proof-035-stability-fixed-consult",
+  "require_lineage": true,
+  "task": "What pathways are relevant to water restriction, throughput decline, and bottleneck formation?"
+}

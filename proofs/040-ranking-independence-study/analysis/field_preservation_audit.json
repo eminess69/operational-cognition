@@ -1,0 +1,11 @@
+{
+  "activated_mechanisms_after_ranking": 2.725,
+  "activated_mechanisms_before_ranking": 4.5,
+  "after_ranking_by_arm": {
+    "arm_a_current": 2.9667,
+    "arm_b_blind": 2.9667,
+    "arm_c_shuffled": 2.9667,
+    "arm_d_voting": 2.0
+  },
+  "field_collapse_rate": 0.3944
+}

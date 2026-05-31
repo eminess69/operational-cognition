@@ -1,0 +1,26 @@
+{
+  "context": {
+    "constraints": [
+      "Fail closed if this response is not backed by real pond recall.",
+      "Return lineage hashes, returned lineages, and returned motifs when recall exists.",
+      "Do not substitute generic consult text for pond-backed recall.",
+      "Use only isolated proof namespace proof-035-isolated-pond; report if isolation is unavailable.",
+      "Season only FLOW.",
+      "Do not season rotation.",
+      "Do not season load transfer.",
+      "Report fail-closed if actual seasoning is unavailable."
+    ],
+    "desired_artifacts": [
+      "seasoning acceptance",
+      "lineage hashes",
+      "returned motifs"
+    ],
+    "files": [],
+    "summary": "Controlled seasoning lesson FLOW-004 for FLOW only. Requested isolated pond namespace: proof-035-isolated-pond. Proof phase: phase_2_controlled_seasoning."
+  },
+  "max_output_chars": 4000,
+  "mode": "audit",
+  "request_id": "proof-035-season-flow-004-warehouse-kitting",
+  "require_lineage": true,
+  "task": "ACTION: SEASON exactly one mechanism into the isolated proof pond. Mechanism label: FLOW. Lesson FLOW-004: Bins enter a packing path, a metered label step limits passage, and finished kits leave in a trickle."
+}

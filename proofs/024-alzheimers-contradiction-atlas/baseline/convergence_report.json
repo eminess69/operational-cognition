@@ -1,0 +1,71 @@
+{
+  "baseline_false_convergences": [
+    "Amyloid/tau evidence was weighted as a near-default explanatory spine before mixed-pathology and vascular-safety contradictions were fully separated.",
+    "Biomarker confidence was allowed to leak into etiologic confidence."
+  ],
+  "baseline_limitations": [
+    "No /consult used.",
+    "Baseline recognizes non-amyloid clusters but does not let them reorder the top bottleneck list."
+  ],
+  "basis_for_leading_hypothesis": [
+    "PMID-33986301",
+    "PMID-35177833",
+    "PMID-34815562",
+    "PMID-39014245",
+    "PMID-37875627",
+    "PMID-36449413",
+    "PMID-37459141",
+    "PMID-37966285",
+    "PMID-35542991",
+    "PMID-38429551",
+    "PMID-39068545",
+    "PMID-38866966",
+    "PMID-38252443",
+    "PMID-36508198",
+    "PMID-37443334",
+    "PMID-39068669"
+  ],
+  "consult_used": false,
+  "convergence_status": "premature_convergence_risk_detected",
+  "leading_hypothesis": "Amyloid/tau cascade with biomarker-defined AD biology and secondary modifiers.",
+  "pressure_tests": [
+    {
+      "missed_or_underweighted_sources": [
+        "PMID-35542991",
+        "PMID-37966285",
+        "PMID-38683602"
+      ],
+      "pressure_id": "PCR-001",
+      "risk": "Overreading amyloid removal as sufficient disease modification."
+    },
+    {
+      "missed_or_underweighted_sources": [
+        "PMID-37563264",
+        "PMID-38520489",
+        "PMID-40164861"
+      ],
+      "pressure_id": "PCR-002",
+      "risk": "Treating biomarker-defined AD as equivalent to clinical etiology."
+    },
+    {
+      "missed_or_underweighted_sources": [
+        "PMID-31827267",
+        "PMID-35099507",
+        "PMID-40063015",
+        "PMID-39179297"
+      ],
+      "pressure_id": "PCR-003",
+      "risk": "Treating vascular pathology as comorbidity rather than therapy-relevant contradiction."
+    },
+    {
+      "missed_or_underweighted_sources": [
+        "PMID-38866966",
+        "PMID-39068545",
+        "OFF-NIA-BLOOD-BIOMARKERS-2024"
+      ],
+      "pressure_id": "PCR-004",
+      "risk": "Treating blood biomarker progress as purely settled rather than deployment-contested."
+    }
+  ],
+  "run_id": "phase-a-baseline-no-consult"
+}

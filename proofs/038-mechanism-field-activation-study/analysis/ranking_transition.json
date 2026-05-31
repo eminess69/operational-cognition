@@ -1,0 +1,697 @@
+{
+  "average_activated_before_ranking": 4.5,
+  "average_surviving_after_ranking": 1.0,
+  "cases": [
+    {
+      "activated_before_ranking": [
+        "ACCUMULATION",
+        "AMPLIFICATION",
+        "BUFFERING",
+        "COMPENSATION",
+        "FEEDBACK",
+        "FLOW",
+        "RESOURCE_DEPLETION",
+        "THRESHOLD"
+      ],
+      "activated_count": 8,
+      "case_id": "P037-RC-001",
+      "eliminated_after_ranking": [
+        "ACCUMULATION",
+        "AMPLIFICATION",
+        "BUFFERING",
+        "COMPENSATION",
+        "FLOW",
+        "RESOURCE_DEPLETION",
+        "THRESHOLD"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "FEEDBACK"
+      ],
+      "winner_take_all_recall": [
+        "FEEDBACK"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "ACCUMULATION",
+        "COMPENSATION",
+        "FEEDBACK",
+        "OSCILLATION",
+        "THRESHOLD"
+      ],
+      "activated_count": 5,
+      "case_id": "P037-RC-002",
+      "eliminated_after_ranking": [
+        "ACCUMULATION",
+        "COMPENSATION",
+        "FEEDBACK",
+        "OSCILLATION"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "THRESHOLD"
+      ],
+      "winner_take_all_recall": [
+        "THRESHOLD"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "AMPLIFICATION",
+        "DIFFUSION",
+        "FEEDBACK"
+      ],
+      "activated_count": 3,
+      "case_id": "P037-RC-003",
+      "eliminated_after_ranking": [
+        "AMPLIFICATION",
+        "DIFFUSION"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "FEEDBACK"
+      ],
+      "winner_take_all_recall": [
+        "FEEDBACK"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "ACCUMULATION",
+        "AMPLIFICATION",
+        "BUFFERING",
+        "COMPENSATION",
+        "FLOW",
+        "RESOURCE_DEPLETION"
+      ],
+      "activated_count": 6,
+      "case_id": "P037-RC-004",
+      "eliminated_after_ranking": [
+        "ACCUMULATION",
+        "AMPLIFICATION",
+        "BUFFERING",
+        "COMPENSATION",
+        "FLOW"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "RESOURCE_DEPLETION"
+      ],
+      "winner_take_all_recall": [
+        "RESOURCE_DEPLETION"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "BUFFERING",
+        "FLOW"
+      ],
+      "activated_count": 2,
+      "case_id": "P037-RC-005",
+      "eliminated_after_ranking": [
+        "BUFFERING"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "FLOW"
+      ],
+      "winner_take_all_recall": [
+        "FLOW"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "COMPENSATION",
+        "LOAD_TRANSFER",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "activated_count": 4,
+      "case_id": "P037-RC-006",
+      "eliminated_after_ranking": [
+        "COMPENSATION",
+        "LOAD_TRANSFER",
+        "THRESHOLD"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "SUPPORTED_ROTATION"
+      ],
+      "winner_take_all_recall": [
+        "SUPPORTED_ROTATION"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "ACCUMULATION",
+        "LOAD_TRANSFER",
+        "THRESHOLD"
+      ],
+      "activated_count": 3,
+      "case_id": "P037-RC-007",
+      "eliminated_after_ranking": [
+        "ACCUMULATION",
+        "THRESHOLD"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "LOAD_TRANSFER"
+      ],
+      "winner_take_all_recall": [
+        "LOAD_TRANSFER"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "ACCUMULATION",
+        "AMPLIFICATION",
+        "BUFFERING",
+        "FEEDBACK",
+        "FLOW",
+        "RESOURCE_DEPLETION"
+      ],
+      "activated_count": 6,
+      "case_id": "P037-RC-008",
+      "eliminated_after_ranking": [
+        "ACCUMULATION",
+        "AMPLIFICATION",
+        "BUFFERING",
+        "FEEDBACK",
+        "FLOW"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "RESOURCE_DEPLETION"
+      ],
+      "winner_take_all_recall": [
+        "RESOURCE_DEPLETION"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "BUFFERING",
+        "COMPENSATION",
+        "FEEDBACK",
+        "OSCILLATION"
+      ],
+      "activated_count": 4,
+      "case_id": "P037-RC-009",
+      "eliminated_after_ranking": [
+        "BUFFERING",
+        "COMPENSATION",
+        "OSCILLATION"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "FEEDBACK"
+      ],
+      "winner_take_all_recall": [
+        "FEEDBACK"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "ACCUMULATION",
+        "BUFFERING",
+        "DIFFUSION",
+        "FLOW",
+        "RESOURCE_DEPLETION"
+      ],
+      "activated_count": 5,
+      "case_id": "P037-RC-010",
+      "eliminated_after_ranking": [
+        "ACCUMULATION",
+        "BUFFERING",
+        "FLOW",
+        "RESOURCE_DEPLETION"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "DIFFUSION"
+      ],
+      "winner_take_all_recall": [
+        "DIFFUSION"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "AMPLIFICATION",
+        "BUFFERING",
+        "FEEDBACK",
+        "FLOW",
+        "OSCILLATION"
+      ],
+      "activated_count": 5,
+      "case_id": "P037-RC-011",
+      "eliminated_after_ranking": [
+        "AMPLIFICATION",
+        "BUFFERING",
+        "FEEDBACK",
+        "OSCILLATION"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "FLOW"
+      ],
+      "winner_take_all_recall": [
+        "FLOW"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "DIFFUSION",
+        "LOAD_TRANSFER",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "activated_count": 4,
+      "case_id": "P037-RC-012",
+      "eliminated_after_ranking": [
+        "DIFFUSION",
+        "LOAD_TRANSFER",
+        "THRESHOLD"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "SUPPORTED_ROTATION"
+      ],
+      "winner_take_all_recall": [
+        "SUPPORTED_ROTATION"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "ACCUMULATION",
+        "COMPENSATION",
+        "LOAD_TRANSFER",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "activated_count": 5,
+      "case_id": "P037-RC-013",
+      "eliminated_after_ranking": [
+        "ACCUMULATION",
+        "COMPENSATION",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "LOAD_TRANSFER"
+      ],
+      "winner_take_all_recall": [
+        "LOAD_TRANSFER"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "AMPLIFICATION",
+        "FEEDBACK",
+        "THRESHOLD"
+      ],
+      "activated_count": 3,
+      "case_id": "P037-RC-014",
+      "eliminated_after_ranking": [
+        "AMPLIFICATION",
+        "THRESHOLD"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "FEEDBACK"
+      ],
+      "winner_take_all_recall": [
+        "FEEDBACK"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "ACCUMULATION",
+        "BUFFERING",
+        "OSCILLATION"
+      ],
+      "activated_count": 3,
+      "case_id": "P037-RC-015",
+      "eliminated_after_ranking": [
+        "ACCUMULATION",
+        "BUFFERING"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "OSCILLATION"
+      ],
+      "winner_take_all_recall": [
+        "OSCILLATION"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "AMPLIFICATION",
+        "DIFFUSION",
+        "FLOW",
+        "RESOURCE_DEPLETION"
+      ],
+      "activated_count": 4,
+      "case_id": "P037-RC-016",
+      "eliminated_after_ranking": [
+        "AMPLIFICATION",
+        "FLOW",
+        "RESOURCE_DEPLETION"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "DIFFUSION"
+      ],
+      "winner_take_all_recall": [
+        "DIFFUSION"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "BUFFERING",
+        "FLOW",
+        "RESOURCE_DEPLETION"
+      ],
+      "activated_count": 3,
+      "case_id": "P037-RC-017",
+      "eliminated_after_ranking": [
+        "BUFFERING",
+        "RESOURCE_DEPLETION"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "FLOW"
+      ],
+      "winner_take_all_recall": [
+        "FLOW"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "ACCUMULATION",
+        "FEEDBACK",
+        "OSCILLATION",
+        "SUPPORTED_ROTATION"
+      ],
+      "activated_count": 4,
+      "case_id": "P037-RC-018",
+      "eliminated_after_ranking": [
+        "ACCUMULATION",
+        "FEEDBACK",
+        "OSCILLATION"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "SUPPORTED_ROTATION"
+      ],
+      "winner_take_all_recall": [
+        "SUPPORTED_ROTATION"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "BUFFERING",
+        "DIFFUSION",
+        "LOAD_TRANSFER",
+        "RESOURCE_DEPLETION",
+        "THRESHOLD"
+      ],
+      "activated_count": 5,
+      "case_id": "P037-RC-019",
+      "eliminated_after_ranking": [
+        "BUFFERING",
+        "DIFFUSION",
+        "RESOURCE_DEPLETION",
+        "THRESHOLD"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "LOAD_TRANSFER"
+      ],
+      "winner_take_all_recall": [
+        "LOAD_TRANSFER"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "AMPLIFICATION",
+        "BUFFERING",
+        "FEEDBACK",
+        "FLOW",
+        "OSCILLATION",
+        "THRESHOLD"
+      ],
+      "activated_count": 6,
+      "case_id": "P037-RC-020",
+      "eliminated_after_ranking": [
+        "AMPLIFICATION",
+        "BUFFERING",
+        "FEEDBACK",
+        "FLOW",
+        "OSCILLATION"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "THRESHOLD"
+      ],
+      "winner_take_all_recall": [
+        "THRESHOLD"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "ACCUMULATION",
+        "AMPLIFICATION",
+        "BUFFERING",
+        "FLOW",
+        "RESOURCE_DEPLETION"
+      ],
+      "activated_count": 5,
+      "case_id": "P037-RC-021",
+      "eliminated_after_ranking": [
+        "ACCUMULATION",
+        "AMPLIFICATION",
+        "BUFFERING",
+        "FLOW"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "RESOURCE_DEPLETION"
+      ],
+      "winner_take_all_recall": [
+        "RESOURCE_DEPLETION"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "AMPLIFICATION",
+        "BUFFERING",
+        "COMPENSATION",
+        "FEEDBACK",
+        "OSCILLATION",
+        "THRESHOLD"
+      ],
+      "activated_count": 6,
+      "case_id": "P037-RC-022",
+      "eliminated_after_ranking": [
+        "AMPLIFICATION",
+        "BUFFERING",
+        "COMPENSATION",
+        "FEEDBACK",
+        "OSCILLATION"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "THRESHOLD"
+      ],
+      "winner_take_all_recall": [
+        "THRESHOLD"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "ACCUMULATION",
+        "DIFFUSION",
+        "FLOW"
+      ],
+      "activated_count": 3,
+      "case_id": "P037-RC-023",
+      "eliminated_after_ranking": [
+        "ACCUMULATION",
+        "DIFFUSION"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "FLOW"
+      ],
+      "winner_take_all_recall": [
+        "FLOW"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "LOAD_TRANSFER",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "activated_count": 3,
+      "case_id": "P037-RC-024",
+      "eliminated_after_ranking": [
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "LOAD_TRANSFER"
+      ],
+      "winner_take_all_recall": [
+        "LOAD_TRANSFER"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "BUFFERING",
+        "COMPENSATION",
+        "DIFFUSION",
+        "RESOURCE_DEPLETION",
+        "SUPPORTED_ROTATION"
+      ],
+      "activated_count": 5,
+      "case_id": "P037-RC-025",
+      "eliminated_after_ranking": [
+        "BUFFERING",
+        "COMPENSATION",
+        "DIFFUSION",
+        "RESOURCE_DEPLETION"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "SUPPORTED_ROTATION"
+      ],
+      "winner_take_all_recall": [
+        "SUPPORTED_ROTATION"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "ACCUMULATION",
+        "BUFFERING",
+        "OSCILLATION",
+        "RESOURCE_DEPLETION"
+      ],
+      "activated_count": 4,
+      "case_id": "P037-RC-026",
+      "eliminated_after_ranking": [
+        "ACCUMULATION",
+        "BUFFERING",
+        "RESOURCE_DEPLETION"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "OSCILLATION"
+      ],
+      "winner_take_all_recall": [
+        "OSCILLATION"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "COMPENSATION",
+        "DIFFUSION",
+        "LOAD_TRANSFER",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "activated_count": 5,
+      "case_id": "P037-RC-027",
+      "eliminated_after_ranking": [
+        "COMPENSATION",
+        "DIFFUSION",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "LOAD_TRANSFER"
+      ],
+      "winner_take_all_recall": [
+        "LOAD_TRANSFER"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "BUFFERING",
+        "COMPENSATION",
+        "FEEDBACK",
+        "FLOW",
+        "THRESHOLD"
+      ],
+      "activated_count": 5,
+      "case_id": "P037-RC-028",
+      "eliminated_after_ranking": [
+        "BUFFERING",
+        "COMPENSATION",
+        "FLOW",
+        "THRESHOLD"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "FEEDBACK"
+      ],
+      "winner_take_all_recall": [
+        "FEEDBACK"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "ACCUMULATION",
+        "BUFFERING",
+        "DIFFUSION",
+        "FEEDBACK",
+        "OSCILLATION",
+        "RESOURCE_DEPLETION"
+      ],
+      "activated_count": 6,
+      "case_id": "P037-RC-029",
+      "eliminated_after_ranking": [
+        "ACCUMULATION",
+        "DIFFUSION",
+        "FEEDBACK",
+        "OSCILLATION",
+        "RESOURCE_DEPLETION"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "BUFFERING"
+      ],
+      "winner_take_all_recall": [
+        "BUFFERING"
+      ]
+    },
+    {
+      "activated_before_ranking": [
+        "ACCUMULATION",
+        "FLOW",
+        "OSCILLATION",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "activated_count": 5,
+      "case_id": "P037-RC-030",
+      "eliminated_after_ranking": [
+        "ACCUMULATION",
+        "FLOW",
+        "OSCILLATION",
+        "THRESHOLD"
+      ],
+      "survival_count": 1,
+      "surviving_activated_mechanisms": [
+        "SUPPORTED_ROTATION"
+      ],
+      "winner_take_all_recall": [
+        "SUPPORTED_ROTATION"
+      ]
+    }
+  ],
+  "question": "How many activated mechanisms survive ranking?"
+}

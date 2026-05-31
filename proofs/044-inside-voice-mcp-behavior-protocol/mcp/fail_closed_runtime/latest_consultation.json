@@ -1,0 +1,70 @@
+{
+  "event": "inside_voice_mcp_consultation",
+  "mode": "activation_only",
+  "non_hash_metadata": {
+    "timestamp_utc": "2026-05-29T19:36:56Z"
+  },
+  "request": {
+    "context": {
+      "constraints": [
+        "No placeholder fallback.",
+        "Fail closed if pond recall is unavailable."
+      ],
+      "desired_artifacts": [
+        "behavior_protocol_consults",
+        "behavior_protocol_results"
+      ],
+      "files": [],
+      "summary": "Proof 044 behavior protocol consult using the isolated pond state."
+    },
+    "max_output_chars": 8000,
+    "mode": "activation_only",
+    "request_id": "proof-044-fail-irrelevant",
+    "require_lineage": true,
+    "task": "Inside Voice behavior protocol case.\nObservation:\nOpaque symbols drift without any cue overlap.\nRequired:\n- returned motifs\n- returned lineages\n- lineage hashes\n- behavior fields for the requested mode"
+  },
+  "request_hash": "51f3b314772c0c5e5ab27438acd25ef2a226afe768738c23bfa217ca85998b55",
+  "request_id": "proof-044-fail-irrelevant",
+  "response": {
+    "adapter_status": "pond_backed",
+    "fail_closed_reason": "no_relevant_pond_recall",
+    "findings": [
+      {
+        "claim": "Pond recall failed closed: no_relevant_pond_recall.",
+        "confidence": "high",
+        "evidence": [
+          "pond_state"
+        ],
+        "id": "fail-closed",
+        "lineage_refs": [],
+        "risk": "high"
+      }
+    ],
+    "lineage": {
+      "request_hash": "51f3b314772c0c5e5ab27438acd25ef2a226afe768738c23bfa217ca85998b55",
+      "response_hash": "01a7c3b413a561e12337c5ee754490081e936a5e96fa9a74d07db7fe7a779c20",
+      "source_refs": []
+    },
+    "lineage_hashes": [],
+    "mode": "activation_only",
+    "recall_summary": "",
+    "recommendations": [
+      {
+        "action": "Create or season the pond before relying on recall.",
+        "blocking": true,
+        "id": "repair-pond-or-season",
+        "reason": "Empty recall must not be treated as pond-backed evidence."
+      }
+    ],
+    "request_id": "proof-044-fail-irrelevant",
+    "response_source": "inside_voice_pond",
+    "returned_lineages": [],
+    "returned_motifs": [],
+    "summary": "Inside Voice pond recall failed closed: no_relevant_pond_recall.",
+    "uncertainty": [
+      "No motifs or lineages were returned."
+    ],
+    "verdict": "fail_closed"
+  },
+  "response_hash": "01a7c3b413a561e12337c5ee754490081e936a5e96fa9a74d07db7fe7a779c20"
+}

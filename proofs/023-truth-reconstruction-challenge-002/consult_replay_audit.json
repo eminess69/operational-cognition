@@ -1,0 +1,146 @@
+{
+  "audit_id": "audit-001-consultation-causality",
+  "source_proof": "023-truth-reconstruction-challenge-002",
+  "phase": "consultation_replay_audit",
+  "consultations": [
+    {
+      "consultation_id": "consult_001_top_three_rerank",
+      "timestamp": "2026-05-28T22:50:00Z",
+      "question": "Before any final architectural conclusion, should the Kubernetes baseline top three (CRI, CRDs, Server-Side Apply) be confirmed or reranked, and what related motifs, historical lineage, prior decision traces, contradiction candidates, and recurring themes should be checked?",
+      "returned_motifs": [
+        "inside_voice_runtime:5a24027a6bc08931af27 fp_lineage_candidate_0046",
+        "CONFLICTING_LINEAGE",
+        "TASK_PATHWAY_COLLISION",
+        "CONFLICTING_PATHWAY_REINFORCEMENT"
+      ],
+      "returned_lineages": [
+        "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#45",
+        "request_visible_ref:proofs/023-truth-reconstruction-challenge-002/baseline/source_index.json",
+        "request_visible_ref:proofs/023-truth-reconstruction-challenge-002/baseline/baseline_truth_map.json",
+        "response_hash:5d9550563ce8dc42a929c1f42c5ca560f6a3994572434d8c97543b5144b3aa5a",
+        "runtime_response_hash:fc178d59adc26a8414bad49761ee9b4045cde4b50161e6d7e027373bcecf7114"
+      ],
+      "returned_contradictions": [
+        "CONFLICTING_LINEAGE",
+        "TASK_PATHWAY_COLLISION",
+        "CONFLICTING_PATHWAY_REINFORCEMENT",
+        "claim_pressure:contradiction:400f6de8bc04",
+        "unresolved_tension:gap:5c482ea64982398d"
+      ],
+      "response_file": "consult/inside_voice_consults/consult_001_top_three_rerank_response.json",
+      "materiality": "Direction-change candidate: forced a rerank audit around the baseline's known CSI/out-of-tree weakness."
+    },
+    {
+      "consultation_id": "consult_002_cri",
+      "timestamp": "2026-05-28T22:51:00Z",
+      "question": "Before concluding that CRI is a top-three Kubernetes architectural decision, what related motifs, historical lineage, prior decision traces, contradiction candidates, and recurring themes should be checked?",
+      "returned_motifs": [
+        "inside_voice_runtime:fe3cc1e42b0c62fc272a fp_lineage_candidate_0011",
+        "CONFLICTING_LINEAGE",
+        "TASK_PATHWAY_COLLISION",
+        "CONFLICTING_PATHWAY_REINFORCEMENT"
+      ],
+      "returned_lineages": [
+        "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#19",
+        "request_visible_ref:proofs/023-truth-reconstruction-challenge-002/baseline/baseline_truth_map.json",
+        "request_visible_ref:proofs/023-truth-reconstruction-challenge-002/consult/inside_voice_consults/consult_001_top_three_rerank_response.json",
+        "response_hash:ade49d73d54e62fa1889d6e3b683992bc74ab61ee447897c477199f7906e71e8",
+        "runtime_response_hash:76b363bfe66c1804bf773c5c12bd7c08ddff8c8817956f0808267ffc609d4c88"
+      ],
+      "returned_contradictions": [
+        "CONFLICTING_LINEAGE",
+        "TASK_PATHWAY_COLLISION",
+        "CONFLICTING_PATHWAY_REINFORCEMENT",
+        "claim_pressure:contradiction:400f6de8bc04",
+        "unresolved_tension:gap:5c482ea64982398d"
+      ],
+      "response_file": "consult/inside_voice_consults/consult_002_cri_response.json",
+      "materiality": "Strengthening/audit only: CRI was already baseline rank 1 with high confidence."
+    },
+    {
+      "consultation_id": "consult_003_crd",
+      "timestamp": "2026-05-28T22:52:00Z",
+      "question": "Before concluding that CRDs/API extensibility is a top-three Kubernetes architectural decision, what related motifs, historical lineage, prior decision traces, contradiction candidates, and recurring themes should be checked?",
+      "returned_motifs": [
+        "inside_voice_runtime:a484bc01e0711d640e91 fp_lineage_candidate_0029",
+        "CONFLICTING_PATHWAY_REINFORCEMENT",
+        "TASK_PATHWAY_COLLISION",
+        "CONFLICTING_LINEAGE"
+      ],
+      "returned_lineages": [
+        "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#28",
+        "request_visible_ref:proofs/023-truth-reconstruction-challenge-002/baseline/baseline_truth_map.json",
+        "request_visible_ref:proofs/023-truth-reconstruction-challenge-002/consult/inside_voice_consults/consult_001_top_three_rerank_response.json",
+        "response_hash:e4feb88e868a85abfa132d2419f757c0808c1e5d40decfd758c8c9d1fa1fdd1e",
+        "runtime_response_hash:840906c28db8b5a5939d2d650cd696211991aa683f35ffa869ab4c8d118c38cf"
+      ],
+      "returned_contradictions": [
+        "CONFLICTING_PATHWAY_REINFORCEMENT",
+        "TASK_PATHWAY_COLLISION",
+        "CONFLICTING_LINEAGE",
+        "claim_pressure:contradiction:400f6de8bc04",
+        "unresolved_tension:gap:5c482ea64982398d"
+      ],
+      "response_file": "consult/inside_voice_consults/consult_003_crd_response.json",
+      "materiality": "Strengthening/audit only: CRDs were already baseline rank 2 with high confidence."
+    },
+    {
+      "consultation_id": "consult_004_csi",
+      "timestamp": "2026-05-28T22:53:00Z",
+      "question": "Before concluding that CSI should replace Server-Side Apply in the final top three, what related motifs, historical lineage, prior decision traces, contradiction candidates, and recurring themes should be checked?",
+      "returned_motifs": [
+        "inside_voice_runtime:6618eceaa43863e083b2 fp_lineage_candidate_0050",
+        "MCP_SEASONED_CANDIDATE",
+        "ORIGINAL_CANDIDATE_SCAFFOLD_ONLY",
+        "MCP_POND_BACKED_BATCH_PASSED",
+        "CONFLICTING_PATHWAY_REINFORCEMENT"
+      ],
+      "returned_lineages": [
+        "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#19",
+        "request_visible_ref:proofs/023-truth-reconstruction-challenge-002/baseline/source_index.json",
+        "request_visible_ref:proofs/023-truth-reconstruction-challenge-002/baseline/baseline_truth_map.json",
+        "response_hash:606c3f4d01e8cd8ad3580f7e3eaf08fbba8bae4f4ad13e3a2ec7cea246e3c8db",
+        "runtime_response_hash:33498177e27f524be1fac7ba64dc9c99fe92a7e157684b30d4d88f9e16593de8"
+      ],
+      "returned_contradictions": [
+        "CONFLICTING_PATHWAY_REINFORCEMENT",
+        "TASK_PATHWAY_COLLISION",
+        "ORIGINAL_CANDIDATE_SCAFFOLD_ONLY",
+        "claim_pressure:contradiction:400f6de8bc04",
+        "unresolved_tension:gap:5c482ea64982398d"
+      ],
+      "response_file": "consult/inside_voice_consults/consult_004_csi_response.json",
+      "materiality": "Recovery consolidation: CSI became a serious top-three replacement candidate and drove CSI-specific public evidence collection."
+    },
+    {
+      "consultation_id": "consult_005_final_contradiction_audit",
+      "timestamp": "2026-05-28T22:54:00Z",
+      "question": "Before publishing the final architecture truth map and narrative, do the proposed final decisions (CRI, CRDs/API extensibility, CSI) have unresolved contradiction candidates, false paths, or claim-boundary risks?",
+      "returned_motifs": [
+        "inside_voice_runtime:5a24027a6bc08931af27 fp_lineage_candidate_0046",
+        "CONFLICTING_PATHWAY_REINFORCEMENT",
+        "TASK_PATHWAY_COLLISION",
+        "BLOCKED_LOW_REUSE_POTENTIAL",
+        "BLOCKED_DUPLICATE"
+      ],
+      "returned_lineages": [
+        "request_visible_ref:proofs/023-truth-reconstruction-challenge-002/baseline/baseline_truth_map.json",
+        "request_visible_ref:proofs/023-truth-reconstruction-challenge-002/consult/inside_voice_consults/consult_001_top_three_rerank_response.json",
+        "request_visible_ref:proofs/023-truth-reconstruction-challenge-002/consult/inside_voice_consults/consult_002_cri_response.json",
+        "response_hash:1d7740798f96adb7e6c61f11d2717543c6cc7823ae5e8798f8d0fae7f2597933",
+        "runtime_response_hash:ff5eb44ade7b71a88eb8c2e7dfd3c41ca42c9cc55e48b9cf71f56b25f634caa4"
+      ],
+      "returned_contradictions": [
+        "CONFLICTING_PATHWAY_REINFORCEMENT",
+        "TASK_PATHWAY_COLLISION",
+        "BLOCKED_LOW_REUSE_POTENTIAL",
+        "BLOCKED_DUPLICATE",
+        "BLOCKED_SYNTHETIC_INFLATION",
+        "claim_pressure:contradiction:c3328bb2ea1b",
+        "unresolved_tension:CONFLICTING_PATHWAY_REINFORCEMENT"
+      ],
+      "response_file": "consult/inside_voice_consults/consult_005_final_contradiction_audit_response.json",
+      "materiality": "Claim-boundary audit: prevented treating consultation as historical evidence, but did not add a new architectural conclusion."
+    }
+  ]
+}

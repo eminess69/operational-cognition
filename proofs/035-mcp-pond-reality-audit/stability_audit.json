@@ -1,0 +1,23 @@
+{
+  "classification_counts": {
+    "PLACEHOLDER": 20
+  },
+  "consult_count": 20,
+  "deterministic": true,
+  "hash_stability": false,
+  "lineage_stability": false,
+  "motif_stability": false,
+  "phase": "phase_5_recall_stability",
+  "proof_id": "035-mcp-pond-reality-audit",
+  "stability_interpretation": "Responses were byte-stable only at the placeholder transport layer; no pond motif or lineage stability exists.",
+  "transport_hash_stability": true,
+  "unique_artifact_signatures": [
+    "{\"classification\":\"PLACEHOLDER\",\"lineage_hashes\":[],\"returned_lineages\":[],\"returned_motifs\":[]}"
+  ],
+  "unique_raw_response_hashes": [
+    "b4c4fe829814665f18338a354d8d8d14fb3e3d67b4be2df441e4f18a38fce45d"
+  ],
+  "unique_transport_response_hashes": [
+    "37c3569845193770e7155a1a017345f9bb25ad4e35877b5e4c76bdf591c3f2b9"
+  ]
+}

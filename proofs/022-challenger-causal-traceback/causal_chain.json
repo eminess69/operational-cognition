@@ -1,0 +1,150 @@
+{
+  "proof_id": "022-challenger-causal-traceback",
+  "format": "warning -> engineering concern -> management decision -> launch approval -> physical failure -> disaster",
+  "chain_summary": "Known SRM field-joint seal vulnerability and prior O-ring distress became a cold-weather engineering concern; the no-launch recommendation was challenged and reversed through management decision-making; incomplete escalation allowed launch in colder-than-experience conditions; the right SRB aft field joint leaked hot gas and destroyed the vehicle.",
+  "links": [
+    {
+      "order": 1,
+      "stage": "warning",
+      "claim": "The earliest warning signal was not the January 1986 weather forecast alone; it was the pre-existing evidence that the SRM joint design and seal behavior were not fully understood and had shown O-ring distress in testing and flight.",
+      "evidence": ["EV-010", "EV-018", "EV-019"],
+      "source_lineage": [
+        "SRC-004:L8-L12",
+        "SRC-004:L1585-L1604",
+        "SRC-004:L1611-L1624",
+        "SRC-008:L25-L35"
+      ],
+      "confidence": 0.93,
+      "notes": "The exact first warning depends on whether the boundary is design/test data or flight evidence. The strongest early flight-warning point is STS-2 erosion; the strongest recurring pattern begins after STS 41-B and becomes severe after 51-C and 51-B."
+    },
+    {
+      "order": 2,
+      "stage": "warning_to_engineering_concern",
+      "claim": "Cold temperature converted the historical O-ring problem into an acute launch concern because previous distress was concentrated in lower-temperature flights and 51-L was outside prior O-ring experience.",
+      "evidence": ["EV-004", "EV-006", "EV-007"],
+      "source_lineage": [
+        "SRC-001:L7-L9",
+        "SRC-002:L729-L740",
+        "SRC-004:L1556-L1562",
+        "SRC-003:L830-L834",
+        "SRC-016:L224-L238"
+      ],
+      "confidence": 0.95,
+      "notes": "The evidence supports low temperature as a risk amplifier and decision trigger, not as the sole standalone cause."
+    },
+    {
+      "order": 3,
+      "stage": "engineering_concern",
+      "claim": "Thiokol engineering recommended no launch below 53 F O-ring temperature because the predicted launch condition was outside the known flight experience base.",
+      "evidence": ["EV-007", "EV-016"],
+      "source_lineage": [
+        "SRC-003:L830-L834",
+        "SRC-016:L224-L238",
+        "SRC-017:L2026-L2074"
+      ],
+      "confidence": 0.96,
+      "notes": "The recommendation is directly documented in the teleconference chronology and hearing testimony."
+    },
+    {
+      "order": 4,
+      "stage": "management_decision",
+      "claim": "NASA challenged the no-launch recommendation; Thiokol entered an internal caucus; engineer objections persisted; a smaller management review reversed the recommendation to launch.",
+      "evidence": ["EV-008", "EV-016"],
+      "source_lineage": [
+        "SRC-003:L835-L864",
+        "SRC-017:L1634-L1658",
+        "SRC-017:L2026-L2054"
+      ],
+      "confidence": 0.96,
+      "notes": "The contradiction is preserved: managers described the data as inconclusive and relied on secondary seal rationale, while engineers continued to object."
+    },
+    {
+      "order": 5,
+      "stage": "decision_information_failure",
+      "claim": "The launch approval was made without senior decision makers having the complete O-ring history, initial no-launch recommendation, continuing engineer opposition, launch-constraint history, and safety-program participation.",
+      "evidence": ["EV-009", "EV-011", "EV-012", "EV-013"],
+      "source_lineage": [
+        "SRC-003:L6-L12",
+        "SRC-003:L30-L32",
+        "SRC-004:L1606-L1608",
+        "SRC-005:L6-L13",
+        "SRC-005:L108-L142"
+      ],
+      "confidence": 0.94,
+      "notes": "This is the strongest organizational link: information existed, but the decision structure did not force it to the people responsible for launch readiness."
+    },
+    {
+      "order": 6,
+      "stage": "launch_approval",
+      "claim": "Launch proceeded in record-cold Shuttle conditions despite the acute O-ring concern and outside-experience-base warning.",
+      "evidence": ["EV-004", "EV-007", "EV-008", "EV-009"],
+      "source_lineage": [
+        "SRC-001:L7-L9",
+        "SRC-002:L729-L740",
+        "SRC-003:L830-L864",
+        "SRC-003:L6-L12"
+      ],
+      "confidence": 0.97,
+      "notes": "The artifact does not infer a single individual cause; it traces the decision pathway documented across teleconference and management records."
+    },
+    {
+      "order": 7,
+      "stage": "physical_failure",
+      "claim": "At ignition, joint dynamics and low-temperature O-ring behavior likely prevented timely sealing in the right SRB aft field joint, allowing blow-by and erosion.",
+      "evidence": ["EV-001", "EV-003", "EV-005", "EV-015"],
+      "source_lineage": [
+        "SRC-001:L12-L18",
+        "SRC-002:L6-L8",
+        "SRC-002:L469-L551",
+        "SRC-002:L921-L928",
+        "SRC-014:L1741-L1742",
+        "SRC-014:L1854-L1862",
+        "SRC-014:L1926-L1930"
+      ],
+      "confidence": 0.93,
+      "notes": "The low-temperature O-ring actuation path is strongly supported, but the precise micro-mechanical combination among putty behavior, squeeze, ice, and dimensions remains partially unresolved."
+    },
+    {
+      "order": 8,
+      "stage": "physical_failure_to_disaster",
+      "claim": "The leak developed into a flame plume, impinged on the External Tank and attachment structure, breached the hydrogen tank, and led to structural breakup.",
+      "evidence": ["EV-001", "EV-002", "EV-003"],
+      "source_lineage": [
+        "SRC-001:L24-L36",
+        "SRC-022:L243-L330",
+        "SRC-002:L6-L8"
+      ],
+      "confidence": 0.98,
+      "notes": "This is the highest-confidence physical sequence because it is backed by film, telemetry, and recovered-wreckage analysis."
+    },
+    {
+      "order": 9,
+      "stage": "disaster",
+      "claim": "The vehicle broke up about 73 seconds after launch after External Tank structural failure and aerodynamic loads destroyed the Orbiter.",
+      "evidence": ["EV-002", "EV-003"],
+      "source_lineage": [
+        "SRC-001:L31-L38",
+        "SRC-022:L330-L330",
+        "SRC-002:L6-L8"
+      ],
+      "confidence": 0.98,
+      "notes": "The crew-loss fact is documented in the accident chapter; crew-survival timing is outside this causal-traceback scope."
+    }
+  ],
+  "most_important_causal_pathway": {
+    "path": [
+      "faulty_and_poorly_understood_srm_joint",
+      "repeated_o_ring_erosion_and_blow_by_normalized",
+      "low_temperature_launch_condition_outside_experience_base",
+      "thiokol_engineering_no_launch_recommendation",
+      "nasa_challenge_and_thiokol_management_reversal",
+      "incomplete_escalation_to_launch_decision_makers",
+      "launch_approved",
+      "right_srb_aft_field_joint_hot_gas_leak",
+      "external_tank_breach",
+      "vehicle_breakup"
+    ],
+    "supporting_evidence": ["EV-001", "EV-002", "EV-003", "EV-004", "EV-005", "EV-006", "EV-007", "EV-008", "EV-009", "EV-010", "EV-011", "EV-012", "EV-013", "EV-015", "EV-016", "EV-019", "EV-020"],
+    "confidence": 0.95
+  }
+}

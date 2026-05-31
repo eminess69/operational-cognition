@@ -1,0 +1,9 @@
+{
+  "average_candidates_per_case": 24.4667,
+  "created_at": "2026-05-29T18:34:03Z",
+  "false_composite_candidate_rate": 0.3311,
+  "source": "All depth-2 through depth-4 combinations from Proof 041 activation fields.",
+  "total_candidates": 734,
+  "true_composite_candidate_rate": 0.2466,
+  "unsupported_candidate_count": 0
+}

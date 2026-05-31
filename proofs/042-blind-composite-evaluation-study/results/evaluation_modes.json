@@ -1,0 +1,3241 @@
+{
+  "mode_a": [
+    {
+      "case_id": "P041-CP-001",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 4,
+      "mechanisms": [
+        "BUFFERING",
+        "FEEDBACK",
+        "RESOURCE_DEPLETION",
+        "THRESHOLD"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": true,
+      "selected_pathway": "BUFFERING + FEEDBACK + RESOURCE_DEPLETION + THRESHOLD",
+      "selected_pathway_id": "P041-CP-001-f89cab7ed68a",
+      "selection_trace": {
+        "internal_score": 0.9002,
+        "proof041_scored_window_size": 6,
+        "scored_window_pathway_ids": [
+          "P041-CP-001-f89cab7ed68a",
+          "P041-CP-001-ddca78486424",
+          "P041-CP-001-b2f91282086a",
+          "P041-CP-001-f27f223a6935",
+          "P041-CP-001-f67a833b07ee",
+          "P041-CP-001-2bbfac6f1608"
+        ],
+        "selected_candidate_valid": true
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-002",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "COMPENSATION",
+        "FEEDBACK",
+        "OSCILLATION",
+        "THRESHOLD"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": true,
+      "selected_pathway": "COMPENSATION + FEEDBACK + OSCILLATION + THRESHOLD",
+      "selected_pathway_id": "P041-CP-002-5f5d8100d1f2",
+      "selection_trace": {
+        "internal_score": 1.0378,
+        "proof041_scored_window_size": 6,
+        "scored_window_pathway_ids": [
+          "P041-CP-002-5f5d8100d1f2",
+          "P041-CP-002-55e891cb01eb",
+          "P041-CP-002-6eb0ce53eb03",
+          "P041-CP-002-0a16359faf4c",
+          "P041-CP-002-b31cb9ce64a0",
+          "P041-CP-002-94726b3cca98"
+        ],
+        "selected_candidate_valid": false
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-003",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "AMPLIFICATION",
+        "DIFFUSION",
+        "FEEDBACK"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": true,
+      "selected_pathway": "AMPLIFICATION + DIFFUSION + FEEDBACK",
+      "selected_pathway_id": "P041-CP-003-cc36447d7946",
+      "selection_trace": {
+        "internal_score": 1.11,
+        "proof041_scored_window_size": 4,
+        "scored_window_pathway_ids": [
+          "P041-CP-003-cc36447d7946",
+          "P041-CP-003-316084eae898",
+          "P041-CP-003-2d716d677035",
+          "P041-CP-003-6efad7887a39"
+        ],
+        "selected_candidate_valid": true
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-004",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "ACCUMULATION",
+        "AMPLIFICATION",
+        "BUFFERING",
+        "RESOURCE_DEPLETION"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": false,
+      "selected_pathway": "ACCUMULATION + AMPLIFICATION + BUFFERING + RESOURCE_DEPLETION",
+      "selected_pathway_id": "P041-CP-004-24fa88d565e5",
+      "selection_trace": {
+        "internal_score": 0.8984,
+        "proof041_scored_window_size": 6,
+        "scored_window_pathway_ids": [
+          "P041-CP-004-24fa88d565e5",
+          "P041-CP-004-38ff201501f4",
+          "P041-CP-004-3e3eb1a747e8",
+          "P041-CP-004-29ebf4b33de9",
+          "P041-CP-004-2d701a95f5f3",
+          "P041-CP-004-8d7287bed821"
+        ],
+        "selected_candidate_valid": false
+      },
+      "valid": false
+    },
+    {
+      "case_id": "P041-CP-005",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "ACCUMULATION",
+        "BUFFERING",
+        "FLOW",
+        "RESOURCE_DEPLETION"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": true,
+      "selected_pathway": "ACCUMULATION + BUFFERING + FLOW + RESOURCE_DEPLETION",
+      "selected_pathway_id": "P041-CP-005-4e1e59e811e1",
+      "selection_trace": {
+        "internal_score": 1.167048,
+        "proof041_scored_window_size": 6,
+        "scored_window_pathway_ids": [
+          "P041-CP-005-4e1e59e811e1",
+          "P041-CP-005-664b8f3a49c3",
+          "P041-CP-005-71ed57f4e493",
+          "P041-CP-005-a03dc19a7106",
+          "P041-CP-005-7526fca85bc2",
+          "P041-CP-005-6dbae6cf9ff1"
+        ],
+        "selected_candidate_valid": false
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-006",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "COMPENSATION",
+        "LOAD_TRANSFER",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": true,
+      "selected_pathway": "COMPENSATION + LOAD_TRANSFER + SUPPORTED_ROTATION + THRESHOLD",
+      "selected_pathway_id": "P041-CP-006-7edf743726e1",
+      "selection_trace": {
+        "internal_score": 1.17,
+        "proof041_scored_window_size": 6,
+        "scored_window_pathway_ids": [
+          "P041-CP-006-7edf743726e1",
+          "P041-CP-006-5da9e75c7181",
+          "P041-CP-006-1317a7a5c978",
+          "P041-CP-006-1c0ceb6cc7b5",
+          "P041-CP-006-316eca5d9830",
+          "P041-CP-006-3f51b7c89841"
+        ],
+        "selected_candidate_valid": false
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-007",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "ACCUMULATION",
+        "LOAD_TRANSFER",
+        "THRESHOLD"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": true,
+      "selected_pathway": "ACCUMULATION + LOAD_TRANSFER + THRESHOLD",
+      "selected_pathway_id": "P041-CP-007-984c68270e55",
+      "selection_trace": {
+        "internal_score": 1.1099,
+        "proof041_scored_window_size": 4,
+        "scored_window_pathway_ids": [
+          "P041-CP-007-984c68270e55",
+          "P041-CP-007-07872d2ae5d2",
+          "P041-CP-007-ad7d099fbfdc",
+          "P041-CP-007-2365b5c1a4b3"
+        ],
+        "selected_candidate_valid": true
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-008",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "AMPLIFICATION",
+        "BUFFERING",
+        "FEEDBACK",
+        "RESOURCE_DEPLETION"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": false,
+      "selected_pathway": "AMPLIFICATION + BUFFERING + FEEDBACK + RESOURCE_DEPLETION",
+      "selected_pathway_id": "P041-CP-008-2be320b1d049",
+      "selection_trace": {
+        "internal_score": 0.9647,
+        "proof041_scored_window_size": 6,
+        "scored_window_pathway_ids": [
+          "P041-CP-008-2be320b1d049",
+          "P041-CP-008-a574cc64a41c",
+          "P041-CP-008-928bd097827f",
+          "P041-CP-008-ca2d920a3670",
+          "P041-CP-008-12184d73a55b",
+          "P041-CP-008-dc150e555421"
+        ],
+        "selected_candidate_valid": false
+      },
+      "valid": false
+    },
+    {
+      "case_id": "P041-CP-009",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "BUFFERING",
+        "COMPENSATION",
+        "FEEDBACK",
+        "OSCILLATION"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": true,
+      "selected_pathway": "BUFFERING + COMPENSATION + FEEDBACK + OSCILLATION",
+      "selected_pathway_id": "P041-CP-009-a067fad4336a",
+      "selection_trace": {
+        "internal_score": 1.17,
+        "proof041_scored_window_size": 6,
+        "scored_window_pathway_ids": [
+          "P041-CP-009-a067fad4336a",
+          "P041-CP-009-222f8c7c1988",
+          "P041-CP-009-875cf6ddc17a",
+          "P041-CP-009-8b028e3077d0",
+          "P041-CP-009-c5fc98e04147",
+          "P041-CP-009-6a2a13cbe979"
+        ],
+        "selected_candidate_valid": false
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-010",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "BUFFERING",
+        "DIFFUSION",
+        "FLOW",
+        "RESOURCE_DEPLETION"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": true,
+      "selected_pathway": "BUFFERING + DIFFUSION + FLOW + RESOURCE_DEPLETION",
+      "selected_pathway_id": "P041-CP-010-700bb01ac9d5",
+      "selection_trace": {
+        "internal_score": 1.0914,
+        "proof041_scored_window_size": 6,
+        "scored_window_pathway_ids": [
+          "P041-CP-010-700bb01ac9d5",
+          "P041-CP-010-5f3645cb90ed",
+          "P041-CP-010-abe6baccf311",
+          "P041-CP-010-c58a861c15e0",
+          "P041-CP-010-c9905c137959",
+          "P041-CP-010-b8ede0cadffc"
+        ],
+        "selected_candidate_valid": false
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-011",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "AMPLIFICATION",
+        "BUFFERING",
+        "FEEDBACK",
+        "FLOW"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": true,
+      "selected_pathway": "AMPLIFICATION + BUFFERING + FEEDBACK + FLOW",
+      "selected_pathway_id": "P041-CP-011-21be353127c5",
+      "selection_trace": {
+        "internal_score": 1.045,
+        "proof041_scored_window_size": 6,
+        "scored_window_pathway_ids": [
+          "P041-CP-011-21be353127c5",
+          "P041-CP-011-1ed4c2419521",
+          "P041-CP-011-6b065bc8a9f7",
+          "P041-CP-011-385cd8a2e58e",
+          "P041-CP-011-0cd2f4a5f8cb",
+          "P041-CP-011-d314980a55c3"
+        ],
+        "selected_candidate_valid": false
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-012",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "DIFFUSION",
+        "LOAD_TRANSFER",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": true,
+      "selected_pathway": "DIFFUSION + LOAD_TRANSFER + SUPPORTED_ROTATION + THRESHOLD",
+      "selected_pathway_id": "P041-CP-012-e57a6db4a72d",
+      "selection_trace": {
+        "internal_score": 1.17,
+        "proof041_scored_window_size": 6,
+        "scored_window_pathway_ids": [
+          "P041-CP-012-e57a6db4a72d",
+          "P041-CP-012-9bc737692be6",
+          "P041-CP-012-ee88c90f2fca",
+          "P041-CP-012-683fa94a25e1",
+          "P041-CP-012-73655ad7e12c",
+          "P041-CP-012-88bbfec4ad5d"
+        ],
+        "selected_candidate_valid": false
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-013",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "ACCUMULATION",
+        "COMPENSATION",
+        "LOAD_TRANSFER",
+        "THRESHOLD"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": true,
+      "selected_pathway": "ACCUMULATION + COMPENSATION + LOAD_TRANSFER + THRESHOLD",
+      "selected_pathway_id": "P041-CP-013-3a24c94768aa",
+      "selection_trace": {
+        "internal_score": 1.1401,
+        "proof041_scored_window_size": 6,
+        "scored_window_pathway_ids": [
+          "P041-CP-013-3a24c94768aa",
+          "P041-CP-013-c34c107f6211",
+          "P041-CP-013-4f6a662d87ce",
+          "P041-CP-013-89fdd5c8c823",
+          "P041-CP-013-c10c93aefbea",
+          "P041-CP-013-5aa9d28c0ea4"
+        ],
+        "selected_candidate_valid": false
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-014",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "AMPLIFICATION",
+        "FEEDBACK",
+        "THRESHOLD"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": true,
+      "selected_pathway": "AMPLIFICATION + FEEDBACK + THRESHOLD",
+      "selected_pathway_id": "P041-CP-014-0f0e36a495c0",
+      "selection_trace": {
+        "internal_score": 1.1099,
+        "proof041_scored_window_size": 4,
+        "scored_window_pathway_ids": [
+          "P041-CP-014-0f0e36a495c0",
+          "P041-CP-014-84b508e6ce34",
+          "P041-CP-014-df94268b9d2a",
+          "P041-CP-014-0897cb26dd68"
+        ],
+        "selected_candidate_valid": true
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-015",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "ACCUMULATION",
+        "BUFFERING",
+        "OSCILLATION"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": true,
+      "selected_pathway": "ACCUMULATION + BUFFERING + OSCILLATION",
+      "selected_pathway_id": "P041-CP-015-677d38164f64",
+      "selection_trace": {
+        "internal_score": 1.17,
+        "proof041_scored_window_size": 4,
+        "scored_window_pathway_ids": [
+          "P041-CP-015-677d38164f64",
+          "P041-CP-015-4f8061103720",
+          "P041-CP-015-91ed56421f8c",
+          "P041-CP-015-2277e0d9fc94"
+        ],
+        "selected_candidate_valid": true
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-016",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "AMPLIFICATION",
+        "DIFFUSION",
+        "FLOW",
+        "RESOURCE_DEPLETION"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": true,
+      "selected_pathway": "AMPLIFICATION + DIFFUSION + FLOW + RESOURCE_DEPLETION",
+      "selected_pathway_id": "P041-CP-016-18e479776872",
+      "selection_trace": {
+        "internal_score": 1.17,
+        "proof041_scored_window_size": 6,
+        "scored_window_pathway_ids": [
+          "P041-CP-016-18e479776872",
+          "P041-CP-016-73c8b22c9bbd",
+          "P041-CP-016-fd8752d7b144",
+          "P041-CP-016-cf72af247d8a",
+          "P041-CP-016-21a5c33a1cfd",
+          "P041-CP-016-1673cf909782"
+        ],
+        "selected_candidate_valid": false
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-017",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 3,
+      "mechanisms": [
+        "BUFFERING",
+        "FLOW",
+        "RESOURCE_DEPLETION"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": true,
+      "selected_pathway": "BUFFERING + FLOW + RESOURCE_DEPLETION",
+      "selected_pathway_id": "P041-CP-017-f050a176c913",
+      "selection_trace": {
+        "internal_score": 1.11,
+        "proof041_scored_window_size": 4,
+        "scored_window_pathway_ids": [
+          "P041-CP-017-f050a176c913",
+          "P041-CP-017-5226bdf1d365",
+          "P041-CP-017-b46779220aa4",
+          "P041-CP-017-d51fc5314f6a"
+        ],
+        "selected_candidate_valid": false
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-018",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "ACCUMULATION",
+        "AMPLIFICATION",
+        "FEEDBACK",
+        "OSCILLATION"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": true,
+      "selected_pathway": "ACCUMULATION + AMPLIFICATION + FEEDBACK + OSCILLATION",
+      "selected_pathway_id": "P041-CP-018-e5d66753b35d",
+      "selection_trace": {
+        "internal_score": 1.0127,
+        "proof041_scored_window_size": 6,
+        "scored_window_pathway_ids": [
+          "P041-CP-018-e5d66753b35d",
+          "P041-CP-018-e8d7f7a04ac3",
+          "P041-CP-018-4d22cae68c25",
+          "P041-CP-018-4f52fc6eafd2",
+          "P041-CP-018-e850308d694f",
+          "P041-CP-018-828fc56c5710"
+        ],
+        "selected_candidate_valid": false
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-019",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 4,
+      "mechanisms": [
+        "BUFFERING",
+        "DIFFUSION",
+        "LOAD_TRANSFER",
+        "RESOURCE_DEPLETION"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": true,
+      "selected_pathway": "BUFFERING + DIFFUSION + LOAD_TRANSFER + RESOURCE_DEPLETION",
+      "selected_pathway_id": "P041-CP-019-794e75854459",
+      "selection_trace": {
+        "internal_score": 0.9971,
+        "proof041_scored_window_size": 6,
+        "scored_window_pathway_ids": [
+          "P041-CP-019-794e75854459",
+          "P041-CP-019-ab50bd664e95",
+          "P041-CP-019-818703993a1d",
+          "P041-CP-019-2eb3239a3187",
+          "P041-CP-019-c9a7ce660e0f",
+          "P041-CP-019-9b2f52b889bd"
+        ],
+        "selected_candidate_valid": true
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-020",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "BUFFERING",
+        "FEEDBACK",
+        "FLOW",
+        "THRESHOLD"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": true,
+      "selected_pathway": "BUFFERING + FEEDBACK + FLOW + THRESHOLD",
+      "selected_pathway_id": "P041-CP-020-c97cc7da78b7",
+      "selection_trace": {
+        "internal_score": 0.9135,
+        "proof041_scored_window_size": 6,
+        "scored_window_pathway_ids": [
+          "P041-CP-020-c97cc7da78b7",
+          "P041-CP-020-42dd1e8257ba",
+          "P041-CP-020-fe0caa4dc784",
+          "P041-CP-020-a8a417dd5eea",
+          "P041-CP-020-c86939ebdf2d",
+          "P041-CP-020-2dca1621e138"
+        ],
+        "selected_candidate_valid": false
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-021",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "AMPLIFICATION",
+        "BUFFERING",
+        "FLOW",
+        "RESOURCE_DEPLETION"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": true,
+      "selected_pathway": "AMPLIFICATION + BUFFERING + FLOW + RESOURCE_DEPLETION",
+      "selected_pathway_id": "P041-CP-021-8dfc748833e5",
+      "selection_trace": {
+        "internal_score": 1.05,
+        "proof041_scored_window_size": 6,
+        "scored_window_pathway_ids": [
+          "P041-CP-021-8dfc748833e5",
+          "P041-CP-021-e54fb846d580",
+          "P041-CP-021-98ba0e857eb1",
+          "P041-CP-021-4ef3231b2411",
+          "P041-CP-021-926a572fe2d6",
+          "P041-CP-021-ebca33839ed5"
+        ],
+        "selected_candidate_valid": false
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-022",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "BUFFERING",
+        "FEEDBACK",
+        "OSCILLATION",
+        "THRESHOLD"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": true,
+      "selected_pathway": "BUFFERING + FEEDBACK + OSCILLATION + THRESHOLD",
+      "selected_pathway_id": "P041-CP-022-320362747cd7",
+      "selection_trace": {
+        "internal_score": 1.0004,
+        "proof041_scored_window_size": 6,
+        "scored_window_pathway_ids": [
+          "P041-CP-022-320362747cd7",
+          "P041-CP-022-a92b815c9d60",
+          "P041-CP-022-530579151dac",
+          "P041-CP-022-9d34aa3ddfdc",
+          "P041-CP-022-ba88814a9d45",
+          "P041-CP-022-dcae252cd235"
+        ],
+        "selected_candidate_valid": false
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-023",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "ACCUMULATION",
+        "DIFFUSION",
+        "FLOW"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": true,
+      "selected_pathway": "ACCUMULATION + DIFFUSION + FLOW",
+      "selected_pathway_id": "P041-CP-023-720c0ff24204",
+      "selection_trace": {
+        "internal_score": 1.14,
+        "proof041_scored_window_size": 4,
+        "scored_window_pathway_ids": [
+          "P041-CP-023-720c0ff24204",
+          "P041-CP-023-5c8822f28859",
+          "P041-CP-023-e6e4065d986c",
+          "P041-CP-023-3a135e171c46"
+        ],
+        "selected_candidate_valid": true
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-024",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 2,
+      "mechanisms": [
+        "LOAD_TRANSFER",
+        "THRESHOLD"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": true,
+      "selected_pathway": "LOAD_TRANSFER + THRESHOLD",
+      "selected_pathway_id": "P041-CP-024-41d8e8cb8228",
+      "selection_trace": {
+        "internal_score": 1.04,
+        "proof041_scored_window_size": 1,
+        "scored_window_pathway_ids": [
+          "P041-CP-024-41d8e8cb8228"
+        ],
+        "selected_candidate_valid": true
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-025",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 4,
+      "mechanisms": [
+        "COMPENSATION",
+        "DIFFUSION",
+        "RESOURCE_DEPLETION",
+        "SUPPORTED_ROTATION"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": true,
+      "selected_pathway": "COMPENSATION + DIFFUSION + RESOURCE_DEPLETION + SUPPORTED_ROTATION",
+      "selected_pathway_id": "P041-CP-025-641607da9660",
+      "selection_trace": {
+        "internal_score": 0.9906,
+        "proof041_scored_window_size": 6,
+        "scored_window_pathway_ids": [
+          "P041-CP-025-641607da9660",
+          "P041-CP-025-707939318b09",
+          "P041-CP-025-219ff41aa4a8",
+          "P041-CP-025-46a3c821bd71",
+          "P041-CP-025-6428f2e17789",
+          "P041-CP-025-625f3eb1eecc"
+        ],
+        "selected_candidate_valid": true
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-026",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "ACCUMULATION",
+        "BUFFERING",
+        "OSCILLATION",
+        "RESOURCE_DEPLETION"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": true,
+      "selected_pathway": "ACCUMULATION + BUFFERING + OSCILLATION + RESOURCE_DEPLETION",
+      "selected_pathway_id": "P041-CP-026-ccdffd7213a3",
+      "selection_trace": {
+        "internal_score": 1.2,
+        "proof041_scored_window_size": 6,
+        "scored_window_pathway_ids": [
+          "P041-CP-026-ccdffd7213a3",
+          "P041-CP-026-618058fb225b",
+          "P041-CP-026-da03dbca6f2e",
+          "P041-CP-026-ddef4fb0e5d9",
+          "P041-CP-026-3d30f9b27b2a",
+          "P041-CP-026-051ebb150fda"
+        ],
+        "selected_candidate_valid": false
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-027",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "COMPENSATION",
+        "DIFFUSION",
+        "LOAD_TRANSFER",
+        "SUPPORTED_ROTATION"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": false,
+      "selected_pathway": "COMPENSATION + DIFFUSION + LOAD_TRANSFER + SUPPORTED_ROTATION",
+      "selected_pathway_id": "P041-CP-027-d66eb703872d",
+      "selection_trace": {
+        "internal_score": 1.0404,
+        "proof041_scored_window_size": 6,
+        "scored_window_pathway_ids": [
+          "P041-CP-027-d66eb703872d",
+          "P041-CP-027-8f0e8e583fab",
+          "P041-CP-027-e8842e1954f6",
+          "P041-CP-027-c0fda56b2883",
+          "P041-CP-027-0eb0909f4518",
+          "P041-CP-027-f04074f98626"
+        ],
+        "selected_candidate_valid": false
+      },
+      "valid": false
+    },
+    {
+      "case_id": "P041-CP-028",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "BUFFERING",
+        "COMPENSATION",
+        "FEEDBACK",
+        "THRESHOLD"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": false,
+      "selected_pathway": "BUFFERING + COMPENSATION + FEEDBACK + THRESHOLD",
+      "selected_pathway_id": "P041-CP-028-d091ead44e13",
+      "selection_trace": {
+        "internal_score": 1.0534,
+        "proof041_scored_window_size": 6,
+        "scored_window_pathway_ids": [
+          "P041-CP-028-d091ead44e13",
+          "P041-CP-028-0c71eb95cb97",
+          "P041-CP-028-f310ffdb3e64",
+          "P041-CP-028-a8e8413313ff",
+          "P041-CP-028-7baa83dd151a",
+          "P041-CP-028-66cd56165e45"
+        ],
+        "selected_candidate_valid": false
+      },
+      "valid": false
+    },
+    {
+      "case_id": "P041-CP-029",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 4,
+      "mechanisms": [
+        "BUFFERING",
+        "DIFFUSION",
+        "FEEDBACK",
+        "RESOURCE_DEPLETION"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": true,
+      "selected_pathway": "BUFFERING + DIFFUSION + FEEDBACK + RESOURCE_DEPLETION",
+      "selected_pathway_id": "P041-CP-029-7a705d7ea24b",
+      "selection_trace": {
+        "internal_score": 0.9007,
+        "proof041_scored_window_size": 6,
+        "scored_window_pathway_ids": [
+          "P041-CP-029-7a705d7ea24b",
+          "P041-CP-029-ba37a5adfeba",
+          "P041-CP-029-d8751c36e6ad",
+          "P041-CP-029-bca1863ef3a9",
+          "P041-CP-029-62001e1a6f51",
+          "P041-CP-029-1a2eecc1c059"
+        ],
+        "selected_candidate_valid": true
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-030",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 4,
+      "mechanisms": [
+        "FLOW",
+        "OSCILLATION",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "mode": "mode_a_current_internal_scoring",
+      "scored_window_valid": true,
+      "selected_pathway": "FLOW + OSCILLATION + SUPPORTED_ROTATION + THRESHOLD",
+      "selected_pathway_id": "P041-CP-030-383de2aafbf9",
+      "selection_trace": {
+        "internal_score": 1.0358,
+        "proof041_scored_window_size": 6,
+        "scored_window_pathway_ids": [
+          "P041-CP-030-383de2aafbf9",
+          "P041-CP-030-349d823fb5ff",
+          "P041-CP-030-0acd6eaf4133",
+          "P041-CP-030-3e873be4c3d1",
+          "P041-CP-030-1932e7ec477e",
+          "P041-CP-030-cd00f2171f0c"
+        ],
+        "selected_candidate_valid": true
+      },
+      "valid": true
+    }
+  ],
+  "mode_b": [
+    {
+      "case_id": "P041-CP-001",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 4,
+      "mechanisms": [
+        "BUFFERING",
+        "FEEDBACK",
+        "RESOURCE_DEPLETION",
+        "THRESHOLD"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "BUFFERING + FEEDBACK + RESOURCE_DEPLETION + THRESHOLD",
+      "selected_pathway_id": "P041-CP-001-f89cab7ed68a",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "BUFFERING",
+          "FEEDBACK",
+          "RESOURCE_DEPLETION",
+          "THRESHOLD"
+        ],
+        "cue_matches": {
+          "BUFFERING": [
+            "reserve",
+            "absorbs"
+          ],
+          "FEEDBACK": [
+            "returning",
+            "return",
+            "reinforces"
+          ],
+          "RESOURCE_DEPLETION": [
+            "drains",
+            "capacity",
+            "remaining capacity"
+          ],
+          "THRESHOLD": [
+            "limit",
+            "crossed",
+            "once"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-002",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "COMPENSATION",
+        "FEEDBACK",
+        "OSCILLATION",
+        "THRESHOLD"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "COMPENSATION + FEEDBACK + OSCILLATION + THRESHOLD",
+      "selected_pathway_id": "P041-CP-002-5f5d8100d1f2",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "COMPENSATION",
+          "FEEDBACK",
+          "OSCILLATION",
+          "THRESHOLD"
+        ],
+        "cue_matches": {
+          "COMPENSATION": [
+            "correction"
+          ],
+          "FEEDBACK": [
+            "correction"
+          ],
+          "OSCILLATION": [
+            "overshoots",
+            "swings",
+            "above and below"
+          ],
+          "THRESHOLD": [
+            "critical",
+            "point"
+          ]
+        },
+        "sequence_depth_target": 2
+      },
+      "valid": false
+    },
+    {
+      "case_id": "P041-CP-003",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "AMPLIFICATION",
+        "DIFFUSION",
+        "FEEDBACK"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "AMPLIFICATION + DIFFUSION + FEEDBACK",
+      "selected_pathway_id": "P041-CP-003-cc36447d7946",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "AMPLIFICATION",
+          "DIFFUSION",
+          "FEEDBACK"
+        ],
+        "cue_matches": {
+          "AMPLIFICATION": [
+            "magnifies",
+            "relay",
+            "stronger"
+          ],
+          "DIFFUSION": [
+            "spreads",
+            "spread",
+            "adjacent"
+          ],
+          "FEEDBACK": [
+            "returning",
+            "return",
+            "response"
+          ]
+        },
+        "sequence_depth_target": 2
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-004",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "ACCUMULATION",
+        "BUFFERING",
+        "COMPENSATION",
+        "RESOURCE_DEPLETION"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "ACCUMULATION + BUFFERING + COMPENSATION + RESOURCE_DEPLETION",
+      "selected_pathway_id": "P041-CP-004-38ff201501f4",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "ACCUMULATION",
+          "BUFFERING",
+          "COMPENSATION",
+          "RESOURCE_DEPLETION"
+        ],
+        "cue_matches": {
+          "ACCUMULATION": [
+            "piles",
+            "stored",
+            "work piles"
+          ],
+          "BUFFERING": [
+            "hides"
+          ],
+          "COMPENSATION": [
+            "backup",
+            "hides"
+          ],
+          "RESOURCE_DEPLETION": [
+            "drains",
+            "capacity"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": false
+    },
+    {
+      "case_id": "P041-CP-005",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "ACCUMULATION",
+        "BUFFERING",
+        "FLOW"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "ACCUMULATION + BUFFERING + FLOW",
+      "selected_pathway_id": "P041-CP-005-664b8f3a49c3",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "ACCUMULATION",
+          "BUFFERING",
+          "FLOW"
+        ],
+        "cue_matches": {
+          "ACCUMULATION": [
+            "backlog"
+          ],
+          "BUFFERING": [
+            "reserve",
+            "absorbs"
+          ],
+          "FLOW": [
+            "passage",
+            "downstream",
+            "upstream",
+            "narrows",
+            "starves"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-006",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "COMPENSATION",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "COMPENSATION + SUPPORTED_ROTATION + THRESHOLD",
+      "selected_pathway_id": "P041-CP-006-1317a7a5c978",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "COMPENSATION",
+          "SUPPORTED_ROTATION",
+          "THRESHOLD"
+        ],
+        "cue_matches": {
+          "COMPENSATION": [
+            "offset",
+            "controller adds"
+          ],
+          "SUPPORTED_ROTATION": [
+            "turning",
+            "support",
+            "drag",
+            "rough",
+            "drive"
+          ],
+          "THRESHOLD": [
+            "critical",
+            "crossed",
+            "point"
+          ]
+        },
+        "sequence_depth_target": 2
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-007",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "ACCUMULATION",
+        "LOAD_TRANSFER",
+        "THRESHOLD"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "ACCUMULATION + LOAD_TRANSFER + THRESHOLD",
+      "selected_pathway_id": "P041-CP-007-984c68270e55",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "ACCUMULATION",
+          "LOAD_TRANSFER",
+          "THRESHOLD"
+        ],
+        "cue_matches": {
+          "ACCUMULATION": [
+            "collect"
+          ],
+          "LOAD_TRANSFER": [
+            "bracket",
+            "force",
+            "crack",
+            "demand"
+          ],
+          "THRESHOLD": [
+            "limit",
+            "point"
+          ]
+        },
+        "sequence_depth_target": 2
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-008",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "AMPLIFICATION",
+        "BUFFERING",
+        "FEEDBACK",
+        "RESOURCE_DEPLETION"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "AMPLIFICATION + BUFFERING + FEEDBACK + RESOURCE_DEPLETION",
+      "selected_pathway_id": "P041-CP-008-2be320b1d049",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "AMPLIFICATION",
+          "BUFFERING",
+          "FEEDBACK",
+          "RESOURCE_DEPLETION"
+        ],
+        "cue_matches": {
+          "AMPLIFICATION": [
+            "magnifies",
+            "accelerates"
+          ],
+          "BUFFERING": [
+            "reserve"
+          ],
+          "FEEDBACK": [
+            "return",
+            "asks for more"
+          ],
+          "RESOURCE_DEPLETION": [
+            "drains"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": false
+    },
+    {
+      "case_id": "P041-CP-009",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "COMPENSATION",
+        "FEEDBACK",
+        "OSCILLATION"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "COMPENSATION + FEEDBACK + OSCILLATION",
+      "selected_pathway_id": "P041-CP-009-875cf6ddc17a",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "COMPENSATION",
+          "FEEDBACK",
+          "OSCILLATION"
+        ],
+        "cue_matches": {
+          "COMPENSATION": [
+            "correction"
+          ],
+          "FEEDBACK": [
+            "loop",
+            "response",
+            "correction"
+          ],
+          "OSCILLATION": [
+            "overshoots",
+            "repeats",
+            "rhythm",
+            "reverses"
+          ]
+        },
+        "sequence_depth_target": 2
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-010",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "BUFFERING",
+        "DIFFUSION",
+        "RESOURCE_DEPLETION"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "BUFFERING + DIFFUSION + RESOURCE_DEPLETION",
+      "selected_pathway_id": "P041-CP-010-c9905c137959",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "BUFFERING",
+          "DIFFUSION",
+          "RESOURCE_DEPLETION"
+        ],
+        "cue_matches": {
+          "BUFFERING": [
+            "reserve",
+            "absorbs",
+            "at first"
+          ],
+          "DIFFUSION": [
+            "spreads",
+            "spread",
+            "gradient",
+            "source",
+            "everywhere"
+          ],
+          "RESOURCE_DEPLETION": [
+            "exhausted",
+            "capacity"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-011",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "BUFFERING",
+        "FEEDBACK",
+        "FLOW"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "BUFFERING + FEEDBACK + FLOW",
+      "selected_pathway_id": "P041-CP-011-d314980a55c3",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "BUFFERING",
+          "FEEDBACK",
+          "FLOW"
+        ],
+        "cue_matches": {
+          "BUFFERING": [
+            "cushion",
+            "slack"
+          ],
+          "FEEDBACK": [
+            "returning",
+            "return"
+          ],
+          "FLOW": [
+            "route",
+            "narrowed"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-012",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "DIFFUSION",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "DIFFUSION + SUPPORTED_ROTATION + THRESHOLD",
+      "selected_pathway_id": "P041-CP-012-9bc737692be6",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "DIFFUSION",
+          "SUPPORTED_ROTATION",
+          "THRESHOLD"
+        ],
+        "cue_matches": {
+          "DIFFUSION": [
+            "spreads",
+            "spread"
+          ],
+          "SUPPORTED_ROTATION": [
+            "turning",
+            "support",
+            "drag",
+            "contact point",
+            "locks"
+          ],
+          "THRESHOLD": [
+            "critical",
+            "crossed",
+            "point"
+          ]
+        },
+        "sequence_depth_target": 2
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-013",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "ACCUMULATION",
+        "COMPENSATION",
+        "LOAD_TRANSFER",
+        "THRESHOLD"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "ACCUMULATION + COMPENSATION + LOAD_TRANSFER + THRESHOLD",
+      "selected_pathway_id": "P041-CP-013-3a24c94768aa",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "ACCUMULATION",
+          "COMPENSATION",
+          "LOAD_TRANSFER",
+          "THRESHOLD"
+        ],
+        "cue_matches": {
+          "ACCUMULATION": [
+            "collect"
+          ],
+          "COMPENSATION": [
+            "masked",
+            "offset",
+            "offsetting"
+          ],
+          "LOAD_TRANSFER": [
+            "bracket",
+            "lug",
+            "strain",
+            "demand",
+            "tears",
+            "local"
+          ],
+          "THRESHOLD": [
+            "point"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": false
+    },
+    {
+      "case_id": "P041-CP-014",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "AMPLIFICATION",
+        "FEEDBACK",
+        "THRESHOLD"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "AMPLIFICATION + FEEDBACK + THRESHOLD",
+      "selected_pathway_id": "P041-CP-014-0f0e36a495c0",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "AMPLIFICATION",
+          "FEEDBACK",
+          "THRESHOLD"
+        ],
+        "cue_matches": {
+          "AMPLIFICATION": [
+            "magnified",
+            "relay",
+            "relays",
+            "escalation"
+          ],
+          "FEEDBACK": [
+            "returning",
+            "return",
+            "response",
+            "reinforces"
+          ],
+          "THRESHOLD": [
+            "trip",
+            "point",
+            "once"
+          ]
+        },
+        "sequence_depth_target": 2
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-015",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "ACCUMULATION",
+        "BUFFERING",
+        "OSCILLATION"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "ACCUMULATION + BUFFERING + OSCILLATION",
+      "selected_pathway_id": "P041-CP-015-677d38164f64",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "ACCUMULATION",
+          "BUFFERING",
+          "OSCILLATION"
+        ],
+        "cue_matches": {
+          "ACCUMULATION": [
+            "builds",
+            "inventory",
+            "stock"
+          ],
+          "BUFFERING": [
+            "cushion",
+            "slack"
+          ],
+          "OSCILLATION": [
+            "overshoots",
+            "swings",
+            "repeats"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-016",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "AMPLIFICATION",
+        "DIFFUSION",
+        "RESOURCE_DEPLETION"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "AMPLIFICATION + DIFFUSION + RESOURCE_DEPLETION",
+      "selected_pathway_id": "P041-CP-016-cf72af247d8a",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "AMPLIFICATION",
+          "DIFFUSION",
+          "RESOURCE_DEPLETION"
+        ],
+        "cue_matches": {
+          "AMPLIFICATION": [
+            "relay",
+            "gains"
+          ],
+          "DIFFUSION": [
+            "spreads",
+            "spread",
+            "source",
+            "outward"
+          ],
+          "RESOURCE_DEPLETION": [
+            "drains",
+            "attention"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-017",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 2,
+      "mechanisms": [
+        "FLOW",
+        "RESOURCE_DEPLETION"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "FLOW + RESOURCE_DEPLETION",
+      "selected_pathway_id": "P041-CP-017-5226bdf1d365",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "FLOW",
+          "RESOURCE_DEPLETION"
+        ],
+        "cue_matches": {
+          "FLOW": [
+            "throughput",
+            "handoff",
+            "restricted"
+          ],
+          "RESOURCE_DEPLETION": [
+            "drains",
+            "capacity"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-018",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 4,
+      "mechanisms": [
+        "ACCUMULATION",
+        "FEEDBACK",
+        "OSCILLATION",
+        "SUPPORTED_ROTATION"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "ACCUMULATION + FEEDBACK + OSCILLATION + SUPPORTED_ROTATION",
+      "selected_pathway_id": "P041-CP-018-4f52fc6eafd2",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "ACCUMULATION",
+          "FEEDBACK",
+          "OSCILLATION",
+          "SUPPORTED_ROTATION"
+        ],
+        "cue_matches": {
+          "ACCUMULATION": [
+            "piles",
+            "work piles"
+          ],
+          "FEEDBACK": [
+            "return"
+          ],
+          "OSCILLATION": [
+            "pulses"
+          ],
+          "SUPPORTED_ROTATION": [
+            "turning",
+            "feeder"
+          ]
+        },
+        "sequence_depth_target": 2
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-019",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 4,
+      "mechanisms": [
+        "BUFFERING",
+        "DIFFUSION",
+        "LOAD_TRANSFER",
+        "RESOURCE_DEPLETION"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "BUFFERING + DIFFUSION + LOAD_TRANSFER + RESOURCE_DEPLETION",
+      "selected_pathway_id": "P041-CP-019-794e75854459",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "BUFFERING",
+          "DIFFUSION",
+          "LOAD_TRANSFER",
+          "RESOURCE_DEPLETION"
+        ],
+        "cue_matches": {
+          "BUFFERING": [
+            "absorbs",
+            "temporarily"
+          ],
+          "DIFFUSION": [
+            "spread",
+            "across"
+          ],
+          "LOAD_TRANSFER": [
+            "force",
+            "frame",
+            "crack",
+            "local"
+          ],
+          "RESOURCE_DEPLETION": [
+            "capacity",
+            "consumed"
+          ]
+        },
+        "sequence_depth_target": 2
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-020",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 4,
+      "mechanisms": [
+        "AMPLIFICATION",
+        "FEEDBACK",
+        "FLOW",
+        "THRESHOLD"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "AMPLIFICATION + FEEDBACK + FLOW + THRESHOLD",
+      "selected_pathway_id": "P041-CP-020-c86939ebdf2d",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "AMPLIFICATION",
+          "FEEDBACK",
+          "FLOW",
+          "THRESHOLD"
+        ],
+        "cue_matches": {
+          "AMPLIFICATION": [
+            "magnified"
+          ],
+          "FEEDBACK": [
+            "returning",
+            "return"
+          ],
+          "FLOW": [
+            "route"
+          ],
+          "THRESHOLD": [
+            "limit"
+          ]
+        },
+        "sequence_depth_target": 2
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-021",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "AMPLIFICATION",
+        "BUFFERING",
+        "RESOURCE_DEPLETION"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "AMPLIFICATION + BUFFERING + RESOURCE_DEPLETION",
+      "selected_pathway_id": "P041-CP-021-926a572fe2d6",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "AMPLIFICATION",
+          "BUFFERING",
+          "RESOURCE_DEPLETION"
+        ],
+        "cue_matches": {
+          "AMPLIFICATION": [
+            "accelerates"
+          ],
+          "BUFFERING": [
+            "reserve",
+            "hides"
+          ],
+          "RESOURCE_DEPLETION": [
+            "drained",
+            "fuel"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-022",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 4,
+      "mechanisms": [
+        "COMPENSATION",
+        "FEEDBACK",
+        "OSCILLATION",
+        "THRESHOLD"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "COMPENSATION + FEEDBACK + OSCILLATION + THRESHOLD",
+      "selected_pathway_id": "P041-CP-022-a92b815c9d60",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "COMPENSATION",
+          "FEEDBACK",
+          "OSCILLATION",
+          "THRESHOLD"
+        ],
+        "cue_matches": {
+          "COMPENSATION": [
+            "offset",
+            "offsetting",
+            "correction"
+          ],
+          "FEEDBACK": [
+            "return",
+            "correction",
+            "delayed"
+          ],
+          "OSCILLATION": [
+            "overshoots",
+            "repeats",
+            "reverses"
+          ],
+          "THRESHOLD": [
+            "limit",
+            "trigger",
+            "switch"
+          ]
+        },
+        "sequence_depth_target": 2
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-023",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "ACCUMULATION",
+        "DIFFUSION",
+        "FLOW"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "ACCUMULATION + DIFFUSION + FLOW",
+      "selected_pathway_id": "P041-CP-023-720c0ff24204",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "ACCUMULATION",
+          "DIFFUSION",
+          "FLOW"
+        ],
+        "cue_matches": {
+          "ACCUMULATION": [
+            "buildup",
+            "builds",
+            "sediment"
+          ],
+          "DIFFUSION": [
+            "spreads",
+            "spread",
+            "side channels"
+          ],
+          "FLOW": [
+            "passage",
+            "throughput",
+            "downstream",
+            "starves",
+            "channels"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-024",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 2,
+      "mechanisms": [
+        "LOAD_TRANSFER",
+        "THRESHOLD"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "LOAD_TRANSFER + THRESHOLD",
+      "selected_pathway_id": "P041-CP-024-41d8e8cb8228",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "LOAD_TRANSFER",
+          "THRESHOLD"
+        ],
+        "cue_matches": {
+          "LOAD_TRANSFER": [
+            "bracket",
+            "crack",
+            "demand",
+            "local"
+          ],
+          "THRESHOLD": [
+            "limit",
+            "once"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-025",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 4,
+      "mechanisms": [
+        "COMPENSATION",
+        "DIFFUSION",
+        "RESOURCE_DEPLETION",
+        "SUPPORTED_ROTATION"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "COMPENSATION + DIFFUSION + RESOURCE_DEPLETION + SUPPORTED_ROTATION",
+      "selected_pathway_id": "P041-CP-025-641607da9660",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "COMPENSATION",
+          "DIFFUSION",
+          "RESOURCE_DEPLETION",
+          "SUPPORTED_ROTATION"
+        ],
+        "cue_matches": {
+          "COMPENSATION": [
+            "offset",
+            "controller adds"
+          ],
+          "DIFFUSION": [
+            "spread"
+          ],
+          "RESOURCE_DEPLETION": [
+            "drains",
+            "capacity"
+          ],
+          "SUPPORTED_ROTATION": [
+            "pivot",
+            "drag",
+            "drive"
+          ]
+        },
+        "sequence_depth_target": 2
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-026",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "ACCUMULATION",
+        "BUFFERING",
+        "OSCILLATION",
+        "RESOURCE_DEPLETION"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "ACCUMULATION + BUFFERING + OSCILLATION + RESOURCE_DEPLETION",
+      "selected_pathway_id": "P041-CP-026-ccdffd7213a3",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "ACCUMULATION",
+          "BUFFERING",
+          "OSCILLATION",
+          "RESOURCE_DEPLETION"
+        ],
+        "cue_matches": {
+          "ACCUMULATION": [
+            "piles",
+            "work piles"
+          ],
+          "BUFFERING": [
+            "reserve"
+          ],
+          "OSCILLATION": [
+            "undershoot",
+            "pulses"
+          ],
+          "RESOURCE_DEPLETION": [
+            "capacity"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": false
+    },
+    {
+      "case_id": "P041-CP-027",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "COMPENSATION",
+        "DIFFUSION",
+        "LOAD_TRANSFER",
+        "SUPPORTED_ROTATION"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "COMPENSATION + DIFFUSION + LOAD_TRANSFER + SUPPORTED_ROTATION",
+      "selected_pathway_id": "P041-CP-027-d66eb703872d",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "COMPENSATION",
+          "DIFFUSION",
+          "LOAD_TRANSFER",
+          "SUPPORTED_ROTATION"
+        ],
+        "cue_matches": {
+          "COMPENSATION": [
+            "masks",
+            "offset",
+            "offsetting"
+          ],
+          "DIFFUSION": [
+            "spreads",
+            "spread",
+            "neighboring",
+            "across"
+          ],
+          "LOAD_TRANSFER": [
+            "anchor",
+            "demand",
+            "bends"
+          ],
+          "SUPPORTED_ROTATION": [
+            "support"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": false
+    },
+    {
+      "case_id": "P041-CP-028",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 3,
+      "mechanisms": [
+        "COMPENSATION",
+        "FEEDBACK",
+        "THRESHOLD"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "COMPENSATION + FEEDBACK + THRESHOLD",
+      "selected_pathway_id": "P041-CP-028-a8e8413313ff",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "COMPENSATION",
+          "FEEDBACK",
+          "THRESHOLD"
+        ],
+        "cue_matches": {
+          "COMPENSATION": [
+            "correction"
+          ],
+          "FEEDBACK": [
+            "return",
+            "loop",
+            "correction",
+            "reinforces",
+            "same loop"
+          ],
+          "THRESHOLD": [
+            "boundary"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": false
+    },
+    {
+      "case_id": "P041-CP-029",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 4,
+      "mechanisms": [
+        "BUFFERING",
+        "DIFFUSION",
+        "FEEDBACK",
+        "RESOURCE_DEPLETION"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "BUFFERING + DIFFUSION + FEEDBACK + RESOURCE_DEPLETION",
+      "selected_pathway_id": "P041-CP-029-7a705d7ea24b",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "BUFFERING",
+          "DIFFUSION",
+          "FEEDBACK",
+          "RESOURCE_DEPLETION"
+        ],
+        "cue_matches": {
+          "BUFFERING": [
+            "reserve",
+            "smooth"
+          ],
+          "DIFFUSION": [
+            "spread",
+            "across"
+          ],
+          "FEEDBACK": [
+            "returning",
+            "return"
+          ],
+          "RESOURCE_DEPLETION": [
+            "drains",
+            "capacity"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-030",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 4,
+      "mechanisms": [
+        "FLOW",
+        "OSCILLATION",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "mode": "mode_b_randomized_blind_order",
+      "selected_pathway": "FLOW + OSCILLATION + SUPPORTED_ROTATION + THRESHOLD",
+      "selected_pathway_id": "P041-CP-030-383de2aafbf9",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "FLOW",
+          "OSCILLATION",
+          "SUPPORTED_ROTATION",
+          "THRESHOLD"
+        ],
+        "cue_matches": {
+          "FLOW": [
+            "route",
+            "restricted"
+          ],
+          "OSCILLATION": [
+            "waves",
+            "periodic"
+          ],
+          "SUPPORTED_ROTATION": [
+            "turning",
+            "distributor"
+          ],
+          "THRESHOLD": [
+            "limit",
+            "trigger"
+          ]
+        },
+        "sequence_depth_target": 2
+      },
+      "valid": true
+    }
+  ],
+  "mode_c": [
+    {
+      "case_id": "P041-CP-001",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 4,
+      "mechanisms": [
+        "BUFFERING",
+        "FEEDBACK",
+        "RESOURCE_DEPLETION",
+        "THRESHOLD"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "BUFFERING + FEEDBACK + RESOURCE_DEPLETION + THRESHOLD",
+      "selected_pathway_id": "P041-CP-001-f89cab7ed68a",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "BUFFERING",
+          "FEEDBACK",
+          "RESOURCE_DEPLETION",
+          "THRESHOLD"
+        ],
+        "cue_matches": {
+          "BUFFERING": [
+            "reserve",
+            "absorbs"
+          ],
+          "FEEDBACK": [
+            "returning",
+            "return",
+            "reinforces"
+          ],
+          "RESOURCE_DEPLETION": [
+            "drains",
+            "capacity",
+            "remaining capacity"
+          ],
+          "THRESHOLD": [
+            "limit",
+            "crossed",
+            "once"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-002",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "ACCUMULATION",
+        "COMPENSATION",
+        "OSCILLATION",
+        "THRESHOLD"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "ACCUMULATION + COMPENSATION + OSCILLATION + THRESHOLD",
+      "selected_pathway_id": "P041-CP-002-6eb0ce53eb03",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "ACCUMULATION",
+          "COMPENSATION",
+          "OSCILLATION",
+          "THRESHOLD"
+        ],
+        "cue_matches": {
+          "ACCUMULATION": [
+            "collect"
+          ],
+          "COMPENSATION": [
+            "correction"
+          ],
+          "OSCILLATION": [
+            "overshoots",
+            "swings",
+            "above and below"
+          ],
+          "THRESHOLD": [
+            "critical",
+            "point"
+          ]
+        },
+        "sequence_depth_target": 2
+      },
+      "valid": false
+    },
+    {
+      "case_id": "P041-CP-003",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "AMPLIFICATION",
+        "DIFFUSION",
+        "FEEDBACK"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "AMPLIFICATION + DIFFUSION + FEEDBACK",
+      "selected_pathway_id": "P041-CP-003-cc36447d7946",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "AMPLIFICATION",
+          "DIFFUSION",
+          "FEEDBACK"
+        ],
+        "cue_matches": {
+          "AMPLIFICATION": [
+            "magnifies",
+            "relay",
+            "stronger"
+          ],
+          "DIFFUSION": [
+            "spreads",
+            "spread",
+            "adjacent"
+          ],
+          "FEEDBACK": [
+            "returning",
+            "return",
+            "response"
+          ]
+        },
+        "sequence_depth_target": 2
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-004",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "ACCUMULATION",
+        "BUFFERING",
+        "COMPENSATION",
+        "RESOURCE_DEPLETION"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "ACCUMULATION + BUFFERING + COMPENSATION + RESOURCE_DEPLETION",
+      "selected_pathway_id": "P041-CP-004-38ff201501f4",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "ACCUMULATION",
+          "BUFFERING",
+          "COMPENSATION",
+          "RESOURCE_DEPLETION"
+        ],
+        "cue_matches": {
+          "ACCUMULATION": [
+            "piles",
+            "stored",
+            "work piles"
+          ],
+          "BUFFERING": [
+            "hides"
+          ],
+          "COMPENSATION": [
+            "backup",
+            "hides"
+          ],
+          "RESOURCE_DEPLETION": [
+            "drains",
+            "capacity"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": false
+    },
+    {
+      "case_id": "P041-CP-005",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "ACCUMULATION",
+        "BUFFERING",
+        "FLOW"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "ACCUMULATION + BUFFERING + FLOW",
+      "selected_pathway_id": "P041-CP-005-664b8f3a49c3",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "ACCUMULATION",
+          "BUFFERING",
+          "FLOW"
+        ],
+        "cue_matches": {
+          "ACCUMULATION": [
+            "backlog"
+          ],
+          "BUFFERING": [
+            "reserve",
+            "absorbs"
+          ],
+          "FLOW": [
+            "passage",
+            "downstream",
+            "upstream",
+            "narrows",
+            "starves"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-006",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "COMPENSATION",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "COMPENSATION + SUPPORTED_ROTATION + THRESHOLD",
+      "selected_pathway_id": "P041-CP-006-1317a7a5c978",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "COMPENSATION",
+          "SUPPORTED_ROTATION",
+          "THRESHOLD"
+        ],
+        "cue_matches": {
+          "COMPENSATION": [
+            "offset",
+            "controller adds"
+          ],
+          "SUPPORTED_ROTATION": [
+            "turning",
+            "support",
+            "drag",
+            "rough",
+            "drive"
+          ],
+          "THRESHOLD": [
+            "critical",
+            "crossed",
+            "point"
+          ]
+        },
+        "sequence_depth_target": 2
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-007",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "ACCUMULATION",
+        "LOAD_TRANSFER",
+        "THRESHOLD"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "ACCUMULATION + LOAD_TRANSFER + THRESHOLD",
+      "selected_pathway_id": "P041-CP-007-984c68270e55",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "ACCUMULATION",
+          "LOAD_TRANSFER",
+          "THRESHOLD"
+        ],
+        "cue_matches": {
+          "ACCUMULATION": [
+            "collect"
+          ],
+          "LOAD_TRANSFER": [
+            "bracket",
+            "force",
+            "crack",
+            "demand"
+          ],
+          "THRESHOLD": [
+            "limit",
+            "point"
+          ]
+        },
+        "sequence_depth_target": 2
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-008",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "AMPLIFICATION",
+        "BUFFERING",
+        "FEEDBACK",
+        "RESOURCE_DEPLETION"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "AMPLIFICATION + BUFFERING + FEEDBACK + RESOURCE_DEPLETION",
+      "selected_pathway_id": "P041-CP-008-2be320b1d049",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "AMPLIFICATION",
+          "BUFFERING",
+          "FEEDBACK",
+          "RESOURCE_DEPLETION"
+        ],
+        "cue_matches": {
+          "AMPLIFICATION": [
+            "magnifies",
+            "accelerates"
+          ],
+          "BUFFERING": [
+            "reserve"
+          ],
+          "FEEDBACK": [
+            "return",
+            "asks for more"
+          ],
+          "RESOURCE_DEPLETION": [
+            "drains"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": false
+    },
+    {
+      "case_id": "P041-CP-009",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "COMPENSATION",
+        "FEEDBACK",
+        "OSCILLATION"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "COMPENSATION + FEEDBACK + OSCILLATION",
+      "selected_pathway_id": "P041-CP-009-875cf6ddc17a",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "COMPENSATION",
+          "FEEDBACK",
+          "OSCILLATION"
+        ],
+        "cue_matches": {
+          "COMPENSATION": [
+            "correction"
+          ],
+          "FEEDBACK": [
+            "loop",
+            "response",
+            "correction"
+          ],
+          "OSCILLATION": [
+            "overshoots",
+            "repeats",
+            "rhythm",
+            "reverses"
+          ]
+        },
+        "sequence_depth_target": 2
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-010",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "BUFFERING",
+        "DIFFUSION",
+        "RESOURCE_DEPLETION"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "BUFFERING + DIFFUSION + RESOURCE_DEPLETION",
+      "selected_pathway_id": "P041-CP-010-c9905c137959",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "BUFFERING",
+          "DIFFUSION",
+          "RESOURCE_DEPLETION"
+        ],
+        "cue_matches": {
+          "BUFFERING": [
+            "reserve",
+            "absorbs",
+            "at first"
+          ],
+          "DIFFUSION": [
+            "spreads",
+            "spread",
+            "gradient",
+            "source",
+            "everywhere"
+          ],
+          "RESOURCE_DEPLETION": [
+            "exhausted",
+            "capacity"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-011",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "BUFFERING",
+        "FEEDBACK",
+        "FLOW"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "BUFFERING + FEEDBACK + FLOW",
+      "selected_pathway_id": "P041-CP-011-d314980a55c3",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "BUFFERING",
+          "FEEDBACK",
+          "FLOW"
+        ],
+        "cue_matches": {
+          "BUFFERING": [
+            "cushion",
+            "slack"
+          ],
+          "FEEDBACK": [
+            "returning",
+            "return"
+          ],
+          "FLOW": [
+            "route",
+            "narrowed"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-012",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "DIFFUSION",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "DIFFUSION + SUPPORTED_ROTATION + THRESHOLD",
+      "selected_pathway_id": "P041-CP-012-9bc737692be6",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "DIFFUSION",
+          "SUPPORTED_ROTATION",
+          "THRESHOLD"
+        ],
+        "cue_matches": {
+          "DIFFUSION": [
+            "spreads",
+            "spread"
+          ],
+          "SUPPORTED_ROTATION": [
+            "turning",
+            "support",
+            "drag",
+            "contact point",
+            "locks"
+          ],
+          "THRESHOLD": [
+            "critical",
+            "crossed",
+            "point"
+          ]
+        },
+        "sequence_depth_target": 2
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-013",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "ACCUMULATION",
+        "COMPENSATION",
+        "LOAD_TRANSFER",
+        "THRESHOLD"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "ACCUMULATION + COMPENSATION + LOAD_TRANSFER + THRESHOLD",
+      "selected_pathway_id": "P041-CP-013-3a24c94768aa",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "ACCUMULATION",
+          "COMPENSATION",
+          "LOAD_TRANSFER",
+          "THRESHOLD"
+        ],
+        "cue_matches": {
+          "ACCUMULATION": [
+            "collect"
+          ],
+          "COMPENSATION": [
+            "masked",
+            "offset",
+            "offsetting"
+          ],
+          "LOAD_TRANSFER": [
+            "bracket",
+            "lug",
+            "strain",
+            "demand",
+            "tears",
+            "local"
+          ],
+          "THRESHOLD": [
+            "point"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": false
+    },
+    {
+      "case_id": "P041-CP-014",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "AMPLIFICATION",
+        "FEEDBACK",
+        "THRESHOLD"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "AMPLIFICATION + FEEDBACK + THRESHOLD",
+      "selected_pathway_id": "P041-CP-014-0f0e36a495c0",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "AMPLIFICATION",
+          "FEEDBACK",
+          "THRESHOLD"
+        ],
+        "cue_matches": {
+          "AMPLIFICATION": [
+            "magnified",
+            "relay",
+            "relays",
+            "escalation"
+          ],
+          "FEEDBACK": [
+            "returning",
+            "return",
+            "response",
+            "reinforces"
+          ],
+          "THRESHOLD": [
+            "trip",
+            "point",
+            "once"
+          ]
+        },
+        "sequence_depth_target": 2
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-015",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "ACCUMULATION",
+        "BUFFERING",
+        "OSCILLATION"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "ACCUMULATION + BUFFERING + OSCILLATION",
+      "selected_pathway_id": "P041-CP-015-677d38164f64",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "ACCUMULATION",
+          "BUFFERING",
+          "OSCILLATION"
+        ],
+        "cue_matches": {
+          "ACCUMULATION": [
+            "builds",
+            "inventory",
+            "stock"
+          ],
+          "BUFFERING": [
+            "cushion",
+            "slack"
+          ],
+          "OSCILLATION": [
+            "overshoots",
+            "swings",
+            "repeats"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-016",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "AMPLIFICATION",
+        "DIFFUSION",
+        "RESOURCE_DEPLETION"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "AMPLIFICATION + DIFFUSION + RESOURCE_DEPLETION",
+      "selected_pathway_id": "P041-CP-016-cf72af247d8a",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "AMPLIFICATION",
+          "DIFFUSION",
+          "RESOURCE_DEPLETION"
+        ],
+        "cue_matches": {
+          "AMPLIFICATION": [
+            "relay",
+            "gains"
+          ],
+          "DIFFUSION": [
+            "spreads",
+            "spread",
+            "source",
+            "outward"
+          ],
+          "RESOURCE_DEPLETION": [
+            "drains",
+            "attention"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-017",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 2,
+      "mechanisms": [
+        "FLOW",
+        "RESOURCE_DEPLETION"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "FLOW + RESOURCE_DEPLETION",
+      "selected_pathway_id": "P041-CP-017-5226bdf1d365",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "FLOW",
+          "RESOURCE_DEPLETION"
+        ],
+        "cue_matches": {
+          "FLOW": [
+            "throughput",
+            "handoff",
+            "restricted"
+          ],
+          "RESOURCE_DEPLETION": [
+            "drains",
+            "capacity"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-018",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 4,
+      "mechanisms": [
+        "ACCUMULATION",
+        "FEEDBACK",
+        "OSCILLATION",
+        "SUPPORTED_ROTATION"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "ACCUMULATION + FEEDBACK + OSCILLATION + SUPPORTED_ROTATION",
+      "selected_pathway_id": "P041-CP-018-4f52fc6eafd2",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "ACCUMULATION",
+          "FEEDBACK",
+          "OSCILLATION",
+          "SUPPORTED_ROTATION"
+        ],
+        "cue_matches": {
+          "ACCUMULATION": [
+            "piles",
+            "work piles"
+          ],
+          "FEEDBACK": [
+            "return"
+          ],
+          "OSCILLATION": [
+            "pulses"
+          ],
+          "SUPPORTED_ROTATION": [
+            "turning",
+            "feeder"
+          ]
+        },
+        "sequence_depth_target": 2
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-019",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 4,
+      "mechanisms": [
+        "BUFFERING",
+        "DIFFUSION",
+        "LOAD_TRANSFER",
+        "RESOURCE_DEPLETION"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "BUFFERING + DIFFUSION + LOAD_TRANSFER + RESOURCE_DEPLETION",
+      "selected_pathway_id": "P041-CP-019-794e75854459",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "BUFFERING",
+          "DIFFUSION",
+          "LOAD_TRANSFER",
+          "RESOURCE_DEPLETION"
+        ],
+        "cue_matches": {
+          "BUFFERING": [
+            "absorbs",
+            "temporarily"
+          ],
+          "DIFFUSION": [
+            "spread",
+            "across"
+          ],
+          "LOAD_TRANSFER": [
+            "force",
+            "frame",
+            "crack",
+            "local"
+          ],
+          "RESOURCE_DEPLETION": [
+            "capacity",
+            "consumed"
+          ]
+        },
+        "sequence_depth_target": 2
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-020",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 4,
+      "mechanisms": [
+        "AMPLIFICATION",
+        "FEEDBACK",
+        "FLOW",
+        "THRESHOLD"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "AMPLIFICATION + FEEDBACK + FLOW + THRESHOLD",
+      "selected_pathway_id": "P041-CP-020-c86939ebdf2d",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "AMPLIFICATION",
+          "FEEDBACK",
+          "FLOW",
+          "THRESHOLD"
+        ],
+        "cue_matches": {
+          "AMPLIFICATION": [
+            "magnified"
+          ],
+          "FEEDBACK": [
+            "returning",
+            "return"
+          ],
+          "FLOW": [
+            "route"
+          ],
+          "THRESHOLD": [
+            "limit"
+          ]
+        },
+        "sequence_depth_target": 2
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-021",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "AMPLIFICATION",
+        "BUFFERING",
+        "RESOURCE_DEPLETION"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "AMPLIFICATION + BUFFERING + RESOURCE_DEPLETION",
+      "selected_pathway_id": "P041-CP-021-926a572fe2d6",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "AMPLIFICATION",
+          "BUFFERING",
+          "RESOURCE_DEPLETION"
+        ],
+        "cue_matches": {
+          "AMPLIFICATION": [
+            "accelerates"
+          ],
+          "BUFFERING": [
+            "reserve",
+            "hides"
+          ],
+          "RESOURCE_DEPLETION": [
+            "drained",
+            "fuel"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-022",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 4,
+      "mechanisms": [
+        "COMPENSATION",
+        "FEEDBACK",
+        "OSCILLATION",
+        "THRESHOLD"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "COMPENSATION + FEEDBACK + OSCILLATION + THRESHOLD",
+      "selected_pathway_id": "P041-CP-022-a92b815c9d60",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "COMPENSATION",
+          "FEEDBACK",
+          "OSCILLATION",
+          "THRESHOLD"
+        ],
+        "cue_matches": {
+          "COMPENSATION": [
+            "offset",
+            "offsetting",
+            "correction"
+          ],
+          "FEEDBACK": [
+            "return",
+            "correction",
+            "delayed"
+          ],
+          "OSCILLATION": [
+            "overshoots",
+            "repeats",
+            "reverses"
+          ],
+          "THRESHOLD": [
+            "limit",
+            "trigger",
+            "switch"
+          ]
+        },
+        "sequence_depth_target": 2
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-023",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 3,
+      "mechanisms": [
+        "ACCUMULATION",
+        "DIFFUSION",
+        "FLOW"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "ACCUMULATION + DIFFUSION + FLOW",
+      "selected_pathway_id": "P041-CP-023-720c0ff24204",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "ACCUMULATION",
+          "DIFFUSION",
+          "FLOW"
+        ],
+        "cue_matches": {
+          "ACCUMULATION": [
+            "buildup",
+            "builds",
+            "sediment"
+          ],
+          "DIFFUSION": [
+            "spreads",
+            "spread",
+            "side channels"
+          ],
+          "FLOW": [
+            "passage",
+            "throughput",
+            "downstream",
+            "starves",
+            "channels"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-024",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 2,
+      "mechanisms": [
+        "LOAD_TRANSFER",
+        "THRESHOLD"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "LOAD_TRANSFER + THRESHOLD",
+      "selected_pathway_id": "P041-CP-024-41d8e8cb8228",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "LOAD_TRANSFER",
+          "THRESHOLD"
+        ],
+        "cue_matches": {
+          "LOAD_TRANSFER": [
+            "bracket",
+            "crack",
+            "demand",
+            "local"
+          ],
+          "THRESHOLD": [
+            "limit",
+            "once"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-025",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 4,
+      "mechanisms": [
+        "COMPENSATION",
+        "DIFFUSION",
+        "RESOURCE_DEPLETION",
+        "SUPPORTED_ROTATION"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "COMPENSATION + DIFFUSION + RESOURCE_DEPLETION + SUPPORTED_ROTATION",
+      "selected_pathway_id": "P041-CP-025-641607da9660",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "COMPENSATION",
+          "DIFFUSION",
+          "RESOURCE_DEPLETION",
+          "SUPPORTED_ROTATION"
+        ],
+        "cue_matches": {
+          "COMPENSATION": [
+            "offset",
+            "controller adds"
+          ],
+          "DIFFUSION": [
+            "spread"
+          ],
+          "RESOURCE_DEPLETION": [
+            "drains",
+            "capacity"
+          ],
+          "SUPPORTED_ROTATION": [
+            "pivot",
+            "drag",
+            "drive"
+          ]
+        },
+        "sequence_depth_target": 2
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-026",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "ACCUMULATION",
+        "BUFFERING",
+        "OSCILLATION",
+        "RESOURCE_DEPLETION"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "ACCUMULATION + BUFFERING + OSCILLATION + RESOURCE_DEPLETION",
+      "selected_pathway_id": "P041-CP-026-ccdffd7213a3",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "ACCUMULATION",
+          "BUFFERING",
+          "OSCILLATION",
+          "RESOURCE_DEPLETION"
+        ],
+        "cue_matches": {
+          "ACCUMULATION": [
+            "piles",
+            "work piles"
+          ],
+          "BUFFERING": [
+            "reserve"
+          ],
+          "OSCILLATION": [
+            "undershoot",
+            "pulses"
+          ],
+          "RESOURCE_DEPLETION": [
+            "capacity"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": false
+    },
+    {
+      "case_id": "P041-CP-027",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 4,
+      "mechanisms": [
+        "COMPENSATION",
+        "DIFFUSION",
+        "LOAD_TRANSFER",
+        "SUPPORTED_ROTATION"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "COMPENSATION + DIFFUSION + LOAD_TRANSFER + SUPPORTED_ROTATION",
+      "selected_pathway_id": "P041-CP-027-d66eb703872d",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "COMPENSATION",
+          "DIFFUSION",
+          "LOAD_TRANSFER",
+          "SUPPORTED_ROTATION"
+        ],
+        "cue_matches": {
+          "COMPENSATION": [
+            "masks",
+            "offset",
+            "offsetting"
+          ],
+          "DIFFUSION": [
+            "spreads",
+            "spread",
+            "neighboring",
+            "across"
+          ],
+          "LOAD_TRANSFER": [
+            "anchor",
+            "demand",
+            "bends"
+          ],
+          "SUPPORTED_ROTATION": [
+            "support"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": false
+    },
+    {
+      "case_id": "P041-CP-028",
+      "classification": "PRESERVED_LIST_ONLY",
+      "combination_depth": 3,
+      "mechanisms": [
+        "COMPENSATION",
+        "FEEDBACK",
+        "THRESHOLD"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "COMPENSATION + FEEDBACK + THRESHOLD",
+      "selected_pathway_id": "P041-CP-028-a8e8413313ff",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "COMPENSATION",
+          "FEEDBACK",
+          "THRESHOLD"
+        ],
+        "cue_matches": {
+          "COMPENSATION": [
+            "correction"
+          ],
+          "FEEDBACK": [
+            "return",
+            "loop",
+            "correction",
+            "reinforces",
+            "same loop"
+          ],
+          "THRESHOLD": [
+            "boundary"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": false
+    },
+    {
+      "case_id": "P041-CP-029",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 4,
+      "mechanisms": [
+        "BUFFERING",
+        "DIFFUSION",
+        "FEEDBACK",
+        "RESOURCE_DEPLETION"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "BUFFERING + DIFFUSION + FEEDBACK + RESOURCE_DEPLETION",
+      "selected_pathway_id": "P041-CP-029-7a705d7ea24b",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "BUFFERING",
+          "DIFFUSION",
+          "FEEDBACK",
+          "RESOURCE_DEPLETION"
+        ],
+        "cue_matches": {
+          "BUFFERING": [
+            "reserve",
+            "smooth"
+          ],
+          "DIFFUSION": [
+            "spread",
+            "across"
+          ],
+          "FEEDBACK": [
+            "returning",
+            "return"
+          ],
+          "RESOURCE_DEPLETION": [
+            "drains",
+            "capacity"
+          ]
+        },
+        "sequence_depth_target": 3
+      },
+      "valid": true
+    },
+    {
+      "case_id": "P041-CP-030",
+      "classification": "TRUE_COMPOSITE",
+      "combination_depth": 4,
+      "mechanisms": [
+        "FLOW",
+        "OSCILLATION",
+        "SUPPORTED_ROTATION",
+        "THRESHOLD"
+      ],
+      "mode": "mode_c_blind_evaluator",
+      "selected_pathway": "FLOW + OSCILLATION + SUPPORTED_ROTATION + THRESHOLD",
+      "selected_pathway_id": "P041-CP-030-383de2aafbf9",
+      "selection_trace": {
+        "covered_mechanisms": [
+          "FLOW",
+          "OSCILLATION",
+          "SUPPORTED_ROTATION",
+          "THRESHOLD"
+        ],
+        "cue_matches": {
+          "FLOW": [
+            "route",
+            "restricted"
+          ],
+          "OSCILLATION": [
+            "waves",
+            "periodic"
+          ],
+          "SUPPORTED_ROTATION": [
+            "turning",
+            "distributor"
+          ],
+          "THRESHOLD": [
+            "limit",
+            "trigger"
+          ]
+        },
+        "sequence_depth_target": 2
+      },
+      "valid": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "request_id": "proof-023-truth-reconstruction-002-consult-002-cri",
+  "task": "Consult before concluding that Kubernetes' Container Runtime Interface is one of the three most important architectural decisions. Request related architectural motifs, historical lineage, prior decision traces, contradiction candidates, and recurring themes. Test whether CRI is merely an implementation detail or a system-defining boundary extraction from kubelet.",
+  "context": {
+    "summary": "Candidate decision: introduce CRI so kubelet can use multiple runtimes without recompilation and later remove built-in dockershim. Public evidence includes the 2016 CRI introduction blog, KEP-2221 removing dockershim, and the 2022 dockershim FAQ.",
+    "files": [
+      "https://kubernetes.io/blog/2016/12/container-runtime-interface-cri-in-kubernetes/",
+      "https://github.com/kubernetes/enhancements/blob/master/keps/sig-node/2221-remove-dockershim/README.md",
+      "https://kubernetes.io/blog/2022/02/17/dockershim-faq/",
+      "proofs/023-truth-reconstruction-challenge-002/baseline/baseline_truth_map.json",
+      "proofs/023-truth-reconstruction-challenge-002/consult/inside_voice_consults/consult_001_top_three_rerank_response.json"
+    ],
+    "constraints": [
+      "Request related architectural motifs",
+      "Request historical lineage",
+      "Request prior decision traces",
+      "Request contradiction candidates",
+      "Request recurring themes",
+      "Public historical claims must come from public Kubernetes sources",
+      "Do not expose hidden chain-of-thought, Inside Voice internals, Belief Ledger internals, or private substrate state"
+    ],
+    "desired_artifacts": [
+      "CRI lineage pressure",
+      "competing proposals to check",
+      "dockershim contradiction candidates",
+      "long-term consequence warnings",
+      "confidence boundary for final architecture truth map"
+    ]
+  },
+  "mode": "synthesis",
+  "max_output_chars": 8000,
+  "require_lineage": true
+}

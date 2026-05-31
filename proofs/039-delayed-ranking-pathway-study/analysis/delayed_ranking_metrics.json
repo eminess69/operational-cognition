@@ -1,0 +1,12 @@
+{
+  "delayed_avg_surviving_mechanisms": 2.9667,
+  "delayed_candidate_diversity": 4.6333,
+  "delayed_combination_depth": 2.9667,
+  "delayed_valid_candidate_rate": 0.6667,
+  "false_combination_count": 12,
+  "immediate_avg_surviving_mechanisms": 1.0,
+  "immediate_candidate_diversity": 1.0,
+  "immediate_combination_depth": 1.0,
+  "immediate_valid_candidate_rate": 0.0,
+  "unsupported_pathway_count": 0
+}

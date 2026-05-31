@@ -1,0 +1,22 @@
+{
+  "context": {
+    "constraints": [
+      "Broad generic consult only.",
+      "Do not target mechanism recall.",
+      "Return boundary guidance and lineage refs only."
+    ],
+    "desired_artifacts": [
+      "boundary guidance",
+      "lineage hashes"
+    ],
+    "files": [
+      "proofs/033-mechanism-seasoning-pond-recall/tests/held_out_mechanism_cases.jsonl"
+    ],
+    "summary": "Generic non-mechanism consult for P033-ROT-HO-007."
+  },
+  "max_output_chars": 8000,
+  "mode": "audit",
+  "request_id": "proof-033-generic-015-p033-rot-ho-007",
+  "require_lineage": true,
+  "task": "Generic proof audit consult. Provide general boundary, traceability, and fail-closed cautions. Do not classify the mechanism and do not return FLOW, SUPPORTED_ROTATION, or LOAD_TRANSFER as candidates. Case text for context only: Observed system: A calibration knob revolves on a tiny socket; abrasion makes it grind and the setting motion locks halfway. Question: Which learned mechanism structure should be applied?"
+}

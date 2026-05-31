@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-05-29T15:41:04Z",
+  "groups": [
+    {
+      "group": "A",
+      "is_isolated": true,
+      "mechanisms": [
+        "FLOW",
+        "SUPPORTED_ROTATION",
+        "LOAD_TRANSFER"
+      ],
+      "pond_state_id": "proof-037-group-a-isolated-pond",
+      "seasoning_examples": 288,
+      "state_path": "mcp/group_a_pond_state.json"
+    },
+    {
+      "group": "B",
+      "is_isolated": true,
+      "mechanisms": [
+        "FLOW",
+        "SUPPORTED_ROTATION",
+        "LOAD_TRANSFER",
+        "FEEDBACK",
+        "THRESHOLD",
+        "ACCUMULATION",
+        "DIFFUSION",
+        "OSCILLATION",
+        "BUFFERING",
+        "RESOURCE_DEPLETION",
+        "AMPLIFICATION",
+        "COMPENSATION"
+      ],
+      "pond_state_id": "proof-037-group-b-isolated-pond",
+      "seasoning_examples": 288,
+      "state_path": "mcp/group_b_pond_state.json"
+    }
+  ],
+  "notes": "Both groups start from empty_pond_state(); there is no shared seasoning.",
+  "prior_contents": []
+}

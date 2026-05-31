@@ -1,0 +1,243 @@
+{
+  "adapter_status": "pond_backed",
+  "bounded_synthesis": "",
+  "budget_policy": {
+    "allow_context_dump": false,
+    "dedupe_near_duplicate_lineages": true,
+    "force_compression_above_threshold": true,
+    "hard_candidate_compression_threshold": 32,
+    "max_item_tokens": 180,
+    "max_response_token_estimate": 2500,
+    "max_selected_items": 24,
+    "max_selected_lineages": 8,
+    "soft_candidate_warning_threshold": 24
+  },
+  "budget_warnings": [
+    "SOFT_CANDIDATE_WARNING_THRESHOLD_EXCEEDED",
+    "HARD_CANDIDATE_COMPRESSION_THRESHOLD_REACHED",
+    "COMPRESSION_APPLIED",
+    "BUDGET_BOUNDARY_TRIGGERED",
+    "NEAR_DUPLICATE_LINEAGES_DEDUPED",
+    "BUDGET_EXCLUSIONS_APPLIED",
+    "OUTPUT_COMPACTION_REDUCED_CONTEXT_DETAIL"
+  ],
+  "candidate_item_count": 40,
+  "claim_boundary_audit": [
+    {
+      "boundary_risk": "low",
+      "id": "audit.public_private_boundary",
+      "status": "pass"
+    }
+  ],
+  "classification": "BUDGET_LIMITED",
+  "compression_applied": true,
+  "confidence": "medium",
+  "contribution_grade": "bounded",
+  "contribution_grade_details": {
+    "contribution_grade": "bounded",
+    "grade_reasons": [
+      "refs_motifs_tensions_and_pressure_present"
+    ],
+    "minimum_gate_passed": true
+  },
+  "excluded_context_summary": {
+    "budget_boundary_triggered": true,
+    "excluded_count": 32,
+    "excluded_lineage_ids": [
+      "pressure:ad17bb887cd35c49",
+      "pressure:cf4e82e380cf1a94",
+      "pressure:4c617afdf60d4bdf",
+      "pressure:92605474c9a9fc18",
+      "contradiction:c3328bb2ea1b",
+      "inside_voice_runtime:b8b688c3ac0c691bef5f",
+      "pressure:3a15117f05967c61",
+      "pressure:fbcd6fa309a72bb6",
+      "contradiction:0b8ea451d69f",
+      "contradiction:a75c10c1d888",
+      "contradiction:385b3bcf8c64",
+      "contradiction:8da54cd1fc82",
+      "inside_voice_runtime:94829dcb8d1759469ce6",
+      "inside_voice_runtime:aacfc4a031880acb2be2",
+      "inside_voice_runtime:d408a85313302417ef36",
+      "authority:9d85edad8192",
+      "authority:c3328bb2ea1b",
+      "lineage_ref:f7bc5dc9c820c97a",
+      "lineage_ref:650f53377889e50c",
+      "lineage_ref:f89e7bbab0ee37cd",
+      "lineage_ref:4756753a0a93d9d7",
+      "lineage_ref:593310ddd4df0e9b",
+      "lineage_ref:21fb51eaca0273c5",
+      "lineage_ref:054feef8af130e5c",
+      "lineage_ref:698226f4f33fbf7e",
+      "lineage_ref:f03cf13377ab4e24",
+      "inside_voice_runtime:090c5db589c51515dfae",
+      "authority:7e4919d7f9e0",
+      "authority:632e86fc77ae",
+      "lineage_ref:c9f3144a00b2210b",
+      "authority:4161d447bc9a",
+      "inside_voice_runtime:b52f584c333f5750c031"
+    ],
+    "highest_excluded_score": 0.895,
+    "top_excluded_reasons": [
+      {
+        "count": 18,
+        "reason": "NEAR_DUPLICATE_LINEAGE_FAMILY"
+      },
+      {
+        "count": 9,
+        "reason": "DUPLICATE_SOURCE_TRACE_TOPIC"
+      },
+      {
+        "count": 5,
+        "reason": "BUDGET_MAX_SELECTED_LINEAGES"
+      }
+    ]
+  },
+  "excluded_item_count": 32,
+  "findings": [],
+  "gate_failures": [],
+  "limitations": [
+    "Recall is bounded to indexed local pond/proof artifacts and may miss evidence outside the declared corpus.",
+    "Recalled reports remain evidence, not implementation capability.",
+    "Direct source inspection is still required before using any claim operationally.",
+    "Unresolved tensions remain open and block claim escalation."
+  ],
+  "lineage": {
+    "request_hash": "f6b99ff350171c99a2c2247ea789407541d4ac7cd9b883d77080d24dd9d15d4e",
+    "response_hash": "fb6bf892a81c260da7c37545abcfb12def2acc98f38fefe99c647b028b37908c",
+    "runtime": {
+      "corpus_hash": "9dc990b92a07a9c77beafae5036894225983ce47f5fd2c6650266d29afc81b15",
+      "runtime_request_hash": "f6b99ff350171c99a2c2247ea789407541d4ac7cd9b883d77080d24dd9d15d4e",
+      "runtime_response_hash": "1f5471cc9626377e23388c7a43280d0451f8ba5f64691a30893c7662ed8cef2f"
+    },
+    "source_refs": [
+      "request_id:sha256:3b4c2a1fee24ecd5"
+    ]
+  },
+  "mode": "synthesis",
+  "operational_boundaries": [],
+  "pressure_rankings": [
+    {
+      "boundary_risk": "medium",
+      "id": "pressure:ad17bb887cd35c49",
+      "pressure_score": 0.895,
+      "source_ref": "docs/proofs/RECURSIVE_INTELLIGENCE_FAILURE_GAUNTLET.md"
+    },
+    {
+      "boundary_risk": "medium",
+      "id": "pressure:44eeb320a80c1c5f",
+      "pressure_score": 0.846,
+      "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+    },
+    {
+      "boundary_risk": "medium",
+      "id": "pressure:cf4e82e380cf1a94",
+      "pressure_score": 0.842,
+      "source_ref": "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+    }
+  ],
+  "ranked_context_items": [
+    {
+      "lineage_id": "inside_voice_runtime:d38efcb6a3972d08a79c",
+      "rank": 1,
+      "relevance_score": 0.895,
+      "selected_path_id": "inside_voice_runtime:d38efcb6a3972d08a79c",
+      "source_trace_refs": [
+        "docs/proofs/RECURSIVE_INTELLIGENCE_FAILURE_GAUNTLET.md"
+      ]
+    },
+    {
+      "lineage_id": "pressure:44eeb320a80c1c5f",
+      "rank": 2,
+      "relevance_score": 0.846,
+      "selected_path_id": "pressure:44eeb320a80c1c5f",
+      "source_trace_refs": [
+        "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+      ]
+    },
+    {
+      "lineage_id": "pressure:def77fbff3865287",
+      "rank": 3,
+      "relevance_score": 0.726,
+      "selected_path_id": "pressure:def77fbff3865287",
+      "source_trace_refs": [
+        "artifacts/pond/high_grade_seasoning_corpus.jsonl#75"
+      ]
+    },
+    {
+      "lineage_id": "inside_voice_runtime:8c7a0ef664098db91e88",
+      "rank": 4,
+      "relevance_score": 0.714,
+      "selected_path_id": "inside_voice_runtime:8c7a0ef664098db91e88",
+      "source_trace_refs": [
+        "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json"
+      ]
+    },
+    {
+      "lineage_id": "inside_voice_runtime:d43e2e09c028b98314e8",
+      "rank": 5,
+      "relevance_score": 0.699,
+      "selected_path_id": "inside_voice_runtime:d43e2e09c028b98314e8",
+      "source_trace_refs": [
+        "artifacts/inside_voice/epistemic_gap/epistemic_gap_requests.jsonl#0"
+      ]
+    },
+    {
+      "lineage_id": "contradiction:9d85edad8192",
+      "rank": 6,
+      "relevance_score": 0.64,
+      "selected_path_id": "contradiction:9d85edad8192",
+      "source_trace_refs": [
+        "artifacts/pond/high_grade_seasoning_corpus.jsonl#76"
+      ]
+    },
+    {
+      "lineage_id": "inside_voice_runtime:6618eceaa43863e083b2",
+      "rank": 7,
+      "relevance_score": 0.603,
+      "selected_path_id": "inside_voice_runtime:6618eceaa43863e083b2",
+      "source_trace_refs": [
+        "artifacts/pond/mcp_seasoned_first_principles_admitted.jsonl#49"
+      ]
+    },
+    {
+      "lineage_id": "authority:a75c10c1d888",
+      "rank": 8,
+      "relevance_score": 0.564,
+      "selected_path_id": "authority:a75c10c1d888",
+      "source_trace_refs": [
+        "artifacts/pond/high_grade_seasoning_corpus.jsonl#78"
+      ]
+    }
+  ],
+  "recommendations": [],
+  "request_id": "proof-033-season-005-flow",
+  "response_hash": "fb6bf892a81c260da7c37545abcfb12def2acc98f38fefe99c647b028b37908c",
+  "runtime_stage_report_ref": "artifacts/integrations/inside_voice_runtime/runtime_stage_report.json",
+  "selected_item_count": 8,
+  "selected_path_ids": [
+    "inside_voice_runtime:d38efcb6a3972d08a79c",
+    "pressure:44eeb320a80c1c5f",
+    "pressure:def77fbff3865287",
+    "inside_voice_runtime:8c7a0ef664098db91e88",
+    "inside_voice_runtime:d43e2e09c028b98314e8",
+    "contradiction:9d85edad8192",
+    "inside_voice_runtime:6618eceaa43863e083b2",
+    "authority:a75c10c1d888"
+  ],
+  "source_trace_refs": [
+    "docs/proofs/RECURSIVE_INTELLIGENCE_FAILURE_GAUNTLET.md",
+    "artifacts/inside_voice/continuity_arbitration/continuity_arbitration_report.json",
+    "artifacts/pond/high_grade_seasoning_corpus.jsonl#75",
+    "artifacts/pond/reusable_lineage_pool.jsonl",
+    "artifacts/pond/reusable_lineage_pool.jsonl#0",
+    "trace.falsification.hostile_ext_001",
+    "6a8a6591e9487b92e32491390a3edca614b4ce3b046e81264a7f321fe59f66ee",
+    "c8c67aa78005eefc38a18e32e541b363e357ad178c8e2bb262fbe3fa864c9a57"
+  ],
+  "summary": "Consultation output was compacted to honor max_output_chars.",
+  "uncertainty": [
+    "OUTPUT_COMPACTED_TO_MAX_OUTPUT_CHARS"
+  ],
+  "verdict": "ok"
+}

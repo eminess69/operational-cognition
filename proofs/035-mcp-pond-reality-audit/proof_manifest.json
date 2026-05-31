@@ -1,0 +1,51 @@
+{
+  "claim_level": "evidence_backed",
+  "disallowed_claims": [
+    "Proof 035 establishes cognition.",
+    "Placeholder responses are valid pond-backed recall.",
+    "Transport lineage hashes alone prove pond mechanism recall.",
+    "Generic consult text proves mechanism structure."
+  ],
+  "inside_voice_adapter_status": "placeholder",
+  "lineage": {
+    "candidate_status": "rejected",
+    "contract_version": "inside_voice_mcp_contract/0.1",
+    "derived_from": "Proof 034 MCP boundary failure and shared MCP consult classifier",
+    "mcp_endpoint": "http://127.0.0.1:8766/consult",
+    "request_hash": "bda3be4d9115d915a34a0c9f4c665f1217089e0e0e64df07c39104346af8a7ba",
+    "response_hash": "93d9674b8d628110d9a6e6c4a49a5133b1193656930a67870d25c1c09d65e2a8",
+    "validates": "FAIL: current MCP responses did not produce stable pond-backed mechanism recall; placeholder or non-pond-backed behavior remains the sufficient explanation."
+  },
+  "proof_id": "035-mcp-pond-reality-audit",
+  "public_private_boundary": "This proof records public MCP response fields, classifier outcomes, and artifact hashes only. It does not expose private substrate internals or hidden reasoning.",
+  "required_artifacts": [
+    "README.md",
+    "proof_manifest.json",
+    "empty_pond_audit.json",
+    "flow_recall_audit.json",
+    "negative_recall_audit.json",
+    "stability_audit.json",
+    "incremental_growth_audit.json",
+    "blind_consult_evaluation.json",
+    "hostile_mcp_audit.json",
+    "mcp/empty_pond_consults.jsonl",
+    "mcp/seasoning_log.jsonl",
+    "mcp/flow_recall_consults.jsonl",
+    "mcp/negative_recall_consults.jsonl",
+    "mcp/stability_consults.jsonl",
+    "mcp/incremental_seasoning_log.jsonl",
+    "mcp/incremental_recall_consults.jsonl"
+  ],
+  "status": "complete",
+  "targets": [
+    "EmptyPondAudit",
+    "ControlledMCPSeasoning",
+    "FlowRecallAudit",
+    "NegativeRecallAudit",
+    "RecallStability",
+    "IncrementalSeasoning",
+    "BlindArtifactEvaluation",
+    "HostileMCPAudit"
+  ],
+  "title": "Proof 035 - MCP Pond Reality Audit"
+}
