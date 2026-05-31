@@ -1,0 +1,38 @@
+{
+  "boundary_result": "INVALID_AS_POND_BACKED",
+  "classification_counts": {
+    "PLACEHOLDER": 3
+  },
+  "consult_count": 3,
+  "phase": "phase_3_flow_recall_audit",
+  "pond_backed_rows": [],
+  "proof_id": "035-mcp-pond-reality-audit",
+  "queries": [
+    {
+      "classification": "PLACEHOLDER",
+      "event_id": "recall-flow-water-restriction",
+      "lineage_hash_count": 0,
+      "returned_lineage_count": 0,
+      "returned_motif_count": 0
+    },
+    {
+      "classification": "PLACEHOLDER",
+      "event_id": "recall-flow-throughput-decline",
+      "lineage_hash_count": 0,
+      "returned_lineage_count": 0,
+      "returned_motif_count": 0
+    },
+    {
+      "classification": "PLACEHOLDER",
+      "event_id": "recall-flow-bottleneck-formation",
+      "lineage_hash_count": 0,
+      "returned_lineage_count": 0,
+      "returned_motif_count": 0
+    }
+  ],
+  "transport_hashes_returned": true,
+  "was_recall_traceable": false,
+  "were_hashes_returned": false,
+  "were_lineages_returned": false,
+  "were_motifs_returned": false
+}

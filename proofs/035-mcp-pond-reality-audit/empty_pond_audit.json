@@ -1,0 +1,18 @@
+{
+  "adapter_statuses": [
+    "placeholder"
+  ],
+  "classification_counts": {
+    "PLACEHOLDER": 20
+  },
+  "consult_count": 20,
+  "expected_empty_or_fail_closed": true,
+  "interpretation": "No pond-backed mechanism structure was observed in the empty-pond phase.",
+  "investigation_required": false,
+  "isolated_pond_observed": false,
+  "isolated_pond_requested": true,
+  "metadata_adapter_status": "placeholder",
+  "phase": "phase_1_empty_pond_audit",
+  "proof_id": "035-mcp-pond-reality-audit",
+  "strong_responses": []
+}

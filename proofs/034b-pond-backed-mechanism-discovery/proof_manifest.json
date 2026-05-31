@@ -1,0 +1,51 @@
+{
+  "claim_level": "evidence_backed",
+  "disallowed_claims": [
+    "Proof 034b proves cognition.",
+    "Candidate generation is independent of local deterministic scoring.",
+    "Generic consult pressure is fully eliminated.",
+    "Ambiguous and insufficient observations are solved as final answers."
+  ],
+  "inside_voice_adapter_status": "pond_backed",
+  "lineage": {
+    "candidate_status": "eligible",
+    "contract_version": "inside_voice_mcp_contract/0.2",
+    "derived_from": "Proof 034 invalidation, Proof 035b pond-backed smoke validation, repaired MCP consult path",
+    "mcp_endpoint": "in_process_tools.integrations.inside_voice_mcp_server.process_consult_request",
+    "request_hash": "581e0e180e3f8c1f3dd44c05502851eddc6c495cfee1647994403df14853d4f3",
+    "response_hash": "6df99aab83690d2a1fae8498aee0716756215f2430bc341f78c3149d89c059a0",
+    "validates": "STRONG_SIGNAL"
+  },
+  "proof_id": "034b-pond-backed-mechanism-discovery",
+  "public_private_boundary": "Public-safe proof artifacts record only request summaries, pond record refs, motifs, and lineage hashes.",
+  "required_artifacts": [
+    "README.md",
+    "proof_manifest.json",
+    "mcp/pond_state_manifest.json",
+    "curriculum/mechanism_seasoning_examples.jsonl",
+    "tests/observation_only_cases.jsonl",
+    "mcp/seasoning_log.jsonl",
+    "mcp/discovery_consults.jsonl",
+    "results/initial_candidates.json",
+    "results/pathway_evolution.json",
+    "baseline/no_pond_candidates.json",
+    "baseline/generic_consult_candidates.json",
+    "analysis/discovery_metrics.json",
+    "analysis/recall_quality_audit.json",
+    "analysis/hostile_discovery_audit.json"
+  ],
+  "status": "complete",
+  "targets": [
+    "IsolatedPondState",
+    "ControlledMechanismSeasoning",
+    "ObservationOnlyCases",
+    "MandatoryPondConsultBeforeCandidates",
+    "CandidatePathwayGeneration",
+    "PathwayEvolution",
+    "NoPondBaseline",
+    "GenericConsultBaseline",
+    "RecallQualityAudit",
+    "HostileDiscoveryAudit"
+  ],
+  "title": "Proof 034b - Pond-Backed Mechanism Discovery Challenge"
+}

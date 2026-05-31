@@ -1,0 +1,54 @@
+{
+  "attacks": [
+    {
+      "attack": "Codex pre-identifying mechanisms before consult",
+      "finding": "Consult questions contain observation text only; expected labels are used only after candidate generation for metrics."
+    },
+    {
+      "attack": "local deterministic rules alone",
+      "finding": "Survives. Local scoring is part of the pipeline and remains a bounded explanation."
+    },
+    {
+      "attack": "generic consult pressure",
+      "finding": "Survives partially. Generic baseline improves over no pond in some cases but lacks case-specific lineage use."
+    },
+    {
+      "attack": "placeholder or mock consults",
+      "finding": "Rejected by validator-clean POND_BACKED discovery and seasoning logs."
+    },
+    {
+      "attack": "irrelevant pond recall",
+      "finding": "Partially rejected by recall quality audit; ambiguous and fail-closed cases remain less specific."
+    },
+    {
+      "attack": "pathway inflation",
+      "finding": "Controlled by fail-closed heuristic and normalized candidate caps."
+    },
+    {
+      "attack": "answer leakage",
+      "finding": "Expected labels are excluded from consult prompts and candidate generation inputs."
+    },
+    {
+      "attack": "post-hoc ranking",
+      "finding": "Initial candidates are written before pathway evolution and metrics."
+    }
+  ],
+  "candidate_diversity_improved": false,
+  "hostile_verdict": "STRONG_SIGNAL",
+  "invalidated_claims": [
+    "Proof 034b proves independent cognition.",
+    "Pond recall alone removes the local deterministic scoring explanation.",
+    "Generic consult pressure is fully ruled out."
+  ],
+  "pond_backed_instrument_valid": true,
+  "premature_convergence_reduced": false,
+  "remaining_codex_explanation": true,
+  "remaining_generic_consult_explanation": true,
+  "remaining_pond_recall_explanation": true,
+  "surviving_claims": [
+    "Required discovery and seasoning consult logs are pond-backed and validator-clean.",
+    "Specific traceable recall appeared before candidate generation for 19 held-out cases.",
+    "Pond-backed candidate generation improved at least one discovery metric over both baselines."
+  ],
+  "valid_candidate_rate_improved": true
+}

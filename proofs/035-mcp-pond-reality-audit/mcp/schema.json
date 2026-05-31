@@ -1,0 +1,194 @@
+{
+  "canonical_json": {
+    "encoding": "utf-8",
+    "separators": [
+      ",",
+      ":"
+    ],
+    "sort_keys": true
+  },
+  "fail_closed": [
+    "missing_request_id",
+    "invalid_mode",
+    "malformed_context",
+    "max_output_chars_exceeds_cap",
+    "lineage_required_but_unavailable",
+    "consultation_exception"
+  ],
+  "privacy_boundary": {
+    "expose_only": [
+      "summary",
+      "findings",
+      "recommendations",
+      "uncertainty",
+      "lineage_hashes",
+      "source_refs"
+    ],
+    "never_expose": [
+      "hidden_chain_of_thought",
+      "belief_ledger_internal_trace_structures",
+      "harmonic_traceback_implementation_details",
+      "private_substrate_scoring_internals",
+      "full_mcp_prompt_internals",
+      "secrets_env_vars_tokens"
+    ]
+  },
+  "protocol_version": "inside_voice_mcp_contract/0.1",
+  "request_schema": {
+    "additionalProperties": false,
+    "properties": {
+      "context": {
+        "additionalProperties": false,
+        "properties": {
+          "constraints": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "desired_artifacts": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "files": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "summary": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "constraints",
+          "desired_artifacts",
+          "files",
+          "summary"
+        ],
+        "type": "object"
+      },
+      "max_output_chars": {
+        "maximum": 8000,
+        "minimum": 1,
+        "type": "integer"
+      },
+      "mode": {
+        "enum": [
+          "audit",
+          "synthesis",
+          "review",
+          "proof_planning"
+        ],
+        "type": "string"
+      },
+      "request_id": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "require_lineage": {
+        "type": "boolean"
+      },
+      "task": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "context",
+      "max_output_chars",
+      "mode",
+      "request_id",
+      "require_lineage",
+      "task"
+    ],
+    "type": "object"
+  },
+  "response_schema": {
+    "properties": {
+      "adapter_status": {
+        "enum": [
+          "placeholder"
+        ],
+        "type": "string"
+      },
+      "findings": {
+        "items": {
+          "required": [
+            "id",
+            "claim",
+            "evidence",
+            "confidence",
+            "risk",
+            "lineage_refs"
+          ],
+          "type": "object"
+        },
+        "type": "array"
+      },
+      "lineage": {
+        "required": [
+          "request_hash",
+          "response_hash",
+          "source_refs"
+        ],
+        "type": "object"
+      },
+      "mode": {
+        "enum": [
+          "audit",
+          "synthesis",
+          "review",
+          "proof_planning"
+        ],
+        "type": "string"
+      },
+      "recommendations": {
+        "items": {
+          "required": [
+            "id",
+            "action",
+            "reason",
+            "blocking"
+          ],
+          "type": "object"
+        },
+        "type": "array"
+      },
+      "request_id": {
+        "type": "string"
+      },
+      "summary": {
+        "type": "string"
+      },
+      "uncertainty": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "verdict": {
+        "enum": [
+          "ok",
+          "warn",
+          "fail"
+        ],
+        "type": "string"
+      }
+    },
+    "required": [
+      "request_id",
+      "verdict",
+      "mode",
+      "summary",
+      "findings",
+      "recommendations",
+      "uncertainty",
+      "lineage",
+      "adapter_status"
+    ],
+    "type": "object"
+  },
+  "service": "inside_voice_mcp"
+}

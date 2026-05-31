@@ -1,0 +1,2094 @@
+[
+  {
+    "case_id": "P034-OBS-001",
+    "evidence_used": [
+      "Inspection found dry scoring at a moving contact point.",
+      "External supply and command timing remained steady."
+    ],
+    "initial_candidates": [
+      {
+        "matched_motifs": [
+          "heat",
+          "noise"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.3111
+      },
+      {
+        "matched_motifs": [
+          "heat",
+          "movement_decay",
+          "noise",
+          "terminal_stop"
+        ],
+        "pathway": "moving-interface-loss pathway",
+        "reason": "Noise, warmth, slowing, and stoppage can form a contact-loss sequence in a moving interface.",
+        "source": "experimental",
+        "weight": 0.3111
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.2
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.1778
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "control-feedback pathway",
+      "measurement-artifact pathway",
+      "moving-interface-loss pathway",
+      "supply-variation pathway"
+    ],
+    "updated_candidates": [
+      {
+        "matched_motifs": [
+          "heat",
+          "movement_decay",
+          "noise",
+          "steady_command",
+          "terminal_stop",
+          "wear_contact"
+        ],
+        "pathway": "moving-interface-loss pathway",
+        "reason": "Noise, warmth, slowing, and stoppage can form a contact-loss sequence in a moving interface.",
+        "source": "experimental",
+        "weight": 0.3947
+      },
+      {
+        "matched_motifs": [
+          "heat",
+          "noise"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.2632
+      },
+      {
+        "matched_motifs": [
+          "steady_command",
+          "terminal_stop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.2105
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.1316
+      }
+    ]
+  },
+  {
+    "case_id": "P034-OBS-002",
+    "evidence_used": [
+      "Items accumulated immediately before one narrowed segment.",
+      "The receiving side had idle capacity."
+    ],
+    "initial_candidates": [
+      {
+        "matched_motifs": [
+          "downstream_wait",
+          "restriction",
+          "throughput_drop"
+        ],
+        "pathway": "passage-constraint pathway",
+        "reason": "Declining output with buildup before a narrowed point can preserve a constrained-passage explanation.",
+        "source": "experimental",
+        "weight": 0.3067
+      },
+      {
+        "matched_motifs": [
+          "throughput_drop"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.24
+      },
+      {
+        "matched_motifs": [
+          "throughput_drop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.24
+      },
+      {
+        "matched_motifs": [
+          "throughput_drop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.2133
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "control-feedback pathway",
+      "measurement-artifact pathway",
+      "passage-constraint pathway",
+      "supply-variation pathway"
+    ],
+    "updated_candidates": [
+      {
+        "matched_motifs": [
+          "backlog",
+          "downstream_wait",
+          "narrowed_segment",
+          "restriction",
+          "throughput_drop"
+        ],
+        "pathway": "passage-constraint pathway",
+        "reason": "Declining output with buildup before a narrowed point can preserve a constrained-passage explanation.",
+        "source": "experimental",
+        "weight": 0.4717
+      },
+      {
+        "matched_motifs": [
+          "throughput_drop"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.1887
+      },
+      {
+        "matched_motifs": [
+          "throughput_drop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.1887
+      },
+      {
+        "matched_motifs": [
+          "throughput_drop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.1509
+      }
+    ]
+  },
+  {
+    "case_id": "P034-OBS-003",
+    "evidence_used": [
+      "Demand was carried mostly through one attachment.",
+      "Neighboring members showed little damage."
+    ],
+    "initial_candidates": [
+      {
+        "matched_motifs": [
+          "collapse",
+          "cracking",
+          "deformation",
+          "localized_point",
+          "neighbor_intact"
+        ],
+        "pathway": "localized-structure-failure pathway",
+        "reason": "Bending, cracking, and failure at one point can preserve a local structural concentration explanation.",
+        "source": "experimental",
+        "weight": 0.8355
+      },
+      {
+        "matched_motifs": [],
+        "pathway": "measurement-artifact pathway",
+        "reason": "Kept alive by consult motif overlap: sensor artifact, measurement bias.",
+        "source": "experimental_consult_keep_alive",
+        "weight": 0.1645
+      }
+    ],
+    "pathways_eliminated": [
+      "measurement-artifact pathway"
+    ],
+    "pathways_preserved": [
+      "localized-structure-failure pathway"
+    ],
+    "updated_candidates": [
+      {
+        "matched_motifs": [
+          "collapse",
+          "cracking",
+          "deformation",
+          "localized_point",
+          "neighbor_intact"
+        ],
+        "pathway": "localized-structure-failure pathway",
+        "reason": "Bending, cracking, and failure at one point can preserve a local structural concentration explanation.",
+        "source": "experimental",
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034-OBS-004",
+    "evidence_used": [
+      "A single passage segment had become narrowed.",
+      "Material upstream of that segment was stacked in order."
+    ],
+    "initial_candidates": [
+      {
+        "matched_motifs": [
+          "starvation",
+          "steady_input"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.4179
+      },
+      {
+        "matched_motifs": [
+          "intermittent_delivery",
+          "starvation",
+          "steady_input"
+        ],
+        "pathway": "passage-constraint pathway",
+        "reason": "Declining output with buildup before a narrowed point can preserve a constrained-passage explanation.",
+        "source": "experimental",
+        "weight": 0.3433
+      },
+      {
+        "matched_motifs": [
+          "intermittent_delivery"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.2388
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "control-feedback pathway",
+      "passage-constraint pathway",
+      "supply-variation pathway"
+    ],
+    "updated_candidates": [
+      {
+        "matched_motifs": [
+          "backlog",
+          "intermittent_delivery",
+          "restriction",
+          "starvation",
+          "steady_input"
+        ],
+        "pathway": "passage-constraint pathway",
+        "reason": "Declining output with buildup before a narrowed point can preserve a constrained-passage explanation.",
+        "source": "experimental",
+        "weight": 0.4717
+      },
+      {
+        "matched_motifs": [
+          "starvation",
+          "steady_input"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.3774
+      },
+      {
+        "matched_motifs": [
+          "intermittent_delivery"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.1509
+      }
+    ]
+  },
+  {
+    "case_id": "P034-OBS-005",
+    "evidence_used": [
+      "Residue was found at the support contact.",
+      "Manual movement was rough even with external command removed."
+    ],
+    "initial_candidates": [
+      {
+        "matched_motifs": [
+          "heat",
+          "movement_decay",
+          "noise",
+          "terminal_stop",
+          "wear_contact"
+        ],
+        "pathway": "moving-interface-loss pathway",
+        "reason": "Noise, warmth, slowing, and stoppage can form a contact-loss sequence in a moving interface.",
+        "source": "experimental",
+        "weight": 0.3474
+      },
+      {
+        "matched_motifs": [
+          "heat",
+          "noise"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.2947
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.1895
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.1684
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "control-feedback pathway",
+      "measurement-artifact pathway",
+      "moving-interface-loss pathway",
+      "supply-variation pathway"
+    ],
+    "updated_candidates": [
+      {
+        "matched_motifs": [
+          "drag",
+          "heat",
+          "movement_decay",
+          "noise",
+          "steady_command",
+          "terminal_stop",
+          "wear_contact"
+        ],
+        "pathway": "moving-interface-loss pathway",
+        "reason": "Noise, warmth, slowing, and stoppage can form a contact-loss sequence in a moving interface.",
+        "source": "experimental",
+        "weight": 0.4321
+      },
+      {
+        "matched_motifs": [
+          "heat",
+          "noise"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.2469
+      },
+      {
+        "matched_motifs": [
+          "steady_command",
+          "terminal_stop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.1975
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.1235
+      }
+    ]
+  },
+  {
+    "case_id": "P034-OBS-006",
+    "evidence_used": [
+      "The corner carried most of the suspended demand.",
+      "The opposite corner remained nearly level."
+    ],
+    "initial_candidates": [
+      {
+        "matched_motifs": [
+          "alignment_loss",
+          "collapse",
+          "cracking",
+          "deformation",
+          "localized_point"
+        ],
+        "pathway": "localized-structure-failure pathway",
+        "reason": "Bending, cracking, and failure at one point can preserve a local structural concentration explanation.",
+        "source": "experimental",
+        "weight": 0.6702
+      },
+      {
+        "matched_motifs": [
+          "alignment_loss"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.3298
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "localized-structure-failure pathway",
+      "measurement-artifact pathway"
+    ],
+    "updated_candidates": [
+      {
+        "matched_motifs": [
+          "alignment_loss",
+          "collapse",
+          "cracking",
+          "deformation",
+          "localized_point",
+          "neighbor_intact"
+        ],
+        "pathway": "localized-structure-failure pathway",
+        "reason": "Bending, cracking, and failure at one point can preserve a local structural concentration explanation.",
+        "source": "experimental",
+        "weight": 0.7742
+      },
+      {
+        "matched_motifs": [
+          "alignment_loss"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.2258
+      }
+    ]
+  },
+  {
+    "case_id": "P034-OBS-007",
+    "evidence_used": [
+      "The slowed step accepted work only intermittently.",
+      "Downstream workers were waiting for arrivals."
+    ],
+    "initial_candidates": [
+      {
+        "matched_motifs": [
+          "steady_input",
+          "throughput_drop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.3294
+      },
+      {
+        "matched_motifs": [
+          "backlog",
+          "steady_input",
+          "throughput_drop"
+        ],
+        "pathway": "passage-constraint pathway",
+        "reason": "Declining output with buildup before a narrowed point can preserve a constrained-passage explanation.",
+        "source": "experimental",
+        "weight": 0.2706
+      },
+      {
+        "matched_motifs": [
+          "throughput_drop"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.2118
+      },
+      {
+        "matched_motifs": [
+          "throughput_drop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.1882
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "control-feedback pathway",
+      "measurement-artifact pathway",
+      "passage-constraint pathway",
+      "supply-variation pathway"
+    ],
+    "updated_candidates": [
+      {
+        "matched_motifs": [
+          "backlog",
+          "downstream_wait",
+          "intermittent_delivery",
+          "steady_input",
+          "throughput_drop"
+        ],
+        "pathway": "passage-constraint pathway",
+        "reason": "Declining output with buildup before a narrowed point can preserve a constrained-passage explanation.",
+        "source": "experimental",
+        "weight": 0.3521
+      },
+      {
+        "matched_motifs": [
+          "steady_input",
+          "throughput_drop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.2817
+      },
+      {
+        "matched_motifs": [
+          "intermittent_delivery",
+          "throughput_drop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.2254
+      },
+      {
+        "matched_motifs": [
+          "throughput_drop"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.1408
+      }
+    ]
+  },
+  {
+    "case_id": "P034-OBS-008",
+    "evidence_used": [
+      "A center support showed scoring.",
+      "The drive signal did not drop during the event."
+    ],
+    "initial_candidates": [
+      {
+        "matched_motifs": [
+          "cycle_failure",
+          "drag",
+          "heat",
+          "movement_decay",
+          "noise",
+          "terminal_stop"
+        ],
+        "pathway": "moving-interface-loss pathway",
+        "reason": "Noise, warmth, slowing, and stoppage can form a contact-loss sequence in a moving interface.",
+        "source": "experimental",
+        "weight": 0.3519
+      },
+      {
+        "matched_motifs": [
+          "heat",
+          "noise"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.2593
+      },
+      {
+        "matched_motifs": [
+          "cycle_failure",
+          "terminal_stop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.2222
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.1667
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "control-feedback pathway",
+      "measurement-artifact pathway",
+      "moving-interface-loss pathway",
+      "supply-variation pathway"
+    ],
+    "updated_candidates": [
+      {
+        "matched_motifs": [
+          "cycle_failure",
+          "drag",
+          "heat",
+          "movement_decay",
+          "noise",
+          "steady_command",
+          "terminal_stop",
+          "wear_contact"
+        ],
+        "pathway": "moving-interface-loss pathway",
+        "reason": "Noise, warmth, slowing, and stoppage can form a contact-loss sequence in a moving interface.",
+        "source": "experimental",
+        "weight": 0.4255
+      },
+      {
+        "matched_motifs": [
+          "cycle_failure",
+          "steady_command",
+          "terminal_stop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.2553
+      },
+      {
+        "matched_motifs": [
+          "heat",
+          "noise"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.2128
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.1064
+      }
+    ]
+  },
+  {
+    "case_id": "P034-OBS-009",
+    "evidence_used": [
+      "The fastener received most of the imposed demand.",
+      "Adjacent fasteners showed low marks."
+    ],
+    "initial_candidates": [
+      {
+        "matched_motifs": [
+          "alignment_loss",
+          "cracking",
+          "deformation",
+          "localized_point"
+        ],
+        "pathway": "localized-structure-failure pathway",
+        "reason": "Bending, cracking, and failure at one point can preserve a local structural concentration explanation.",
+        "source": "experimental",
+        "weight": 0.6316
+      },
+      {
+        "matched_motifs": [
+          "alignment_loss"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.3684
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "localized-structure-failure pathway",
+      "measurement-artifact pathway"
+    ],
+    "updated_candidates": [
+      {
+        "matched_motifs": [
+          "alignment_loss",
+          "concentrated_demand",
+          "cracking",
+          "deformation",
+          "localized_point",
+          "neighbor_intact"
+        ],
+        "pathway": "localized-structure-failure pathway",
+        "reason": "Bending, cracking, and failure at one point can preserve a local structural concentration explanation.",
+        "source": "experimental",
+        "weight": 0.7742
+      },
+      {
+        "matched_motifs": [
+          "alignment_loss"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.2258
+      }
+    ]
+  },
+  {
+    "case_id": "P034-OBS-010",
+    "evidence_used": [
+      "A metering gate released only sporadic batches.",
+      "The receiving units resumed when the gate was cleared."
+    ],
+    "initial_candidates": [
+      {
+        "matched_motifs": [
+          "intermittent_delivery",
+          "terminal_stop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.3288
+      },
+      {
+        "matched_motifs": [
+          "downstream_wait",
+          "intermittent_delivery"
+        ],
+        "pathway": "passage-constraint pathway",
+        "reason": "Declining output with buildup before a narrowed point can preserve a constrained-passage explanation.",
+        "source": "experimental",
+        "weight": 0.2466
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.2466
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop"
+        ],
+        "pathway": "moving-interface-loss pathway",
+        "reason": "Noise, warmth, slowing, and stoppage can form a contact-loss sequence in a moving interface.",
+        "source": "experimental",
+        "weight": 0.1781
+      }
+    ],
+    "pathways_eliminated": [
+      "moving-interface-loss pathway"
+    ],
+    "pathways_preserved": [
+      "control-feedback pathway",
+      "passage-constraint pathway",
+      "supply-variation pathway"
+    ],
+    "updated_candidates": [
+      {
+        "matched_motifs": [
+          "intermittent_delivery",
+          "terminal_stop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.3902
+      },
+      {
+        "matched_motifs": [
+          "downstream_wait",
+          "intermittent_delivery",
+          "restriction"
+        ],
+        "pathway": "passage-constraint pathway",
+        "reason": "Declining output with buildup before a narrowed point can preserve a constrained-passage explanation.",
+        "source": "experimental",
+        "weight": 0.3659
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.2439
+      }
+    ]
+  },
+  {
+    "case_id": "P034-OBS-011",
+    "evidence_used": [
+      "The guide contact was polished and scored.",
+      "No upstream shortage was found."
+    ],
+    "initial_candidates": [
+      {
+        "matched_motifs": [
+          "heat",
+          "noise"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.3111
+      },
+      {
+        "matched_motifs": [
+          "drag",
+          "heat",
+          "noise",
+          "terminal_stop"
+        ],
+        "pathway": "moving-interface-loss pathway",
+        "reason": "Noise, warmth, slowing, and stoppage can form a contact-loss sequence in a moving interface.",
+        "source": "experimental",
+        "weight": 0.3111
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.2
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.1778
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "control-feedback pathway",
+      "measurement-artifact pathway",
+      "moving-interface-loss pathway",
+      "supply-variation pathway"
+    ],
+    "updated_candidates": [
+      {
+        "matched_motifs": [
+          "drag",
+          "heat",
+          "noise",
+          "terminal_stop",
+          "wear_contact"
+        ],
+        "pathway": "moving-interface-loss pathway",
+        "reason": "Noise, warmth, slowing, and stoppage can form a contact-loss sequence in a moving interface.",
+        "source": "experimental",
+        "weight": 0.3968
+      },
+      {
+        "matched_motifs": [
+          "heat",
+          "noise"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.3175
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.1587
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.127
+      }
+    ]
+  },
+  {
+    "case_id": "P034-OBS-012",
+    "evidence_used": [
+      "The bracket took most of the shelf demand.",
+      "A nearby bracket remained seated."
+    ],
+    "initial_candidates": [
+      {
+        "matched_motifs": [
+          "alignment_loss",
+          "collapse",
+          "cracking",
+          "deformation",
+          "localized_point"
+        ],
+        "pathway": "localized-structure-failure pathway",
+        "reason": "Bending, cracking, and failure at one point can preserve a local structural concentration explanation.",
+        "source": "experimental",
+        "weight": 0.6702
+      },
+      {
+        "matched_motifs": [
+          "alignment_loss"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.3298
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "localized-structure-failure pathway",
+      "measurement-artifact pathway"
+    ],
+    "updated_candidates": [
+      {
+        "matched_motifs": [
+          "alignment_loss",
+          "collapse",
+          "cracking",
+          "deformation",
+          "localized_point"
+        ],
+        "pathway": "localized-structure-failure pathway",
+        "reason": "Bending, cracking, and failure at one point can preserve a local structural concentration explanation.",
+        "source": "experimental",
+        "weight": 0.7407
+      },
+      {
+        "matched_motifs": [
+          "alignment_loss"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.2593
+      }
+    ]
+  },
+  {
+    "case_id": "P034-OBS-013",
+    "evidence_used": [
+      "The only changed condition was a narrowed transfer point.",
+      "Once that point was opened, downstream activity recovered."
+    ],
+    "initial_candidates": [
+      {
+        "matched_motifs": [
+          "starvation",
+          "steady_input",
+          "throughput_drop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.38
+      },
+      {
+        "matched_motifs": [
+          "backlog",
+          "starvation",
+          "steady_input",
+          "throughput_drop"
+        ],
+        "pathway": "passage-constraint pathway",
+        "reason": "Declining output with buildup before a narrowed point can preserve a constrained-passage explanation.",
+        "source": "experimental",
+        "weight": 0.28
+      },
+      {
+        "matched_motifs": [
+          "throughput_drop"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.18
+      },
+      {
+        "matched_motifs": [
+          "throughput_drop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.16
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "control-feedback pathway",
+      "measurement-artifact pathway",
+      "passage-constraint pathway",
+      "supply-variation pathway"
+    ],
+    "updated_candidates": [
+      {
+        "matched_motifs": [
+          "backlog",
+          "narrowed_segment",
+          "restriction",
+          "starvation",
+          "steady_input",
+          "throughput_drop"
+        ],
+        "pathway": "passage-constraint pathway",
+        "reason": "Declining output with buildup before a narrowed point can preserve a constrained-passage explanation.",
+        "source": "experimental",
+        "weight": 0.3846
+      },
+      {
+        "matched_motifs": [
+          "starvation",
+          "steady_input",
+          "throughput_drop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.3846
+      },
+      {
+        "matched_motifs": [
+          "throughput_drop"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.1282
+      },
+      {
+        "matched_motifs": [
+          "throughput_drop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.1026
+      }
+    ]
+  },
+  {
+    "case_id": "P034-OBS-014",
+    "evidence_used": [
+      "The central support showed abrasive wear.",
+      "The controller continued to request the same motion."
+    ],
+    "initial_candidates": [
+      {
+        "matched_motifs": [
+          "heat",
+          "noise"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.3111
+      },
+      {
+        "matched_motifs": [
+          "heat",
+          "movement_decay",
+          "noise",
+          "terminal_stop"
+        ],
+        "pathway": "moving-interface-loss pathway",
+        "reason": "Noise, warmth, slowing, and stoppage can form a contact-loss sequence in a moving interface.",
+        "source": "experimental",
+        "weight": 0.3111
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.2
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.1778
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "control-feedback pathway",
+      "measurement-artifact pathway",
+      "moving-interface-loss pathway",
+      "supply-variation pathway"
+    ],
+    "updated_candidates": [
+      {
+        "matched_motifs": [
+          "heat",
+          "movement_decay",
+          "noise",
+          "steady_command",
+          "terminal_stop",
+          "wear_contact"
+        ],
+        "pathway": "moving-interface-loss pathway",
+        "reason": "Noise, warmth, slowing, and stoppage can form a contact-loss sequence in a moving interface.",
+        "source": "experimental",
+        "weight": 0.3947
+      },
+      {
+        "matched_motifs": [
+          "heat",
+          "noise"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.2632
+      },
+      {
+        "matched_motifs": [
+          "steady_command",
+          "terminal_stop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.2105
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.1316
+      }
+    ]
+  },
+  {
+    "case_id": "P034-OBS-015",
+    "evidence_used": [
+      "Most demand was concentrated at that anchor.",
+      "Other anchors were still aligned."
+    ],
+    "initial_candidates": [
+      {
+        "matched_motifs": [
+          "alignment_loss",
+          "collapse",
+          "cracking",
+          "deformation",
+          "localized_point"
+        ],
+        "pathway": "localized-structure-failure pathway",
+        "reason": "Bending, cracking, and failure at one point can preserve a local structural concentration explanation.",
+        "source": "experimental",
+        "weight": 0.6702
+      },
+      {
+        "matched_motifs": [
+          "alignment_loss"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.3298
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "localized-structure-failure pathway",
+      "measurement-artifact pathway"
+    ],
+    "updated_candidates": [
+      {
+        "matched_motifs": [
+          "alignment_loss",
+          "collapse",
+          "concentrated_demand",
+          "cracking",
+          "deformation",
+          "localized_point"
+        ],
+        "pathway": "localized-structure-failure pathway",
+        "reason": "Bending, cracking, and failure at one point can preserve a local structural concentration explanation.",
+        "source": "experimental",
+        "weight": 0.7742
+      },
+      {
+        "matched_motifs": [
+          "alignment_loss"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.2258
+      }
+    ]
+  },
+  {
+    "case_id": "P034-OBS-016",
+    "evidence_used": [
+      "The middle station had a local restriction.",
+      "Input to the first station stayed normal."
+    ],
+    "initial_candidates": [
+      {
+        "matched_motifs": [
+          "backlog",
+          "downstream_wait",
+          "throughput_drop"
+        ],
+        "pathway": "passage-constraint pathway",
+        "reason": "Declining output with buildup before a narrowed point can preserve a constrained-passage explanation.",
+        "source": "experimental",
+        "weight": 0.3067
+      },
+      {
+        "matched_motifs": [
+          "throughput_drop"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.24
+      },
+      {
+        "matched_motifs": [
+          "throughput_drop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.24
+      },
+      {
+        "matched_motifs": [
+          "throughput_drop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.2133
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "control-feedback pathway",
+      "measurement-artifact pathway",
+      "passage-constraint pathway",
+      "supply-variation pathway"
+    ],
+    "updated_candidates": [
+      {
+        "matched_motifs": [
+          "backlog",
+          "downstream_wait",
+          "restriction",
+          "steady_input",
+          "throughput_drop"
+        ],
+        "pathway": "passage-constraint pathway",
+        "reason": "Declining output with buildup before a narrowed point can preserve a constrained-passage explanation.",
+        "source": "experimental",
+        "weight": 0.3968
+      },
+      {
+        "matched_motifs": [
+          "steady_input",
+          "throughput_drop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.3175
+      },
+      {
+        "matched_motifs": [
+          "throughput_drop"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.1587
+      },
+      {
+        "matched_motifs": [
+          "throughput_drop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.127
+      }
+    ]
+  },
+  {
+    "case_id": "P034-OBS-017",
+    "evidence_used": [
+      "A sliding support surface showed galling.",
+      "Power delivery remained within tolerance."
+    ],
+    "initial_candidates": [
+      {
+        "matched_motifs": [
+          "cycle_failure",
+          "heat",
+          "movement_decay",
+          "terminal_stop"
+        ],
+        "pathway": "moving-interface-loss pathway",
+        "reason": "Noise, warmth, slowing, and stoppage can form a contact-loss sequence in a moving interface.",
+        "source": "experimental",
+        "weight": 0.3182
+      },
+      {
+        "matched_motifs": [
+          "cycle_failure",
+          "terminal_stop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.2727
+      },
+      {
+        "matched_motifs": [
+          "heat"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.2045
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.2045
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "control-feedback pathway",
+      "measurement-artifact pathway",
+      "moving-interface-loss pathway",
+      "supply-variation pathway"
+    ],
+    "updated_candidates": [
+      {
+        "matched_motifs": [
+          "cycle_failure",
+          "drag",
+          "heat",
+          "movement_decay",
+          "steady_command",
+          "terminal_stop",
+          "wear_contact"
+        ],
+        "pathway": "moving-interface-loss pathway",
+        "reason": "Noise, warmth, slowing, and stoppage can form a contact-loss sequence in a moving interface.",
+        "source": "experimental",
+        "weight": 0.443
+      },
+      {
+        "matched_motifs": [
+          "cycle_failure",
+          "steady_command",
+          "terminal_stop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.3038
+      },
+      {
+        "matched_motifs": [
+          "heat"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.1266
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.1266
+      }
+    ]
+  },
+  {
+    "case_id": "P034-OBS-018",
+    "evidence_used": [
+      "The separated corner was the primary attachment point.",
+      "Demand marks radiated from that point."
+    ],
+    "initial_candidates": [
+      {
+        "matched_motifs": [
+          "collapse",
+          "cracking",
+          "deformation",
+          "localized_point",
+          "neighbor_intact"
+        ],
+        "pathway": "localized-structure-failure pathway",
+        "reason": "Bending, cracking, and failure at one point can preserve a local structural concentration explanation.",
+        "source": "experimental",
+        "weight": 0.8355
+      },
+      {
+        "matched_motifs": [],
+        "pathway": "measurement-artifact pathway",
+        "reason": "Kept alive by consult motif overlap: sensor artifact, measurement bias.",
+        "source": "experimental_consult_keep_alive",
+        "weight": 0.1645
+      }
+    ],
+    "pathways_eliminated": [
+      "measurement-artifact pathway"
+    ],
+    "pathways_preserved": [
+      "localized-structure-failure pathway"
+    ],
+    "updated_candidates": [
+      {
+        "matched_motifs": [
+          "collapse",
+          "concentrated_demand",
+          "cracking",
+          "deformation",
+          "localized_point",
+          "neighbor_intact"
+        ],
+        "pathway": "localized-structure-failure pathway",
+        "reason": "Bending, cracking, and failure at one point can preserve a local structural concentration explanation.",
+        "source": "experimental",
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034-OBS-019",
+    "evidence_used": [
+      "A narrowed channel between stations blocked regular passage.",
+      "The later station operated normally when hand-fed."
+    ],
+    "initial_candidates": [
+      {
+        "matched_motifs": [
+          "starvation",
+          "throughput_drop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.3294
+      },
+      {
+        "matched_motifs": [
+          "backlog",
+          "starvation",
+          "throughput_drop"
+        ],
+        "pathway": "passage-constraint pathway",
+        "reason": "Declining output with buildup before a narrowed point can preserve a constrained-passage explanation.",
+        "source": "experimental",
+        "weight": 0.2706
+      },
+      {
+        "matched_motifs": [
+          "throughput_drop"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.2118
+      },
+      {
+        "matched_motifs": [
+          "throughput_drop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.1882
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "control-feedback pathway",
+      "measurement-artifact pathway",
+      "passage-constraint pathway",
+      "supply-variation pathway"
+    ],
+    "updated_candidates": [
+      {
+        "matched_motifs": [
+          "backlog",
+          "narrowed_segment",
+          "restriction",
+          "starvation",
+          "throughput_drop"
+        ],
+        "pathway": "passage-constraint pathway",
+        "reason": "Declining output with buildup before a narrowed point can preserve a constrained-passage explanation.",
+        "source": "experimental",
+        "weight": 0.3968
+      },
+      {
+        "matched_motifs": [
+          "starvation",
+          "throughput_drop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.3175
+      },
+      {
+        "matched_motifs": [
+          "throughput_drop"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.1587
+      },
+      {
+        "matched_motifs": [
+          "throughput_drop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.127
+      }
+    ]
+  },
+  {
+    "case_id": "P034-OBS-020",
+    "evidence_used": [
+      "The ring support had dry debris.",
+      "No shortage was detected at the input side."
+    ],
+    "initial_candidates": [
+      {
+        "matched_motifs": [
+          "drag",
+          "heat",
+          "movement_decay",
+          "noise",
+          "terminal_stop"
+        ],
+        "pathway": "moving-interface-loss pathway",
+        "reason": "Noise, warmth, slowing, and stoppage can form a contact-loss sequence in a moving interface.",
+        "source": "experimental",
+        "weight": 0.3474
+      },
+      {
+        "matched_motifs": [
+          "heat",
+          "noise"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.2947
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.1895
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.1684
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "control-feedback pathway",
+      "measurement-artifact pathway",
+      "moving-interface-loss pathway",
+      "supply-variation pathway"
+    ],
+    "updated_candidates": [
+      {
+        "matched_motifs": [
+          "drag",
+          "heat",
+          "movement_decay",
+          "noise",
+          "terminal_stop",
+          "wear_contact"
+        ],
+        "pathway": "moving-interface-loss pathway",
+        "reason": "Noise, warmth, slowing, and stoppage can form a contact-loss sequence in a moving interface.",
+        "source": "experimental",
+        "weight": 0.4412
+      },
+      {
+        "matched_motifs": [
+          "heat",
+          "noise"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.2941
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.1471
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.1176
+      }
+    ]
+  },
+  {
+    "case_id": "P034-OBS-021",
+    "evidence_used": [
+      "The point carried a disproportionate share of demand.",
+      "The underside away from the point showed low stress marks."
+    ],
+    "initial_candidates": [
+      {
+        "matched_motifs": [
+          "collapse",
+          "cracking",
+          "deformation",
+          "localized_point"
+        ],
+        "pathway": "localized-structure-failure pathway",
+        "reason": "Bending, cracking, and failure at one point can preserve a local structural concentration explanation.",
+        "source": "experimental",
+        "weight": 0.8108
+      },
+      {
+        "matched_motifs": [],
+        "pathway": "measurement-artifact pathway",
+        "reason": "Kept alive by consult motif overlap: sensor artifact, measurement bias.",
+        "source": "experimental_consult_keep_alive",
+        "weight": 0.1892
+      }
+    ],
+    "pathways_eliminated": [
+      "measurement-artifact pathway"
+    ],
+    "pathways_preserved": [
+      "localized-structure-failure pathway"
+    ],
+    "updated_candidates": [
+      {
+        "matched_motifs": [
+          "collapse",
+          "concentrated_demand",
+          "cracking",
+          "deformation",
+          "localized_point"
+        ],
+        "pathway": "localized-structure-failure pathway",
+        "reason": "Bending, cracking, and failure at one point can preserve a local structural concentration explanation.",
+        "source": "experimental",
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "case_id": "P034-OBS-022",
+    "evidence_used": [
+      "The warm area was a moving contact surface.",
+      "No accumulation was found before a passage segment."
+    ],
+    "initial_candidates": [
+      {
+        "matched_motifs": [
+          "heat",
+          "noise",
+          "throughput_drop"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.322
+      },
+      {
+        "matched_motifs": [
+          "drag",
+          "heat",
+          "noise",
+          "terminal_stop"
+        ],
+        "pathway": "moving-interface-loss pathway",
+        "reason": "Noise, warmth, slowing, and stoppage can form a contact-loss sequence in a moving interface.",
+        "source": "experimental",
+        "weight": 0.2373
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop",
+          "throughput_drop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.2373
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop",
+          "throughput_drop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.2034
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "control-feedback pathway",
+      "measurement-artifact pathway",
+      "moving-interface-loss pathway",
+      "supply-variation pathway"
+    ],
+    "updated_candidates": [
+      {
+        "matched_motifs": [
+          "heat",
+          "noise",
+          "throughput_drop"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.3297
+      },
+      {
+        "matched_motifs": [
+          "drag",
+          "heat",
+          "noise",
+          "terminal_stop",
+          "wear_contact"
+        ],
+        "pathway": "moving-interface-loss pathway",
+        "reason": "Noise, warmth, slowing, and stoppage can form a contact-loss sequence in a moving interface.",
+        "source": "experimental",
+        "weight": 0.2747
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop",
+          "throughput_drop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.2198
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop",
+          "throughput_drop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.1758
+      }
+    ]
+  },
+  {
+    "case_id": "P034-OBS-023",
+    "evidence_used": [
+      "The point was carrying most of the imposed demand.",
+      "Removing the demand stopped further cracking."
+    ],
+    "initial_candidates": [
+      {
+        "matched_motifs": [
+          "collapse",
+          "cracking",
+          "deformation",
+          "localized_point"
+        ],
+        "pathway": "localized-structure-failure pathway",
+        "reason": "Bending, cracking, and failure at one point can preserve a local structural concentration explanation.",
+        "source": "experimental",
+        "weight": 0.3059
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop",
+          "throughput_drop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.2776
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop",
+          "throughput_drop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.238
+      },
+      {
+        "matched_motifs": [
+          "throughput_drop"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.1785
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "control-feedback pathway",
+      "localized-structure-failure pathway",
+      "measurement-artifact pathway",
+      "supply-variation pathway"
+    ],
+    "updated_candidates": [
+      {
+        "matched_motifs": [
+          "collapse",
+          "concentrated_demand",
+          "cracking",
+          "deformation",
+          "localized_point"
+        ],
+        "pathway": "localized-structure-failure pathway",
+        "reason": "Bending, cracking, and failure at one point can preserve a local structural concentration explanation.",
+        "source": "experimental",
+        "weight": 0.3831
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop",
+          "throughput_drop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.2682
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop",
+          "throughput_drop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.2146
+      },
+      {
+        "matched_motifs": [
+          "throughput_drop"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.1341
+      }
+    ]
+  },
+  {
+    "case_id": "P034-OBS-024",
+    "evidence_used": [
+      "Material was queued before the restricted segment.",
+      "The warm reading came from accumulated material, not a moving contact."
+    ],
+    "initial_candidates": [
+      {
+        "matched_motifs": [
+          "heat",
+          "throughput_drop"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.2593
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop",
+          "throughput_drop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.2593
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop",
+          "throughput_drop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.2222
+      },
+      {
+        "matched_motifs": [
+          "heat",
+          "terminal_stop"
+        ],
+        "pathway": "moving-interface-loss pathway",
+        "reason": "Noise, warmth, slowing, and stoppage can form a contact-loss sequence in a moving interface.",
+        "source": "experimental",
+        "weight": 0.1667
+      },
+      {
+        "matched_motifs": [
+          "restriction",
+          "throughput_drop"
+        ],
+        "pathway": "passage-constraint pathway",
+        "reason": "Declining output with buildup before a narrowed point can preserve a constrained-passage explanation.",
+        "source": "experimental",
+        "weight": 0.0926
+      }
+    ],
+    "pathways_eliminated": [],
+    "pathways_preserved": [
+      "control-feedback pathway",
+      "measurement-artifact pathway",
+      "moving-interface-loss pathway",
+      "passage-constraint pathway",
+      "supply-variation pathway"
+    ],
+    "updated_candidates": [
+      {
+        "matched_motifs": [
+          "heat",
+          "throughput_drop"
+        ],
+        "pathway": "measurement-artifact pathway",
+        "reason": "A misleading reading can mimic physical deterioration and should remain alive briefly.",
+        "source": "experimental",
+        "weight": 0.2198
+      },
+      {
+        "matched_motifs": [
+          "backlog",
+          "narrowed_segment",
+          "restriction",
+          "throughput_drop"
+        ],
+        "pathway": "passage-constraint pathway",
+        "reason": "Declining output with buildup before a narrowed point can preserve a constrained-passage explanation.",
+        "source": "experimental",
+        "weight": 0.2198
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop",
+          "throughput_drop"
+        ],
+        "pathway": "supply-variation pathway",
+        "reason": "Output loss can remain compatible with changing supply until steady input is verified.",
+        "source": "experimental",
+        "weight": 0.2198
+      },
+      {
+        "matched_motifs": [
+          "terminal_stop",
+          "throughput_drop"
+        ],
+        "pathway": "control-feedback pathway",
+        "reason": "A mismatch between requested behavior and observed output can keep a control pathway alive.",
+        "source": "experimental",
+        "weight": 0.1758
+      },
+      {
+        "matched_motifs": [
+          "heat",
+          "terminal_stop",
+          "wear_contact"
+        ],
+        "pathway": "moving-interface-loss pathway",
+        "reason": "Noise, warmth, slowing, and stoppage can form a contact-loss sequence in a moving interface.",
+        "source": "experimental",
+        "weight": 0.1648
+      }
+    ]
+  }
+]

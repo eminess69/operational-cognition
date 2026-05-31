@@ -1,0 +1,15 @@
+{
+  "ambiguous_handling_rate": 0.3333,
+  "fail_closed_rate": 0.6667,
+  "generic_consult_candidate_diversity": 1.2632,
+  "generic_consult_valid_candidate_rate": 0.7,
+  "no_pond_candidate_diversity": 1.1818,
+  "no_pond_valid_candidate_rate": 0.4333,
+  "pond_backed_candidate_diversity": 1.0714,
+  "pond_backed_consults_valid": true,
+  "pond_backed_valid_candidate_rate": 0.7333,
+  "premature_single_candidate_rate_generic": 0.7368,
+  "premature_single_candidate_rate_no_pond": 0.8182,
+  "premature_single_candidate_rate_pond": 0.9286,
+  "unsupported_candidate_count": 1
+}

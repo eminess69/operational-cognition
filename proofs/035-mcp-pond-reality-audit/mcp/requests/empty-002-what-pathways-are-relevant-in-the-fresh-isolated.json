@@ -1,0 +1,25 @@
+{
+  "context": {
+    "constraints": [
+      "Fail closed if this response is not backed by real pond recall.",
+      "Return lineage hashes, returned lineages, and returned motifs when recall exists.",
+      "Do not substitute generic consult text for pond-backed recall.",
+      "Use only isolated proof namespace proof-035-isolated-pond; report if isolation is unavailable.",
+      "No prior seasoning should be available in this proof namespace.",
+      "Return low-signal or empty recall if no mechanism structure exists."
+    ],
+    "desired_artifacts": [
+      "active mechanisms",
+      "viable pathways",
+      "returned motifs",
+      "returned lineages"
+    ],
+    "files": [],
+    "summary": "Proof 035 empty pond audit. No seasoning has been requested for this isolated namespace. Requested isolated pond namespace: proof-035-isolated-pond. Proof phase: phase_1_empty_pond_audit."
+  },
+  "max_output_chars": 4000,
+  "mode": "audit",
+  "request_id": "proof-035-empty-002-what-pathways-are-relevant-in-the-fresh-isolated",
+  "require_lineage": true,
+  "task": "What pathways are relevant in the fresh isolated pond?"
+}

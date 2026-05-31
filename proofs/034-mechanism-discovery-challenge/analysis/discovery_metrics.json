@@ -1,0 +1,59 @@
+{
+  "comparisons": {
+    "candidate_diversity_delta_vs_generic": 0.875,
+    "candidate_diversity_delta_vs_no_pond": 1.8334,
+    "preservation_delta_vs_generic": 0.0,
+    "preservation_delta_vs_no_pond": 0.0,
+    "ranking_quality_delta_vs_generic": 0.0,
+    "ranking_quality_delta_vs_no_pond": 0.0
+  },
+  "evidence_top_pathways": {
+    "P034-OBS-001": "moving-interface-loss pathway",
+    "P034-OBS-002": "passage-constraint pathway",
+    "P034-OBS-003": "localized-structure-failure pathway",
+    "P034-OBS-004": "passage-constraint pathway",
+    "P034-OBS-005": "moving-interface-loss pathway",
+    "P034-OBS-006": "localized-structure-failure pathway",
+    "P034-OBS-007": "passage-constraint pathway",
+    "P034-OBS-008": "moving-interface-loss pathway",
+    "P034-OBS-009": "localized-structure-failure pathway",
+    "P034-OBS-010": "control-feedback pathway",
+    "P034-OBS-011": "moving-interface-loss pathway",
+    "P034-OBS-012": "localized-structure-failure pathway",
+    "P034-OBS-013": "passage-constraint pathway",
+    "P034-OBS-014": "moving-interface-loss pathway",
+    "P034-OBS-015": "localized-structure-failure pathway",
+    "P034-OBS-016": "passage-constraint pathway",
+    "P034-OBS-017": "moving-interface-loss pathway",
+    "P034-OBS-018": "localized-structure-failure pathway",
+    "P034-OBS-019": "passage-constraint pathway",
+    "P034-OBS-020": "moving-interface-loss pathway",
+    "P034-OBS-021": "localized-structure-failure pathway",
+    "P034-OBS-022": "measurement-artifact pathway",
+    "P034-OBS-023": "localized-structure-failure pathway",
+    "P034-OBS-024": "measurement-artifact pathway"
+  },
+  "modes": {
+    "experimental": {
+      "average_candidate_count": 3.4167,
+      "preserved_evidence_top_count": 24,
+      "preserved_evidence_top_rate": 1.0,
+      "ranking_quality_mrr": 0.8542,
+      "single_candidate_cases": 0
+    },
+    "generic": {
+      "average_candidate_count": 2.5417,
+      "preserved_evidence_top_count": 24,
+      "preserved_evidence_top_rate": 1.0,
+      "ranking_quality_mrr": 0.8542,
+      "single_candidate_cases": 3
+    },
+    "no_pond": {
+      "average_candidate_count": 1.5833,
+      "preserved_evidence_top_count": 24,
+      "preserved_evidence_top_rate": 1.0,
+      "ranking_quality_mrr": 0.8542,
+      "single_candidate_cases": 10
+    }
+  }
+}

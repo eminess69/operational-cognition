@@ -1,0 +1,15 @@
+{
+  "fresh_pond_state": "pond_state/pond_state.json",
+  "positive_consult_classification": "POND_BACKED",
+  "positive_consult_has_lineage_hashes": true,
+  "positive_consult_has_lineages": true,
+  "positive_consult_has_motifs": true,
+  "proof_id": "035b-mcp-pond-backed-smoke",
+  "request_hash": "28d451522897cc43826f3806ff7c4c7e34ce1f10228f5fdd18ec7d24c8f0ff7f",
+  "response_hash": "5994cdc4b73c165c5d2a756bc7442b1a3a5ec56cc33952c846d0586be6cf1fde",
+  "seasoning_classification": "POND_BACKED",
+  "unsupported_consult_classification": "ERROR",
+  "unsupported_consult_failed_closed": true,
+  "unsupported_fail_closed_reason": "no_relevant_pond_recall",
+  "verdict": "PASS"
+}

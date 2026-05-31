@@ -1,0 +1,302 @@
+[
+  {
+    "candidate_generation_used_recall": true,
+    "case_id": "P034B-FLOW-001",
+    "expected_behavior": "FLOW",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: FLOW.",
+    "returned_lineages_relevant": true,
+    "returned_motifs_relevant": true,
+    "specificity": "SPECIFIC"
+  },
+  {
+    "candidate_generation_used_recall": true,
+    "case_id": "P034B-FLOW-002",
+    "expected_behavior": "FLOW",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: SUPPORTED_ROTATION.",
+    "returned_lineages_relevant": false,
+    "returned_motifs_relevant": false,
+    "specificity": "PARTIAL"
+  },
+  {
+    "candidate_generation_used_recall": true,
+    "case_id": "P034B-FLOW-003",
+    "expected_behavior": "FLOW",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: FLOW.",
+    "returned_lineages_relevant": true,
+    "returned_motifs_relevant": true,
+    "specificity": "SPECIFIC"
+  },
+  {
+    "candidate_generation_used_recall": true,
+    "case_id": "P034B-FLOW-004",
+    "expected_behavior": "FLOW",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: FLOW.",
+    "returned_lineages_relevant": true,
+    "returned_motifs_relevant": true,
+    "specificity": "SPECIFIC"
+  },
+  {
+    "candidate_generation_used_recall": true,
+    "case_id": "P034B-FLOW-005",
+    "expected_behavior": "FLOW",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: FLOW.",
+    "returned_lineages_relevant": true,
+    "returned_motifs_relevant": true,
+    "specificity": "SPECIFIC"
+  },
+  {
+    "candidate_generation_used_recall": true,
+    "case_id": "P034B-FLOW-006",
+    "expected_behavior": "FLOW",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: SUPPORTED_ROTATION.",
+    "returned_lineages_relevant": false,
+    "returned_motifs_relevant": false,
+    "specificity": "PARTIAL"
+  },
+  {
+    "candidate_generation_used_recall": true,
+    "case_id": "P034B-FLOW-007",
+    "expected_behavior": "FLOW",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: FLOW.",
+    "returned_lineages_relevant": true,
+    "returned_motifs_relevant": true,
+    "specificity": "SPECIFIC"
+  },
+  {
+    "candidate_generation_used_recall": true,
+    "case_id": "P034B-FLOW-008",
+    "expected_behavior": "FLOW",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: SUPPORTED_ROTATION.",
+    "returned_lineages_relevant": false,
+    "returned_motifs_relevant": false,
+    "specificity": "PARTIAL"
+  },
+  {
+    "candidate_generation_used_recall": true,
+    "case_id": "P034B-ROT-001",
+    "expected_behavior": "SUPPORTED_ROTATION",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: SUPPORTED_ROTATION.",
+    "returned_lineages_relevant": true,
+    "returned_motifs_relevant": true,
+    "specificity": "SPECIFIC"
+  },
+  {
+    "candidate_generation_used_recall": true,
+    "case_id": "P034B-ROT-002",
+    "expected_behavior": "SUPPORTED_ROTATION",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: SUPPORTED_ROTATION.",
+    "returned_lineages_relevant": true,
+    "returned_motifs_relevant": true,
+    "specificity": "SPECIFIC"
+  },
+  {
+    "candidate_generation_used_recall": true,
+    "case_id": "P034B-ROT-003",
+    "expected_behavior": "SUPPORTED_ROTATION",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: SUPPORTED_ROTATION.",
+    "returned_lineages_relevant": true,
+    "returned_motifs_relevant": true,
+    "specificity": "SPECIFIC"
+  },
+  {
+    "candidate_generation_used_recall": true,
+    "case_id": "P034B-ROT-004",
+    "expected_behavior": "SUPPORTED_ROTATION",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: SUPPORTED_ROTATION.",
+    "returned_lineages_relevant": true,
+    "returned_motifs_relevant": true,
+    "specificity": "SPECIFIC"
+  },
+  {
+    "candidate_generation_used_recall": true,
+    "case_id": "P034B-ROT-005",
+    "expected_behavior": "SUPPORTED_ROTATION",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: SUPPORTED_ROTATION.",
+    "returned_lineages_relevant": true,
+    "returned_motifs_relevant": true,
+    "specificity": "SPECIFIC"
+  },
+  {
+    "candidate_generation_used_recall": true,
+    "case_id": "P034B-ROT-006",
+    "expected_behavior": "SUPPORTED_ROTATION",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: SUPPORTED_ROTATION.",
+    "returned_lineages_relevant": true,
+    "returned_motifs_relevant": true,
+    "specificity": "SPECIFIC"
+  },
+  {
+    "candidate_generation_used_recall": true,
+    "case_id": "P034B-ROT-007",
+    "expected_behavior": "SUPPORTED_ROTATION",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: LOAD_TRANSFER, SUPPORTED_ROTATION.",
+    "returned_lineages_relevant": true,
+    "returned_motifs_relevant": true,
+    "specificity": "SPECIFIC"
+  },
+  {
+    "candidate_generation_used_recall": true,
+    "case_id": "P034B-ROT-008",
+    "expected_behavior": "SUPPORTED_ROTATION",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: SUPPORTED_ROTATION.",
+    "returned_lineages_relevant": true,
+    "returned_motifs_relevant": true,
+    "specificity": "SPECIFIC"
+  },
+  {
+    "candidate_generation_used_recall": true,
+    "case_id": "P034B-LOAD-001",
+    "expected_behavior": "LOAD_TRANSFER",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: LOAD_TRANSFER.",
+    "returned_lineages_relevant": true,
+    "returned_motifs_relevant": true,
+    "specificity": "SPECIFIC"
+  },
+  {
+    "candidate_generation_used_recall": true,
+    "case_id": "P034B-LOAD-002",
+    "expected_behavior": "LOAD_TRANSFER",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: SUPPORTED_ROTATION.",
+    "returned_lineages_relevant": false,
+    "returned_motifs_relevant": false,
+    "specificity": "PARTIAL"
+  },
+  {
+    "candidate_generation_used_recall": true,
+    "case_id": "P034B-LOAD-003",
+    "expected_behavior": "LOAD_TRANSFER",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: LOAD_TRANSFER.",
+    "returned_lineages_relevant": true,
+    "returned_motifs_relevant": true,
+    "specificity": "SPECIFIC"
+  },
+  {
+    "candidate_generation_used_recall": true,
+    "case_id": "P034B-LOAD-004",
+    "expected_behavior": "LOAD_TRANSFER",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: LOAD_TRANSFER.",
+    "returned_lineages_relevant": true,
+    "returned_motifs_relevant": true,
+    "specificity": "SPECIFIC"
+  },
+  {
+    "candidate_generation_used_recall": true,
+    "case_id": "P034B-LOAD-005",
+    "expected_behavior": "LOAD_TRANSFER",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: LOAD_TRANSFER.",
+    "returned_lineages_relevant": true,
+    "returned_motifs_relevant": true,
+    "specificity": "SPECIFIC"
+  },
+  {
+    "candidate_generation_used_recall": true,
+    "case_id": "P034B-LOAD-006",
+    "expected_behavior": "LOAD_TRANSFER",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: LOAD_TRANSFER.",
+    "returned_lineages_relevant": true,
+    "returned_motifs_relevant": true,
+    "specificity": "SPECIFIC"
+  },
+  {
+    "candidate_generation_used_recall": true,
+    "case_id": "P034B-LOAD-007",
+    "expected_behavior": "LOAD_TRANSFER",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: LOAD_TRANSFER.",
+    "returned_lineages_relevant": true,
+    "returned_motifs_relevant": true,
+    "specificity": "SPECIFIC"
+  },
+  {
+    "candidate_generation_used_recall": true,
+    "case_id": "P034B-LOAD-008",
+    "expected_behavior": "LOAD_TRANSFER",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: SUPPORTED_ROTATION.",
+    "returned_lineages_relevant": false,
+    "returned_motifs_relevant": false,
+    "specificity": "PARTIAL"
+  },
+  {
+    "candidate_generation_used_recall": true,
+    "case_id": "P034B-AMB-001",
+    "expected_behavior": "AMBIGUOUS",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: FLOW, SUPPORTED_ROTATION.",
+    "returned_lineages_relevant": true,
+    "returned_motifs_relevant": true,
+    "specificity": "PARTIAL"
+  },
+  {
+    "candidate_generation_used_recall": true,
+    "case_id": "P034B-AMB-002",
+    "expected_behavior": "AMBIGUOUS",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: LOAD_TRANSFER.",
+    "returned_lineages_relevant": false,
+    "returned_motifs_relevant": false,
+    "specificity": "PARTIAL"
+  },
+  {
+    "candidate_generation_used_recall": true,
+    "case_id": "P034B-AMB-003",
+    "expected_behavior": "AMBIGUOUS",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: SUPPORTED_ROTATION.",
+    "returned_lineages_relevant": false,
+    "returned_motifs_relevant": false,
+    "specificity": "PARTIAL"
+  },
+  {
+    "candidate_generation_used_recall": false,
+    "case_id": "P034B-FAIL-001",
+    "expected_behavior": "FAIL_CLOSED",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: SUPPORTED_ROTATION.",
+    "returned_lineages_relevant": true,
+    "returned_motifs_relevant": true,
+    "specificity": "GENERIC"
+  },
+  {
+    "candidate_generation_used_recall": true,
+    "case_id": "P034B-FAIL-002",
+    "expected_behavior": "FAIL_CLOSED",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: SUPPORTED_ROTATION.",
+    "returned_lineages_relevant": true,
+    "returned_motifs_relevant": true,
+    "specificity": "GENERIC"
+  },
+  {
+    "candidate_generation_used_recall": false,
+    "case_id": "P034B-FAIL-003",
+    "expected_behavior": "FAIL_CLOSED",
+    "lineage_hashes_traceable": true,
+    "notes": "Returned mechanisms from lineage payloads: FLOW.",
+    "returned_lineages_relevant": true,
+    "returned_motifs_relevant": true,
+    "specificity": "GENERIC"
+  }
+]

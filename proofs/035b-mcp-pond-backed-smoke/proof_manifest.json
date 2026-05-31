@@ -1,0 +1,37 @@
+{
+  "claim_level": "evidence_backed",
+  "disallowed_claims": [
+    "Proof 035b tests cognition.",
+    "Fail-closed unsupported recall is positive pond-backed evidence.",
+    "Transport hashes alone satisfy lineage evidence."
+  ],
+  "inside_voice_adapter_status": "pond_backed",
+  "lineage": {
+    "candidate_status": "eligible",
+    "contract_version": "inside_voice_mcp_contract/0.2",
+    "derived_from": "MCP pond-backed consult repair",
+    "mcp_endpoint": "in_process_tools.integrations.inside_voice_mcp_server.process_consult_request",
+    "request_hash": "28d451522897cc43826f3806ff7c4c7e34ce1f10228f5fdd18ec7d24c8f0ff7f",
+    "response_hash": "5994cdc4b73c165c5d2a756bc7442b1a3a5ec56cc33952c846d0586be6cf1fde",
+    "validates": "pond-backed smoke consult_log passes validate_mcp_consults.py with lineage and motif requirements"
+  },
+  "proof_id": "035b-mcp-pond-backed-smoke",
+  "public_private_boundary": "This smoke proof records only public-safe MCP response fields, pond record refs, and lineage hashes.",
+  "required_artifacts": [
+    "seasoning_log.jsonl",
+    "consult_log.jsonl",
+    "negative_consult_log.jsonl",
+    "pond_backed_smoke_report.json",
+    "proof_manifest.json",
+    "pond_state/pond_state.json"
+  ],
+  "status": "complete",
+  "targets": [
+    "FreshPond",
+    "MCPSeasoning",
+    "PondBackedRecall",
+    "UnsupportedFailClosed",
+    "ValidatorSmoke"
+  ],
+  "title": "Proof 035b - MCP Pond-Backed Smoke"
+}

@@ -1,0 +1,50 @@
+{
+  "did_new_recall_appear": false,
+  "did_old_recall_remain_stable": true,
+  "incremental_recall_consults": 4,
+  "interpretation": "No incremental pond growth was observed.",
+  "new_recall_rows": [],
+  "old_flow_signature_after": [
+    {
+      "classification": "PLACEHOLDER",
+      "lineage_hashes": [],
+      "returned_lineages": [],
+      "returned_motifs": []
+    },
+    {
+      "classification": "PLACEHOLDER",
+      "lineage_hashes": [],
+      "returned_lineages": [],
+      "returned_motifs": []
+    }
+  ],
+  "old_flow_signature_before": [
+    {
+      "classification": "PLACEHOLDER",
+      "lineage_hashes": [],
+      "returned_lineages": [],
+      "returned_motifs": []
+    },
+    {
+      "classification": "PLACEHOLDER",
+      "lineage_hashes": [],
+      "returned_lineages": [],
+      "returned_motifs": []
+    },
+    {
+      "classification": "PLACEHOLDER",
+      "lineage_hashes": [],
+      "returned_lineages": [],
+      "returned_motifs": []
+    }
+  ],
+  "phase": "phase_6_incremental_growth_audit",
+  "proof_id": "035-mcp-pond-reality-audit",
+  "recall_classification_counts": {
+    "PLACEHOLDER": 4
+  },
+  "seasoning_classification_counts": {
+    "PLACEHOLDER": 6
+  },
+  "supported_rotation_seasoning_events": 6
+}
